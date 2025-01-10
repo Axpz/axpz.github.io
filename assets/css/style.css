@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .navbar {
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  header, footer {
+    text-align: center;
+    padding: 1rem;
+    background: #444;
+    color: white;
+  }
+  
+  footer a {
+    color: #ffcc00;
+    text-decoration: none;
+  }
+  
