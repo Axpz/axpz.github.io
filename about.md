@@ -3,10 +3,11 @@ layout: default
 title: About
 ---
 
-# About This Page
+# About Me
 
-This page is written in **Markdown** and rendered by GitHub Pages.
+Hi, I'm a developer passionate about open-source and building great web experiences.
 
-Here are some useful links:
-- [GitHub](https://github.com/)
-- [Markdown Guide](https://www.markdownguide.org/)
+Here are some things I enjoy working on:
+- Web Development
+- Open-Source Projects
+- Markdown and Jekyll

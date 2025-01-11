@@ -1,2 +1,22 @@
+title: My GitHub Page
+description: Welcome to my GitHub Pages website.
 theme: minima
 markdown: kramdown
+
+# 自动生成 sitemap.xml
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# 网站链接设置
+url: "https://axpz.github.io"
+#baseurl: "/my-github-pages" # 子目录路径 (可选)
+
+# 导航栏内容
+navbar:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Blog
+    url: /blog
