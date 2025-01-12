@@ -42,7 +42,7 @@ tags: [kubernetes,k8s,k3s,golang,cloud]
 ### 方案1: 集群混合部署：公有云计算节点和私有云计算节点混合部署 
 传统的方案通常将私有云和公有云独立架构，然后使用常用中间件来打通数据流和控制流，这种方式往往增加了运维复杂度，尤其是在数据交互和安全管理方面的挑战。特别是在省钱省事的前提下，成为了安全和运维的难点。本文尝试一种新的解决方案：通过K8s实现公有云和私有计算中心的统一，利用K8s的原生能力来解决网络连接、延迟等带来的数据同步，安全运维等问题。这个方案通过横向扩展两个网络，尝试实现更加高效和简化的云数据中心架构，提供了一个实用的实践方向。 
 
-![high level arch](/images/high-level-arch-hybrid-cluster.png)
+![high level arch](/assets/images/high-level-arch-hybrid-cluster.png)
 
 #### 打通网络
 第一步应该是打通本地主机到云主机的网络，如上图中虚线所示，我们使用wireguard (被Linus成为“the best VPN protocol”)
@@ -220,7 +220,7 @@ curl -sfL https://get.k3s.io | K3S_URL=https://axpz.local:6443 K3S_TOKEN=K10...d
 
 ### 方案2: 集群部署在私有计算节点上，使用公有云节点当作ingress
 
-![high level arch](/images/high-level-arch-private-cluster.png)
+![high level arch](/assets/images/high-level-arch-private-cluster.png)
 
 #### 打通网络、搭建集群
 
