@@ -1,8 +1,23 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="/assets/favicon.png" type="image/png" />
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-Y7KSK53R96"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-Y7KSK53R96");
+  </script><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Kubernetes personal hybrid cloud edge computing | Xianping</title>
 <meta name="generator" content="Jekyll v4.3.4" />
 <meta property="og:title" content="Kubernetes personal hybrid cloud edge computing" />
@@ -22,7 +37,10 @@
 </head>
 <body><header class="site-header">
 
-  <div class="wrapper"><a class="site-title" rel="author" href="/">Xianping</a><nav class="site-nav">
+  <div class="wrapper"><a class="site-title" rel="author" href="/">
+      <img src="/assets/favicon.png" alt="Favicon" type="image/png" style="width: 32px; height: 32px;" />
+      Xianping
+    </a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
@@ -45,10 +63,11 @@
 <ol>
   <li><a href="#背景与问题">背景与问题</a></li>
   <li><a href="#实现方案">实现方案</a>
-    <ol>
+    <ul>
       <li><a href="#方案1-集群混合部署公有云计算节点和私有云计算节点混合部署">方案1: 集群混合部署：公有云计算节点和私有云计算节点混合部署</a></li>
       <li><a href="#方案2-集群部署在私有计算节点上使用公有云节点当作ingress">方案2: 集群部署在私有计算节点上，使用公有云节点当作ingress</a></li>
-    </ol>
+      <li><a href="#方案3-公有云节点上部署网关，直接转发服务到私有计算节点">方案3: 公有云节点上部署网关，直接转发服务到私有计算节点</a></li>
+    </ul>
   </li>
   <li><a href="#测试">测试</a></li>
 </ol>
@@ -78,6 +97,7 @@
 <ol>
   <li>集群混合部署：公有云计算节点和私有云计算节点混合部署</li>
   <li>集群部署在私有计算节点上，使用公有云节点当作ingress</li>
+  <li>公有云节点上部署网关，直接转发服务到私有计算节点</li>
 </ol>
 
 <h3 id="方案1-集群混合部署公有云计算节点和私有云计算节点混合部署">方案1: 集群混合部署：公有云计算节点和私有云计算节点混合部署</h3>
@@ -276,7 +296,12 @@ curl <span class="nt">-sfL</span> https://get.k3s.io | <span class="nv">K3S_URL<
 
 <h4 id="打通网络搭建集群">打通网络、搭建集群</h4>
 
-<p>参考方案1</p>
+<p>参考方案1的实现, 同时注意添加dnat</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> PREROUTING <span class="nt">-p</span> tcp <span class="nt">--dport</span> 80 <span class="nt">-d</span> 74.121.149.207 <span class="nt">-j</span> DNAT <span class="nt">--to-destination</span> 10.4.0.3:80
+<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> PREROUTING <span class="nt">-p</span> tcp <span class="nt">--dport</span> 443 <span class="nt">-d</span> 74.121.149.207 <span class="nt">-j</span> DNAT <span class="nt">--to-destination</span> 10.4.0.3:443
+<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> POSTROUTING <span class="nt">-o</span> eth0 <span class="nt">-j</span> MASQUERADE
+<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> POSTROUTING <span class="nt">-o</span> wg0 <span class="nt">-j</span> MASQUERADE
+</code></pre></div></div>
 
 <h4 id="配置集群负载均衡为wg0">配置集群负载均衡为wg0</h4>
 
@@ -288,7 +313,14 @@ systemctl stop k3s
 systemctl start k3s
 </code></pre></div></div>
 
-<h2 id="测试">测试</h2>
+<h3 id="方案3-公有云节点上部署网关直接转发服务到私有计算节点">方案3: 公有云节点上部署网关，直接转发服务到私有计算节点</h3>
+<p>从原理上来讲，和方案二没有太大的区别，但是考虑到kubernetes的ingress本身就是一个网关的功能，所以如果这里再添加一层网关难免有重复的嫌疑。所以从最大程度利用kubernetes的能力和避免重复造轮子的角度，方案二还是最优解。在此从造轮子的角度，也不妨给出一个架构图，但我们不做更深入讨论。
+<img src="/assets/images/high-level-arch-device-plugin.png" alt="alt text" /></p>
+
+<p>顺便提一下这个更像是一个业务代码的实现架构，确实是，其实这个代码已经完成，这里的设计和实现是我参靠kubelet和Nvidia的deviceplugin的架构，那接下来的我们也会基于这个来实现我们的Agent的后端业务。</p>
+
+<h3 id="测试">测试</h3>
+<p>本测试基于方案二完成. 当然方案1也是可以用的，需要注意的是，方案一必须要依赖multi-platform的images，同时在业务调度的时候也需要考虑不同的硬件平台).</p>
 
 <ol>
   <li>创建nginx应用
@@ -392,6 +424,8 @@ systemctl start k3s
 
 <p>从互联网访问，…, 搞定, scale up/down pod， … 搞定</p>
 
+<p>至此，我们的platform层和infra层搭建完成，接下来我们会基于我们的业务完善DevOps，包括监控和CI/CD。</p>
+
 <!-- Footer Section -->
 <div class="footer">
     <p>© 2025 基于kubernetes搭建个人混合云数据中心项目</p>
@@ -424,6 +458,7 @@ systemctl start k3s
       <div class="footer-col">
         <p>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
 </p>
+        <a href="/assets/images/WechatXianping.jpg" target="_blank">A cup of Coffee 请我喝咖啡</a>
       </div>
     </div>
 

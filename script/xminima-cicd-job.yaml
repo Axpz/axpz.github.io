@@ -1,0 +1,42 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: cicd-job
+spec:
+  template:
+    spec:
+      containers:
+      - name: cicd-container
+        image: jekyll-xminima-cicd
+        imagePullPolicy: IfNotPresent
+        command:
+        - /bin/bash
+        - -c
+        - |
+          set -x
+          pwd
+          git config --global user.name "Axpz"
+          git config --global user.email "axpzhang@gmail.com"
+
+          echo "Cloning repository..."
+          git clone git@github.com:Axpz/xMinima.git || true
+          echo "Running release script..."
+          cd xMinima
+          bash -x script/bootstrap
+          commitMsg=`git log -1 --pretty=%B`
+          bash -x script/release.axpz.github.io "$commitMsg"
+        env:
+        - name: GIT_SSH_COMMAND
+          value: "ssh -o StrictHostKeyChecking=no"
+        volumeMounts:
+        - name: github-ssh-keys
+          mountPath: /root/.ssh
+          readOnly: true
+      restartPolicy: Never
+      volumes:
+      - name: github-ssh-keys
+        secret:
+          secretName: github-ssh-key-secret # 请确保预先创建了此 Secret
+          defaultMode: 0600
+  backoffLimit: 3 # 任务失败后最多重试 3 次
+  ttlSecondsAfterFinished: 300 # 在任务完成 60 秒后删除 Job

@@ -1,5 +1,476 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-12T17:03:54+08:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Kubernetes personal hybrid cloud edge computing</title><link href="/k8s/2025/01/12/kubernetes-personal-hybrid-cloud-edge-computing.html" rel="alternate" type="text/html" title="Kubernetes personal hybrid cloud edge computing" /><published>2025-01-12T14:43:43+08:00</published><updated>2025-01-12T14:43:43+08:00</updated><id>/k8s/2025/01/12/kubernetes-personal-hybrid-cloud-edge-computing</id><content type="html" xml:base="/k8s/2025/01/12/kubernetes-personal-hybrid-cloud-edge-computing.html"><![CDATA[<!-- Header Section -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-22T15:17:06+08:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">关于开源许可协议</title><link href="/k8s/2025/01/22/09-47-52-open-source-license.html" rel="alternate" type="text/html" title="关于开源许可协议" /><published>2025-01-22T09:47:52+08:00</published><updated>2025-01-22T09:47:52+08:00</updated><id>/k8s/2025/01/22/09:47:52-open-source-license</id><content type="html" xml:base="/k8s/2025/01/22/09-47-52-open-source-license.html"><![CDATA[<p>常见的开源许可协议，可以理解为两条线</p>
+
+<ol>
+  <li>软件类产品，从宽松到严格依次是
+    <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ------- 松 ----    --- 紧 -------  
+ MIT License  
+       Apache License 2.0  
+           LGPL (Lesser General Public License)  
+                 GPL (GNU General Public License)  
+     BSD License  
+</code></pre></div>    </div>
+  </li>
+  <li>创作类非软件产品<br />
+CC (Creative Commons License)，适合开源非软件类作品，如文档、艺术作品、图像、音频等</li>
+</ol>
+
+<p>详细如下：</p>
+
+<h1 id="mit-licnese">MIT Licnese</h1>
+<p><strong>全称</strong>：麻省理工学院许可协议</p>
+<h2 id="特点">特点</h2>
+<ul>
+  <li>非常宽松，允许任何用途，包括商业用途</li>
+  <li>可以修改、分发代码，甚至闭源分发
+    <h2 id="限制">限制</h2>
+  </li>
+  <li>必须保留原始的版权声明和许可信息
+    <h2 id="适用场景">适用场景</h2>
+  </li>
+  <li>适合希望代码被广泛采用且不限制用途的项目</li>
+</ul>
+
+<h1 id="apache-license-20">Apache License 2.0</h1>
+<p><strong>全称</strong>：Apache License 2.0 许可协议</p>
+
+<h2 id="特点-1">特点</h2>
+<ul>
+  <li>允许免费使用、修改和分发(包括商业用途)</li>
+  <li>明确授权专利，保护用户免受专利纠纷</li>
+  <li>允许闭源分发，需要遵守相关条款</li>
+</ul>
+
+<h2 id="限制-1">限制</h2>
+<ul>
+  <li>必须保留原始的版权声明和许可信息</li>
+  <li>修改后的代码需明确说明变更内容</li>
+</ul>
+
+<h2 id="适用场景-1">适用场景</h2>
+<ul>
+  <li>适合需要专利保护且希望明确授权条款的项目</li>
+</ul>
+
+<h1 id="gpl-gnu-general-public-license">GPL (GNU General Public License)</h1>
+<p><strong>全称</strong>：通用公共许可协议</p>
+
+<h2 id="特点-2">特点</h2>
+<ul>
+  <li>强制开源，任何基于GPL代码的衍生项目必须公开开源</li>
+  <li>允许自由使用、修改和分发，但必须保持衍生品同样为GPL协议</li>
+</ul>
+
+<h2 id="限制-2">限制</h2>
+<ul>
+  <li>商业化受限，因为衍生品不能闭源</li>
+  <li>必须提供完整的源代码，包括修改部分</li>
+</ul>
+
+<h2 id="适用场景-2">适用场景</h2>
+<ul>
+  <li>适合重视软件自由、希望强制开源的项目</li>
+</ul>
+
+<h1 id="lgpl-lesser-general-public-license">LGPL (Lesser General Public License)</h1>
+<p><strong>全称</strong>：宽松通用公共许可协议</p>
+
+<h2 id="特点-3">特点</h2>
+<ul>
+  <li>相对GPL更宽松，允许软件动态链接到非GPL的代码</li>
+  <li>用户可以闭源分发自己的软件，只要不修改LGPL的代码</li>
+</ul>
+
+<h2 id="限制-3">限制</h2>
+<ul>
+  <li>修改的LGPL的代码必须开源并使用相同的协议分发</li>
+</ul>
+
+<h2 id="适用场景-3">适用场景</h2>
+<ul>
+  <li>适合开发Library, 希望代码被广泛采用而不是强制整个项目开源</li>
+</ul>
+
+<h1 id="bsd-license">BSD License</h1>
+<p><strong>全称</strong>：Berkeley Software Distribution License</p>
+
+<h2 id="特点-4">特点</h2>
+<ul>
+  <li>类似MIT，非常宽松，允许任何用途，包括商业化</li>
+  <li>可闭源分发，无需公开修改后的代码</li>
+</ul>
+
+<h2 id="限制-4">限制</h2>
+<ul>
+  <li>必须保留版权声明</li>
+  <li>不允许使用原作者的名字进行推广</li>
+</ul>
+
+<h2 id="适用场景-4">适用场景</h2>
+<ul>
+  <li>适合希望代码被广泛使用且对使用方式限制较少的项目</li>
+</ul>
+
+<h1 id="mpl-mozilla-public-license">MPL (Mozilla Public License)</h1>
+<p><strong>全称</strong>：Mozilla 公共开源许可协议</p>
+
+<h2 id="特点-5">特点</h2>
+<ul>
+  <li>比较宽松，允许闭源和商业化使用，但对修改后的代码需要开源</li>
+  <li>仅要求修改开源的文件，而不是整个项目</li>
+</ul>
+
+<h2 id="限制-5">限制</h2>
+<ul>
+  <li>修改后的MPL文件必须开源并使用相同协议分发</li>
+</ul>
+
+<h2 id="适用场景-5">适用场景</h2>
+<ul>
+  <li>适合开发需要部分开源，又保留商业化可能的项目</li>
+</ul>
+
+<h1 id="cc-creative-commons-license">CC (Creative Commons License)</h1>
+<p><strong>全称</strong>：创作公共许可</p>
+
+<h2 id="特点-6">特点</h2>
+<ul>
+  <li>专注于创意作品，例如文字、音乐、图片，而非软件</li>
+  <li>有多种版本，如CC BY、CC BY-SA、 CC BY-NC 等，根据是否允许商业用途、是否要求署名等区分</li>
+</ul>
+
+<h2 id="限制-6">限制</h2>
+<ul>
+  <li>根据选择的版本不同，可能限制商用或者二次创作</li>
+</ul>
+
+<h2 id="适用场景-6">适用场景</h2>
+<ul>
+  <li>适合开源非软件类作品</li>
+</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="license" /><category term="tech" /><summary type="html"><![CDATA[常见的开源许可协议，可以理解为两条线]]></summary></entry><entry><title type="html">Hacker News 热门话题 2025-01-20</title><link href="/hacknews/2025/01/20/11-47-52-hacknews-top10.html" rel="alternate" type="text/html" title="Hacker News 热门话题 2025-01-20" /><published>2025-01-20T01:20:31+08:00</published><updated>2025-01-20T01:20:31+08:00</updated><id>/hacknews/2025/01/20/11:47:52-hacknews-top10</id><content type="html" xml:base="/hacknews/2025/01/20/11-47-52-hacknews-top10.html"><![CDATA[<p>Hacker News 热门话题 2025-01-20 01:20:31</p>
+
+<ol>
+  <li><strong>TikTok 在美国被禁用</strong>：TikTok 在美国被禁用的新闻引起了广泛关注，讨论了这一事件对用户访问量的影响以及替代应用的激增。
+    <ul>
+      <li><a href="https://techcrunch.com/2025/01/18/tiktok-goes-dark-in-the-u-s/">TikTok goes dark in the US</a></li>
+      <li><a href="https://blog.cloudflare.com/tiktok-ban-traffic-decline-alternatives-rednote/">TikTok Shut Down: Data Shows 85% Drop in US Access (and Surge to Alternatives)</a></li>
+    </ul>
+  </li>
+  <li><strong>发光材料制作</strong>：一个关于如何制作发光的锶铝酸盐材料的项目，展示了 DIY 科学实验的趣味性和教育价值。
+    <ul>
+      <li><a href="https://maurycyz.com/projects/strontium_aluminate/">Making glow-in-the-dark Strontium Aluminate</a></li>
+    </ul>
+  </li>
+  <li><strong>模糊测试书籍</strong>：《The Fuzzing Book》提供了关于模糊测试的深入知识和实践指南，是安全测试领域的重要资源。
+    <ul>
+      <li><a href="https://www.fuzzingbook.org/">The Fuzzing Book</a></li>
+    </ul>
+  </li>
+  <li><strong>Forgejo 自托管软件仓库</strong>：Forgejo 是一个轻量级的自托管软件仓库，为开发者提供了一个私有的代码管理解决方案。
+    <ul>
+      <li><a href="https://forgejo.org/">Forgejo: A self-hosted lightweight software forge</a></li>
+    </ul>
+  </li>
+  <li><strong>构建数据库教程</strong>：一个教程，教你如何在3000行代码内构建一个无依赖的数据库，展示了数据库开发的基础知识。
+    <ul>
+      <li><a href="https://build-your-own.org/blog/20251015_db_in_3000/">Build a Database in 3000 Lines with 0 Dependencies</a></li>
+    </ul>
+  </li>
+  <li><strong>GauntletAI 培训计划</strong>：GauntletAI 提供的培训计划，包括培训、工作机会和薪酬，吸引了对人工智能感兴趣的开发者。
+    <ul>
+      <li><a href="https://gauntletai.com">GauntletAI (YC S17) will fly you out, train you to build w AI, give you 200k job</a></li>
+    </ul>
+  </li>
+  <li><strong>Haskell 程序语言</strong>：一篇文章讨论了 Haskell 作为程序语言的优势，特别是在过程式编程中的应用。
+    <ul>
+      <li><a href="https://entropicthoughts.com/haskell-procedural-programming">Haskell: A Great Procedural Language</a></li>
+    </ul>
+  </li>
+  <li><strong>GitHub 新功能</strong>：GitHub 引入了子问题、问题类型和高级搜索功能，这些新特性旨在提高问题跟踪和管理的效率。
+    <ul>
+      <li><a href="https://github.blog/changelog/2025-01-13-evolving-github-issues-public-preview/">GitHub introduces sub-issues, issue types and advanced search</a></li>
+    </ul>
+  </li>
+  <li><strong>图像文件显示难度</strong>：一篇文章探讨了在屏幕上显示图像文件内容的难度，涉及图像处理和显示技术。
+    <ul>
+      <li><a href="https://wolf.nereid.pl/posts/image-viewer/">How hard would it be to display the contents of an image file on the screen?</a></li>
+    </ul>
+  </li>
+  <li><strong>Linux 网络编程指南</strong>：一个全面的 Linux 网络编程指南，为开发者提供了网络编程的基础知识和实践技巧。
+    <ul>
+      <li><a href="https://github.com/nguyenchiemminhvu/LinuxNetworkProgramming">About A comprehensive guide for Linux Network (Socket) programming</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-20 01:20:31]]></summary></entry><entry><title type="html">Kong start from api-gateway</title><link href="/kong/2025/01/16/kong-start-up.html" rel="alternate" type="text/html" title="Kong start from api-gateway" /><published>2025-01-16T14:43:43+08:00</published><updated>2025-01-16T14:43:43+08:00</updated><id>/kong/2025/01/16/kong-start-up</id><content type="html" xml:base="/kong/2025/01/16/kong-start-up.html"><![CDATA[<p>Kong Konnect Demo: https://www.youtube.com/watch?v=0XEtsyq_sUQ<br />
+Get started with Kong gateway https://www.youtube.com/watch?v=hdE-rMAdYVY<br />
+Kong Oauth https://www.youtube.com/watch?v=AIYIHZbDziI</p>
+
+<p>Create your first API Gateway<br />
+<img src="/assets/images/kong/Create_your_first_API_Gateway.png" alt="alt text" /></p>
+
+<p>Add your first API<br />
+<img src="/assets/images/kong/first_api.png" alt="alt text" /></p>
+
+<p>Test your Gateway</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://kong-b3f5187d11usr19ve.kongcloud.dev/examples/weather/utopia
+</code></pre></div></div>
+
+<p>About this Route
+Proxy URL:
+https://kong-b3f5187d11usr19ve.kongcloud.dev/examples/weather/utopia</p>
+
+<p>Upstream URL:
+global.api.konghq.com/examples/weather/utopia</p>
+
+<p>Upstream URL:
+global.api.konghq.com/examples/weather/utopia</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="kong" /><category term="kong" /><category term="api" /><category term="gateway" /><category term="ai" /><summary type="html"><![CDATA[Kong Konnect Demo: https://www.youtube.com/watch?v=0XEtsyq_sUQ Get started with Kong gateway https://www.youtube.com/watch?v=hdE-rMAdYVY Kong Oauth https://www.youtube.com/watch?v=AIYIHZbDziI]]></summary></entry><entry><title type="html">Hybrid cloud computing - Github CICD pipelines</title><link href="/k8s/2025/01/15/hybrid-cloud-computing-cicd-axpz.github.io.html" rel="alternate" type="text/html" title="Hybrid cloud computing - Github CICD pipelines" /><published>2025-01-15T23:18:15+08:00</published><updated>2025-01-15T23:18:15+08:00</updated><id>/k8s/2025/01/15/hybrid-cloud-computing-cicd-axpz.github.io</id><content type="html" xml:base="/k8s/2025/01/15/hybrid-cloud-computing-cicd-axpz.github.io.html"><![CDATA[<h1 id="混合云数据中心之cicd">混合云数据中心之CICD</h1>
+
+<p>这是我要搭建的第一个服务：个人blog的CI/CD - 持续集成和持续部署</p>
+
+<h2 id="目标">目标</h2>
+<p>当xMinima repo有新的提交的时候，会自动触发流水线执行以下任务</p>
+<ul>
+  <li>自动构建（Build）</li>
+  <li>集成与测试（Integration &amp; Testing）</li>
+  <li>自动部署到 axpz.github.io</li>
+</ul>
+
+<h2 id="solutions">Solutions</h2>
+
+<ol>
+  <li>
+    <p>使用Github Actions, 从企业级开发来讲，我推荐使用Github Actions。</p>
+
+    <p>Pros: 
+   易用性：即开即用，集成度高，支持大量插件和模板。
+   维护性低：由 GitHub 官方管理，无需自行维护基础设施。
+   社区支持：活跃社区，有大量教程和最佳实践。</p>
+
+    <p>Cons:
+   成本：对于大型企业和高频执行，费用较高。
+   灵活性受限：不适合特别复杂或定制化的 CI/CD 流程。</p>
+  </li>
+  <li>
+    <p>自建pipeline，从full control和 cost down的角度，我建议自建pipeline。</p>
+
+    <p>Pros:
+   完全控制：可以根据需求高度定制和优化。
+   成本控制：对于大规模任务，长期来看更具经济性。
+   安全性：代码和数据完全掌控在内部网络中。</p>
+
+    <p>Cons:
+   开发/维护成本高：需要专门团队维护 CI/CD 基础设施。
+   上手难度：初期搭建和优化可能较复杂，耗时较长。</p>
+  </li>
+</ol>
+
+<p>别忘了我们的关键词是cost-effective。那上一篇文章中，我们已经自行搭建了基础设置，那我们自行build pipeline自然是顺理成章的事情，这个不难，至少对我们来讲。</p>
+
+<h2 id="implementationgithub-自建-cicd-流水线设计与实施方案">Implementation：GitHub 自建 CI/CD 流水线设计与实施方案</h2>
+
+<h3 id="整体架构">整体架构</h3>
+<p>整体架构分为四个部分</p>
+<ol>
+  <li>Webhook 事件触发：
+    <ul>
+      <li>GitHub 触发 Webhook。</li>
+    </ul>
+  </li>
+  <li>Ingress 路由：
+    <ul>
+      <li>请求通过 Kubernetes Ingress 转发到服务。</li>
+    </ul>
+  </li>
+  <li>事件处理：
+    <ul>
+      <li>服务解析事件并触发流水线。</li>
+    </ul>
+  </li>
+  <li>流水线执行：
+    <ul>
+      <li>自动构建、测试与部署。
+整体架构图
+<img src="/assets/images/high-level-arch-github-cicd.png" alt="github cicd" />
+        <h4 id="1-webhook-事件订阅">1. Webhook 事件订阅</h4>
+        <p>通过注册 <strong>GitHub Webhook</strong> 接收以下事件：
+     - <strong>pull_request</strong>：用于监控 Pull Request 的状态，如创建、更新、合并等。
+     - <strong>push</strong>：用于监控代码分支的变更（如 <code class="language-plaintext highlighter-rouge">git push</code> 或 <code class="language-plaintext highlighter-rouge">git push --force</code>）。</p>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<p><strong>功能：</strong></p>
+<ul>
+  <li>实时监听仓库的关键事件。</li>
+  <li>根据触发条件将事件传递给处理服务。</li>
+</ul>
+
+<p><strong>实现：</strong>
+<img src="/assets/images/github-webhook-cicd.png" alt="github webhook" /></p>
+
+<hr />
+
+<h4 id="2-ingress-路由配置">2. Ingress 路由配置</h4>
+<p>使用 <strong>Kubernetes Ingress</strong> 将外部请求路由到 <strong>GitHub Agent Server</strong>。</p>
+
+<p><strong>配置要点：</strong></p>
+<ul>
+  <li>定义 Ingress 规则：将 GitHub Webhook 请求（如 <code class="language-plaintext highlighter-rouge">/github/webhook</code>）路由到服务的特定端点。</li>
+  <li>[Options] 启用 HTTPS 支持：通过证书管理（如 Cert-Manager）实现安全通信。</li>
+</ul>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">traefik.containo.us/v1alpha1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">IngressRoute</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">github-agent-server</span>
+  <span class="na">namespace</span><span class="pi">:</span> <span class="s">default</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">entryPoints</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">web</span>
+  <span class="na">routes</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">kind</span><span class="pi">:</span> <span class="s">Rule</span>
+    <span class="na">match</span><span class="pi">:</span> <span class="s">Host(`74.121.149.207`) &amp;&amp; PathPrefix(`/github/webhook`)</span>
+    <span class="na">services</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">github-agent-server</span>
+      <span class="na">port</span><span class="pi">:</span> <span class="m">80</span>
+<span class="nn">---</span>
+<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">v1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Service</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">github-agent-server</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">selector</span><span class="pi">:</span>
+    <span class="na">app</span><span class="pi">:</span> <span class="s">github-agent-server</span>
+  <span class="na">ports</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">protocol</span><span class="pi">:</span> <span class="s">TCP</span>
+      <span class="na">port</span><span class="pi">:</span> <span class="m">80</span>
+      <span class="na">targetPort</span><span class="pi">:</span> <span class="m">8080</span>
+
+</code></pre></div></div>
+
+<hr />
+
+<h4 id="3-event-处理与流水线触发">3. Event 处理与流水线触发</h4>
+<p>服务接收 Webhook 事件后，执行以下操作：</p>
+<ol>
+  <li><strong>解析事件内容</strong>：
+    <ul>
+      <li>提取关键信息（如事件类型、分支、Pull Request 状态等）。</li>
+    </ul>
+  </li>
+  <li><strong>检测特定条件</strong>：
+    <ul>
+      <li>Pull Request 合并（<code class="language-plaintext highlighter-rouge">pull_request merged</code>）。</li>
+      <li>强制推送（<code class="language-plaintext highlighter-rouge">git push --force</code>）。</li>
+    </ul>
+  </li>
+  <li><strong>触发流水线 Jobs</strong>：
+    <ul>
+      <li>满足条件时启动相关流水线任务。</li>
+    </ul>
+  </li>
+</ol>
+
+<hr />
+
+<h4 id="4-流水线-jobs">4. 流水线 Jobs</h4>
+<p>流水线的主要任务包括以下阶段：</p>
+
+<h5 id="自动构建build">自动构建（Build）</h5>
+<ul>
+  <li>编译代码，生成构建产物（如前端资源、可执行文件等）。</li>
+  <li>确保构建无错误。</li>
+</ul>
+
+<h5 id="集成与测试integration--testing">集成与测试（Integration &amp; Testing）</h5>
+<ul>
+  <li>执行单元测试、集成测试和端到端测试。</li>
+  <li>生成测试报告，确保代码质量。</li>
+</ul>
+
+<h5 id="部署到-axpzgithubio">部署到 axpz.github.io</h5>
+<ul>
+  <li>将构建产物部署到 <code class="language-plaintext highlighter-rouge">axpz.github.io</code>，实现自动化发布。</li>
+  <li>[day2] 支持版本控制与回滚机制。</li>
+</ul>
+
+<p>创建secret存放github private key</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kubectl create secret generic github-ssh-key-secret <span class="nt">--from-file</span><span class="o">=</span><span class="nv">id_rsa</span><span class="o">=</span>/home/ubuntu/.ssh/id_isa <span class="nt">--from-file</span><span class="o">=</span><span class="nv">known_hosts</span><span class="o">=</span>/home/ubuntu/.ssh/known_hosts
+</code></pre></div></div>
+
+<p>对于不同的hardware architecture，可能需要自建一个docker image</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> &gt; Dockerfile
+FROM ruby:latest
+RUN gem install jekyll bundler jekyll-seo-tag csv base64
+</span><span class="no">EOF
+
+</span><span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> &gt; Dockerfile2
+FROM ruby:3.2-alpine
+
+ENV BUNDLER_VERSION=2.4.13 </span><span class="se">\</span><span class="sh">
+    JEKYLL_VERSION=4.3.2 </span><span class="se">\</span><span class="sh">
+    BUILD_DEPS="build-base gcc libxml2-dev libxslt-dev readline-dev" </span><span class="se">\</span><span class="sh">
+    RUNTIME_DEPS="tzdata bash"
+
+RUN apk add --no-cache </span><span class="nv">$BUILD_DEPS</span><span class="sh"> </span><span class="nv">$RUNTIME_DEPS</span><span class="sh"> &amp;&amp; </span><span class="se">\</span><span class="sh">
+    gem install jekyll:</span><span class="nv">$JEKYLL_VERSION</span><span class="sh"> bundler:</span><span class="nv">$BUNDLER_VERSION</span><span class="sh"> jekyll-seo-tag csv base64 &amp;&amp; </span><span class="se">\</span><span class="sh">
+    apk del </span><span class="nv">$BUILD_DEPS</span><span class="sh"> &amp;&amp; </span><span class="se">\</span><span class="sh">
+    rm -rf /var/cache/apk/* /usr/lib/lib/ruby/gems/*/cache/*
+
+WORKDIR /app
+
+CMD ["jekyll", "--help"]
+</span><span class="no">EOF
+
+
+</span>docker build <span class="nt">-t</span> jekyll-cicd:4.3.2 <span class="nb">.</span>
+docker save <span class="nt">-o</span> /tmp/jekyll-cicd.tar jekyll-cicd:4.3.2
+ctr <span class="nt">-n</span><span class="o">=</span>k8s.io images import /tmp/snap-private-tmp/snap.docker/tmp/jekyll-cicd.tar
+</code></pre></div></div>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">batch/v1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Job</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">cicd-job</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">template</span><span class="pi">:</span>
+    <span class="na">spec</span><span class="pi">:</span>
+      <span class="na">containers</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">cicd-container</span>
+        <span class="na">image</span><span class="pi">:</span> <span class="s">jekyll-cicd</span>
+        <span class="na">imagePullPolicy</span><span class="pi">:</span> <span class="s">IfNotPresent</span>
+        <span class="na">command</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="s">/bin/bash</span>
+        <span class="pi">-</span> <span class="s">-c</span>
+        <span class="pi">-</span> <span class="pi">|</span>
+          <span class="s">set -ex</span>
+          <span class="s">git config --global user.name "Axpz"</span>
+          <span class="s">git config --global user.email "axpzhang@gmail.com"</span>
+
+          <span class="s">echo "Cloning repository..."</span>
+          <span class="s">git clone git@github.com:Axpz/xMinima.git</span>
+          <span class="s">echo "Running release script..."</span>
+          <span class="s">cd xMinima </span>
+          <span class="s">bash -x script/bootstrap</span>
+          <span class="s">commitMsg=`git log -1 --pretty=%B`</span>
+          <span class="s">bash -x script/release.axpz.github.io "$commitMsg"</span>
+        <span class="na">env</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">GIT_SSH_COMMAND</span>
+          <span class="na">value</span><span class="pi">:</span> <span class="s2">"</span><span class="s">ssh</span><span class="nv"> </span><span class="s">-o</span><span class="nv"> </span><span class="s">StrictHostKeyChecking=no"</span>
+        <span class="na">volumeMounts</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">github-ssh-keys</span>
+          <span class="na">mountPath</span><span class="pi">:</span> <span class="s">/root/.ssh</span>
+          <span class="na">readOnly</span><span class="pi">:</span> <span class="kc">true</span>
+      <span class="na">restartPolicy</span><span class="pi">:</span> <span class="s">Never</span>
+      <span class="na">volumes</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">github-ssh-keys</span>
+        <span class="na">secret</span><span class="pi">:</span>
+          <span class="na">secretName</span><span class="pi">:</span> <span class="s">github-ssh-key-secret</span> <span class="c1"># 请确保预先创建了此 Secret</span>
+          <span class="na">defaultMode</span><span class="pi">:</span> <span class="m">0600</span>
+  <span class="na">backoffLimit</span><span class="pi">:</span> <span class="m">0</span> <span class="c1"># 任务失败后不重试</span>
+  <span class="na">ttlSecondsAfterFinished</span><span class="pi">:</span> <span class="m">60</span> <span class="c1"># 在任务完成 60 秒后删除 Job</span>
+</code></pre></div></div>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="kubernetes" /><category term="k8s" /><category term="k3s" /><category term="golang" /><category term="cloud" /><category term="ai" /><summary type="html"><![CDATA[混合云数据中心之CICD]]></summary></entry><entry><title type="html">Kubernetes personal hybrid cloud edge computing</title><link href="/k8s/2025/01/12/kubernetes-personal-hybrid-cloud-edge-computing.html" rel="alternate" type="text/html" title="Kubernetes personal hybrid cloud edge computing" /><published>2025-01-12T14:43:43+08:00</published><updated>2025-01-12T14:43:43+08:00</updated><id>/k8s/2025/01/12/kubernetes-personal-hybrid-cloud-edge-computing</id><content type="html" xml:base="/k8s/2025/01/12/kubernetes-personal-hybrid-cloud-edge-computing.html"><![CDATA[<!-- Header Section -->
 <h1 id="基于k3s搭建个人混合云数据中心高效利用边缘计算与云服务">基于k3s搭建个人混合云数据中心：高效利用边缘计算与云服务</h1>
 
 <!-- Navigation Bar -->
@@ -7,10 +478,11 @@
 <ol>
   <li><a href="#背景与问题">背景与问题</a></li>
   <li><a href="#实现方案">实现方案</a>
-    <ol>
+    <ul>
       <li><a href="#方案1-集群混合部署公有云计算节点和私有云计算节点混合部署">方案1: 集群混合部署：公有云计算节点和私有云计算节点混合部署</a></li>
       <li><a href="#方案2-集群部署在私有计算节点上使用公有云节点当作ingress">方案2: 集群部署在私有计算节点上，使用公有云节点当作ingress</a></li>
-    </ol>
+      <li><a href="#方案3-公有云节点上部署网关，直接转发服务到私有计算节点">方案3: 公有云节点上部署网关，直接转发服务到私有计算节点</a></li>
+    </ul>
   </li>
   <li><a href="#测试">测试</a></li>
 </ol>
@@ -40,6 +512,7 @@
 <ol>
   <li>集群混合部署：公有云计算节点和私有云计算节点混合部署</li>
   <li>集群部署在私有计算节点上，使用公有云节点当作ingress</li>
+  <li>公有云节点上部署网关，直接转发服务到私有计算节点</li>
 </ol>
 
 <h3 id="方案1-集群混合部署公有云计算节点和私有云计算节点混合部署">方案1: 集群混合部署：公有云计算节点和私有云计算节点混合部署</h3>
@@ -238,7 +711,12 @@ curl <span class="nt">-sfL</span> https://get.k3s.io | <span class="nv">K3S_URL<
 
 <h4 id="打通网络搭建集群">打通网络、搭建集群</h4>
 
-<p>参考方案1</p>
+<p>参考方案1的实现, 同时注意添加dnat</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> PREROUTING <span class="nt">-p</span> tcp <span class="nt">--dport</span> 80 <span class="nt">-d</span> 74.121.149.207 <span class="nt">-j</span> DNAT <span class="nt">--to-destination</span> 10.4.0.3:80
+<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> PREROUTING <span class="nt">-p</span> tcp <span class="nt">--dport</span> 443 <span class="nt">-d</span> 74.121.149.207 <span class="nt">-j</span> DNAT <span class="nt">--to-destination</span> 10.4.0.3:443
+<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> POSTROUTING <span class="nt">-o</span> eth0 <span class="nt">-j</span> MASQUERADE
+<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> POSTROUTING <span class="nt">-o</span> wg0 <span class="nt">-j</span> MASQUERADE
+</code></pre></div></div>
 
 <h4 id="配置集群负载均衡为wg0">配置集群负载均衡为wg0</h4>
 
@@ -250,7 +728,14 @@ systemctl stop k3s
 systemctl start k3s
 </code></pre></div></div>
 
-<h2 id="测试">测试</h2>
+<h3 id="方案3-公有云节点上部署网关直接转发服务到私有计算节点">方案3: 公有云节点上部署网关，直接转发服务到私有计算节点</h3>
+<p>从原理上来讲，和方案二没有太大的区别，但是考虑到kubernetes的ingress本身就是一个网关的功能，所以如果这里再添加一层网关难免有重复的嫌疑。所以从最大程度利用kubernetes的能力和避免重复造轮子的角度，方案二还是最优解。在此从造轮子的角度，也不妨给出一个架构图，但我们不做更深入讨论。
+<img src="/assets/images/high-level-arch-device-plugin.png" alt="alt text" /></p>
+
+<p>顺便提一下这个更像是一个业务代码的实现架构，确实是，其实这个代码已经完成，这里的设计和实现是我参靠kubelet和Nvidia的deviceplugin的架构，那接下来的我们也会基于这个来实现我们的Agent的后端业务。</p>
+
+<h3 id="测试">测试</h3>
+<p>本测试基于方案二完成. 当然方案1也是可以用的，需要注意的是，方案一必须要依赖multi-platform的images，同时在业务调度的时候也需要考虑不同的硬件平台).</p>
 
 <ol>
   <li>创建nginx应用
@@ -354,16 +839,261 @@ systemctl start k3s
 
 <p>从互联网访问，…, 搞定, scale up/down pod， … 搞定</p>
 
+<p>至此，我们的platform层和infra层搭建完成，接下来我们会基于我们的业务完善DevOps，包括监控和CI/CD。</p>
+
 <!-- Footer Section -->
 <div class="footer">
     <p>© 2025 基于kubernetes搭建个人混合云数据中心项目</p>
-</div>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="kubernetes" /><category term="k8s" /><category term="k3s" /><category term="golang" /><category term="cloud" /><summary type="html"><![CDATA[基于k3s搭建个人混合云数据中心：高效利用边缘计算与云服务]]></summary></entry><entry><title type="html">Some articles are just so long they deserve a really long title to see if things will break well</title><link href="/ai/2025/01/12/super-long-article.html" rel="alternate" type="text/html" title="Some articles are just so long they deserve a really long title to see if things will break well" /><published>2025-01-12T12:03:43+08:00</published><updated>2025-01-12T12:03:43+08:00</updated><id>/ai/2025/01/12/super-long-article</id><content type="html" xml:base="/ai/2025/01/12/super-long-article.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
+</div>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="kubernetes" /><category term="k8s" /><category term="k3s" /><category term="golang" /><category term="cloud" /><category term="ai" /><summary type="html"><![CDATA[基于k3s搭建个人混合云数据中心：高效利用边缘计算与云服务]]></summary></entry><entry><title type="html">Some articles are just so long they deserve a really long title to see if things will break well</title><link href="/ai/2025/01/12/super-long-article.html" rel="alternate" type="text/html" title="Some articles are just so long they deserve a really long title to see if things will break well" /><published>2025-01-12T12:03:43+08:00</published><updated>2025-01-12T12:03:43+08:00</updated><id>/ai/2025/01/12/super-long-article</id><content type="html" xml:base="/ai/2025/01/12/super-long-article.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="ai" /><category term="kubernetes" /><category term="k8s" /><category term="k3s" /><category term="ai" /><category term="cloud" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.]]></summary></entry><entry><title type="html">My Example Post</title><link href="/2016/05/20/my-example-post.html" rel="alternate" type="text/html" title="My Example Post" /><published>2016-05-20T00:00:00+08:00</published><updated>2016-05-20T00:00:00+08:00</updated><id>/2016/05/20/my-example-post</id><content type="html" xml:base="/2016/05/20/my-example-post.html"><![CDATA[<p>Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="ai" /><category term="kubernetes" /><category term="k8s" /><category term="k3s" /><category term="cloud" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.]]></summary></entry><entry><title type="html">OAuth 2.0 授权码模式</title><link href="/k8s/2024/11/04/Oauth2-identity-workflow.html" rel="alternate" type="text/html" title="OAuth 2.0 授权码模式" /><published>2024-11-04T14:43:43+08:00</published><updated>2024-11-04T14:43:43+08:00</updated><id>/k8s/2024/11/04/Oauth2-identity-workflow</id><content type="html" xml:base="/k8s/2024/11/04/Oauth2-identity-workflow.html"><![CDATA[<p><img src="/assets/images/auth-overall.png" alt="auth2" /></p>
 
-<p>No laudem altera adolescens has, volumus lucilius eum no. Eam ei nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><summary type="html"><![CDATA[Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.]]></summary></entry><entry><title type="html">This post demonstrates post content styles</title><link href="/junk/2016/05/20/this-post-demonstrates-post-content-styles.html" rel="alternate" type="text/html" title="This post demonstrates post content styles" /><published>2016-05-20T00:00:00+08:00</published><updated>2016-05-20T00:00:00+08:00</updated><id>/junk/2016/05/20/this-post-demonstrates-post-content-styles</id><content type="html" xml:base="/junk/2016/05/20/this-post-demonstrates-post-content-styles.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.</p>
+<h1 id="注册客户端第三方应用信息">注册客户端(第三方应用)信息</h1>
+
+<p>在使用 OAuth 2.0 授权码模式之前，客户端(第三方应用)（通常是你的应用）需要在授权服务器上进行注册。注册后，你会获得以下信息：</p>
+
+<ul>
+  <li><strong>client_id</strong>：客户端(第三方应用)的唯一标识符，由授权服务器分配。</li>
+  <li><strong>client_secret</strong>：客户端(第三方应用)的密钥，用于验证客户端(第三方应用)的身份（但仅在安全环境下使用，比如服务端，不建议在前端公开）。</li>
+</ul>
+
+<h2 id="填写回调-urlredirect-uri">填写回调 URL（Redirect URI）</h2>
+
+<p>在注册过程中，你需要提供一个 <strong>回调地址</strong>，即授权完成后授权服务器会重定向用户的地址。</p>
+
+<ul>
+  <li><strong>Redirect URI（回调地址）</strong> 是授权服务器将授权码发送到客户端(第三方应用)的地方，它必须与你注册时填写的地址完全匹配。</li>
+  <li>
+    <p>回调地址通常是一个 HTTPS URL，例如：https://your-app.com/callback</p>
+  </li>
+  <li>如果你有多个环境（如开发环境、生产环境），需要为每个环境分别注册对应的回调 URL。</li>
+</ul>
+
+<h2 id="用途">用途</h2>
+
+<ul>
+  <li>授权服务器会在用户授权后，通过这个回调地址将 <strong>授权码（Authorization Code）</strong> 发送回客户端(第三方应用)。</li>
+  <li>之后，客户端(第三方应用)再通过授权码和客户端(第三方应用)密钥，向授权服务器请求 <strong>访问令牌（Access Token）</strong>。</li>
+</ul>
+
+<h1 id="流程细化解释">流程细化解释</h1>
+
+<p><img src="/assets/images/auth-exchange.png" alt="auth2" /></p>
+
+<h2 id="客户端第三方应用生成授权请求并包含-csrf-随机字符串">客户端(第三方应用)生成授权请求并包含 CSRF 随机字符串</h2>
+
+<ul>
+  <li>客户端(第三方应用)（第三方应用）在发起授权请求时，会生成一个随机字符串（<code class="language-plaintext highlighter-rouge">state</code>）作为防止 CSRF 攻击的标志。</li>
+  <li>客户端(第三方应用)通过 <strong>302 重定向</strong> 请求用户访问授权服务器（<code class="language-plaintext highlighter-rouge">auth server</code>），并在 URL 中携带以下重要参数：</li>
+</ul>
+
+<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">GET</span> <span class="nn">/authorize?response_type=code&amp;client_id=CLIENT_ID&amp;redirect_uri=https://your-app.com/callback&amp;scope=SCOPE&amp;state=RANDOM_STRING</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+<span class="na">Host</span><span class="p">:</span> <span class="s">auth-server.com</span>
+</code></pre></div></div>
+<p>参数说明：</p>
+<ul>
+  <li><strong>response_type=code</strong>：请求授权码。</li>
+  <li><strong>client_id</strong>：客户端(第三方应用)标识。</li>
+  <li><strong>redirect_uri</strong>：用户授权完成后，授权服务器会将用户重定向到此地址。</li>
+  <li><strong>scope</strong>：客户端(第三方应用)请求的权限范围。</li>
+  <li><strong>state</strong>：由客户端(第三方应用)生成的随机字符串，用于防止 CSRF 攻击。</li>
+</ul>
+
+<h2 id="授权服务器显示登录授权页面">授权服务器显示登录/授权页面</h2>
+
+<ul>
+  <li>用户被 <strong>302 重定向</strong> 到授权服务器，授权服务器会弹出认证页面，让用户登录并选择是否授权第三方应用。</li>
+  <li>如果用户未登录，会先引导用户登录。如果用户已经登录，则直接显示授权页面。</li>
+</ul>
+
+<h2 id="用户认证成功后授权服务器生成授权码并重定向">用户认证成功后，授权服务器生成授权码并重定向</h2>
+
+<ul>
+  <li>用户在授权页面上点击“允许”后，授权服务器会生成一个 <strong>授权码（authorization code）</strong>。</li>
+  <li>授权服务器通过 <strong>302 重定向</strong> 将用户带回客户端(第三方应用)的回调地址（<code class="language-plaintext highlighter-rouge">redirect_uri</code>），并在 URL 中附加授权码和原始的 <code class="language-plaintext highlighter-rouge">state</code>：</li>
+</ul>
+
+<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">302</span> <span class="ne">Found</span>
+<span class="na">Location</span><span class="p">:</span> <span class="s">https://your-app.com/callback?code=AUTH_CODE&amp;state=RANDOM_STRING</span>
+</code></pre></div></div>
+<p>参数说明：</p>
+<ul>
+  <li><strong>code</strong>：授权码。</li>
+  <li><strong>state</strong>：原始客户端(第三方应用)发送的 <code class="language-plaintext highlighter-rouge">state</code> 值，用于验证请求完整性。</li>
+</ul>
+
+<h2 id="客户端第三方应用验证-state">客户端(第三方应用)验证 state</h2>
+
+<ul>
+  <li>客户端(第三方应用)在收到授权服务器的回调时，必须验证返回的 <code class="language-plaintext highlighter-rouge">state</code> 是否与初始发送的值一致。</li>
+  <li>如果 <code class="language-plaintext highlighter-rouge">state</code> 不匹配，则可能存在 CSRF 攻击或请求被篡改，客户端(第三方应用)应拒绝处理该回调。</li>
+</ul>
+
+<h2 id="客户端第三方应用交换授权码获取访问令牌">客户端(第三方应用)交换授权码获取访问令牌</h2>
+
+<ul>
+  <li>如果 <code class="language-plaintext highlighter-rouge">state</code> 验证通过，客户端(第三方应用)使用授权码（<code class="language-plaintext highlighter-rouge">code</code>）向授权服务器发起 <strong>POST 请求</strong>，交换访问令牌（<code class="language-plaintext highlighter-rouge">access token</code>）：</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST /token HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+<span class="nv">grant_type</span><span class="o">=</span>authorization_code&amp;code<span class="o">=</span>AUTH_CODE&amp;redirect_uri<span class="o">=</span>https://your-app.com/callback&amp;client_id<span class="o">=</span>CLIENT_ID&amp;client_secret<span class="o">=</span>CLIENT_SECRET
+</code></pre></div></div>
+
+<h1 id="核心点总结">核心点总结</h1>
+
+<ul>
+  <li>客户端(第三方应用)生成授权 URL，并携带 <code class="language-plaintext highlighter-rouge">state</code> 和其他参数，使用 <strong>302 重定向</strong> 将用户引导到授权服务器。</li>
+  <li>授权服务器处理用户登录并授权后，通过 <strong>302 重定向</strong> 将用户带回客户端(第三方应用)的 <code class="language-plaintext highlighter-rouge">redirect_uri</code>，同时携带 <code class="language-plaintext highlighter-rouge">auth_code</code> 和原始的 <code class="language-plaintext highlighter-rouge">state</code>。</li>
+  <li>客户端(第三方应用)收到回调后验证 <code class="language-plaintext highlighter-rouge">state</code>，确保请求未被篡改。</li>
+  <li>验证通过后，客户端(第三方应用)使用授权码换取访问令牌。</li>
+</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="oauth" /><category term="ai" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Kubernetes and Go R&amp;amp;D in VMware - Xianping</title><link href="/k8s/2024/11/03/kubernetes-in-vmware.html" rel="alternate" type="text/html" title="Kubernetes and Go R&amp;amp;D in VMware - Xianping" /><published>2024-11-03T14:43:43+08:00</published><updated>2024-11-03T14:43:43+08:00</updated><id>/k8s/2024/11/03/kubernetes-in-vmware</id><content type="html" xml:base="/k8s/2024/11/03/kubernetes-in-vmware.html"><![CDATA[<ul>
+  <li>Golang/Python/c/c++/Bash</li>
+  <li>Docker/Kubernetes/PostgreSQL/gRPC</li>
+  <li>Git/Jenkins/Gitlab</li>
+</ul>
+
+<p>2023.11-至今     	VMware					Kubernetes &amp; Go Engineer</p>
+
+<p>	项目经历：TMC Self-managed (私有云管理平台)的开发维护。
+该平台是 SaaS 平台的企业版，部署在企业的私有环境中，覆盖了网络、计算、存储等全栈资源。通过这种部署模式，企业可以最大程度地实现自主管理，确保数据安全和资源的高效利用。但由于是私有环境部署，企业在使用时将失去多云管理的能力。</p>
+<ol>
+  <li>技术栈：Go/Python, Gitlab, Kapp-controller, ytt, Prometheus，AD/LDAP/OIDC</li>
+  <li>职责：
+­	独立负责Kubernetes cluster CRUD生命周期管理。
+o	去掉部分SaaS功能：不再支持Azure/AWS，仅支持TKGm/TKGs vSphere。<br />
+o	编写自动化测试，完成自动化流水线开发测试，保证功能的独立完整性。<br />
+o	共完成4个版本的交付：参加bug bash、CVE分析、软件发布文档编写等。<br />
+­	重新设计并开发微服务的证书管理。彻底解决服务证书和根证书手动rotate问题(每三个月重启)。<br />
+证书管理分为服务证书和根证书管理，其中服务证书管理分为外部流量(south-north)和内部流量(east-west)证书管理。详见certificate management on TMC self-managed.<br />
+o	根证书分为内部根证书和外部根证书，内部根证书为self-signed，提供给cert-manager签发使用，外部根证书会分发到信任的客户端(如agent)做信任验证。<br />
+o	内部服务证书统一使用cert-manager管理(域名/有效时间/重新生成时间等签发)。<br />
+o	外部服务证书分为导入证书和cert-manager自管理的证书。<br />
+o	引入第三方服务reloader，支持自动重启服务以消费renew的证书。<br />
+­	¬¬¬参与installer开发。Installer把所有依赖的docker image重新打包并放到本地的registry中以适配air-gap环境安装、运行和维护。<br />
+o	基于Gitlab CI/CD完成超过100个repo的nightly持续集成和持续部署，结合自动化测试，解放了大量人力测试。</li>
+  <li>主要成就：<br />
+­	引入TMC self-manage项目到北京团队，并由北京团队完全负责(现在已经交接给印度团队)。<br />
+­	解决了大量客户问题：主要包括证书问题、第三方认证问题(OIDC/AD/LDAP)。</li>
+</ol>
+
+<p>2022.04-2023.11		VMware 						Kubernetes &amp; Go Engineer<br />
+主要工作内容包括a)功能设计开发；b)版本发布；c)自动化流水线的开发和维护；d)客户问题技术支持。</p>
+
+<p>	项目经历：Kubernetes多云(AWS/Azure/VMware)集中管理平台TMC的开发维护。
+TMC 是一个专为多云环境设计的 Kubernetes 资源统一管理 SaaS 平台，能够在跨多个云平台和 Kubernetes 集群之间实现一致的运维管理。该平台基于云原生控制器架构开发，采用微服务模式，通过扩展标准的 Kubernetes 资源来提供与标准Kubernetes一致的设计和用户体验，支持跨云环境的高效管理和操作。</p>
+<ol>
+  <li>技术栈：Go, Kubernetes, Docker, PostgreSQL, Terraform, Jenkins, Prometheus</li>
+  <li>职责：<br />
+参与核心功能模块设计开发。核心功能模块是Kubernetes集群的生命周期管理, 即Cluster/nodepool的创建、删除、修改、升级等功能。LCM模块通过调用远端接口实现。<br />
+­	实现k8s default storage class的支持：a)调用vSphere API 读取storage class/policy并通过agent返回到LCM，同时存储到数据库中; b) 渲染数据到UI并提供查询规则供用户交互使用; c) 设置Kubernetes集群的默认存储类。<br />
+­	集群CA证书支持：通过修改集群的CRD, 将CA证书植入到节点上，其中多云环境中植入到containerd配置文件中，而TKGS环境中植入到系统目录下。<br />
+­	支持proxy设置：即在创建cluster集群的时候把代理注入到集群当中。其中包括集群agent代理和工作负载代理设置。<br />
+­	提供下游terraform设计实现方案，并合作完成API开发测试。<br />
+­	主导(支持)软件版本发布，支持上游Kubernetes新版本(功能)发布，主要工作：升级最新的API、支持新功能和其测试验证。<br />
+­	软件CVE修复，维护自动化测试的CVE扫描工具(based on Trivy)。<br />
+­	编写功能的自动化测试代码，维护自动化流水线，保证功能测试的正确性和覆盖的完整性。</li>
+  <li>主要成就：
+­	主导1.6大版本的发布: 与团队其他两名成员紧密合作，完成了版本发布工作。主要负责升级至最新 API 并验证新功能，确保无功能回退 (regression) 的问题。同时，参与自动化流水线的开发、测试及维护，确保发布流程的高效和稳定。<br />
+­	重新设计实现了代理、证书和默认存储功能无缝并屏蔽不同provider的差异，为self-managed版本提供了保障。</li>
+</ol>
+
+<p>https://docs.vmware.com/en/VMware-Tanzu-Mission-Control/1.4/tanzumc-sm-install/index-sm-install.html</p>
+
+<p><img src="/assets/images/tmc-self-managed-arch.png" alt="tmc-self-managed-arch" /></p>
+
+<p><img src="/assets/images/tmc-self-managed-arch-flatten.png" alt="tmc-self-managed-arch-flatten" /></p>
+
+<h2 id="support-enabledisable-default-storage-class">Support enable/disable default storage class</h2>
+
+<ul>
+  <li>High level design
+<img src="/assets/images/en-disable-default-storage-class.png" alt="alt text" /></li>
+  <li>One pager for design and implementation <em><a href="/assets/images/Support+enable_disable-default-storage-class.doc">here</a></em></li>
+  <li>Video <em><a href="https://www.douyin.com/video/7303145324061805834">demo here</a></em></li>
+</ul>
+
+<h2 id="certificate-management-on-tmc-self-managed">Certificate management on TMC self-managed</h2>
+
+<ul>
+  <li>Overview
+<img src="/assets/images/cert-mgmt-overview.png" alt="alt text" /></li>
+  <li>One pager for design and implementation <em><a href="/assets/images/One+pager_+[TMC+SM]+Certificates+management+on+TMC+self-managed.doc">here</a></em></li>
+</ul>
+
+<h3 id="auto-reload-tls-certificate-secrets-for-stack-services">Auto reload TLS certificate secrets for stack services</h3>
+
+<ul>
+  <li>Overview<br />
+The TLS secret will be automatically renewed by cert-manager before it expires; however, the containers require an explicit restart to utilize the updated certificate. This could become an issue if customers forget to restart the service pods within the renewal duration.</li>
+  <li>Design and implementation</li>
+  <li>Demo <em><a href="/assets/images/Auto-reload-TLS-certificate-secrets-for-stack-services.pptx">pitch</a></em> and recordings:
+    <ul>
+      <li>Upgrade. Performing rolling-update for cert renewal. New duration/renewBefore configuration. <em><a href="https://www.douyin.com/video/7423428104548371752">here</a></em></li>
+      <li>Functionality test to SV register and WC creation. <em><a href="https://www.douyin.com/video/7423428378901892367">here</a></em></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="custom-trusted-ca-enhancement-for-tkg-workload-cluster">Custom trusted CA enhancement for TKG workload cluster</h3>
+
+<ul>
+  <li>High level design
+<img src="/assets/images/custom-ca.png" alt="solution" /></li>
+  <li>Design and implementation <em><a href="/assets/images/Custom-CAs-enhancement-for-TKG-workload-cluster.docx">here</a></em></li>
+</ul>
+
+<h3 id="custom-proxy-for-tkg-workload-cluster">Custom proxy for TKG workload cluster</h3>
+
+<ul>
+  <li>High level architecture
+<img src="/assets/images/high-level-proxy-arch.png" alt="high level architecture" /></li>
+  <li>Detailed</li>
+</ul>
+
+<h2 id="lcmlife-cycle-management-support-of-terraform">LCM(life cycle management) support of Terraform</h2>
+
+<ul>
+  <li>Overview
+<img src="/assets/images/lcm-of-terraform.png" alt="alt text" /></li>
+  <li>Design and implementation  <em><a href="/assets/images/LCM+support+of+Terraform.doc">here</a></em>  and  <em><a href="/assets/doc/Support+ZERO+nodepool+in+CREATE_UPDATE+cluster+API+SPEC.doc">here</a></em>.</li>
+</ul>
+
+<h2 id="software-version-release-and-automation-pipeline-maintenance">Software version release and Automation pipeline maintenance</h2>
+
+<ul>
+  <li>
+    <p>Lead(participate) for managing software version releases.<br />
+Lead the release of TKG 1.6 lifecycle management support
+TKG 1.6 is a major release, and as downstream support, we need to cover all new features, including interface upgrades and feature validation, with a focus on over 200 P0 features.</p>
+  </li>
+  <li>
+    <p>Automation pipeline maintenance.</p>
+    <ul>
+      <li>Promotion pipeline for
+        <ul>
+          <li>unstable -&gt; stable -&gt; canary -&gt; production</li>
+        </ul>
+      </li>
+      <li>Branches management <img src="/assets/images/auto-branch-cut.png" alt="release lifecycle and auto branching management" /></li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="k8s" /><category term="gRPC" /><category term="PostgreSQL" /><category term="golang" /><category term="cloud" /><category term="ai" /><summary type="html"><![CDATA[Golang/Python/c/c++/Bash Docker/Kubernetes/PostgreSQL/gRPC Git/Jenkins/Gitlab]]></summary></entry><entry><title type="html">Welcome To Jekyll</title><link href="/2016/05/20/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome To Jekyll" /><published>2016-05-20T00:00:00+08:00</published><updated>2016-05-20T00:00:00+08:00</updated><id>/2016/05/20/welcome-to-jekyll</id><content type="html" xml:base="/2016/05/20/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">This post demonstrates post content styles</title><link href="/junk/2016/05/20/this-post-demonstrates-post-content-styles.html" rel="alternate" type="text/html" title="This post demonstrates post content styles" /><published>2016-05-20T00:00:00+08:00</published><updated>2016-05-20T00:00:00+08:00</updated><id>/junk/2016/05/20/this-post-demonstrates-post-content-styles</id><content type="html" xml:base="/junk/2016/05/20/this-post-demonstrates-post-content-styles.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.</p>
 
 <h2 id="some-great-heading-h2">Some great heading (h2)</h2>
 
@@ -528,16 +1258,4 @@ systemctl start k3s
       <td>lorem ipsum dolor sit amet consectetur</td>
     </tr>
   </tbody>
-</table>]]></content><author><name>[&quot;Bart Simpson&quot;, &quot;Nelson Mandela Muntz&quot;]</name></author><category term="junk" /><category term="abc" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.]]></summary></entry><entry><title type="html">Welcome To Jekyll</title><link href="/2016/05/20/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome To Jekyll" /><published>2016-05-20T00:00:00+08:00</published><updated>2016-05-20T00:00:00+08:00</updated><id>/2016/05/20/welcome-to-jekyll</id><content type="html" xml:base="/2016/05/20/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+</table>]]></content><author><name>[&quot;Bart Simpson&quot;, &quot;Nelson Mandela Muntz&quot;]</name></author><category term="junk" /><category term="abc" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.]]></summary></entry></feed>
