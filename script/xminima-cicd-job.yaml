@@ -39,4 +39,4 @@ spec:
           secretName: github-ssh-key-secret # 请确保预先创建了此 Secret
           defaultMode: 0600
   backoffLimit: 3 # 任务失败后最多重试 3 次
-  ttlSecondsAfterFinished: 300 # 在任务完成 60 秒后删除 Job
+  ttlSecondsAfterFinished: 60 # 在任务完成 60 秒后删除 Job
