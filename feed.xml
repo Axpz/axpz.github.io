@@ -1,5 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-23T17:37:52+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News 热门话题 top 10 2025-01-23</title><link href="/hacknews/2025/01/23/17-36-48-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-23" /><published>2025-01-23T09:36:48+00:00</published><updated>2025-01-23T09:36:48+00:00</updated><id>/hacknews/2025/01/23/17:36:48-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/23/17-36-48-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-23 17:36:48</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-23T19:01:14+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News 热门话题 top 10 2025-01-23</title><link href="/hacknews/2025/01/23/19-00-02-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-23" /><published>2025-01-23T11:00:02+00:00</published><updated>2025-01-23T11:00:02+00:00</updated><id>/hacknews/2025/01/23/19:00:02-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/23/19-00-02-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-23 19:00:02</p>
+
+<ol>
+  <li><strong>Llama.vim – 本地LLM辅助文本补全工具</strong><br />
+Llama.vim 是一个为 Vim 编辑器开发的本地LLM（Large Language Model）辅助文本补全工具，它允许用户在不依赖网络连接的情况下，利用本地模型进行文本补全，这对于需要离线工作的开发者来说是一个福音。
+    <ul>
+      <li><a href="https://github.com/ggml-org/llama.vim">Llama.vim – Local LLM-assisted text completion</a></li>
+    </ul>
+  </li>
+  <li><strong>感谢HN：我的自启动创业公司今天被收购了</strong><br />
+一位创业者在Hacker News上分享了他的自启动创业公司被收购的消息，这类故事通常能激励其他创业者，同时也提供了关于创业、产品开发和市场定位的讨论。
+    <ul>
+      <li><a href="https://news.ycombinator.com/item?id=42806247">Thank HN: My bootstrapped startup got acquired today</a></li>
+    </ul>
+  </li>
+  <li><strong>迷幻图形：介绍</strong><br />
+迷幻图形是一种视觉艺术形式，这篇文章提供了对这种艺术风格的介绍，探讨了其历史和技术实现，对于设计师和艺术家来说，这是一次视觉和创意的启发。
+    <ul>
+      <li><a href="https://benpence.com/blog/post/psychedelic-graphics-0">Psychedelic Graphics: An Introduction</a></li>
+    </ul>
+  </li>
+  <li><strong>Bunster：将bash脚本编译成独立可执行文件的工具</strong><br />
+Bunster 是一个开源工具，可以将bash脚本编译成独立的可执行文件，这对于需要将脚本部署到不同环境的开发者来说非常有用。
+    <ul>
+      <li><a href="https://github.com/yassinebenaid/bunster">Bunster: Compile bash scripts to self contained executables</a></li>
+    </ul>
+  </li>
+  <li><strong>从零开始建造中世纪城堡</strong><br />
+这是一个介绍如何从零开始建造中世纪城堡的项目，它不仅展示了建筑技术，还涉及到历史和文化，对于历史爱好者和建筑爱好者来说是一个有趣的话题。
+    <ul>
+      <li><a href="https://www.guedelon.fr/en/">Building a Medieval Castle from Scratch</a></li>
+    </ul>
+  </li>
+  <li><strong>处理文件真难（2019）</strong><br />
+这篇文章讨论了文件处理的复杂性，包括文件系统的局限性和现代编程中文件操作的挑战，对于开发者来说，这是一篇深入理解文件操作的文章。
+    <ul>
+      <li><a href="https://danluu.com/deconstruct-files/">Working with Files Is Hard (2019)</a></li>
+    </ul>
+  </li>
+  <li><strong>Show HN：我从头开始制作了一个开源笔记本电脑</strong><br />
+一位开发者展示了他如何从头开始制作了一个开源笔记本电脑，这个项目涉及到硬件设计、软件开发和社区协作，对于硬件爱好者和开源社区来说是一个激动人心的项目。
+    <ul>
+      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
+    </ul>
+  </li>
+  <li><strong>TMSU：命令行工具，用于应用标签和查看虚拟标记文件系统</strong><br />
+TMSU 是一个命令行工具，它允许用户为文件和目录添加标签，并查看一个虚拟的标记文件系统，这对于需要管理大量文件的用户来说是一个有用的工具。
+    <ul>
+      <li><a href="https://tmsu.org/">TMSU: Command-line tool for applying tags and viewing virtual tagged filesystem</a></li>
+    </ul>
+  </li>
+  <li><strong>轨道绘图仪（2019）</strong><br />
+这篇文章介绍了一种名为“轨道绘图仪”的数学绘图工具，它可以用来创建复杂的几何图形，对于数学和艺术爱好者来说，这是一次探索数学之美的机会。
+    <ul>
+      <li><a href="https://www.redblobgames.com/x/1903-orbit-spirograph/">Orbit Spirograph (2019)</a></li>
+    </ul>
+  </li>
+  <li><strong>Intrinsic (YC W23) 正在招聘</strong><br />
+Intrinsic 是一家由Y Combinator支持的初创公司，目前正在招聘新成员，这对于寻找工作机会的开发者和创业者来说是一个值得关注的消息。
+    <ul>
+      <li><a href="https://news.ycombinator.com/item?id=42805699">Intrinsic (YC W23) Is Hiring</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 19:00:02]]></summary></entry><entry><title type="html">Hacker News 热门话题 top 10 2025-01-23</title><link href="/hacknews/2025/01/23/17-36-48-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-23" /><published>2025-01-23T09:36:48+00:00</published><updated>2025-01-23T09:36:48+00:00</updated><id>/hacknews/2025/01/23/17:36:48-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/23/17-36-48-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-23 17:36:48</p>
 
 <ol>
   <li><strong>Bunster: 将 bash 脚本编译为独立可执行文件</strong><br />
@@ -701,251 +764,4 @@ https://kong-b3f5187d11usr19ve.kongcloud.dev/examples/weather/utopia</p>
 global.api.konghq.com/examples/weather/utopia</p>
 
 <p>Upstream URL:
-global.api.konghq.com/examples/weather/utopia</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="kong" /><category term="kong" /><category term="api" /><category term="gateway" /><category term="ai" /><summary type="html"><![CDATA[Kong Konnect Demo: https://www.youtube.com/watch?v=0XEtsyq_sUQ Get started with Kong gateway https://www.youtube.com/watch?v=hdE-rMAdYVY Kong Oauth https://www.youtube.com/watch?v=AIYIHZbDziI]]></summary></entry><entry><title type="html">Hybrid cloud computing - Github CICD pipelines</title><link href="/k8s/2025/01/15/hybrid-cloud-computing-cicd-axpz.github.io.html" rel="alternate" type="text/html" title="Hybrid cloud computing - Github CICD pipelines" /><published>2025-01-15T15:18:15+00:00</published><updated>2025-01-15T15:18:15+00:00</updated><id>/k8s/2025/01/15/hybrid-cloud-computing-cicd-axpz.github.io</id><content type="html" xml:base="/k8s/2025/01/15/hybrid-cloud-computing-cicd-axpz.github.io.html"><![CDATA[<h1 id="混合云数据中心之cicd">混合云数据中心之CICD</h1>
-
-<p>这是我要搭建的第一个服务：个人blog的CI/CD - 持续集成和持续部署</p>
-
-<h2 id="目标">目标</h2>
-<p>当xMinima repo有新的提交的时候，会自动触发流水线执行以下任务</p>
-<ul>
-  <li>自动构建（Build）</li>
-  <li>集成与测试（Integration &amp; Testing）</li>
-  <li>自动部署到 axpz.github.io</li>
-</ul>
-
-<h2 id="solutions">Solutions</h2>
-
-<ol>
-  <li>
-    <p>使用Github Actions, 从企业级开发来讲，我推荐使用Github Actions。</p>
-
-    <p>Pros: 
-   易用性：即开即用，集成度高，支持大量插件和模板。
-   维护性低：由 GitHub 官方管理，无需自行维护基础设施。
-   社区支持：活跃社区，有大量教程和最佳实践。</p>
-
-    <p>Cons:
-   成本：对于大型企业和高频执行，费用较高。
-   灵活性受限：不适合特别复杂或定制化的 CI/CD 流程。</p>
-  </li>
-  <li>
-    <p>自建pipeline，从full control和 cost down的角度，我建议自建pipeline。</p>
-
-    <p>Pros:
-   完全控制：可以根据需求高度定制和优化。
-   成本控制：对于大规模任务，长期来看更具经济性。
-   安全性：代码和数据完全掌控在内部网络中。</p>
-
-    <p>Cons:
-   开发/维护成本高：需要专门团队维护 CI/CD 基础设施。
-   上手难度：初期搭建和优化可能较复杂，耗时较长。</p>
-  </li>
-</ol>
-
-<p>别忘了我们的关键词是cost-effective。那上一篇文章中，我们已经自行搭建了基础设置，那我们自行build pipeline自然是顺理成章的事情，这个不难，至少对我们来讲。</p>
-
-<h2 id="implementationgithub-自建-cicd-流水线设计与实施方案">Implementation：GitHub 自建 CI/CD 流水线设计与实施方案</h2>
-
-<h3 id="整体架构">整体架构</h3>
-<p>整体架构分为四个部分</p>
-<ol>
-  <li>Webhook 事件触发：
-    <ul>
-      <li>GitHub 触发 Webhook。</li>
-    </ul>
-  </li>
-  <li>Ingress 路由：
-    <ul>
-      <li>请求通过 Kubernetes Ingress 转发到服务。</li>
-    </ul>
-  </li>
-  <li>事件处理：
-    <ul>
-      <li>服务解析事件并触发流水线。</li>
-    </ul>
-  </li>
-  <li>流水线执行：
-    <ul>
-      <li>自动构建、测试与部署。
-整体架构图
-<img src="/assets/images/high-level-arch-github-cicd.png" alt="github cicd" />
-        <h4 id="1-webhook-事件订阅">1. Webhook 事件订阅</h4>
-        <p>通过注册 <strong>GitHub Webhook</strong> 接收以下事件：
-     - <strong>pull_request</strong>：用于监控 Pull Request 的状态，如创建、更新、合并等。
-     - <strong>push</strong>：用于监控代码分支的变更（如 <code class="language-plaintext highlighter-rouge">git push</code> 或 <code class="language-plaintext highlighter-rouge">git push --force</code>）。</p>
-      </li>
-    </ul>
-  </li>
-</ol>
-
-<p><strong>功能：</strong></p>
-<ul>
-  <li>实时监听仓库的关键事件。</li>
-  <li>根据触发条件将事件传递给处理服务。</li>
-</ul>
-
-<p><strong>实现：</strong>
-<img src="/assets/images/github-webhook-cicd.png" alt="github webhook" /></p>
-
-<hr />
-
-<h4 id="2-ingress-路由配置">2. Ingress 路由配置</h4>
-<p>使用 <strong>Kubernetes Ingress</strong> 将外部请求路由到 <strong>GitHub Agent Server</strong>。</p>
-
-<p><strong>配置要点：</strong></p>
-<ul>
-  <li>定义 Ingress 规则：将 GitHub Webhook 请求（如 <code class="language-plaintext highlighter-rouge">/github/webhook</code>）路由到服务的特定端点。</li>
-  <li>[Options] 启用 HTTPS 支持：通过证书管理（如 Cert-Manager）实现安全通信。</li>
-</ul>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">traefik.containo.us/v1alpha1</span>
-<span class="na">kind</span><span class="pi">:</span> <span class="s">IngressRoute</span>
-<span class="na">metadata</span><span class="pi">:</span>
-  <span class="na">name</span><span class="pi">:</span> <span class="s">github-agent-server</span>
-  <span class="na">namespace</span><span class="pi">:</span> <span class="s">default</span>
-<span class="na">spec</span><span class="pi">:</span>
-  <span class="na">entryPoints</span><span class="pi">:</span>
-  <span class="pi">-</span> <span class="s">web</span>
-  <span class="na">routes</span><span class="pi">:</span>
-  <span class="pi">-</span> <span class="na">kind</span><span class="pi">:</span> <span class="s">Rule</span>
-    <span class="na">match</span><span class="pi">:</span> <span class="s">Host(`74.121.149.207`) &amp;&amp; PathPrefix(`/github/webhook`)</span>
-    <span class="na">services</span><span class="pi">:</span>
-    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">github-agent-server</span>
-      <span class="na">port</span><span class="pi">:</span> <span class="m">80</span>
-<span class="nn">---</span>
-<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">v1</span>
-<span class="na">kind</span><span class="pi">:</span> <span class="s">Service</span>
-<span class="na">metadata</span><span class="pi">:</span>
-  <span class="na">name</span><span class="pi">:</span> <span class="s">github-agent-server</span>
-<span class="na">spec</span><span class="pi">:</span>
-  <span class="na">selector</span><span class="pi">:</span>
-    <span class="na">app</span><span class="pi">:</span> <span class="s">github-agent-server</span>
-  <span class="na">ports</span><span class="pi">:</span>
-    <span class="pi">-</span> <span class="na">protocol</span><span class="pi">:</span> <span class="s">TCP</span>
-      <span class="na">port</span><span class="pi">:</span> <span class="m">80</span>
-      <span class="na">targetPort</span><span class="pi">:</span> <span class="m">8080</span>
-
-</code></pre></div></div>
-
-<hr />
-
-<h4 id="3-event-处理与流水线触发">3. Event 处理与流水线触发</h4>
-<p>服务接收 Webhook 事件后，执行以下操作：</p>
-<ol>
-  <li><strong>解析事件内容</strong>：
-    <ul>
-      <li>提取关键信息（如事件类型、分支、Pull Request 状态等）。</li>
-    </ul>
-  </li>
-  <li><strong>检测特定条件</strong>：
-    <ul>
-      <li>Pull Request 合并（<code class="language-plaintext highlighter-rouge">pull_request merged</code>）。</li>
-      <li>强制推送（<code class="language-plaintext highlighter-rouge">git push --force</code>）。</li>
-    </ul>
-  </li>
-  <li><strong>触发流水线 Jobs</strong>：
-    <ul>
-      <li>满足条件时启动相关流水线任务。</li>
-    </ul>
-  </li>
-</ol>
-
-<hr />
-
-<h4 id="4-流水线-jobs">4. 流水线 Jobs</h4>
-<p>流水线的主要任务包括以下阶段：</p>
-
-<h5 id="自动构建build">自动构建（Build）</h5>
-<ul>
-  <li>编译代码，生成构建产物（如前端资源、可执行文件等）。</li>
-  <li>确保构建无错误。</li>
-</ul>
-
-<h5 id="集成与测试integration--testing">集成与测试（Integration &amp; Testing）</h5>
-<ul>
-  <li>执行单元测试、集成测试和端到端测试。</li>
-  <li>生成测试报告，确保代码质量。</li>
-</ul>
-
-<h5 id="部署到-axpzgithubio">部署到 axpz.github.io</h5>
-<ul>
-  <li>将构建产物部署到 <code class="language-plaintext highlighter-rouge">axpz.github.io</code>，实现自动化发布。</li>
-  <li>[day2] 支持版本控制与回滚机制。</li>
-</ul>
-
-<p>创建secret存放github private key</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kubectl create secret generic github-ssh-key-secret <span class="nt">--from-file</span><span class="o">=</span><span class="nv">id_rsa</span><span class="o">=</span>/home/ubuntu/.ssh/id_isa <span class="nt">--from-file</span><span class="o">=</span><span class="nv">known_hosts</span><span class="o">=</span>/home/ubuntu/.ssh/known_hosts
-</code></pre></div></div>
-
-<p>对于不同的hardware architecture，可能需要自建一个docker image</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> &gt; Dockerfile
-FROM ruby:latest
-RUN gem install jekyll bundler jekyll-seo-tag csv base64
-</span><span class="no">EOF
-
-</span><span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> &gt; Dockerfile2
-FROM ruby:3.2-alpine
-
-ENV BUNDLER_VERSION=2.4.13 </span><span class="se">\</span><span class="sh">
-    JEKYLL_VERSION=4.3.2 </span><span class="se">\</span><span class="sh">
-    BUILD_DEPS="build-base gcc libxml2-dev libxslt-dev readline-dev" </span><span class="se">\</span><span class="sh">
-    RUNTIME_DEPS="tzdata bash"
-
-RUN apk add --no-cache </span><span class="nv">$BUILD_DEPS</span><span class="sh"> </span><span class="nv">$RUNTIME_DEPS</span><span class="sh"> &amp;&amp; </span><span class="se">\</span><span class="sh">
-    gem install jekyll:</span><span class="nv">$JEKYLL_VERSION</span><span class="sh"> bundler:</span><span class="nv">$BUNDLER_VERSION</span><span class="sh"> jekyll-seo-tag csv base64 &amp;&amp; </span><span class="se">\</span><span class="sh">
-    apk del </span><span class="nv">$BUILD_DEPS</span><span class="sh"> &amp;&amp; </span><span class="se">\</span><span class="sh">
-    rm -rf /var/cache/apk/* /usr/lib/lib/ruby/gems/*/cache/*
-
-WORKDIR /app
-
-CMD ["jekyll", "--help"]
-</span><span class="no">EOF
-
-
-</span>docker build <span class="nt">-t</span> jekyll-cicd:4.3.2 <span class="nb">.</span>
-docker save <span class="nt">-o</span> /tmp/jekyll-cicd.tar jekyll-cicd:4.3.2
-ctr <span class="nt">-n</span><span class="o">=</span>k8s.io images import /tmp/snap-private-tmp/snap.docker/tmp/jekyll-cicd.tar
-</code></pre></div></div>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">batch/v1</span>
-<span class="na">kind</span><span class="pi">:</span> <span class="s">Job</span>
-<span class="na">metadata</span><span class="pi">:</span>
-  <span class="na">name</span><span class="pi">:</span> <span class="s">cicd-job</span>
-<span class="na">spec</span><span class="pi">:</span>
-  <span class="na">template</span><span class="pi">:</span>
-    <span class="na">spec</span><span class="pi">:</span>
-      <span class="na">containers</span><span class="pi">:</span>
-      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">cicd-container</span>
-        <span class="na">image</span><span class="pi">:</span> <span class="s">jekyll-cicd</span>
-        <span class="na">imagePullPolicy</span><span class="pi">:</span> <span class="s">IfNotPresent</span>
-        <span class="na">command</span><span class="pi">:</span>
-        <span class="pi">-</span> <span class="s">/bin/bash</span>
-        <span class="pi">-</span> <span class="s">-c</span>
-        <span class="pi">-</span> <span class="pi">|</span>
-          <span class="s">set -ex</span>
-          <span class="s">git config --global user.name "Axpz"</span>
-          <span class="s">git config --global user.email "axpzhang@gmail.com"</span>
-
-          <span class="s">echo "Cloning repository..."</span>
-          <span class="s">git clone git@github.com:Axpz/xMinima.git</span>
-          <span class="s">echo "Running release script..."</span>
-          <span class="s">cd xMinima </span>
-          <span class="s">bash -x script/bootstrap</span>
-          <span class="s">commitMsg=`git log -1 --pretty=%B`</span>
-          <span class="s">bash -x script/release.axpz.github.io "$commitMsg"</span>
-        <span class="na">env</span><span class="pi">:</span>
-        <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">GIT_SSH_COMMAND</span>
-          <span class="na">value</span><span class="pi">:</span> <span class="s2">"</span><span class="s">ssh</span><span class="nv"> </span><span class="s">-o</span><span class="nv"> </span><span class="s">StrictHostKeyChecking=no"</span>
-        <span class="na">volumeMounts</span><span class="pi">:</span>
-        <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">github-ssh-keys</span>
-          <span class="na">mountPath</span><span class="pi">:</span> <span class="s">/root/.ssh</span>
-          <span class="na">readOnly</span><span class="pi">:</span> <span class="kc">true</span>
-      <span class="na">restartPolicy</span><span class="pi">:</span> <span class="s">Never</span>
-      <span class="na">volumes</span><span class="pi">:</span>
-      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">github-ssh-keys</span>
-        <span class="na">secret</span><span class="pi">:</span>
-          <span class="na">secretName</span><span class="pi">:</span> <span class="s">github-ssh-key-secret</span> <span class="c1"># 请确保预先创建了此 Secret</span>
-          <span class="na">defaultMode</span><span class="pi">:</span> <span class="m">0600</span>
-  <span class="na">backoffLimit</span><span class="pi">:</span> <span class="m">0</span> <span class="c1"># 任务失败后不重试</span>
-  <span class="na">ttlSecondsAfterFinished</span><span class="pi">:</span> <span class="m">60</span> <span class="c1"># 在任务完成 60 秒后删除 Job</span>
-</code></pre></div></div>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="kubernetes" /><category term="k8s" /><category term="k3s" /><category term="golang" /><category term="cloud" /><category term="ai" /><summary type="html"><![CDATA[混合云数据中心之CICD]]></summary></entry></feed>
+global.api.konghq.com/examples/weather/utopia</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="kong" /><category term="kong" /><category term="api" /><category term="gateway" /><category term="ai" /><summary type="html"><![CDATA[Kong Konnect Demo: https://www.youtube.com/watch?v=0XEtsyq_sUQ Get started with Kong gateway https://www.youtube.com/watch?v=hdE-rMAdYVY Kong Oauth https://www.youtube.com/watch?v=AIYIHZbDziI]]></summary></entry></feed>
