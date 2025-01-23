@@ -15,7 +15,7 @@ spec:
         - |
           set -x
           pwd
-          git config --global user.name "Axpz"
+          git config --global user.name "robot"
           git config --global user.email "axpzhang@gmail.com"
 
           echo "Cloning repository..."

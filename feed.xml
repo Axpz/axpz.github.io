@@ -1,58 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-23T16:09:53+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News 热门话题 top 10 2025-01-23</title><link href="/hacknews/2025/01/23/15-59-44-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-23" /><published>2025-01-23T07:59:44+00:00</published><updated>2025-01-23T07:59:44+00:00</updated><id>/hacknews/2025/01/23/15:59:44-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/23/15-59-44-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-23 15:59:44</p>
-
-<ol>
-  <li><strong>自制开源笔记本电脑</strong>：一个开发者展示了他从头开始制作的开源笔记本电脑，这个项目可能会激发更多关于硬件开源和定制的讨论。
-    <ul>
-      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
-    </ul>
-  </li>
-  <li><strong>libmodulor TS库</strong>：一个用于构建多平台应用的TypeScript库，展示了TypeScript在现代前端开发中的重要性。
-    <ul>
-      <li><a href="https://github.com/c100k/libmodulor">Show HN: libmodulor – An opinionated TS library to build multi-platform apps</a></li>
-    </ul>
-  </li>
-  <li><strong>Bunster工具</strong>：一个可以将bash脚本编译成独立可执行文件的工具，这可能会改变脚本编写和分发的方式。
-    <ul>
-      <li><a href="https://github.com/yassinebenaid/bunster">Bunster: Compile bash scripts to self contained executables</a></li>
-    </ul>
-  </li>
-  <li><strong>伦敦最中心的羊</strong>：一篇关于伦敦最中心的羊的文章，可能是对城市生活和自然共存的一种有趣探讨。
-    <ul>
-      <li><a href="https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html">Where is London’s most central sheep?</a></li>
-    </ul>
-  </li>
-  <li><strong>压缩算法概览</strong>：一篇关于压缩算法的文章，为理解数据压缩技术提供了基础知识。
-    <ul>
-      <li><a href="https://cefboud.github.io/posts/compression/">Taking a Look at Compression Algorithms</a></li>
-    </ul>
-  </li>
-  <li><strong>英国微型巨头</strong>：一篇关于英国微型计算机历史的文章，可能会引发对计算机发展历史的讨论。
-    <ul>
-      <li><a href="https://www.abortretry.fail/p/the-british-micro-behemoth">The British Micro Behemoth</a></li>
-    </ul>
-  </li>
-  <li><strong>美国水域最详细地图</strong>：展示了一张美国水域的详细地图，这对于地理信息系统和环境科学领域具有重要意义。
-    <ul>
-      <li><a href="https://www.esri.com/arcgis-blog/products/arcgis-living-atlas/water/the-most-detailed-map-of-us-waters-that-youve-ever-seen/">The Most Detailed Map of US Waters That You’ve Ever Seen (2023)</a></li>
-    </ul>
-  </li>
-  <li><strong>Minecraft对象不持久性</strong>：一个关于Minecraft游戏中对象不持久性的实验，这可能会引发对游戏设计和用户体验的讨论。
-    <ul>
-      <li><a href="https://www.aiweirdness.com/minecraft-with-object-impermanence/">Minecraft with object impermanence</a></li>
-    </ul>
-  </li>
-  <li><strong>通过Starlink管理面板黑客攻击Subaru</strong>：一篇关于通过Starlink管理面板控制Subaru汽车的文章，这可能会引发对汽车网络安全的讨论。
-    <ul>
-      <li><a href="https://samcurry.net/hacking-subaru">Hacking Subaru: Tracking and Controlling Cars via the Starlink Admin Panel</a></li>
-    </ul>
-  </li>
-  <li><strong>微软安全POST</strong>：一篇关于微软安全POST的文章，讨论了网络安全规范的转变。
-    <ul>
-      <li><a href="https://berthub.eu/articles/posts/shifting-cyber-norms-microsoft-post/">Shifting Cyber Norms: Microsoft security POST-ing to you</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 15:59:44]]></summary></entry><entry><title type="html">git workflow</title><link href="/k8s/2025/01/23/09-47-52-gitworkflow.html" rel="alternate" type="text/html" title="git workflow" /><published>2025-01-23T01:47:52+00:00</published><updated>2025-01-23T01:47:52+00:00</updated><id>/k8s/2025/01/23/09:47:52-gitworkflow</id><content type="html" xml:base="/k8s/2025/01/23/09-47-52-gitworkflow.html"><![CDATA[<p>一图胜千文，这张图真是让我爱不释手啊</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-23T16:21:01+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">git workflow</title><link href="/k8s/2025/01/23/09-47-52-gitworkflow.html" rel="alternate" type="text/html" title="git workflow" /><published>2025-01-23T01:47:52+00:00</published><updated>2025-01-23T01:47:52+00:00</updated><id>/k8s/2025/01/23/09:47:52-gitworkflow</id><content type="html" xml:base="/k8s/2025/01/23/09-47-52-gitworkflow.html"><![CDATA[<p>一图胜千文，这张图真是让我爱不释手啊</p>
 
 <p><img src="/assets/images/git-workflow.gif" alt="git workflow" /></p>
 
@@ -1247,4 +1194,135 @@ Content-Type: application/x-www-form-urlencoded
   <li>授权服务器处理用户登录并授权后，通过 <strong>302 重定向</strong> 将用户带回客户端(第三方应用)的 <code class="language-plaintext highlighter-rouge">redirect_uri</code>，同时携带 <code class="language-plaintext highlighter-rouge">auth_code</code> 和原始的 <code class="language-plaintext highlighter-rouge">state</code>。</li>
   <li>客户端(第三方应用)收到回调后验证 <code class="language-plaintext highlighter-rouge">state</code>，确保请求未被篡改。</li>
   <li>验证通过后，客户端(第三方应用)使用授权码换取访问令牌。</li>
-</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="oauth" /><category term="ai" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="oauth" /><category term="ai" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Kubernetes and Go R&amp;amp;D in VMware - Xianping</title><link href="/k8s/2024/11/03/kubernetes-in-vmware.html" rel="alternate" type="text/html" title="Kubernetes and Go R&amp;amp;D in VMware - Xianping" /><published>2024-11-03T06:43:43+00:00</published><updated>2024-11-03T06:43:43+00:00</updated><id>/k8s/2024/11/03/kubernetes-in-vmware</id><content type="html" xml:base="/k8s/2024/11/03/kubernetes-in-vmware.html"><![CDATA[<ul>
+  <li>Golang/Python/c/c++/Bash</li>
+  <li>Docker/Kubernetes/PostgreSQL/gRPC</li>
+  <li>Git/Jenkins/Gitlab</li>
+</ul>
+
+<p>2023.11-至今     	VMware					Kubernetes &amp; Go Engineer</p>
+
+<p>	项目经历：TMC Self-managed (私有云管理平台)的开发维护。
+该平台是 SaaS 平台的企业版，部署在企业的私有环境中，覆盖了网络、计算、存储等全栈资源。通过这种部署模式，企业可以最大程度地实现自主管理，确保数据安全和资源的高效利用。但由于是私有环境部署，企业在使用时将失去多云管理的能力。</p>
+<ol>
+  <li>技术栈：Go/Python, Gitlab, Kapp-controller, ytt, Prometheus，AD/LDAP/OIDC</li>
+  <li>职责：
+­	独立负责Kubernetes cluster CRUD生命周期管理。
+o	去掉部分SaaS功能：不再支持Azure/AWS，仅支持TKGm/TKGs vSphere。<br />
+o	编写自动化测试，完成自动化流水线开发测试，保证功能的独立完整性。<br />
+o	共完成4个版本的交付：参加bug bash、CVE分析、软件发布文档编写等。<br />
+­	重新设计并开发微服务的证书管理。彻底解决服务证书和根证书手动rotate问题(每三个月重启)。<br />
+证书管理分为服务证书和根证书管理，其中服务证书管理分为外部流量(south-north)和内部流量(east-west)证书管理。详见certificate management on TMC self-managed.<br />
+o	根证书分为内部根证书和外部根证书，内部根证书为self-signed，提供给cert-manager签发使用，外部根证书会分发到信任的客户端(如agent)做信任验证。<br />
+o	内部服务证书统一使用cert-manager管理(域名/有效时间/重新生成时间等签发)。<br />
+o	外部服务证书分为导入证书和cert-manager自管理的证书。<br />
+o	引入第三方服务reloader，支持自动重启服务以消费renew的证书。<br />
+­	¬¬¬参与installer开发。Installer把所有依赖的docker image重新打包并放到本地的registry中以适配air-gap环境安装、运行和维护。<br />
+o	基于Gitlab CI/CD完成超过100个repo的nightly持续集成和持续部署，结合自动化测试，解放了大量人力测试。</li>
+  <li>主要成就：<br />
+­	引入TMC self-manage项目到北京团队，并由北京团队完全负责(现在已经交接给印度团队)。<br />
+­	解决了大量客户问题：主要包括证书问题、第三方认证问题(OIDC/AD/LDAP)。</li>
+</ol>
+
+<p>2022.04-2023.11		VMware 						Kubernetes &amp; Go Engineer<br />
+主要工作内容包括a)功能设计开发；b)版本发布；c)自动化流水线的开发和维护；d)客户问题技术支持。</p>
+
+<p>	项目经历：Kubernetes多云(AWS/Azure/VMware)集中管理平台TMC的开发维护。
+TMC 是一个专为多云环境设计的 Kubernetes 资源统一管理 SaaS 平台，能够在跨多个云平台和 Kubernetes 集群之间实现一致的运维管理。该平台基于云原生控制器架构开发，采用微服务模式，通过扩展标准的 Kubernetes 资源来提供与标准Kubernetes一致的设计和用户体验，支持跨云环境的高效管理和操作。</p>
+<ol>
+  <li>技术栈：Go, Kubernetes, Docker, PostgreSQL, Terraform, Jenkins, Prometheus</li>
+  <li>职责：<br />
+参与核心功能模块设计开发。核心功能模块是Kubernetes集群的生命周期管理, 即Cluster/nodepool的创建、删除、修改、升级等功能。LCM模块通过调用远端接口实现。<br />
+­	实现k8s default storage class的支持：a)调用vSphere API 读取storage class/policy并通过agent返回到LCM，同时存储到数据库中; b) 渲染数据到UI并提供查询规则供用户交互使用; c) 设置Kubernetes集群的默认存储类。<br />
+­	集群CA证书支持：通过修改集群的CRD, 将CA证书植入到节点上，其中多云环境中植入到containerd配置文件中，而TKGS环境中植入到系统目录下。<br />
+­	支持proxy设置：即在创建cluster集群的时候把代理注入到集群当中。其中包括集群agent代理和工作负载代理设置。<br />
+­	提供下游terraform设计实现方案，并合作完成API开发测试。<br />
+­	主导(支持)软件版本发布，支持上游Kubernetes新版本(功能)发布，主要工作：升级最新的API、支持新功能和其测试验证。<br />
+­	软件CVE修复，维护自动化测试的CVE扫描工具(based on Trivy)。<br />
+­	编写功能的自动化测试代码，维护自动化流水线，保证功能测试的正确性和覆盖的完整性。</li>
+  <li>主要成就：
+­	主导1.6大版本的发布: 与团队其他两名成员紧密合作，完成了版本发布工作。主要负责升级至最新 API 并验证新功能，确保无功能回退 (regression) 的问题。同时，参与自动化流水线的开发、测试及维护，确保发布流程的高效和稳定。<br />
+­	重新设计实现了代理、证书和默认存储功能无缝并屏蔽不同provider的差异，为self-managed版本提供了保障。</li>
+</ol>
+
+<p>https://docs.vmware.com/en/VMware-Tanzu-Mission-Control/1.4/tanzumc-sm-install/index-sm-install.html</p>
+
+<p><img src="/assets/images/tmc-self-managed-arch.png" alt="tmc-self-managed-arch" /></p>
+
+<p><img src="/assets/images/tmc-self-managed-arch-flatten.png" alt="tmc-self-managed-arch-flatten" /></p>
+
+<h2 id="support-enabledisable-default-storage-class">Support enable/disable default storage class</h2>
+
+<ul>
+  <li>High level design
+<img src="/assets/images/en-disable-default-storage-class.png" alt="alt text" /></li>
+  <li>One pager for design and implementation <em><a href="/assets/images/Support+enable_disable-default-storage-class.doc">here</a></em></li>
+  <li>Video <em><a href="https://www.douyin.com/video/7303145324061805834">demo here</a></em></li>
+</ul>
+
+<h2 id="certificate-management-on-tmc-self-managed">Certificate management on TMC self-managed</h2>
+
+<ul>
+  <li>Overview
+<img src="/assets/images/cert-mgmt-overview.png" alt="alt text" /></li>
+  <li>One pager for design and implementation <em><a href="/assets/images/One+pager_+[TMC+SM]+Certificates+management+on+TMC+self-managed.doc">here</a></em></li>
+</ul>
+
+<h3 id="auto-reload-tls-certificate-secrets-for-stack-services">Auto reload TLS certificate secrets for stack services</h3>
+
+<ul>
+  <li>Overview<br />
+The TLS secret will be automatically renewed by cert-manager before it expires; however, the containers require an explicit restart to utilize the updated certificate. This could become an issue if customers forget to restart the service pods within the renewal duration.</li>
+  <li>Design and implementation</li>
+  <li>Demo <em><a href="/assets/images/Auto-reload-TLS-certificate-secrets-for-stack-services.pptx">pitch</a></em> and recordings:
+    <ul>
+      <li>Upgrade. Performing rolling-update for cert renewal. New duration/renewBefore configuration. <em><a href="https://www.douyin.com/video/7423428104548371752">here</a></em></li>
+      <li>Functionality test to SV register and WC creation. <em><a href="https://www.douyin.com/video/7423428378901892367">here</a></em></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="custom-trusted-ca-enhancement-for-tkg-workload-cluster">Custom trusted CA enhancement for TKG workload cluster</h3>
+
+<ul>
+  <li>High level design
+<img src="/assets/images/custom-ca.png" alt="solution" /></li>
+  <li>Design and implementation <em><a href="/assets/images/Custom-CAs-enhancement-for-TKG-workload-cluster.docx">here</a></em></li>
+</ul>
+
+<h3 id="custom-proxy-for-tkg-workload-cluster">Custom proxy for TKG workload cluster</h3>
+
+<ul>
+  <li>High level architecture
+<img src="/assets/images/high-level-proxy-arch.png" alt="high level architecture" /></li>
+  <li>Detailed</li>
+</ul>
+
+<h2 id="lcmlife-cycle-management-support-of-terraform">LCM(life cycle management) support of Terraform</h2>
+
+<ul>
+  <li>Overview
+<img src="/assets/images/lcm-of-terraform.png" alt="alt text" /></li>
+  <li>Design and implementation  <em><a href="/assets/images/LCM+support+of+Terraform.doc">here</a></em>  and  <em><a href="/assets/doc/Support+ZERO+nodepool+in+CREATE_UPDATE+cluster+API+SPEC.doc">here</a></em>.</li>
+</ul>
+
+<h2 id="software-version-release-and-automation-pipeline-maintenance">Software version release and Automation pipeline maintenance</h2>
+
+<ul>
+  <li>
+    <p>Lead(participate) for managing software version releases.<br />
+Lead the release of TKG 1.6 lifecycle management support
+TKG 1.6 is a major release, and as downstream support, we need to cover all new features, including interface upgrades and feature validation, with a focus on over 200 P0 features.</p>
+  </li>
+  <li>
+    <p>Automation pipeline maintenance.</p>
+    <ul>
+      <li>Promotion pipeline for
+        <ul>
+          <li>unstable -&gt; stable -&gt; canary -&gt; production</li>
+        </ul>
+      </li>
+      <li>Branches management <img src="/assets/images/auto-branch-cut.png" alt="release lifecycle and auto branching management" /></li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="k8s" /><category term="gRPC" /><category term="PostgreSQL" /><category term="golang" /><category term="cloud" /><category term="ai" /><summary type="html"><![CDATA[Golang/Python/c/c++/Bash Docker/Kubernetes/PostgreSQL/gRPC Git/Jenkins/Gitlab]]></summary></entry></feed>
