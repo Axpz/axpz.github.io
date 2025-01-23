@@ -1,5 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-23T16:21:01+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">git workflow</title><link href="/k8s/2025/01/23/09-47-52-gitworkflow.html" rel="alternate" type="text/html" title="git workflow" /><published>2025-01-23T01:47:52+00:00</published><updated>2025-01-23T01:47:52+00:00</updated><id>/k8s/2025/01/23/09:47:52-gitworkflow</id><content type="html" xml:base="/k8s/2025/01/23/09-47-52-gitworkflow.html"><![CDATA[<p>一图胜千文，这张图真是让我爱不释手啊</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-23T16:53:52+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News 热门话题 top 10 2025-01-23</title><link href="/hacknews/2025/01/23/16-45-00-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-23" /><published>2025-01-23T08:45:00+00:00</published><updated>2025-01-23T08:45:00+00:00</updated><id>/hacknews/2025/01/23/16:45:00-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/23/16-45-00-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-23 16:45:00</p>
+
+<ol>
+  <li><strong>Bunster：将 Bash 脚本编译成独立可执行文件</strong>：一个 GitHub 项目，允许用户将 Bash 脚本编译成独立的可执行文件，这为脚本的分发和执行提供了便利。
+    <ul>
+      <li><a href="https://github.com/yassinebenaid/bunster">链接</a></li>
+    </ul>
+  </li>
+  <li><strong>迷幻图形：介绍</strong>：一篇介绍迷幻图形的文章，探讨了这种风格独特的视觉艺术。
+    <ul>
+      <li><a href="https://benpence.com/blog/post/psychedelic-graphics-0">链接</a></li>
+    </ul>
+  </li>
+  <li><strong>Show HN：从头开始制作的开源笔记本电脑</strong>：一个开发者展示了他如何从头开始制作一个开源笔记本电脑的过程。
+    <ul>
+      <li><a href="https://www.byran.ee/posts/creation/">链接</a></li>
+    </ul>
+  </li>
+  <li><strong>泄露文件揭露以色列军队与微软之间的深厚联系</strong>：一篇文章揭露了以色列军队与微软之间不为人知的紧密联系。
+    <ul>
+      <li><a href="https://www.972mag.com/microsoft-azure-openai-israeli-army-cloud/">链接</a></li>
+    </ul>
+  </li>
+  <li><strong>Show HN：libmodulor – 一个有观点的 TypeScript 库，用于构建多平台应用</strong>：一个 GitHub 项目，提供了一个用于构建跨平台应用的 TypeScript 库。
+    <ul>
+      <li><a href="https://github.com/c100k/libmodulor">链接</a></li>
+    </ul>
+  </li>
+  <li><strong>轨道螺旋图（2019）</strong>：一篇关于轨道螺旋图的介绍文章，探讨了这种数学图形的美学和数学原理。
+    <ul>
+      <li><a href="https://www.redblobgames.com/x/1903-orbit-spirograph/">链接</a></li>
+    </ul>
+  </li>
+  <li><strong>伦敦最中心的羊在哪里？</strong>：一篇有趣的博客文章，探讨了伦敦最中心的羊的位置。
+    <ul>
+      <li><a href="https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html">链接</a></li>
+    </ul>
+  </li>
+  <li><strong>第三基地（2001）</strong>：一篇关于“第三基地”的文章，可能涉及科学或技术领域的某个特定话题。
+    <ul>
+      <li><a href="https://www.americanscientist.org/article/third-base">链接</a></li>
+    </ul>
+  </li>
+  <li><strong>英国微型巨头</strong>：一篇探讨英国在微型计算机领域的历史和影响的文章。
+    <ul>
+      <li><a href="https://www.abortretry.fail/p/the-british-micro-behemoth">链接</a></li>
+    </ul>
+  </li>
+  <li><strong>查看压缩算法</strong>：一篇关于压缩算法的详细介绍，包括它们的原理和应用。
+    <ul>
+      <li><a href="https://cefboud.github.io/posts/compression/">链接</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 16:45:00]]></summary></entry><entry><title type="html">git workflow</title><link href="/k8s/2025/01/23/09-47-52-gitworkflow.html" rel="alternate" type="text/html" title="git workflow" /><published>2025-01-23T01:47:52+00:00</published><updated>2025-01-23T01:47:52+00:00</updated><id>/k8s/2025/01/23/09:47:52-gitworkflow</id><content type="html" xml:base="/k8s/2025/01/23/09-47-52-gitworkflow.html"><![CDATA[<p>一图胜千文，这张图真是让我爱不释手啊</p>
 
 <p><img src="/assets/images/git-workflow.gif" alt="git workflow" /></p>
 
@@ -391,938 +444,322 @@ CC (Creative Commons License)，适合开源非软件类作品，如文档、艺
 <h2 id="适用场景-6">适用场景</h2>
 <ul>
   <li>适合开源非软件类作品</li>
-</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="license" /><category term="tech" /><summary type="html"><![CDATA[常见的开源许可协议，可以理解为两条线]]></summary></entry><entry><title type="html">Hacker News 热门话题 2025-01-20</title><link href="/hacknews/2025/01/19/11-47-52-hacknews-top10.html" rel="alternate" type="text/html" title="Hacker News 热门话题 2025-01-20" /><published>2025-01-19T17:20:31+00:00</published><updated>2025-01-19T17:20:31+00:00</updated><id>/hacknews/2025/01/19/11:47:52-hacknews-top10</id><content type="html" xml:base="/hacknews/2025/01/19/11-47-52-hacknews-top10.html"><![CDATA[<p>Hacker News 热门话题 2025-01-20 01:20:31</p>
+</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="license" /><category term="tech" /><summary type="html"><![CDATA[常见的开源许可协议，可以理解为两条线]]></summary></entry><entry><title type="html">Hacker News 热门话题 top 10 2025-01-21</title><link href="/hacknews/2025/01/21/09-08-57-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-21" /><published>2025-01-21T01:08:57+00:00</published><updated>2025-01-21T01:08:57+00:00</updated><id>/hacknews/2025/01/21/09:08:57-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/21/09-08-57-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-21 09:08:57</p>
 
 <ol>
-  <li><strong>TikTok 在美国被禁用</strong>：TikTok 在美国被禁用的新闻引起了广泛关注，讨论了这一事件对用户访问量的影响以及替代应用的激增。
+  <li><strong>《使命召唤》反作弊系统逆向工程</strong>：文章讨论了对《使命召唤》反作弊系统的逆向工程，揭示了游戏安全机制的复杂性和挑战。
     <ul>
-      <li><a href="https://techcrunch.com/2025/01/18/tiktok-goes-dark-in-the-u-s/">TikTok goes dark in the US</a></li>
-      <li><a href="https://blog.cloudflare.com/tiktok-ban-traffic-decline-alternatives-rednote/">TikTok Shut Down: Data Shows 85% Drop in US Access (and Surge to Alternatives)</a></li>
+      <li><a href="https://ssno.cc/posts/reversing-tac-1-4-2025/">链接</a></li>
     </ul>
   </li>
-  <li><strong>发光材料制作</strong>：一个关于如何制作发光的锶铝酸盐材料的项目，展示了 DIY 科学实验的趣味性和教育价值。
+  <li><strong>DeepSeek-R1</strong>：GitHub 上的一个项目，DeepSeek-R1，引起了社区的关注，可能是一个与深度学习或AI相关的工具或框架。
     <ul>
-      <li><a href="https://maurycyz.com/projects/strontium_aluminate/">Making glow-in-the-dark Strontium Aluminate</a></li>
+      <li><a href="https://github.com/deepseek-ai/DeepSeek-R1">链接</a></li>
     </ul>
   </li>
-  <li><strong>模糊测试书籍</strong>：《The Fuzzing Book》提供了关于模糊测试的深入知识和实践指南，是安全测试领域的重要资源。
+  <li><strong>塞尔玛游行（1965）</strong>：《纽约客》杂志上的一篇文章，回顾了1965年的塞尔玛游行，这是美国民权运动的一个重要事件。
     <ul>
-      <li><a href="https://www.fuzzingbook.org/">The Fuzzing Book</a></li>
+      <li><a href="https://www.newyorker.com/magazine/1965/04/10/letter-from-selma">链接</a></li>
     </ul>
   </li>
-  <li><strong>Forgejo 自托管软件仓库</strong>：Forgejo 是一个轻量级的自托管软件仓库，为开发者提供了一个私有的代码管理解决方案。
+  <li><strong>Mixxx：GPL DJ软件</strong>：Mixxx是一个开源的DJ软件，遵循GPL许可证，为DJ提供了一个免费且功能丰富的混音工具。
     <ul>
-      <li><a href="https://forgejo.org/">Forgejo: A self-hosted lightweight software forge</a></li>
+      <li><a href="https://mixxx.org/">链接</a></li>
     </ul>
   </li>
-  <li><strong>构建数据库教程</strong>：一个教程，教你如何在3000行代码内构建一个无依赖的数据库，展示了数据库开发的基础知识。
+  <li><strong>ROCm设备支持愿望清单</strong>：ROCm社区讨论了对设备支持的愿望清单，这可能涉及到对AMD GPU的支持和优化。
     <ul>
-      <li><a href="https://build-your-own.org/blog/20251015_db_in_3000/">Build a Database in 3000 Lines with 0 Dependencies</a></li>
+      <li><a href="https://github.com/ROCm/ROCm/discussions/4276">链接</a></li>
     </ul>
   </li>
-  <li><strong>GauntletAI 培训计划</strong>：GauntletAI 提供的培训计划，包括培训、工作机会和薪酬，吸引了对人工智能感兴趣的开发者。
+  <li><strong>Ruff：用Rust编写的Python linter和代码格式化器</strong>：Ruff是一个新工具，它结合了linter和代码格式化器的功能，用于提高Python代码的质量和一致性。
     <ul>
-      <li><a href="https://gauntletai.com">GauntletAI (YC S17) will fly you out, train you to build w AI, give you 200k job</a></li>
+      <li><a href="https://github.com/astral-sh/ruff">链接</a></li>
     </ul>
   </li>
-  <li><strong>Haskell 程序语言</strong>：一篇文章讨论了 Haskell 作为程序语言的优势，特别是在过程式编程中的应用。
+  <li><strong>Peter Roberts，移民律师，为YC和初创公司工作。AMA</strong>：Peter Roberts，一位移民律师，为Y Combinator和初创公司提供服务，正在进行“问我任何问题”（AMA）活动。
     <ul>
-      <li><a href="https://entropicthoughts.com/haskell-procedural-programming">Haskell: A Great Procedural Language</a></li>
+      <li><a href="item?id=42770125">链接</a></li>
     </ul>
   </li>
-  <li><strong>GitHub 新功能</strong>：GitHub 引入了子问题、问题类型和高级搜索功能，这些新特性旨在提高问题跟踪和管理的效率。
+  <li><strong>Matt Mullenweg，Automattic的CEO，似乎决心破坏WordPress</strong>：一篇文章讨论了Matt Mullenweg对WordPress的潜在负面影响，引起了社区的广泛讨论。
     <ul>
-      <li><a href="https://github.blog/changelog/2025-01-13-evolving-github-issues-public-preview/">GitHub introduces sub-issues, issue types and advanced search</a></li>
+      <li><a href="https://digitalcxo.com/article/matt-mullenweg-automattics-ceo-seems-bound-and-determined-to-wreck-wordpress/">链接</a></li>
     </ul>
   </li>
-  <li><strong>图像文件显示难度</strong>：一篇文章探讨了在屏幕上显示图像文件内容的难度，涉及图像处理和显示技术。
+  <li><strong>光学菲涅尔透镜：通过I线步进器的彩色光刻胶</strong>：Nature上的一篇文章，介绍了一种新型的光学菲涅尔透镜技术，这种技术可能对摄影和成像技术产生重大影响。
     <ul>
-      <li><a href="https://wolf.nereid.pl/posts/image-viewer/">How hard would it be to display the contents of an image file on the screen?</a></li>
+      <li><a href="https://www.nature.com/articles/s41377-024-01725-6">链接</a></li>
     </ul>
   </li>
-  <li><strong>Linux 网络编程指南</strong>：一个全面的 Linux 网络编程指南，为开发者提供了网络编程的基础知识和实践技巧。
+  <li><strong>我不是失败者：从六次失败的创业尝试中学到的教训</strong>：一位创业者分享了他从六次失败的创业尝试中学到的教训，为其他创业者提供了宝贵的经验。
     <ul>
-      <li><a href="https://github.com/nguyenchiemminhvu/LinuxNetworkProgramming">About A comprehensive guide for Linux Network (Socket) programming</a></li>
+      <li><a href="http://blog.rongarret.info/2025/01/i-am-not-failure-lessons-learned-from.html">链接</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-20 01:20:31]]></summary></entry><entry><title type="html">Kong start from api-gateway</title><link href="/kong/2025/01/16/kong-start-up.html" rel="alternate" type="text/html" title="Kong start from api-gateway" /><published>2025-01-16T06:43:43+00:00</published><updated>2025-01-16T06:43:43+00:00</updated><id>/kong/2025/01/16/kong-start-up</id><content type="html" xml:base="/kong/2025/01/16/kong-start-up.html"><![CDATA[<p>Kong Konnect Demo: https://www.youtube.com/watch?v=0XEtsyq_sUQ<br />
-Get started with Kong gateway https://www.youtube.com/watch?v=hdE-rMAdYVY<br />
-Kong Oauth https://www.youtube.com/watch?v=AIYIHZbDziI</p>
-
-<p>Create your first API Gateway<br />
-<img src="/assets/images/kong/Create_your_first_API_Gateway.png" alt="alt text" /></p>
-
-<p>Add your first API<br />
-<img src="/assets/images/kong/first_api.png" alt="alt text" /></p>
-
-<p>Test your Gateway</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://kong-b3f5187d11usr19ve.kongcloud.dev/examples/weather/utopia
-</code></pre></div></div>
-
-<p>About this Route
-Proxy URL:
-https://kong-b3f5187d11usr19ve.kongcloud.dev/examples/weather/utopia</p>
-
-<p>Upstream URL:
-global.api.konghq.com/examples/weather/utopia</p>
-
-<p>Upstream URL:
-global.api.konghq.com/examples/weather/utopia</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="kong" /><category term="kong" /><category term="api" /><category term="gateway" /><category term="ai" /><summary type="html"><![CDATA[Kong Konnect Demo: https://www.youtube.com/watch?v=0XEtsyq_sUQ Get started with Kong gateway https://www.youtube.com/watch?v=hdE-rMAdYVY Kong Oauth https://www.youtube.com/watch?v=AIYIHZbDziI]]></summary></entry><entry><title type="html">Hybrid cloud computing - Github CICD pipelines</title><link href="/k8s/2025/01/15/hybrid-cloud-computing-cicd-axpz.github.io.html" rel="alternate" type="text/html" title="Hybrid cloud computing - Github CICD pipelines" /><published>2025-01-15T15:18:15+00:00</published><updated>2025-01-15T15:18:15+00:00</updated><id>/k8s/2025/01/15/hybrid-cloud-computing-cicd-axpz.github.io</id><content type="html" xml:base="/k8s/2025/01/15/hybrid-cloud-computing-cicd-axpz.github.io.html"><![CDATA[<h1 id="混合云数据中心之cicd">混合云数据中心之CICD</h1>
-
-<p>这是我要搭建的第一个服务：个人blog的CI/CD - 持续集成和持续部署</p>
-
-<h2 id="目标">目标</h2>
-<p>当xMinima repo有新的提交的时候，会自动触发流水线执行以下任务</p>
-<ul>
-  <li>自动构建（Build）</li>
-  <li>集成与测试（Integration &amp; Testing）</li>
-  <li>自动部署到 axpz.github.io</li>
-</ul>
-
-<h2 id="solutions">Solutions</h2>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-21 09:08:57]]></summary></entry><entry><title type="html">Hacker News 热门话题 top 10 2025-01-21</title><link href="/hacknews/2025/01/21/09-04-52-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-21" /><published>2025-01-21T01:04:52+00:00</published><updated>2025-01-21T01:04:52+00:00</updated><id>/hacknews/2025/01/21/09:04:52-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/21/09-04-52-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-21 09:04:52</p>
 
 <ol>
-  <li>
-    <p>使用Github Actions, 从企业级开发来讲，我推荐使用Github Actions。</p>
-
-    <p>Pros: 
-   易用性：即开即用，集成度高，支持大量插件和模板。
-   维护性低：由 GitHub 官方管理，无需自行维护基础设施。
-   社区支持：活跃社区，有大量教程和最佳实践。</p>
-
-    <p>Cons:
-   成本：对于大型企业和高频执行，费用较高。
-   灵活性受限：不适合特别复杂或定制化的 CI/CD 流程。</p>
-  </li>
-  <li>
-    <p>自建pipeline，从full control和 cost down的角度，我建议自建pipeline。</p>
-
-    <p>Pros:
-   完全控制：可以根据需求高度定制和优化。
-   成本控制：对于大规模任务，长期来看更具经济性。
-   安全性：代码和数据完全掌控在内部网络中。</p>
-
-    <p>Cons:
-   开发/维护成本高：需要专门团队维护 CI/CD 基础设施。
-   上手难度：初期搭建和优化可能较复杂，耗时较长。</p>
-  </li>
-</ol>
-
-<p>别忘了我们的关键词是cost-effective。那上一篇文章中，我们已经自行搭建了基础设置，那我们自行build pipeline自然是顺理成章的事情，这个不难，至少对我们来讲。</p>
-
-<h2 id="implementationgithub-自建-cicd-流水线设计与实施方案">Implementation：GitHub 自建 CI/CD 流水线设计与实施方案</h2>
-
-<h3 id="整体架构">整体架构</h3>
-<p>整体架构分为四个部分</p>
-<ol>
-  <li>Webhook 事件触发：
+  <li><strong>《使命召唤》反作弊系统逆向工程</strong>：讨论了对《使命召唤》游戏中反作弊系统的逆向工程分析，揭示了游戏安全机制的复杂性和挑战。
     <ul>
-      <li>GitHub 触发 Webhook。</li>
+      <li><a href="https://ssno.cc/posts/reversing-tac-1-4-2025/">链接</a></li>
     </ul>
   </li>
-  <li>Ingress 路由：
+  <li><strong>DeepSeek-R1开源项目</strong>：介绍了DeepSeek-R1项目，这是一个开源的人工智能项目，引起了技术社区的关注。
     <ul>
-      <li>请求通过 Kubernetes Ingress 转发到服务。</li>
+      <li><a href="https://github.com/deepseek-ai/DeepSeek-R1">链接</a></li>
     </ul>
   </li>
-  <li>事件处理：
+  <li><strong>塞尔玛游行历史回顾</strong>：回顾了1965年塞尔玛游行的历史事件，这是美国民权运动中的一个重要时刻。
     <ul>
-      <li>服务解析事件并触发流水线。</li>
+      <li><a href="https://www.newyorker.com/magazine/1965/04/10/letter-from-selma">链接</a></li>
     </ul>
   </li>
-  <li>流水线执行：
+  <li><strong>Mixxx：GPL DJ软件</strong>：介绍了Mixxx，一个开源的DJ软件，受到音乐制作和DJ社区的欢迎。
     <ul>
-      <li>自动构建、测试与部署。
-整体架构图
-<img src="/assets/images/high-level-arch-github-cicd.png" alt="github cicd" />
-        <h4 id="1-webhook-事件订阅">1. Webhook 事件订阅</h4>
-        <p>通过注册 <strong>GitHub Webhook</strong> 接收以下事件：
-     - <strong>pull_request</strong>：用于监控 Pull Request 的状态，如创建、更新、合并等。
-     - <strong>push</strong>：用于监控代码分支的变更（如 <code class="language-plaintext highlighter-rouge">git push</code> 或 <code class="language-plaintext highlighter-rouge">git push --force</code>）。</p>
-      </li>
+      <li><a href="https://mixxx.org/">链接</a></li>
     </ul>
   </li>
-</ol>
-
-<p><strong>功能：</strong></p>
-<ul>
-  <li>实时监听仓库的关键事件。</li>
-  <li>根据触发条件将事件传递给处理服务。</li>
-</ul>
-
-<p><strong>实现：</strong>
-<img src="/assets/images/github-webhook-cicd.png" alt="github webhook" /></p>
-
-<hr />
-
-<h4 id="2-ingress-路由配置">2. Ingress 路由配置</h4>
-<p>使用 <strong>Kubernetes Ingress</strong> 将外部请求路由到 <strong>GitHub Agent Server</strong>。</p>
-
-<p><strong>配置要点：</strong></p>
-<ul>
-  <li>定义 Ingress 规则：将 GitHub Webhook 请求（如 <code class="language-plaintext highlighter-rouge">/github/webhook</code>）路由到服务的特定端点。</li>
-  <li>[Options] 启用 HTTPS 支持：通过证书管理（如 Cert-Manager）实现安全通信。</li>
-</ul>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">traefik.containo.us/v1alpha1</span>
-<span class="na">kind</span><span class="pi">:</span> <span class="s">IngressRoute</span>
-<span class="na">metadata</span><span class="pi">:</span>
-  <span class="na">name</span><span class="pi">:</span> <span class="s">github-agent-server</span>
-  <span class="na">namespace</span><span class="pi">:</span> <span class="s">default</span>
-<span class="na">spec</span><span class="pi">:</span>
-  <span class="na">entryPoints</span><span class="pi">:</span>
-  <span class="pi">-</span> <span class="s">web</span>
-  <span class="na">routes</span><span class="pi">:</span>
-  <span class="pi">-</span> <span class="na">kind</span><span class="pi">:</span> <span class="s">Rule</span>
-    <span class="na">match</span><span class="pi">:</span> <span class="s">Host(`74.121.149.207`) &amp;&amp; PathPrefix(`/github/webhook`)</span>
-    <span class="na">services</span><span class="pi">:</span>
-    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">github-agent-server</span>
-      <span class="na">port</span><span class="pi">:</span> <span class="m">80</span>
-<span class="nn">---</span>
-<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">v1</span>
-<span class="na">kind</span><span class="pi">:</span> <span class="s">Service</span>
-<span class="na">metadata</span><span class="pi">:</span>
-  <span class="na">name</span><span class="pi">:</span> <span class="s">github-agent-server</span>
-<span class="na">spec</span><span class="pi">:</span>
-  <span class="na">selector</span><span class="pi">:</span>
-    <span class="na">app</span><span class="pi">:</span> <span class="s">github-agent-server</span>
-  <span class="na">ports</span><span class="pi">:</span>
-    <span class="pi">-</span> <span class="na">protocol</span><span class="pi">:</span> <span class="s">TCP</span>
-      <span class="na">port</span><span class="pi">:</span> <span class="m">80</span>
-      <span class="na">targetPort</span><span class="pi">:</span> <span class="m">8080</span>
-
-</code></pre></div></div>
-
-<hr />
-
-<h4 id="3-event-处理与流水线触发">3. Event 处理与流水线触发</h4>
-<p>服务接收 Webhook 事件后，执行以下操作：</p>
-<ol>
-  <li><strong>解析事件内容</strong>：
+  <li><strong>ROCm设备支持愿望清单</strong>：讨论了ROCm（Radeon Open Compute）平台的设备支持问题，这是一个针对AMD GPU的开源计算平台。
     <ul>
-      <li>提取关键信息（如事件类型、分支、Pull Request 状态等）。</li>
+      <li><a href="https://github.com/ROCm/ROCm/discussions/4276">链接</a></li>
     </ul>
   </li>
-  <li><strong>检测特定条件</strong>：
+  <li><strong>移民律师Peter Roberts的AMA</strong>：移民律师Peter Roberts为YC和初创公司工作，进行了一次“问我任何问题”（AMA）活动。
     <ul>
-      <li>Pull Request 合并（<code class="language-plaintext highlighter-rouge">pull_request merged</code>）。</li>
-      <li>强制推送（<code class="language-plaintext highlighter-rouge">git push --force</code>）。</li>
+      <li><a href="item?id=42770125">链接</a></li>
     </ul>
   </li>
-  <li><strong>触发流水线 Jobs</strong>：
+  <li><strong>光学菲涅尔透镜技术</strong>：介绍了一种新型光学菲涅尔透镜技术，该技术使用I线步进光刻技术制造彩色光刻胶透镜。
     <ul>
-      <li>满足条件时启动相关流水线任务。</li>
+      <li><a href="https://www.nature.com/articles/s41377-024-01725-6">链接</a></li>
     </ul>
   </li>
-</ol>
-
-<hr />
-
-<h4 id="4-流水线-jobs">4. 流水线 Jobs</h4>
-<p>流水线的主要任务包括以下阶段：</p>
-
-<h5 id="自动构建build">自动构建（Build）</h5>
-<ul>
-  <li>编译代码，生成构建产物（如前端资源、可执行文件等）。</li>
-  <li>确保构建无错误。</li>
-</ul>
-
-<h5 id="集成与测试integration--testing">集成与测试（Integration &amp; Testing）</h5>
-<ul>
-  <li>执行单元测试、集成测试和端到端测试。</li>
-  <li>生成测试报告，确保代码质量。</li>
-</ul>
-
-<h5 id="部署到-axpzgithubio">部署到 axpz.github.io</h5>
-<ul>
-  <li>将构建产物部署到 <code class="language-plaintext highlighter-rouge">axpz.github.io</code>，实现自动化发布。</li>
-  <li>[day2] 支持版本控制与回滚机制。</li>
-</ul>
-
-<p>创建secret存放github private key</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kubectl create secret generic github-ssh-key-secret <span class="nt">--from-file</span><span class="o">=</span><span class="nv">id_rsa</span><span class="o">=</span>/home/ubuntu/.ssh/id_isa <span class="nt">--from-file</span><span class="o">=</span><span class="nv">known_hosts</span><span class="o">=</span>/home/ubuntu/.ssh/known_hosts
-</code></pre></div></div>
-
-<p>对于不同的hardware architecture，可能需要自建一个docker image</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> &gt; Dockerfile
-FROM ruby:latest
-RUN gem install jekyll bundler jekyll-seo-tag csv base64
-</span><span class="no">EOF
-
-</span><span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> &gt; Dockerfile2
-FROM ruby:3.2-alpine
-
-ENV BUNDLER_VERSION=2.4.13 </span><span class="se">\</span><span class="sh">
-    JEKYLL_VERSION=4.3.2 </span><span class="se">\</span><span class="sh">
-    BUILD_DEPS="build-base gcc libxml2-dev libxslt-dev readline-dev" </span><span class="se">\</span><span class="sh">
-    RUNTIME_DEPS="tzdata bash"
-
-RUN apk add --no-cache </span><span class="nv">$BUILD_DEPS</span><span class="sh"> </span><span class="nv">$RUNTIME_DEPS</span><span class="sh"> &amp;&amp; </span><span class="se">\</span><span class="sh">
-    gem install jekyll:</span><span class="nv">$JEKYLL_VERSION</span><span class="sh"> bundler:</span><span class="nv">$BUNDLER_VERSION</span><span class="sh"> jekyll-seo-tag csv base64 &amp;&amp; </span><span class="se">\</span><span class="sh">
-    apk del </span><span class="nv">$BUILD_DEPS</span><span class="sh"> &amp;&amp; </span><span class="se">\</span><span class="sh">
-    rm -rf /var/cache/apk/* /usr/lib/lib/ruby/gems/*/cache/*
-
-WORKDIR /app
-
-CMD ["jekyll", "--help"]
-</span><span class="no">EOF
-
-
-</span>docker build <span class="nt">-t</span> jekyll-cicd:4.3.2 <span class="nb">.</span>
-docker save <span class="nt">-o</span> /tmp/jekyll-cicd.tar jekyll-cicd:4.3.2
-ctr <span class="nt">-n</span><span class="o">=</span>k8s.io images import /tmp/snap-private-tmp/snap.docker/tmp/jekyll-cicd.tar
-</code></pre></div></div>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">batch/v1</span>
-<span class="na">kind</span><span class="pi">:</span> <span class="s">Job</span>
-<span class="na">metadata</span><span class="pi">:</span>
-  <span class="na">name</span><span class="pi">:</span> <span class="s">cicd-job</span>
-<span class="na">spec</span><span class="pi">:</span>
-  <span class="na">template</span><span class="pi">:</span>
-    <span class="na">spec</span><span class="pi">:</span>
-      <span class="na">containers</span><span class="pi">:</span>
-      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">cicd-container</span>
-        <span class="na">image</span><span class="pi">:</span> <span class="s">jekyll-cicd</span>
-        <span class="na">imagePullPolicy</span><span class="pi">:</span> <span class="s">IfNotPresent</span>
-        <span class="na">command</span><span class="pi">:</span>
-        <span class="pi">-</span> <span class="s">/bin/bash</span>
-        <span class="pi">-</span> <span class="s">-c</span>
-        <span class="pi">-</span> <span class="pi">|</span>
-          <span class="s">set -ex</span>
-          <span class="s">git config --global user.name "Axpz"</span>
-          <span class="s">git config --global user.email "axpzhang@gmail.com"</span>
-
-          <span class="s">echo "Cloning repository..."</span>
-          <span class="s">git clone git@github.com:Axpz/xMinima.git</span>
-          <span class="s">echo "Running release script..."</span>
-          <span class="s">cd xMinima </span>
-          <span class="s">bash -x script/bootstrap</span>
-          <span class="s">commitMsg=`git log -1 --pretty=%B`</span>
-          <span class="s">bash -x script/release.axpz.github.io "$commitMsg"</span>
-        <span class="na">env</span><span class="pi">:</span>
-        <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">GIT_SSH_COMMAND</span>
-          <span class="na">value</span><span class="pi">:</span> <span class="s2">"</span><span class="s">ssh</span><span class="nv"> </span><span class="s">-o</span><span class="nv"> </span><span class="s">StrictHostKeyChecking=no"</span>
-        <span class="na">volumeMounts</span><span class="pi">:</span>
-        <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">github-ssh-keys</span>
-          <span class="na">mountPath</span><span class="pi">:</span> <span class="s">/root/.ssh</span>
-          <span class="na">readOnly</span><span class="pi">:</span> <span class="kc">true</span>
-      <span class="na">restartPolicy</span><span class="pi">:</span> <span class="s">Never</span>
-      <span class="na">volumes</span><span class="pi">:</span>
-      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">github-ssh-keys</span>
-        <span class="na">secret</span><span class="pi">:</span>
-          <span class="na">secretName</span><span class="pi">:</span> <span class="s">github-ssh-key-secret</span> <span class="c1"># 请确保预先创建了此 Secret</span>
-          <span class="na">defaultMode</span><span class="pi">:</span> <span class="m">0600</span>
-  <span class="na">backoffLimit</span><span class="pi">:</span> <span class="m">0</span> <span class="c1"># 任务失败后不重试</span>
-  <span class="na">ttlSecondsAfterFinished</span><span class="pi">:</span> <span class="m">60</span> <span class="c1"># 在任务完成 60 秒后删除 Job</span>
-</code></pre></div></div>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="kubernetes" /><category term="k8s" /><category term="k3s" /><category term="golang" /><category term="cloud" /><category term="ai" /><summary type="html"><![CDATA[混合云数据中心之CICD]]></summary></entry><entry><title type="html">Kubernetes personal hybrid cloud edge computing</title><link href="/k8s/2025/01/12/kubernetes-personal-hybrid-cloud-edge-computing.html" rel="alternate" type="text/html" title="Kubernetes personal hybrid cloud edge computing" /><published>2025-01-12T06:43:43+00:00</published><updated>2025-01-12T06:43:43+00:00</updated><id>/k8s/2025/01/12/kubernetes-personal-hybrid-cloud-edge-computing</id><content type="html" xml:base="/k8s/2025/01/12/kubernetes-personal-hybrid-cloud-edge-computing.html"><![CDATA[<!-- Header Section -->
-<h1 id="基于k3s搭建个人混合云数据中心高效利用边缘计算与云服务">基于k3s搭建个人混合云数据中心：高效利用边缘计算与云服务</h1>
-
-<!-- Navigation Bar -->
-<h2 id="目录">目录</h2>
-<ol>
-  <li><a href="#背景与问题">背景与问题</a></li>
-  <li><a href="#实现方案">实现方案</a>
+  <li><strong>WordPress的未来</strong>：讨论了WordPress的未来，特别是Matt Mullenweg（Automattic的CEO）对WordPress可能产生的影响。
     <ul>
-      <li><a href="#方案1-集群混合部署公有云计算节点和私有云计算节点混合部署">方案1: 集群混合部署：公有云计算节点和私有云计算节点混合部署</a></li>
-      <li><a href="#方案2-集群部署在私有计算节点上使用公有云节点当作ingress">方案2: 集群部署在私有计算节点上，使用公有云节点当作ingress</a></li>
-      <li><a href="#方案3-公有云节点上部署网关，直接转发服务到私有计算节点">方案3: 公有云节点上部署网关，直接转发服务到私有计算节点</a></li>
+      <li><a href="https://digitalcxo.com/article/matt-mullenweg-automattics-ceo-seems-bound-and-determined-to-wreck-wordpress/">链接</a></li>
     </ul>
   </li>
-  <li><a href="#测试">测试</a></li>
-</ol>
-
-<!-- Main Content Section -->
-<h2 id="背景与问题">背景与问题</h2>
-<p>随着云计算和边缘计算技术的不断发展，个人用户在使用云主机时面临着一个不可忽视的问题：随着计算需求的增加，云主机的费用也随之增长。这对于那些有特定计算需求，但又不希望一直支付高额云费用的个人用户来说，构建一个混合云架构显得尤为重要。</p>
-
-<p>在传统的云计算模式下，用户的数据和计算任务会被完全转移到云数据中心，随着计算量和存储需求的增加，云计算的费用也会显著提升。而对于许多家庭用户来说，往往有较强的本地计算能力——例如，个人闲置的家用计算机通常配备了较高的硬件配置（如多核CPU、大量内存和硬盘存储），但是由于这些设备并未得到充分利用，造成了资源的浪费。</p>
-
-<p>因此，将边缘计算能力与云服务结合，搭建一个个人混合云数据中心，成为解决这一问题的理想方案。通过这种方式，用户可以充分利用本地计算机的闲置资源，将一些计算密集型任务和存储任务转移到本地边缘节点上，而将需要更高可用性、灵活性或规模的任务交给公有云来处理。</p>
-
-<h3 id="这种架构的优势">这种架构的优势：</h3>
-<ol>
-  <li><strong>降低云计算成本</strong>：通过将部分计算和存储任务转移到本地边缘节点，减少了对云服务的依赖，进而减少了云计算的费用。</li>
-  <li><strong>高效利用闲置资源</strong>：充分利用家用计算机等本地设备的计算和存储能力，避免了硬件资源的浪费。</li>
-  <li><strong>降低网络延迟</strong>：将边缘计算部署在离数据源更近的地方，减少了网络延迟，尤其适用于延迟敏感型应用。</li>
-  <li><strong>灵活性与可扩展性</strong>：通过公有云和本地计算机的结合，用户可以灵活调度和扩展资源，既能保证高效性，也能提供类似公有云的管理体验。</li>
-</ol>
-
-<p>然而，在实现个人混合云数据中心时，仍然面临一些挑战，特别是在网络连接、同步以及资源的调度与管理方面。例如，如何有效地连接本地设备与云服务，保证数据的安全与同步？如何在网络延迟较高的情况下，确保系统稳定运行？</p>
-
-<p>因此，搭建一个既能减少云计算成本，又能高效利用本地硬件资源的个人混合云数据中心，变成了一个有意思的事情。</p>
-
-<h2 id="实现方案">实现方案</h2>
-<p>这里我们尝试两种方案</p>
-<ol>
-  <li>集群混合部署：公有云计算节点和私有云计算节点混合部署</li>
-  <li>集群部署在私有计算节点上，使用公有云节点当作ingress</li>
-  <li>公有云节点上部署网关，直接转发服务到私有计算节点</li>
-</ol>
-
-<h3 id="方案1-集群混合部署公有云计算节点和私有云计算节点混合部署">方案1: 集群混合部署：公有云计算节点和私有云计算节点混合部署</h3>
-<p>传统的方案通常将私有云和公有云独立架构，然后使用常用中间件来打通数据流和控制流，这种方式往往增加了运维复杂度，尤其是在数据交互和安全管理方面的挑战。特别是在省钱省事的前提下，成为了安全和运维的难点。本文尝试一种新的解决方案：通过K8s实现公有云和私有计算中心的统一，利用K8s的原生能力来解决网络连接、延迟等带来的数据同步，安全运维等问题。这个方案通过横向扩展两个网络，尝试实现更加高效和简化的云数据中心架构，提供了一个实用的实践方向。</p>
-
-<p><img src="/assets/images/high-level-arch-hybrid-cluster.png" alt="high level arch" /></p>
-
-<h4 id="打通网络">打通网络</h4>
-<p>第一步应该是打通本地主机到云主机的网络，如上图中虚线所示，我们使用wireguard (被Linus成为“the best VPN protocol”)</p>
-
-<ol>
-  <li>
-    <p>配置wireguard server，我们标记为A，执行下面脚本 — 注意注释掉的部分</p>
-
-    <details>
-
- ```bash
- #!/bin/bash
-
- # wireguard server A
- mkdir -p /wireguard
- cd /wireguard
- wg genkey | tee server_A_private_key | wg pubkey &gt; server_A_public_key
-
- if [ ! -f /wireguard/client_B_public_key ]; then
-     echo "file client public key does not exist"
-     exit 1
- fi
-
- cat &lt;<EOF> /wireguard/wg0.conf
- [Interface]
- PrivateKey = `cat /wireguard/server_A_private_key` # private key of server A
- Address = 10.4.0.1/24      # virtual server IP of A node
- ListenPort = 51820
- SaveConfig = true
-
- [Peer]
- PublicKey = `cat /wireguard/client_B_public_key`
- AllowedIPs = 10.4.0.2/32   # virtual IP of B node
- EOF
-
- cp /wireguard/wg0.conf /etc/wireguard/wg0.conf
-
- sudo wg-quick up wg0
- #sudo systemctl enable wg-quick@wg0
-
- #sudo ufw allow 51820/udp
- #sudo ufw enable
-
- #希望 B 设备通过 A 访问 Internet 或其他网络资源，你需要在 A 上配置 IP 转发
- # 启用 IP 转发
- #echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
-
- # 修改 sysctl 配置以保持设置
- #sudo sysctl -w net.ipv4.ip_forward=1
- #sudo sysctl -p
- #
- #sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
- #sudo iptables-save
- ```
-
- &lt;/details&gt;
-
-</EOF></details>
-  </li>
-  <li>
-    <p>配置peer client 节点，我们标记为B（同理可以创建C节点），执行下面脚本 — 注意注释掉的部分</p>
-
-    <details>
-
- ```bash
- #!/bin/bash
-
- # wireguard client B
- mkdir -p /wireguard
- cd /wireguard
- wg genkey | tee client_B_private_key | wg pubkey &gt; client_B_public_key
-
- if [ ! -f /wireguard/server_A_public_key ]; then
-     echo "file server public key does not exist"
-     exit 1
- fi
-
- cat &lt;<EOF> /etc/wireguard/wg0.conf
- [Interface]
- PrivateKey = `cat /wireguard/client_B_private_key` # private key of B
- Address = 10.4.0.2/32      # virtual server IP of B
-
- [Peer]
- PublicKey = `cat /wireguard/server_A_public_key`
- Endpoint = 74.121.149.207:51820 # public IP and listening port
- AllowedIPs = 10.4.0.0/24   # virtual IP of B node
- PersistentKeepalive = 25
- EOF
-
- cp /wireguard/wg0.conf /etc/wireguard/wg0.conf
-
- sudo wg-quick up wg0
- #sudo systemctl enable wg-quick@wg0 # start on system on
- ```
-
- &lt;/details&gt;
-
-</EOF></details>
-  </li>
-  <li>
-    <p>测试链接，ping 成功搞定</p>
-
-    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ping 10.4.0.1
- PING 10.4.0.1 <span class="o">(</span>10.4.0.1<span class="o">)</span>: 56 data bytes
- 64 bytes from 10.4.0.1: <span class="nv">icmp_seq</span><span class="o">=</span>0 <span class="nv">ttl</span><span class="o">=</span>64 <span class="nb">time</span><span class="o">=</span>300.125 ms
- 64 bytes from 10.4.0.1: <span class="nv">icmp_seq</span><span class="o">=</span>1 <span class="nv">ttl</span><span class="o">=</span>64 <span class="nb">time</span><span class="o">=</span>320.622 ms
-</code></pre></div>    </div>
-  </li>
-</ol>
-
-<h4 id="搭建k3s-control-plane-on-cloud">搭建k3s control plane on cloud</h4>
-<p>登录到A节点，启动controlplane</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-sfL</span> https://get.k3s.io | sh -
-</code></pre></div></div>
-<p>根据个人环境优化参数，如·网络丢包率为 12%，延时约 250ms·，建议优化启动参数.
-也可以使用默认参数，目前默认行为k3s</p>
-<ol>
-  <li>启动sqlite存储</li>
-  <li>Kubelet默认同步node节点数据频率为1分钟一次</li>
-  <li>默认API Server 等待状态更新的最大容忍时间为5m
-```/etc/systemd/system/k3s.service
-ExecStart=/usr/local/bin/k3s server –tls-san axpz.local</li>
-</ol>
-
-<p>…</p>
-
-<p>–kubelet-arg=–node-status-update-frequency=60s
-–kubelet-arg=–node-status-update-grace-period=5m</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code></code></pre></div></div>
-<p>sudo systemctl daemon-reload
-sudo systemctl restart k3s</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>查看日志
-    
-&lt;details&gt;
-    
-```bash  
-# 使用以下命令来过滤 K3s 日志中的 Node Token 和 TLS-SAN 信息
-# journalctl -u k3s | grep 'node token\|tls-san'
-
-Jan 07 15:30:36 calm-baud-1.localdomain k3s[3094620]: time="2025-01-07T15:30:36Z" level=info msg="Server node token is available at /var/lib/rancher/k3s/server/token"
-Jan 07 15:30:36 calm-baud-1.localdomain k3s[3094620]: time="2025-01-07T15:30:36Z" level=info msg="Agent node token is available at /var/lib/rancher/k3s/server/agent-token"
-Jan 07 15:30:47 calm-baud-1.localdomain k3s[3094779]: time="2025-01-07T15:30:47Z" level=info msg="Server node token is available at /var/lib/rancher/k3s/server/token"
-Jan 07 15:30:47 calm-baud-1.localdomain k3s[3094779]: time="2025-01-07T15:30:47Z" level=info msg="Agent node token is available at /var/lib/rancher/k3s/server/agent-token"
-Jan 07 15:30:54 calm-baud-1.localdomain k3s[3094779]: I0107 15:30:54.121292 3094779 kube.go:636] List of node(calm-baud-1.localdomain) annotations: map[string]string{"alpha.kubernetes.io/provided-node-ip":"74.121.149.207", "flannel.alpha.coreos.com/backend-data":"{\"VNI\":1,\"VtepMAC\":\"3e:a5:8d:f1:50:b4\"}", "flannel.alpha.coreos.com/backend-type":"vxlan", "flannel.alpha.coreos.com/kube-subnet-manager":"true", "flannel.alpha.coreos.com/public-ip":"74.121.149.207", "k3s.io/hostname":"calm-baud-1.localdomain", "k3s.io/internal-ip":"74.121.149.207", "k3s.io/node-args":"[\"server\",\"--tls-san\",\"axpz.local\"]", "k3s.io/node-config-hash":"EW5CHGDY6WQFH5IMOMMGEEEOFXADTGZZPMW5RZGHVQBJ3QHTZUHA====", "k3s.io/node-env":"{}", "node.alpha.kubernetes.io/ttl":"0", "volumes.kubernetes.io/controller-managed-attach-detach":"true"}
-</code></pre></div></div>
-
-<p>&lt;/details&gt;</p>
-
-<h4 id="启动traefik-dashboard">启动traefik dashboard</h4>
-<p>edit /var/lib/rancher/k3s/server/manifests/traefik.yaml with</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apiVersion: helm.cattle.io/v1
-kind: HelmChart
-metadata:
-  name: traefik
-  namespace: kube-system
-spec:
-  chart: https://%{KUBERNETES_API}%/static/charts/traefik-27.0.201+up27.0.2.tgz
-  set:
-    global.systemDefaultRegistry: ""
-    dashboard.enabled: "true"               &lt;&lt;&lt;
-    dashboard.domain: "traefik.internal"    &lt;&lt;&lt;
-</code></pre></div></div>
-<p>kubectl apply -f /var/lib/rancher/k3s/server/manifests/traefik.yaml</p>
-
-<h4 id="搭建k3s-worker-on-macos">搭建k3s worker on <code class="language-plaintext highlighter-rouge">macOS</code></h4>
-<p>首先启动一个轻量级虚拟机</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>multipass launch <span class="nt">--name</span> k3s-worker <span class="nt">--memory</span> 4G <span class="nt">--disk</span> 40G <span class="nt">--mount</span> ~/go/src/github.com:/mnt/github.com
-multipass shell k3s-worker
-curl <span class="nt">-sfL</span> https://get.k3s.io | <span class="nv">K3S_URL</span><span class="o">=</span>https://axpz.local:6443 <span class="nv">K3S_TOKEN</span><span class="o">=</span>K10...d0eb56c9 sh -
-</code></pre></div></div>
-
-<h4 id="系统搭建完成注意下面几点">系统搭建完成，注意下面几点</h4>
-
-<ol>
-  <li>云主机的公网IP会自动被treafik的serviceLB创建为LoadBalancer IP，即默认的ingress，你可以通过配置ingressRoute自动分流到到不同的微服务中。</li>
-  <li>如果各个节点硬件的architecture不一样，需要注意kubernetes的image兼容性问题，比如controlplane是x86-64, 而工作节点是arm64，可能需要额外的工作。</li>
-  <li>优化：
+  <li><strong>六次失败创业尝试的教训</strong>：分享了从六次失败的创业尝试中学到的教训，为创业者提供了宝贵的经验。
     <ul>
-      <li>优化启动参数：比如上面提到的网络丢包率为 12%，延时约 250ms，需要优化数据同步频率，以及存储等, 比如：<code class="language-plaintext highlighter-rouge">ExecStart=/usr/local/bin/k3s server --tls-san axpz.local --flannel-backend=none --disable-network-policy --no-deploy local-storage --no-deploy traefik</code></li>
-      <li>减少主节点资源消耗：给主节点打污点 <code class="language-plaintext highlighter-rouge">kubectl taint nodes calm-baud-1.localdomain node-role.kubernetes.io/master:NoSchedule</code></li>
-      <li>网络优化，如果作为生产级应用，建议搭建网络专线</li>
-      <li>其他…</li>
+      <li><a href="http://blog.rongarret.info/2025/01/i-am-not-failure-lessons-learned-from.html">链接</a></li>
     </ul>
   </li>
-</ol>
-
-<h3 id="方案2-集群部署在私有计算节点上使用公有云节点当作ingress">方案2: 集群部署在私有计算节点上，使用公有云节点当作ingress</h3>
-
-<p><img src="/assets/images/high-level-arch-private-cluster.png" alt="high level arch" /></p>
-
-<h4 id="打通网络搭建集群">打通网络、搭建集群</h4>
-
-<p>参考方案1的实现, 同时注意添加dnat</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> PREROUTING <span class="nt">-p</span> tcp <span class="nt">--dport</span> 80 <span class="nt">-d</span> 74.121.149.207 <span class="nt">-j</span> DNAT <span class="nt">--to-destination</span> 10.4.0.3:80
-<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> PREROUTING <span class="nt">-p</span> tcp <span class="nt">--dport</span> 443 <span class="nt">-d</span> 74.121.149.207 <span class="nt">-j</span> DNAT <span class="nt">--to-destination</span> 10.4.0.3:443
-<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> POSTROUTING <span class="nt">-o</span> eth0 <span class="nt">-j</span> MASQUERADE
-<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> POSTROUTING <span class="nt">-o</span> wg0 <span class="nt">-j</span> MASQUERADE
-</code></pre></div></div>
-
-<h4 id="配置集群负载均衡为wg0">配置集群负载均衡为wg0</h4>
-
-<p>k3s 使用serviceLB来提供负载均衡服务，当有external-ip 时，serviceLB会自动使用其作为负载均衡，当没有的时候会自动使用internal ip作为负载均衡，由于我们配置了vpn连通外网，所以我们配置wg0作为外网ip，具体配置添加启动参数
-–node-external-ip 10.4.0.3
-所以启动service变为ExecStart=/usr/local/bin/k3s server –node-external-ip 10.4.0.3</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>systemctl daemon-reload
-systemctl stop k3s
-systemctl start k3s
-</code></pre></div></div>
-
-<h3 id="方案3-公有云节点上部署网关直接转发服务到私有计算节点">方案3: 公有云节点上部署网关，直接转发服务到私有计算节点</h3>
-<p>从原理上来讲，和方案二没有太大的区别，但是考虑到kubernetes的ingress本身就是一个网关的功能，所以如果这里再添加一层网关难免有重复的嫌疑。所以从最大程度利用kubernetes的能力和避免重复造轮子的角度，方案二还是最优解。在此从造轮子的角度，也不妨给出一个架构图，但我们不做更深入讨论。
-<img src="/assets/images/high-level-arch-device-plugin.png" alt="alt text" /></p>
-
-<p>顺便提一下这个更像是一个业务代码的实现架构，确实是，其实这个代码已经完成，这里的设计和实现是我参靠kubelet和Nvidia的deviceplugin的架构，那接下来的我们也会基于这个来实现我们的Agent的后端业务。</p>
-
-<h3 id="测试">测试</h3>
-<p>本测试基于方案二完成. 当然方案1也是可以用的，需要注意的是，方案一必须要依赖multi-platform的images，同时在业务调度的时候也需要考虑不同的硬件平台).</p>
-
-<ol>
-  <li>创建nginx应用
-    <details>
-
- ``` yaml
- apiVersion: apps/v1 
- kind: Deployment 
- metadata:
- name: nginx-deployment
- namespace: default
- spec:
- replicas: 1
- selector:
-     matchLabels:
-     app: nginx
- template:
-     metadata:
-     labels:
-         app: nginx
-     spec:
-     containers:
-     - name: nginx
-         image: nginx:latest
-         ports:
-         - containerPort: 80
- ---
- apiVersion: apps/v1
- kind: Deployment
- metadata:
- name: nginx-deployment2
- namespace: default
- spec:
- replicas: 1
- selector:
-     matchLabels:
-     app: nginx2
- template:
-     metadata:
-     labels:
-         app: nginx2
-     spec:
-     containers:
-     - name: nginx
-         image: nginx:latest
-         ports:
-         - containerPort: 80
- ```
-
- </details>
-  </li>
-  <li>暴露服务
-    <details>
-
- ``` yaml
- apiVersion: v1
- kind: Service
- metadata:
- name: nginx-service
- namespace: default
- spec:
- selector:
-     app: nginx
- ports:
-     - protocol: TCP
-     port: 80
-     targetPort: 80
- # 这个服务类型可以改成 ClusterIP 或者 NodePort
- type: ClusterIP
- ```
-
- </details>
-  </li>
-  <li>配置IngressRoute
-    <details>
-
- ``` yaml
- apiVersion: traefik.containo.us/v1alpha1
- kind: IngressRoute
- metadata:
- name: nginx-ingressroute
- namespace: default
- spec:
- entryPoints:
-     - web   # 确保 Traefik 配置了 `web` entry point
- routes:
-     - match: Host(`k3s.local`)  # 使用你自己的域名，或者可以用外部 IP
-     kind: Rule
-     services:
-         - name: nginx-service
-         port: 80
-     - match: Host(`k3s.local`) &amp;&amp; PathPrefix(`/n2`)
-     kind: Rule
-     services:
-         - name: nginx-service2
-         port: 80
- ```
- </details>
-  </li>
-</ol>
-
-<p>从互联网访问，…, 搞定, scale up/down pod， … 搞定</p>
-
-<p>至此，我们的platform层和infra层搭建完成，接下来我们会基于我们的业务完善DevOps，包括监控和CI/CD。</p>
-
-<!-- Footer Section -->
-<div class="footer">
-    <p>© 2025 基于kubernetes搭建个人混合云数据中心项目</p>
-</div>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="kubernetes" /><category term="k8s" /><category term="k3s" /><category term="golang" /><category term="cloud" /><category term="ai" /><summary type="html"><![CDATA[基于k3s搭建个人混合云数据中心：高效利用边缘计算与云服务]]></summary></entry><entry><title type="html">Some articles are just so long they deserve a really long title to see if things will break well</title><link href="/ai/2025/01/12/super-long-article.html" rel="alternate" type="text/html" title="Some articles are just so long they deserve a really long title to see if things will break well" /><published>2025-01-12T04:03:43+00:00</published><updated>2025-01-12T04:03:43+00:00</updated><id>/ai/2025/01/12/super-long-article</id><content type="html" xml:base="/ai/2025/01/12/super-long-article.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="ai" /><category term="kubernetes" /><category term="k8s" /><category term="k3s" /><category term="cloud" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.]]></summary></entry><entry><title type="html">OAuth 2.0 授权码模式</title><link href="/k8s/2024/11/04/Oauth2-identity-workflow.html" rel="alternate" type="text/html" title="OAuth 2.0 授权码模式" /><published>2024-11-04T06:43:43+00:00</published><updated>2024-11-04T06:43:43+00:00</updated><id>/k8s/2024/11/04/Oauth2-identity-workflow</id><content type="html" xml:base="/k8s/2024/11/04/Oauth2-identity-workflow.html"><![CDATA[<p><img src="/assets/images/auth-overall.png" alt="auth2" /></p>
-
-<h1 id="注册客户端第三方应用信息">注册客户端(第三方应用)信息</h1>
-
-<p>在使用 OAuth 2.0 授权码模式之前，客户端(第三方应用)（通常是你的应用）需要在授权服务器上进行注册。注册后，你会获得以下信息：</p>
-
-<ul>
-  <li><strong>client_id</strong>：客户端(第三方应用)的唯一标识符，由授权服务器分配。</li>
-  <li><strong>client_secret</strong>：客户端(第三方应用)的密钥，用于验证客户端(第三方应用)的身份（但仅在安全环境下使用，比如服务端，不建议在前端公开）。</li>
-</ul>
-
-<h2 id="填写回调-urlredirect-uri">填写回调 URL（Redirect URI）</h2>
-
-<p>在注册过程中，你需要提供一个 <strong>回调地址</strong>，即授权完成后授权服务器会重定向用户的地址。</p>
-
-<ul>
-  <li><strong>Redirect URI（回调地址）</strong> 是授权服务器将授权码发送到客户端(第三方应用)的地方，它必须与你注册时填写的地址完全匹配。</li>
-  <li>
-    <p>回调地址通常是一个 HTTPS URL，例如：https://your-app.com/callback</p>
-  </li>
-  <li>如果你有多个环境（如开发环境、生产环境），需要为每个环境分别注册对应的回调 URL。</li>
-</ul>
-
-<h2 id="用途">用途</h2>
-
-<ul>
-  <li>授权服务器会在用户授权后，通过这个回调地址将 <strong>授权码（Authorization Code）</strong> 发送回客户端(第三方应用)。</li>
-  <li>之后，客户端(第三方应用)再通过授权码和客户端(第三方应用)密钥，向授权服务器请求 <strong>访问令牌（Access Token）</strong>。</li>
-</ul>
-
-<h1 id="流程细化解释">流程细化解释</h1>
-
-<p><img src="/assets/images/auth-exchange.png" alt="auth2" /></p>
-
-<h2 id="客户端第三方应用生成授权请求并包含-csrf-随机字符串">客户端(第三方应用)生成授权请求并包含 CSRF 随机字符串</h2>
-
-<ul>
-  <li>客户端(第三方应用)（第三方应用）在发起授权请求时，会生成一个随机字符串（<code class="language-plaintext highlighter-rouge">state</code>）作为防止 CSRF 攻击的标志。</li>
-  <li>客户端(第三方应用)通过 <strong>302 重定向</strong> 请求用户访问授权服务器（<code class="language-plaintext highlighter-rouge">auth server</code>），并在 URL 中携带以下重要参数：</li>
-</ul>
-
-<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">GET</span> <span class="nn">/authorize?response_type=code&amp;client_id=CLIENT_ID&amp;redirect_uri=https://your-app.com/callback&amp;scope=SCOPE&amp;state=RANDOM_STRING</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
-<span class="na">Host</span><span class="p">:</span> <span class="s">auth-server.com</span>
-</code></pre></div></div>
-<p>参数说明：</p>
-<ul>
-  <li><strong>response_type=code</strong>：请求授权码。</li>
-  <li><strong>client_id</strong>：客户端(第三方应用)标识。</li>
-  <li><strong>redirect_uri</strong>：用户授权完成后，授权服务器会将用户重定向到此地址。</li>
-  <li><strong>scope</strong>：客户端(第三方应用)请求的权限范围。</li>
-  <li><strong>state</strong>：由客户端(第三方应用)生成的随机字符串，用于防止 CSRF 攻击。</li>
-</ul>
-
-<h2 id="授权服务器显示登录授权页面">授权服务器显示登录/授权页面</h2>
-
-<ul>
-  <li>用户被 <strong>302 重定向</strong> 到授权服务器，授权服务器会弹出认证页面，让用户登录并选择是否授权第三方应用。</li>
-  <li>如果用户未登录，会先引导用户登录。如果用户已经登录，则直接显示授权页面。</li>
-</ul>
-
-<h2 id="用户认证成功后授权服务器生成授权码并重定向">用户认证成功后，授权服务器生成授权码并重定向</h2>
-
-<ul>
-  <li>用户在授权页面上点击“允许”后，授权服务器会生成一个 <strong>授权码（authorization code）</strong>。</li>
-  <li>授权服务器通过 <strong>302 重定向</strong> 将用户带回客户端(第三方应用)的回调地址（<code class="language-plaintext highlighter-rouge">redirect_uri</code>），并在 URL 中附加授权码和原始的 <code class="language-plaintext highlighter-rouge">state</code>：</li>
-</ul>
-
-<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">302</span> <span class="ne">Found</span>
-<span class="na">Location</span><span class="p">:</span> <span class="s">https://your-app.com/callback?code=AUTH_CODE&amp;state=RANDOM_STRING</span>
-</code></pre></div></div>
-<p>参数说明：</p>
-<ul>
-  <li><strong>code</strong>：授权码。</li>
-  <li><strong>state</strong>：原始客户端(第三方应用)发送的 <code class="language-plaintext highlighter-rouge">state</code> 值，用于验证请求完整性。</li>
-</ul>
-
-<h2 id="客户端第三方应用验证-state">客户端(第三方应用)验证 state</h2>
-
-<ul>
-  <li>客户端(第三方应用)在收到授权服务器的回调时，必须验证返回的 <code class="language-plaintext highlighter-rouge">state</code> 是否与初始发送的值一致。</li>
-  <li>如果 <code class="language-plaintext highlighter-rouge">state</code> 不匹配，则可能存在 CSRF 攻击或请求被篡改，客户端(第三方应用)应拒绝处理该回调。</li>
-</ul>
-
-<h2 id="客户端第三方应用交换授权码获取访问令牌">客户端(第三方应用)交换授权码获取访问令牌</h2>
-
-<ul>
-  <li>如果 <code class="language-plaintext highlighter-rouge">state</code> 验证通过，客户端(第三方应用)使用授权码（<code class="language-plaintext highlighter-rouge">code</code>）向授权服务器发起 <strong>POST 请求</strong>，交换访问令牌（<code class="language-plaintext highlighter-rouge">access token</code>）：</li>
-</ul>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST /token HTTP/1.1
-Content-Type: application/x-www-form-urlencoded
-
-<span class="nv">grant_type</span><span class="o">=</span>authorization_code&amp;code<span class="o">=</span>AUTH_CODE&amp;redirect_uri<span class="o">=</span>https://your-app.com/callback&amp;client_id<span class="o">=</span>CLIENT_ID&amp;client_secret<span class="o">=</span>CLIENT_SECRET
-</code></pre></div></div>
-
-<h1 id="核心点总结">核心点总结</h1>
-
-<ul>
-  <li>客户端(第三方应用)生成授权 URL，并携带 <code class="language-plaintext highlighter-rouge">state</code> 和其他参数，使用 <strong>302 重定向</strong> 将用户引导到授权服务器。</li>
-  <li>授权服务器处理用户登录并授权后，通过 <strong>302 重定向</strong> 将用户带回客户端(第三方应用)的 <code class="language-plaintext highlighter-rouge">redirect_uri</code>，同时携带 <code class="language-plaintext highlighter-rouge">auth_code</code> 和原始的 <code class="language-plaintext highlighter-rouge">state</code>。</li>
-  <li>客户端(第三方应用)收到回调后验证 <code class="language-plaintext highlighter-rouge">state</code>，确保请求未被篡改。</li>
-  <li>验证通过后，客户端(第三方应用)使用授权码换取访问令牌。</li>
-</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="oauth" /><category term="ai" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Kubernetes and Go R&amp;amp;D in VMware - Xianping</title><link href="/k8s/2024/11/03/kubernetes-in-vmware.html" rel="alternate" type="text/html" title="Kubernetes and Go R&amp;amp;D in VMware - Xianping" /><published>2024-11-03T06:43:43+00:00</published><updated>2024-11-03T06:43:43+00:00</updated><id>/k8s/2024/11/03/kubernetes-in-vmware</id><content type="html" xml:base="/k8s/2024/11/03/kubernetes-in-vmware.html"><![CDATA[<ul>
-  <li>Golang/Python/c/c++/Bash</li>
-  <li>Docker/Kubernetes/PostgreSQL/gRPC</li>
-  <li>Git/Jenkins/Gitlab</li>
-</ul>
-
-<p>2023.11-至今     	VMware					Kubernetes &amp; Go Engineer</p>
-
-<p>	项目经历：TMC Self-managed (私有云管理平台)的开发维护。
-该平台是 SaaS 平台的企业版，部署在企业的私有环境中，覆盖了网络、计算、存储等全栈资源。通过这种部署模式，企业可以最大程度地实现自主管理，确保数据安全和资源的高效利用。但由于是私有环境部署，企业在使用时将失去多云管理的能力。</p>
-<ol>
-  <li>技术栈：Go/Python, Gitlab, Kapp-controller, ytt, Prometheus，AD/LDAP/OIDC</li>
-  <li>职责：
-­	独立负责Kubernetes cluster CRUD生命周期管理。
-o	去掉部分SaaS功能：不再支持Azure/AWS，仅支持TKGm/TKGs vSphere。<br />
-o	编写自动化测试，完成自动化流水线开发测试，保证功能的独立完整性。<br />
-o	共完成4个版本的交付：参加bug bash、CVE分析、软件发布文档编写等。<br />
-­	重新设计并开发微服务的证书管理。彻底解决服务证书和根证书手动rotate问题(每三个月重启)。<br />
-证书管理分为服务证书和根证书管理，其中服务证书管理分为外部流量(south-north)和内部流量(east-west)证书管理。详见certificate management on TMC self-managed.<br />
-o	根证书分为内部根证书和外部根证书，内部根证书为self-signed，提供给cert-manager签发使用，外部根证书会分发到信任的客户端(如agent)做信任验证。<br />
-o	内部服务证书统一使用cert-manager管理(域名/有效时间/重新生成时间等签发)。<br />
-o	外部服务证书分为导入证书和cert-manager自管理的证书。<br />
-o	引入第三方服务reloader，支持自动重启服务以消费renew的证书。<br />
-­	¬¬¬参与installer开发。Installer把所有依赖的docker image重新打包并放到本地的registry中以适配air-gap环境安装、运行和维护。<br />
-o	基于Gitlab CI/CD完成超过100个repo的nightly持续集成和持续部署，结合自动化测试，解放了大量人力测试。</li>
-  <li>主要成就：<br />
-­	引入TMC self-manage项目到北京团队，并由北京团队完全负责(现在已经交接给印度团队)。<br />
-­	解决了大量客户问题：主要包括证书问题、第三方认证问题(OIDC/AD/LDAP)。</li>
-</ol>
-
-<p>2022.04-2023.11		VMware 						Kubernetes &amp; Go Engineer<br />
-主要工作内容包括a)功能设计开发；b)版本发布；c)自动化流水线的开发和维护；d)客户问题技术支持。</p>
-
-<p>	项目经历：Kubernetes多云(AWS/Azure/VMware)集中管理平台TMC的开发维护。
-TMC 是一个专为多云环境设计的 Kubernetes 资源统一管理 SaaS 平台，能够在跨多个云平台和 Kubernetes 集群之间实现一致的运维管理。该平台基于云原生控制器架构开发，采用微服务模式，通过扩展标准的 Kubernetes 资源来提供与标准Kubernetes一致的设计和用户体验，支持跨云环境的高效管理和操作。</p>
-<ol>
-  <li>技术栈：Go, Kubernetes, Docker, PostgreSQL, Terraform, Jenkins, Prometheus</li>
-  <li>职责：<br />
-参与核心功能模块设计开发。核心功能模块是Kubernetes集群的生命周期管理, 即Cluster/nodepool的创建、删除、修改、升级等功能。LCM模块通过调用远端接口实现。<br />
-­	实现k8s default storage class的支持：a)调用vSphere API 读取storage class/policy并通过agent返回到LCM，同时存储到数据库中; b) 渲染数据到UI并提供查询规则供用户交互使用; c) 设置Kubernetes集群的默认存储类。<br />
-­	集群CA证书支持：通过修改集群的CRD, 将CA证书植入到节点上，其中多云环境中植入到containerd配置文件中，而TKGS环境中植入到系统目录下。<br />
-­	支持proxy设置：即在创建cluster集群的时候把代理注入到集群当中。其中包括集群agent代理和工作负载代理设置。<br />
-­	提供下游terraform设计实现方案，并合作完成API开发测试。<br />
-­	主导(支持)软件版本发布，支持上游Kubernetes新版本(功能)发布，主要工作：升级最新的API、支持新功能和其测试验证。<br />
-­	软件CVE修复，维护自动化测试的CVE扫描工具(based on Trivy)。<br />
-­	编写功能的自动化测试代码，维护自动化流水线，保证功能测试的正确性和覆盖的完整性。</li>
-  <li>主要成就：
-­	主导1.6大版本的发布: 与团队其他两名成员紧密合作，完成了版本发布工作。主要负责升级至最新 API 并验证新功能，确保无功能回退 (regression) 的问题。同时，参与自动化流水线的开发、测试及维护，确保发布流程的高效和稳定。<br />
-­	重新设计实现了代理、证书和默认存储功能无缝并屏蔽不同provider的差异，为self-managed版本提供了保障。</li>
-</ol>
-
-<p>https://docs.vmware.com/en/VMware-Tanzu-Mission-Control/1.4/tanzumc-sm-install/index-sm-install.html</p>
-
-<p><img src="/assets/images/tmc-self-managed-arch.png" alt="tmc-self-managed-arch" /></p>
-
-<p><img src="/assets/images/tmc-self-managed-arch-flatten.png" alt="tmc-self-managed-arch-flatten" /></p>
-
-<h2 id="support-enabledisable-default-storage-class">Support enable/disable default storage class</h2>
-
-<ul>
-  <li>High level design
-<img src="/assets/images/en-disable-default-storage-class.png" alt="alt text" /></li>
-  <li>One pager for design and implementation <em><a href="/assets/images/Support+enable_disable-default-storage-class.doc">here</a></em></li>
-  <li>Video <em><a href="https://www.douyin.com/video/7303145324061805834">demo here</a></em></li>
-</ul>
-
-<h2 id="certificate-management-on-tmc-self-managed">Certificate management on TMC self-managed</h2>
-
-<ul>
-  <li>Overview
-<img src="/assets/images/cert-mgmt-overview.png" alt="alt text" /></li>
-  <li>One pager for design and implementation <em><a href="/assets/images/One+pager_+[TMC+SM]+Certificates+management+on+TMC+self-managed.doc">here</a></em></li>
-</ul>
-
-<h3 id="auto-reload-tls-certificate-secrets-for-stack-services">Auto reload TLS certificate secrets for stack services</h3>
-
-<ul>
-  <li>Overview<br />
-The TLS secret will be automatically renewed by cert-manager before it expires; however, the containers require an explicit restart to utilize the updated certificate. This could become an issue if customers forget to restart the service pods within the renewal duration.</li>
-  <li>Design and implementation</li>
-  <li>Demo <em><a href="/assets/images/Auto-reload-TLS-certificate-secrets-for-stack-services.pptx">pitch</a></em> and recordings:
+  <li><strong>耗时十年制作的417百万像素仙女座星系全景图</strong>：介绍了一张耗时超过十年制作的高分辨率仙女座星系全景图。
     <ul>
-      <li>Upgrade. Performing rolling-update for cert renewal. New duration/renewBefore configuration. <em><a href="https://www.douyin.com/video/7423428104548371752">here</a></em></li>
-      <li>Functionality test to SV register and WC creation. <em><a href="https://www.douyin.com/video/7423428378901892367">here</a></em></li>
+      <li><a href="https://petapixel.com/2025/01/16/417-megapixel-andromeda-galaxy-panorama-took-over-a-decade-to-make/">链接</a></li>
     </ul>
   </li>
-</ul>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-21 09:04:52]]></summary></entry><entry><title type="html">Hacker News 热门话题 top 10 2025-01-21</title><link href="/hacknews/2025/01/21/08-27-55-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-21" /><published>2025-01-21T00:27:55+00:00</published><updated>2025-01-21T00:27:55+00:00</updated><id>/hacknews/2025/01/21/08:27:55-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/21/08-27-55-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-21 08:27:55</p>
 
-<h3 id="custom-trusted-ca-enhancement-for-tkg-workload-cluster">Custom trusted CA enhancement for TKG workload cluster</h3>
-
-<ul>
-  <li>High level design
-<img src="/assets/images/custom-ca.png" alt="solution" /></li>
-  <li>Design and implementation <em><a href="/assets/images/Custom-CAs-enhancement-for-TKG-workload-cluster.docx">here</a></em></li>
-</ul>
-
-<h3 id="custom-proxy-for-tkg-workload-cluster">Custom proxy for TKG workload cluster</h3>
-
-<ul>
-  <li>High level architecture
-<img src="/assets/images/high-level-proxy-arch.png" alt="high level architecture" /></li>
-  <li>Detailed</li>
-</ul>
-
-<h2 id="lcmlife-cycle-management-support-of-terraform">LCM(life cycle management) support of Terraform</h2>
-
-<ul>
-  <li>Overview
-<img src="/assets/images/lcm-of-terraform.png" alt="alt text" /></li>
-  <li>Design and implementation  <em><a href="/assets/images/LCM+support+of+Terraform.doc">here</a></em>  and  <em><a href="/assets/doc/Support+ZERO+nodepool+in+CREATE_UPDATE+cluster+API+SPEC.doc">here</a></em>.</li>
-</ul>
-
-<h2 id="software-version-release-and-automation-pipeline-maintenance">Software version release and Automation pipeline maintenance</h2>
-
-<ul>
-  <li>
-    <p>Lead(participate) for managing software version releases.<br />
-Lead the release of TKG 1.6 lifecycle management support
-TKG 1.6 is a major release, and as downstream support, we need to cover all new features, including interface upgrades and feature validation, with a focus on over 200 P0 features.</p>
-  </li>
-  <li>
-    <p>Automation pipeline maintenance.</p>
+<ol>
+  <li><strong>DeepSeek-R1开源项目</strong>：DeepSeek-R1是一个开源项目，引起了技术社区的广泛关注。
     <ul>
-      <li>Promotion pipeline for
-        <ul>
-          <li>unstable -&gt; stable -&gt; canary -&gt; production</li>
-        </ul>
-      </li>
-      <li>Branches management <img src="/assets/images/auto-branch-cut.png" alt="release lifecycle and auto branching management" /></li>
+      <li><a href="https://github.com/deepseek-ai/DeepSeek-R1">DeepSeek-R1</a></li>
     </ul>
   </li>
-</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="k8s" /><category term="gRPC" /><category term="PostgreSQL" /><category term="golang" /><category term="cloud" /><category term="ai" /><summary type="html"><![CDATA[Golang/Python/c/c++/Bash Docker/Kubernetes/PostgreSQL/gRPC Git/Jenkins/Gitlab]]></summary></entry></feed>
+  <li><strong>塞尔玛游行历史回顾</strong>：《纽约客》杂志1965年的文章回顾了塞尔玛游行的历史，这篇文章在Hacker News上的讨论显示了人们对历史事件的兴趣。
+    <ul>
+      <li><a href="https://www.newyorker.com/magazine/1965/04/10/letter-from-selma">The Selma March (1965)</a></li>
+    </ul>
+  </li>
+  <li><strong>《使命召唤》反作弊系统逆向工程</strong>：一篇关于逆向工程《使命召唤》反作弊系统的文章，展示了游戏安全领域的技术挑战。
+    <ul>
+      <li><a href="https://ssno.cc/posts/reversing-tac-1-4-2025/">Reverse Engineering Call of Duty Anti-Cheat</a></li>
+    </ul>
+  </li>
+  <li><strong>Mixxx：GPL DJ软件</strong>：Mixxx是一个开源的DJ软件，其讨论显示了开源软件在音乐制作领域的应用。
+    <ul>
+      <li><a href="https://mixxx.org/">Mixxx: GPL DJ Software</a></li>
+    </ul>
+  </li>
+  <li><strong>ROCm设备支持愿望清单</strong>：ROCm社区讨论了设备支持的愿望清单，这表明了开源硬件项目的发展和社区参与度。
+    <ul>
+      <li><a href="https://github.com/ROCm/ROCm/discussions/4276">ROCm Device Support Wishlist</a></li>
+    </ul>
+  </li>
+  <li><strong>移民律师Peter Roberts的AMA</strong>：移民律师Peter Roberts为YC和初创公司工作，他的“问我任何问题”(AMA)活动吸引了社区的关注。
+    <ul>
+      <li><a href="item?id=42770125">I’m Peter Roberts, immigration attorney, who does work for YC and startups. AMA</a></li>
+    </ul>
+  </li>
+  <li><strong>六次失败创业尝试的教训</strong>：一篇文章分享了作者从六次失败的创业尝试中学到的教训，这为创业者提供了宝贵的经验。
+    <ul>
+      <li><a href="http://blog.rongarret.info/2025/01/i-am-not-failure-lessons-learned-from.html">I am (not) a failure: Lessons learned from six failed startup attempts</a></li>
+    </ul>
+  </li>
+  <li><strong>光学菲涅尔透镜技术</strong>：一篇关于光学菲涅尔透镜技术的论文，展示了光刻技术的最新进展。
+    <ul>
+      <li><a href="https://www.nature.com/articles/s41377-024-01725-6">Optical Fresnel zone plate flat lens: colored photoresist through I-line stepper</a></li>
+    </ul>
+  </li>
+  <li><strong>古埃及星钟的天文视角</strong>：一个关于古埃及星钟的互动故事地图，展示了古代天文学的迷人之处。
+    <ul>
+      <li><a href="https://storymaps.arcgis.com/stories/eea3fbc9c05b40948563ffd0ccfab59d">An Astronomical View of Ancient Egyptian Star Clocks (2021)</a></li>
+    </ul>
+  </li>
+  <li><strong>Hacker News文章成功因素的逆向工程</strong>：Daniel Wirtz分享了他如何逆向工程自己的Hacker News热门文章，为内容创作者提供了洞见。
+    <ul>
+      <li><a href="https://danielwirtz.com/blog/successful-hacker-news-article">Reverse engineering my #1 Hacker News article</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-21 08:27:55]]></summary></entry><entry><title type="html">Hacker News 热门话题 top 10 2025-01-21</title><link href="/hacknews/2025/01/21/08-20-21-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-21" /><published>2025-01-21T00:20:21+00:00</published><updated>2025-01-21T00:20:21+00:00</updated><id>/hacknews/2025/01/21/08:20:21-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/21/08-20-21-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-21 08:20:21</p>
+
+<ol>
+  <li><strong>DeepSeek-R1 项目开源</strong>：DeepSeek-R1 是一个开源项目，引起了社区的广泛关注。
+    <ul>
+      <li><a href="https://github.com/deepseek-ai/DeepSeek-R1">DeepSeek-R1</a></li>
+    </ul>
+  </li>
+  <li><strong>Mixxx DJ 软件</strong>：Mixxx 是一个开源的 DJ 软件，讨论了其功能和开源社区的支持。
+    <ul>
+      <li><a href="https://mixxx.org/">Mixxx: GPL DJ Software</a></li>
+    </ul>
+  </li>
+  <li><strong>塞尔玛游行历史回顾</strong>：《纽约客》杂志1965年的文章回顾了塞尔玛游行的历史。
+    <ul>
+      <li><a href="https://www.newyorker.com/magazine/1965/04/10/letter-from-selma">The Selma March (1965)</a></li>
+    </ul>
+  </li>
+  <li><strong>逆向工程《使命召唤》反作弊系统</strong>：讨论了如何逆向工程《使命召唤》的反作弊系统。
+    <ul>
+      <li><a href="https://ssno.cc/posts/reversing-tac-1-4-2025/">Reverse Engineering Call of Duty Anti-Cheat</a></li>
+    </ul>
+  </li>
+  <li><strong>ROCm 设备支持愿望清单</strong>：ROCm 社区讨论了设备支持的愿望清单。
+    <ul>
+      <li><a href="https://github.com/ROCm/ROCm/discussions/4276">ROCm Device Support Wishlist</a></li>
+    </ul>
+  </li>
+  <li><strong>移民律师 Peter Roberts 的 AMA</strong>：移民律师 Peter Roberts 为 YC 和初创公司工作，进行了一次 AMA（问我任何事）。
+    <ul>
+      <li><a href="item?id=42770125">I’m Peter Roberts, immigration attorney, who does work for YC and startups. AMA</a></li>
+    </ul>
+  </li>
+  <li><strong>六次失败创业尝试的教训</strong>：分享了六次失败创业尝试的教训。
+    <ul>
+      <li><a href="http://blog.rongarret.info/2025/01/i-am-not-failure-lessons-learned-from.html">I am (not) a failure: Lessons learned from six failed startup attempts</a></li>
+    </ul>
+  </li>
+  <li><strong>光学菲涅尔透镜技术</strong>：讨论了通过 I 线步进器实现彩色光刻胶的光学菲涅尔透镜技术。
+    <ul>
+      <li><a href="https://www.nature.com/articles/s41377-024-01725-6">Optical Fresnel zone plate flat lens: colored photoresist through I-line stepper</a></li>
+    </ul>
+  </li>
+  <li><strong>古埃及星钟的天文视角</strong>：通过故事地图展示了古埃及星钟的天文视角。
+    <ul>
+      <li><a href="https://storymaps.arcgis.com/stories/eea3fbc9c05b40948563ffd0ccfab59d">An Astronomical View of Ancient Egyptian Star Clocks (2021)</a></li>
+    </ul>
+  </li>
+  <li><strong>逆向工程我的 Hacker News 热门文章</strong>：作者分享了如何逆向工程他的 Hacker News 热门文章。
+    <ul>
+      <li><a href="https://danielwirtz.com/blog/successful-hacker-news-article">Reverse engineering my #1 Hacker News article</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-21 08:20:21]]></summary></entry><entry><title type="html">Hacker News 热门话题 top 10 2025-01-21</title><link href="/hacknews/2025/01/21/08-18-32-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-21" /><published>2025-01-21T00:18:32+00:00</published><updated>2025-01-21T00:18:32+00:00</updated><id>/hacknews/2025/01/21/08:18:32-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/21/08-18-32-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-21 08:18:32</p>
+
+<ol>
+  <li><strong>DeepSeek-R1 开源项目</strong>：DeepSeek-R1 是一个开源项目，引起了技术社区的关注，该项目可能与人工智能或机器学习相关。
+    <ul>
+      <li><a href="https://github.com/deepseek-ai/DeepSeek-R1">DeepSeek-R1</a></li>
+    </ul>
+  </li>
+  <li><strong>Mixxx：GPL DJ 软件</strong>：Mixxx 是一个开源的 DJ 软件，受到音乐制作和DJ社区的欢迎。
+    <ul>
+      <li><a href="https://mixxx.org/">Mixxx: GPL DJ Software</a></li>
+    </ul>
+  </li>
+  <li><strong>塞尔玛游行历史回顾</strong>：《纽约客》杂志1965年的文章回顾了塞尔玛游行的历史，这篇文章可能因其历史意义和对现代影响的讨论而受到关注。
+    <ul>
+      <li><a href="https://www.newyorker.com/magazine/1965/04/10/letter-from-selma">The Selma March (1965)</a></li>
+    </ul>
+  </li>
+  <li><strong>ROCm 设备支持愿望清单</strong>：ROCm（Radeon Open Compute）项目在 GitHub 上的讨论，关注于设备支持和优化。
+    <ul>
+      <li><a href="https://github.com/ROCm/ROCm/discussions/4276">ROCm Device Support Wishlist</a></li>
+    </ul>
+  </li>
+  <li><strong>逆向工程《使命召唤》反作弊系统</strong>：一篇关于逆向工程《使命召唤》反作弊系统的文章，展示了游戏安全领域的技术挑战。
+    <ul>
+      <li><a href="https://ssno.cc/posts/reversing-tac-1-4-2025/">Reverse Engineering Call of Duty Anti-Cheat</a></li>
+    </ul>
+  </li>
+  <li><strong>移民律师 Peter Roberts 的 AMA</strong>：移民律师 Peter Roberts 为 YC 和初创公司工作，他正在进行一个“问我任何问题”（AMA）活动。
+    <ul>
+      <li><a href="item?id=42770125">I’m Peter Roberts, immigration attorney, who does work for YC and startups. AMA</a></li>
+    </ul>
+  </li>
+  <li><strong>六次失败创业尝试的教训</strong>：一篇博客文章分享了作者从六次失败的创业尝试中学到的教训。
+    <ul>
+      <li><a href="http://blog.rongarret.info/2025/01/i-am-not-failure-lessons-learned-from.html">I am (not) a failure: Lessons learned from six failed startup attempts</a></li>
+    </ul>
+  </li>
+  <li><strong>光学菲涅尔透镜技术</strong>：一篇关于光学菲涅尔透镜技术的科学文章，讨论了通过 I 线步进器的彩色光刻胶技术。
+    <ul>
+      <li><a href="https://www.nature.com/articles/s41377-024-01725-6">Optical Fresnel zone plate flat lens: colored photoresist through I-line stepper</a></li>
+    </ul>
+  </li>
+  <li><strong>古埃及星钟的天文视角</strong>：一个故事地图，展示了古埃及星钟的天文视角，这种历史与天文学的结合引起了人们的兴趣。
+    <ul>
+      <li><a href="https://storymaps.arcgis.com/stories/eea3fbc9c05b40948563ffd0ccfab59d">An Astronomical View of Ancient Egyptian Star Clocks (2021)</a></li>
+    </ul>
+  </li>
+  <li><strong>逆向工程我的 #1 Hacker News 文章</strong>：Daniel Wirtz 分享了他如何逆向工程他的 #1 Hacker News 文章，这篇文章可能因其营销和内容策略的讨论而受到关注。
+    <ul>
+      <li><a href="https://danielwirtz.com/blog/successful-hacker-news-article">Reverse engineering my #1 Hacker News article</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-21 08:18:32]]></summary></entry><entry><title type="html">Hacker News 热门话题 top 10 2025-01-21</title><link href="/hacknews/2025/01/21/08-08-39-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-21" /><published>2025-01-21T00:08:39+00:00</published><updated>2025-01-21T00:08:39+00:00</updated><id>/hacknews/2025/01/21/08:08:39-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/21/08-08-39-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-21 08:08:39</p>
+
+<ol>
+  <li><strong>DeepSeek-R1 开源项目</strong>：DeepSeek-R1 是一个开源项目，引起了技术社区的广泛关注。
+    <ul>
+      <li><a href="https://github.com/deepseek-ai/DeepSeek-R1">DeepSeek-R1</a></li>
+    </ul>
+  </li>
+  <li><strong>Mixxx：GPL DJ 软件</strong>：Mixxx 是一个开源的 DJ 软件，受到音乐制作和DJ社区的欢迎。
+    <ul>
+      <li><a href="https://mixxx.org/">Mixxx: GPL DJ Software</a></li>
+    </ul>
+  </li>
+  <li><strong>ROCm 设备支持愿望清单</strong>：ROCm（Radeon Open Compute）项目讨论区中关于设备支持的愿望清单，显示出社区对于硬件支持的关注。
+    <ul>
+      <li><a href="https://github.com/ROCm/ROCm/discussions/4276">ROCm Device Support Wishlist</a></li>
+    </ul>
+  </li>
+  <li><strong>塞尔玛游行历史回顾</strong>：《纽约客》杂志1965年的文章回顾了塞尔玛游行的历史，这篇文章在Hacker News上引起了讨论。
+    <ul>
+      <li><a href="https://www.newyorker.com/magazine/1965/04/10/letter-from-selma">The Selma March (1965)</a></li>
+    </ul>
+  </li>
+  <li><strong>逆向工程《使命召唤》反作弊系统</strong>：一篇关于逆向工程《使命召唤》反作弊系统的文章，引起了技术爱好者的兴趣。
+    <ul>
+      <li><a href="https://ssno.cc/posts/reversing-tac-1-4-2025/">Reverse Engineering Call of Duty Anti-Cheat</a></li>
+    </ul>
+  </li>
+  <li><strong>移民律师 Peter Roberts 的 AMA</strong>：移民律师 Peter Roberts 在 YC 和初创公司中的工作引起了社区成员的好奇。
+    <ul>
+      <li><a href="item?id=42770125">I’m Peter Roberts, immigration attorney, who does work for YC and startups. AMA</a></li>
+    </ul>
+  </li>
+  <li><strong>六次失败创业尝试的教训</strong>：一篇文章分享了作者从六次失败的创业尝试中学到的教训，引起了创业者的共鸣。
+    <ul>
+      <li><a href="http://blog.rongarret.info/2025/01/i-am-not-failure-lessons-learned-from.html">I am (not) a failure: Lessons learned from six failed startup attempts</a></li>
+    </ul>
+  </li>
+  <li><strong>光学菲涅尔透镜技术</strong>：一篇关于通过I线步进器制造彩色光刻胶的光学菲涅尔区板平面透镜的文章，展示了光学技术的最新进展。
+    <ul>
+      <li><a href="https://www.nature.com/articles/s41377-024-01725-6">Optical Fresnel zone plate flat lens: colored photoresist through I-line stepper</a></li>
+    </ul>
+  </li>
+  <li><strong>逆向工程我的Hacker News热门文章</strong>：作者分享了如何打造一篇Hacker News热门文章的逆向工程分析。
+    <ul>
+      <li><a href="https://danielwirtz.com/blog/successful-hacker-news-article">Reverse engineering my #1 Hacker News article</a></li>
+    </ul>
+  </li>
+  <li><strong>通过9eSIM SIM卡在只有物理SIM卡槽的设备上使用eSIM</strong>：一篇文章介绍了如何在只有物理SIM卡槽的设备上使用eSIM的技术。
+    <ul>
+      <li><a href="https://neilzone.co.uk/2025/01/using-esims-with-devices-that-only-have-a-physical-sim-slot-via-a-9esim-sim-card-with-android-and-linux/">Using eSIMs with devices that only have a physical SIM slot via a 9eSIM SIM car</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-21 08:08:39]]></summary></entry></feed>
