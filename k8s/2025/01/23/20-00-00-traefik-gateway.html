@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="/assets/favicon.png" type="image/png" />
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-Y7KSK53R96"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-Y7KSK53R96");
+  </script><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Gateway DNAT网络不可用问题排查和解决方案 | Xianping</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Gateway DNAT网络不可用问题排查和解决方案" />
+<meta name="author" content="Axpz" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Gateway DNAT网络不可用问题排查和解决方案" />
+<meta property="og:description" content="Gateway DNAT网络不可用问题排查和解决方案" />
+<meta property="og:site_name" content="Xianping" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-01-23T01:47:52+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Gateway DNAT网络不可用问题排查和解决方案" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Axpz"},"dateModified":"2025-01-23T01:47:52+00:00","datePublished":"2025-01-23T01:47:52+00:00","description":"Gateway DNAT网络不可用问题排查和解决方案","headline":"Gateway DNAT网络不可用问题排查和解决方案","mainEntityOfPage":{"@type":"WebPage","@id":"/k8s/2025/01/23/20-00-00-traefik-gateway.html"},"url":"/k8s/2025/01/23/20-00-00-traefik-gateway.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Xianping" />
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">
+      <img src="/assets/favicon.png" alt="Favicon" type="image/png" style="width: 32px; height: 32px;" />
+      Xianping
+    </a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/ais/">AI today</a><a class="page-link" href="/posts/">Posts</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="home"><h1 class="page-heading">Gateway DNAT网络不可用问题排查和解决方案</h1><h1 id="gateway-dnat网络不可用问题排查和解决方案">Gateway DNAT网络不可用问题排查和解决方案</h1>
+
+<h2 id="问题描述">问题描述</h2>
+
+<p>在个人云主机上做了两个DNAT规则，将流量导入到私有环境中的虚拟机，但安装了Traefik（K3s）之后，发现当前网络不可用，并且出现了 400 错误。</p>
+
+<h3 id="测试">测试</h3>
+
+<ul>
+  <li>在本地请求网络服务时没有问题。</li>
+  <li>请求云主机网络服务时出现 400 错误，说明问题出在新安装的Traefik上。</li>
+</ul>
+
+<h3 id="traffic-flow-调试分析">Traffic Flow 调试分析</h3>
+
+<p><strong>1. 深入查看之前的NAT规则，发现没有问题：</strong></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> PREROUTING <span class="nt">-p</span> tcp <span class="nt">--dport</span> 80 <span class="nt">-d</span> 74.121.149.207 <span class="nt">-j</span> DNAT <span class="nt">--to-destination</span> 10.4.0.3:80
+<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> PREROUTING <span class="nt">-p</span> tcp <span class="nt">--dport</span> 443 <span class="nt">-d</span> 74.121.149.207 <span class="nt">-j</span> DNAT <span class="nt">--to-destination</span> 10.4.0.3:443
+<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> POSTROUTING <span class="nt">-o</span> eth0 <span class="nt">-j</span> MASQUERADE
+<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> POSTROUTING <span class="nt">-o</span> wg0 <span class="nt">-j</span> MASQUERADE
+</code></pre></div></div>
+
+<p><strong>2. 继续查看所有的DNAT规则，发现多了两条规则：</strong></p>
+
+<p>通过 iptables-save | grep 74.121.149.207 查看：</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">-A</span> KUBE-SERVICES <span class="nt">-d</span> 74.121.149.207/32 <span class="nt">-p</span> tcp <span class="nt">-m</span> comment <span class="nt">--comment</span> <span class="s2">"kube-system/traefik:web loadbalancer IP"</span> <span class="nt">-m</span> tcp <span class="nt">--dport</span> 80 <span class="nt">-j</span> KUBE-EXT-UQMCRMJZLI3FTLDP
+<span class="nt">-A</span> KUBE-SERVICES <span class="nt">-d</span> 74.121.149.207/32 <span class="nt">-p</span> tcp <span class="nt">-m</span> comment <span class="nt">--comment</span> <span class="s2">"kube-system/traefik:websecure loadbalancer IP"</span> <span class="nt">-m</span> tcp <span class="nt">--dport</span> 443 <span class="nt">-j</span> KUBE-EXT-CVG3OEGEH7H5P3HQ
+</code></pre></div></div>
+
+<p><strong>从以上规则可以看出，原先的规则被新添加的规则覆盖了。这是由于Traefik作为Kubernetes的Ingress Controller，它会动态管理网络流量，并且在 KUBE-SERVICES 链中插入新的规则，导致原本的DNAT规则失效。</strong></p>
+
+<p>看到这里，我们不妨深入追踪一下traefik的网络流量</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>k get svc <span class="nt">-owide</span> <span class="nt">-n</span> kube-system
+NAMESPACE     NAME               TYPE           CLUSTER-IP    EXTERNAL-IP            PORT<span class="o">(</span>S<span class="o">)</span>   AGE   SELECTOR
+              kubernetes         ClusterIP      10.43.0.1     &lt;none&gt;                 443/TCP   14d   &lt;none&gt;
+kube-system   traefik            LoadBalancer   10.43.2.186   74.121.149.207         80:30974/TCP,443:31017/TCP   36h   app.kubernetes.io/instance<span class="o">=</span>traefik-kube-system,app.kubernetes.
+</code></pre></div></div>
+
+<p>iptables-save
+```bash iptables-save</p>
+
+<p>-A KUBE-SERVICES -d 74.121.149.207/32 -p tcp -m comment –comment “kube-system/traefik:web loadbalancer IP” -m tcp –dport 80 -j KUBE-EXT-UQMCRMJZLI3FTLDP</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+nft list table nat  
+```bash
+chain KUBE-EXT-UQMCRMJZLI3FTLDP {
+          counter packets 305 bytes 15115 jump KUBE-MARK-MASQ
+        counter packets 305 bytes 15115 jump KUBE-SVC-UQMCRMJZLI3FTLDP
+}
+
+chain KUBE-MARK-MASQ {
+        counter packets 2 bytes 112 meta mark set mark or 0x4000
+}
+
+chain KUBE-SVC-UQMCRMJZLI3FTLDP {
+    meta l4proto tcp ip saddr != 10.42.0.0/16 ip daddr 10.43.2.186  tcp dport 80 counter packets 0 bytes 0 jump KUBE-MARK-MASQ
+    counter packets 307 bytes 15235 jump KUBE-SEP-6ESQAMORAOJ7JTEK
+}
+
+# 该链处理从外部发送到服务的流量，先通过源地址检查（排除 Kubernetes 内部流量），然后将流量转发到后端 Pod 的链（KUBE-SEP-6ESQAMORAOJ7JTEK）
+
+chain KUBE-SEP-6ESQAMORAOJ7JTEK {
+    ip saddr 10.42.0.35  counter packets 0 bytes 0 jump KUBE-MARK-MASQ
+    meta l4proto tcp   counter packets 307 bytes 15235 dnat to 10.42.0.35:8000
+}
+
+# dnat to 10.42.0.35:8000
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>k get po <span class="nt">-owide</span> <span class="nt">-A</span>
+kube-system   traefik-b7b68d8cb-dkt4v                   1/1     Running     0             34h   10.42.0.35   calm-baud-1.localdomain   &lt;none&gt;           &lt;none&gt;
+</code></pre></div></div>
+
+<p>至此网络进入到了traefik的pod中</p>
+
+<h2 id="解决方案">解决方案</h2>
+
+<p>既然安装了traefik，那我们不如使用traefik来统一处理所有的流量，让它成为ingress/egress的统一口</p>
+
+<p>废话少说，直接贴上traefik的proxy配置吧</p>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">v1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Service</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">hacknews-service</span>
+  <span class="na">namespace</span><span class="pi">:</span> <span class="s">default</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">ExternalName</span>
+  <span class="na">externalName</span><span class="pi">:</span> <span class="s">news.ycombinator.com</span>
+  <span class="na">ports</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">port</span><span class="pi">:</span> <span class="m">443</span>
+      <span class="na">targetPort</span><span class="pi">:</span> <span class="m">443</span>
+<span class="nn">---</span>
+<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">traefik.containo.us/v1alpha1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Middleware</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">hacknews-strip-prefix</span>
+  <span class="na">namespace</span><span class="pi">:</span> <span class="s">default</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">stripPrefix</span><span class="pi">:</span>
+    <span class="na">prefixes</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s2">"</span><span class="s">/hacknews"</span>
+<span class="nn">---</span>
+<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">traefik.containo.us/v1alpha1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">IngressRoute</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">hacknews-proxy</span> <span class="c1"># proxy to external service</span>
+  <span class="na">namespace</span><span class="pi">:</span> <span class="s">default</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">entryPoints</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">websecure</span>
+  <span class="na">routes</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">match</span><span class="pi">:</span> <span class="s2">"</span><span class="s">PathPrefix(`/hacknews`)"</span>
+      <span class="na">kind</span><span class="pi">:</span> <span class="s">Rule</span>
+      <span class="na">middlewares</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">hacknews-strip-prefix</span>
+      <span class="na">services</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">hacknews-service</span>
+          <span class="na">port</span><span class="pi">:</span> <span class="m">443</span>
+<span class="nn">---</span>
+<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">v1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Service</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">github-service</span>
+  <span class="na">namespace</span><span class="pi">:</span> <span class="s">default</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">ports</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">port</span><span class="pi">:</span> <span class="m">80</span>
+      <span class="na">targetPort</span><span class="pi">:</span> <span class="m">80</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">ExternalName</span>
+  <span class="na">externalName</span><span class="pi">:</span> <span class="s2">"</span><span class="s">10.4.0.3"</span> <span class="c1"># Directly using the backend Pod's IP address</span>
+<span class="nn">---</span>
+<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">traefik.containo.us/v1alpha1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">IngressRoute</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">github-proxy</span> <span class="c1"># proxy to backend service</span>
+  <span class="na">namespace</span><span class="pi">:</span> <span class="s">default</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">entryPoints</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">web</span>
+  <span class="na">routes</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">match</span><span class="pi">:</span> <span class="s">PathPrefix(`/github/webhook`)</span>  <span class="c1"># 根据 GitHub webhook 的域名和路径进行路由</span>
+      <span class="na">kind</span><span class="pi">:</span> <span class="s">Rule</span>
+      <span class="na">services</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">github-service</span>  <span class="c1"># 使用一个服务名称，你可以创建一个名为 service 的服务，或者直接使用 IP 地址</span>
+          <span class="na">port</span><span class="pi">:</span> <span class="m">80</span>
+</code></pre></div></div>
+
+
+
+
+  </div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+        <ul class="contact-list">
+          <li class="p-name">Axpz</li>
+          <li><a class="u-email" href="mailto:axpzhang@gmail.com">axpzhang@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</p>
+        <a href="/assets/images/WechatXianping.jpg" target="_blank">A cup of Coffee 请我喝咖啡</a>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

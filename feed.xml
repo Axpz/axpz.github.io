@@ -1,5 +1,249 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-22T15:17:06+08:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">关于开源许可协议</title><link href="/k8s/2025/01/22/09-47-52-open-source-license.html" rel="alternate" type="text/html" title="关于开源许可协议" /><published>2025-01-22T09:47:52+08:00</published><updated>2025-01-22T09:47:52+08:00</updated><id>/k8s/2025/01/22/09:47:52-open-source-license</id><content type="html" xml:base="/k8s/2025/01/22/09-47-52-open-source-license.html"><![CDATA[<p>常见的开源许可协议，可以理解为两条线</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-23T07:00:25+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">git workflow</title><link href="/k8s/2025/01/23/09-47-52-gitworkflow.html" rel="alternate" type="text/html" title="git workflow" /><published>2025-01-23T01:47:52+00:00</published><updated>2025-01-23T01:47:52+00:00</updated><id>/k8s/2025/01/23/09:47:52-gitworkflow</id><content type="html" xml:base="/k8s/2025/01/23/09-47-52-gitworkflow.html"><![CDATA[<p>一图胜千文，这张图真是让我爱不释手啊</p>
+
+<p><img src="/assets/images/git-workflow.gif" alt="git workflow" /></p>
+
+<h1 id="git-的核心概念">Git 的核心概念</h1>
+
+<p>Git 是一种分布式版本控制系统，主要用于管理代码的变更。它通过多个状态和区间，帮助开发者跟踪、管理和共享代码。</p>
+
+<h2 id="工作目录-working-directory">工作目录 (Working Directory)</h2>
+
+<p>本地文件夹，包含所有正在开发和修改的代码，文件有两种状态</p>
+<ul>
+  <li><strong>未跟踪(Untracked)</strong>：新文件，Git尚未开始管理</li>
+  <li><strong>已跟踪(Tracked)</strong>: 被Git管理的文件，可用于修改、未修改或暂存状态</li>
+</ul>
+
+<h2 id="暂存区-staging-area">暂存区 (Staging Area)</h2>
+
+<ul>
+  <li>又称为<strong>Index</strong>， 是一个中间区域，用于保存你准备提交到本地仓库的更改</li>
+  <li>暂存区可以理解为提交的草稿区，只有暂存的文件才会被提交</li>
+</ul>
+
+<h2 id="本地仓库local-repo">本地仓库(Local Repo)</h2>
+
+<ul>
+  <li>包含所有的提交历史，保存了项目的版本变化</li>
+  <li>通过<code class="language-plaintext highlighter-rouge">git commit</code>将暂存区的更改记录到本地仓库</li>
+</ul>
+
+<h2 id="远程仓库remote-repo">远程仓库(Remote Repo)</h2>
+<ul>
+  <li>通常是托管在服务器或云端 (GitHub, GitLab)的仓库</li>
+  <li>本地仓库的更改可以通过<code class="language-plaintext highlighter-rouge">git push</code> 推送到远程仓库，工团队成员共享</li>
+</ul>
+
+<h1 id="git-的设计哲学">Git 的设计哲学</h1>
+
+<h2 id="分布式版本控制">分布式版本控制</h2>
+<ul>
+  <li>Git的核心在于每个开发者都拥有完成的仓库副本，确保即使没有网络链接，也能进行代码的管理和回滚</li>
+</ul>
+
+<h2 id="文件的三个区域">文件的三个区域</h2>
+<ul>
+  <li><strong>工作目录</strong> <strong>暂存区</strong> <strong>本地仓库</strong> 的分离，使得修改和提交具有更高的灵活性</li>
+</ul>
+
+<h2 id="基于快照而非差异">基于快照而非差异</h2>
+<ul>
+  <li>Git 通过报错文件快照 (snapshot) 而非改动，提高了性能和版本管理效率</li>
+</ul>
+
+<h2 id="高效分支管理">高效分支管理</h2>
+<ul>
+  <li>Git 的分支(Branch) 轻量且易于合并，便于多人协作和快速开发</li>
+</ul>
+
+<p><strong>Note:</strong>
+每次提交就是一张快照照片： 项目所有文件的当前状态都被记录下来。
+未变动的文件只存一次： Git 不会重复保存相同的文件，依靠引用来避免冗余。
+高效与完整结合： 快照是对版本状态的完整记录，但通过引用和压缩技术使其存储效率极高。
+通过这种快照机制，Git 既保证了性能，又能方便地管理代码版本，让开发者专注于编程而无需关心底层实现。</p>
+
+<p>假设有一个项目包含三个文件：<code class="language-plaintext highlighter-rouge">file1.txt</code>、<code class="language-plaintext highlighter-rouge">file2.txt</code> 和 <code class="language-plaintext highlighter-rouge">file3.txt</code>，以下是文件的变更和提交的流程：</p>
+
+<p><strong>初次提交</strong></p>
+
+<ul>
+  <li>
+    <p>Git 保存所有文件的完整内容（Blob），并生成 Tree 和 Commit 对象。</p>
+
+    <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Commit</span> <span class="err">→</span> <span class="n">Tree</span> <span class="err">→</span> <span class="p">[</span><span class="nb">Blob</span><span class="p">(</span><span class="n">file1</span><span class="p">),</span> <span class="nb">Blob</span><span class="p">(</span><span class="n">file2</span><span class="p">),</span> <span class="nb">Blob</span><span class="p">(</span><span class="n">file3</span><span class="p">)]</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p><strong>第二次提交</strong></p>
+
+<ul>
+  <li>修改了 <code class="language-plaintext highlighter-rouge">file2.txt</code>，其他文件未变动。</li>
+  <li>Git 只保存 <code class="language-plaintext highlighter-rouge">file2.txt</code> 的新 Blob，对未变动的文件使用之前的引用。
+    <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Commit</span> <span class="err">→</span> <span class="n">Tree</span> <span class="err">→</span> <span class="p">[</span><span class="nb">Blob</span><span class="p">(</span><span class="n">file1</span><span class="p">),</span> <span class="nb">Blob</span><span class="p">(</span><span class="n">new_file2</span><span class="p">),</span> <span class="nb">Blob</span><span class="p">(</span><span class="n">file3</span><span class="p">)]</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p><strong>第三次提交</strong></p>
+
+<ul>
+  <li>修改了 <code class="language-plaintext highlighter-rouge">file3.txt</code>。</li>
+  <li>
+    <p>Git 保存 <code class="language-plaintext highlighter-rouge">file3.txt</code> 的新 Blob，其余文件继续引用之前的 Blob。</p>
+
+    <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Commit</span> <span class="err">→</span> <span class="n">Tree</span> <span class="err">→</span> <span class="p">[</span><span class="nb">Blob</span><span class="p">(</span><span class="n">file1</span><span class="p">),</span> <span class="nb">Blob</span><span class="p">(</span><span class="n">new_file2</span><span class="p">),</span> <span class="nb">Blob</span><span class="p">(</span><span class="n">new_file3</span><span class="p">)]</span>
+</code></pre></div>    </div>
+  </li>
+</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="git" /><category term="tech" /><summary type="html"><![CDATA[一图胜千文，这张图真是让我爱不释手啊]]></summary></entry><entry><title type="html">Gateway DNAT网络不可用问题排查和解决方案</title><link href="/k8s/2025/01/23/20-00-00-traefik-gateway.html" rel="alternate" type="text/html" title="Gateway DNAT网络不可用问题排查和解决方案" /><published>2025-01-23T01:47:52+00:00</published><updated>2025-01-23T01:47:52+00:00</updated><id>/k8s/2025/01/23/20:00:00-traefik-gateway</id><content type="html" xml:base="/k8s/2025/01/23/20-00-00-traefik-gateway.html"><![CDATA[<h1 id="gateway-dnat网络不可用问题排查和解决方案">Gateway DNAT网络不可用问题排查和解决方案</h1>
+
+<h2 id="问题描述">问题描述</h2>
+
+<p>在个人云主机上做了两个DNAT规则，将流量导入到私有环境中的虚拟机，但安装了Traefik（K3s）之后，发现当前网络不可用，并且出现了 400 错误。</p>
+
+<h3 id="测试">测试</h3>
+
+<ul>
+  <li>在本地请求网络服务时没有问题。</li>
+  <li>请求云主机网络服务时出现 400 错误，说明问题出在新安装的Traefik上。</li>
+</ul>
+
+<h3 id="traffic-flow-调试分析">Traffic Flow 调试分析</h3>
+
+<p><strong>1. 深入查看之前的NAT规则，发现没有问题：</strong></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> PREROUTING <span class="nt">-p</span> tcp <span class="nt">--dport</span> 80 <span class="nt">-d</span> 74.121.149.207 <span class="nt">-j</span> DNAT <span class="nt">--to-destination</span> 10.4.0.3:80
+<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> PREROUTING <span class="nt">-p</span> tcp <span class="nt">--dport</span> 443 <span class="nt">-d</span> 74.121.149.207 <span class="nt">-j</span> DNAT <span class="nt">--to-destination</span> 10.4.0.3:443
+<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> POSTROUTING <span class="nt">-o</span> eth0 <span class="nt">-j</span> MASQUERADE
+<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> POSTROUTING <span class="nt">-o</span> wg0 <span class="nt">-j</span> MASQUERADE
+</code></pre></div></div>
+
+<p><strong>2. 继续查看所有的DNAT规则，发现多了两条规则：</strong></p>
+
+<p>通过 iptables-save | grep 74.121.149.207 查看：</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">-A</span> KUBE-SERVICES <span class="nt">-d</span> 74.121.149.207/32 <span class="nt">-p</span> tcp <span class="nt">-m</span> comment <span class="nt">--comment</span> <span class="s2">"kube-system/traefik:web loadbalancer IP"</span> <span class="nt">-m</span> tcp <span class="nt">--dport</span> 80 <span class="nt">-j</span> KUBE-EXT-UQMCRMJZLI3FTLDP
+<span class="nt">-A</span> KUBE-SERVICES <span class="nt">-d</span> 74.121.149.207/32 <span class="nt">-p</span> tcp <span class="nt">-m</span> comment <span class="nt">--comment</span> <span class="s2">"kube-system/traefik:websecure loadbalancer IP"</span> <span class="nt">-m</span> tcp <span class="nt">--dport</span> 443 <span class="nt">-j</span> KUBE-EXT-CVG3OEGEH7H5P3HQ
+</code></pre></div></div>
+
+<p><strong>从以上规则可以看出，原先的规则被新添加的规则覆盖了。这是由于Traefik作为Kubernetes的Ingress Controller，它会动态管理网络流量，并且在 KUBE-SERVICES 链中插入新的规则，导致原本的DNAT规则失效。</strong></p>
+
+<p>看到这里，我们不妨深入追踪一下traefik的网络流量</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>k get svc <span class="nt">-owide</span> <span class="nt">-n</span> kube-system
+NAMESPACE     NAME               TYPE           CLUSTER-IP    EXTERNAL-IP            PORT<span class="o">(</span>S<span class="o">)</span>   AGE   SELECTOR
+              kubernetes         ClusterIP      10.43.0.1     &lt;none&gt;                 443/TCP   14d   &lt;none&gt;
+kube-system   traefik            LoadBalancer   10.43.2.186   74.121.149.207         80:30974/TCP,443:31017/TCP   36h   app.kubernetes.io/instance<span class="o">=</span>traefik-kube-system,app.kubernetes.
+</code></pre></div></div>
+
+<p>iptables-save
+```bash iptables-save</p>
+
+<p>-A KUBE-SERVICES -d 74.121.149.207/32 -p tcp -m comment –comment “kube-system/traefik:web loadbalancer IP” -m tcp –dport 80 -j KUBE-EXT-UQMCRMJZLI3FTLDP</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+nft list table nat  
+```bash
+chain KUBE-EXT-UQMCRMJZLI3FTLDP {
+          counter packets 305 bytes 15115 jump KUBE-MARK-MASQ
+        counter packets 305 bytes 15115 jump KUBE-SVC-UQMCRMJZLI3FTLDP
+}
+
+chain KUBE-MARK-MASQ {
+        counter packets 2 bytes 112 meta mark set mark or 0x4000
+}
+
+chain KUBE-SVC-UQMCRMJZLI3FTLDP {
+    meta l4proto tcp ip saddr != 10.42.0.0/16 ip daddr 10.43.2.186  tcp dport 80 counter packets 0 bytes 0 jump KUBE-MARK-MASQ
+    counter packets 307 bytes 15235 jump KUBE-SEP-6ESQAMORAOJ7JTEK
+}
+
+# 该链处理从外部发送到服务的流量，先通过源地址检查（排除 Kubernetes 内部流量），然后将流量转发到后端 Pod 的链（KUBE-SEP-6ESQAMORAOJ7JTEK）
+
+chain KUBE-SEP-6ESQAMORAOJ7JTEK {
+    ip saddr 10.42.0.35  counter packets 0 bytes 0 jump KUBE-MARK-MASQ
+    meta l4proto tcp   counter packets 307 bytes 15235 dnat to 10.42.0.35:8000
+}
+
+# dnat to 10.42.0.35:8000
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>k get po <span class="nt">-owide</span> <span class="nt">-A</span>
+kube-system   traefik-b7b68d8cb-dkt4v                   1/1     Running     0             34h   10.42.0.35   calm-baud-1.localdomain   &lt;none&gt;           &lt;none&gt;
+</code></pre></div></div>
+
+<p>至此网络进入到了traefik的pod中</p>
+
+<h2 id="解决方案">解决方案</h2>
+
+<p>既然安装了traefik，那我们不如使用traefik来统一处理所有的流量，让它成为ingress/egress的统一口</p>
+
+<p>废话少说，直接贴上traefik的proxy配置吧</p>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">v1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Service</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">hacknews-service</span>
+  <span class="na">namespace</span><span class="pi">:</span> <span class="s">default</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">ExternalName</span>
+  <span class="na">externalName</span><span class="pi">:</span> <span class="s">news.ycombinator.com</span>
+  <span class="na">ports</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">port</span><span class="pi">:</span> <span class="m">443</span>
+      <span class="na">targetPort</span><span class="pi">:</span> <span class="m">443</span>
+<span class="nn">---</span>
+<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">traefik.containo.us/v1alpha1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Middleware</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">hacknews-strip-prefix</span>
+  <span class="na">namespace</span><span class="pi">:</span> <span class="s">default</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">stripPrefix</span><span class="pi">:</span>
+    <span class="na">prefixes</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s2">"</span><span class="s">/hacknews"</span>
+<span class="nn">---</span>
+<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">traefik.containo.us/v1alpha1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">IngressRoute</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">hacknews-proxy</span> <span class="c1"># proxy to external service</span>
+  <span class="na">namespace</span><span class="pi">:</span> <span class="s">default</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">entryPoints</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">websecure</span>
+  <span class="na">routes</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">match</span><span class="pi">:</span> <span class="s2">"</span><span class="s">PathPrefix(`/hacknews`)"</span>
+      <span class="na">kind</span><span class="pi">:</span> <span class="s">Rule</span>
+      <span class="na">middlewares</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">hacknews-strip-prefix</span>
+      <span class="na">services</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">hacknews-service</span>
+          <span class="na">port</span><span class="pi">:</span> <span class="m">443</span>
+<span class="nn">---</span>
+<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">v1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Service</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">github-service</span>
+  <span class="na">namespace</span><span class="pi">:</span> <span class="s">default</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">ports</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">port</span><span class="pi">:</span> <span class="m">80</span>
+      <span class="na">targetPort</span><span class="pi">:</span> <span class="m">80</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">ExternalName</span>
+  <span class="na">externalName</span><span class="pi">:</span> <span class="s2">"</span><span class="s">10.4.0.3"</span> <span class="c1"># Directly using the backend Pod's IP address</span>
+<span class="nn">---</span>
+<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">traefik.containo.us/v1alpha1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">IngressRoute</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">github-proxy</span> <span class="c1"># proxy to backend service</span>
+  <span class="na">namespace</span><span class="pi">:</span> <span class="s">default</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">entryPoints</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">web</span>
+  <span class="na">routes</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">match</span><span class="pi">:</span> <span class="s">PathPrefix(`/github/webhook`)</span>  <span class="c1"># 根据 GitHub webhook 的域名和路径进行路由</span>
+      <span class="na">kind</span><span class="pi">:</span> <span class="s">Rule</span>
+      <span class="na">services</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">github-service</span>  <span class="c1"># 使用一个服务名称，你可以创建一个名为 service 的服务，或者直接使用 IP 地址</span>
+          <span class="na">port</span><span class="pi">:</span> <span class="m">80</span>
+</code></pre></div></div>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="k8s" /><category term="network" /><category term="ai" /><summary type="html"><![CDATA[Gateway DNAT网络不可用问题排查和解决方案]]></summary></entry><entry><title type="html">关于开源许可协议</title><link href="/k8s/2025/01/22/09-47-52-open-source-license.html" rel="alternate" type="text/html" title="关于开源许可协议" /><published>2025-01-22T01:47:52+00:00</published><updated>2025-01-22T01:47:52+00:00</updated><id>/k8s/2025/01/22/09:47:52-open-source-license</id><content type="html" xml:base="/k8s/2025/01/22/09-47-52-open-source-license.html"><![CDATA[<p>常见的开源许可协议，可以理解为两条线</p>
 
 <ol>
   <li>软件类产品，从宽松到严格依次是
@@ -147,7 +391,7 @@ CC (Creative Commons License)，适合开源非软件类作品，如文档、艺
 <h2 id="适用场景-6">适用场景</h2>
 <ul>
   <li>适合开源非软件类作品</li>
-</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="license" /><category term="tech" /><summary type="html"><![CDATA[常见的开源许可协议，可以理解为两条线]]></summary></entry><entry><title type="html">Hacker News 热门话题 2025-01-20</title><link href="/hacknews/2025/01/20/11-47-52-hacknews-top10.html" rel="alternate" type="text/html" title="Hacker News 热门话题 2025-01-20" /><published>2025-01-20T01:20:31+08:00</published><updated>2025-01-20T01:20:31+08:00</updated><id>/hacknews/2025/01/20/11:47:52-hacknews-top10</id><content type="html" xml:base="/hacknews/2025/01/20/11-47-52-hacknews-top10.html"><![CDATA[<p>Hacker News 热门话题 2025-01-20 01:20:31</p>
+</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="license" /><category term="tech" /><summary type="html"><![CDATA[常见的开源许可协议，可以理解为两条线]]></summary></entry><entry><title type="html">Hacker News 热门话题 2025-01-20</title><link href="/hacknews/2025/01/19/11-47-52-hacknews-top10.html" rel="alternate" type="text/html" title="Hacker News 热门话题 2025-01-20" /><published>2025-01-19T17:20:31+00:00</published><updated>2025-01-19T17:20:31+00:00</updated><id>/hacknews/2025/01/19/11:47:52-hacknews-top10</id><content type="html" xml:base="/hacknews/2025/01/19/11-47-52-hacknews-top10.html"><![CDATA[<p>Hacker News 热门话题 2025-01-20 01:20:31</p>
 
 <ol>
   <li><strong>TikTok 在美国被禁用</strong>：TikTok 在美国被禁用的新闻引起了广泛关注，讨论了这一事件对用户访问量的影响以及替代应用的激增。
@@ -201,7 +445,7 @@ CC (Creative Commons License)，适合开源非软件类作品，如文档、艺
       <li><a href="https://github.com/nguyenchiemminhvu/LinuxNetworkProgramming">About A comprehensive guide for Linux Network (Socket) programming</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-20 01:20:31]]></summary></entry><entry><title type="html">Kong start from api-gateway</title><link href="/kong/2025/01/16/kong-start-up.html" rel="alternate" type="text/html" title="Kong start from api-gateway" /><published>2025-01-16T14:43:43+08:00</published><updated>2025-01-16T14:43:43+08:00</updated><id>/kong/2025/01/16/kong-start-up</id><content type="html" xml:base="/kong/2025/01/16/kong-start-up.html"><![CDATA[<p>Kong Konnect Demo: https://www.youtube.com/watch?v=0XEtsyq_sUQ<br />
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-20 01:20:31]]></summary></entry><entry><title type="html">Kong start from api-gateway</title><link href="/kong/2025/01/16/kong-start-up.html" rel="alternate" type="text/html" title="Kong start from api-gateway" /><published>2025-01-16T06:43:43+00:00</published><updated>2025-01-16T06:43:43+00:00</updated><id>/kong/2025/01/16/kong-start-up</id><content type="html" xml:base="/kong/2025/01/16/kong-start-up.html"><![CDATA[<p>Kong Konnect Demo: https://www.youtube.com/watch?v=0XEtsyq_sUQ<br />
 Get started with Kong gateway https://www.youtube.com/watch?v=hdE-rMAdYVY<br />
 Kong Oauth https://www.youtube.com/watch?v=AIYIHZbDziI</p>
 
@@ -223,7 +467,7 @@ https://kong-b3f5187d11usr19ve.kongcloud.dev/examples/weather/utopia</p>
 global.api.konghq.com/examples/weather/utopia</p>
 
 <p>Upstream URL:
-global.api.konghq.com/examples/weather/utopia</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="kong" /><category term="kong" /><category term="api" /><category term="gateway" /><category term="ai" /><summary type="html"><![CDATA[Kong Konnect Demo: https://www.youtube.com/watch?v=0XEtsyq_sUQ Get started with Kong gateway https://www.youtube.com/watch?v=hdE-rMAdYVY Kong Oauth https://www.youtube.com/watch?v=AIYIHZbDziI]]></summary></entry><entry><title type="html">Hybrid cloud computing - Github CICD pipelines</title><link href="/k8s/2025/01/15/hybrid-cloud-computing-cicd-axpz.github.io.html" rel="alternate" type="text/html" title="Hybrid cloud computing - Github CICD pipelines" /><published>2025-01-15T23:18:15+08:00</published><updated>2025-01-15T23:18:15+08:00</updated><id>/k8s/2025/01/15/hybrid-cloud-computing-cicd-axpz.github.io</id><content type="html" xml:base="/k8s/2025/01/15/hybrid-cloud-computing-cicd-axpz.github.io.html"><![CDATA[<h1 id="混合云数据中心之cicd">混合云数据中心之CICD</h1>
+global.api.konghq.com/examples/weather/utopia</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="kong" /><category term="kong" /><category term="api" /><category term="gateway" /><category term="ai" /><summary type="html"><![CDATA[Kong Konnect Demo: https://www.youtube.com/watch?v=0XEtsyq_sUQ Get started with Kong gateway https://www.youtube.com/watch?v=hdE-rMAdYVY Kong Oauth https://www.youtube.com/watch?v=AIYIHZbDziI]]></summary></entry><entry><title type="html">Hybrid cloud computing - Github CICD pipelines</title><link href="/k8s/2025/01/15/hybrid-cloud-computing-cicd-axpz.github.io.html" rel="alternate" type="text/html" title="Hybrid cloud computing - Github CICD pipelines" /><published>2025-01-15T15:18:15+00:00</published><updated>2025-01-15T15:18:15+00:00</updated><id>/k8s/2025/01/15/hybrid-cloud-computing-cicd-axpz.github.io</id><content type="html" xml:base="/k8s/2025/01/15/hybrid-cloud-computing-cicd-axpz.github.io.html"><![CDATA[<h1 id="混合云数据中心之cicd">混合云数据中心之CICD</h1>
 
 <p>这是我要搭建的第一个服务：个人blog的CI/CD - 持续集成和持续部署</p>
 
@@ -470,7 +714,7 @@ ctr <span class="nt">-n</span><span class="o">=</span>k8s.io images import /tmp/
           <span class="na">defaultMode</span><span class="pi">:</span> <span class="m">0600</span>
   <span class="na">backoffLimit</span><span class="pi">:</span> <span class="m">0</span> <span class="c1"># 任务失败后不重试</span>
   <span class="na">ttlSecondsAfterFinished</span><span class="pi">:</span> <span class="m">60</span> <span class="c1"># 在任务完成 60 秒后删除 Job</span>
-</code></pre></div></div>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="kubernetes" /><category term="k8s" /><category term="k3s" /><category term="golang" /><category term="cloud" /><category term="ai" /><summary type="html"><![CDATA[混合云数据中心之CICD]]></summary></entry><entry><title type="html">Kubernetes personal hybrid cloud edge computing</title><link href="/k8s/2025/01/12/kubernetes-personal-hybrid-cloud-edge-computing.html" rel="alternate" type="text/html" title="Kubernetes personal hybrid cloud edge computing" /><published>2025-01-12T14:43:43+08:00</published><updated>2025-01-12T14:43:43+08:00</updated><id>/k8s/2025/01/12/kubernetes-personal-hybrid-cloud-edge-computing</id><content type="html" xml:base="/k8s/2025/01/12/kubernetes-personal-hybrid-cloud-edge-computing.html"><![CDATA[<!-- Header Section -->
+</code></pre></div></div>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="kubernetes" /><category term="k8s" /><category term="k3s" /><category term="golang" /><category term="cloud" /><category term="ai" /><summary type="html"><![CDATA[混合云数据中心之CICD]]></summary></entry><entry><title type="html">Kubernetes personal hybrid cloud edge computing</title><link href="/k8s/2025/01/12/kubernetes-personal-hybrid-cloud-edge-computing.html" rel="alternate" type="text/html" title="Kubernetes personal hybrid cloud edge computing" /><published>2025-01-12T06:43:43+00:00</published><updated>2025-01-12T06:43:43+00:00</updated><id>/k8s/2025/01/12/kubernetes-personal-hybrid-cloud-edge-computing</id><content type="html" xml:base="/k8s/2025/01/12/kubernetes-personal-hybrid-cloud-edge-computing.html"><![CDATA[<!-- Header Section -->
 <h1 id="基于k3s搭建个人混合云数据中心高效利用边缘计算与云服务">基于k3s搭建个人混合云数据中心：高效利用边缘计算与云服务</h1>
 
 <!-- Navigation Bar -->
@@ -844,11 +1088,11 @@ systemctl start k3s
 <!-- Footer Section -->
 <div class="footer">
     <p>© 2025 基于kubernetes搭建个人混合云数据中心项目</p>
-</div>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="kubernetes" /><category term="k8s" /><category term="k3s" /><category term="golang" /><category term="cloud" /><category term="ai" /><summary type="html"><![CDATA[基于k3s搭建个人混合云数据中心：高效利用边缘计算与云服务]]></summary></entry><entry><title type="html">Some articles are just so long they deserve a really long title to see if things will break well</title><link href="/ai/2025/01/12/super-long-article.html" rel="alternate" type="text/html" title="Some articles are just so long they deserve a really long title to see if things will break well" /><published>2025-01-12T12:03:43+08:00</published><updated>2025-01-12T12:03:43+08:00</updated><id>/ai/2025/01/12/super-long-article</id><content type="html" xml:base="/ai/2025/01/12/super-long-article.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
+</div>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="kubernetes" /><category term="k8s" /><category term="k3s" /><category term="golang" /><category term="cloud" /><category term="ai" /><summary type="html"><![CDATA[基于k3s搭建个人混合云数据中心：高效利用边缘计算与云服务]]></summary></entry><entry><title type="html">Some articles are just so long they deserve a really long title to see if things will break well</title><link href="/ai/2025/01/12/super-long-article.html" rel="alternate" type="text/html" title="Some articles are just so long they deserve a really long title to see if things will break well" /><published>2025-01-12T04:03:43+00:00</published><updated>2025-01-12T04:03:43+00:00</updated><id>/ai/2025/01/12/super-long-article</id><content type="html" xml:base="/ai/2025/01/12/super-long-article.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="ai" /><category term="kubernetes" /><category term="k8s" /><category term="k3s" /><category term="cloud" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.]]></summary></entry><entry><title type="html">OAuth 2.0 授权码模式</title><link href="/k8s/2024/11/04/Oauth2-identity-workflow.html" rel="alternate" type="text/html" title="OAuth 2.0 授权码模式" /><published>2024-11-04T14:43:43+08:00</published><updated>2024-11-04T14:43:43+08:00</updated><id>/k8s/2024/11/04/Oauth2-identity-workflow</id><content type="html" xml:base="/k8s/2024/11/04/Oauth2-identity-workflow.html"><![CDATA[<p><img src="/assets/images/auth-overall.png" alt="auth2" /></p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="ai" /><category term="kubernetes" /><category term="k8s" /><category term="k3s" /><category term="cloud" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.]]></summary></entry><entry><title type="html">OAuth 2.0 授权码模式</title><link href="/k8s/2024/11/04/Oauth2-identity-workflow.html" rel="alternate" type="text/html" title="OAuth 2.0 授权码模式" /><published>2024-11-04T06:43:43+00:00</published><updated>2024-11-04T06:43:43+00:00</updated><id>/k8s/2024/11/04/Oauth2-identity-workflow</id><content type="html" xml:base="/k8s/2024/11/04/Oauth2-identity-workflow.html"><![CDATA[<p><img src="/assets/images/auth-overall.png" alt="auth2" /></p>
 
 <h1 id="注册客户端第三方应用信息">注册客户端(第三方应用)信息</h1>
 
@@ -950,7 +1194,7 @@ Content-Type: application/x-www-form-urlencoded
   <li>授权服务器处理用户登录并授权后，通过 <strong>302 重定向</strong> 将用户带回客户端(第三方应用)的 <code class="language-plaintext highlighter-rouge">redirect_uri</code>，同时携带 <code class="language-plaintext highlighter-rouge">auth_code</code> 和原始的 <code class="language-plaintext highlighter-rouge">state</code>。</li>
   <li>客户端(第三方应用)收到回调后验证 <code class="language-plaintext highlighter-rouge">state</code>，确保请求未被篡改。</li>
   <li>验证通过后，客户端(第三方应用)使用授权码换取访问令牌。</li>
-</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="oauth" /><category term="ai" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Kubernetes and Go R&amp;amp;D in VMware - Xianping</title><link href="/k8s/2024/11/03/kubernetes-in-vmware.html" rel="alternate" type="text/html" title="Kubernetes and Go R&amp;amp;D in VMware - Xianping" /><published>2024-11-03T14:43:43+08:00</published><updated>2024-11-03T14:43:43+08:00</updated><id>/k8s/2024/11/03/kubernetes-in-vmware</id><content type="html" xml:base="/k8s/2024/11/03/kubernetes-in-vmware.html"><![CDATA[<ul>
+</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="oauth" /><category term="ai" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Kubernetes and Go R&amp;amp;D in VMware - Xianping</title><link href="/k8s/2024/11/03/kubernetes-in-vmware.html" rel="alternate" type="text/html" title="Kubernetes and Go R&amp;amp;D in VMware - Xianping" /><published>2024-11-03T06:43:43+00:00</published><updated>2024-11-03T06:43:43+00:00</updated><id>/k8s/2024/11/03/kubernetes-in-vmware</id><content type="html" xml:base="/k8s/2024/11/03/kubernetes-in-vmware.html"><![CDATA[<ul>
   <li>Golang/Python/c/c++/Bash</li>
   <li>Docker/Kubernetes/PostgreSQL/gRPC</li>
   <li>Git/Jenkins/Gitlab</li>
@@ -1081,181 +1325,4 @@ TKG 1.6 is a major release, and as downstream support, we need to cover all new 
       <li>Branches management <img src="/assets/images/auto-branch-cut.png" alt="release lifecycle and auto branching management" /></li>
     </ul>
   </li>
-</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="k8s" /><category term="gRPC" /><category term="PostgreSQL" /><category term="golang" /><category term="cloud" /><category term="ai" /><summary type="html"><![CDATA[Golang/Python/c/c++/Bash Docker/Kubernetes/PostgreSQL/gRPC Git/Jenkins/Gitlab]]></summary></entry><entry><title type="html">Welcome To Jekyll</title><link href="/2016/05/20/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome To Jekyll" /><published>2016-05-20T00:00:00+08:00</published><updated>2016-05-20T00:00:00+08:00</updated><id>/2016/05/20/welcome-to-jekyll</id><content type="html" xml:base="/2016/05/20/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">This post demonstrates post content styles</title><link href="/junk/2016/05/20/this-post-demonstrates-post-content-styles.html" rel="alternate" type="text/html" title="This post demonstrates post content styles" /><published>2016-05-20T00:00:00+08:00</published><updated>2016-05-20T00:00:00+08:00</updated><id>/junk/2016/05/20/this-post-demonstrates-post-content-styles</id><content type="html" xml:base="/junk/2016/05/20/this-post-demonstrates-post-content-styles.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.</p>
-
-<h2 id="some-great-heading-h2">Some great heading (h2)</h2>
-
-<p>Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu.</p>
-
-<p>Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
-
-<h2 id="another-great-heading-h2">Another great heading (h2)</h2>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.</p>
-
-<h3 id="some-great-subheading-h3">Some great subheading (h3)</h3>
-
-<p>Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum.</p>
-
-<p>Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.</p>
-
-<h3 id="some-great-subheading-h3-1">Some great subheading (h3)</h3>
-
-<p>Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
-
-<blockquote>
-  <p>This quote will <em>change</em> your life. It will reveal the <i>secrets</i> of the universe, and all the wonders of humanity. Don’t <em>misuse</em> it.</p>
-</blockquote>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt.</p>
-
-<h3 id="some-great-subheading-h3-2">Some great subheading (h3)</h3>
-
-<p>Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum.</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
-  <span class="nt">&lt;head&gt;</span>
-  <span class="nt">&lt;/head&gt;</span>
-  <span class="nt">&lt;body&gt;</span>
-    <span class="nt">&lt;p&gt;</span>Hello, World!<span class="nt">&lt;/p&gt;</span>
-  <span class="nt">&lt;/body&gt;</span>
-<span class="nt">&lt;/html&gt;</span>
-</code></pre></div></div>
-
-<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
-
-<h4 id="you-might-want-a-sub-subheading-h4">You might want a sub-subheading (h4)</h4>
-
-<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
-
-<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
-
-<h4 id="but-its-probably-overkill-h4">But it’s probably overkill (h4)</h4>
-
-<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
-
-<h5 id="could-be-a-smaller-sub-heading-pacman-h5">Could be a smaller sub-heading, <code class="language-plaintext highlighter-rouge">pacman</code> (h5)</h5>
-
-<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
-
-<h6 id="small-yet-significant-sub-heading--h6">Small yet significant sub-heading  (h6)</h6>
-
-<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
-
-<h3 id="oh-hai-an-unordered-list">Oh hai, an unordered list!!</h3>
-
-<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
-
-<ul>
-  <li>First item, yo</li>
-  <li>Second item, dawg</li>
-  <li>Third item, what what?!</li>
-  <li>Fourth item, fo sheezy my neezy</li>
-</ul>
-
-<h3 id="oh-hai-an-ordered-list">Oh hai, an ordered list!!</h3>
-
-<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
-
-<ol>
-  <li>First item, yo</li>
-  <li>Second item, dawg</li>
-  <li>Third item, what what?!</li>
-  <li>Fourth item, fo sheezy my neezy</li>
-</ol>
-
-<h2 id="headings-are-cool-h2">Headings are cool! (h2)</h2>
-
-<p>Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
-
-<p>Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
-
-<p>Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.</p>
-
-<h3 id="tables">Tables</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>Title 1</th>
-      <th>Title 2</th>
-      <th>Title 3</th>
-      <th>Title 4</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>lorem</td>
-      <td>lorem ipsum</td>
-      <td>lorem ipsum dolor</td>
-      <td>lorem ipsum dolor sit</td>
-    </tr>
-    <tr>
-      <td>lorem ipsum dolor sit</td>
-      <td>lorem ipsum dolor sit</td>
-      <td>lorem ipsum dolor sit</td>
-      <td>lorem ipsum dolor sit</td>
-    </tr>
-    <tr>
-      <td>lorem ipsum dolor sit</td>
-      <td>lorem ipsum dolor sit</td>
-      <td>lorem ipsum dolor sit</td>
-      <td>lorem ipsum dolor sit</td>
-    </tr>
-    <tr>
-      <td>lorem ipsum dolor sit</td>
-      <td>lorem ipsum dolor sit</td>
-      <td>lorem ipsum dolor sit</td>
-      <td>lorem ipsum dolor sit</td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th>Title 1</th>
-      <th>Title 2</th>
-      <th>Title 3</th>
-      <th>Title 4</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>lorem</td>
-      <td>lorem ipsum</td>
-      <td>lorem ipsum dolor</td>
-      <td>lorem ipsum dolor sit</td>
-    </tr>
-    <tr>
-      <td>lorem ipsum dolor sit amet</td>
-      <td>lorem ipsum dolor sit amet consectetur</td>
-      <td>lorem ipsum dolor sit amet</td>
-      <td>lorem ipsum dolor sit</td>
-    </tr>
-    <tr>
-      <td>lorem ipsum dolor</td>
-      <td>lorem ipsum</td>
-      <td>lorem</td>
-      <td>lorem ipsum</td>
-    </tr>
-    <tr>
-      <td>lorem ipsum dolor</td>
-      <td>lorem ipsum dolor sit</td>
-      <td>lorem ipsum dolor sit amet</td>
-      <td>lorem ipsum dolor sit amet consectetur</td>
-    </tr>
-  </tbody>
-</table>]]></content><author><name>[&quot;Bart Simpson&quot;, &quot;Nelson Mandela Muntz&quot;]</name></author><category term="junk" /><category term="abc" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.]]></summary></entry></feed>
+</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="k8s" /><category term="gRPC" /><category term="PostgreSQL" /><category term="golang" /><category term="cloud" /><category term="ai" /><summary type="html"><![CDATA[Golang/Python/c/c++/Bash Docker/Kubernetes/PostgreSQL/gRPC Git/Jenkins/Gitlab]]></summary></entry></feed>
