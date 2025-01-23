@@ -1,5 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-23T16:58:24+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News 热门话题 top 10 2025-01-23</title><link href="/hacknews/2025/01/23/16-57-19-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-23" /><published>2025-01-23T08:57:19+00:00</published><updated>2025-01-23T08:57:19+00:00</updated><id>/hacknews/2025/01/23/16:57:19-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/23/16-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-23 16:57:19</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-23T17:19:39+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News 热门话题 top 10 2025-01-23</title><link href="/hacknews/2025/01/23/17-18-32-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-23" /><published>2025-01-23T09:18:32+00:00</published><updated>2025-01-23T09:18:32+00:00</updated><id>/hacknews/2025/01/23/17:18:32-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/23/17-18-32-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-23 17:18:32</p>
+
+<ol>
+  <li><strong>Bunster 工具介绍</strong>：一个可以将 bash 脚本编译成独立可执行文件的工具，为脚本开发者提供了便利。
+    <ul>
+      <li>Bunster: Compile bash scripts to self contained executables: https://github.com/yassinebenaid/bunster</li>
+    </ul>
+  </li>
+  <li><strong>迷幻图形介绍</strong>：一篇关于迷幻图形的介绍文章，探讨了这种视觉艺术的风格和特点。
+    <ul>
+      <li>Psychedelic Graphics: An Introduction: https://benpence.com/blog/post/psychedelic-graphics-0</li>
+    </ul>
+  </li>
+  <li><strong>TMSU 命令行工具</strong>：一个用于应用标签和查看虚拟标记文件系统的命令行工具。
+    <ul>
+      <li>TMSU: Command-line tool for applying tags and viewing virtual tagged filesystem: https://tmsu.org/</li>
+    </ul>
+  </li>
+  <li><strong>开源笔记本电脑制作</strong>：一个开发者展示了他从头开始制作的开源笔记本电脑。
+    <ul>
+      <li>Show HN: I made an open-source laptop from scratch: https://www.byran.ee/posts/creation/</li>
+    </ul>
+  </li>
+  <li><strong>轨道绘图仪</strong>：一篇关于轨道绘图仪的介绍文章，探讨了这种数学绘图工具的工作原理。
+    <ul>
+      <li>Orbit Spirograph: https://www.redblobgames.com/x/1903-orbit-spirograph/</li>
+    </ul>
+  </li>
+  <li><strong>libmodulor TS库</strong>：一个用于构建多平台应用的意见性TypeScript库。
+    <ul>
+      <li>Show HN: libmodulor – An opinionated TS library to build multi-platform apps: https://github.com/c100k/libmodulor</li>
+    </ul>
+  </li>
+  <li><strong>Intrinsic 招聘信息</strong>：一家 YC W23 孵化的公司正在招聘。
+    <ul>
+      <li>Intrinsic (YC W23) Is Hiring: item?id=42805699</li>
+    </ul>
+  </li>
+  <li><strong>文件操作的难点</strong>：一篇讨论文件操作难点的文章，分析了文件系统和文件操作的复杂性。
+    <ul>
+      <li>Working with Files Is Hard: https://danluu.com/deconstruct-files/</li>
+    </ul>
+  </li>
+  <li><strong>第三垒</strong>：一篇关于棒球中第三垒位置的文章，探讨了这个位置的重要性和特点。
+    <ul>
+      <li>Third Base: https://www.americanscientist.org/article/third-base</li>
+    </ul>
+  </li>
+  <li><strong>伦敦最中心的羊</strong>：一篇探讨伦敦最中心位置的羊的文章，提供了有趣的地理和文化信息。
+    <ul>
+      <li>
+        <h2 id="where-is-londons-most-central-sheep-httpsdiamondgeezerblogspotcom202501londons-most-central-sheephtml">Where is London’s most central sheep?: https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html</h2>
+      </li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 17:18:32]]></summary></entry><entry><title type="html">Hacker News 热门话题 top 10 2025-01-23</title><link href="/hacknews/2025/01/23/16-57-19-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-23" /><published>2025-01-23T08:57:19+00:00</published><updated>2025-01-23T08:57:19+00:00</updated><id>/hacknews/2025/01/23/16:57:19-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/23/16-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-23 16:57:19</p>
 
 <ol>
   <li><strong>Bunster：将 Bash 脚本编译成独立可执行文件的工具</strong>：一个 GitHub 项目，允许用户将 Bash 脚本编译成独立的可执行文件，提高脚本的便携性和执行效率。
@@ -1145,106 +1200,4 @@ systemctl start k3s
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="ai" /><category term="kubernetes" /><category term="k8s" /><category term="k3s" /><category term="cloud" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.]]></summary></entry><entry><title type="html">OAuth 2.0 授权码模式</title><link href="/k8s/2024/11/04/Oauth2-identity-workflow.html" rel="alternate" type="text/html" title="OAuth 2.0 授权码模式" /><published>2024-11-04T06:43:43+00:00</published><updated>2024-11-04T06:43:43+00:00</updated><id>/k8s/2024/11/04/Oauth2-identity-workflow</id><content type="html" xml:base="/k8s/2024/11/04/Oauth2-identity-workflow.html"><![CDATA[<p><img src="/assets/images/auth-overall.png" alt="auth2" /></p>
-
-<h1 id="注册客户端第三方应用信息">注册客户端(第三方应用)信息</h1>
-
-<p>在使用 OAuth 2.0 授权码模式之前，客户端(第三方应用)（通常是你的应用）需要在授权服务器上进行注册。注册后，你会获得以下信息：</p>
-
-<ul>
-  <li><strong>client_id</strong>：客户端(第三方应用)的唯一标识符，由授权服务器分配。</li>
-  <li><strong>client_secret</strong>：客户端(第三方应用)的密钥，用于验证客户端(第三方应用)的身份（但仅在安全环境下使用，比如服务端，不建议在前端公开）。</li>
-</ul>
-
-<h2 id="填写回调-urlredirect-uri">填写回调 URL（Redirect URI）</h2>
-
-<p>在注册过程中，你需要提供一个 <strong>回调地址</strong>，即授权完成后授权服务器会重定向用户的地址。</p>
-
-<ul>
-  <li><strong>Redirect URI（回调地址）</strong> 是授权服务器将授权码发送到客户端(第三方应用)的地方，它必须与你注册时填写的地址完全匹配。</li>
-  <li>
-    <p>回调地址通常是一个 HTTPS URL，例如：https://your-app.com/callback</p>
-  </li>
-  <li>如果你有多个环境（如开发环境、生产环境），需要为每个环境分别注册对应的回调 URL。</li>
-</ul>
-
-<h2 id="用途">用途</h2>
-
-<ul>
-  <li>授权服务器会在用户授权后，通过这个回调地址将 <strong>授权码（Authorization Code）</strong> 发送回客户端(第三方应用)。</li>
-  <li>之后，客户端(第三方应用)再通过授权码和客户端(第三方应用)密钥，向授权服务器请求 <strong>访问令牌（Access Token）</strong>。</li>
-</ul>
-
-<h1 id="流程细化解释">流程细化解释</h1>
-
-<p><img src="/assets/images/auth-exchange.png" alt="auth2" /></p>
-
-<h2 id="客户端第三方应用生成授权请求并包含-csrf-随机字符串">客户端(第三方应用)生成授权请求并包含 CSRF 随机字符串</h2>
-
-<ul>
-  <li>客户端(第三方应用)（第三方应用）在发起授权请求时，会生成一个随机字符串（<code class="language-plaintext highlighter-rouge">state</code>）作为防止 CSRF 攻击的标志。</li>
-  <li>客户端(第三方应用)通过 <strong>302 重定向</strong> 请求用户访问授权服务器（<code class="language-plaintext highlighter-rouge">auth server</code>），并在 URL 中携带以下重要参数：</li>
-</ul>
-
-<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">GET</span> <span class="nn">/authorize?response_type=code&amp;client_id=CLIENT_ID&amp;redirect_uri=https://your-app.com/callback&amp;scope=SCOPE&amp;state=RANDOM_STRING</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
-<span class="na">Host</span><span class="p">:</span> <span class="s">auth-server.com</span>
-</code></pre></div></div>
-<p>参数说明：</p>
-<ul>
-  <li><strong>response_type=code</strong>：请求授权码。</li>
-  <li><strong>client_id</strong>：客户端(第三方应用)标识。</li>
-  <li><strong>redirect_uri</strong>：用户授权完成后，授权服务器会将用户重定向到此地址。</li>
-  <li><strong>scope</strong>：客户端(第三方应用)请求的权限范围。</li>
-  <li><strong>state</strong>：由客户端(第三方应用)生成的随机字符串，用于防止 CSRF 攻击。</li>
-</ul>
-
-<h2 id="授权服务器显示登录授权页面">授权服务器显示登录/授权页面</h2>
-
-<ul>
-  <li>用户被 <strong>302 重定向</strong> 到授权服务器，授权服务器会弹出认证页面，让用户登录并选择是否授权第三方应用。</li>
-  <li>如果用户未登录，会先引导用户登录。如果用户已经登录，则直接显示授权页面。</li>
-</ul>
-
-<h2 id="用户认证成功后授权服务器生成授权码并重定向">用户认证成功后，授权服务器生成授权码并重定向</h2>
-
-<ul>
-  <li>用户在授权页面上点击“允许”后，授权服务器会生成一个 <strong>授权码（authorization code）</strong>。</li>
-  <li>授权服务器通过 <strong>302 重定向</strong> 将用户带回客户端(第三方应用)的回调地址（<code class="language-plaintext highlighter-rouge">redirect_uri</code>），并在 URL 中附加授权码和原始的 <code class="language-plaintext highlighter-rouge">state</code>：</li>
-</ul>
-
-<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">302</span> <span class="ne">Found</span>
-<span class="na">Location</span><span class="p">:</span> <span class="s">https://your-app.com/callback?code=AUTH_CODE&amp;state=RANDOM_STRING</span>
-</code></pre></div></div>
-<p>参数说明：</p>
-<ul>
-  <li><strong>code</strong>：授权码。</li>
-  <li><strong>state</strong>：原始客户端(第三方应用)发送的 <code class="language-plaintext highlighter-rouge">state</code> 值，用于验证请求完整性。</li>
-</ul>
-
-<h2 id="客户端第三方应用验证-state">客户端(第三方应用)验证 state</h2>
-
-<ul>
-  <li>客户端(第三方应用)在收到授权服务器的回调时，必须验证返回的 <code class="language-plaintext highlighter-rouge">state</code> 是否与初始发送的值一致。</li>
-  <li>如果 <code class="language-plaintext highlighter-rouge">state</code> 不匹配，则可能存在 CSRF 攻击或请求被篡改，客户端(第三方应用)应拒绝处理该回调。</li>
-</ul>
-
-<h2 id="客户端第三方应用交换授权码获取访问令牌">客户端(第三方应用)交换授权码获取访问令牌</h2>
-
-<ul>
-  <li>如果 <code class="language-plaintext highlighter-rouge">state</code> 验证通过，客户端(第三方应用)使用授权码（<code class="language-plaintext highlighter-rouge">code</code>）向授权服务器发起 <strong>POST 请求</strong>，交换访问令牌（<code class="language-plaintext highlighter-rouge">access token</code>）：</li>
-</ul>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST /token HTTP/1.1
-Content-Type: application/x-www-form-urlencoded
-
-<span class="nv">grant_type</span><span class="o">=</span>authorization_code&amp;code<span class="o">=</span>AUTH_CODE&amp;redirect_uri<span class="o">=</span>https://your-app.com/callback&amp;client_id<span class="o">=</span>CLIENT_ID&amp;client_secret<span class="o">=</span>CLIENT_SECRET
-</code></pre></div></div>
-
-<h1 id="核心点总结">核心点总结</h1>
-
-<ul>
-  <li>客户端(第三方应用)生成授权 URL，并携带 <code class="language-plaintext highlighter-rouge">state</code> 和其他参数，使用 <strong>302 重定向</strong> 将用户引导到授权服务器。</li>
-  <li>授权服务器处理用户登录并授权后，通过 <strong>302 重定向</strong> 将用户带回客户端(第三方应用)的 <code class="language-plaintext highlighter-rouge">redirect_uri</code>，同时携带 <code class="language-plaintext highlighter-rouge">auth_code</code> 和原始的 <code class="language-plaintext highlighter-rouge">state</code>。</li>
-  <li>客户端(第三方应用)收到回调后验证 <code class="language-plaintext highlighter-rouge">state</code>，确保请求未被篡改。</li>
-  <li>验证通过后，客户端(第三方应用)使用授权码换取访问令牌。</li>
-</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="oauth" /><category term="ai" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="ai" /><category term="kubernetes" /><category term="k8s" /><category term="k3s" /><category term="cloud" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.]]></summary></entry></feed>
