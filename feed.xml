@@ -1,5 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-23T17:19:39+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News 热门话题 top 10 2025-01-23</title><link href="/hacknews/2025/01/23/17-18-32-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-23" /><published>2025-01-23T09:18:32+00:00</published><updated>2025-01-23T09:18:32+00:00</updated><id>/hacknews/2025/01/23/17:18:32-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/23/17-18-32-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-23 17:18:32</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-23T17:30:41+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News 热门话题 top 10 2025-01-23</title><link href="/hacknews/2025/01/23/17-29-36-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-23" /><published>2025-01-23T09:29:36+00:00</published><updated>2025-01-23T09:29:36+00:00</updated><id>/hacknews/2025/01/23/17:29:36-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/23/17-29-36-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-23 17:29:36</p>
+
+<ol>
+  <li><strong>Bunster 工具介绍</strong><br />
+Bunster 是一个可以将 bash 脚本编译成独立可执行文件的工具，为脚本部署和分发提供了便利。
+    <ul>
+      <li><a href="https://github.com/yassinebenaid/bunster">Bunster: Compile bash scripts to self contained executables</a></li>
+    </ul>
+  </li>
+  <li><strong>迷幻图形介绍</strong><br />
+文章介绍了迷幻图形的历史和设计原理，为设计师和艺术家提供了灵感。
+    <ul>
+      <li><a href="https://benpence.com/blog/post/psychedelic-graphics-0">Psychedelic Graphics: An Introduction</a></li>
+    </ul>
+  </li>
+  <li><strong>TMSU 命令行工具</strong><br />
+TMSU 是一个命令行工具，用于给文件系统打标签和查看虚拟标签文件系统，增强了文件管理的灵活性。
+    <ul>
+      <li><a href="https://tmsu.org/">TMSU: Command-line tool for applying tags and viewing virtual tagged filesystem</a></li>
+    </ul>
+  </li>
+  <li><strong>自制开源笔记本电脑</strong><br />
+一个开发者展示了他从头开始制作开源笔记本电脑的过程，引起了社区的广泛关注。
+    <ul>
+      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
+    </ul>
+  </li>
+  <li><strong>处理文件的困难</strong><br />
+文章讨论了在现代编程中处理文件的复杂性，以及如何优化文件操作。
+    <ul>
+      <li><a href="https://danluu.com/deconstruct-files/">Working with Files Is Hard</a></li>
+    </ul>
+  </li>
+  <li><strong>轨道绘图仪</strong><br />
+介绍了一种名为轨道绘图仪的数学绘图工具，可以创建复杂的几何图形。
+    <ul>
+      <li><a href="https://www.redblobgames.com/x/1903-orbit-spirograph/">Orbit Spirograph</a></li>
+    </ul>
+  </li>
+  <li><strong>Intrinsic 招聘信息</strong><br />
+YC W23 孵化的公司 Intrinsic 发布了招聘信息，寻找技术人才。
+    <ul>
+      <li><a href="item?id=42805699">Intrinsic (YC W23) Is Hiring</a></li>
+    </ul>
+  </li>
+  <li><strong>libmodulor TS 库</strong><br />
+展示了一个用于构建多平台应用的 TypeScript 库 libmodulor，强调了其“有意见”的设计哲学。
+    <ul>
+      <li><a href="https://github.com/c100k/libmodulor">Show HN: libmodulor – An opinionated TS library to build multi-platform apps</a></li>
+    </ul>
+  </li>
+  <li><strong>第三垒（棒球术语）</strong><br />
+文章探讨了棒球中的“第三垒”概念，以及它在统计学和战术上的重要性。
+    <ul>
+      <li><a href="https://www.americanscientist.org/article/third-base">Third Base</a></li>
+    </ul>
+  </li>
+  <li><strong>伦敦最中心的羊</strong><br />
+一篇有趣的文章探讨了伦敦最中心的羊的位置，以及这个概念背后的城市地理学。
+    <ul>
+      <li><a href="https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html">Where is London’s most central sheep?</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 17:29:36]]></summary></entry><entry><title type="html">Hacker News 热门话题 top 10 2025-01-23</title><link href="/hacknews/2025/01/23/17-18-32-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-23" /><published>2025-01-23T09:18:32+00:00</published><updated>2025-01-23T09:18:32+00:00</updated><id>/hacknews/2025/01/23/17:18:32-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/23/17-18-32-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-23 17:18:32</p>
 
 <ol>
   <li><strong>Bunster 工具介绍</strong>：一个可以将 bash 脚本编译成独立可执行文件的工具，为脚本开发者提供了便利。
@@ -1196,8 +1259,4 @@ systemctl start k3s
 <!-- Footer Section -->
 <div class="footer">
     <p>© 2025 基于kubernetes搭建个人混合云数据中心项目</p>
-</div>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="kubernetes" /><category term="k8s" /><category term="k3s" /><category term="golang" /><category term="cloud" /><category term="ai" /><summary type="html"><![CDATA[基于k3s搭建个人混合云数据中心：高效利用边缘计算与云服务]]></summary></entry><entry><title type="html">Some articles are just so long they deserve a really long title to see if things will break well</title><link href="/ai/2025/01/12/super-long-article.html" rel="alternate" type="text/html" title="Some articles are just so long they deserve a really long title to see if things will break well" /><published>2025-01-12T04:03:43+00:00</published><updated>2025-01-12T04:03:43+00:00</updated><id>/ai/2025/01/12/super-long-article</id><content type="html" xml:base="/ai/2025/01/12/super-long-article.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="ai" /><category term="kubernetes" /><category term="k8s" /><category term="k3s" /><category term="cloud" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.]]></summary></entry></feed>
+</div>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="kubernetes" /><category term="k8s" /><category term="k3s" /><category term="golang" /><category term="cloud" /><category term="ai" /><summary type="html"><![CDATA[基于k3s搭建个人混合云数据中心：高效利用边缘计算与云服务]]></summary></entry></feed>
