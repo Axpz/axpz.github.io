@@ -1,68 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-24T12:35:13+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/24/20-34-01-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-24T20:34:01+00:00</published><updated>2025-01-24T20:34:01+00:00</updated><id>/hacknews/2025/01/24/20:34:01-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/24/20-34-01-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-25 04:34:01</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-24T22:07:43+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/25/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-25T06:00:03+00:00</published><updated>2025-01-25T06:00:03+00:00</updated><id>/hacknews/2025/01/25/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/25/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-25 14:00:03</p>
 
 <ol>
-  <li><strong>Docker Hub 的问题讨论</strong><br />
-文章讨论了 Docker Hub 存在的问题，包括安全性和隐私性问题，以及用户对 Docker Hub 的依赖性。这些问题的讨论反映了容器技术在实际应用中面临的挑战。
+  <li><strong>Cs16.css CSS库</strong><br />
+一个基于CS 1.6 UI的CSS库，为开发者提供了一种快速实现经典游戏界面风格的方法。
     <ul>
-      <li><a href="https://www.linuxserver.io/blog/we-need-to-talk-about-docker-hub">We Need to Talk About Docker Hub</a></li>
+      <li><a href="https://cs16.samke.me">Show HN: Cs16.css – CSS library based on CS 1.6 UI</a></li>
     </ul>
   </li>
-  <li><strong>应对大型语言模型的挑战</strong><br />
-文章探讨了如何使用传统的机器学习方法来应对大型语言模型（LLMs）的挑战，特别是在理解和处理复杂问题时。
+  <li><strong>Linux的快速链接器Wild</strong><br />
+一个为Linux设计的快速链接器，旨在提高链接效率，对性能有显著影响。
     <ul>
-      <li><a href="https://softwaredoug.com/blog/2025/01/21/llm-judge-decision-tree">Coping with dumb LLMs using classic ML</a></li>
+      <li><a href="https://github.com/davidlattimore/wild">Wild – A fast linker for Linux</a></li>
     </ul>
   </li>
-  <li><strong>Tilde，LLVM 的替代方案</strong><br />
-介绍了一个名为 Tilde 的 LLVM 替代方案，这是一个编译器基础设施项目，旨在提供更高效的编译过程。
+  <li><strong>C++26新特性：Pack Indexing</strong><br />
+讨论C++26中的一项新特性——Pack Indexing，它允许更灵活的模板参数处理。
     <ul>
-      <li><a href="https://yasserarg.com/tb">Tilde, My LLVM Alternative</a></li>
+      <li><a href="https://www.sandordargo.com/blog/2025/01/22/cpp26-pack-indexing">C++26: Pack Indexing</a></li>
     </ul>
   </li>
-  <li><strong>字节跳动的 AI 代码编辑器 Trae</strong><br />
-字节跳动推出的 AI 代码编辑器 Trae，展示了 AI 在编程辅助工具中的新应用，可能会改变开发者的工作方式。
+  <li><strong>g.co钓鱼攻击事件</strong><br />
+一个涉及Google URL短链接服务g.co的钓鱼攻击事件，引起了对网络安全的广泛关注。
     <ul>
-      <li><a href="https://www.trae.ai">Trae: AI Code Editor from ByteDance</a></li>
+      <li><a href="https://gist.github.com/zachlatta/f86317493654b550c689dc6509973aa4">A phishing attack involving g.co, Google’s URL shortener</a></li>
     </ul>
   </li>
-  <li><strong>Nix NGI 团队推动开源软件发展</strong><br />
-Nix NGI 团队通过 Nix 技术推动开源软件的运行更加顺畅，展示了 Nix 在构建和部署软件方面的优势。
+  <li><strong>Subpixel Snake视频</strong><br />
+一个展示子像素渲染技术的Snake游戏视频，引发对现代显示技术的兴趣。
     <ul>
-      <li><a href="https://discourse.nixos.org/t/nix-ngi-making-open-source-software-run-smoothly/59229">The Nix NGI Team: Advancing Open Source with Nix</a></li>
+      <li><a href="https://www.youtube.com/watch?v=iDwganLjpW0">Subpixel Snake [video]</a></li>
     </ul>
   </li>
-  <li><strong>QR 码的创新应用</strong><br />
-讨论了一种新型 QR 码技术，这种技术可以通过特殊的光学效果改变扫描结果，展示了 QR 码在安全性和交互性上的新可能。
+  <li><strong>Snowdrop OS操作系统</strong><br />
+一个从头开始用汇编语言编写的自制操作系统，展示了操作系统开发的复杂性。
     <ul>
-      <li><a href="https://mstdn.social/@isziaui/113874436953157913">A QR code that sends you to a different destination – lenticular and adversarial</a></li>
+      <li><a href="http://sebastianmihai.com/snowdrop/">Snowdrop OS – a homebrew operating system from scratch, in assembly language</a></li>
     </ul>
   </li>
-  <li><strong>Vim 的现状</strong><br />
-文章讨论了 Vim 编辑器的最新发展和社区动态，Vim 作为经典的文本编辑器，其持续的创新和改进受到开发者的关注。
+  <li><strong>WebAssembly编译器</strong><br />
+一个可以放入推文中的WebAssembly编译器，展示了编译器技术的进步和优化。
     <ul>
-      <li><a href="https://lwn.net/Articles/1002342/">The State of Vim</a></li>
+      <li><a href="https://wasmgroundup.com/blog/wasm-compiler-in-a-tweet/">A WebAssembly compiler that fits in a tweet</a></li>
     </ul>
   </li>
-  <li><strong>创业者分享成功经验</strong><br />
-一位创业者分享了他的初创公司被收购的消息，这不仅是个人成功的故事，也为其他创业者提供了经验和启示。
+  <li><strong>WebSockets的扩展复杂性</strong><br />
+讨论WebSockets技术在扩展过程中遇到的复杂性问题，对实时通信技术的影响。
     <ul>
-      <li><a href="https://news.ycombinator.com/item?id=42806247">Thank HN: My bootstrapped startup got acquired today</a></li>
+      <li><a href="https://composehq.com/blog/scaling-websockets-1-23-25">The Hidden Complexity of Scaling WebSockets</a></li>
     </ul>
   </li>
-  <li><strong>从头开始制作的开源笔记本电脑</strong><br />
-一个项目展示了如何从头开始制作一个开源笔记本电脑，这个项目不仅展示了硬件开发的复杂性，也体现了开源精神。
+  <li><strong>PhysicsForums和死亡互联网理论</strong><br />
+探讨了PhysicsForums的衰落和所谓的“死亡互联网理论”，对网络社区的演变进行了反思。
     <ul>
-      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
+      <li><a href="https://hallofdreams.org/posts/physicsforums/">PhysicsForums and the Dead Internet Theory</a></li>
     </ul>
   </li>
-  <li><strong>低温对 5nm SRAM 阵列尺寸和性能的影响</strong><br />
-文章探讨了极端低温对 5nm 工艺 SRAM 阵列尺寸和性能的影响，这对于半导体制造领域是一个重要的研究课题。
+  <li><strong>寻找工作的全职工作</strong><br />
+讨论了寻找工作本身如何成为一种全职工作，以及这对求职者意味着什么。
     <ul>
-      <li><a href="https://semiengineering.com/impact-of-extremely-low-temperatures-on-the-5nm-sram-array-size-and-performance/">Impact of Low Temperatures on the 5nm SRAM Array Size and Performance</a></li>
+      <li><a href="https://www.resumevue.com/board">Looking for work is a full time job</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-25 04:34:01]]></summary></entry><entry><title type="html"></title><link href="/2025/01/24/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-01-24T12:35:13+00:00</published><updated>2025-01-24T12:35:13+00:00</updated><id>/2025/01/24/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/01/24/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
+</ol>
+
+<p>[Subpixel Snake [video]]: https://www.youtube.com/watch?v=iDwganLjpW0
+[Snowdrop OS – a homebrew operating system from scratch, in assembly language]: http://sebastianmihai.com/snowdrop/
+[A WebAssembly compiler that fits in a tweet]: https://wasmgroundup.com/blog/wasm-compiler-in-a-tweet/
+[The Hidden Complexity of Scaling WebSockets]: https://composehq.com/blog/scaling-websockets-1-23-25
+[PhysicsForums and the Dead Internet Theory]: https://hallofdreams.org/posts/physicsforums/
+[Looking for work is a full time job]: https://www.resumevue.com/board</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-25 14:00:03]]></summary></entry><entry><title type="html"></title><link href="/2025/01/24/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-01-24T22:07:43+00:00</published><updated>2025-01-24T22:07:43+00:00</updated><id>/2025/01/24/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/01/24/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
 
 <ol>
   <li><strong>QR码的新玩法</strong><br />
@@ -127,7 +134,70 @@ Y Combinator支持的公司Sei发布了招聘信息，寻找全栈工程师，�
   </li>
 </ol>
 
-<hr />]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/24/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-24T12:00:03+00:00</published><updated>2025-01-24T12:00:03+00:00</updated><id>/hacknews/2025/01/24/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/24/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 20:00:03</p>
+<hr />]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/24/20-34-01-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-24T20:34:01+00:00</published><updated>2025-01-24T20:34:01+00:00</updated><id>/hacknews/2025/01/24/20:34:01-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/24/20-34-01-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-25 04:34:01</p>
+
+<ol>
+  <li><strong>Docker Hub 的问题讨论</strong><br />
+文章讨论了 Docker Hub 存在的问题，包括安全性和隐私性问题，以及用户对 Docker Hub 的依赖性。这些问题的讨论反映了容器技术在实际应用中面临的挑战。
+    <ul>
+      <li><a href="https://www.linuxserver.io/blog/we-need-to-talk-about-docker-hub">We Need to Talk About Docker Hub</a></li>
+    </ul>
+  </li>
+  <li><strong>应对大型语言模型的挑战</strong><br />
+文章探讨了如何使用传统的机器学习方法来应对大型语言模型（LLMs）的挑战，特别是在理解和处理复杂问题时。
+    <ul>
+      <li><a href="https://softwaredoug.com/blog/2025/01/21/llm-judge-decision-tree">Coping with dumb LLMs using classic ML</a></li>
+    </ul>
+  </li>
+  <li><strong>Tilde，LLVM 的替代方案</strong><br />
+介绍了一个名为 Tilde 的 LLVM 替代方案，这是一个编译器基础设施项目，旨在提供更高效的编译过程。
+    <ul>
+      <li><a href="https://yasserarg.com/tb">Tilde, My LLVM Alternative</a></li>
+    </ul>
+  </li>
+  <li><strong>字节跳动的 AI 代码编辑器 Trae</strong><br />
+字节跳动推出的 AI 代码编辑器 Trae，展示了 AI 在编程辅助工具中的新应用，可能会改变开发者的工作方式。
+    <ul>
+      <li><a href="https://www.trae.ai">Trae: AI Code Editor from ByteDance</a></li>
+    </ul>
+  </li>
+  <li><strong>Nix NGI 团队推动开源软件发展</strong><br />
+Nix NGI 团队通过 Nix 技术推动开源软件的运行更加顺畅，展示了 Nix 在构建和部署软件方面的优势。
+    <ul>
+      <li><a href="https://discourse.nixos.org/t/nix-ngi-making-open-source-software-run-smoothly/59229">The Nix NGI Team: Advancing Open Source with Nix</a></li>
+    </ul>
+  </li>
+  <li><strong>QR 码的创新应用</strong><br />
+讨论了一种新型 QR 码技术，这种技术可以通过特殊的光学效果改变扫描结果，展示了 QR 码在安全性和交互性上的新可能。
+    <ul>
+      <li><a href="https://mstdn.social/@isziaui/113874436953157913">A QR code that sends you to a different destination – lenticular and adversarial</a></li>
+    </ul>
+  </li>
+  <li><strong>Vim 的现状</strong><br />
+文章讨论了 Vim 编辑器的最新发展和社区动态，Vim 作为经典的文本编辑器，其持续的创新和改进受到开发者的关注。
+    <ul>
+      <li><a href="https://lwn.net/Articles/1002342/">The State of Vim</a></li>
+    </ul>
+  </li>
+  <li><strong>创业者分享成功经验</strong><br />
+一位创业者分享了他的初创公司被收购的消息，这不仅是个人成功的故事，也为其他创业者提供了经验和启示。
+    <ul>
+      <li><a href="https://news.ycombinator.com/item?id=42806247">Thank HN: My bootstrapped startup got acquired today</a></li>
+    </ul>
+  </li>
+  <li><strong>从头开始制作的开源笔记本电脑</strong><br />
+一个项目展示了如何从头开始制作一个开源笔记本电脑，这个项目不仅展示了硬件开发的复杂性，也体现了开源精神。
+    <ul>
+      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
+    </ul>
+  </li>
+  <li><strong>低温对 5nm SRAM 阵列尺寸和性能的影响</strong><br />
+文章探讨了极端低温对 5nm 工艺 SRAM 阵列尺寸和性能的影响，这对于半导体制造领域是一个重要的研究课题。
+    <ul>
+      <li><a href="https://semiengineering.com/impact-of-extremely-low-temperatures-on-the-5nm-sram-array-size-and-performance/">Impact of Low Temperatures on the 5nm SRAM Array Size and Performance</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-25 04:34:01]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/24/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-24T12:00:03+00:00</published><updated>2025-01-24T12:00:03+00:00</updated><id>/hacknews/2025/01/24/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/24/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 20:00:03</p>
 
 <ol>
   <li><strong>A QR code that sends you to a different destination – lenticular and adversarial</strong><br />
@@ -570,59 +640,4 @@ YC W23 孵化的公司 Intrinsic 发布了招聘信息，寻找技术人才。
       <li><a href="https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html">Where is London’s most central sheep?</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 17:29:36]]></summary></entry><entry><title type="html">Hacker News 热门话题 top 10 2025-01-23</title><link href="/hacknews/2025/01/23/17-18-32-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-23" /><published>2025-01-23T09:18:32+00:00</published><updated>2025-01-23T09:18:32+00:00</updated><id>/hacknews/2025/01/23/17:18:32-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/23/17-18-32-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-23 17:18:32</p>
-
-<ol>
-  <li><strong>Bunster 工具介绍</strong>：一个可以将 bash 脚本编译成独立可执行文件的工具，为脚本开发者提供了便利。
-    <ul>
-      <li>Bunster: Compile bash scripts to self contained executables: https://github.com/yassinebenaid/bunster</li>
-    </ul>
-  </li>
-  <li><strong>迷幻图形介绍</strong>：一篇关于迷幻图形的介绍文章，探讨了这种视觉艺术的风格和特点。
-    <ul>
-      <li>Psychedelic Graphics: An Introduction: https://benpence.com/blog/post/psychedelic-graphics-0</li>
-    </ul>
-  </li>
-  <li><strong>TMSU 命令行工具</strong>：一个用于应用标签和查看虚拟标记文件系统的命令行工具。
-    <ul>
-      <li>TMSU: Command-line tool for applying tags and viewing virtual tagged filesystem: https://tmsu.org/</li>
-    </ul>
-  </li>
-  <li><strong>开源笔记本电脑制作</strong>：一个开发者展示了他从头开始制作的开源笔记本电脑。
-    <ul>
-      <li>Show HN: I made an open-source laptop from scratch: https://www.byran.ee/posts/creation/</li>
-    </ul>
-  </li>
-  <li><strong>轨道绘图仪</strong>：一篇关于轨道绘图仪的介绍文章，探讨了这种数学绘图工具的工作原理。
-    <ul>
-      <li>Orbit Spirograph: https://www.redblobgames.com/x/1903-orbit-spirograph/</li>
-    </ul>
-  </li>
-  <li><strong>libmodulor TS库</strong>：一个用于构建多平台应用的意见性TypeScript库。
-    <ul>
-      <li>Show HN: libmodulor – An opinionated TS library to build multi-platform apps: https://github.com/c100k/libmodulor</li>
-    </ul>
-  </li>
-  <li><strong>Intrinsic 招聘信息</strong>：一家 YC W23 孵化的公司正在招聘。
-    <ul>
-      <li>Intrinsic (YC W23) Is Hiring: item?id=42805699</li>
-    </ul>
-  </li>
-  <li><strong>文件操作的难点</strong>：一篇讨论文件操作难点的文章，分析了文件系统和文件操作的复杂性。
-    <ul>
-      <li>Working with Files Is Hard: https://danluu.com/deconstruct-files/</li>
-    </ul>
-  </li>
-  <li><strong>第三垒</strong>：一篇关于棒球中第三垒位置的文章，探讨了这个位置的重要性和特点。
-    <ul>
-      <li>Third Base: https://www.americanscientist.org/article/third-base</li>
-    </ul>
-  </li>
-  <li><strong>伦敦最中心的羊</strong>：一篇探讨伦敦最中心位置的羊的文章，提供了有趣的地理和文化信息。
-    <ul>
-      <li>
-        <h2 id="where-is-londons-most-central-sheep-httpsdiamondgeezerblogspotcom202501londons-most-central-sheephtml">Where is London’s most central sheep?: https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html</h2>
-      </li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 17:18:32]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 17:29:36]]></summary></entry></feed>
