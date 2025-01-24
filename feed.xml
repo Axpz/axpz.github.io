@@ -1,5 +1,135 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-24T02:55:26+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/24/09-44-54-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-24T01:44:54+00:00</published><updated>2025-01-24T01:44:54+00:00</updated><id>/hacknews/2025/01/24/09:44:54-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/24/09-44-54-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 09:44:54</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-24T03:03:00+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/24/11-01-31-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-24T11:01:31+00:00</published><updated>2025-01-24T11:01:31+00:00</updated><id>/hacknews/2025/01/24/11:01:31-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/24/11-01-31-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 19:01:31</p>
+
+<ol>
+  <li><strong>QR码的新玩法</strong><br />
+一个有趣的项目展示了如何通过特殊的透镜效果和对抗性设计，使QR码指向不同的目的地，这可能对增强现实和信息安全领域产生影响。
+    <ul>
+      <li><a href="https://mstdn.social/@isziaui/113874436953157913">A QR code that sends you to a different destination - lenticular and adversarial</a></li>
+    </ul>
+  </li>
+  <li><strong>创业者分享成功故事</strong><br />
+一位创业者在Hacker News上分享了自己的初创公司被收购的消息，这可能会激发更多创业者分享他们的故事和经验。
+    <ul>
+      <li><a href="https://news.ycombinator.com/item?id=42806247">Thank HN: My bootstrapped startup got acquired today</a></li>
+    </ul>
+  </li>
+  <li><strong>Vim编辑器的新插件</strong><br />
+一个名为Llama.vim的新插件，提供了本地LLM（大型语言模型）辅助的文本补全功能，这可能会提高Vim用户的编码效率。
+    <ul>
+      <li><a href="https://github.com/ggml-org/llama.vim">Llama.vim – Local LLM-assisted text completion</a></li>
+    </ul>
+  </li>
+  <li><strong>超级马里奥的颜色分析</strong><br />
+一篇文章探讨了超级马里奥系列中使用的颜色，以及这些颜色如何影响玩家的游戏体验。
+    <ul>
+      <li><a href="https://lmnt.me/blog/the-most-mario-colors.html">The Most Mario Colors</a></li>
+    </ul>
+  </li>
+  <li><strong>自制开源笔记本电脑</strong><br />
+一个项目展示了如何从头开始制作一个开源笔记本电脑，这可能会激发更多的硬件爱好者尝试DIY项目。
+    <ul>
+      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
+    </ul>
+  </li>
+  <li><strong>XNU内核的安全漏洞</strong><br />
+一个关于XNU内核中一个特别可疑的sysctl的CVE报告，这可能会引起对操作系统安全性的关注。
+    <ul>
+      <li><a href="https://jprx.io/cve-2024-54507/">Susctl CVE-2024-54507: A particularly ‘sus’ sysctl in the XNU kernel</a></li>
+    </ul>
+  </li>
+  <li><strong>超级英雄宇宙中的动力学</strong><br />
+一篇学术论文探讨了在超级英雄宇宙中，如何应用遍历拉格朗日动力学，这是一个跨学科的研究领域。
+    <ul>
+      <li><a href="https://pubs.aip.org/aapt/ajp/article/93/2/127/3331568/Ergodic-Lagrangian-dynamics-in-a-superhero">Ergodic Lagrangian dynamics in a superhero universe</a></li>
+    </ul>
+  </li>
+  <li><strong>3D抖动算法的实现</strong><br />
+一个GitHub项目提供了一种3D抖动算法的实现，这对于图形和视觉效果领域可能是一个有趣的工具。
+    <ul>
+      <li><a href="https://github.com/runevision/Dither3D">Surface-Stable Fractal Dithering</a></li>
+    </ul>
+  </li>
+  <li><strong>从头开始建造中世纪城堡</strong><br />
+一个项目记录了从头开始建造一个中世纪城堡的过程，这可能会吸引历史爱好者和建筑爱好者的兴趣。
+    <ul>
+      <li><a href="https://www.guedelon.fr/en/">Building a Medieval Castle from Scratch</a></li>
+    </ul>
+  </li>
+  <li><strong>Sei公司招聘信息</strong><br />
+Y Combinator支持的公司Sei发布了招聘信息，这可能会吸引对初创公司和人工智能领域感兴趣的开发者。
+    <ul>
+      <li><a href="https://www.ycombinator.com/companies/sei/jobs/LeAtLYf-full-stack-engineer-typescript-react-gen-ai">Sei (YC W22) Is Hiring</a></li>
+    </ul>
+  </li>
+</ol>
+
+<hr />]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-24 19:01:31]]></summary></entry><entry><title type="html"></title><link href="/2025/01/24/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-01-24T03:03:00+00:00</published><updated>2025-01-24T03:03:00+00:00</updated><id>/2025/01/24/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/01/24/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
+
+<ol>
+  <li><strong>QR码的新玩法</strong><br />
+讨论了一种特殊的QR码，能够根据观察角度的不同显示不同的目的地，这种技术结合了透镜效果和对抗性设计，展示了编码技术的新颖应用。
+    <ul>
+      <li><a href="https://mstdn.social/@isziaui/113874436953157913">A QR code that sends you to a different destination - lenticular and adversarial</a></li>
+    </ul>
+  </li>
+  <li><strong>感谢HN：我的自启动创业公司今天被收购了</strong><br />
+一位创业者分享了他的自启动创业公司被收购的消息，这在Hacker News社区中引起了热烈讨论，许多人对此表示祝贺和好奇。
+    <ul>
+      <li><a href="https://news.ycombinator.com/item?id=42806247">Thank HN: My bootstrapped startup got acquired today</a></li>
+    </ul>
+  </li>
+  <li><strong>Llama.vim – 本地LLM辅助文本补全</strong><br />
+一个基于Vim的插件，利用本地大型语言模型（LLM）来辅助文本补全，这个项目展示了LLM技术在代码编辑器中的应用潜力。
+    <ul>
+      <li><a href="https://github.com/ggml-org/llama.vim">Llama.vim – Local LLM-assisted text completion</a></li>
+    </ul>
+  </li>
+  <li><strong>超级马里奥的颜色</strong><br />
+一篇文章探讨了超级马里奥游戏中使用的颜色，分析了这些颜色如何影响玩家的视觉体验和游戏的情感氛围。
+    <ul>
+      <li><a href="https://lmnt.me/blog/the-most-mario-colors.html">The Most Mario Colors</a></li>
+    </ul>
+  </li>
+  <li><strong>XNU内核中的一个特别’可疑’的sysctl</strong><br />
+披露了XNU内核中的一个安全漏洞，这个漏洞涉及到一个特别“可疑”的系统控制接口，引起了安全专家和开发者的关注。
+    <ul>
+      <li><a href="https://jprx.io/cve-2024-54507/">Susctl CVE-2024-54507: A particularly ‘sus’ sysctl in the XNU kernel</a></li>
+    </ul>
+  </li>
+  <li><strong>从零开始制作开源笔记本电脑</strong><br />
+一个项目展示了如何从零开始制作一个开源笔记本电脑，这个项目不仅展示了硬件制造的复杂性，也体现了开源精神。
+    <ul>
+      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
+    </ul>
+  </li>
+  <li><strong>表面稳定的分形抖动技术</strong><br />
+一个开源项目，介绍了一种新的分形抖动技术，这种技术可以用于图像处理和视觉效果的生成。
+    <ul>
+      <li><a href="https://github.com/runevision/Dither3D">Surface-Stable Fractal Dithering</a></li>
+    </ul>
+  </li>
+  <li><strong>在超级英雄宇宙中的遍历拉格朗日动力学</strong><br />
+一篇学术论文，探讨了遍历拉格朗日动力学在超级英雄宇宙中的应用，这种跨学科的研究引起了广泛的兴趣。
+    <ul>
+      <li><a href="https://pubs.aip.org/aapt/ajp/article/93/2/127/3331568/Ergodic-Lagrangian-dynamics-in-a-superhero">Ergodic Lagrangian dynamics in a superhero universe</a></li>
+    </ul>
+  </li>
+  <li><strong>从零开始建造中世纪城堡</strong><br />
+一个项目记录了从零开始建造一个中世纪城堡的过程，这个项目不仅展示了建筑技术，也体现了历史和文化的传承。
+    <ul>
+      <li><a href="https://www.guedelon.fr/en/">Building a Medieval Castle from Scratch</a></li>
+    </ul>
+  </li>
+  <li><strong>Sei公司招聘</strong><br />
+Y Combinator支持的公司Sei发布了招聘信息，寻找全栈工程师，这个招聘信息在Hacker News上引起了关注。
+    <ul>
+      <li><a href="https://www.ycombinator.com/companies/sei/jobs/LeAtLYf-full-stack-engineer-typescript-react-gen-ai">Sei (YC W22) Is Hiring</a></li>
+    </ul>
+  </li>
+</ol>
+
+<hr />]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/24/09-44-54-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-24T01:44:54+00:00</published><updated>2025-01-24T01:44:54+00:00</updated><id>/hacknews/2025/01/24/09:44:54-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/24/09-44-54-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 09:44:54</p>
 
 <ol>
   <li><strong>A QR code that sends you to a different destination - lenticular and adversarial</strong><br />
@@ -603,206 +733,4 @@ kube-system   traefik-b7b68d8cb-dkt4v                   1/1     Running     0   
       <span class="na">services</span><span class="pi">:</span>
         <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">github-service</span>  <span class="c1"># 使用一个服务名称，你可以创建一个名为 service 的服务，或者直接使用 IP 地址</span>
           <span class="na">port</span><span class="pi">:</span> <span class="m">80</span>
-</code></pre></div></div>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="k8s" /><category term="network" /><category term="ai" /><summary type="html"><![CDATA[Gateway DNAT网络不可用问题排查和解决方案]]></summary></entry><entry><title type="html">关于开源许可协议</title><link href="/k8s/2025/01/22/09-47-52-open-source-license.html" rel="alternate" type="text/html" title="关于开源许可协议" /><published>2025-01-22T01:47:52+00:00</published><updated>2025-01-22T01:47:52+00:00</updated><id>/k8s/2025/01/22/09:47:52-open-source-license</id><content type="html" xml:base="/k8s/2025/01/22/09-47-52-open-source-license.html"><![CDATA[<p>常见的开源许可协议，可以理解为两条线</p>
-
-<ol>
-  <li>软件类产品，从宽松到严格依次是
-    <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ------- 松 ----    --- 紧 -------  
- MIT License  
-       Apache License 2.0  
-           LGPL (Lesser General Public License)  
-                 GPL (GNU General Public License)  
-     BSD License  
-</code></pre></div>    </div>
-  </li>
-  <li>创作类非软件产品<br />
-CC (Creative Commons License)，适合开源非软件类作品，如文档、艺术作品、图像、音频等</li>
-</ol>
-
-<p>详细如下：</p>
-
-<h1 id="mit-licnese">MIT Licnese</h1>
-<p><strong>全称</strong>：麻省理工学院许可协议</p>
-<h2 id="特点">特点</h2>
-<ul>
-  <li>非常宽松，允许任何用途，包括商业用途</li>
-  <li>可以修改、分发代码，甚至闭源分发
-    <h2 id="限制">限制</h2>
-  </li>
-  <li>必须保留原始的版权声明和许可信息
-    <h2 id="适用场景">适用场景</h2>
-  </li>
-  <li>适合希望代码被广泛采用且不限制用途的项目</li>
-</ul>
-
-<h1 id="apache-license-20">Apache License 2.0</h1>
-<p><strong>全称</strong>：Apache License 2.0 许可协议</p>
-
-<h2 id="特点-1">特点</h2>
-<ul>
-  <li>允许免费使用、修改和分发(包括商业用途)</li>
-  <li>明确授权专利，保护用户免受专利纠纷</li>
-  <li>允许闭源分发，需要遵守相关条款</li>
-</ul>
-
-<h2 id="限制-1">限制</h2>
-<ul>
-  <li>必须保留原始的版权声明和许可信息</li>
-  <li>修改后的代码需明确说明变更内容</li>
-</ul>
-
-<h2 id="适用场景-1">适用场景</h2>
-<ul>
-  <li>适合需要专利保护且希望明确授权条款的项目</li>
-</ul>
-
-<h1 id="gpl-gnu-general-public-license">GPL (GNU General Public License)</h1>
-<p><strong>全称</strong>：通用公共许可协议</p>
-
-<h2 id="特点-2">特点</h2>
-<ul>
-  <li>强制开源，任何基于GPL代码的衍生项目必须公开开源</li>
-  <li>允许自由使用、修改和分发，但必须保持衍生品同样为GPL协议</li>
-</ul>
-
-<h2 id="限制-2">限制</h2>
-<ul>
-  <li>商业化受限，因为衍生品不能闭源</li>
-  <li>必须提供完整的源代码，包括修改部分</li>
-</ul>
-
-<h2 id="适用场景-2">适用场景</h2>
-<ul>
-  <li>适合重视软件自由、希望强制开源的项目</li>
-</ul>
-
-<h1 id="lgpl-lesser-general-public-license">LGPL (Lesser General Public License)</h1>
-<p><strong>全称</strong>：宽松通用公共许可协议</p>
-
-<h2 id="特点-3">特点</h2>
-<ul>
-  <li>相对GPL更宽松，允许软件动态链接到非GPL的代码</li>
-  <li>用户可以闭源分发自己的软件，只要不修改LGPL的代码</li>
-</ul>
-
-<h2 id="限制-3">限制</h2>
-<ul>
-  <li>修改的LGPL的代码必须开源并使用相同的协议分发</li>
-</ul>
-
-<h2 id="适用场景-3">适用场景</h2>
-<ul>
-  <li>适合开发Library, 希望代码被广泛采用而不是强制整个项目开源</li>
-</ul>
-
-<h1 id="bsd-license">BSD License</h1>
-<p><strong>全称</strong>：Berkeley Software Distribution License</p>
-
-<h2 id="特点-4">特点</h2>
-<ul>
-  <li>类似MIT，非常宽松，允许任何用途，包括商业化</li>
-  <li>可闭源分发，无需公开修改后的代码</li>
-</ul>
-
-<h2 id="限制-4">限制</h2>
-<ul>
-  <li>必须保留版权声明</li>
-  <li>不允许使用原作者的名字进行推广</li>
-</ul>
-
-<h2 id="适用场景-4">适用场景</h2>
-<ul>
-  <li>适合希望代码被广泛使用且对使用方式限制较少的项目</li>
-</ul>
-
-<h1 id="mpl-mozilla-public-license">MPL (Mozilla Public License)</h1>
-<p><strong>全称</strong>：Mozilla 公共开源许可协议</p>
-
-<h2 id="特点-5">特点</h2>
-<ul>
-  <li>比较宽松，允许闭源和商业化使用，但对修改后的代码需要开源</li>
-  <li>仅要求修改开源的文件，而不是整个项目</li>
-</ul>
-
-<h2 id="限制-5">限制</h2>
-<ul>
-  <li>修改后的MPL文件必须开源并使用相同协议分发</li>
-</ul>
-
-<h2 id="适用场景-5">适用场景</h2>
-<ul>
-  <li>适合开发需要部分开源，又保留商业化可能的项目</li>
-</ul>
-
-<h1 id="cc-creative-commons-license">CC (Creative Commons License)</h1>
-<p><strong>全称</strong>：创作公共许可</p>
-
-<h2 id="特点-6">特点</h2>
-<ul>
-  <li>专注于创意作品，例如文字、音乐、图片，而非软件</li>
-  <li>有多种版本，如CC BY、CC BY-SA、 CC BY-NC 等，根据是否允许商业用途、是否要求署名等区分</li>
-</ul>
-
-<h2 id="限制-6">限制</h2>
-<ul>
-  <li>根据选择的版本不同，可能限制商用或者二次创作</li>
-</ul>
-
-<h2 id="适用场景-6">适用场景</h2>
-<ul>
-  <li>适合开源非软件类作品</li>
-</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="license" /><category term="tech" /><summary type="html"><![CDATA[常见的开源许可协议，可以理解为两条线]]></summary></entry><entry><title type="html">Hacker News 热门话题 2025-01-20</title><link href="/hacknews/2025/01/19/11-47-52-hacknews-top10.html" rel="alternate" type="text/html" title="Hacker News 热门话题 2025-01-20" /><published>2025-01-19T17:20:31+00:00</published><updated>2025-01-19T17:20:31+00:00</updated><id>/hacknews/2025/01/19/11:47:52-hacknews-top10</id><content type="html" xml:base="/hacknews/2025/01/19/11-47-52-hacknews-top10.html"><![CDATA[<p>Hacker News 热门话题 2025-01-20 01:20:31</p>
-
-<ol>
-  <li><strong>TikTok 在美国被禁用</strong>：TikTok 在美国被禁用的新闻引起了广泛关注，讨论了这一事件对用户访问量的影响以及替代应用的激增。
-    <ul>
-      <li><a href="https://techcrunch.com/2025/01/18/tiktok-goes-dark-in-the-u-s/">TikTok goes dark in the US</a></li>
-      <li><a href="https://blog.cloudflare.com/tiktok-ban-traffic-decline-alternatives-rednote/">TikTok Shut Down: Data Shows 85% Drop in US Access (and Surge to Alternatives)</a></li>
-    </ul>
-  </li>
-  <li><strong>发光材料制作</strong>：一个关于如何制作发光的锶铝酸盐材料的项目，展示了 DIY 科学实验的趣味性和教育价值。
-    <ul>
-      <li><a href="https://maurycyz.com/projects/strontium_aluminate/">Making glow-in-the-dark Strontium Aluminate</a></li>
-    </ul>
-  </li>
-  <li><strong>模糊测试书籍</strong>：《The Fuzzing Book》提供了关于模糊测试的深入知识和实践指南，是安全测试领域的重要资源。
-    <ul>
-      <li><a href="https://www.fuzzingbook.org/">The Fuzzing Book</a></li>
-    </ul>
-  </li>
-  <li><strong>Forgejo 自托管软件仓库</strong>：Forgejo 是一个轻量级的自托管软件仓库，为开发者提供了一个私有的代码管理解决方案。
-    <ul>
-      <li><a href="https://forgejo.org/">Forgejo: A self-hosted lightweight software forge</a></li>
-    </ul>
-  </li>
-  <li><strong>构建数据库教程</strong>：一个教程，教你如何在3000行代码内构建一个无依赖的数据库，展示了数据库开发的基础知识。
-    <ul>
-      <li><a href="https://build-your-own.org/blog/20251015_db_in_3000/">Build a Database in 3000 Lines with 0 Dependencies</a></li>
-    </ul>
-  </li>
-  <li><strong>GauntletAI 培训计划</strong>：GauntletAI 提供的培训计划，包括培训、工作机会和薪酬，吸引了对人工智能感兴趣的开发者。
-    <ul>
-      <li><a href="https://gauntletai.com">GauntletAI (YC S17) will fly you out, train you to build w AI, give you 200k job</a></li>
-    </ul>
-  </li>
-  <li><strong>Haskell 程序语言</strong>：一篇文章讨论了 Haskell 作为程序语言的优势，特别是在过程式编程中的应用。
-    <ul>
-      <li><a href="https://entropicthoughts.com/haskell-procedural-programming">Haskell: A Great Procedural Language</a></li>
-    </ul>
-  </li>
-  <li><strong>GitHub 新功能</strong>：GitHub 引入了子问题、问题类型和高级搜索功能，这些新特性旨在提高问题跟踪和管理的效率。
-    <ul>
-      <li><a href="https://github.blog/changelog/2025-01-13-evolving-github-issues-public-preview/">GitHub introduces sub-issues, issue types and advanced search</a></li>
-    </ul>
-  </li>
-  <li><strong>图像文件显示难度</strong>：一篇文章探讨了在屏幕上显示图像文件内容的难度，涉及图像处理和显示技术。
-    <ul>
-      <li><a href="https://wolf.nereid.pl/posts/image-viewer/">How hard would it be to display the contents of an image file on the screen?</a></li>
-    </ul>
-  </li>
-  <li><strong>Linux 网络编程指南</strong>：一个全面的 Linux 网络编程指南，为开发者提供了网络编程的基础知识和实践技巧。
-    <ul>
-      <li><a href="https://github.com/nguyenchiemminhvu/LinuxNetworkProgramming">About A comprehensive guide for Linux Network (Socket) programming</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-20 01:20:31]]></summary></entry></feed>
+</code></pre></div></div>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="k8s" /><category term="network" /><category term="ai" /><summary type="html"><![CDATA[Gateway DNAT网络不可用问题排查和解决方案]]></summary></entry></feed>
