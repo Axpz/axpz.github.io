@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-24T02:05:50+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-24T02:19:14+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
 </subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News 热门话题 top 10 2025-01-24</title><link href="/hacknews/2025/01/24/10-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-24" /><published>2025-01-24T10:00:03+00:00</published><updated>2025-01-24T10:00:03+00:00</updated><id>/hacknews/2025/01/24/10:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/24/10-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 18:00:03</p>
 
 <ol>
@@ -62,7 +62,7 @@ Y Combinator 支持的初创公司 Sei 发布了招聘信息，寻找全栈工�
       <li><a href="https://benpence.com/blog/post/psychedelic-graphics-0">Psychedelic Graphics 0: Introduction</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-24 18:00:03]]></summary></entry><entry><title type="html"></title><link href="/2025/01/24/2025-01-24-10-04-07-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-01-24T02:05:50+00:00</published><updated>2025-01-24T02:05:50+00:00</updated><id>/2025/01/24/2025-01-24-10:04:07-hackernews_report</id><content type="html" xml:base="/2025/01/24/2025-01-24-10-04-07-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:04:07</p>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-24 18:00:03]]></summary></entry><entry><title type="html"></title><link href="/2025/01/24/2025-01-24-10-04-07-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-01-24T02:19:14+00:00</published><updated>2025-01-24T02:19:14+00:00</updated><id>/2025/01/24/2025-01-24-10:04:07-hackernews_report</id><content type="html" xml:base="/2025/01/24/2025-01-24-10-04-07-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:04:07</p>
 
 <ol>
   <li><strong>A QR code that sends you to a different destination - lenticular and adversarial</strong><br />
@@ -157,7 +157,84 @@ Y Combinator 支持的初创公司 Sei 发布了招聘信息，寻找全栈工�
   </li>
   <li><strong>Citations on the Anthropic API</strong><br />
 人类认知科技公司</li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author></entry><entry><title type="html">Hacker News 热门话题 top 10 {%Y-%m-%d}</title><link href="/hacknews/2025/01/24/09-44-54-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 {%Y-%m-%d}" /><published>2025-01-24T01:44:54+00:00</published><updated>2025-01-24T01:44:54+00:00</updated><id>/hacknews/2025/01/24/09:44:54-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/24/09-44-54-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 09:44:54</p>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author></entry><entry><title type="html"></title><link href="/2025/01/24/2025-01-24-10-10-41-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-01-24T02:19:14+00:00</published><updated>2025-01-24T02:19:14+00:00</updated><id>/2025/01/24/2025-01-24-10:10:41-hackernews_report</id><content type="html" xml:base="/2025/01/24/2025-01-24-10-10-41-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:10:41</p>
+
+<ol>
+  <li><strong>QR码的新用途</strong><br />
+讨论了一种特殊的QR码，能够通过透镜效果和对抗性技术将用户引导至不同的目的地，展示了编码技术的创新应用。
+    <ul>
+      <li><a href="https://mstdn.social/@isziaui/113874436953157913">A QR code that sends you to a different destination - lenticular and adversarial</a></li>
+    </ul>
+  </li>
+  <li><strong>感谢HN：我的自启动创业公司今天被收购了</strong><br />
+一位创业者分享了其自启动创业公司被收购的消息，这在Hacker News社区中引起了热烈讨论，许多人对此表示祝贺和兴趣。
+    <ul>
+      <li><a href="https://news.ycombinator.com/item?id=42806247">Thank HN: My bootstrapped startup got acquired today</a></li>
+    </ul>
+  </li>
+  <li><strong>XNU内核中的安全漏洞</strong><br />
+披露了XNU内核中的一个安全漏洞，编号为CVE-2024-54507，这个漏洞被描述为特别“可疑”的系统控制调用，引起了安全专家的关注。
+    <ul>
+      <li><a href="https://jprx.io/cve-2024-54507/">Susctl CVE-2024-54507: A particularly ‘sus’ sysctl in the XNU kernel</a></li>
+    </ul>
+  </li>
+  <li><strong>Llama.vim – 本地LLM辅助文本补全</strong><br />
+介绍了一个名为Llama.vim的Vim插件，它利用本地大型语言模型（LLM）来辅助文本补全，提高了编程效率。
+    <ul>
+      <li><a href="https://github.com/ggml-org/llama.vim">Llama.vim – Local LLM-assisted text completion</a></li>
+    </ul>
+  </li>
+  <li><strong>马里奥颜色的多样性</strong><br />
+一篇文章探讨了马里奥游戏中颜色使用的多样性，从设计和心理学的角度分析了颜色选择对游戏体验的影响。
+    <ul>
+      <li><a href="https://lmnt.me/blog/the-most-mario-colors.html">The Most Mario Colors</a></li>
+    </ul>
+  </li>
+  <li><strong>表面稳定的分形抖动技术</strong><br />
+介绍了一种新的分形抖动技术，这种技术在3D打印和图像处理中具有潜在的应用价值。
+    <ul>
+      <li><a href="https://github.com/runevision/Dither3D">Surface-Stable Fractal Dithering</a></li>
+    </ul>
+  </li>
+  <li><strong>开源笔记本电脑的制作</strong><br />
+一位开发者展示了他从头开始制作的开源笔记本电脑，这个项目展示了硬件开发的开放性和创新性。
+    <ul>
+      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
+    </ul>
+  </li>
+  <li><strong>Sei公司招聘信息</strong><br />
+Y Combinator支持的公司Sei发布了招聘信息，寻找全栈工程师，这表明了该公司在人工智能领域的扩张计划。
+    <ul>
+      <li><a href="https://www.ycombinator.com/companies/sei/jobs/LeAtLYf-full-stack-engineer-typescript-react-gen-ai">Sei (YC W22) Is Hiring</a></li>
+    </ul>
+  </li>
+  <li><strong>从零开始建造中世纪城堡</strong><br />
+介绍了一个项目，该项目旨在从头开始建造一个中世纪城堡，展示了历史建筑技术和工艺的复兴。
+    <ul>
+      <li>[Building a Medieval Castle from Scratch][medieval-castle]</li>
+    </ul>
+  </li>
+  <li><strong>超级英雄宇宙中的遍历拉格朗日动力学</strong><br />
+一篇学术论文探讨了在超级英雄宇宙中应用遍历拉格朗日动力学的可能性，这是一个跨学科的研究领域。
+    <ul>
+      <li>[Ergodic Lagrangian dynamics in a superhero universe][ergodic-lagrangian]</li>
+    </ul>
+  </li>
+  <li><strong>迷幻图形介绍</strong><br />
+一篇博客文章介绍了迷幻图形的基础知识，探讨了这种艺术风格的历史和技术实现。
+    <ul>
+      <li>[Psychedelic Graphics 0: Introduction][psychedelic-graphics]</li>
+    </ul>
+  </li>
+  <li><strong>电容器与几何级数的相遇</strong><br />
+一篇文章探讨了电容器在电路设计中的作用，以及它们如何与几何级数相结合，提供了电路设计的新颖视角。
+    <ul>
+      <li>[Capacitors Meet Geometric Series][capacitors-geometric]</li>
+    </ul>
+  </li>
+</ol>
+
+<p>[medieval-</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author></entry><entry><title type="html">Hacker News 热门话题 top 10 {%Y-%m-%d}</title><link href="/hacknews/2025/01/24/09-44-54-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 {%Y-%m-%d}" /><published>2025-01-24T01:44:54+00:00</published><updated>2025-01-24T01:44:54+00:00</updated><id>/hacknews/2025/01/24/09:44:54-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/24/09-44-54-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 09:44:54</p>
 
 <ol>
   <li><strong>A QR code that sends you to a different destination - lenticular and adversarial</strong><br />
@@ -614,151 +691,4 @@ YC W23 孵化的公司 Intrinsic 发布了招聘信息，寻找技术人才。
     <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Commit</span> <span class="err">→</span> <span class="n">Tree</span> <span class="err">→</span> <span class="p">[</span><span class="nb">Blob</span><span class="p">(</span><span class="n">file1</span><span class="p">),</span> <span class="nb">Blob</span><span class="p">(</span><span class="n">new_file2</span><span class="p">),</span> <span class="nb">Blob</span><span class="p">(</span><span class="n">new_file3</span><span class="p">)]</span>
 </code></pre></div>    </div>
   </li>
-</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="git" /><category term="tech" /><summary type="html"><![CDATA[一图胜千文，这张图真是让我爱不释手啊]]></summary></entry><entry><title type="html">Gateway DNAT网络不可用问题排查和解决方案</title><link href="/k8s/2025/01/23/20-00-00-traefik-gateway.html" rel="alternate" type="text/html" title="Gateway DNAT网络不可用问题排查和解决方案" /><published>2025-01-23T01:47:52+00:00</published><updated>2025-01-23T01:47:52+00:00</updated><id>/k8s/2025/01/23/20:00:00-traefik-gateway</id><content type="html" xml:base="/k8s/2025/01/23/20-00-00-traefik-gateway.html"><![CDATA[<p>Gateway DNAT网络不可用问题排查和解决方案</p>
-
-<h2 id="问题描述">问题描述</h2>
-
-<p>在个人云主机上做了两个DNAT规则，将流量导入到私有环境中的虚拟机，但安装了Traefik（K3s）之后，发现当前网络不可用，并且出现了 400 错误。</p>
-
-<h3 id="测试">测试</h3>
-
-<ul>
-  <li>在本地请求网络服务时没有问题。</li>
-  <li>请求云主机网络服务时出现 400 错误，说明问题出在新安装的Traefik上。</li>
-</ul>
-
-<h3 id="traffic-flow-调试分析">Traffic Flow 调试分析</h3>
-
-<p><strong>1. 深入查看之前的NAT规则，发现没有问题：</strong></p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> PREROUTING <span class="nt">-p</span> tcp <span class="nt">--dport</span> 80 <span class="nt">-d</span> 74.121.149.207 <span class="nt">-j</span> DNAT <span class="nt">--to-destination</span> 10.4.0.3:80
-<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> PREROUTING <span class="nt">-p</span> tcp <span class="nt">--dport</span> 443 <span class="nt">-d</span> 74.121.149.207 <span class="nt">-j</span> DNAT <span class="nt">--to-destination</span> 10.4.0.3:443
-<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> POSTROUTING <span class="nt">-o</span> eth0 <span class="nt">-j</span> MASQUERADE
-<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> POSTROUTING <span class="nt">-o</span> wg0 <span class="nt">-j</span> MASQUERADE
-</code></pre></div></div>
-
-<p><strong>2. 继续查看所有的DNAT规则，发现多了两条规则：</strong></p>
-
-<p>通过 iptables-save | grep 74.121.149.207 查看：</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">-A</span> KUBE-SERVICES <span class="nt">-d</span> 74.121.149.207/32 <span class="nt">-p</span> tcp <span class="nt">-m</span> comment <span class="nt">--comment</span> <span class="s2">"kube-system/traefik:web loadbalancer IP"</span> <span class="nt">-m</span> tcp <span class="nt">--dport</span> 80 <span class="nt">-j</span> KUBE-EXT-UQMCRMJZLI3FTLDP
-<span class="nt">-A</span> KUBE-SERVICES <span class="nt">-d</span> 74.121.149.207/32 <span class="nt">-p</span> tcp <span class="nt">-m</span> comment <span class="nt">--comment</span> <span class="s2">"kube-system/traefik:websecure loadbalancer IP"</span> <span class="nt">-m</span> tcp <span class="nt">--dport</span> 443 <span class="nt">-j</span> KUBE-EXT-CVG3OEGEH7H5P3HQ
-</code></pre></div></div>
-
-<p><strong>从以上规则可以看出，原先的规则被新添加的规则覆盖了。这是由于Traefik作为Kubernetes的Ingress Controller，它会动态管理网络流量，并且在 KUBE-SERVICES 链中插入新的规则，导致原本的DNAT规则失效。</strong></p>
-
-<p>看到这里，我们不妨深入追踪一下traefik的网络流量</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>k get svc <span class="nt">-owide</span> <span class="nt">-n</span> kube-system
-NAMESPACE     NAME               TYPE           CLUSTER-IP    EXTERNAL-IP            PORT<span class="o">(</span>S<span class="o">)</span>   AGE   SELECTOR
-              kubernetes         ClusterIP      10.43.0.1     &lt;none&gt;                 443/TCP   14d   &lt;none&gt;
-kube-system   traefik            LoadBalancer   10.43.2.186   74.121.149.207         80:30974/TCP,443:31017/TCP   36h   app.kubernetes.io/instance<span class="o">=</span>traefik-kube-system,app.kubernetes.
-</code></pre></div></div>
-
-<p>iptables-save
-```bash iptables-save</p>
-
-<p>-A KUBE-SERVICES -d 74.121.149.207/32 -p tcp -m comment –comment “kube-system/traefik:web loadbalancer IP” -m tcp –dport 80 -j KUBE-EXT-UQMCRMJZLI3FTLDP</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-nft list table nat  
-```bash
-chain KUBE-EXT-UQMCRMJZLI3FTLDP {
-          counter packets 305 bytes 15115 jump KUBE-MARK-MASQ
-        counter packets 305 bytes 15115 jump KUBE-SVC-UQMCRMJZLI3FTLDP
-}
-
-chain KUBE-MARK-MASQ {
-        counter packets 2 bytes 112 meta mark set mark or 0x4000
-}
-
-chain KUBE-SVC-UQMCRMJZLI3FTLDP {
-    meta l4proto tcp ip saddr != 10.42.0.0/16 ip daddr 10.43.2.186  tcp dport 80 counter packets 0 bytes 0 jump KUBE-MARK-MASQ
-    counter packets 307 bytes 15235 jump KUBE-SEP-6ESQAMORAOJ7JTEK
-}
-
-# 该链处理从外部发送到服务的流量，先通过源地址检查（排除 Kubernetes 内部流量），然后将流量转发到后端 Pod 的链（KUBE-SEP-6ESQAMORAOJ7JTEK）
-
-chain KUBE-SEP-6ESQAMORAOJ7JTEK {
-    ip saddr 10.42.0.35  counter packets 0 bytes 0 jump KUBE-MARK-MASQ
-    meta l4proto tcp   counter packets 307 bytes 15235 dnat to 10.42.0.35:8000
-}
-
-# dnat to 10.42.0.35:8000
-</code></pre></div></div>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>k get po <span class="nt">-owide</span> <span class="nt">-A</span>
-kube-system   traefik-b7b68d8cb-dkt4v                   1/1     Running     0             34h   10.42.0.35   calm-baud-1.localdomain   &lt;none&gt;           &lt;none&gt;
-</code></pre></div></div>
-
-<p>至此网络进入到了traefik的pod中</p>
-
-<h2 id="解决方案">解决方案</h2>
-
-<p>既然安装了traefik，那我们不如使用traefik来统一处理所有的流量，让它成为ingress/egress的统一口</p>
-
-<p>废话少说，直接贴上traefik的proxy配置吧</p>
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">v1</span>
-<span class="na">kind</span><span class="pi">:</span> <span class="s">Service</span>
-<span class="na">metadata</span><span class="pi">:</span>
-  <span class="na">name</span><span class="pi">:</span> <span class="s">hacknews-service</span>
-  <span class="na">namespace</span><span class="pi">:</span> <span class="s">default</span>
-<span class="na">spec</span><span class="pi">:</span>
-  <span class="na">type</span><span class="pi">:</span> <span class="s">ExternalName</span>
-  <span class="na">externalName</span><span class="pi">:</span> <span class="s">news.ycombinator.com</span>
-  <span class="na">ports</span><span class="pi">:</span>
-    <span class="pi">-</span> <span class="na">port</span><span class="pi">:</span> <span class="m">443</span>
-      <span class="na">targetPort</span><span class="pi">:</span> <span class="m">443</span>
-<span class="nn">---</span>
-<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">traefik.containo.us/v1alpha1</span>
-<span class="na">kind</span><span class="pi">:</span> <span class="s">Middleware</span>
-<span class="na">metadata</span><span class="pi">:</span>
-  <span class="na">name</span><span class="pi">:</span> <span class="s">hacknews-strip-prefix</span>
-  <span class="na">namespace</span><span class="pi">:</span> <span class="s">default</span>
-<span class="na">spec</span><span class="pi">:</span>
-  <span class="na">stripPrefix</span><span class="pi">:</span>
-    <span class="na">prefixes</span><span class="pi">:</span>
-      <span class="pi">-</span> <span class="s2">"</span><span class="s">/hacknews"</span>
-<span class="nn">---</span>
-<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">traefik.containo.us/v1alpha1</span>
-<span class="na">kind</span><span class="pi">:</span> <span class="s">IngressRoute</span>
-<span class="na">metadata</span><span class="pi">:</span>
-  <span class="na">name</span><span class="pi">:</span> <span class="s">hacknews-proxy</span> <span class="c1"># proxy to external service</span>
-  <span class="na">namespace</span><span class="pi">:</span> <span class="s">default</span>
-<span class="na">spec</span><span class="pi">:</span>
-  <span class="na">entryPoints</span><span class="pi">:</span>
-    <span class="pi">-</span> <span class="s">websecure</span>
-  <span class="na">routes</span><span class="pi">:</span>
-    <span class="pi">-</span> <span class="na">match</span><span class="pi">:</span> <span class="s2">"</span><span class="s">PathPrefix(`/hacknews`)"</span>
-      <span class="na">kind</span><span class="pi">:</span> <span class="s">Rule</span>
-      <span class="na">middlewares</span><span class="pi">:</span>
-        <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">hacknews-strip-prefix</span>
-      <span class="na">services</span><span class="pi">:</span>
-        <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">hacknews-service</span>
-          <span class="na">port</span><span class="pi">:</span> <span class="m">443</span>
-<span class="nn">---</span>
-<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">v1</span>
-<span class="na">kind</span><span class="pi">:</span> <span class="s">Service</span>
-<span class="na">metadata</span><span class="pi">:</span>
-  <span class="na">name</span><span class="pi">:</span> <span class="s">github-service</span>
-  <span class="na">namespace</span><span class="pi">:</span> <span class="s">default</span>
-<span class="na">spec</span><span class="pi">:</span>
-  <span class="na">ports</span><span class="pi">:</span>
-    <span class="pi">-</span> <span class="na">port</span><span class="pi">:</span> <span class="m">80</span>
-      <span class="na">targetPort</span><span class="pi">:</span> <span class="m">80</span>
-  <span class="na">type</span><span class="pi">:</span> <span class="s">ExternalName</span>
-  <span class="na">externalName</span><span class="pi">:</span> <span class="s2">"</span><span class="s">10.4.0.3"</span> <span class="c1"># Directly using the backend Pod's IP address</span>
-<span class="nn">---</span>
-<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">traefik.containo.us/v1alpha1</span>
-<span class="na">kind</span><span class="pi">:</span> <span class="s">IngressRoute</span>
-<span class="na">metadata</span><span class="pi">:</span>
-  <span class="na">name</span><span class="pi">:</span> <span class="s">github-proxy</span> <span class="c1"># proxy to backend service</span>
-  <span class="na">namespace</span><span class="pi">:</span> <span class="s">default</span>
-<span class="na">spec</span><span class="pi">:</span>
-  <span class="na">entryPoints</span><span class="pi">:</span>
-    <span class="pi">-</span> <span class="s">web</span>
-  <span class="na">routes</span><span class="pi">:</span>
-    <span class="pi">-</span> <span class="na">match</span><span class="pi">:</span> <span class="s">PathPrefix(`/github/webhook`)</span>  <span class="c1"># 根据 GitHub webhook 的域名和路径进行路由</span>
-      <span class="na">kind</span><span class="pi">:</span> <span class="s">Rule</span>
-      <span class="na">services</span><span class="pi">:</span>
-        <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">github-service</span>  <span class="c1"># 使用一个服务名称，你可以创建一个名为 service 的服务，或者直接使用 IP 地址</span>
-          <span class="na">port</span><span class="pi">:</span> <span class="m">80</span>
-</code></pre></div></div>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="k8s" /><category term="network" /><category term="ai" /><summary type="html"><![CDATA[Gateway DNAT网络不可用问题排查和解决方案]]></summary></entry></feed>
+</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="git" /><category term="tech" /><summary type="html"><![CDATA[一图胜千文，这张图真是让我爱不释手啊]]></summary></entry></feed>
