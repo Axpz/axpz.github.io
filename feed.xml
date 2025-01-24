@@ -1,5 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-24T03:31:08+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/24/11-29-36-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-24T11:29:36+00:00</published><updated>2025-01-24T11:29:36+00:00</updated><id>/hacknews/2025/01/24/11:29:36-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/24/11-29-36-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 19:29:36</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-24T04:01:43+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/24/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-24T12:00:03+00:00</published><updated>2025-01-24T12:00:03+00:00</updated><id>/hacknews/2025/01/24/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/24/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 20:00:03</p>
+
+<ol>
+  <li><strong>A QR code that sends you to a different destination – lenticular and adversarial</strong><br />
+讨论了一种特殊的 QR 码，通过使用透镜效果和对抗性技术，能够将用户引导至不同的目的地，这种技术在安全和隐私方面具有潜在的应用价值。
+    <ul>
+      <li><a href="https://mstdn.social/@isziaui/113874436953157913">A QR code that sends you to a different destination – lenticular and adversarial</a></li>
+    </ul>
+  </li>
+  <li><strong>Thank HN: My bootstrapped startup got acquired today</strong><br />
+一位创业者分享了其自启动项目被收购的消息，这在 Hacker News 上引起了热烈讨论，许多人对这种成功案例表现出极大的兴趣。
+    <ul>
+      <li><a href="https://news.ycombinator.com/item?id=42806247">Thank HN: My bootstrapped startup got acquired today</a></li>
+    </ul>
+  </li>
+  <li><strong>Llama.vim – Local LLM-assisted text completion</strong><br />
+介绍了一个名为 Llama.vim 的 Vim 插件，它利用本地大型语言模型辅助文本补全，提高了编程效率。
+    <ul>
+      <li><a href="https://github.com/ggml-org/llama.vim">Llama.vim – Local LLM-assisted text completion</a></li>
+    </ul>
+  </li>
+  <li><strong>Show HN: I made an open-source laptop from scratch</strong><br />
+一位开发者展示了他从头开始制作的开源笔记本电脑，这个项目展示了硬件开发的开放性和创新性。
+    <ul>
+      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
+    </ul>
+  </li>
+  <li><strong>The Most Mario Colors</strong><br />
+一篇文章探讨了《超级马里奥》系列中的颜色使用，分析了这些颜色如何影响玩家的游戏体验。
+    <ul>
+      <li><a href="https://lmnt.me/blog/the-most-mario-colors.html">The Most Mario Colors</a></li>
+    </ul>
+  </li>
+  <li><strong>Susctl CVE-2024-54507: A particularly ‘sus’ sysctl in the XNU kernel</strong><br />
+披露了 XNU 内核中的一个安全漏洞，这个漏洞可能允许攻击者执行任意代码，引起了安全社区的关注。
+    <ul>
+      <li><a href="https://jprx.io/cve-2024-54507/">Susctl CVE-2024-54507: A particularly ‘sus’ sysctl in the XNU kernel</a></li>
+    </ul>
+  </li>
+  <li><strong>Operator research preview</strong><br />
+OpenAI 介绍了其最新的研究预览——Operator，这是一个用于研究和开发的工具，旨在提高 AI 的性能和安全性。
+    <ul>
+      <li><a href="https://openai.com/index/introducing-operator/">Operator research preview</a></li>
+    </ul>
+  </li>
+  <li><strong>Surface-Stable Fractal Dithering</strong><br />
+一个开源项目，提供了一种在 3D 图形中实现表面稳定分形抖动的技术，这对于图形设计和游戏开发具有重要意义。
+    <ul>
+      <li><a href="https://github.com/runevision/Dither3D">Surface-Stable Fractal Dithering</a></li>
+    </ul>
+  </li>
+  <li><strong>Supercharge vector search with ColBERT rerank in PostgreSQL</strong><br />
+介绍了如何使用 ColBERT 重排技术在 PostgreSQL 中增强向量搜索，这对于处理大规模数据集非常有用。
+    <ul>
+      <li><a href="https://blog.vectorchord.ai/supercharge-vector-search-with-colbert-rerank-in-postgresql">Supercharge vector search with ColBERT rerank in PostgreSQL</a></li>
+    </ul>
+  </li>
+  <li><strong>Building a Medieval Castle from Scratch</strong><br />
+一个项目展示了如何从头开始建造一个中世纪城堡，这个项目不仅具有教育意义，还展示了建筑技术和历史的魅力。
+    <ul>
+      <li><a href="https://www.guedelon.fr/en/">Building a Medieval Castle from Scratch</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-24 20:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/24/11-29-36-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-24T11:29:36+00:00</published><updated>2025-01-24T11:29:36+00:00</updated><id>/hacknews/2025/01/24/11:29:36-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/24/11-29-36-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 19:29:36</p>
 
 <ol>
   <li><strong>QR码的新玩法</strong><br />
@@ -127,7 +190,7 @@ Y Combinator支持的公司Sei发布了招聘信息，这可能会吸引对初�
   </li>
 </ol>
 
-<hr />]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-24 19:01:31]]></summary></entry><entry><title type="html"></title><link href="/2025/01/24/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-01-24T03:31:08+00:00</published><updated>2025-01-24T03:31:08+00:00</updated><id>/2025/01/24/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/01/24/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
+<hr />]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-24 19:01:31]]></summary></entry><entry><title type="html"></title><link href="/2025/01/24/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-01-24T04:01:43+00:00</published><updated>2025-01-24T04:01:43+00:00</updated><id>/2025/01/24/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/01/24/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
 
 <ol>
   <li><strong>QR码的新玩法</strong><br />
@@ -552,101 +615,4 @@ YC W23 孵化的公司 Intrinsic 发布了招聘信息，寻找技术人才。
       <li><a href="https://cefboud.github.io/posts/compression/">Taking a Look at Compression Algorithms</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 16:57:19]]></summary></entry><entry><title type="html">git workflow</title><link href="/k8s/2025/01/23/09-47-52-gitworkflow.html" rel="alternate" type="text/html" title="git workflow" /><published>2025-01-23T01:47:52+00:00</published><updated>2025-01-23T01:47:52+00:00</updated><id>/k8s/2025/01/23/09:47:52-gitworkflow</id><content type="html" xml:base="/k8s/2025/01/23/09-47-52-gitworkflow.html"><![CDATA[<p>一图胜千文，这张图真是让我爱不释手啊</p>
-
-<p><img src="/assets/images/git-workflow.gif" alt="git workflow" /></p>
-
-<h1 id="git-的核心概念">Git 的核心概念</h1>
-
-<p>Git 是一种分布式版本控制系统，主要用于管理代码的变更。它通过多个状态和区间，帮助开发者跟踪、管理和共享代码。</p>
-
-<h2 id="工作目录-working-directory">工作目录 (Working Directory)</h2>
-
-<p>本地文件夹，包含所有正在开发和修改的代码，文件有两种状态</p>
-<ul>
-  <li><strong>未跟踪(Untracked)</strong>：新文件，Git尚未开始管理</li>
-  <li><strong>已跟踪(Tracked)</strong>: 被Git管理的文件，可用于修改、未修改或暂存状态</li>
-</ul>
-
-<h2 id="暂存区-staging-area">暂存区 (Staging Area)</h2>
-
-<ul>
-  <li>又称为<strong>Index</strong>， 是一个中间区域，用于保存你准备提交到本地仓库的更改</li>
-  <li>暂存区可以理解为提交的草稿区，只有暂存的文件才会被提交</li>
-</ul>
-
-<h2 id="本地仓库local-repo">本地仓库(Local Repo)</h2>
-
-<ul>
-  <li>包含所有的提交历史，保存了项目的版本变化</li>
-  <li>通过<code class="language-plaintext highlighter-rouge">git commit</code>将暂存区的更改记录到本地仓库</li>
-</ul>
-
-<h2 id="远程仓库remote-repo">远程仓库(Remote Repo)</h2>
-<ul>
-  <li>通常是托管在服务器或云端 (GitHub, GitLab)的仓库</li>
-  <li>本地仓库的更改可以通过<code class="language-plaintext highlighter-rouge">git push</code> 推送到远程仓库，工团队成员共享</li>
-</ul>
-
-<h1 id="git-的设计哲学">Git 的设计哲学</h1>
-
-<h2 id="分布式版本控制">分布式版本控制</h2>
-<ul>
-  <li>Git的核心在于每个开发者都拥有完成的仓库副本，确保即使没有网络链接，也能进行代码的管理和回滚</li>
-</ul>
-
-<h2 id="文件的三个区域">文件的三个区域</h2>
-<ul>
-  <li><strong>工作目录</strong> <strong>暂存区</strong> <strong>本地仓库</strong> 的分离，使得修改和提交具有更高的灵活性</li>
-</ul>
-
-<h2 id="基于快照而非差异">基于快照而非差异</h2>
-<ul>
-  <li>Git 通过报错文件快照 (snapshot) 而非改动，提高了性能和版本管理效率</li>
-</ul>
-
-<h2 id="高效分支管理">高效分支管理</h2>
-<ul>
-  <li>Git 的分支(Branch) 轻量且易于合并，便于多人协作和快速开发</li>
-</ul>
-
-<p><strong>Note:</strong>
-每次提交就是一张快照照片： 项目所有文件的当前状态都被记录下来。
-未变动的文件只存一次： Git 不会重复保存相同的文件，依靠引用来避免冗余。
-高效与完整结合： 快照是对版本状态的完整记录，但通过引用和压缩技术使其存储效率极高。
-通过这种快照机制，Git 既保证了性能，又能方便地管理代码版本，让开发者专注于编程而无需关心底层实现。</p>
-
-<p>假设有一个项目包含三个文件：<code class="language-plaintext highlighter-rouge">file1.txt</code>、<code class="language-plaintext highlighter-rouge">file2.txt</code> 和 <code class="language-plaintext highlighter-rouge">file3.txt</code>，以下是文件的变更和提交的流程：</p>
-
-<p><strong>初次提交</strong></p>
-
-<ul>
-  <li>
-    <p>Git 保存所有文件的完整内容（Blob），并生成 Tree 和 Commit 对象。</p>
-
-    <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Commit</span> <span class="err">→</span> <span class="n">Tree</span> <span class="err">→</span> <span class="p">[</span><span class="nb">Blob</span><span class="p">(</span><span class="n">file1</span><span class="p">),</span> <span class="nb">Blob</span><span class="p">(</span><span class="n">file2</span><span class="p">),</span> <span class="nb">Blob</span><span class="p">(</span><span class="n">file3</span><span class="p">)]</span>
-</code></pre></div>    </div>
-  </li>
-</ul>
-
-<p><strong>第二次提交</strong></p>
-
-<ul>
-  <li>修改了 <code class="language-plaintext highlighter-rouge">file2.txt</code>，其他文件未变动。</li>
-  <li>Git 只保存 <code class="language-plaintext highlighter-rouge">file2.txt</code> 的新 Blob，对未变动的文件使用之前的引用。
-    <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Commit</span> <span class="err">→</span> <span class="n">Tree</span> <span class="err">→</span> <span class="p">[</span><span class="nb">Blob</span><span class="p">(</span><span class="n">file1</span><span class="p">),</span> <span class="nb">Blob</span><span class="p">(</span><span class="n">new_file2</span><span class="p">),</span> <span class="nb">Blob</span><span class="p">(</span><span class="n">file3</span><span class="p">)]</span>
-</code></pre></div>    </div>
-  </li>
-</ul>
-
-<p><strong>第三次提交</strong></p>
-
-<ul>
-  <li>修改了 <code class="language-plaintext highlighter-rouge">file3.txt</code>。</li>
-  <li>
-    <p>Git 保存 <code class="language-plaintext highlighter-rouge">file3.txt</code> 的新 Blob，其余文件继续引用之前的 Blob。</p>
-
-    <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Commit</span> <span class="err">→</span> <span class="n">Tree</span> <span class="err">→</span> <span class="p">[</span><span class="nb">Blob</span><span class="p">(</span><span class="n">file1</span><span class="p">),</span> <span class="nb">Blob</span><span class="p">(</span><span class="n">new_file2</span><span class="p">),</span> <span class="nb">Blob</span><span class="p">(</span><span class="n">new_file3</span><span class="p">)]</span>
-</code></pre></div>    </div>
-  </li>
-</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="git" /><category term="tech" /><summary type="html"><![CDATA[一图胜千文，这张图真是让我爱不释手啊]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 16:57:19]]></summary></entry></feed>
