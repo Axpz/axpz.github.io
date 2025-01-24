@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-24T02:01:38+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-24T02:05:50+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
 </subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News 热门话题 top 10 2025-01-24</title><link href="/hacknews/2025/01/24/10-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-24" /><published>2025-01-24T10:00:03+00:00</published><updated>2025-01-24T10:00:03+00:00</updated><id>/hacknews/2025/01/24/10:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/24/10-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 18:00:03</p>
 
 <ol>
@@ -62,7 +62,102 @@ Y Combinator 支持的初创公司 Sei 发布了招聘信息，寻找全栈工�
       <li><a href="https://benpence.com/blog/post/psychedelic-graphics-0">Psychedelic Graphics 0: Introduction</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-24 18:00:03]]></summary></entry><entry><title type="html">Hacker News 热门话题 top 10 {%Y-%m-%d}</title><link href="/hacknews/2025/01/24/09-44-54-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 {%Y-%m-%d}" /><published>2025-01-24T01:44:54+00:00</published><updated>2025-01-24T01:44:54+00:00</updated><id>/hacknews/2025/01/24/09:44:54-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/24/09-44-54-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 09:44:54</p>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-24 18:00:03]]></summary></entry><entry><title type="html"></title><link href="/2025/01/24/2025-01-24-10-04-07-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-01-24T02:05:50+00:00</published><updated>2025-01-24T02:05:50+00:00</updated><id>/2025/01/24/2025-01-24-10:04:07-hackernews_report</id><content type="html" xml:base="/2025/01/24/2025-01-24-10-04-07-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:04:07</p>
+
+<ol>
+  <li><strong>A QR code that sends you to a different destination - lenticular and adversarial</strong><br />
+讨论了一种特殊的 QR 码，它能够根据观察角度的不同显示不同的目的地，这种技术可能对广告和安全领域产生影响。
+    <ul>
+      <li>[A QR code that sends you to a different destination][qr-code]</li>
+    </ul>
+  </li>
+  <li><strong>Thank HN: My bootstrapped startup got acquired today</strong><br />
+一位创业者分享了他的自启动公司被收购的消息，这在 Hacker News 上引起了热烈讨论，许多人对自启动公司的成功案例感兴趣。
+    <ul>
+      <li>[Thank HN: My bootstrapped startup got acquired today][item-42806247]</li>
+    </ul>
+  </li>
+  <li><strong>Susctl CVE-2024-54507: A particularly ‘sus’ sysctl in the XNU kernel</strong><br />
+文章讨论了 XNU 内核中的一个安全漏洞，这个漏洞可能允许攻击者绕过安全机制，对系统进行未授权的访问。
+    <ul>
+      <li>[Susctl CVE-2024-54507][cve-2024-54507]</li>
+    </ul>
+  </li>
+  <li><strong>Llama.vim – Local LLM-assisted text completion</strong><br />
+介绍了一个名为 Llama.vim 的 Vim 插件，它利用本地的大型语言模型来辅助文本补全，提高了编程效率。
+    <ul>
+      <li>[Llama.vim][llama-vim]</li>
+    </ul>
+  </li>
+  <li><strong>Surface-Stable Fractal Dithering</strong><br />
+一个关于表面稳定分形抖动技术的开源项目，这种技术可以用于图像处理和视觉效果的生成。
+    <ul>
+      <li>[Surface-Stable Fractal Dithering][dither3d]</li>
+    </ul>
+  </li>
+  <li><strong>The Most Mario Colors</strong><br />
+一篇文章探讨了《超级马里奥》系列中使用的颜色，以及这些颜色如何影响玩家的游戏体验。
+    <ul>
+      <li>[The Most Mario Colors][mario-colors]</li>
+    </ul>
+  </li>
+  <li><strong>Show HN: I made an open-source laptop from scratch</strong><br />
+一个开发者展示了他从头开始制作的开源笔记本电脑，这个项目展示了硬件开发的开放性和创新性。
+    <ul>
+      <li>[Show HN: I made an open-source laptop from scratch][open-source-laptop]</li>
+    </ul>
+  </li>
+  <li><strong>Sei (YC W22) Is Hiring</strong><br />
+Y Combinator 支持的初创公司 Sei 发布了招聘信息，寻找全栈工程师，这表明公司正在扩大团队规模。
+    <ul>
+      <li>[Sei (YC W22) Is Hiring][sei-hiring]</li>
+    </ul>
+  </li>
+  <li><strong>Building a Medieval Castle from Scratch</strong><br />
+一个项目记录了从头开始建造中世纪城堡的过程，这个项目不仅具有教育意义，也吸引了对历史建筑感兴趣的人群。
+    <ul>
+      <li>[Building a Medieval Castle from Scratch][medieval-castle]</li>
+    </ul>
+  </li>
+  <li><strong>Psychedelic Graphics 0: Introduction</strong><br />
+文章介绍了迷幻图形的概念和历史，探讨了这种风格如何影响现代视觉艺术。
+    <ul>
+      <li>[Psychedelic Graphics 0: Introduction][psychedelic-graphics]</li>
+    </ul>
+  </li>
+  <li><strong>Capacitors Meet Geometric Series</strong><br />
+一篇技术文章，解释了电容器如何与几何级数相结合，用于解决电路设计中的问题。
+    <ul>
+      <li>[Capacitors Meet Geometric Series][capacitors]</li>
+    </ul>
+  </li>
+  <li><strong>Show HN: Open-source AI video editor</strong><br />
+一个开源的 AI 视频编辑器项目，展示了人工智能在视频编辑领域的应用潜力。
+    <ul>
+      <li>[Show HN: Open-source AI video editor][ai-video-editor]</li>
+    </ul>
+  </li>
+  <li><strong>Working with Files Is Hard (2019)</strong><br />
+一篇旧文，讨论了文件操作的复杂性，以及如何优化文件处理流程。
+    <ul>
+      <li>[Working with Files Is Hard][files-hard]</li>
+    </ul>
+  </li>
+  <li><strong>Bunster: Compile bash scripts to self contained executables</strong><br />
+一个工具 Bunster，可以将 bash 脚本编译成独立的可执行文件，提高了脚本的便携性和易用性。
+    <ul>
+      <li>[Bunster: Compile bash scripts to self contained executables][bunster]</li>
+    </ul>
+  </li>
+  <li><strong>Hacking Subaru: Tracking and Controlling Cars via the Starlink Admin Panel</strong><br />
+文章描述了通过 Starlink 管理面板追踪和控制 Subaru 汽车的过程，展示了汽车网络安全的潜在风险。
+    <ul>
+      <li>[Hacking Subaru: Tracking and Controlling Cars via the Starlink Admin Panel][hacking-subaru]</li>
+    </ul>
+  </li>
+  <li><strong>Citations on the Anthropic API</strong><br />
+人类认知科技公司</li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author></entry><entry><title type="html">Hacker News 热门话题 top 10 {%Y-%m-%d}</title><link href="/hacknews/2025/01/24/09-44-54-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 {%Y-%m-%d}" /><published>2025-01-24T01:44:54+00:00</published><updated>2025-01-24T01:44:54+00:00</updated><id>/hacknews/2025/01/24/09:44:54-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/24/09-44-54-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 09:44:54</p>
 
 <ol>
   <li><strong>A QR code that sends you to a different destination - lenticular and adversarial</strong><br />
@@ -666,152 +761,4 @@ kube-system   traefik-b7b68d8cb-dkt4v                   1/1     Running     0   
       <span class="na">services</span><span class="pi">:</span>
         <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">github-service</span>  <span class="c1"># 使用一个服务名称，你可以创建一个名为 service 的服务，或者直接使用 IP 地址</span>
           <span class="na">port</span><span class="pi">:</span> <span class="m">80</span>
-</code></pre></div></div>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="k8s" /><category term="network" /><category term="ai" /><summary type="html"><![CDATA[Gateway DNAT网络不可用问题排查和解决方案]]></summary></entry><entry><title type="html">关于开源许可协议</title><link href="/k8s/2025/01/22/09-47-52-open-source-license.html" rel="alternate" type="text/html" title="关于开源许可协议" /><published>2025-01-22T01:47:52+00:00</published><updated>2025-01-22T01:47:52+00:00</updated><id>/k8s/2025/01/22/09:47:52-open-source-license</id><content type="html" xml:base="/k8s/2025/01/22/09-47-52-open-source-license.html"><![CDATA[<p>常见的开源许可协议，可以理解为两条线</p>
-
-<ol>
-  <li>软件类产品，从宽松到严格依次是
-    <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ------- 松 ----    --- 紧 -------  
- MIT License  
-       Apache License 2.0  
-           LGPL (Lesser General Public License)  
-                 GPL (GNU General Public License)  
-     BSD License  
-</code></pre></div>    </div>
-  </li>
-  <li>创作类非软件产品<br />
-CC (Creative Commons License)，适合开源非软件类作品，如文档、艺术作品、图像、音频等</li>
-</ol>
-
-<p>详细如下：</p>
-
-<h1 id="mit-licnese">MIT Licnese</h1>
-<p><strong>全称</strong>：麻省理工学院许可协议</p>
-<h2 id="特点">特点</h2>
-<ul>
-  <li>非常宽松，允许任何用途，包括商业用途</li>
-  <li>可以修改、分发代码，甚至闭源分发
-    <h2 id="限制">限制</h2>
-  </li>
-  <li>必须保留原始的版权声明和许可信息
-    <h2 id="适用场景">适用场景</h2>
-  </li>
-  <li>适合希望代码被广泛采用且不限制用途的项目</li>
-</ul>
-
-<h1 id="apache-license-20">Apache License 2.0</h1>
-<p><strong>全称</strong>：Apache License 2.0 许可协议</p>
-
-<h2 id="特点-1">特点</h2>
-<ul>
-  <li>允许免费使用、修改和分发(包括商业用途)</li>
-  <li>明确授权专利，保护用户免受专利纠纷</li>
-  <li>允许闭源分发，需要遵守相关条款</li>
-</ul>
-
-<h2 id="限制-1">限制</h2>
-<ul>
-  <li>必须保留原始的版权声明和许可信息</li>
-  <li>修改后的代码需明确说明变更内容</li>
-</ul>
-
-<h2 id="适用场景-1">适用场景</h2>
-<ul>
-  <li>适合需要专利保护且希望明确授权条款的项目</li>
-</ul>
-
-<h1 id="gpl-gnu-general-public-license">GPL (GNU General Public License)</h1>
-<p><strong>全称</strong>：通用公共许可协议</p>
-
-<h2 id="特点-2">特点</h2>
-<ul>
-  <li>强制开源，任何基于GPL代码的衍生项目必须公开开源</li>
-  <li>允许自由使用、修改和分发，但必须保持衍生品同样为GPL协议</li>
-</ul>
-
-<h2 id="限制-2">限制</h2>
-<ul>
-  <li>商业化受限，因为衍生品不能闭源</li>
-  <li>必须提供完整的源代码，包括修改部分</li>
-</ul>
-
-<h2 id="适用场景-2">适用场景</h2>
-<ul>
-  <li>适合重视软件自由、希望强制开源的项目</li>
-</ul>
-
-<h1 id="lgpl-lesser-general-public-license">LGPL (Lesser General Public License)</h1>
-<p><strong>全称</strong>：宽松通用公共许可协议</p>
-
-<h2 id="特点-3">特点</h2>
-<ul>
-  <li>相对GPL更宽松，允许软件动态链接到非GPL的代码</li>
-  <li>用户可以闭源分发自己的软件，只要不修改LGPL的代码</li>
-</ul>
-
-<h2 id="限制-3">限制</h2>
-<ul>
-  <li>修改的LGPL的代码必须开源并使用相同的协议分发</li>
-</ul>
-
-<h2 id="适用场景-3">适用场景</h2>
-<ul>
-  <li>适合开发Library, 希望代码被广泛采用而不是强制整个项目开源</li>
-</ul>
-
-<h1 id="bsd-license">BSD License</h1>
-<p><strong>全称</strong>：Berkeley Software Distribution License</p>
-
-<h2 id="特点-4">特点</h2>
-<ul>
-  <li>类似MIT，非常宽松，允许任何用途，包括商业化</li>
-  <li>可闭源分发，无需公开修改后的代码</li>
-</ul>
-
-<h2 id="限制-4">限制</h2>
-<ul>
-  <li>必须保留版权声明</li>
-  <li>不允许使用原作者的名字进行推广</li>
-</ul>
-
-<h2 id="适用场景-4">适用场景</h2>
-<ul>
-  <li>适合希望代码被广泛使用且对使用方式限制较少的项目</li>
-</ul>
-
-<h1 id="mpl-mozilla-public-license">MPL (Mozilla Public License)</h1>
-<p><strong>全称</strong>：Mozilla 公共开源许可协议</p>
-
-<h2 id="特点-5">特点</h2>
-<ul>
-  <li>比较宽松，允许闭源和商业化使用，但对修改后的代码需要开源</li>
-  <li>仅要求修改开源的文件，而不是整个项目</li>
-</ul>
-
-<h2 id="限制-5">限制</h2>
-<ul>
-  <li>修改后的MPL文件必须开源并使用相同协议分发</li>
-</ul>
-
-<h2 id="适用场景-5">适用场景</h2>
-<ul>
-  <li>适合开发需要部分开源，又保留商业化可能的项目</li>
-</ul>
-
-<h1 id="cc-creative-commons-license">CC (Creative Commons License)</h1>
-<p><strong>全称</strong>：创作公共许可</p>
-
-<h2 id="特点-6">特点</h2>
-<ul>
-  <li>专注于创意作品，例如文字、音乐、图片，而非软件</li>
-  <li>有多种版本，如CC BY、CC BY-SA、 CC BY-NC 等，根据是否允许商业用途、是否要求署名等区分</li>
-</ul>
-
-<h2 id="限制-6">限制</h2>
-<ul>
-  <li>根据选择的版本不同，可能限制商用或者二次创作</li>
-</ul>
-
-<h2 id="适用场景-6">适用场景</h2>
-<ul>
-  <li>适合开源非软件类作品</li>
-</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="license" /><category term="tech" /><summary type="html"><![CDATA[常见的开源许可协议，可以理解为两条线]]></summary></entry></feed>
+</code></pre></div></div>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="k8s" /><category term="network" /><category term="ai" /><summary type="html"><![CDATA[Gateway DNAT网络不可用问题排查和解决方案]]></summary></entry></feed>
