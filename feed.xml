@@ -1,68 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-25T12:01:15+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/25/20-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-25T20:00:03+00:00</published><updated>2025-01-25T20:00:03+00:00</updated><id>/hacknews/2025/01/25/20:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/25/20-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-26 04:00:03</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-25T22:01:25+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/26/06-00-04-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-26T06:00:04+00:00</published><updated>2025-01-26T06:00:04+00:00</updated><id>/hacknews/2025/01/26/06:00:04-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/26/06-00-04-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-26 14:00:04</p>
 
 <ol>
-  <li><strong>Loops, Pixelfed 的初步体验</strong><br />
-Loops 是一个去中心化的 TikTok 竞争者，Pixelfed 项目的最新进展。讨论了其设计理念和用户体验，展示了去中心化社交媒体平台的潜力。
+  <li><strong>DeepSeek-R1: 通过强化学习激励大型语言模型的推理能力</strong><br />
+研究论文探讨了如何通过强化学习来提升大型语言模型（LLMs）的推理能力，这对于自然语言处理和人工智能领域是一个重要的研究方向。
     <ul>
-      <li><a href="https://wedistribute.org/2024/11/loops-early-look/">First Look: Loops, by Pixelfed – Decentralised TikTok Competitor</a></li>
+      <li><a href="https://arxiv.org/abs/2501.12948">DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via RL</a></li>
     </ul>
   </li>
-  <li><strong>梯度下降优化算法概述</strong><br />
-文章提供了梯度下降优化算法的全面概述，包括算法原理、优化技巧和实际应用，对机器学习领域的研究者和实践者具有重要参考价值。
+  <li><strong>OpenRA：为现代时代重建的经典策略游戏</strong><br />
+OpenRA 是一个开源项目，旨在为现代操作系统重建经典策略游戏，如《命令与征服》等，提供了跨平台的游戏体验。
     <ul>
-      <li><a href="https://www.ruder.io/optimizing-gradient-descent/">An overview of gradient descent optimization algorithms</a></li>
+      <li><a href="https://www.openra.net/">OpenRA – Classic strategy games rebuilt for the modern era</a></li>
     </ul>
   </li>
-  <li><strong>职业生涯的前半世纪经验教训</strong><br />
-作者分享了其职业生涯前半世纪的经验教训，涉及技术、管理和人生哲学等多个方面，为读者提供了宝贵的职业发展指导。
+  <li><strong>Mac Classic II 启动的意外指令</strong><br />
+文章讲述了一个无效的 68030 指令如何意外地允许 Mac Classic II 成功启动，展示了计算机硬件和软件之间的复杂交互。
     <ul>
-      <li><a href="https://cacm.acm.org/opinion/life-lessons-from-the-first-half-century-of-my-career/">Life lessons from the first half-century of my career</a></li>
+      <li><a href="https://www.downtowndougbrown.com/2025/01/the-invalid-68030-instruction-that-accidentally-allowed-the-mac-classic-ii-to-successfully-boot-up/">An invalid 68030 instruction accidentally allowed the Mac Classic II to boot</a></li>
     </ul>
   </li>
-  <li><strong>FizzBuzz 面试题的反思</strong><br />
-作者分享了一个 FizzBuzz 面试题未能帮助其获得工作的经历，引发了对面试流程和编程测试有效性的讨论。
+  <li><strong>每个 HTML 元素的详细介绍</strong><br />
+一个全面的 HTML 元素参考手册，为开发者提供了每个 HTML 元素的详细信息和使用示例。
     <ul>
-      <li><a href="https://kranga.notion.site/The-fizzbuzz-that-did-not-get-me-the-job-180e7c22ef3b80c3a386f7f8de720ac7">The FizzBuzz that did not get me the job</a></li>
+      <li><a href="https://iamwillwang.com/dollar/every-html-element/">Every HTML Element</a></li>
     </ul>
   </li>
-  <li><strong>Cs16.css – 基于 Counter Strike 1.6 UI 的 CSS 库</strong><br />
-一个基于经典游戏 Counter Strike 1.6 用户界面的 CSS 库，为开发者提供了复古风格的设计元素。
+  <li><strong>不可变性改变一切</strong><br />
+一篇2016年的论文，讨论了不可变性在数据库和编程中的重要性，以及它如何改变我们对数据管理和程序设计的看法。
     <ul>
-      <li><a href="https://cs16.samke.me">Show HN: Cs16.css – CSS library based on Counter Strike 1.6 UI</a></li>
+      <li><a href="https://www.cidrdb.org/cidr2015/Papers/CIDR15_Paper16.pdf">Immutability Changes Everything (2016) [pdf]</a></li>
     </ul>
   </li>
-  <li><strong>Gongzilla：愚蠢想法的成本崩溃</strong><br />
-文章探讨了愚蠢想法的成本如何随着时间降低，以及这种现象对社会和经济的影响。
+  <li><strong>Wikenigma：未知事物的百科全书</strong><br />
+Wikienigma 是一个在线资源，收集和展示了各种未知事物的信息，从神秘生物到未解之谜，为好奇者提供了一个探索的平台。
     <ul>
-      <li><a href="https://everything.intellectronica.net/p/gongzilla">Gongzilla: The collapsing cost of dumb ideas</a></li>
+      <li><a href="https://wikenigma.org.uk/start">Wikenigma – an Encyclopedia of Unknowns</a></li>
     </ul>
   </li>
-  <li><strong>TinyZero – 一个轻量级的操作系统</strong><br />
-TinyZero 是一个开源的轻量级操作系统项目，展示了从零开始构建操作系统的挑战和可能性。
+  <li><strong>使用 AI 开发更完整的人类大脑模型</strong><br />
+文章介绍了如何利用人工智能技术来构建更完整的人类大脑模型，这对于神经科学和人工智能的交叉领域具有重要意义。
     <ul>
-      <li><a href="https://github.com/Jiayi-Pan/TinyZero">TinyZero</a></li>
+      <li><a href="https://magazine.ucsf.edu/building-a-silicon-brain">Using AI to develop a fuller model of the human brain</a></li>
     </ul>
   </li>
-  <li><strong>Helix 编辑器集成文件浏览器</strong><br />
-Helix 编辑器的最新更新，集成了文件浏览器功能，提高了编辑器的易用性和功能性。
+  <li><strong>寻找 DeepSeek 的异常令牌</strong><br />
+Substack 上的文章探讨了 DeepSeek V3 中的异常令牌，这对于理解大型语言模型的行为和潜在问题具有参考价值。
     <ul>
-      <li><a href="https://github.com/helix-editor/helix/pull/11285">File Explorer is merged to Helix editor</a></li>
+      <li><a href="https://outsidetext.substack.com/p/anomalous-tokens-in-deepseek-v3-and">Searching for DeepSeek’s glitch tokens</a></li>
     </ul>
   </li>
-  <li><strong>Ollama – 用以戏弄短信垃圾邮件发送者的工具</strong><br />
-一个开源工具，可以帮助用户自动回复短信垃圾邮件，减少垃圾信息的骚扰。
+  <li><strong>开放心脏协议</strong><br />
+一个旨在提高心脏健康意识和教育的项目，通过开放资源和工具来帮助人们更好地理解和管理心脏健康。
     <ul>
-      <li><a href="https://evan.widloski.com/software/sms_llm/">Show HN: Trolling SMS spammers with Ollama</a></li>
+      <li><a href="https://openheart.fyi/">Open Heart Protocol</a></li>
     </ul>
   </li>
-  <li><strong>Wild – Linux 的快速链接器</strong><br />
-Wild 是一个为 Linux 设计的快速链接器，旨在提高链接过程的效率和性能。
+  <li><strong>适用于 FPGA 的 32 位 RISC-V CPU 实现</strong><br />
+一个开源项目，提供了一个适用于 FPGA 的 32 位 RISC-V CPU 实现，这对于硬件设计和嵌入式系统开发具有重要意义。
     <ul>
-      <li><a href="https://github.com/davidlattimore/wild">Wild – A fast linker for Linux</a></li>
+      <li><a href="https://github.com/SpinalHDL/VexRiscv">A FPGA friendly 32 bit RISC-V CPU implementation</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-26 04:00:03]]></summary></entry><entry><title type="html"></title><link href="/2025/01/25/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-01-25T12:01:15+00:00</published><updated>2025-01-25T12:01:15+00:00</updated><id>/2025/01/25/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/01/25/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-26 14:00:04]]></summary></entry><entry><title type="html"></title><link href="/2025/01/25/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-01-25T22:01:25+00:00</published><updated>2025-01-25T22:01:25+00:00</updated><id>/2025/01/25/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/01/25/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
 
 <ol>
   <li><strong>QR码的新玩法</strong><br />
@@ -127,7 +127,70 @@ Y Combinator支持的公司Sei发布了招聘信息，寻找全栈工程师，�
   </li>
 </ol>
 
-<hr />]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/25/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-25T12:00:03+00:00</published><updated>2025-01-25T12:00:03+00:00</updated><id>/hacknews/2025/01/25/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/25/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-25 20:00:03</p>
+<hr />]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/25/20-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-25T20:00:03+00:00</published><updated>2025-01-25T20:00:03+00:00</updated><id>/hacknews/2025/01/25/20:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/25/20-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-26 04:00:03</p>
+
+<ol>
+  <li><strong>Loops, Pixelfed 的初步体验</strong><br />
+Loops 是一个去中心化的 TikTok 竞争者，Pixelfed 项目的最新进展。讨论了其设计理念和用户体验，展示了去中心化社交媒体平台的潜力。
+    <ul>
+      <li><a href="https://wedistribute.org/2024/11/loops-early-look/">First Look: Loops, by Pixelfed – Decentralised TikTok Competitor</a></li>
+    </ul>
+  </li>
+  <li><strong>梯度下降优化算法概述</strong><br />
+文章提供了梯度下降优化算法的全面概述，包括算法原理、优化技巧和实际应用，对机器学习领域的研究者和实践者具有重要参考价值。
+    <ul>
+      <li><a href="https://www.ruder.io/optimizing-gradient-descent/">An overview of gradient descent optimization algorithms</a></li>
+    </ul>
+  </li>
+  <li><strong>职业生涯的前半世纪经验教训</strong><br />
+作者分享了其职业生涯前半世纪的经验教训，涉及技术、管理和人生哲学等多个方面，为读者提供了宝贵的职业发展指导。
+    <ul>
+      <li><a href="https://cacm.acm.org/opinion/life-lessons-from-the-first-half-century-of-my-career/">Life lessons from the first half-century of my career</a></li>
+    </ul>
+  </li>
+  <li><strong>FizzBuzz 面试题的反思</strong><br />
+作者分享了一个 FizzBuzz 面试题未能帮助其获得工作的经历，引发了对面试流程和编程测试有效性的讨论。
+    <ul>
+      <li><a href="https://kranga.notion.site/The-fizzbuzz-that-did-not-get-me-the-job-180e7c22ef3b80c3a386f7f8de720ac7">The FizzBuzz that did not get me the job</a></li>
+    </ul>
+  </li>
+  <li><strong>Cs16.css – 基于 Counter Strike 1.6 UI 的 CSS 库</strong><br />
+一个基于经典游戏 Counter Strike 1.6 用户界面的 CSS 库，为开发者提供了复古风格的设计元素。
+    <ul>
+      <li><a href="https://cs16.samke.me">Show HN: Cs16.css – CSS library based on Counter Strike 1.6 UI</a></li>
+    </ul>
+  </li>
+  <li><strong>Gongzilla：愚蠢想法的成本崩溃</strong><br />
+文章探讨了愚蠢想法的成本如何随着时间降低，以及这种现象对社会和经济的影响。
+    <ul>
+      <li><a href="https://everything.intellectronica.net/p/gongzilla">Gongzilla: The collapsing cost of dumb ideas</a></li>
+    </ul>
+  </li>
+  <li><strong>TinyZero – 一个轻量级的操作系统</strong><br />
+TinyZero 是一个开源的轻量级操作系统项目，展示了从零开始构建操作系统的挑战和可能性。
+    <ul>
+      <li><a href="https://github.com/Jiayi-Pan/TinyZero">TinyZero</a></li>
+    </ul>
+  </li>
+  <li><strong>Helix 编辑器集成文件浏览器</strong><br />
+Helix 编辑器的最新更新，集成了文件浏览器功能，提高了编辑器的易用性和功能性。
+    <ul>
+      <li><a href="https://github.com/helix-editor/helix/pull/11285">File Explorer is merged to Helix editor</a></li>
+    </ul>
+  </li>
+  <li><strong>Ollama – 用以戏弄短信垃圾邮件发送者的工具</strong><br />
+一个开源工具，可以帮助用户自动回复短信垃圾邮件，减少垃圾信息的骚扰。
+    <ul>
+      <li><a href="https://evan.widloski.com/software/sms_llm/">Show HN: Trolling SMS spammers with Ollama</a></li>
+    </ul>
+  </li>
+  <li><strong>Wild – Linux 的快速链接器</strong><br />
+Wild 是一个为 Linux 设计的快速链接器，旨在提高链接过程的效率和性能。
+    <ul>
+      <li><a href="https://github.com/davidlattimore/wild">Wild – A fast linker for Linux</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-26 04:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/25/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-25T12:00:03+00:00</published><updated>2025-01-25T12:00:03+00:00</updated><id>/hacknews/2025/01/25/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/25/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-25 20:00:03</p>
 
 <ol>
   <li><strong>Caltrain电动列车效率超预期</strong><br />
@@ -581,67 +644,4 @@ Y Combinator支持的公司Sei发布了招聘信息，这可能会吸引对初�
   </li>
 </ol>
 
-<hr />]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-24 19:01:31]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/24/09-44-54-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-24T01:44:54+00:00</published><updated>2025-01-24T01:44:54+00:00</updated><id>/hacknews/2025/01/24/09:44:54-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/24/09-44-54-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 09:44:54</p>
-
-<ol>
-  <li><strong>A QR code that sends you to a different destination - lenticular and adversarial</strong><br />
-讨论了一种特殊的 QR 码，能够根据观察角度的不同显示不同的目的地，这种技术在安全和广告领域具有潜在的应用价值。
-    <ul>
-      <li><a href="https://mstdn.social/@isziaui/113874436953157913">A QR code that sends you to a different destination</a></li>
-    </ul>
-  </li>
-  <li><strong>Thank HN: My bootstrapped startup got acquired today</strong><br />
-一位创业者分享了自己的初创公司被收购的消息，感谢 Hacker News 社区的支持和帮助。
-    <ul>
-      <li><a href="https://news.ycombinator.com/item?id=42806247">Thank HN: My bootstrapped startup got acquired today</a></li>
-    </ul>
-  </li>
-  <li><strong>Susctl CVE-2024-54507: A particularly ‘sus’ sysctl in the XNU kernel</strong><br />
-披露了 XNU 内核中的一个安全漏洞，该漏洞可能允许攻击者绕过安全机制。
-    <ul>
-      <li><a href="https://jprx.io/cve-2024-54507/">Susctl CVE-2024-54507</a></li>
-    </ul>
-  </li>
-  <li><strong>Llama.vim – Local LLM-assisted text completion</strong><br />
-介绍了一个基于本地大型语言模型的 Vim 文本补全工具，旨在提高编程效率。
-    <ul>
-      <li><a href="https://github.com/ggml-org/llama.vim">Llama.vim</a></li>
-    </ul>
-  </li>
-  <li><strong>Surface-Stable Fractal Dithering</strong><br />
-一个关于表面稳定分形抖动的研究项目，展示了如何通过算法生成复杂的图案。
-    <ul>
-      <li><a href="https://github.com/runevision/Dither3D">Surface-Stable Fractal Dithering</a></li>
-    </ul>
-  </li>
-  <li><strong>The Most Mario Colors</strong><br />
-一篇文章探讨了《超级马里奥》系列中色彩的使用和设计，以及它们对游戏体验的影响。
-    <ul>
-      <li><a href="https://lmnt.me/blog/the-most-mario-colors.html">The Most Mario Colors</a></li>
-    </ul>
-  </li>
-  <li><strong>Sei (YC W22) Is Hiring</strong><br />
-Y Combinator 孵化的公司 Sei 正在招聘全栈工程师，要求具备 TypeScript 和 React 的开发经验。
-    <ul>
-      <li><a href="https://www.ycombinator.com/companies/sei/jobs/LeAtLYf-full-stack-engineer-typescript-react-gen-ai">Sei (YC W22) Is Hiring</a></li>
-    </ul>
-  </li>
-  <li><strong>Show HN: I made an open-source laptop from scratch</strong><br />
-一个开发者展示了自己从头开始制作的开源笔记本电脑，包括硬件和软件的设计。
-    <ul>
-      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
-    </ul>
-  </li>
-  <li><strong>Building a Medieval Castle from Scratch</strong><br />
-一个项目记录了从头开始建造中世纪城堡的过程，包括设计、材料和施工技术。
-    <ul>
-      <li><a href="https://www.guedelon.fr/en/">Building a Medieval Castle from Scratch</a></li>
-    </ul>
-  </li>
-  <li><strong>Psychedelic Graphics 0: Introduction</strong><br />
-一系列关于迷幻图形的文章的开篇，探讨了这种风格的历史和技术实现。
-    <ul>
-      <li><a href="https://benpence.com/blog/post/psychedelic-graphics-0">Psychedelic Graphics 0: Introduction</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-24 09:44:54]]></summary></entry></feed>
+<hr />]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-24 19:01:31]]></summary></entry></feed>
