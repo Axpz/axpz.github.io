@@ -1,5 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-25T02:01:16+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/25/10-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-25T10:00:03+00:00</published><updated>2025-01-25T10:00:03+00:00</updated><id>/hacknews/2025/01/25/10:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/25/10-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-25 18:00:03</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-25T04:01:18+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/25/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-25T12:00:03+00:00</published><updated>2025-01-25T12:00:03+00:00</updated><id>/hacknews/2025/01/25/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/25/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-25 20:00:03</p>
+
+<ol>
+  <li><strong>Caltrain电动列车效率超预期</strong><br />
+报道指出Caltrain的电动列车效率超出预期，展示了电动列车在公共交通中的潜力和环保效益。
+    <ul>
+      <li><a href="https://www.caltrain.com/news/caltrains-electric-fleet-more-efficient-expected">Caltrain’s Electric Fleet More Efficient Than Expected</a></li>
+    </ul>
+  </li>
+  <li><strong>Cs16.css – 基于CS 1.6 UI的CSS库</strong><br />
+一个基于经典游戏Counter Strike 1.6用户界面的CSS库，为开发者提供了复古风格的设计元素。
+    <ul>
+      <li><a href="https://cs16.samke.me">Show HN: Cs16.css – CSS library based on Counter Strike 1.6 UI</a></li>
+    </ul>
+  </li>
+  <li><strong>Fenwick树的发明</strong><br />
+文章讨论了Fenwick树的发明过程，这是一种用于高效区间查询和更新的数据结构。
+    <ul>
+      <li><a href="https://www.cambridge.org/core/journals/journal-of-functional-programming/article/you-could-have-invented-fenwick-trees/B4628279D4E54229CED97249E96F721D">You could have invented Fenwick trees</a></li>
+    </ul>
+  </li>
+  <li><strong>Ollama：对抗短信垃圾邮件</strong><br />
+一个项目展示了如何使用Ollama来戏弄短信垃圾邮件发送者，引发对短信安全和隐私保护的讨论。
+    <ul>
+      <li><a href="https://evan.widloski.com/software/sms_llm/">Show HN: Trolling SMS spammers with Ollama</a></li>
+    </ul>
+  </li>
+  <li><strong>Helix编辑器集成文件浏览器</strong><br />
+Helix编辑器的一个新特性，集成了文件浏览器，提高了文件管理和编辑的效率。
+    <ul>
+      <li><a href="https://github.com/helix-editor/helix/pull/11285">File Explorer is merged to Helix editor</a></li>
+    </ul>
+  </li>
+  <li><strong>加密货币百万富翁David Balland被绑架</strong><br />
+报道了一起针对加密货币公司高管的绑架案，引发了对加密货币安全和个人隐私保护的关注。
+    <ul>
+      <li><a href="https://moneycheck.com/french-police-free-kidnapped-ledger-executive-after-day-long-ordeal/">Kidnappers sever finger of cryptocurrency millionaire David Balland</a></li>
+    </ul>
+  </li>
+  <li><strong>Lightpanda：Zig语言开发的开源无头浏览器</strong><br />
+一个使用Zig语言开发的开源无头浏览器项目，为自动化测试和网页抓取提供了新的工具。
+    <ul>
+      <li><a href="https://github.com/lightpanda-io/browser">Show HN: Lightpanda, an open-source headless browser in Zig</a></li>
+    </ul>
+  </li>
+  <li><strong>Wild – Linux的快速链接器</strong><br />
+一个为Linux设计的快速链接器项目，旨在提高链接效率，对系统性能有潜在影响。
+    <ul>
+      <li><a href="https://github.com/davidlattimore/wild">Wild – A fast linker for Linux</a></li>
+    </ul>
+  </li>
+  <li><strong>Onit – 支持ChatGPT的开源桌面应用</strong><br />
+一个开源的桌面应用，支持ChatGPT和其他大型语言模型，提供了本地模式和多种功能。
+    <ul>
+      <li><a href="https://github.com/synth-inc/onit">Show HN: Onit – open-source ChatGPT Desktop with local mode, Claude, Gemini</a></li>
+    </ul>
+  </li>
+  <li><strong>Android短信网关使用MQTT</strong><br />
+一个项目展示了如何使用MQTT协议构建Android短信网关，为物联网通信提供了新的解决方案。
+    <ul>
+      <li><a href="https://github.com/ibnux/Android-SMS-Gateway-MQTT">Android SMS Gateway Using MQTT</a></li>
+    </ul>
+  </li>
+</ol>
+
+<p>[Kidnappers sever finger of</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-25 20:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/25/10-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-25T10:00:03+00:00</published><updated>2025-01-25T10:00:03+00:00</updated><id>/hacknews/2025/01/25/10:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/25/10-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-25 18:00:03</p>
 
 <ol>
   <li><strong>OpenAI 对开放网络的影响</strong><br />
@@ -134,7 +199,7 @@
 [A WebAssembly compiler that fits in a tweet]: https://wasmgroundup.com/blog/wasm-compiler-in-a-tweet/
 [The Hidden Complexity of Scaling WebSockets]: https://composehq.com/blog/scaling-websockets-1-23-25
 [PhysicsForums and the Dead Internet Theory]: https://hallofdreams.org/posts/physicsforums/
-[Looking for work is a full time job]: https://www.resumevue.com/board</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-25 14:00:03]]></summary></entry><entry><title type="html"></title><link href="/2025/01/25/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-01-25T02:01:16+00:00</published><updated>2025-01-25T02:01:16+00:00</updated><id>/2025/01/25/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/01/25/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
+[Looking for work is a full time job]: https://www.resumevue.com/board</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-25 14:00:03]]></summary></entry><entry><title type="html"></title><link href="/2025/01/25/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-01-25T04:01:18+00:00</published><updated>2025-01-25T04:01:18+00:00</updated><id>/2025/01/25/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/01/25/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
 
 <ol>
   <li><strong>QR码的新玩法</strong><br />
@@ -579,67 +644,4 @@ Intrinsic 是一家由Y Combinator支持的初创公司，目前正在招聘新�
       <li><a href="https://news.ycombinator.com/item?id=42805699">Intrinsic (YC W23) Is Hiring</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 19:00:02]]></summary></entry><entry><title type="html">Hacker News 热门话题 top 10 2025-01-23</title><link href="/hacknews/2025/01/23/17-36-48-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-23" /><published>2025-01-23T09:36:48+00:00</published><updated>2025-01-23T09:36:48+00:00</updated><id>/hacknews/2025/01/23/17:36:48-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/23/17-36-48-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-23 17:36:48</p>
-
-<ol>
-  <li><strong>Bunster: 将 bash 脚本编译为独立可执行文件</strong><br />
-Bunster 是一个工具，可以将 bash 脚本编译成独立的可执行文件，这对于需要将脚本部署到不同环境的开发者来说是一个便利的功能。
-    <ul>
-      <li><a href="https://github.com/yassinebenaid/bunster">Bunster: Compile bash scripts to self contained executables</a></li>
-    </ul>
-  </li>
-  <li><strong>Psychedelic Graphics: An Introduction</strong><br />
-本篇文章介绍了迷幻图形的历史和设计原理，探讨了这种风格如何影响了现代视觉艺术和设计。
-    <ul>
-      <li><a href="https://benpence.com/blog/post/psychedelic-graphics-0">Psychedelic Graphics: An Introduction</a></li>
-    </ul>
-  </li>
-  <li><strong>Working with Files Is Hard (2019)</strong><br />
-这篇文章讨论了文件操作的复杂性，包括文件系统的局限性和现代编程中处理文件的挑战。
-    <ul>
-      <li><a href="https://danluu.com/deconstruct-files/">Working with Files Is Hard</a></li>
-    </ul>
-  </li>
-  <li><strong>TMSU: 命令行工具，用于应用标签和查看虚拟标记文件系统</strong><br />
-TMSU 是一个命令行工具，它允许用户给文件和目录打标签，并查看一个基于这些标签的虚拟文件系统。
-    <ul>
-      <li><a href="https://tmsu.org/">TMSU: Command-line tool for applying tags and viewing virtual tagged filesystem</a></li>
-    </ul>
-  </li>
-  <li><strong>Show HN: 从头开始制作的开源笔记本电脑</strong><br />
-一个开发者展示了他如何从头开始制作一个开源笔记本电脑的过程，包括硬件选择和软件配置。
-    <ul>
-      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
-    </ul>
-  </li>
-  <li><strong>Orbit Spirograph (2019)</strong><br />
-这篇文章介绍了一种名为“轨道绘图仪”的数学绘图工具，它可以用来创建复杂的几何图案。
-    <ul>
-      <li><a href="https://www.redblobgames.com/x/1903-orbit-spirograph/">Orbit Spirograph</a></li>
-    </ul>
-  </li>
-  <li><strong>Intrinsic (YC W23) Is Hiring</strong><br />
-Intrinsic，一家 Y Combinator 支持的初创公司，正在招聘，这表明了初创公司在招聘技术人才方面的活跃性。
-    <ul>
-      <li><a href="https://news.ycombinator.com/item?id=42805699">Intrinsic (YC W23) Is Hiring</a></li>
-    </ul>
-  </li>
-  <li><strong>Show HN: libmodulor – 构建多平台应用的 TypeScript 库</strong><br />
-libmodulor 是一个有特定观点的 TypeScript 库，旨在帮助开发者构建跨平台的应用。
-    <ul>
-      <li><a href="https://github.com/c100k/libmodulor">Show HN: libmodulor – An opinionated TS library to build multi-platform apps</a></li>
-    </ul>
-  </li>
-  <li><strong>Third Base (2001)</strong><br />
-这篇文章探讨了棒球运动中的“三垒”位置，分析了其在战术和策略中的重要性。
-    <ul>
-      <li><a href="https://www.americanscientist.org/article/third-base">Third Base</a></li>
-    </ul>
-  </li>
-  <li><strong>Where is London’s most central sheep?</strong><br />
-这篇文章通过数据分析，找到了伦敦地理位置最中心的羊，这是一个有趣的地理和数据分析案例。
-    <ul>
-      <li><a href="https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html">Where is London’s most central sheep?</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 17:36:48]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 19:00:02]]></summary></entry></feed>
