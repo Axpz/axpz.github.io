@@ -1,5 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-26T02:08:22+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/26/10-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-26T10:00:03+00:00</published><updated>2025-01-26T10:00:03+00:00</updated><id>/hacknews/2025/01/26/10:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/26/10-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-26 18:00:03</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-26T04:07:44+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/26/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-26T12:00:03+00:00</published><updated>2025-01-26T12:00:03+00:00</updated><id>/hacknews/2025/01/26/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/26/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-26 20:00:03</p>
+
+<ol>
+  <li><strong>Steam Brick 设备介绍</strong><br />
+Steam Brick 是一个没有屏幕和控制器的设备，仅有一个电源按钮和一个USB端口，引起了社区的广泛关注和讨论。
+    <ul>
+      <li><a href="https://crastinator-pro.github.io/steam-brick/">Steam Brick: No screen, no controller, just a power button and a USB port</a></li>
+    </ul>
+  </li>
+  <li><strong>DeepSeek-R1 研究论文</strong><br />
+一篇关于通过强化学习激励大型语言模型推理能力的论文，展示了人工智能领域中的最新研究进展。
+    <ul>
+      <li><a href="https://arxiv.org/abs/2501.12948">DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via RL</a></li>
+    </ul>
+  </li>
+  <li><strong>南越飞行员的英勇事迹</strong><br />
+一篇关于南越飞行员为了救家人而驾驶塞斯纳飞机降落在航空母舰上的故事，引起了人们对历史事件的兴趣。
+    <ul>
+      <li><a href="https://www.historynet.com/maj-buang-lys-daring-feat-to-save-his-family/">The South Vietnamese pilot who landed a Cessna on a carrier to save his family</a></li>
+    </ul>
+  </li>
+  <li><strong>7B Model 和 8K Examples 研究</strong><br />
+一篇关于通过强化学习实现高效和有效的新兴推理的研究，展示了人工智能领域的最新进展。
+    <ul>
+      <li><a href="https://hkust-nlp.notion.site/simplerl-reason">7B Model and 8K Examples: Efficient and Effective Emerging Reasoning with RL</a></li>
+    </ul>
+  </li>
+  <li><strong>OpenRA 游戏平台</strong><br />
+OpenRA 是一个重建经典策略游戏的平台，为现代玩家提供了新的游戏体验。
+    <ul>
+      <li><a href="https://www.openra.net/">OpenRA – Classic strategy games rebuilt for the modern era</a></li>
+    </ul>
+  </li>
+  <li><strong>SQLook 数据库管理工具</strong><br />
+SQLook 是一个免费的在线 SQLite 数据库管理工具，具有 Windows 2000 风格的界面，引起了开发者的兴趣。
+    <ul>
+      <li><a href="https://sqlook.com">SQLook – A free online SQLite database manager with a Windows 2000 interface</a></li>
+    </ul>
+  </li>
+  <li><strong>Mac Classic II 启动问题</strong><br />
+一篇文章讨论了 Mac Classic II 由于一个无效的 68030 指令而意外启动的问题，展示了计算机硬件和软件的复杂性。
+    <ul>
+      <li><a href="https://www.downtowndougbrown.com/2025/01/the-invalid-68030-instruction-that-accidentally-allowed-the-mac-classic-ii-to-successfully-boot-up/">An invalid 68030 instruction accidentally allowed the Mac Classic II to boot</a></li>
+    </ul>
+  </li>
+  <li><strong>Chimera Linux 桌面简化</strong><br />
+Chimera Linux 致力于简化桌面环境，为用户提供更简洁的用户体验。
+    <ul>
+      <li><a href="https://lwn.net/Articles/1004324/">Chimera Linux works toward a simplified desktop</a></li>
+    </ul>
+  </li>
+  <li><strong>HTML 元素全集</strong><br />
+一个展示所有 HTML 元素的网站，为前端开发者提供了宝贵的资源。
+    <ul>
+      <li><a href="https://iamwillwang.com/dollar/every-html-element/">Every HTML Element</a></li>
+    </ul>
+  </li>
+  <li><strong>DeepSeek 异常令牌搜索</strong><br />
+一篇文章探讨了在 DeepSeek 中寻找异常令牌的过程，涉及人工智能和自然语言处理的复杂性。
+    <ul>
+      <li><a href="https://outsidetext.substack.com/p/anomalous-tokens-in-deepseek-v3-and">Searching for DeepSeek’s glitch tokens</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-26 20:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/26/10-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-26T10:00:03+00:00</published><updated>2025-01-26T10:00:03+00:00</updated><id>/hacknews/2025/01/26/10:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/26/10-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-26 18:00:03</p>
 
 <ol>
   <li><strong>Steam Brick 设备介绍</strong><br />
@@ -125,7 +188,7 @@ Substack 上的文章探讨了 DeepSeek V3 中的异常令牌，这对于理解�
       <li><a href="https://github.com/SpinalHDL/VexRiscv">A FPGA friendly 32 bit RISC-V CPU implementation</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-26 14:00:04]]></summary></entry><entry><title type="html"></title><link href="/2025/01/26/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-01-26T02:08:22+00:00</published><updated>2025-01-26T02:08:22+00:00</updated><id>/2025/01/26/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/01/26/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-26 14:00:04]]></summary></entry><entry><title type="html"></title><link href="/2025/01/26/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-01-26T04:07:44+00:00</published><updated>2025-01-26T04:07:44+00:00</updated><id>/2025/01/26/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/01/26/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
 
 <ol>
   <li><strong>QR码的新玩法</strong><br />
@@ -579,67 +642,4 @@ OpenAI 介绍了其最新的研究预览——Operator，这是一个用于研�
       <li><a href="https://www.guedelon.fr/en/">Building a Medieval Castle from Scratch</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-24 20:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/24/11-29-36-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-24T11:29:36+00:00</published><updated>2025-01-24T11:29:36+00:00</updated><id>/hacknews/2025/01/24/11:29:36-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/24/11-29-36-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 19:29:36</p>
-
-<ol>
-  <li><strong>QR码的新玩法</strong><br />
-一个关于QR码的新奇应用，通过特殊的透镜效果和对抗性设计，使得同一个QR码可以根据不同视角导向不同的目的地，展示了编码技术的新颖应用。
-    <ul>
-      <li><a href="https://mstdn.social/@isziaui/113874436953157913">A QR code that sends you to a different destination - lenticular and adversarial</a></li>
-    </ul>
-  </li>
-  <li><strong>创业公司被收购的感谢信</strong><br />
-一位创业者在Hacker News上分享了他的自启动创业公司被收购的消息，并感谢社区的支持，这激发了关于创业、技术和商业的讨论。
-    <ul>
-      <li><a href="https://news.ycombinator.com/item?id=42806247">Thank HN: My bootstrapped startup got acquired today</a></li>
-    </ul>
-  </li>
-  <li><strong>特斯拉新车型Model Y发布</strong><br />
-特斯拉发布了新车型Model Y，引起了社区对电动汽车技术、市场和特斯拉公司战略的广泛讨论。
-    <ul>
-      <li><a href="https://www.tesla.com/modely">New Tesla Model Y</a></li>
-    </ul>
-  </li>
-  <li><strong>Llama.vim – 本地LLM辅助文本补全工具</strong><br />
-一个基于Vim的本地LLM（大型语言模型）辅助文本补全工具，展示了AI技术在提高编程效率方面的潜力。
-    <ul>
-      <li><a href="https://github.com/ggml-org/llama.vim">Llama.vim – Local LLM-assisted text completion</a></li>
-    </ul>
-  </li>
-  <li><strong>超级马里奥的颜色分析</strong><br />
-一篇文章通过对超级马里奥游戏中颜色使用的分析，探讨了色彩在游戏设计中的重要性和影响。
-    <ul>
-      <li><a href="https://lmnt.me/blog/the-most-mario-colors.html">The Most Mario Colors</a></li>
-    </ul>
-  </li>
-  <li><strong>从头开始制作开源笔记本电脑</strong><br />
-一个项目展示了如何从零开始制作一个开源笔记本电脑，包括硬件和软件的各个方面，引起了对开源硬件和DIY文化的讨论。
-    <ul>
-      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
-    </ul>
-  </li>
-  <li><strong>XNU内核中的安全漏洞</strong><br />
-一个关于XNU内核中一个特别的’可疑’系统调用的CVE漏洞分析，展示了操作系统安全研究的最新进展。
-    <ul>
-      <li><a href="https://jprx.io/cve-2024-54507/">Susctl CVE-2024-54507: A particularly ‘sus’ sysctl in the XNU kernel</a></li>
-    </ul>
-  </li>
-  <li><strong>表面稳定的分形抖动技术</strong><br />
-一个开源项目，介绍了一种新的分形抖动技术，用于提高图像处理的质量和稳定性。
-    <ul>
-      <li><a href="https://github.com/runevision/Dither3D">Surface-Stable Fractal Dithering</a></li>
-    </ul>
-  </li>
-  <li><strong>超级英雄宇宙中的遍历拉格朗日动力学</strong><br />
-一篇学术论文，探讨了遍历拉格朗日动力学在超级英雄宇宙中的应用，将物理学和流行文化相结合。
-    <ul>
-      <li><a href="https://pubs.aip.org/aapt/ajp/article/93/2/127/3331568/Ergodic-Lagrangian-dynamics-in-a-superhero">Ergodic Lagrangian dynamics in a superhero universe</a></li>
-    </ul>
-  </li>
-  <li><strong>从头开始建造中世纪城堡</strong><br />
-一个项目记录了从头开始建造一个中世纪城堡的过程，展示了建筑技术和历史复原的复杂性。
-    <ul>
-      <li><a href="https://www.guedelon.fr/en/">Building a Medieval Castle from Scratch</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-24 19:29:36]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-24 20:00:03]]></summary></entry></feed>
