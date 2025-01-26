@@ -1,5 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-25T22:01:25+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/26/06-00-04-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-26T06:00:04+00:00</published><updated>2025-01-26T06:00:04+00:00</updated><id>/hacknews/2025/01/26/06:00:04-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/26/06-00-04-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-26 14:00:04</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-26T02:08:22+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/26/10-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-26T10:00:03+00:00</published><updated>2025-01-26T10:00:03+00:00</updated><id>/hacknews/2025/01/26/10:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/26/10-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-26 18:00:03</p>
+
+<ol>
+  <li><strong>Steam Brick 设备介绍</strong><br />
+Steam Brick 是一个没有屏幕和控制器的设备，仅有一个电源按钮和一个USB端口，这种极简设计引发了社区的广泛讨论。
+    <ul>
+      <li><a href="https://crastinator-pro.github.io/steam-brick/">Steam Brick: No screen, no controller, just a power button and a USB port</a></li>
+    </ul>
+  </li>
+  <li><strong>DeepSeek-R1 研究论文</strong><br />
+一篇关于通过强化学习激励大型语言模型推理能力的论文，展示了人工智能领域最新的研究方向。
+    <ul>
+      <li><a href="https://arxiv.org/abs/2501.12948">DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via RL</a></li>
+    </ul>
+  </li>
+  <li><strong>OpenRA 游戏平台</strong><br />
+OpenRA 是一个重构经典策略游戏的平台，支持现代操作系统，其开源性质和对经典游戏的复刻引起了广泛关注。
+    <ul>
+      <li><a href="https://www.openra.net/">OpenRA – Classic strategy games rebuilt for the modern era</a></li>
+    </ul>
+  </li>
+  <li><strong>越南飞行员的壮举</strong><br />
+一个关于南越飞行员为了救家人而将塞斯纳飞机降落在航空母舰上的故事，展现了飞行员的勇气和飞行技巧。
+    <ul>
+      <li><a href="https://www.historynet.com/maj-buang-lys-daring-feat-to-save-his-family/">The South Vietnamese pilot who landed a Cessna on a carrier to save his family</a></li>
+    </ul>
+  </li>
+  <li><strong>Mac Classic II 启动问题</strong><br />
+一篇文章揭示了 Mac Classic II 能够成功启动是因为一个意外的无效指令，这个发现对于计算机历史爱好者来说非常有趣。
+    <ul>
+      <li><a href="https://www.downtowndougbrown.com/2025/01/the-invalid-68030-instruction-that-accidentally-allowed-the-mac-classic-ii-to-successfully-boot-up/">An invalid 68030 instruction accidentally allowed the Mac Classic II to boot</a></li>
+    </ul>
+  </li>
+  <li><strong>SQLook 数据库管理工具</strong><br />
+SQLook 是一个免费的在线 SQLite 数据库管理工具，其 Windows 2000 风格的界面引起了怀旧和实用性的讨论。
+    <ul>
+      <li><a href="https://sqlook.com">SQLook – A free online SQLite database manager with a Windows 2000 interface</a></li>
+    </ul>
+  </li>
+  <li><strong>Chimera Linux 桌面简化</strong><br />
+Chimera Linux 致力于提供一个简化的桌面环境，其设计理念和用户体验受到了社区的关注。
+    <ul>
+      <li><a href="https://lwn.net/Articles/1004324/">Chimera Linux works toward a simplified desktop</a></li>
+    </ul>
+  </li>
+  <li><strong>DeepSeek 异常令牌搜索</strong><br />
+一篇关于在 DeepSeek 中寻找异常令牌的文章，探讨了人工智能模型中的异常检测问题。
+    <ul>
+      <li><a href="https://outsidetext.substack.com/p/anomalous-tokens-in-deepseek-v3-and">Searching for DeepSeek’s glitch tokens</a></li>
+    </ul>
+  </li>
+  <li><strong>HTML 元素大全</strong><br />
+一个包含所有 HTML 元素的参考页面，为前端开发者提供了一个快速查找资源。
+    <ul>
+      <li><a href="https://iamwillwang.com/dollar/every-html-element/">Every HTML Element</a></li>
+    </ul>
+  </li>
+  <li><strong>Wikenigma 百科全书</strong><br />
+Wikenigma 是一个关于未知事物的百科全书，其独特的内容和形式吸引了广泛的关注。
+    <ul>
+      <li><a href="https://wikenigma.org.uk/start">Wikenigma – an Encyclopedia of Unknowns</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-26 18:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/26/06-00-04-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-26T06:00:04+00:00</published><updated>2025-01-26T06:00:04+00:00</updated><id>/hacknews/2025/01/26/06:00:04-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/26/06-00-04-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-26 14:00:04</p>
 
 <ol>
   <li><strong>DeepSeek-R1: 通过强化学习激励大型语言模型的推理能力</strong><br />
@@ -62,7 +125,7 @@ Substack 上的文章探讨了 DeepSeek V3 中的异常令牌，这对于理解�
       <li><a href="https://github.com/SpinalHDL/VexRiscv">A FPGA friendly 32 bit RISC-V CPU implementation</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-26 14:00:04]]></summary></entry><entry><title type="html"></title><link href="/2025/01/25/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-01-25T22:01:25+00:00</published><updated>2025-01-25T22:01:25+00:00</updated><id>/2025/01/25/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/01/25/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-26 14:00:04]]></summary></entry><entry><title type="html"></title><link href="/2025/01/26/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-01-26T02:08:22+00:00</published><updated>2025-01-26T02:08:22+00:00</updated><id>/2025/01/26/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/01/26/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
 
 <ol>
   <li><strong>QR码的新玩法</strong><br />
@@ -579,69 +642,4 @@ OpenAI 介绍了其最新的研究预览——Operator，这是一个用于研�
       <li><a href="https://www.guedelon.fr/en/">Building a Medieval Castle from Scratch</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-24 19:29:36]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/24/11-01-31-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-24T11:01:31+00:00</published><updated>2025-01-24T11:01:31+00:00</updated><id>/hacknews/2025/01/24/11:01:31-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/24/11-01-31-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 19:01:31</p>
-
-<ol>
-  <li><strong>QR码的新玩法</strong><br />
-一个有趣的项目展示了如何通过特殊的透镜效果和对抗性设计，使QR码指向不同的目的地，这可能对增强现实和信息安全领域产生影响。
-    <ul>
-      <li><a href="https://mstdn.social/@isziaui/113874436953157913">A QR code that sends you to a different destination - lenticular and adversarial</a></li>
-    </ul>
-  </li>
-  <li><strong>创业者分享成功故事</strong><br />
-一位创业者在Hacker News上分享了自己的初创公司被收购的消息，这可能会激发更多创业者分享他们的故事和经验。
-    <ul>
-      <li><a href="https://news.ycombinator.com/item?id=42806247">Thank HN: My bootstrapped startup got acquired today</a></li>
-    </ul>
-  </li>
-  <li><strong>Vim编辑器的新插件</strong><br />
-一个名为Llama.vim的新插件，提供了本地LLM（大型语言模型）辅助的文本补全功能，这可能会提高Vim用户的编码效率。
-    <ul>
-      <li><a href="https://github.com/ggml-org/llama.vim">Llama.vim – Local LLM-assisted text completion</a></li>
-    </ul>
-  </li>
-  <li><strong>超级马里奥的颜色分析</strong><br />
-一篇文章探讨了超级马里奥系列中使用的颜色，以及这些颜色如何影响玩家的游戏体验。
-    <ul>
-      <li><a href="https://lmnt.me/blog/the-most-mario-colors.html">The Most Mario Colors</a></li>
-    </ul>
-  </li>
-  <li><strong>自制开源笔记本电脑</strong><br />
-一个项目展示了如何从头开始制作一个开源笔记本电脑，这可能会激发更多的硬件爱好者尝试DIY项目。
-    <ul>
-      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
-    </ul>
-  </li>
-  <li><strong>XNU内核的安全漏洞</strong><br />
-一个关于XNU内核中一个特别可疑的sysctl的CVE报告，这可能会引起对操作系统安全性的关注。
-    <ul>
-      <li><a href="https://jprx.io/cve-2024-54507/">Susctl CVE-2024-54507: A particularly ‘sus’ sysctl in the XNU kernel</a></li>
-    </ul>
-  </li>
-  <li><strong>超级英雄宇宙中的动力学</strong><br />
-一篇学术论文探讨了在超级英雄宇宙中，如何应用遍历拉格朗日动力学，这是一个跨学科的研究领域。
-    <ul>
-      <li><a href="https://pubs.aip.org/aapt/ajp/article/93/2/127/3331568/Ergodic-Lagrangian-dynamics-in-a-superhero">Ergodic Lagrangian dynamics in a superhero universe</a></li>
-    </ul>
-  </li>
-  <li><strong>3D抖动算法的实现</strong><br />
-一个GitHub项目提供了一种3D抖动算法的实现，这对于图形和视觉效果领域可能是一个有趣的工具。
-    <ul>
-      <li><a href="https://github.com/runevision/Dither3D">Surface-Stable Fractal Dithering</a></li>
-    </ul>
-  </li>
-  <li><strong>从头开始建造中世纪城堡</strong><br />
-一个项目记录了从头开始建造一个中世纪城堡的过程，这可能会吸引历史爱好者和建筑爱好者的兴趣。
-    <ul>
-      <li><a href="https://www.guedelon.fr/en/">Building a Medieval Castle from Scratch</a></li>
-    </ul>
-  </li>
-  <li><strong>Sei公司招聘信息</strong><br />
-Y Combinator支持的公司Sei发布了招聘信息，这可能会吸引对初创公司和人工智能领域感兴趣的开发者。
-    <ul>
-      <li><a href="https://www.ycombinator.com/companies/sei/jobs/LeAtLYf-full-stack-engineer-typescript-react-gen-ai">Sei (YC W22) Is Hiring</a></li>
-    </ul>
-  </li>
-</ol>
-
-<hr />]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-24 19:01:31]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-24 19:29:36]]></summary></entry></feed>
