@@ -1,5 +1,133 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-26T04:07:44+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/26/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-26T12:00:03+00:00</published><updated>2025-01-26T12:00:03+00:00</updated><id>/hacknews/2025/01/26/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/26/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-26 20:00:03</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-26T12:01:21+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/26/20-00-04-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-26T20:00:04+00:00</published><updated>2025-01-26T20:00:04+00:00</updated><id>/hacknews/2025/01/26/20:00:04-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/26/20-00-04-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-27 04:00:04</p>
+
+<ol>
+  <li><strong>Steam Brick 设备介绍</strong><br />
+介绍了一款名为 Steam Brick 的设备，它没有屏幕和控制器，只有一个电源按钮和一个 USB 端口，这种极简设计引发了社区的广泛讨论。
+    <ul>
+      <li><a href="https://crastinator-pro.github.io/steam-brick/">Steam Brick: No screen, no controller, just a power button and a USB port</a></li>
+    </ul>
+  </li>
+  <li><strong>DeepSeek-R1 研究论文</strong><br />
+一篇关于通过强化学习激励大型语言模型（LLMs）推理能力的论文，展示了人工智能领域在推理和学习方面的最新进展。
+    <ul>
+      <li><a href="https://arxiv.org/abs/2501.12948">DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via RL</a></li>
+    </ul>
+  </li>
+  <li><strong>Y Combinator 失败项目列表</strong><br />
+一个列出了 821 个不再活跃的 Y Combinator 启动项目的“墓地”，引发了对创业失败和风险投资的讨论。
+    <ul>
+      <li><a href="https://ycgraveyard.iamwillwang.com/">YC Graveyard: 821 inactive Y Combinator startups</a></li>
+    </ul>
+  </li>
+  <li><strong>OpenRA 游戏平台</strong><br />
+一个重制经典策略游戏的平台，为现代玩家提供了重温经典的机会，同时也展示了开源项目在游戏领域的活跃度。
+    <ul>
+      <li><a href="https://www.openra.net/">OpenRA – Classic strategy games rebuilt for the modern era</a></li>
+    </ul>
+  </li>
+  <li><strong>越南飞行员的壮举</strong><br />
+讲述了一位南越飞行员为了救家人而驾驶塞斯纳飞机降落在航空母舰上的故事，展现了个人勇气和飞行技术。
+    <ul>
+      <li><a href="https://www.historynet.com/maj-buang-lys-daring-feat-to-save-his-family/">The South Vietnamese pilot who landed a Cessna on a carrier to save his family</a></li>
+    </ul>
+  </li>
+  <li><strong>强化学习在推理中的应用</strong><br />
+介绍了一个简单的强化学习框架，用于研究和开发推理能力，显示了人工智能在推理领域的应用潜力。
+    <ul>
+      <li><a href="https://hkust-nlp.notion.site/simplerl-reason">Emerging Reasoning with Reinforcement Learning</a></li>
+    </ul>
+  </li>
+  <li><strong>LLMs 的国际象棋谜题</strong><br />
+一个被用来测试每个新的大型语言模型（LLMs）的国际象棋谜题，引发了对 AI 解决复杂问题能力的讨论。
+    <ul>
+      <li><a href="https://gist.github.com/abhishek-anand/a65ff0e44d158ae306dcce9151b1331c">I ask this chess puzzle to every new LLM</a></li>
+    </ul>
+  </li>
+  <li><strong>Mac Classic II 启动问题</strong><br />
+探讨了一个无效的 68030 指令如何意外地允许 Mac Classic II 成功启动，揭示了早期计算机硬件的有趣历史。
+    <ul>
+      <li><a href="https://www.downtowndougbrown.com/2025/01/the-invalid-68030-instruction-that-accidentally-allowed-the-mac-classic-ii-to-successfully-boot-up/">An invalid 68030 instruction accidentally allowed the Mac Classic II to boot</a></li>
+    </ul>
+  </li>
+  <li><strong>HTML 元素大全</strong><br />
+提供了一个全面的 HTML 元素参考，对于前端开发者来说是一个宝贵的资源。
+    <ul>
+      <li><a href="https://iamwillwang.com/dollar/every-html-element/">Every HTML Element</a></li>
+    </ul>
+  </li>
+  <li><strong>Prolog 语言的简洁性</strong><br />
+讨论了 Prolog 语言的简洁性和逻辑编程的优势，对于了解这一领域的人来说是一个重要的参考。
+    <ul>
+      <li><a href="https://bitsandtheorems.com/the-simplicity-of-prolog/">The Simplicity of Prolog</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-27 04:00:04]]></summary></entry><entry><title type="html"></title><link href="/2025/01/26/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-01-26T12:01:21+00:00</published><updated>2025-01-26T12:01:21+00:00</updated><id>/2025/01/26/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/01/26/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
+
+<ol>
+  <li><strong>QR码的新玩法</strong><br />
+讨论了一种特殊的QR码，能够根据观察角度的不同显示不同的目的地，这种技术结合了透镜效果和对抗性设计，展示了编码技术的新颖应用。
+    <ul>
+      <li><a href="https://mstdn.social/@isziaui/113874436953157913">A QR code that sends you to a different destination - lenticular and adversarial</a></li>
+    </ul>
+  </li>
+  <li><strong>感谢HN：我的自启动创业公司今天被收购了</strong><br />
+一位创业者分享了他的自启动创业公司被收购的消息，这在Hacker News社区中引起了热烈讨论，许多人对此表示祝贺和好奇。
+    <ul>
+      <li><a href="https://news.ycombinator.com/item?id=42806247">Thank HN: My bootstrapped startup got acquired today</a></li>
+    </ul>
+  </li>
+  <li><strong>Llama.vim – 本地LLM辅助文本补全</strong><br />
+一个基于Vim的插件，利用本地大型语言模型（LLM）来辅助文本补全，这个项目展示了LLM技术在代码编辑器中的应用潜力。
+    <ul>
+      <li><a href="https://github.com/ggml-org/llama.vim">Llama.vim – Local LLM-assisted text completion</a></li>
+    </ul>
+  </li>
+  <li><strong>超级马里奥的颜色</strong><br />
+一篇文章探讨了超级马里奥游戏中使用的颜色，分析了这些颜色如何影响玩家的视觉体验和游戏的情感氛围。
+    <ul>
+      <li><a href="https://lmnt.me/blog/the-most-mario-colors.html">The Most Mario Colors</a></li>
+    </ul>
+  </li>
+  <li><strong>XNU内核中的一个特别’可疑’的sysctl</strong><br />
+披露了XNU内核中的一个安全漏洞，这个漏洞涉及到一个特别“可疑”的系统控制接口，引起了安全专家和开发者的关注。
+    <ul>
+      <li><a href="https://jprx.io/cve-2024-54507/">Susctl CVE-2024-54507: A particularly ‘sus’ sysctl in the XNU kernel</a></li>
+    </ul>
+  </li>
+  <li><strong>从零开始制作开源笔记本电脑</strong><br />
+一个项目展示了如何从零开始制作一个开源笔记本电脑，这个项目不仅展示了硬件制造的复杂性，也体现了开源精神。
+    <ul>
+      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
+    </ul>
+  </li>
+  <li><strong>表面稳定的分形抖动技术</strong><br />
+一个开源项目，介绍了一种新的分形抖动技术，这种技术可以用于图像处理和视觉效果的生成。
+    <ul>
+      <li><a href="https://github.com/runevision/Dither3D">Surface-Stable Fractal Dithering</a></li>
+    </ul>
+  </li>
+  <li><strong>在超级英雄宇宙中的遍历拉格朗日动力学</strong><br />
+一篇学术论文，探讨了遍历拉格朗日动力学在超级英雄宇宙中的应用，这种跨学科的研究引起了广泛的兴趣。
+    <ul>
+      <li><a href="https://pubs.aip.org/aapt/ajp/article/93/2/127/3331568/Ergodic-Lagrangian-dynamics-in-a-superhero">Ergodic Lagrangian dynamics in a superhero universe</a></li>
+    </ul>
+  </li>
+  <li><strong>从零开始建造中世纪城堡</strong><br />
+一个项目记录了从零开始建造一个中世纪城堡的过程，这个项目不仅展示了建筑技术，也体现了历史和文化的传承。
+    <ul>
+      <li><a href="https://www.guedelon.fr/en/">Building a Medieval Castle from Scratch</a></li>
+    </ul>
+  </li>
+  <li><strong>Sei公司招聘</strong><br />
+Y Combinator支持的公司Sei发布了招聘信息，寻找全栈工程师，这个招聘信息在Hacker News上引起了关注。
+    <ul>
+      <li><a href="https://www.ycombinator.com/companies/sei/jobs/LeAtLYf-full-stack-engineer-typescript-react-gen-ai">Sei (YC W22) Is Hiring</a></li>
+    </ul>
+  </li>
+</ol>
+
+<hr />]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/26/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-26T12:00:03+00:00</published><updated>2025-01-26T12:00:03+00:00</updated><id>/hacknews/2025/01/26/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/26/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-26 20:00:03</p>
 
 <ol>
   <li><strong>Steam Brick 设备介绍</strong><br />
@@ -188,72 +316,7 @@ Substack 上的文章探讨了 DeepSeek V3 中的异常令牌，这对于理解�
       <li><a href="https://github.com/SpinalHDL/VexRiscv">A FPGA friendly 32 bit RISC-V CPU implementation</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-26 14:00:04]]></summary></entry><entry><title type="html"></title><link href="/2025/01/26/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-01-26T04:07:44+00:00</published><updated>2025-01-26T04:07:44+00:00</updated><id>/2025/01/26/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/01/26/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
-
-<ol>
-  <li><strong>QR码的新玩法</strong><br />
-讨论了一种特殊的QR码，能够根据观察角度的不同显示不同的目的地，这种技术结合了透镜效果和对抗性设计，展示了编码技术的新颖应用。
-    <ul>
-      <li><a href="https://mstdn.social/@isziaui/113874436953157913">A QR code that sends you to a different destination - lenticular and adversarial</a></li>
-    </ul>
-  </li>
-  <li><strong>感谢HN：我的自启动创业公司今天被收购了</strong><br />
-一位创业者分享了他的自启动创业公司被收购的消息，这在Hacker News社区中引起了热烈讨论，许多人对此表示祝贺和好奇。
-    <ul>
-      <li><a href="https://news.ycombinator.com/item?id=42806247">Thank HN: My bootstrapped startup got acquired today</a></li>
-    </ul>
-  </li>
-  <li><strong>Llama.vim – 本地LLM辅助文本补全</strong><br />
-一个基于Vim的插件，利用本地大型语言模型（LLM）来辅助文本补全，这个项目展示了LLM技术在代码编辑器中的应用潜力。
-    <ul>
-      <li><a href="https://github.com/ggml-org/llama.vim">Llama.vim – Local LLM-assisted text completion</a></li>
-    </ul>
-  </li>
-  <li><strong>超级马里奥的颜色</strong><br />
-一篇文章探讨了超级马里奥游戏中使用的颜色，分析了这些颜色如何影响玩家的视觉体验和游戏的情感氛围。
-    <ul>
-      <li><a href="https://lmnt.me/blog/the-most-mario-colors.html">The Most Mario Colors</a></li>
-    </ul>
-  </li>
-  <li><strong>XNU内核中的一个特别’可疑’的sysctl</strong><br />
-披露了XNU内核中的一个安全漏洞，这个漏洞涉及到一个特别“可疑”的系统控制接口，引起了安全专家和开发者的关注。
-    <ul>
-      <li><a href="https://jprx.io/cve-2024-54507/">Susctl CVE-2024-54507: A particularly ‘sus’ sysctl in the XNU kernel</a></li>
-    </ul>
-  </li>
-  <li><strong>从零开始制作开源笔记本电脑</strong><br />
-一个项目展示了如何从零开始制作一个开源笔记本电脑，这个项目不仅展示了硬件制造的复杂性，也体现了开源精神。
-    <ul>
-      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
-    </ul>
-  </li>
-  <li><strong>表面稳定的分形抖动技术</strong><br />
-一个开源项目，介绍了一种新的分形抖动技术，这种技术可以用于图像处理和视觉效果的生成。
-    <ul>
-      <li><a href="https://github.com/runevision/Dither3D">Surface-Stable Fractal Dithering</a></li>
-    </ul>
-  </li>
-  <li><strong>在超级英雄宇宙中的遍历拉格朗日动力学</strong><br />
-一篇学术论文，探讨了遍历拉格朗日动力学在超级英雄宇宙中的应用，这种跨学科的研究引起了广泛的兴趣。
-    <ul>
-      <li><a href="https://pubs.aip.org/aapt/ajp/article/93/2/127/3331568/Ergodic-Lagrangian-dynamics-in-a-superhero">Ergodic Lagrangian dynamics in a superhero universe</a></li>
-    </ul>
-  </li>
-  <li><strong>从零开始建造中世纪城堡</strong><br />
-一个项目记录了从零开始建造一个中世纪城堡的过程，这个项目不仅展示了建筑技术，也体现了历史和文化的传承。
-    <ul>
-      <li><a href="https://www.guedelon.fr/en/">Building a Medieval Castle from Scratch</a></li>
-    </ul>
-  </li>
-  <li><strong>Sei公司招聘</strong><br />
-Y Combinator支持的公司Sei发布了招聘信息，寻找全栈工程师，这个招聘信息在Hacker News上引起了关注。
-    <ul>
-      <li><a href="https://www.ycombinator.com/companies/sei/jobs/LeAtLYf-full-stack-engineer-typescript-react-gen-ai">Sei (YC W22) Is Hiring</a></li>
-    </ul>
-  </li>
-</ol>
-
-<hr />]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/25/20-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-25T20:00:03+00:00</published><updated>2025-01-25T20:00:03+00:00</updated><id>/hacknews/2025/01/25/20:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/25/20-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-26 04:00:03</p>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-26 14:00:04]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/25/20-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-25T20:00:03+00:00</published><updated>2025-01-25T20:00:03+00:00</updated><id>/hacknews/2025/01/25/20:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/25/20-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-26 04:00:03</p>
 
 <ol>
   <li><strong>Loops, Pixelfed 的初步体验</strong><br />
@@ -579,67 +642,4 @@ Nix NGI 团队通过 Nix 技术推动开源软件的运行更加顺畅，展示�
       <li><a href="https://semiengineering.com/impact-of-extremely-low-temperatures-on-the-5nm-sram-array-size-and-performance/">Impact of Low Temperatures on the 5nm SRAM Array Size and Performance</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-25 04:34:01]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/24/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-24T12:00:03+00:00</published><updated>2025-01-24T12:00:03+00:00</updated><id>/hacknews/2025/01/24/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/24/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 20:00:03</p>
-
-<ol>
-  <li><strong>A QR code that sends you to a different destination – lenticular and adversarial</strong><br />
-讨论了一种特殊的 QR 码，通过使用透镜效果和对抗性技术，能够将用户引导至不同的目的地，这种技术在安全和隐私方面具有潜在的应用价值。
-    <ul>
-      <li><a href="https://mstdn.social/@isziaui/113874436953157913">A QR code that sends you to a different destination – lenticular and adversarial</a></li>
-    </ul>
-  </li>
-  <li><strong>Thank HN: My bootstrapped startup got acquired today</strong><br />
-一位创业者分享了其自启动项目被收购的消息，这在 Hacker News 上引起了热烈讨论，许多人对这种成功案例表现出极大的兴趣。
-    <ul>
-      <li><a href="https://news.ycombinator.com/item?id=42806247">Thank HN: My bootstrapped startup got acquired today</a></li>
-    </ul>
-  </li>
-  <li><strong>Llama.vim – Local LLM-assisted text completion</strong><br />
-介绍了一个名为 Llama.vim 的 Vim 插件，它利用本地大型语言模型辅助文本补全，提高了编程效率。
-    <ul>
-      <li><a href="https://github.com/ggml-org/llama.vim">Llama.vim – Local LLM-assisted text completion</a></li>
-    </ul>
-  </li>
-  <li><strong>Show HN: I made an open-source laptop from scratch</strong><br />
-一位开发者展示了他从头开始制作的开源笔记本电脑，这个项目展示了硬件开发的开放性和创新性。
-    <ul>
-      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
-    </ul>
-  </li>
-  <li><strong>The Most Mario Colors</strong><br />
-一篇文章探讨了《超级马里奥》系列中的颜色使用，分析了这些颜色如何影响玩家的游戏体验。
-    <ul>
-      <li><a href="https://lmnt.me/blog/the-most-mario-colors.html">The Most Mario Colors</a></li>
-    </ul>
-  </li>
-  <li><strong>Susctl CVE-2024-54507: A particularly ‘sus’ sysctl in the XNU kernel</strong><br />
-披露了 XNU 内核中的一个安全漏洞，这个漏洞可能允许攻击者执行任意代码，引起了安全社区的关注。
-    <ul>
-      <li><a href="https://jprx.io/cve-2024-54507/">Susctl CVE-2024-54507: A particularly ‘sus’ sysctl in the XNU kernel</a></li>
-    </ul>
-  </li>
-  <li><strong>Operator research preview</strong><br />
-OpenAI 介绍了其最新的研究预览——Operator，这是一个用于研究和开发的工具，旨在提高 AI 的性能和安全性。
-    <ul>
-      <li><a href="https://openai.com/index/introducing-operator/">Operator research preview</a></li>
-    </ul>
-  </li>
-  <li><strong>Surface-Stable Fractal Dithering</strong><br />
-一个开源项目，提供了一种在 3D 图形中实现表面稳定分形抖动的技术，这对于图形设计和游戏开发具有重要意义。
-    <ul>
-      <li><a href="https://github.com/runevision/Dither3D">Surface-Stable Fractal Dithering</a></li>
-    </ul>
-  </li>
-  <li><strong>Supercharge vector search with ColBERT rerank in PostgreSQL</strong><br />
-介绍了如何使用 ColBERT 重排技术在 PostgreSQL 中增强向量搜索，这对于处理大规模数据集非常有用。
-    <ul>
-      <li><a href="https://blog.vectorchord.ai/supercharge-vector-search-with-colbert-rerank-in-postgresql">Supercharge vector search with ColBERT rerank in PostgreSQL</a></li>
-    </ul>
-  </li>
-  <li><strong>Building a Medieval Castle from Scratch</strong><br />
-一个项目展示了如何从头开始建造一个中世纪城堡，这个项目不仅具有教育意义，还展示了建筑技术和历史的魅力。
-    <ul>
-      <li><a href="https://www.guedelon.fr/en/">Building a Medieval Castle from Scratch</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-24 20:00:03]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-25 04:34:01]]></summary></entry></feed>
