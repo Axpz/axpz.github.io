@@ -1,68 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-26T12:01:21+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/26/20-00-04-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-26T20:00:04+00:00</published><updated>2025-01-26T20:00:04+00:00</updated><id>/hacknews/2025/01/26/20:00:04-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/26/20-00-04-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-27 04:00:04</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-31T06:38:33+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/31/14-18-35-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-31T14:18:35+00:00</published><updated>2025-01-31T14:18:35+00:00</updated><id>/hacknews/2025/01/31/14:18:35-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/31/14-18-35-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-31 22:18:35</p>
 
 <ol>
-  <li><strong>Steam Brick 设备介绍</strong><br />
-介绍了一款名为 Steam Brick 的设备，它没有屏幕和控制器，只有一个电源按钮和一个 USB 端口，这种极简设计引发了社区的广泛讨论。
+  <li><strong>sixos: 无 systemd 的 nix OS</strong><br />
+一个介绍 sixos 的视频，sixos 是一个没有使用 systemd 的 nix 操作系统，展示了其独特的系统管理和服务配置方式。
     <ul>
-      <li><a href="https://crastinator-pro.github.io/steam-brick/">Steam Brick: No screen, no controller, just a power button and a USB port</a></li>
+      <li><a href="https://media.ccc.de/v/38c3-sixos-a-nix-os-without-systemd">sixos: A nix OS without systemd</a></li>
     </ul>
   </li>
-  <li><strong>DeepSeek-R1 研究论文</strong><br />
-一篇关于通过强化学习激励大型语言模型（LLMs）推理能力的论文，展示了人工智能领域在推理和学习方面的最新进展。
+  <li><strong>Mini-R1: 复现 DeepSeek R1 的“顿悟时刻”</strong><br />
+一个项目，旨在复现 DeepSeek R1 的“顿悟时刻”，即用户在使用产品时的惊喜体验，这对于理解用户体验至关重要。
     <ul>
-      <li><a href="https://arxiv.org/abs/2501.12948">DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via RL</a></li>
+      <li><a href="https://www.philschmid.de/mini-deepseek-r1">Mini-R1: Reproduce DeepSeek R1 “Aha Moment”</a></li>
     </ul>
   </li>
-  <li><strong>Y Combinator 失败项目列表</strong><br />
-一个列出了 821 个不再活跃的 Y Combinator 启动项目的“墓地”，引发了对创业失败和风险投资的讨论。
+  <li><strong>TopoNets: 类脑拓扑的视觉和语言模型</strong><br />
+一篇论文介绍了 TopoNets，这是一种新型的视觉和语言模型，模仿人脑的拓扑结构，以提高性能。
     <ul>
-      <li><a href="https://ycgraveyard.iamwillwang.com/">YC Graveyard: 821 inactive Y Combinator startups</a></li>
+      <li><a href="https://arxiv.org/abs/2501.16396">TopoNets: High performing vision and language models with brain-like topography</a></li>
     </ul>
   </li>
-  <li><strong>OpenRA 游戏平台</strong><br />
-一个重制经典策略游戏的平台，为现代玩家提供了重温经典的机会，同时也展示了开源项目在游戏领域的活跃度。
+  <li><strong>JavaScript Temporal 即将到来</strong><br />
+MDN 上的一篇文章宣布了 JavaScript Temporal 的到来，这是一个新的日期和时间 API，旨在简化日期和时间的处理。
     <ul>
-      <li><a href="https://www.openra.net/">OpenRA – Classic strategy games rebuilt for the modern era</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming/">JavaScript Temporal is coming</a></li>
     </ul>
   </li>
-  <li><strong>越南飞行员的壮举</strong><br />
-讲述了一位南越飞行员为了救家人而驾驶塞斯纳飞机降落在航空母舰上的故事，展现了个人勇气和飞行技术。
+  <li><strong>Rubywm: 纯 Ruby 实现的 X11 窗口管理器</strong><br />
+一个用纯 Ruby 编写的 X11 窗口管理器，展示了 Ruby 语言在系统级编程中的潜力。
     <ul>
-      <li><a href="https://www.historynet.com/maj-buang-lys-daring-feat-to-save-his-family/">The South Vietnamese pilot who landed a Cessna on a carrier to save his family</a></li>
+      <li><a href="https://github.com/vidarh/rubywm">Rubywm: An X11 window manager in pure Ruby</a></li>
     </ul>
   </li>
-  <li><strong>强化学习在推理中的应用</strong><br />
-介绍了一个简单的强化学习框架，用于研究和开发推理能力，显示了人工智能在推理领域的应用潜力。
+  <li><strong>Jane Street 如何意外构建了更好的 OCaml 构建系统</strong><br />
+一篇文章讲述了 Jane Street 如何意外地为 OCaml 构建了一个更好的构建系统，这对于 OCaml 开发者来说是一个有趣的案例研究。
     <ul>
-      <li><a href="https://hkust-nlp.notion.site/simplerl-reason">Emerging Reasoning with Reinforcement Learning</a></li>
+      <li><a href="https://blog.janestreet.com/how-we-accidentally-built-a-better-build-system-for-ocaml-index/">How Jane Street accidentally built a better build system for OCaml</a></li>
     </ul>
   </li>
-  <li><strong>LLMs 的国际象棋谜题</strong><br />
-一个被用来测试每个新的大型语言模型（LLMs）的国际象棋谜题，引发了对 AI 解决复杂问题能力的讨论。
+  <li><strong>Stats – macOS 系统监控工具</strong><br />
+一个开源项目，提供了一个 macOS 系统监控工具，可以直接在菜单栏中查看系统状态。
     <ul>
-      <li><a href="https://gist.github.com/abhishek-anand/a65ff0e44d158ae306dcce9151b1331c">I ask this chess puzzle to every new LLM</a></li>
+      <li><a href="https://github.com/exelban/stats">Stats – macOS system monitor in your menu bar</a></li>
     </ul>
   </li>
-  <li><strong>Mac Classic II 启动问题</strong><br />
-探讨了一个无效的 68030 指令如何意外地允许 Mac Classic II 成功启动，揭示了早期计算机硬件的有趣历史。
+  <li><strong>Google Pixel 4a 更新导致电池寿命减半</strong><br />
+一篇报道指出，Google Pixel 4a 的一个更新旨在提高电池稳定性，但实际上却导致电池寿命减半，引发了用户对更新的质疑。
     <ul>
-      <li><a href="https://www.downtowndougbrown.com/2025/01/the-invalid-68030-instruction-that-accidentally-allowed-the-mac-classic-ii-to-successfully-boot-up/">An invalid 68030 instruction accidentally allowed the Mac Classic II to boot</a></li>
+      <li><a href="https://liliputing.com/google-pixel-4a-update-to-improve-stability-of-the-battery-cuts-battery-life-in-half-for-some-users/">Google Pixel 4a update to “improve stability” of the battery cuts life in half</a></li>
     </ul>
   </li>
-  <li><strong>HTML 元素大全</strong><br />
-提供了一个全面的 HTML 元素参考，对于前端开发者来说是一个宝贵的资源。
+  <li><strong>Capablanca: 最小顶点覆盖求解器</strong><br />
+一个 Python 包 Capablanca，用于求解最小顶点覆盖问题，这对于图论和网络优化等领域非常有用。
     <ul>
-      <li><a href="https://iamwillwang.com/dollar/every-html-element/">Every HTML Element</a></li>
+      <li><a href="https://pypi.org/project/capablanca">Capablanca: Minimum Vertex Cover Solver</a></li>
     </ul>
   </li>
-  <li><strong>Prolog 语言的简洁性</strong><br />
-讨论了 Prolog 语言的简洁性和逻辑编程的优势，对于了解这一领域的人来说是一个重要的参考。
+  <li><strong>许多 Pokemon 测试卡可能在 2024 年印刷</strong><br />
+一篇文章讨论了 Pokemon 测试卡的印刷时间，对于收藏家和游戏玩家来说，这是一个有趣的话题。
     <ul>
-      <li><a href="https://bitsandtheorems.com/the-simplicity-of-prolog/">The Simplicity of Prolog</a></li>
+      <li><a href="https://www.elitefourum.com/t/many-of-the-pokemon-playtest-cards-were-likely-printed-in-2024/52421">Many of the Pokemon playtest cards were likely printed in 2024</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-27 04:00:04]]></summary></entry><entry><title type="html"></title><link href="/2025/01/26/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-01-26T12:01:21+00:00</published><updated>2025-01-26T12:01:21+00:00</updated><id>/2025/01/26/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/01/26/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-31 22:18:35]]></summary></entry><entry><title type="html"></title><link href="/2025/01/31/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-01-31T06:38:33+00:00</published><updated>2025-01-31T06:38:33+00:00</updated><id>/2025/01/31/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/01/31/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
 
 <ol>
   <li><strong>QR码的新玩法</strong><br />
@@ -127,7 +127,70 @@ Y Combinator支持的公司Sei发布了招聘信息，寻找全栈工程师，�
   </li>
 </ol>
 
-<hr />]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/26/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-26T12:00:03+00:00</published><updated>2025-01-26T12:00:03+00:00</updated><id>/hacknews/2025/01/26/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/26/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-26 20:00:03</p>
+<hr />]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/26/20-00-04-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-26T20:00:04+00:00</published><updated>2025-01-26T20:00:04+00:00</updated><id>/hacknews/2025/01/26/20:00:04-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/26/20-00-04-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-27 04:00:04</p>
+
+<ol>
+  <li><strong>Steam Brick 设备介绍</strong><br />
+介绍了一款名为 Steam Brick 的设备，它没有屏幕和控制器，只有一个电源按钮和一个 USB 端口，这种极简设计引发了社区的广泛讨论。
+    <ul>
+      <li><a href="https://crastinator-pro.github.io/steam-brick/">Steam Brick: No screen, no controller, just a power button and a USB port</a></li>
+    </ul>
+  </li>
+  <li><strong>DeepSeek-R1 研究论文</strong><br />
+一篇关于通过强化学习激励大型语言模型（LLMs）推理能力的论文，展示了人工智能领域在推理和学习方面的最新进展。
+    <ul>
+      <li><a href="https://arxiv.org/abs/2501.12948">DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via RL</a></li>
+    </ul>
+  </li>
+  <li><strong>Y Combinator 失败项目列表</strong><br />
+一个列出了 821 个不再活跃的 Y Combinator 启动项目的“墓地”，引发了对创业失败和风险投资的讨论。
+    <ul>
+      <li><a href="https://ycgraveyard.iamwillwang.com/">YC Graveyard: 821 inactive Y Combinator startups</a></li>
+    </ul>
+  </li>
+  <li><strong>OpenRA 游戏平台</strong><br />
+一个重制经典策略游戏的平台，为现代玩家提供了重温经典的机会，同时也展示了开源项目在游戏领域的活跃度。
+    <ul>
+      <li><a href="https://www.openra.net/">OpenRA – Classic strategy games rebuilt for the modern era</a></li>
+    </ul>
+  </li>
+  <li><strong>越南飞行员的壮举</strong><br />
+讲述了一位南越飞行员为了救家人而驾驶塞斯纳飞机降落在航空母舰上的故事，展现了个人勇气和飞行技术。
+    <ul>
+      <li><a href="https://www.historynet.com/maj-buang-lys-daring-feat-to-save-his-family/">The South Vietnamese pilot who landed a Cessna on a carrier to save his family</a></li>
+    </ul>
+  </li>
+  <li><strong>强化学习在推理中的应用</strong><br />
+介绍了一个简单的强化学习框架，用于研究和开发推理能力，显示了人工智能在推理领域的应用潜力。
+    <ul>
+      <li><a href="https://hkust-nlp.notion.site/simplerl-reason">Emerging Reasoning with Reinforcement Learning</a></li>
+    </ul>
+  </li>
+  <li><strong>LLMs 的国际象棋谜题</strong><br />
+一个被用来测试每个新的大型语言模型（LLMs）的国际象棋谜题，引发了对 AI 解决复杂问题能力的讨论。
+    <ul>
+      <li><a href="https://gist.github.com/abhishek-anand/a65ff0e44d158ae306dcce9151b1331c">I ask this chess puzzle to every new LLM</a></li>
+    </ul>
+  </li>
+  <li><strong>Mac Classic II 启动问题</strong><br />
+探讨了一个无效的 68030 指令如何意外地允许 Mac Classic II 成功启动，揭示了早期计算机硬件的有趣历史。
+    <ul>
+      <li><a href="https://www.downtowndougbrown.com/2025/01/the-invalid-68030-instruction-that-accidentally-allowed-the-mac-classic-ii-to-successfully-boot-up/">An invalid 68030 instruction accidentally allowed the Mac Classic II to boot</a></li>
+    </ul>
+  </li>
+  <li><strong>HTML 元素大全</strong><br />
+提供了一个全面的 HTML 元素参考，对于前端开发者来说是一个宝贵的资源。
+    <ul>
+      <li><a href="https://iamwillwang.com/dollar/every-html-element/">Every HTML Element</a></li>
+    </ul>
+  </li>
+  <li><strong>Prolog 语言的简洁性</strong><br />
+讨论了 Prolog 语言的简洁性和逻辑编程的优势，对于了解这一领域的人来说是一个重要的参考。
+    <ul>
+      <li><a href="https://bitsandtheorems.com/the-simplicity-of-prolog/">The Simplicity of Prolog</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-27 04:00:04]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/26/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-26T12:00:03+00:00</published><updated>2025-01-26T12:00:03+00:00</updated><id>/hacknews/2025/01/26/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/26/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-26 20:00:03</p>
 
 <ol>
   <li><strong>Steam Brick 设备介绍</strong><br />
@@ -579,67 +642,4 @@ Helix编辑器的一个新特性，集成了文件浏览器，提高了文件管
 [A WebAssembly compiler that fits in a tweet]: https://wasmgroundup.com/blog/wasm-compiler-in-a-tweet/
 [The Hidden Complexity of Scaling WebSockets]: https://composehq.com/blog/scaling-websockets-1-23-25
 [PhysicsForums and the Dead Internet Theory]: https://hallofdreams.org/posts/physicsforums/
-[Looking for work is a full time job]: https://www.resumevue.com/board</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-25 14:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/24/20-34-01-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-24T20:34:01+00:00</published><updated>2025-01-24T20:34:01+00:00</updated><id>/hacknews/2025/01/24/20:34:01-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/24/20-34-01-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-25 04:34:01</p>
-
-<ol>
-  <li><strong>Docker Hub 的问题讨论</strong><br />
-文章讨论了 Docker Hub 存在的问题，包括安全性和隐私性问题，以及用户对 Docker Hub 的依赖性。这些问题的讨论反映了容器技术在实际应用中面临的挑战。
-    <ul>
-      <li><a href="https://www.linuxserver.io/blog/we-need-to-talk-about-docker-hub">We Need to Talk About Docker Hub</a></li>
-    </ul>
-  </li>
-  <li><strong>应对大型语言模型的挑战</strong><br />
-文章探讨了如何使用传统的机器学习方法来应对大型语言模型（LLMs）的挑战，特别是在理解和处理复杂问题时。
-    <ul>
-      <li><a href="https://softwaredoug.com/blog/2025/01/21/llm-judge-decision-tree">Coping with dumb LLMs using classic ML</a></li>
-    </ul>
-  </li>
-  <li><strong>Tilde，LLVM 的替代方案</strong><br />
-介绍了一个名为 Tilde 的 LLVM 替代方案，这是一个编译器基础设施项目，旨在提供更高效的编译过程。
-    <ul>
-      <li><a href="https://yasserarg.com/tb">Tilde, My LLVM Alternative</a></li>
-    </ul>
-  </li>
-  <li><strong>字节跳动的 AI 代码编辑器 Trae</strong><br />
-字节跳动推出的 AI 代码编辑器 Trae，展示了 AI 在编程辅助工具中的新应用，可能会改变开发者的工作方式。
-    <ul>
-      <li><a href="https://www.trae.ai">Trae: AI Code Editor from ByteDance</a></li>
-    </ul>
-  </li>
-  <li><strong>Nix NGI 团队推动开源软件发展</strong><br />
-Nix NGI 团队通过 Nix 技术推动开源软件的运行更加顺畅，展示了 Nix 在构建和部署软件方面的优势。
-    <ul>
-      <li><a href="https://discourse.nixos.org/t/nix-ngi-making-open-source-software-run-smoothly/59229">The Nix NGI Team: Advancing Open Source with Nix</a></li>
-    </ul>
-  </li>
-  <li><strong>QR 码的创新应用</strong><br />
-讨论了一种新型 QR 码技术，这种技术可以通过特殊的光学效果改变扫描结果，展示了 QR 码在安全性和交互性上的新可能。
-    <ul>
-      <li><a href="https://mstdn.social/@isziaui/113874436953157913">A QR code that sends you to a different destination – lenticular and adversarial</a></li>
-    </ul>
-  </li>
-  <li><strong>Vim 的现状</strong><br />
-文章讨论了 Vim 编辑器的最新发展和社区动态，Vim 作为经典的文本编辑器，其持续的创新和改进受到开发者的关注。
-    <ul>
-      <li><a href="https://lwn.net/Articles/1002342/">The State of Vim</a></li>
-    </ul>
-  </li>
-  <li><strong>创业者分享成功经验</strong><br />
-一位创业者分享了他的初创公司被收购的消息，这不仅是个人成功的故事，也为其他创业者提供了经验和启示。
-    <ul>
-      <li><a href="https://news.ycombinator.com/item?id=42806247">Thank HN: My bootstrapped startup got acquired today</a></li>
-    </ul>
-  </li>
-  <li><strong>从头开始制作的开源笔记本电脑</strong><br />
-一个项目展示了如何从头开始制作一个开源笔记本电脑，这个项目不仅展示了硬件开发的复杂性，也体现了开源精神。
-    <ul>
-      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
-    </ul>
-  </li>
-  <li><strong>低温对 5nm SRAM 阵列尺寸和性能的影响</strong><br />
-文章探讨了极端低温对 5nm 工艺 SRAM 阵列尺寸和性能的影响，这对于半导体制造领域是一个重要的研究课题。
-    <ul>
-      <li><a href="https://semiengineering.com/impact-of-extremely-low-temperatures-on-the-5nm-sram-array-size-and-performance/">Impact of Low Temperatures on the 5nm SRAM Array Size and Performance</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-25 04:34:01]]></summary></entry></feed>
+[Looking for work is a full time job]: https://www.resumevue.com/board</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-25 14:00:03]]></summary></entry></feed>
