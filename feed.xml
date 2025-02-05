@@ -1,68 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-31T06:38:33+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/31/14-18-35-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-31T14:18:35+00:00</published><updated>2025-01-31T14:18:35+00:00</updated><id>/hacknews/2025/01/31/14:18:35-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/31/14-18-35-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-31 22:18:35</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-05T00:10:52+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/05/08-03-18-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-05T08:03:18+00:00</published><updated>2025-02-05T08:03:18+00:00</updated><id>/hacknews/2025/02/05/08:03:18-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/05/08-03-18-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-05 16:03:18</p>
 
 <ol>
-  <li><strong>sixos: 无 systemd 的 nix OS</strong><br />
-一个介绍 sixos 的视频，sixos 是一个没有使用 systemd 的 nix 操作系统，展示了其独特的系统管理和服务配置方式。
+  <li><strong>Oracle 对 Node.js 的 JavaScript 商标争议</strong><br />
+Oracle 曾以 Node.js 为由为其 JavaScript 商标辩护，现在却希望这一争议被忽略。这一事件引发了对商标法和开源项目命名权的讨论。
     <ul>
-      <li><a href="https://media.ccc.de/v/38c3-sixos-a-nix-os-without-systemd">sixos: A nix OS without systemd</a></li>
+      <li><a href="https://deno.com/blog/deno-v-oracle2">Oracle justified its JavaScript trademark with Node.js–now it wants that ignored</a></li>
     </ul>
   </li>
-  <li><strong>Mini-R1: 复现 DeepSeek R1 的“顿悟时刻”</strong><br />
-一个项目，旨在复现 DeepSeek R1 的“顿悟时刻”，即用户在使用产品时的惊喜体验，这对于理解用户体验至关重要。
+  <li><strong>WikiTok</strong><br />
+一个基于维基百科数据的 TikTok 风格视频平台，展示了如何将传统百科全书内容以现代社交媒体形式呈现。
     <ul>
-      <li><a href="https://www.philschmid.de/mini-deepseek-r1">Mini-R1: Reproduce DeepSeek R1 “Aha Moment”</a></li>
+      <li><a href="https://wikitok.vercel.app/">WikiTok</a></li>
     </ul>
   </li>
-  <li><strong>TopoNets: 类脑拓扑的视觉和语言模型</strong><br />
-一篇论文介绍了 TopoNets，这是一种新型的视觉和语言模型，模仿人脑的拓扑结构，以提高性能。
+  <li><strong>NIH 和 NSF 的内部动态</strong><br />
+文章探讨了美国国立卫生研究院（NIH）和国家科学基金会（NSF）的内部情况，对科研资助和研究方向的影响。
     <ul>
-      <li><a href="https://arxiv.org/abs/2501.16396">TopoNets: High performing vision and language models with brain-like topography</a></li>
+      <li><a href="https://www.science.org/content/blog-post/what-s-happening-inside-nih">What’s Happening Inside the NIH and NSF</a></li>
     </ul>
   </li>
-  <li><strong>JavaScript Temporal 即将到来</strong><br />
-MDN 上的一篇文章宣布了 JavaScript Temporal 的到来，这是一个新的日期和时间 API，旨在简化日期和时间的处理。
+  <li><strong>Open Deep Research</strong><br />
+Hugging Face 的一个新项目，旨在通过开源代码和预训练模型推动深度学习研究的发展。
     <ul>
-      <li><a href="https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming/">JavaScript Temporal is coming</a></li>
+      <li><a href="https://github.com/huggingface/smolagents/tree/main/examples/open_deep_research">Open Deep Research</a></li>
     </ul>
   </li>
-  <li><strong>Rubywm: 纯 Ruby 实现的 X11 窗口管理器</strong><br />
-一个用纯 Ruby 编写的 X11 窗口管理器，展示了 Ruby 语言在系统级编程中的潜力。
+  <li><strong>Google 移除不将 AI 用于武器的承诺</strong><br />
+Google 从其网站上移除了不将人工智能用于武器的承诺，这一变化引发了对科技公司道德责任的讨论。
     <ul>
-      <li><a href="https://github.com/vidarh/rubywm">Rubywm: An X11 window manager in pure Ruby</a></li>
+      <li><a href="https://techcrunch.com/2025/02/04/google-removes-pledge-to-not-use-ai-for-weapons-from-website/">Google removes pledge to not use AI for weapons from website</a></li>
     </ul>
   </li>
-  <li><strong>Jane Street 如何意外构建了更好的 OCaml 构建系统</strong><br />
-一篇文章讲述了 Jane Street 如何意外地为 OCaml 构建了一个更好的构建系统，这对于 OCaml 开发者来说是一个有趣的案例研究。
+  <li><strong>Apple 推出 Apple Invites 应用</strong><br />
+Apple 发布了一个新的应用程序 Apple Invites，旨在通过数字邀请功能促进人们之间的联系。
     <ul>
-      <li><a href="https://blog.janestreet.com/how-we-accidentally-built-a-better-build-system-for-ocaml-index/">How Jane Street accidentally built a better build system for OCaml</a></li>
+      <li><a href="https://www.apple.com/newsroom/2025/02/introducing-apple-invites-a-new-app-that-brings-people-together/">Apple Invites</a></li>
     </ul>
   </li>
-  <li><strong>Stats – macOS 系统监控工具</strong><br />
-一个开源项目，提供了一个 macOS 系统监控工具，可以直接在菜单栏中查看系统状态。
+  <li><strong>Roc 编译器用 Zig 语言重写</strong><br />
+Roc 编译器的开发者决定用 Zig 语言重写编译器，这一决策引发了对编程语言选择和编译器开发的讨论。
     <ul>
-      <li><a href="https://github.com/exelban/stats">Stats – macOS system monitor in your menu bar</a></li>
+      <li><a href="https://gist.github.com/rtfeldman/77fb430ee57b42f5f2ca973a3992532f">Roc rewrites the compiler in Zig</a></li>
     </ul>
   </li>
-  <li><strong>Google Pixel 4a 更新导致电池寿命减半</strong><br />
-一篇报道指出，Google Pixel 4a 的一个更新旨在提高电池稳定性，但实际上却导致电池寿命减半，引发了用户对更新的质疑。
+  <li><strong>APL 编程挑战</strong><br />
+Dyalog 举办的 APL 编程挑战，旨在测试和展示 APL 语言的编程能力和解决问题的效率。
     <ul>
-      <li><a href="https://liliputing.com/google-pixel-4a-update-to-improve-stability-of-the-battery-cuts-battery-life-in-half-for-some-users/">Google Pixel 4a update to “improve stability” of the battery cuts life in half</a></li>
+      <li><a href="https://challenge.dyalog.com/">The APL Challenge</a></li>
     </ul>
   </li>
-  <li><strong>Capablanca: 最小顶点覆盖求解器</strong><br />
-一个 Python 包 Capablanca，用于求解最小顶点覆盖问题，这对于图论和网络优化等领域非常有用。
+  <li><strong>Ambsheets：用于探索情景的电子表格</strong><br />
+一款新型电子表格软件，专注于帮助用户探索不同的情景和假设，增强决策支持。
     <ul>
-      <li><a href="https://pypi.org/project/capablanca">Capablanca: Minimum Vertex Cover Solver</a></li>
+      <li><a href="https://www.inkandswitch.com/ambsheets/">Ambsheets: Spreadsheets for Exploring Scenarios</a></li>
     </ul>
   </li>
-  <li><strong>许多 Pokemon 测试卡可能在 2024 年印刷</strong><br />
-一篇文章讨论了 Pokemon 测试卡的印刷时间，对于收藏家和游戏玩家来说，这是一个有趣的话题。
+  <li><strong>Alan Turing 的 “Delilah” 项目</strong><br />
+文章回顾了 Alan Turing 的 “Delilah” 项目，探讨了其在计算机科学和人工智能领域的先驱地位。
     <ul>
-      <li><a href="https://www.elitefourum.com/t/many-of-the-pokemon-playtest-cards-were-likely-printed-in-2024/52421">Many of the Pokemon playtest cards were likely printed in 2024</a></li>
+      <li><a href="https://spectrum.ieee.org/alan-turings-delilah">Alan Turing’s “Delilah” project</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-31 22:18:35]]></summary></entry><entry><title type="html"></title><link href="/2025/01/31/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-01-31T06:38:33+00:00</published><updated>2025-01-31T06:38:33+00:00</updated><id>/2025/01/31/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/01/31/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-05 16:03:18]]></summary></entry><entry><title type="html"></title><link href="/2025/02/05/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-02-05T00:10:52+00:00</published><updated>2025-02-05T00:10:52+00:00</updated><id>/2025/02/05/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/02/05/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
 
 <ol>
   <li><strong>QR码的新玩法</strong><br />
@@ -127,7 +127,70 @@ Y Combinator支持的公司Sei发布了招聘信息，寻找全栈工程师，�
   </li>
 </ol>
 
-<hr />]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/26/20-00-04-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-26T20:00:04+00:00</published><updated>2025-01-26T20:00:04+00:00</updated><id>/hacknews/2025/01/26/20:00:04-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/26/20-00-04-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-27 04:00:04</p>
+<hr />]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/31/14-18-35-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-31T14:18:35+00:00</published><updated>2025-01-31T14:18:35+00:00</updated><id>/hacknews/2025/01/31/14:18:35-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/31/14-18-35-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-31 22:18:35</p>
+
+<ol>
+  <li><strong>sixos: 无 systemd 的 nix OS</strong><br />
+一个介绍 sixos 的视频，sixos 是一个没有使用 systemd 的 nix 操作系统，展示了其独特的系统管理和服务配置方式。
+    <ul>
+      <li><a href="https://media.ccc.de/v/38c3-sixos-a-nix-os-without-systemd">sixos: A nix OS without systemd</a></li>
+    </ul>
+  </li>
+  <li><strong>Mini-R1: 复现 DeepSeek R1 的“顿悟时刻”</strong><br />
+一个项目，旨在复现 DeepSeek R1 的“顿悟时刻”，即用户在使用产品时的惊喜体验，这对于理解用户体验至关重要。
+    <ul>
+      <li><a href="https://www.philschmid.de/mini-deepseek-r1">Mini-R1: Reproduce DeepSeek R1 “Aha Moment”</a></li>
+    </ul>
+  </li>
+  <li><strong>TopoNets: 类脑拓扑的视觉和语言模型</strong><br />
+一篇论文介绍了 TopoNets，这是一种新型的视觉和语言模型，模仿人脑的拓扑结构，以提高性能。
+    <ul>
+      <li><a href="https://arxiv.org/abs/2501.16396">TopoNets: High performing vision and language models with brain-like topography</a></li>
+    </ul>
+  </li>
+  <li><strong>JavaScript Temporal 即将到来</strong><br />
+MDN 上的一篇文章宣布了 JavaScript Temporal 的到来，这是一个新的日期和时间 API，旨在简化日期和时间的处理。
+    <ul>
+      <li><a href="https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming/">JavaScript Temporal is coming</a></li>
+    </ul>
+  </li>
+  <li><strong>Rubywm: 纯 Ruby 实现的 X11 窗口管理器</strong><br />
+一个用纯 Ruby 编写的 X11 窗口管理器，展示了 Ruby 语言在系统级编程中的潜力。
+    <ul>
+      <li><a href="https://github.com/vidarh/rubywm">Rubywm: An X11 window manager in pure Ruby</a></li>
+    </ul>
+  </li>
+  <li><strong>Jane Street 如何意外构建了更好的 OCaml 构建系统</strong><br />
+一篇文章讲述了 Jane Street 如何意外地为 OCaml 构建了一个更好的构建系统，这对于 OCaml 开发者来说是一个有趣的案例研究。
+    <ul>
+      <li><a href="https://blog.janestreet.com/how-we-accidentally-built-a-better-build-system-for-ocaml-index/">How Jane Street accidentally built a better build system for OCaml</a></li>
+    </ul>
+  </li>
+  <li><strong>Stats – macOS 系统监控工具</strong><br />
+一个开源项目，提供了一个 macOS 系统监控工具，可以直接在菜单栏中查看系统状态。
+    <ul>
+      <li><a href="https://github.com/exelban/stats">Stats – macOS system monitor in your menu bar</a></li>
+    </ul>
+  </li>
+  <li><strong>Google Pixel 4a 更新导致电池寿命减半</strong><br />
+一篇报道指出，Google Pixel 4a 的一个更新旨在提高电池稳定性，但实际上却导致电池寿命减半，引发了用户对更新的质疑。
+    <ul>
+      <li><a href="https://liliputing.com/google-pixel-4a-update-to-improve-stability-of-the-battery-cuts-battery-life-in-half-for-some-users/">Google Pixel 4a update to “improve stability” of the battery cuts life in half</a></li>
+    </ul>
+  </li>
+  <li><strong>Capablanca: 最小顶点覆盖求解器</strong><br />
+一个 Python 包 Capablanca，用于求解最小顶点覆盖问题，这对于图论和网络优化等领域非常有用。
+    <ul>
+      <li><a href="https://pypi.org/project/capablanca">Capablanca: Minimum Vertex Cover Solver</a></li>
+    </ul>
+  </li>
+  <li><strong>许多 Pokemon 测试卡可能在 2024 年印刷</strong><br />
+一篇文章讨论了 Pokemon 测试卡的印刷时间，对于收藏家和游戏玩家来说，这是一个有趣的话题。
+    <ul>
+      <li><a href="https://www.elitefourum.com/t/many-of-the-pokemon-playtest-cards-were-likely-printed-in-2024/52421">Many of the Pokemon playtest cards were likely printed in 2024</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-31 22:18:35]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/26/20-00-04-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-26T20:00:04+00:00</published><updated>2025-01-26T20:00:04+00:00</updated><id>/hacknews/2025/01/26/20:00:04-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/26/20-00-04-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-27 04:00:04</p>
 
 <ol>
   <li><strong>Steam Brick 设备介绍</strong><br />
@@ -572,74 +635,4 @@ Helix编辑器的一个新特性，集成了文件浏览器，提高了文件管
   </li>
 </ol>
 
-<p>[Show HN: Onit – open-source ChatGPT Desktop with local mode,</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-25 18:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/25/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-25T06:00:03+00:00</published><updated>2025-01-25T06:00:03+00:00</updated><id>/hacknews/2025/01/25/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/25/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-25 14:00:03</p>
-
-<ol>
-  <li><strong>Cs16.css CSS库</strong><br />
-一个基于CS 1.6 UI的CSS库，为开发者提供了一种快速实现经典游戏界面风格的方法。
-    <ul>
-      <li><a href="https://cs16.samke.me">Show HN: Cs16.css – CSS library based on CS 1.6 UI</a></li>
-    </ul>
-  </li>
-  <li><strong>Linux的快速链接器Wild</strong><br />
-一个为Linux设计的快速链接器，旨在提高链接效率，对性能有显著影响。
-    <ul>
-      <li><a href="https://github.com/davidlattimore/wild">Wild – A fast linker for Linux</a></li>
-    </ul>
-  </li>
-  <li><strong>C++26新特性：Pack Indexing</strong><br />
-讨论C++26中的一项新特性——Pack Indexing，它允许更灵活的模板参数处理。
-    <ul>
-      <li><a href="https://www.sandordargo.com/blog/2025/01/22/cpp26-pack-indexing">C++26: Pack Indexing</a></li>
-    </ul>
-  </li>
-  <li><strong>g.co钓鱼攻击事件</strong><br />
-一个涉及Google URL短链接服务g.co的钓鱼攻击事件，引起了对网络安全的广泛关注。
-    <ul>
-      <li><a href="https://gist.github.com/zachlatta/f86317493654b550c689dc6509973aa4">A phishing attack involving g.co, Google’s URL shortener</a></li>
-    </ul>
-  </li>
-  <li><strong>Subpixel Snake视频</strong><br />
-一个展示子像素渲染技术的Snake游戏视频，引发对现代显示技术的兴趣。
-    <ul>
-      <li><a href="https://www.youtube.com/watch?v=iDwganLjpW0">Subpixel Snake [video]</a></li>
-    </ul>
-  </li>
-  <li><strong>Snowdrop OS操作系统</strong><br />
-一个从头开始用汇编语言编写的自制操作系统，展示了操作系统开发的复杂性。
-    <ul>
-      <li><a href="http://sebastianmihai.com/snowdrop/">Snowdrop OS – a homebrew operating system from scratch, in assembly language</a></li>
-    </ul>
-  </li>
-  <li><strong>WebAssembly编译器</strong><br />
-一个可以放入推文中的WebAssembly编译器，展示了编译器技术的进步和优化。
-    <ul>
-      <li><a href="https://wasmgroundup.com/blog/wasm-compiler-in-a-tweet/">A WebAssembly compiler that fits in a tweet</a></li>
-    </ul>
-  </li>
-  <li><strong>WebSockets的扩展复杂性</strong><br />
-讨论WebSockets技术在扩展过程中遇到的复杂性问题，对实时通信技术的影响。
-    <ul>
-      <li><a href="https://composehq.com/blog/scaling-websockets-1-23-25">The Hidden Complexity of Scaling WebSockets</a></li>
-    </ul>
-  </li>
-  <li><strong>PhysicsForums和死亡互联网理论</strong><br />
-探讨了PhysicsForums的衰落和所谓的“死亡互联网理论”，对网络社区的演变进行了反思。
-    <ul>
-      <li><a href="https://hallofdreams.org/posts/physicsforums/">PhysicsForums and the Dead Internet Theory</a></li>
-    </ul>
-  </li>
-  <li><strong>寻找工作的全职工作</strong><br />
-讨论了寻找工作本身如何成为一种全职工作，以及这对求职者意味着什么。
-    <ul>
-      <li><a href="https://www.resumevue.com/board">Looking for work is a full time job</a></li>
-    </ul>
-  </li>
-</ol>
-
-<p>[Subpixel Snake [video]]: https://www.youtube.com/watch?v=iDwganLjpW0
-[Snowdrop OS – a homebrew operating system from scratch, in assembly language]: http://sebastianmihai.com/snowdrop/
-[A WebAssembly compiler that fits in a tweet]: https://wasmgroundup.com/blog/wasm-compiler-in-a-tweet/
-[The Hidden Complexity of Scaling WebSockets]: https://composehq.com/blog/scaling-websockets-1-23-25
-[PhysicsForums and the Dead Internet Theory]: https://hallofdreams.org/posts/physicsforums/
-[Looking for work is a full time job]: https://www.resumevue.com/board</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-25 14:00:03]]></summary></entry></feed>
+<p>[Show HN: Onit – open-source ChatGPT Desktop with local mode,</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-25 18:00:03]]></summary></entry></feed>
