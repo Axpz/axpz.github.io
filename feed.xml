@@ -1,5 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-05T00:10:52+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/05/08-03-18-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-05T08:03:18+00:00</published><updated>2025-02-05T08:03:18+00:00</updated><id>/hacknews/2025/02/05/08:03:18-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/05/08-03-18-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-05 16:03:18</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-05T04:01:14+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/05/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-05T12:00:03+00:00</published><updated>2025-02-05T12:00:03+00:00</updated><id>/hacknews/2025/02/05/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/05/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-05 20:00:03</p>
+
+<ol>
+  <li><strong>Beej’s Guide to Git</strong><br />
+Beej’s Guide to Git 是一个广受欢迎的 Git 教程，它以简洁明了的方式介绍了 Git 的基本概念和操作，适合初学者快速上手。
+    <ul>
+      <li><a href="https://beej.us/guide/bggit/">Beej’s Guide to Git</a></li>
+    </ul>
+  </li>
+  <li><strong>WikiTok</strong><br />
+WikiTok 是一个基于维基百科的短视频平台，它通过短视频形式展示维基百科的内容，为用户提供了一种新的信息获取方式。
+    <ul>
+      <li><a href="https://wikitok.vercel.app/">WikiTok</a></li>
+    </ul>
+  </li>
+  <li><strong>Zig 编程语言体验分享</strong><br />
+作者分享了使用 Zig 编程语言数月后的体验和思考，探讨了 Zig 在现代编程语言中的地位和优势。
+    <ul>
+      <li><a href="https://strongly-typed-thoughts.net/blog/zig-2025">Zig; what I think after months of using it</a></li>
+    </ul>
+  </li>
+  <li><strong>Open Deep Research</strong><br />
+Hugging Face 的 smolagents 项目中的 Open Deep Research 示例，展示了如何使用深度学习技术进行研究和实验。
+    <ul>
+      <li><a href="https://github.com/huggingface/smolagents/tree/main/examples/open_deep_research">Open Deep Research</a></li>
+    </ul>
+  </li>
+  <li><strong>Apple Invites 应用发布</strong><br />
+Apple 推出了一个新的应用程序 Apple Invites，旨在帮助人们更好地组织和参与各种活动。
+    <ul>
+      <li><a href="https://www.apple.com/newsroom/2025/02/introducing-apple-invites-a-new-app-that-brings-people-together/">Apple Invites</a></li>
+    </ul>
+  </li>
+  <li><strong>Ambsheets：用于探索情景的电子表格</strong><br />
+Ambsheets 是一个创新的电子表格工具，它允许用户探索不同的情景和假设，对于决策分析非常有用。
+    <ul>
+      <li><a href="https://www.inkandswitch.com/ambsheets/">Ambsheets: Spreadsheets for Exploring Scenarios</a></li>
+    </ul>
+  </li>
+  <li><strong>Nine – 看似不可能的 C64 演示</strong><br />
+Linus Åkesson 发布了一个名为 Nine 的 C64 演示，展示了在 Commodore 64 上实现的惊人视觉效果，被认为是技术上的壮举。
+    <ul>
+      <li><a href="https://linusakesson.net/scene/nine/index.php">Nine – seemingly impossible C64 demo</a></li>
+    </ul>
+  </li>
+  <li><strong>Infosec 101 for Activists</strong><br />
+这是一个为活动家提供的网络安全基础教程，旨在帮助他们保护自己的数字安全。
+    <ul>
+      <li><a href="https://infosecforactivists.org">Infosec 101 for Activists</a></li>
+    </ul>
+  </li>
+  <li><strong>Oracle 与 JavaScript 商标争议</strong><br />
+Deon 博客讨论了 Oracle 对 Node.js 的 JavaScript 商标争议，以及 Oracle 如何试图忽略这一问题。
+    <ul>
+      <li><a href="https://deno.com/blog/deno-v-oracle2">Oracle justified its JavaScript trademark with Node.js–now it wants that ignored</a></li>
+    </ul>
+  </li>
+  <li><strong>五年开发 Web 应用收入一美元</strong><br />
+开发者分享了自己花费五年时间开发 Web 应用的经历，以及最终只获得一美元收入的反思。
+    <ul>
+      <li><a href="https://codingcafe.jp/posts/signal-5yrs">I spent five years building a webapp and got my first $1 (2022)</a></li>
+    </ul>
+  </li>
+</ol>
+
+<p>以上话题反映了 Hacker News 上的技术趋势和社区关注点，从编程语言的学习资源到网络安全的实践指南，再到技术产品的新发布，都是当前技术圈的热点话题。</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-05 20:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/05/08-03-18-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-05T08:03:18+00:00</published><updated>2025-02-05T08:03:18+00:00</updated><id>/hacknews/2025/02/05/08:03:18-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/05/08-03-18-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-05 16:03:18</p>
 
 <ol>
   <li><strong>Oracle 对 Node.js 的 JavaScript 商标争议</strong><br />
@@ -62,7 +127,7 @@ Dyalog 举办的 APL 编程挑战，旨在测试和展示 APL 语言的编程能
       <li><a href="https://spectrum.ieee.org/alan-turings-delilah">Alan Turing’s “Delilah” project</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-05 16:03:18]]></summary></entry><entry><title type="html"></title><link href="/2025/02/05/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-02-05T00:10:52+00:00</published><updated>2025-02-05T00:10:52+00:00</updated><id>/2025/02/05/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/02/05/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-05 16:03:18]]></summary></entry><entry><title type="html"></title><link href="/2025/02/05/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-02-05T04:01:14+00:00</published><updated>2025-02-05T04:01:14+00:00</updated><id>/2025/02/05/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/02/05/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
 
 <ol>
   <li><strong>QR码的新玩法</strong><br />
@@ -570,69 +635,4 @@ Helix编辑器的一个新特性，集成了文件浏览器，提高了文件管
   </li>
 </ol>
 
-<p>[Kidnappers sever finger of</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-25 20:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/25/10-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-25T10:00:03+00:00</published><updated>2025-01-25T10:00:03+00:00</updated><id>/hacknews/2025/01/25/10:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/25/10-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-25 18:00:03</p>
-
-<ol>
-  <li><strong>OpenAI 对开放网络的影响</strong><br />
-文章讨论了 OpenAI 如何对开放的 World Wide Web 构成威胁，引发了关于人工智能技术对互联网自由和开放性影响的讨论。
-    <ul>
-      <li><a href="https://brids.bearblog.dev/openai-just-put-the-final-nail-in-the-coffin-of-the-open-world-wide-web/">OpenAI just put the final nail in the coffin of the open World Wide Web</a></li>
-    </ul>
-  </li>
-  <li><strong>Cs16.css CSS 库</strong><br />
-一个基于 Counter Strike 1.6 UI 的 CSS 库，展示了如何将游戏界面元素转化为现代网页设计的一部分。
-    <ul>
-      <li><a href="https://cs16.samke.me">Show HN: Cs16.css – CSS library based on Counter Strike 1.6 UI</a></li>
-    </ul>
-  </li>
-  <li><strong>Fenwick Trees 的发明</strong><br />
-文章介绍了 Fenwick Trees（也称为 Binary Indexed Trees），并探讨了其发明背景和应用场景。
-    <ul>
-      <li><a href="https://www.cambridge.org/core/journals/journal-of-functional-programming/article/you-could-have-invented-fenwick-trees/B4628279D4E54229CED97249E96F721D">You could have invented Fenwick trees</a></li>
-    </ul>
-  </li>
-  <li><strong>Onit 开源 ChatGPT 桌面应用</strong><br />
-一个开源的 ChatGPT 桌面应用，支持本地模式和多个大型语言模型，为用户提供了更多的选择和灵活性。
-    <ul>
-      <li><a href="https://github.com/synth-inc/onit">Show HN: Onit – open-source ChatGPT Desktop with local mode, Claude, Gemini</a></li>
-    </ul>
-  </li>
-  <li><strong>Wild Linux 快速链接器</strong><br />
-一个为 Linux 设计的快速链接器，旨在提高链接效率，对系统性能有显著影响。
-    <ul>
-      <li><a href="https://github.com/davidlattimore/wild">Wild – A fast linker for Linux</a></li>
-    </ul>
-  </li>
-  <li><strong>Lightpanda 开源无头浏览器</strong><br />
-一个用 Zig 语言编写的开源无头浏览器，为开发者提供了新的工具和可能性。
-    <ul>
-      <li><a href="https://github.com/lightpanda-io/browser">Show HN: Lightpanda, an open-source headless browser in Zig</a></li>
-    </ul>
-  </li>
-  <li><strong>Ollama 防止短信垃圾邮件</strong><br />
-一个工具，可以帮助用户反击短信垃圾邮件发送者，提供了一种新的防御机制。
-    <ul>
-      <li><a href="https://evan.widloski.com/software/sms_llm/">Show HN: Trolling SMS spammers with Ollama</a></li>
-    </ul>
-  </li>
-  <li><strong>g.co 钓鱼攻击事件</strong><br />
-一个涉及 Google URL 短链接服务 g.co 的钓鱼攻击案例，提醒用户对短链接保持警惕。
-    <ul>
-      <li><a href="https://gist.github.com/zachlatta/f86317493654b550c689dc6509973aa4">A phishing attack involving g.co, Google’s URL shortener</a></li>
-    </ul>
-  </li>
-  <li><strong>音乐与悲伤的治愈力量</strong><br />
-一个关于父亲留下的 10,000 张唱片和音乐如何帮助人们处理悲伤的故事，探讨了音乐的情感价值。
-    <ul>
-      <li><a href="https://www.washingtonpost.com/style/2025/01/18/vinyl-albums-grief-music-healing/">Her dad, the 10k records he left behind and a viral lesson in grief</a></li>
-    </ul>
-  </li>
-  <li><strong>Snowdrop OS 操作系统开发</strong><br />
-一个从头开始，使用汇编语言开发的自制操作系统，展示了操作系统开发的复杂性和挑战。
-    <ul>
-      <li><a href="http://sebastianmihai.com/snowdrop/">Snowdrop OS – a homebrew operating system from scratch, in assembly language</a></li>
-    </ul>
-  </li>
-</ol>
-
-<p>[Show HN: Onit – open-source ChatGPT Desktop with local mode,</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-25 18:00:03]]></summary></entry></feed>
+<p>[Kidnappers sever finger of</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-25 20:00:03]]></summary></entry></feed>
