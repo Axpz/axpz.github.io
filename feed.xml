@@ -1,5 +1,135 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-05T04:01:14+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/05/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-05T12:00:03+00:00</published><updated>2025-02-05T12:00:03+00:00</updated><id>/hacknews/2025/02/05/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/05/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-05 20:00:03</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-05T12:01:21+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html"></title><link href="/2025/02/05/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-02-05T12:01:21+00:00</published><updated>2025-02-05T12:01:21+00:00</updated><id>/2025/02/05/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/02/05/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
+
+<ol>
+  <li><strong>QR码的新玩法</strong><br />
+讨论了一种特殊的QR码，能够根据观察角度的不同显示不同的目的地，这种技术结合了透镜效果和对抗性设计，展示了编码技术的新颖应用。
+    <ul>
+      <li><a href="https://mstdn.social/@isziaui/113874436953157913">A QR code that sends you to a different destination - lenticular and adversarial</a></li>
+    </ul>
+  </li>
+  <li><strong>感谢HN：我的自启动创业公司今天被收购了</strong><br />
+一位创业者分享了他的自启动创业公司被收购的消息，这在Hacker News社区中引起了热烈讨论，许多人对此表示祝贺和好奇。
+    <ul>
+      <li><a href="https://news.ycombinator.com/item?id=42806247">Thank HN: My bootstrapped startup got acquired today</a></li>
+    </ul>
+  </li>
+  <li><strong>Llama.vim – 本地LLM辅助文本补全</strong><br />
+一个基于Vim的插件，利用本地大型语言模型（LLM）来辅助文本补全，这个项目展示了LLM技术在代码编辑器中的应用潜力。
+    <ul>
+      <li><a href="https://github.com/ggml-org/llama.vim">Llama.vim – Local LLM-assisted text completion</a></li>
+    </ul>
+  </li>
+  <li><strong>超级马里奥的颜色</strong><br />
+一篇文章探讨了超级马里奥游戏中使用的颜色，分析了这些颜色如何影响玩家的视觉体验和游戏的情感氛围。
+    <ul>
+      <li><a href="https://lmnt.me/blog/the-most-mario-colors.html">The Most Mario Colors</a></li>
+    </ul>
+  </li>
+  <li><strong>XNU内核中的一个特别’可疑’的sysctl</strong><br />
+披露了XNU内核中的一个安全漏洞，这个漏洞涉及到一个特别“可疑”的系统控制接口，引起了安全专家和开发者的关注。
+    <ul>
+      <li><a href="https://jprx.io/cve-2024-54507/">Susctl CVE-2024-54507: A particularly ‘sus’ sysctl in the XNU kernel</a></li>
+    </ul>
+  </li>
+  <li><strong>从零开始制作开源笔记本电脑</strong><br />
+一个项目展示了如何从零开始制作一个开源笔记本电脑，这个项目不仅展示了硬件制造的复杂性，也体现了开源精神。
+    <ul>
+      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
+    </ul>
+  </li>
+  <li><strong>表面稳定的分形抖动技术</strong><br />
+一个开源项目，介绍了一种新的分形抖动技术，这种技术可以用于图像处理和视觉效果的生成。
+    <ul>
+      <li><a href="https://github.com/runevision/Dither3D">Surface-Stable Fractal Dithering</a></li>
+    </ul>
+  </li>
+  <li><strong>在超级英雄宇宙中的遍历拉格朗日动力学</strong><br />
+一篇学术论文，探讨了遍历拉格朗日动力学在超级英雄宇宙中的应用，这种跨学科的研究引起了广泛的兴趣。
+    <ul>
+      <li><a href="https://pubs.aip.org/aapt/ajp/article/93/2/127/3331568/Ergodic-Lagrangian-dynamics-in-a-superhero">Ergodic Lagrangian dynamics in a superhero universe</a></li>
+    </ul>
+  </li>
+  <li><strong>从零开始建造中世纪城堡</strong><br />
+一个项目记录了从零开始建造一个中世纪城堡的过程，这个项目不仅展示了建筑技术，也体现了历史和文化的传承。
+    <ul>
+      <li><a href="https://www.guedelon.fr/en/">Building a Medieval Castle from Scratch</a></li>
+    </ul>
+  </li>
+  <li><strong>Sei公司招聘</strong><br />
+Y Combinator支持的公司Sei发布了招聘信息，寻找全栈工程师，这个招聘信息在Hacker News上引起了关注。
+    <ul>
+      <li><a href="https://www.ycombinator.com/companies/sei/jobs/LeAtLYf-full-stack-engineer-typescript-react-gen-ai">Sei (YC W22) Is Hiring</a></li>
+    </ul>
+  </li>
+</ol>
+
+<hr />]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/05/20-00-05-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-05T12:00:05+00:00</published><updated>2025-02-05T12:00:05+00:00</updated><id>/hacknews/2025/02/05/20:00:05-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/05/20-00-05-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-05 20:00:05</p>
+
+<ol>
+  <li><strong>Kagi 公平定价介绍</strong><br />
+Kagi 发布了关于其公平定价模型的更新，这可能对数字产品的定价策略产生影响。
+    <ul>
+      <li><a href="https://kagi.com/changelog#6155">Kagi – Introducing Fair Pricing</a></li>
+    </ul>
+  </li>
+  <li><strong>软件开发观点变迁</strong><br />
+作者分享了他在软件开发领域工作十年后改变的一些观点，反映了技术社区中不断演进的最佳实践。
+    <ul>
+      <li><a href="https://chriskiehl.com/article/thoughts-after-10-years">Software development topics I’ve changed my mind on after 10 years</a></li>
+    </ul>
+  </li>
+  <li><strong>Beej’s Guide to Git</strong><br />
+一个关于 Git 的详细指南，适合初学者和有经验的开发者，提供了关于版本控制的深入理解。
+    <ul>
+      <li><a href="https://beej.us/guide/bggit/">Beej’s Guide to Git</a></li>
+    </ul>
+  </li>
+  <li><strong>《他们以为他们是自由的》节选</strong><br />
+Milton Mayer 的作品节选，探讨了自由与权力的关系，引发了对当前社会政治环境的讨论。
+    <ul>
+      <li><a href="https://press.uchicago.edu/Misc/Chicago/511928.htm">They Thought They Were Free, by Milton Mayer, an Excerpt</a></li>
+    </ul>
+  </li>
+  <li><strong>WikiTok</strong><br />
+一个基于维基百科数据的短视频平台，展示了如何将静态知识转化为动态内容。
+    <ul>
+      <li><a href="https://wikitok.vercel.app/">WikiTok</a></li>
+    </ul>
+  </li>
+  <li><strong>Pascal 编译器开发经历</strong><br />
+作者分享了他在 1993 年作为青少年时开发针对 Transputer 的 Pascal 编译器的经历，展示了早期编程挑战和创新。
+    <ul>
+      <li><a href="https://nanochess.org/pascal.html">I coded a Pascal compiler for transputer as a teen in 1993</a></li>
+    </ul>
+  </li>
+  <li><strong>Julia 和 JuliaHub 的发展</strong><br />
+讨论了 Julia 编程语言及其生态系统 JuliaHub 如何推动创新和增长。
+    <ul>
+      <li><a href="https://info.juliahub.com/blog/julia-juliahub-advancing-innovation-and-growth">Julia and JuliaHub: Advancing Innovation and Growth</a></li>
+    </ul>
+  </li>
+  <li><strong>Chrome 133 新特性</strong><br />
+介绍了 Chrome 133 版本中支持的 DOM 状态保持移动特性，这对于前端开发者来说是一个重要的更新。
+    <ul>
+      <li><a href="https://chromestatus.com/feature/5135990159835136">Chrome 133 Supports DOM State-Preserving Move with moveBefore()</a></li>
+    </ul>
+  </li>
+  <li><strong>NIH 和 NSF 动态</strong><br />
+讨论了美国国立卫生研究院（NIH）和国家科学基金会（NSF）内部正在发生的事情，这对于科研人员和政策制定者来说是一个重要的议题。
+    <ul>
+      <li><a href="https://www.science.org/content/blog-post/what-s-happening-inside-nih">What’s happening inside the NIH and NSF</a></li>
+    </ul>
+  </li>
+  <li><strong>Go 数据结构</strong><br />
+一个关于 Go 语言数据结构的深入研究，适合那些想要深入了解 Go 语言内部机制的开发者。
+    <ul>
+      <li><a href="https://research.swtch.com/godata">Go Data Structures</a></li>
+    </ul>
+  </li>
+</ol>
+
+<p>以上话题涵盖了软件开发、网络安全、编程语言、科研政策等多个领域，反映了技术社区当前的热点和关注点。</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-05 20:00:05]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/05/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-05T12:00:03+00:00</published><updated>2025-02-05T12:00:03+00:00</updated><id>/hacknews/2025/02/05/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/05/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-05 20:00:03</p>
 
 <ol>
   <li><strong>Beej’s Guide to Git</strong><br />
@@ -127,72 +257,7 @@ Dyalog 举办的 APL 编程挑战，旨在测试和展示 APL 语言的编程能
       <li><a href="https://spectrum.ieee.org/alan-turings-delilah">Alan Turing’s “Delilah” project</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-05 16:03:18]]></summary></entry><entry><title type="html"></title><link href="/2025/02/05/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-02-05T04:01:14+00:00</published><updated>2025-02-05T04:01:14+00:00</updated><id>/2025/02/05/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/02/05/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
-
-<ol>
-  <li><strong>QR码的新玩法</strong><br />
-讨论了一种特殊的QR码，能够根据观察角度的不同显示不同的目的地，这种技术结合了透镜效果和对抗性设计，展示了编码技术的新颖应用。
-    <ul>
-      <li><a href="https://mstdn.social/@isziaui/113874436953157913">A QR code that sends you to a different destination - lenticular and adversarial</a></li>
-    </ul>
-  </li>
-  <li><strong>感谢HN：我的自启动创业公司今天被收购了</strong><br />
-一位创业者分享了他的自启动创业公司被收购的消息，这在Hacker News社区中引起了热烈讨论，许多人对此表示祝贺和好奇。
-    <ul>
-      <li><a href="https://news.ycombinator.com/item?id=42806247">Thank HN: My bootstrapped startup got acquired today</a></li>
-    </ul>
-  </li>
-  <li><strong>Llama.vim – 本地LLM辅助文本补全</strong><br />
-一个基于Vim的插件，利用本地大型语言模型（LLM）来辅助文本补全，这个项目展示了LLM技术在代码编辑器中的应用潜力。
-    <ul>
-      <li><a href="https://github.com/ggml-org/llama.vim">Llama.vim – Local LLM-assisted text completion</a></li>
-    </ul>
-  </li>
-  <li><strong>超级马里奥的颜色</strong><br />
-一篇文章探讨了超级马里奥游戏中使用的颜色，分析了这些颜色如何影响玩家的视觉体验和游戏的情感氛围。
-    <ul>
-      <li><a href="https://lmnt.me/blog/the-most-mario-colors.html">The Most Mario Colors</a></li>
-    </ul>
-  </li>
-  <li><strong>XNU内核中的一个特别’可疑’的sysctl</strong><br />
-披露了XNU内核中的一个安全漏洞，这个漏洞涉及到一个特别“可疑”的系统控制接口，引起了安全专家和开发者的关注。
-    <ul>
-      <li><a href="https://jprx.io/cve-2024-54507/">Susctl CVE-2024-54507: A particularly ‘sus’ sysctl in the XNU kernel</a></li>
-    </ul>
-  </li>
-  <li><strong>从零开始制作开源笔记本电脑</strong><br />
-一个项目展示了如何从零开始制作一个开源笔记本电脑，这个项目不仅展示了硬件制造的复杂性，也体现了开源精神。
-    <ul>
-      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
-    </ul>
-  </li>
-  <li><strong>表面稳定的分形抖动技术</strong><br />
-一个开源项目，介绍了一种新的分形抖动技术，这种技术可以用于图像处理和视觉效果的生成。
-    <ul>
-      <li><a href="https://github.com/runevision/Dither3D">Surface-Stable Fractal Dithering</a></li>
-    </ul>
-  </li>
-  <li><strong>在超级英雄宇宙中的遍历拉格朗日动力学</strong><br />
-一篇学术论文，探讨了遍历拉格朗日动力学在超级英雄宇宙中的应用，这种跨学科的研究引起了广泛的兴趣。
-    <ul>
-      <li><a href="https://pubs.aip.org/aapt/ajp/article/93/2/127/3331568/Ergodic-Lagrangian-dynamics-in-a-superhero">Ergodic Lagrangian dynamics in a superhero universe</a></li>
-    </ul>
-  </li>
-  <li><strong>从零开始建造中世纪城堡</strong><br />
-一个项目记录了从零开始建造一个中世纪城堡的过程，这个项目不仅展示了建筑技术，也体现了历史和文化的传承。
-    <ul>
-      <li><a href="https://www.guedelon.fr/en/">Building a Medieval Castle from Scratch</a></li>
-    </ul>
-  </li>
-  <li><strong>Sei公司招聘</strong><br />
-Y Combinator支持的公司Sei发布了招聘信息，寻找全栈工程师，这个招聘信息在Hacker News上引起了关注。
-    <ul>
-      <li><a href="https://www.ycombinator.com/companies/sei/jobs/LeAtLYf-full-stack-engineer-typescript-react-gen-ai">Sei (YC W22) Is Hiring</a></li>
-    </ul>
-  </li>
-</ol>
-
-<hr />]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/31/14-18-35-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-31T14:18:35+00:00</published><updated>2025-01-31T14:18:35+00:00</updated><id>/hacknews/2025/01/31/14:18:35-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/31/14-18-35-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-31 22:18:35</p>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-05 16:03:18]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/31/14-18-35-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-31T14:18:35+00:00</published><updated>2025-01-31T14:18:35+00:00</updated><id>/hacknews/2025/01/31/14:18:35-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/31/14-18-35-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-31 22:18:35</p>
 
 <ol>
   <li><strong>sixos: 无 systemd 的 nix OS</strong><br />
@@ -570,69 +635,4 @@ Wild 是一个为 Linux 设计的快速链接器，旨在提高链接过程的�
       <li><a href="https://github.com/davidlattimore/wild">Wild – A fast linker for Linux</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-26 04:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/25/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-25T12:00:03+00:00</published><updated>2025-01-25T12:00:03+00:00</updated><id>/hacknews/2025/01/25/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/25/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-25 20:00:03</p>
-
-<ol>
-  <li><strong>Caltrain电动列车效率超预期</strong><br />
-报道指出Caltrain的电动列车效率超出预期，展示了电动列车在公共交通中的潜力和环保效益。
-    <ul>
-      <li><a href="https://www.caltrain.com/news/caltrains-electric-fleet-more-efficient-expected">Caltrain’s Electric Fleet More Efficient Than Expected</a></li>
-    </ul>
-  </li>
-  <li><strong>Cs16.css – 基于CS 1.6 UI的CSS库</strong><br />
-一个基于经典游戏Counter Strike 1.6用户界面的CSS库，为开发者提供了复古风格的设计元素。
-    <ul>
-      <li><a href="https://cs16.samke.me">Show HN: Cs16.css – CSS library based on Counter Strike 1.6 UI</a></li>
-    </ul>
-  </li>
-  <li><strong>Fenwick树的发明</strong><br />
-文章讨论了Fenwick树的发明过程，这是一种用于高效区间查询和更新的数据结构。
-    <ul>
-      <li><a href="https://www.cambridge.org/core/journals/journal-of-functional-programming/article/you-could-have-invented-fenwick-trees/B4628279D4E54229CED97249E96F721D">You could have invented Fenwick trees</a></li>
-    </ul>
-  </li>
-  <li><strong>Ollama：对抗短信垃圾邮件</strong><br />
-一个项目展示了如何使用Ollama来戏弄短信垃圾邮件发送者，引发对短信安全和隐私保护的讨论。
-    <ul>
-      <li><a href="https://evan.widloski.com/software/sms_llm/">Show HN: Trolling SMS spammers with Ollama</a></li>
-    </ul>
-  </li>
-  <li><strong>Helix编辑器集成文件浏览器</strong><br />
-Helix编辑器的一个新特性，集成了文件浏览器，提高了文件管理和编辑的效率。
-    <ul>
-      <li><a href="https://github.com/helix-editor/helix/pull/11285">File Explorer is merged to Helix editor</a></li>
-    </ul>
-  </li>
-  <li><strong>加密货币百万富翁David Balland被绑架</strong><br />
-报道了一起针对加密货币公司高管的绑架案，引发了对加密货币安全和个人隐私保护的关注。
-    <ul>
-      <li><a href="https://moneycheck.com/french-police-free-kidnapped-ledger-executive-after-day-long-ordeal/">Kidnappers sever finger of cryptocurrency millionaire David Balland</a></li>
-    </ul>
-  </li>
-  <li><strong>Lightpanda：Zig语言开发的开源无头浏览器</strong><br />
-一个使用Zig语言开发的开源无头浏览器项目，为自动化测试和网页抓取提供了新的工具。
-    <ul>
-      <li><a href="https://github.com/lightpanda-io/browser">Show HN: Lightpanda, an open-source headless browser in Zig</a></li>
-    </ul>
-  </li>
-  <li><strong>Wild – Linux的快速链接器</strong><br />
-一个为Linux设计的快速链接器项目，旨在提高链接效率，对系统性能有潜在影响。
-    <ul>
-      <li><a href="https://github.com/davidlattimore/wild">Wild – A fast linker for Linux</a></li>
-    </ul>
-  </li>
-  <li><strong>Onit – 支持ChatGPT的开源桌面应用</strong><br />
-一个开源的桌面应用，支持ChatGPT和其他大型语言模型，提供了本地模式和多种功能。
-    <ul>
-      <li><a href="https://github.com/synth-inc/onit">Show HN: Onit – open-source ChatGPT Desktop with local mode, Claude, Gemini</a></li>
-    </ul>
-  </li>
-  <li><strong>Android短信网关使用MQTT</strong><br />
-一个项目展示了如何使用MQTT协议构建Android短信网关，为物联网通信提供了新的解决方案。
-    <ul>
-      <li><a href="https://github.com/ibnux/Android-SMS-Gateway-MQTT">Android SMS Gateway Using MQTT</a></li>
-    </ul>
-  </li>
-</ol>
-
-<p>[Kidnappers sever finger of</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-25 20:00:03]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-26 04:00:03]]></summary></entry></feed>
