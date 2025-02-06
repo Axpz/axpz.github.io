@@ -1,68 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-06T12:01:23+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/06/20-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-06T20:00:03+00:00</published><updated>2025-02-06T20:00:03+00:00</updated><id>/hacknews/2025/02/06/20:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/06/20-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-07 04:00:03</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-06T22:01:17+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/07/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-07T06:00:03+00:00</published><updated>2025-02-07T06:00:03+00:00</updated><id>/hacknews/2025/02/07/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/07/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-07 14:00:03</p>
 
 <ol>
-  <li><strong>Linux 在 PDF 中运行</strong><br />
-一个项目展示了如何在 PDF 文件中运行 Linux 系统，这种创新的技术展示不仅令人惊讶，也体现了技术的边界正在不断被突破。
+  <li><strong>SQLite Disk Page Explorer</strong><br />
+一个用于探索 SQLite 数据库磁盘页面的工具，可以帮助开发者更好地理解和分析数据库结构。
     <ul>
-      <li><a href="https://linux.doompdf.dev/linux.pdf">Linux Running in a PDF</a></li>
+      <li><a href="https://github.com/QuadrupleA/sqlite-page-explorer">SQLite Disk Page Explorer</a></li>
     </ul>
   </li>
-  <li><strong>Gemini 2.0 的影响</strong><br />
-文章讨论了 Gemini 2.0 协议如何改变 PDF 文件的摄取方式，以及它对网络协议未来发展的潜在影响。
+  <li><strong>R1 Computer Use</strong><br />
+R1 计算机的使用指南，R1 是一种基于RISC-V架构的开源计算机项目。
     <ul>
-      <li><a href="https://www.sergey.fyi/articles/gemini-flash-2">Ingesting PDFs and why Gemini 2.0 changes everything</a></li>
+      <li><a href="https://github.com/agentsea/r1-computer-use">R1 Computer Use</a></li>
     </ul>
   </li>
-  <li><strong>OpenWrt 24.10.0 稳定版发布</strong><br />
-OpenWrt 发布了其 24.10.0 版本的稳定更新，这对于路由器固件爱好者和开发者来说是一个重要的里程碑。
+  <li><strong>OpenLDK: A Java JIT compiler and runtime in Common Lisp</strong><br />
+一个用Common Lisp实现的Java即时编译器和运行时环境，展示了跨语言编程的可能性。
     <ul>
-      <li><a href="https://openwrt.org/releases/24.10/notes-24.10.0">OpenWrt 24.10.0 – First Stable Release</a></li>
+      <li><a href="https://github.com/atgreen/openldk">OpenLDK</a></li>
     </ul>
   </li>
-  <li><strong>编程 SDF 动画</strong><br />
-一个有趣的项目展示了如何使用编程技术来创建《瑞克和莫蒂》的 SDF（符号距离场）动画，这种技术在动画制作中的应用令人耳目一新。
+  <li><strong>Scala 3 Migration: Report from the Field</strong><br />
+一篇关于Scala 3迁移的现场报告，讨论了Scala 3的新特性和迁移过程中的挑战。
     <ul>
-      <li><a href="https://danielchasehooper.com/posts/code-animated-rick/">Programming SDF Animations of Rick and Morty</a></li>
+      <li><a href="https://blog.pierre-ricadat.com/scala-3-migration-report-from-the-field">Scala 3 Migration</a></li>
     </ul>
   </li>
-  <li><strong>FreeBSD 在高保真音频中的应用</strong><br />
-一篇文章详细介绍了如何使用 FreeBSD 进行高保真音频处理，包括实时处理和均衡器设置，为音频爱好者提供了宝贵的信息。
+  <li><strong>Simulating Water over Terrain</strong><br />
+一篇关于如何在地形上模拟水流效果的技术文章，涉及物理模拟和图形渲染技术。
     <ul>
-      <li><a href="https://m4c.pl/blog/freebsd-audio-setup-bitperfect-equalizer-realtime/">FreeBSD for hi-fi audio</a></li>
+      <li><a href="https://lisyarus.github.io/blog/posts/simulating-water-over-terrain.html">Simulating Water over Terrain</a></li>
     </ul>
   </li>
-  <li><strong>Okta Bcrypt 事件的 API 设计教训</strong><br />
-从 Okta Bcrypt 事件中提取的教训，讨论了如何设计更好的 API，这对于开发者在构建安全系统时具有重要的参考价值。
+  <li><strong>Self-hosted, simple web browser service – send URL, get screenshots</strong><br />
+一个自托管的简单网页浏览器服务，用户可以发送URL并获取网页截图。
     <ul>
-      <li><a href="https://n0rdy.foo/posts/20250121/okta-bcrypt-lessons-for-better-apis/">Okta Bcrypt incident lessons for designing better APIs</a></li>
+      <li><a href="https://github.com/US-Artificial-Intelligence/scraper">Self-hosted Web Browser Service</a></li>
     </ul>
   </li>
-  <li><strong>1930年代的相机</strong><br />
-一个在线展览展示了1930年代的相机和摄影技术，为摄影爱好者提供了一个了解历史的机会。
+  <li><strong>Paper Apps</strong><br />
+一个提供纸质应用程序的集合，这些应用程序可以在没有电子设备的情况下使用。
     <ul>
-      <li><a href="https://licm.org.uk/livingImage/1930Room.html">Cameras of 1930s Era</a></li>
+      <li><a href="https://gladdendesign.com/collections/paper-apps">Paper Apps</a></li>
     </ul>
   </li>
-  <li><strong>深度强化学习：从像素玩 Pong</strong><br />
-一篇2016年的文章，介绍了如何使用深度强化学习技术从像素级别开始学习玩 Pong 游戏，这是深度学习领域的经典案例。
+  <li><strong>Verse (YC W22) Is Hiring</strong><br />
+Verse，一家参与Y Combinator W22的初创公司，正在招聘新员工。
     <ul>
-      <li><a href="http://karpathy.github.io/2016/05/31/rl/">Deep Reinforcement Learning: Pong from Pixels</a></li>
+      <li><a href="item?id=42966455">Verse Is Hiring</a></li>
     </ul>
   </li>
-  <li><strong>最小有效剂量</strong><br />
-一篇文章讨论了最小有效剂量的概念，这对于药物研发和剂量控制具有重要意义。
+  <li><strong>Evaluating Code Embeddings</strong><br />
+一篇关于评估代码嵌入的文章，探讨了代码搜索和理解的技术进展。
     <ul>
-      <li><a href="https://winnielim.org/journal/minimum-effective-dose/">Minimum effective dose</a></li>
+      <li><a href="https://blog.voyageai.com/2024/12/04/code-retrieval-eval/">Evaluating Code Embeddings</a></li>
     </ul>
   </li>
-  <li><strong>跨平台操作系统 API 的缺失</strong><br />
-文章讨论了为什么缺少一个统一的跨平台操作系统 API 来处理计时器，这对于软件开发者来说是一个长期存在的问题。
+  <li><strong>Show HN: Heap Explorer</strong><br />
+一个展示堆内存结构和内容的工具，帮助开发者更好地理解和调试内存问题。
     <ul>
-      <li><a href="https://gaultier.github.io/blog/the_missing_cross_platform_os_api_for_timers.html">The missing cross-platform OS API for timers</a></li>
+      <li><a href="https://github.com/heap-exploitation/heap-explorer">Heap Explorer</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-07 04:00:03]]></summary></entry><entry><title type="html"></title><link href="/2025/02/06/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-02-06T12:01:23+00:00</published><updated>2025-02-06T12:01:23+00:00</updated><id>/2025/02/06/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/02/06/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
+  <li><strong>Aluminum Batteries Outlive Lithium-Ion with a Pinch of Salt</strong><br />
+一篇关于铝电池的研究文章，讨论了铝电池相较于锂电池的优势和潜在应用。
+    <ul>
+      <li><a href="https://spectrum.ieee.org/aluminum-battery">Aluminum Batteries</a></li>
+    </ul>
+  </li>
+  <li><strong>Transfinite NIM (the game, not the programming language)</strong><br />
+一篇关于无限NIM游戏的数学论文，探讨了NIM游戏在无限情况下的策略和结果。
+    <ul>
+      <li><a href="https://jdh.hamkins.org/transfinite-nim/">Transfinite NIM</a></li>
+    </ul>
+  </li>
+  <li><strong>T1: A RISC-V Vector processor implementation</strong><br />
+一个基于RISC-V架构的向量处理器实现，展示了开源硬件项目的最新进展。
+    <ul>
+      <li><a href="https://github.com/chipsalliance/t1">T1 RISC-V Vector Processor</a></li>
+    </ul>
+  </li>
+  <li><strong>Programming SDF Animations of Rick and Morty</strong><br />
+一篇关于如何使用符号距离场（SDF）技术制作Rick和Morty动画的文章。
+    <ul>
+      <li><a href="https://danielchasehooper.com/posts/code-animated-rick/">SDF Animations</a></li>
+    </ul>
+  </li>
+  <li><strong>Microsoft Go 1.24 FIPS changes</strong><br />
+微软宣布Go语言1.24版本的FIPS（联邦信息处理标准）更新，涉及安全性和合规性改进。
+    <ul>
+      <li><a href="https://devblogs.microsoft.com/go/go-1-24-fips-update/">Go 1.24 FIPS changes</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-07 14:00:03]]></summary></entry><entry><title type="html"></title><link href="/2025/02/06/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-02-06T22:01:17+00:00</published><updated>2025-02-06T22:01:17+00:00</updated><id>/2025/02/06/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/02/06/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
 
 <ol>
   <li><strong>QR码的新玩法</strong><br />
@@ -127,7 +157,70 @@ Y Combinator支持的公司Sei发布了招聘信息，寻找全栈工程师，�
   </li>
 </ol>
 
-<hr />]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/05/20-00-05-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-05T12:00:05+00:00</published><updated>2025-02-05T12:00:05+00:00</updated><id>/hacknews/2025/02/05/20:00:05-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/05/20-00-05-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-05 20:00:05</p>
+<hr />]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/06/20-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-06T20:00:03+00:00</published><updated>2025-02-06T20:00:03+00:00</updated><id>/hacknews/2025/02/06/20:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/06/20-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-07 04:00:03</p>
+
+<ol>
+  <li><strong>Linux 在 PDF 中运行</strong><br />
+一个项目展示了如何在 PDF 文件中运行 Linux 系统，这种创新的技术展示不仅令人惊讶，也体现了技术的边界正在不断被突破。
+    <ul>
+      <li><a href="https://linux.doompdf.dev/linux.pdf">Linux Running in a PDF</a></li>
+    </ul>
+  </li>
+  <li><strong>Gemini 2.0 的影响</strong><br />
+文章讨论了 Gemini 2.0 协议如何改变 PDF 文件的摄取方式，以及它对网络协议未来发展的潜在影响。
+    <ul>
+      <li><a href="https://www.sergey.fyi/articles/gemini-flash-2">Ingesting PDFs and why Gemini 2.0 changes everything</a></li>
+    </ul>
+  </li>
+  <li><strong>OpenWrt 24.10.0 稳定版发布</strong><br />
+OpenWrt 发布了其 24.10.0 版本的稳定更新，这对于路由器固件爱好者和开发者来说是一个重要的里程碑。
+    <ul>
+      <li><a href="https://openwrt.org/releases/24.10/notes-24.10.0">OpenWrt 24.10.0 – First Stable Release</a></li>
+    </ul>
+  </li>
+  <li><strong>编程 SDF 动画</strong><br />
+一个有趣的项目展示了如何使用编程技术来创建《瑞克和莫蒂》的 SDF（符号距离场）动画，这种技术在动画制作中的应用令人耳目一新。
+    <ul>
+      <li><a href="https://danielchasehooper.com/posts/code-animated-rick/">Programming SDF Animations of Rick and Morty</a></li>
+    </ul>
+  </li>
+  <li><strong>FreeBSD 在高保真音频中的应用</strong><br />
+一篇文章详细介绍了如何使用 FreeBSD 进行高保真音频处理，包括实时处理和均衡器设置，为音频爱好者提供了宝贵的信息。
+    <ul>
+      <li><a href="https://m4c.pl/blog/freebsd-audio-setup-bitperfect-equalizer-realtime/">FreeBSD for hi-fi audio</a></li>
+    </ul>
+  </li>
+  <li><strong>Okta Bcrypt 事件的 API 设计教训</strong><br />
+从 Okta Bcrypt 事件中提取的教训，讨论了如何设计更好的 API，这对于开发者在构建安全系统时具有重要的参考价值。
+    <ul>
+      <li><a href="https://n0rdy.foo/posts/20250121/okta-bcrypt-lessons-for-better-apis/">Okta Bcrypt incident lessons for designing better APIs</a></li>
+    </ul>
+  </li>
+  <li><strong>1930年代的相机</strong><br />
+一个在线展览展示了1930年代的相机和摄影技术，为摄影爱好者提供了一个了解历史的机会。
+    <ul>
+      <li><a href="https://licm.org.uk/livingImage/1930Room.html">Cameras of 1930s Era</a></li>
+    </ul>
+  </li>
+  <li><strong>深度强化学习：从像素玩 Pong</strong><br />
+一篇2016年的文章，介绍了如何使用深度强化学习技术从像素级别开始学习玩 Pong 游戏，这是深度学习领域的经典案例。
+    <ul>
+      <li><a href="http://karpathy.github.io/2016/05/31/rl/">Deep Reinforcement Learning: Pong from Pixels</a></li>
+    </ul>
+  </li>
+  <li><strong>最小有效剂量</strong><br />
+一篇文章讨论了最小有效剂量的概念，这对于药物研发和剂量控制具有重要意义。
+    <ul>
+      <li><a href="https://winnielim.org/journal/minimum-effective-dose/">Minimum effective dose</a></li>
+    </ul>
+  </li>
+  <li><strong>跨平台操作系统 API 的缺失</strong><br />
+文章讨论了为什么缺少一个统一的跨平台操作系统 API 来处理计时器，这对于软件开发者来说是一个长期存在的问题。
+    <ul>
+      <li><a href="https://gaultier.github.io/blog/the_missing_cross_platform_os_api_for_timers.html">The missing cross-platform OS API for timers</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-07 04:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/05/20-00-05-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-05T12:00:05+00:00</published><updated>2025-02-05T12:00:05+00:00</updated><id>/hacknews/2025/02/05/20:00:05-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/05/20-00-05-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-05 20:00:05</p>
 
 <ol>
   <li><strong>Kagi 公平定价介绍</strong><br />
@@ -572,67 +665,4 @@ Wikenigma 是一个关于未知事物的百科全书，其独特的内容和形�
       <li><a href="https://wikenigma.org.uk/start">Wikenigma – an Encyclopedia of Unknowns</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-26 18:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/26/06-00-04-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-26T06:00:04+00:00</published><updated>2025-01-26T06:00:04+00:00</updated><id>/hacknews/2025/01/26/06:00:04-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/26/06-00-04-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-26 14:00:04</p>
-
-<ol>
-  <li><strong>DeepSeek-R1: 通过强化学习激励大型语言模型的推理能力</strong><br />
-研究论文探讨了如何通过强化学习来提升大型语言模型（LLMs）的推理能力，这对于自然语言处理和人工智能领域是一个重要的研究方向。
-    <ul>
-      <li><a href="https://arxiv.org/abs/2501.12948">DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via RL</a></li>
-    </ul>
-  </li>
-  <li><strong>OpenRA：为现代时代重建的经典策略游戏</strong><br />
-OpenRA 是一个开源项目，旨在为现代操作系统重建经典策略游戏，如《命令与征服》等，提供了跨平台的游戏体验。
-    <ul>
-      <li><a href="https://www.openra.net/">OpenRA – Classic strategy games rebuilt for the modern era</a></li>
-    </ul>
-  </li>
-  <li><strong>Mac Classic II 启动的意外指令</strong><br />
-文章讲述了一个无效的 68030 指令如何意外地允许 Mac Classic II 成功启动，展示了计算机硬件和软件之间的复杂交互。
-    <ul>
-      <li><a href="https://www.downtowndougbrown.com/2025/01/the-invalid-68030-instruction-that-accidentally-allowed-the-mac-classic-ii-to-successfully-boot-up/">An invalid 68030 instruction accidentally allowed the Mac Classic II to boot</a></li>
-    </ul>
-  </li>
-  <li><strong>每个 HTML 元素的详细介绍</strong><br />
-一个全面的 HTML 元素参考手册，为开发者提供了每个 HTML 元素的详细信息和使用示例。
-    <ul>
-      <li><a href="https://iamwillwang.com/dollar/every-html-element/">Every HTML Element</a></li>
-    </ul>
-  </li>
-  <li><strong>不可变性改变一切</strong><br />
-一篇2016年的论文，讨论了不可变性在数据库和编程中的重要性，以及它如何改变我们对数据管理和程序设计的看法。
-    <ul>
-      <li><a href="https://www.cidrdb.org/cidr2015/Papers/CIDR15_Paper16.pdf">Immutability Changes Everything (2016) [pdf]</a></li>
-    </ul>
-  </li>
-  <li><strong>Wikenigma：未知事物的百科全书</strong><br />
-Wikienigma 是一个在线资源，收集和展示了各种未知事物的信息，从神秘生物到未解之谜，为好奇者提供了一个探索的平台。
-    <ul>
-      <li><a href="https://wikenigma.org.uk/start">Wikenigma – an Encyclopedia of Unknowns</a></li>
-    </ul>
-  </li>
-  <li><strong>使用 AI 开发更完整的人类大脑模型</strong><br />
-文章介绍了如何利用人工智能技术来构建更完整的人类大脑模型，这对于神经科学和人工智能的交叉领域具有重要意义。
-    <ul>
-      <li><a href="https://magazine.ucsf.edu/building-a-silicon-brain">Using AI to develop a fuller model of the human brain</a></li>
-    </ul>
-  </li>
-  <li><strong>寻找 DeepSeek 的异常令牌</strong><br />
-Substack 上的文章探讨了 DeepSeek V3 中的异常令牌，这对于理解大型语言模型的行为和潜在问题具有参考价值。
-    <ul>
-      <li><a href="https://outsidetext.substack.com/p/anomalous-tokens-in-deepseek-v3-and">Searching for DeepSeek’s glitch tokens</a></li>
-    </ul>
-  </li>
-  <li><strong>开放心脏协议</strong><br />
-一个旨在提高心脏健康意识和教育的项目，通过开放资源和工具来帮助人们更好地理解和管理心脏健康。
-    <ul>
-      <li><a href="https://openheart.fyi/">Open Heart Protocol</a></li>
-    </ul>
-  </li>
-  <li><strong>适用于 FPGA 的 32 位 RISC-V CPU 实现</strong><br />
-一个开源项目，提供了一个适用于 FPGA 的 32 位 RISC-V CPU 实现，这对于硬件设计和嵌入式系统开发具有重要意义。
-    <ul>
-      <li><a href="https://github.com/SpinalHDL/VexRiscv">A FPGA friendly 32 bit RISC-V CPU implementation</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-26 14:00:04]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-26 18:00:03]]></summary></entry></feed>
