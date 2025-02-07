@@ -1,5 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-06T22:01:17+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/07/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-07T06:00:03+00:00</published><updated>2025-02-07T06:00:03+00:00</updated><id>/hacknews/2025/02/07/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/07/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-07 14:00:03</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-07T10:43:57+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/07/18-42-40-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-07T14:42:40+00:00</published><updated>2025-02-07T14:42:40+00:00</updated><id>/hacknews/2025/02/07/18:42:40-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/07/18-42-40-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-07 22:42:40</p>
+
+<ol>
+  <li><strong>Donald Knuth的2024圣诞讲座</strong><br />
+Donald Knuth在2024年的圣诞讲座中讨论了强连通分量和弱连通分量，视频讲座吸引了广泛的关注。
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=Hi8r_63LGyg">Donald Knuth’s 2024 Christmas Lecture: Strong and Weak Components</a></li>
+    </ul>
+  </li>
+  <li><strong>reCAPTCHA是否符合GDPR</strong><br />
+一篇关于reCAPTCHA是否符合GDPR的文章引发了讨论，关注点在于用户隐私和数据保护。
+    <ul>
+      <li><a href="https://dg-datenschutz.de/ist_die_verwendung_von_recaptcha_dsgvo_konform/">Is the use of reCAPTCHA GDPR-compliant?</a></li>
+    </ul>
+  </li>
+  <li><strong>BBC探访建立在诈骗之上的城市</strong><br />
+BBC报道了一个以诈骗为基础的城市，涉及赌场和高楼大厦，揭示了背后的欺诈行为。
+    <ul>
+      <li><a href="https://www.bbc.co.uk/news/articles/c04nx1vnw17o">Casinos, high-rises and fraud: The BBC visits a city built on scams</a></li>
+    </ul>
+  </li>
+  <li><strong>Transformer – Spreadsheet</strong><br />
+一个基于Transformer模型的电子表格工具，展示了AI在数据处理中的应用潜力。
+    <ul>
+      <li><a href="https://www.byhand.ai/p/transformer-spreadsheet">Transformer – Spreadsheet</a></li>
+    </ul>
+  </li>
+  <li><strong>Easy 6502</strong><br />
+一个在线工具，用于学习和模拟6502微处理器，对复古计算机爱好者和教育者有吸引力。
+    <ul>
+      <li><a href="https://skilldrick.github.io/easy6502/">Easy 6502</a></li>
+    </ul>
+  </li>
+  <li><strong>“杀死用户”：一位幻灭的技术专家的思考</strong><br />
+一篇博客文章讨论了现代技术发展中“用户”角色的消亡，引发了对技术与人类关系的反思。
+    <ul>
+      <li><a href="https://www.pastagang.cc/blog/kill-the-user/">Kill the “user”: Musings of a disillusioned technologist</a></li>
+    </ul>
+  </li>
+  <li><strong>理解推理型大型语言模型（LLMs）</strong><br />
+一篇文章深入探讨了推理型大型语言模型的工作原理和应用，对AI领域的发展有重要意义。
+    <ul>
+      <li><a href="https://magazine.sebastianraschka.com/p/understanding-reasoning-llms">Understanding Reasoning LLMs</a></li>
+    </ul>
+  </li>
+  <li><strong>data.gov档案的宣布</strong><br />
+哈佛大学法学院图书馆宣布了data.gov档案的建立，这是一个重要的数据资源库。
+    <ul>
+      <li><a href="https://lil.law.harvard.edu/blog/2025/02/06/announcing-data-gov-archive/">Announcing the data.gov archive</a></li>
+    </ul>
+  </li>
+  <li><strong>Math.random()的深入探讨</strong><br />
+V8引擎团队的博客文章深入探讨了JavaScript中的Math.random()函数，对开发者有实际指导意义。
+    <ul>
+      <li><a href="https://v8.dev/blog/math-random">There’s Math.random(), and then there’s Math.random()</a></li>
+    </ul>
+  </li>
+  <li><strong>Emil作为自学成才的AI研究员的故事</strong><br />
+FloydHub上的文章讲述了Emil自学成为AI研究员的故事，激励了许多人。
+    <ul>
+      <li><a href="https://floydhub.ghost.io/emils-story-as-a-self-taught-ai-researcher/">Emil’s Story as a Self-Taught AI Researcher</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-07 22:42:40]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/07/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-07T06:00:03+00:00</published><updated>2025-02-07T06:00:03+00:00</updated><id>/hacknews/2025/02/07/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/07/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-07 14:00:03</p>
 
 <ol>
   <li><strong>SQLite Disk Page Explorer</strong><br />
@@ -92,577 +155,693 @@ Verse，一家参与Y Combinator W22的初创公司，正在招聘新员工。
       <li><a href="https://devblogs.microsoft.com/go/go-1-24-fips-update/">Go 1.24 FIPS changes</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-07 14:00:03]]></summary></entry><entry><title type="html"></title><link href="/2025/02/06/2025-01-24-10-57-19-hackernews_report.html" rel="alternate" type="text/html" title="" /><published>2025-02-06T22:01:17+00:00</published><updated>2025-02-06T22:01:17+00:00</updated><id>/2025/02/06/2025-01-24-10:57:19-hackernews_report</id><content type="html" xml:base="/2025/02/06/2025-01-24-10-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-24 10:57:19</p>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-07 14:00:03]]></summary></entry><entry><title type="html">Hacker News 热门话题 top 10 2025-01-23</title><link href="/hacknews/2025/01/23/19-00-02-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-23" /><published>2025-01-23T11:00:02+00:00</published><updated>2025-01-23T11:00:02+00:00</updated><id>/hacknews/2025/01/23/19:00:02-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/23/19-00-02-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-23 19:00:02</p>
 
 <ol>
-  <li><strong>QR码的新玩法</strong><br />
-讨论了一种特殊的QR码，能够根据观察角度的不同显示不同的目的地，这种技术结合了透镜效果和对抗性设计，展示了编码技术的新颖应用。
-    <ul>
-      <li><a href="https://mstdn.social/@isziaui/113874436953157913">A QR code that sends you to a different destination - lenticular and adversarial</a></li>
-    </ul>
-  </li>
-  <li><strong>感谢HN：我的自启动创业公司今天被收购了</strong><br />
-一位创业者分享了他的自启动创业公司被收购的消息，这在Hacker News社区中引起了热烈讨论，许多人对此表示祝贺和好奇。
-    <ul>
-      <li><a href="https://news.ycombinator.com/item?id=42806247">Thank HN: My bootstrapped startup got acquired today</a></li>
-    </ul>
-  </li>
-  <li><strong>Llama.vim – 本地LLM辅助文本补全</strong><br />
-一个基于Vim的插件，利用本地大型语言模型（LLM）来辅助文本补全，这个项目展示了LLM技术在代码编辑器中的应用潜力。
+  <li><strong>Llama.vim – 本地LLM辅助文本补全工具</strong><br />
+Llama.vim 是一个为 Vim 编辑器开发的本地LLM（Large Language Model）辅助文本补全工具，它允许用户在不依赖网络连接的情况下，利用本地模型进行文本补全，这对于需要离线工作的开发者来说是一个福音。
     <ul>
       <li><a href="https://github.com/ggml-org/llama.vim">Llama.vim – Local LLM-assisted text completion</a></li>
     </ul>
   </li>
-  <li><strong>超级马里奥的颜色</strong><br />
-一篇文章探讨了超级马里奥游戏中使用的颜色，分析了这些颜色如何影响玩家的视觉体验和游戏的情感氛围。
+  <li><strong>感谢HN：我的自启动创业公司今天被收购了</strong><br />
+一位创业者在Hacker News上分享了他的自启动创业公司被收购的消息，这类故事通常能激励其他创业者，同时也提供了关于创业、产品开发和市场定位的讨论。
     <ul>
-      <li><a href="https://lmnt.me/blog/the-most-mario-colors.html">The Most Mario Colors</a></li>
+      <li><a href="https://news.ycombinator.com/item?id=42806247">Thank HN: My bootstrapped startup got acquired today</a></li>
     </ul>
   </li>
-  <li><strong>XNU内核中的一个特别’可疑’的sysctl</strong><br />
-披露了XNU内核中的一个安全漏洞，这个漏洞涉及到一个特别“可疑”的系统控制接口，引起了安全专家和开发者的关注。
+  <li><strong>迷幻图形：介绍</strong><br />
+迷幻图形是一种视觉艺术形式，这篇文章提供了对这种艺术风格的介绍，探讨了其历史和技术实现，对于设计师和艺术家来说，这是一次视觉和创意的启发。
     <ul>
-      <li><a href="https://jprx.io/cve-2024-54507/">Susctl CVE-2024-54507: A particularly ‘sus’ sysctl in the XNU kernel</a></li>
+      <li><a href="https://benpence.com/blog/post/psychedelic-graphics-0">Psychedelic Graphics: An Introduction</a></li>
     </ul>
   </li>
-  <li><strong>从零开始制作开源笔记本电脑</strong><br />
-一个项目展示了如何从零开始制作一个开源笔记本电脑，这个项目不仅展示了硬件制造的复杂性，也体现了开源精神。
+  <li><strong>Bunster：将bash脚本编译成独立可执行文件的工具</strong><br />
+Bunster 是一个开源工具，可以将bash脚本编译成独立的可执行文件，这对于需要将脚本部署到不同环境的开发者来说非常有用。
     <ul>
-      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
-    </ul>
-  </li>
-  <li><strong>表面稳定的分形抖动技术</strong><br />
-一个开源项目，介绍了一种新的分形抖动技术，这种技术可以用于图像处理和视觉效果的生成。
-    <ul>
-      <li><a href="https://github.com/runevision/Dither3D">Surface-Stable Fractal Dithering</a></li>
-    </ul>
-  </li>
-  <li><strong>在超级英雄宇宙中的遍历拉格朗日动力学</strong><br />
-一篇学术论文，探讨了遍历拉格朗日动力学在超级英雄宇宙中的应用，这种跨学科的研究引起了广泛的兴趣。
-    <ul>
-      <li><a href="https://pubs.aip.org/aapt/ajp/article/93/2/127/3331568/Ergodic-Lagrangian-dynamics-in-a-superhero">Ergodic Lagrangian dynamics in a superhero universe</a></li>
+      <li><a href="https://github.com/yassinebenaid/bunster">Bunster: Compile bash scripts to self contained executables</a></li>
     </ul>
   </li>
   <li><strong>从零开始建造中世纪城堡</strong><br />
-一个项目记录了从零开始建造一个中世纪城堡的过程，这个项目不仅展示了建筑技术，也体现了历史和文化的传承。
+这是一个介绍如何从零开始建造中世纪城堡的项目，它不仅展示了建筑技术，还涉及到历史和文化，对于历史爱好者和建筑爱好者来说是一个有趣的话题。
     <ul>
       <li><a href="https://www.guedelon.fr/en/">Building a Medieval Castle from Scratch</a></li>
     </ul>
   </li>
-  <li><strong>Sei公司招聘</strong><br />
-Y Combinator支持的公司Sei发布了招聘信息，寻找全栈工程师，这个招聘信息在Hacker News上引起了关注。
+  <li><strong>处理文件真难（2019）</strong><br />
+这篇文章讨论了文件处理的复杂性，包括文件系统的局限性和现代编程中文件操作的挑战，对于开发者来说，这是一篇深入理解文件操作的文章。
     <ul>
-      <li><a href="https://www.ycombinator.com/companies/sei/jobs/LeAtLYf-full-stack-engineer-typescript-react-gen-ai">Sei (YC W22) Is Hiring</a></li>
+      <li><a href="https://danluu.com/deconstruct-files/">Working with Files Is Hard (2019)</a></li>
     </ul>
   </li>
+  <li><strong>Show HN：我从头开始制作了一个开源笔记本电脑</strong><br />
+一位开发者展示了他如何从头开始制作了一个开源笔记本电脑，这个项目涉及到硬件设计、软件开发和社区协作，对于硬件爱好者和开源社区来说是一个激动人心的项目。
+    <ul>
+      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
+    </ul>
+  </li>
+  <li><strong>TMSU：命令行工具，用于应用标签和查看虚拟标记文件系统</strong><br />
+TMSU 是一个命令行工具，它允许用户为文件和目录添加标签，并查看一个虚拟的标记文件系统，这对于需要管理大量文件的用户来说是一个有用的工具。
+    <ul>
+      <li><a href="https://tmsu.org/">TMSU: Command-line tool for applying tags and viewing virtual tagged filesystem</a></li>
+    </ul>
+  </li>
+  <li><strong>轨道绘图仪（2019）</strong><br />
+这篇文章介绍了一种名为“轨道绘图仪”的数学绘图工具，它可以用来创建复杂的几何图形，对于数学和艺术爱好者来说，这是一次探索数学之美的机会。
+    <ul>
+      <li><a href="https://www.redblobgames.com/x/1903-orbit-spirograph/">Orbit Spirograph (2019)</a></li>
+    </ul>
+  </li>
+  <li><strong>Intrinsic (YC W23) 正在招聘</strong><br />
+Intrinsic 是一家由Y Combinator支持的初创公司，目前正在招聘新成员，这对于寻找工作机会的开发者和创业者来说是一个值得关注的消息。
+    <ul>
+      <li><a href="https://news.ycombinator.com/item?id=42805699">Intrinsic (YC W23) Is Hiring</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 19:00:02]]></summary></entry><entry><title type="html">Hacker News 热门话题 top 10 2025-01-23</title><link href="/hacknews/2025/01/23/17-36-48-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-23" /><published>2025-01-23T09:36:48+00:00</published><updated>2025-01-23T09:36:48+00:00</updated><id>/hacknews/2025/01/23/17:36:48-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/23/17-36-48-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-23 17:36:48</p>
+
+<ol>
+  <li><strong>Bunster: 将 bash 脚本编译为独立可执行文件</strong><br />
+Bunster 是一个工具，可以将 bash 脚本编译成独立的可执行文件，这对于需要将脚本部署到不同环境的开发者来说是一个便利的功能。
+    <ul>
+      <li><a href="https://github.com/yassinebenaid/bunster">Bunster: Compile bash scripts to self contained executables</a></li>
+    </ul>
+  </li>
+  <li><strong>Psychedelic Graphics: An Introduction</strong><br />
+本篇文章介绍了迷幻图形的历史和设计原理，探讨了这种风格如何影响了现代视觉艺术和设计。
+    <ul>
+      <li><a href="https://benpence.com/blog/post/psychedelic-graphics-0">Psychedelic Graphics: An Introduction</a></li>
+    </ul>
+  </li>
+  <li><strong>Working with Files Is Hard (2019)</strong><br />
+这篇文章讨论了文件操作的复杂性，包括文件系统的局限性和现代编程中处理文件的挑战。
+    <ul>
+      <li><a href="https://danluu.com/deconstruct-files/">Working with Files Is Hard</a></li>
+    </ul>
+  </li>
+  <li><strong>TMSU: 命令行工具，用于应用标签和查看虚拟标记文件系统</strong><br />
+TMSU 是一个命令行工具，它允许用户给文件和目录打标签，并查看一个基于这些标签的虚拟文件系统。
+    <ul>
+      <li><a href="https://tmsu.org/">TMSU: Command-line tool for applying tags and viewing virtual tagged filesystem</a></li>
+    </ul>
+  </li>
+  <li><strong>Show HN: 从头开始制作的开源笔记本电脑</strong><br />
+一个开发者展示了他如何从头开始制作一个开源笔记本电脑的过程，包括硬件选择和软件配置。
+    <ul>
+      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
+    </ul>
+  </li>
+  <li><strong>Orbit Spirograph (2019)</strong><br />
+这篇文章介绍了一种名为“轨道绘图仪”的数学绘图工具，它可以用来创建复杂的几何图案。
+    <ul>
+      <li><a href="https://www.redblobgames.com/x/1903-orbit-spirograph/">Orbit Spirograph</a></li>
+    </ul>
+  </li>
+  <li><strong>Intrinsic (YC W23) Is Hiring</strong><br />
+Intrinsic，一家 Y Combinator 支持的初创公司，正在招聘，这表明了初创公司在招聘技术人才方面的活跃性。
+    <ul>
+      <li><a href="https://news.ycombinator.com/item?id=42805699">Intrinsic (YC W23) Is Hiring</a></li>
+    </ul>
+  </li>
+  <li><strong>Show HN: libmodulor – 构建多平台应用的 TypeScript 库</strong><br />
+libmodulor 是一个有特定观点的 TypeScript 库，旨在帮助开发者构建跨平台的应用。
+    <ul>
+      <li><a href="https://github.com/c100k/libmodulor">Show HN: libmodulor – An opinionated TS library to build multi-platform apps</a></li>
+    </ul>
+  </li>
+  <li><strong>Third Base (2001)</strong><br />
+这篇文章探讨了棒球运动中的“三垒”位置，分析了其在战术和策略中的重要性。
+    <ul>
+      <li><a href="https://www.americanscientist.org/article/third-base">Third Base</a></li>
+    </ul>
+  </li>
+  <li><strong>Where is London’s most central sheep?</strong><br />
+这篇文章通过数据分析，找到了伦敦地理位置最中心的羊，这是一个有趣的地理和数据分析案例。
+    <ul>
+      <li><a href="https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html">Where is London’s most central sheep?</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 17:36:48]]></summary></entry><entry><title type="html">Hacker News 热门话题 top 10 2025-01-23</title><link href="/hacknews/2025/01/23/17-29-36-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-23" /><published>2025-01-23T09:29:36+00:00</published><updated>2025-01-23T09:29:36+00:00</updated><id>/hacknews/2025/01/23/17:29:36-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/23/17-29-36-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-23 17:29:36</p>
+
+<ol>
+  <li><strong>Bunster 工具介绍</strong><br />
+Bunster 是一个可以将 bash 脚本编译成独立可执行文件的工具，为脚本部署和分发提供了便利。
+    <ul>
+      <li><a href="https://github.com/yassinebenaid/bunster">Bunster: Compile bash scripts to self contained executables</a></li>
+    </ul>
+  </li>
+  <li><strong>迷幻图形介绍</strong><br />
+文章介绍了迷幻图形的历史和设计原理，为设计师和艺术家提供了灵感。
+    <ul>
+      <li><a href="https://benpence.com/blog/post/psychedelic-graphics-0">Psychedelic Graphics: An Introduction</a></li>
+    </ul>
+  </li>
+  <li><strong>TMSU 命令行工具</strong><br />
+TMSU 是一个命令行工具，用于给文件系统打标签和查看虚拟标签文件系统，增强了文件管理的灵活性。
+    <ul>
+      <li><a href="https://tmsu.org/">TMSU: Command-line tool for applying tags and viewing virtual tagged filesystem</a></li>
+    </ul>
+  </li>
+  <li><strong>自制开源笔记本电脑</strong><br />
+一个开发者展示了他从头开始制作开源笔记本电脑的过程，引起了社区的广泛关注。
+    <ul>
+      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
+    </ul>
+  </li>
+  <li><strong>处理文件的困难</strong><br />
+文章讨论了在现代编程中处理文件的复杂性，以及如何优化文件操作。
+    <ul>
+      <li><a href="https://danluu.com/deconstruct-files/">Working with Files Is Hard</a></li>
+    </ul>
+  </li>
+  <li><strong>轨道绘图仪</strong><br />
+介绍了一种名为轨道绘图仪的数学绘图工具，可以创建复杂的几何图形。
+    <ul>
+      <li><a href="https://www.redblobgames.com/x/1903-orbit-spirograph/">Orbit Spirograph</a></li>
+    </ul>
+  </li>
+  <li><strong>Intrinsic 招聘信息</strong><br />
+YC W23 孵化的公司 Intrinsic 发布了招聘信息，寻找技术人才。
+    <ul>
+      <li><a href="item?id=42805699">Intrinsic (YC W23) Is Hiring</a></li>
+    </ul>
+  </li>
+  <li><strong>libmodulor TS 库</strong><br />
+展示了一个用于构建多平台应用的 TypeScript 库 libmodulor，强调了其“有意见”的设计哲学。
+    <ul>
+      <li><a href="https://github.com/c100k/libmodulor">Show HN: libmodulor – An opinionated TS library to build multi-platform apps</a></li>
+    </ul>
+  </li>
+  <li><strong>第三垒（棒球术语）</strong><br />
+文章探讨了棒球中的“第三垒”概念，以及它在统计学和战术上的重要性。
+    <ul>
+      <li><a href="https://www.americanscientist.org/article/third-base">Third Base</a></li>
+    </ul>
+  </li>
+  <li><strong>伦敦最中心的羊</strong><br />
+一篇有趣的文章探讨了伦敦最中心的羊的位置，以及这个概念背后的城市地理学。
+    <ul>
+      <li><a href="https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html">Where is London’s most central sheep?</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 17:29:36]]></summary></entry><entry><title type="html">Hacker News 热门话题 top 10 2025-01-23</title><link href="/hacknews/2025/01/23/17-18-32-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-23" /><published>2025-01-23T09:18:32+00:00</published><updated>2025-01-23T09:18:32+00:00</updated><id>/hacknews/2025/01/23/17:18:32-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/23/17-18-32-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-23 17:18:32</p>
+
+<ol>
+  <li><strong>Bunster 工具介绍</strong>：一个可以将 bash 脚本编译成独立可执行文件的工具，为脚本开发者提供了便利。
+    <ul>
+      <li>Bunster: Compile bash scripts to self contained executables: https://github.com/yassinebenaid/bunster</li>
+    </ul>
+  </li>
+  <li><strong>迷幻图形介绍</strong>：一篇关于迷幻图形的介绍文章，探讨了这种视觉艺术的风格和特点。
+    <ul>
+      <li>Psychedelic Graphics: An Introduction: https://benpence.com/blog/post/psychedelic-graphics-0</li>
+    </ul>
+  </li>
+  <li><strong>TMSU 命令行工具</strong>：一个用于应用标签和查看虚拟标记文件系统的命令行工具。
+    <ul>
+      <li>TMSU: Command-line tool for applying tags and viewing virtual tagged filesystem: https://tmsu.org/</li>
+    </ul>
+  </li>
+  <li><strong>开源笔记本电脑制作</strong>：一个开发者展示了他从头开始制作的开源笔记本电脑。
+    <ul>
+      <li>Show HN: I made an open-source laptop from scratch: https://www.byran.ee/posts/creation/</li>
+    </ul>
+  </li>
+  <li><strong>轨道绘图仪</strong>：一篇关于轨道绘图仪的介绍文章，探讨了这种数学绘图工具的工作原理。
+    <ul>
+      <li>Orbit Spirograph: https://www.redblobgames.com/x/1903-orbit-spirograph/</li>
+    </ul>
+  </li>
+  <li><strong>libmodulor TS库</strong>：一个用于构建多平台应用的意见性TypeScript库。
+    <ul>
+      <li>Show HN: libmodulor – An opinionated TS library to build multi-platform apps: https://github.com/c100k/libmodulor</li>
+    </ul>
+  </li>
+  <li><strong>Intrinsic 招聘信息</strong>：一家 YC W23 孵化的公司正在招聘。
+    <ul>
+      <li>Intrinsic (YC W23) Is Hiring: item?id=42805699</li>
+    </ul>
+  </li>
+  <li><strong>文件操作的难点</strong>：一篇讨论文件操作难点的文章，分析了文件系统和文件操作的复杂性。
+    <ul>
+      <li>Working with Files Is Hard: https://danluu.com/deconstruct-files/</li>
+    </ul>
+  </li>
+  <li><strong>第三垒</strong>：一篇关于棒球中第三垒位置的文章，探讨了这个位置的重要性和特点。
+    <ul>
+      <li>Third Base: https://www.americanscientist.org/article/third-base</li>
+    </ul>
+  </li>
+  <li><strong>伦敦最中心的羊</strong>：一篇探讨伦敦最中心位置的羊的文章，提供了有趣的地理和文化信息。
+    <ul>
+      <li>
+        <h2 id="where-is-londons-most-central-sheep-httpsdiamondgeezerblogspotcom202501londons-most-central-sheephtml">Where is London’s most central sheep?: https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html</h2>
+      </li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 17:18:32]]></summary></entry><entry><title type="html">Hacker News 热门话题 top 10 2025-01-23</title><link href="/hacknews/2025/01/23/16-57-19-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-23" /><published>2025-01-23T08:57:19+00:00</published><updated>2025-01-23T08:57:19+00:00</updated><id>/hacknews/2025/01/23/16:57:19-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/23/16-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-23 16:57:19</p>
+
+<ol>
+  <li><strong>Bunster：将 Bash 脚本编译成独立可执行文件的工具</strong>：一个 GitHub 项目，允许用户将 Bash 脚本编译成独立的可执行文件，提高脚本的便携性和执行效率。
+    <ul>
+      <li><a href="https://github.com/yassinebenaid/bunster">Bunster: Compile bash scripts to self contained executables</a></li>
+    </ul>
+  </li>
+  <li><strong>Psychedelic Graphics：介绍</strong>：一篇博客文章，介绍了迷幻图形的历史和技术，探讨了这种风格在现代设计中的应用。
+    <ul>
+      <li><a href="https://benpence.com/blog/post/psychedelic-graphics-0">Psychedelic Graphics: An Introduction</a></li>
+    </ul>
+  </li>
+  <li><strong>Show HN：从头开始制作的开源笔记本电脑</strong>：一个开发者展示了他如何从零开始制作一个开源笔记本电脑，包括硬件和软件的集成。
+    <ul>
+      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
+    </ul>
+  </li>
+  <li><strong>Show HN：libmodulor – 用于构建多平台应用的 TypeScript 库</strong>：一个 GitHub 项目，提供了一个有特定观点的 TypeScript 库，用于构建跨平台应用程序。
+    <ul>
+      <li><a href="https://github.com/c100k/libmodulor">Show HN: libmodulor – An opinionated TS library to build multi-platform apps</a></li>
+    </ul>
+  </li>
+  <li><strong>Orbit Spirograph：数学艺术</strong>：一个关于轨道绘图仪的数学艺术文章，探讨了这种绘图工具的数学原理和美学。
+    <ul>
+      <li><a href="https://www.redblobgames.com/x/1903-orbit-spirograph/">Orbit Spirograph (2019)</a></li>
+    </ul>
+  </li>
+  <li><strong>Third Base：棒球术语的科学解释</strong>：一篇科学美国人的文章，解释了棒球术语“第三垒”背后的科学原理。
+    <ul>
+      <li><a href="https://www.americanscientist.org/article/third-base">Third Base (2001)</a></li>
+    </ul>
+  </li>
+  <li><strong>TMSU：命令行工具，用于应用标签和查看虚拟标记文件系统</strong>：一个命令行工具，允许用户为文件和目录添加标签，并查看一个基于标签的虚拟文件系统。
+    <ul>
+      <li><a href="https://tmsu.org/">TMSU: Command-line tool for applying tags and viewing virtual tagged filesystem</a></li>
+    </ul>
+  </li>
+  <li><strong>伦敦最中心的羊在哪里？</strong>：一篇博客文章，探讨了伦敦最中心的羊的位置，以及这个概念背后的地理和文化意义。
+    <ul>
+      <li><a href="https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html">Where is London’s most central sheep?</a></li>
+    </ul>
+  </li>
+  <li><strong>英国微型巨头</strong>：一篇博客文章，讨论了英国微型计算机产业的历史和影响，以及它如何塑造了现代技术。
+    <ul>
+      <li><a href="https://www.abortretry.fail/p/the-british-micro-behemoth">The British Micro Behemoth</a></li>
+    </ul>
+  </li>
+  <li><strong>查看压缩算法</strong>：一篇博客文章，深入探讨了不同的压缩算法，包括它们的工作原理和应用场景。
+    <ul>
+      <li><a href="https://cefboud.github.io/posts/compression/">Taking a Look at Compression Algorithms</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 16:57:19]]></summary></entry><entry><title type="html">git workflow</title><link href="/k8s/2025/01/23/09-47-52-gitworkflow.html" rel="alternate" type="text/html" title="git workflow" /><published>2025-01-23T01:47:52+00:00</published><updated>2025-01-23T01:47:52+00:00</updated><id>/k8s/2025/01/23/09:47:52-gitworkflow</id><content type="html" xml:base="/k8s/2025/01/23/09-47-52-gitworkflow.html"><![CDATA[<p>一图胜千文，这张图真是让我爱不释手啊</p>
+
+<p><img src="/assets/images/git-workflow.gif" alt="git workflow" /></p>
+
+<h1 id="git-的核心概念">Git 的核心概念</h1>
+
+<p>Git 是一种分布式版本控制系统，主要用于管理代码的变更。它通过多个状态和区间，帮助开发者跟踪、管理和共享代码。</p>
+
+<h2 id="工作目录-working-directory">工作目录 (Working Directory)</h2>
+
+<p>本地文件夹，包含所有正在开发和修改的代码，文件有两种状态</p>
+<ul>
+  <li><strong>未跟踪(Untracked)</strong>：新文件，Git尚未开始管理</li>
+  <li><strong>已跟踪(Tracked)</strong>: 被Git管理的文件，可用于修改、未修改或暂存状态</li>
+</ul>
+
+<h2 id="暂存区-staging-area">暂存区 (Staging Area)</h2>
+
+<ul>
+  <li>又称为<strong>Index</strong>， 是一个中间区域，用于保存你准备提交到本地仓库的更改</li>
+  <li>暂存区可以理解为提交的草稿区，只有暂存的文件才会被提交</li>
+</ul>
+
+<h2 id="本地仓库local-repo">本地仓库(Local Repo)</h2>
+
+<ul>
+  <li>包含所有的提交历史，保存了项目的版本变化</li>
+  <li>通过<code class="language-plaintext highlighter-rouge">git commit</code>将暂存区的更改记录到本地仓库</li>
+</ul>
+
+<h2 id="远程仓库remote-repo">远程仓库(Remote Repo)</h2>
+<ul>
+  <li>通常是托管在服务器或云端 (GitHub, GitLab)的仓库</li>
+  <li>本地仓库的更改可以通过<code class="language-plaintext highlighter-rouge">git push</code> 推送到远程仓库，工团队成员共享</li>
+</ul>
+
+<h1 id="git-的设计哲学">Git 的设计哲学</h1>
+
+<h2 id="分布式版本控制">分布式版本控制</h2>
+<ul>
+  <li>Git的核心在于每个开发者都拥有完成的仓库副本，确保即使没有网络链接，也能进行代码的管理和回滚</li>
+</ul>
+
+<h2 id="文件的三个区域">文件的三个区域</h2>
+<ul>
+  <li><strong>工作目录</strong> <strong>暂存区</strong> <strong>本地仓库</strong> 的分离，使得修改和提交具有更高的灵活性</li>
+</ul>
+
+<h2 id="基于快照而非差异">基于快照而非差异</h2>
+<ul>
+  <li>Git 通过报错文件快照 (snapshot) 而非改动，提高了性能和版本管理效率</li>
+</ul>
+
+<h2 id="高效分支管理">高效分支管理</h2>
+<ul>
+  <li>Git 的分支(Branch) 轻量且易于合并，便于多人协作和快速开发</li>
+</ul>
+
+<p><strong>Note:</strong>
+每次提交就是一张快照照片： 项目所有文件的当前状态都被记录下来。
+未变动的文件只存一次： Git 不会重复保存相同的文件，依靠引用来避免冗余。
+高效与完整结合： 快照是对版本状态的完整记录，但通过引用和压缩技术使其存储效率极高。
+通过这种快照机制，Git 既保证了性能，又能方便地管理代码版本，让开发者专注于编程而无需关心底层实现。</p>
+
+<p>假设有一个项目包含三个文件：<code class="language-plaintext highlighter-rouge">file1.txt</code>、<code class="language-plaintext highlighter-rouge">file2.txt</code> 和 <code class="language-plaintext highlighter-rouge">file3.txt</code>，以下是文件的变更和提交的流程：</p>
+
+<p><strong>初次提交</strong></p>
+
+<ul>
+  <li>
+    <p>Git 保存所有文件的完整内容（Blob），并生成 Tree 和 Commit 对象。</p>
+
+    <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Commit</span> <span class="err">→</span> <span class="n">Tree</span> <span class="err">→</span> <span class="p">[</span><span class="nb">Blob</span><span class="p">(</span><span class="n">file1</span><span class="p">),</span> <span class="nb">Blob</span><span class="p">(</span><span class="n">file2</span><span class="p">),</span> <span class="nb">Blob</span><span class="p">(</span><span class="n">file3</span><span class="p">)]</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p><strong>第二次提交</strong></p>
+
+<ul>
+  <li>修改了 <code class="language-plaintext highlighter-rouge">file2.txt</code>，其他文件未变动。</li>
+  <li>Git 只保存 <code class="language-plaintext highlighter-rouge">file2.txt</code> 的新 Blob，对未变动的文件使用之前的引用。
+    <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Commit</span> <span class="err">→</span> <span class="n">Tree</span> <span class="err">→</span> <span class="p">[</span><span class="nb">Blob</span><span class="p">(</span><span class="n">file1</span><span class="p">),</span> <span class="nb">Blob</span><span class="p">(</span><span class="n">new_file2</span><span class="p">),</span> <span class="nb">Blob</span><span class="p">(</span><span class="n">file3</span><span class="p">)]</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p><strong>第三次提交</strong></p>
+
+<ul>
+  <li>修改了 <code class="language-plaintext highlighter-rouge">file3.txt</code>。</li>
+  <li>
+    <p>Git 保存 <code class="language-plaintext highlighter-rouge">file3.txt</code> 的新 Blob，其余文件继续引用之前的 Blob。</p>
+
+    <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">Commit</span> <span class="err">→</span> <span class="n">Tree</span> <span class="err">→</span> <span class="p">[</span><span class="nb">Blob</span><span class="p">(</span><span class="n">file1</span><span class="p">),</span> <span class="nb">Blob</span><span class="p">(</span><span class="n">new_file2</span><span class="p">),</span> <span class="nb">Blob</span><span class="p">(</span><span class="n">new_file3</span><span class="p">)]</span>
+</code></pre></div>    </div>
+  </li>
+</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="git" /><category term="tech" /><summary type="html"><![CDATA[一图胜千文，这张图真是让我爱不释手啊]]></summary></entry><entry><title type="html">Gateway DNAT网络不可用问题排查和解决方案</title><link href="/k8s/2025/01/23/20-00-00-traefik-gateway.html" rel="alternate" type="text/html" title="Gateway DNAT网络不可用问题排查和解决方案" /><published>2025-01-23T01:47:52+00:00</published><updated>2025-01-23T01:47:52+00:00</updated><id>/k8s/2025/01/23/20:00:00-traefik-gateway</id><content type="html" xml:base="/k8s/2025/01/23/20-00-00-traefik-gateway.html"><![CDATA[<p>Gateway DNAT网络不可用问题排查和解决方案</p>
+
+<h2 id="问题描述">问题描述</h2>
+
+<p>在个人云主机上做了两个DNAT规则，将流量导入到私有环境中的虚拟机，但安装了Traefik（K3s）之后，发现当前网络不可用，并且出现了 400 错误。</p>
+
+<h3 id="测试">测试</h3>
+
+<ul>
+  <li>在本地请求网络服务时没有问题。</li>
+  <li>请求云主机网络服务时出现 400 错误，说明问题出在新安装的Traefik上。</li>
+</ul>
+
+<h3 id="traffic-flow-调试分析">Traffic Flow 调试分析</h3>
+
+<p><strong>1. 深入查看之前的NAT规则，发现没有问题：</strong></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> PREROUTING <span class="nt">-p</span> tcp <span class="nt">--dport</span> 80 <span class="nt">-d</span> 74.121.149.207 <span class="nt">-j</span> DNAT <span class="nt">--to-destination</span> 10.4.0.3:80
+<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> PREROUTING <span class="nt">-p</span> tcp <span class="nt">--dport</span> 443 <span class="nt">-d</span> 74.121.149.207 <span class="nt">-j</span> DNAT <span class="nt">--to-destination</span> 10.4.0.3:443
+<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> POSTROUTING <span class="nt">-o</span> eth0 <span class="nt">-j</span> MASQUERADE
+<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> POSTROUTING <span class="nt">-o</span> wg0 <span class="nt">-j</span> MASQUERADE
+</code></pre></div></div>
+
+<p><strong>2. 继续查看所有的DNAT规则，发现多了两条规则：</strong></p>
+
+<p>通过 iptables-save | grep 74.121.149.207 查看：</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">-A</span> KUBE-SERVICES <span class="nt">-d</span> 74.121.149.207/32 <span class="nt">-p</span> tcp <span class="nt">-m</span> comment <span class="nt">--comment</span> <span class="s2">"kube-system/traefik:web loadbalancer IP"</span> <span class="nt">-m</span> tcp <span class="nt">--dport</span> 80 <span class="nt">-j</span> KUBE-EXT-UQMCRMJZLI3FTLDP
+<span class="nt">-A</span> KUBE-SERVICES <span class="nt">-d</span> 74.121.149.207/32 <span class="nt">-p</span> tcp <span class="nt">-m</span> comment <span class="nt">--comment</span> <span class="s2">"kube-system/traefik:websecure loadbalancer IP"</span> <span class="nt">-m</span> tcp <span class="nt">--dport</span> 443 <span class="nt">-j</span> KUBE-EXT-CVG3OEGEH7H5P3HQ
+</code></pre></div></div>
+
+<p><strong>从以上规则可以看出，原先的规则被新添加的规则覆盖了。这是由于Traefik作为Kubernetes的Ingress Controller，它会动态管理网络流量，并且在 KUBE-SERVICES 链中插入新的规则，导致原本的DNAT规则失效。</strong></p>
+
+<p>看到这里，我们不妨深入追踪一下traefik的网络流量</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>k get svc <span class="nt">-owide</span> <span class="nt">-n</span> kube-system
+NAMESPACE     NAME               TYPE           CLUSTER-IP    EXTERNAL-IP            PORT<span class="o">(</span>S<span class="o">)</span>   AGE   SELECTOR
+              kubernetes         ClusterIP      10.43.0.1     &lt;none&gt;                 443/TCP   14d   &lt;none&gt;
+kube-system   traefik            LoadBalancer   10.43.2.186   74.121.149.207         80:30974/TCP,443:31017/TCP   36h   app.kubernetes.io/instance<span class="o">=</span>traefik-kube-system,app.kubernetes.
+</code></pre></div></div>
+
+<p>iptables-save
+```bash iptables-save</p>
+
+<p>-A KUBE-SERVICES -d 74.121.149.207/32 -p tcp -m comment –comment “kube-system/traefik:web loadbalancer IP” -m tcp –dport 80 -j KUBE-EXT-UQMCRMJZLI3FTLDP</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+nft list table nat  
+```bash
+chain KUBE-EXT-UQMCRMJZLI3FTLDP {
+          counter packets 305 bytes 15115 jump KUBE-MARK-MASQ
+        counter packets 305 bytes 15115 jump KUBE-SVC-UQMCRMJZLI3FTLDP
+}
+
+chain KUBE-MARK-MASQ {
+        counter packets 2 bytes 112 meta mark set mark or 0x4000
+}
+
+chain KUBE-SVC-UQMCRMJZLI3FTLDP {
+    meta l4proto tcp ip saddr != 10.42.0.0/16 ip daddr 10.43.2.186  tcp dport 80 counter packets 0 bytes 0 jump KUBE-MARK-MASQ
+    counter packets 307 bytes 15235 jump KUBE-SEP-6ESQAMORAOJ7JTEK
+}
+
+# 该链处理从外部发送到服务的流量，先通过源地址检查（排除 Kubernetes 内部流量），然后将流量转发到后端 Pod 的链（KUBE-SEP-6ESQAMORAOJ7JTEK）
+
+chain KUBE-SEP-6ESQAMORAOJ7JTEK {
+    ip saddr 10.42.0.35  counter packets 0 bytes 0 jump KUBE-MARK-MASQ
+    meta l4proto tcp   counter packets 307 bytes 15235 dnat to 10.42.0.35:8000
+}
+
+# dnat to 10.42.0.35:8000
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>k get po <span class="nt">-owide</span> <span class="nt">-A</span>
+kube-system   traefik-b7b68d8cb-dkt4v                   1/1     Running     0             34h   10.42.0.35   calm-baud-1.localdomain   &lt;none&gt;           &lt;none&gt;
+</code></pre></div></div>
+
+<p>至此网络进入到了traefik的pod中</p>
+
+<h2 id="解决方案">解决方案</h2>
+
+<p>既然安装了traefik，那我们不如使用traefik来统一处理所有的流量，让它成为ingress/egress的统一口</p>
+
+<p>废话少说，直接贴上traefik的proxy配置吧</p>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">apiVersion</span><span class="pi">:</span> <span class="s">v1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Service</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">hacknews-service</span>
+  <span class="na">namespace</span><span class="pi">:</span> <span class="s">default</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">ExternalName</span>
+  <span class="na">externalName</span><span class="pi">:</span> <span class="s">news.ycombinator.com</span>
+  <span class="na">ports</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">port</span><span class="pi">:</span> <span class="m">443</span>
+      <span class="na">targetPort</span><span class="pi">:</span> <span class="m">443</span>
+<span class="nn">---</span>
+<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">traefik.containo.us/v1alpha1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Middleware</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">hacknews-strip-prefix</span>
+  <span class="na">namespace</span><span class="pi">:</span> <span class="s">default</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">stripPrefix</span><span class="pi">:</span>
+    <span class="na">prefixes</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s2">"</span><span class="s">/hacknews"</span>
+<span class="nn">---</span>
+<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">traefik.containo.us/v1alpha1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">IngressRoute</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">hacknews-proxy</span> <span class="c1"># proxy to external service</span>
+  <span class="na">namespace</span><span class="pi">:</span> <span class="s">default</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">entryPoints</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">websecure</span>
+  <span class="na">routes</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">match</span><span class="pi">:</span> <span class="s2">"</span><span class="s">PathPrefix(`/hacknews`)"</span>
+      <span class="na">kind</span><span class="pi">:</span> <span class="s">Rule</span>
+      <span class="na">middlewares</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">hacknews-strip-prefix</span>
+      <span class="na">services</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">hacknews-service</span>
+          <span class="na">port</span><span class="pi">:</span> <span class="m">443</span>
+<span class="nn">---</span>
+<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">v1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">Service</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">github-service</span>
+  <span class="na">namespace</span><span class="pi">:</span> <span class="s">default</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">ports</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">port</span><span class="pi">:</span> <span class="m">80</span>
+      <span class="na">targetPort</span><span class="pi">:</span> <span class="m">80</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">ExternalName</span>
+  <span class="na">externalName</span><span class="pi">:</span> <span class="s2">"</span><span class="s">10.4.0.3"</span> <span class="c1"># Directly using the backend Pod's IP address</span>
+<span class="nn">---</span>
+<span class="na">apiVersion</span><span class="pi">:</span> <span class="s">traefik.containo.us/v1alpha1</span>
+<span class="na">kind</span><span class="pi">:</span> <span class="s">IngressRoute</span>
+<span class="na">metadata</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">github-proxy</span> <span class="c1"># proxy to backend service</span>
+  <span class="na">namespace</span><span class="pi">:</span> <span class="s">default</span>
+<span class="na">spec</span><span class="pi">:</span>
+  <span class="na">entryPoints</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">web</span>
+  <span class="na">routes</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">match</span><span class="pi">:</span> <span class="s">PathPrefix(`/github/webhook`)</span>  <span class="c1"># 根据 GitHub webhook 的域名和路径进行路由</span>
+      <span class="na">kind</span><span class="pi">:</span> <span class="s">Rule</span>
+      <span class="na">services</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">github-service</span>  <span class="c1"># 使用一个服务名称，你可以创建一个名为 service 的服务，或者直接使用 IP 地址</span>
+          <span class="na">port</span><span class="pi">:</span> <span class="m">80</span>
+</code></pre></div></div>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="k8s" /><category term="network" /><category term="ai" /><summary type="html"><![CDATA[Gateway DNAT网络不可用问题排查和解决方案]]></summary></entry><entry><title type="html">关于开源许可协议</title><link href="/k8s/2025/01/22/09-47-52-open-source-license.html" rel="alternate" type="text/html" title="关于开源许可协议" /><published>2025-01-22T01:47:52+00:00</published><updated>2025-01-22T01:47:52+00:00</updated><id>/k8s/2025/01/22/09:47:52-open-source-license</id><content type="html" xml:base="/k8s/2025/01/22/09-47-52-open-source-license.html"><![CDATA[<p>常见的开源许可协议，可以理解为两条线</p>
+
+<ol>
+  <li>软件类产品，从宽松到严格依次是
+    <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ------- 松 ----    --- 紧 -------  
+ MIT License  
+       Apache License 2.0  
+           LGPL (Lesser General Public License)  
+                 GPL (GNU General Public License)  
+     BSD License  
+</code></pre></div>    </div>
+  </li>
+  <li>创作类非软件产品<br />
+CC (Creative Commons License)，适合开源非软件类作品，如文档、艺术作品、图像、音频等</li>
 </ol>
 
-<hr />]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/06/20-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-06T20:00:03+00:00</published><updated>2025-02-06T20:00:03+00:00</updated><id>/hacknews/2025/02/06/20:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/06/20-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-07 04:00:03</p>
+<p>详细如下：</p>
 
-<ol>
-  <li><strong>Linux 在 PDF 中运行</strong><br />
-一个项目展示了如何在 PDF 文件中运行 Linux 系统，这种创新的技术展示不仅令人惊讶，也体现了技术的边界正在不断被突破。
-    <ul>
-      <li><a href="https://linux.doompdf.dev/linux.pdf">Linux Running in a PDF</a></li>
-    </ul>
+<h1 id="mit-licnese">MIT Licnese</h1>
+<p><strong>全称</strong>：麻省理工学院许可协议</p>
+<h2 id="特点">特点</h2>
+<ul>
+  <li>非常宽松，允许任何用途，包括商业用途</li>
+  <li>可以修改、分发代码，甚至闭源分发
+    <h2 id="限制">限制</h2>
   </li>
-  <li><strong>Gemini 2.0 的影响</strong><br />
-文章讨论了 Gemini 2.0 协议如何改变 PDF 文件的摄取方式，以及它对网络协议未来发展的潜在影响。
-    <ul>
-      <li><a href="https://www.sergey.fyi/articles/gemini-flash-2">Ingesting PDFs and why Gemini 2.0 changes everything</a></li>
-    </ul>
+  <li>必须保留原始的版权声明和许可信息
+    <h2 id="适用场景">适用场景</h2>
   </li>
-  <li><strong>OpenWrt 24.10.0 稳定版发布</strong><br />
-OpenWrt 发布了其 24.10.0 版本的稳定更新，这对于路由器固件爱好者和开发者来说是一个重要的里程碑。
-    <ul>
-      <li><a href="https://openwrt.org/releases/24.10/notes-24.10.0">OpenWrt 24.10.0 – First Stable Release</a></li>
-    </ul>
-  </li>
-  <li><strong>编程 SDF 动画</strong><br />
-一个有趣的项目展示了如何使用编程技术来创建《瑞克和莫蒂》的 SDF（符号距离场）动画，这种技术在动画制作中的应用令人耳目一新。
-    <ul>
-      <li><a href="https://danielchasehooper.com/posts/code-animated-rick/">Programming SDF Animations of Rick and Morty</a></li>
-    </ul>
-  </li>
-  <li><strong>FreeBSD 在高保真音频中的应用</strong><br />
-一篇文章详细介绍了如何使用 FreeBSD 进行高保真音频处理，包括实时处理和均衡器设置，为音频爱好者提供了宝贵的信息。
-    <ul>
-      <li><a href="https://m4c.pl/blog/freebsd-audio-setup-bitperfect-equalizer-realtime/">FreeBSD for hi-fi audio</a></li>
-    </ul>
-  </li>
-  <li><strong>Okta Bcrypt 事件的 API 设计教训</strong><br />
-从 Okta Bcrypt 事件中提取的教训，讨论了如何设计更好的 API，这对于开发者在构建安全系统时具有重要的参考价值。
-    <ul>
-      <li><a href="https://n0rdy.foo/posts/20250121/okta-bcrypt-lessons-for-better-apis/">Okta Bcrypt incident lessons for designing better APIs</a></li>
-    </ul>
-  </li>
-  <li><strong>1930年代的相机</strong><br />
-一个在线展览展示了1930年代的相机和摄影技术，为摄影爱好者提供了一个了解历史的机会。
-    <ul>
-      <li><a href="https://licm.org.uk/livingImage/1930Room.html">Cameras of 1930s Era</a></li>
-    </ul>
-  </li>
-  <li><strong>深度强化学习：从像素玩 Pong</strong><br />
-一篇2016年的文章，介绍了如何使用深度强化学习技术从像素级别开始学习玩 Pong 游戏，这是深度学习领域的经典案例。
-    <ul>
-      <li><a href="http://karpathy.github.io/2016/05/31/rl/">Deep Reinforcement Learning: Pong from Pixels</a></li>
-    </ul>
-  </li>
-  <li><strong>最小有效剂量</strong><br />
-一篇文章讨论了最小有效剂量的概念，这对于药物研发和剂量控制具有重要意义。
-    <ul>
-      <li><a href="https://winnielim.org/journal/minimum-effective-dose/">Minimum effective dose</a></li>
-    </ul>
-  </li>
-  <li><strong>跨平台操作系统 API 的缺失</strong><br />
-文章讨论了为什么缺少一个统一的跨平台操作系统 API 来处理计时器，这对于软件开发者来说是一个长期存在的问题。
-    <ul>
-      <li><a href="https://gaultier.github.io/blog/the_missing_cross_platform_os_api_for_timers.html">The missing cross-platform OS API for timers</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-07 04:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/05/20-00-05-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-05T12:00:05+00:00</published><updated>2025-02-05T12:00:05+00:00</updated><id>/hacknews/2025/02/05/20:00:05-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/05/20-00-05-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-05 20:00:05</p>
+  <li>适合希望代码被广泛采用且不限制用途的项目</li>
+</ul>
 
-<ol>
-  <li><strong>Kagi 公平定价介绍</strong><br />
-Kagi 发布了关于其公平定价模型的更新，这可能对数字产品的定价策略产生影响。
-    <ul>
-      <li><a href="https://kagi.com/changelog#6155">Kagi – Introducing Fair Pricing</a></li>
-    </ul>
-  </li>
-  <li><strong>软件开发观点变迁</strong><br />
-作者分享了他在软件开发领域工作十年后改变的一些观点，反映了技术社区中不断演进的最佳实践。
-    <ul>
-      <li><a href="https://chriskiehl.com/article/thoughts-after-10-years">Software development topics I’ve changed my mind on after 10 years</a></li>
-    </ul>
-  </li>
-  <li><strong>Beej’s Guide to Git</strong><br />
-一个关于 Git 的详细指南，适合初学者和有经验的开发者，提供了关于版本控制的深入理解。
-    <ul>
-      <li><a href="https://beej.us/guide/bggit/">Beej’s Guide to Git</a></li>
-    </ul>
-  </li>
-  <li><strong>《他们以为他们是自由的》节选</strong><br />
-Milton Mayer 的作品节选，探讨了自由与权力的关系，引发了对当前社会政治环境的讨论。
-    <ul>
-      <li><a href="https://press.uchicago.edu/Misc/Chicago/511928.htm">They Thought They Were Free, by Milton Mayer, an Excerpt</a></li>
-    </ul>
-  </li>
-  <li><strong>WikiTok</strong><br />
-一个基于维基百科数据的短视频平台，展示了如何将静态知识转化为动态内容。
-    <ul>
-      <li><a href="https://wikitok.vercel.app/">WikiTok</a></li>
-    </ul>
-  </li>
-  <li><strong>Pascal 编译器开发经历</strong><br />
-作者分享了他在 1993 年作为青少年时开发针对 Transputer 的 Pascal 编译器的经历，展示了早期编程挑战和创新。
-    <ul>
-      <li><a href="https://nanochess.org/pascal.html">I coded a Pascal compiler for transputer as a teen in 1993</a></li>
-    </ul>
-  </li>
-  <li><strong>Julia 和 JuliaHub 的发展</strong><br />
-讨论了 Julia 编程语言及其生态系统 JuliaHub 如何推动创新和增长。
-    <ul>
-      <li><a href="https://info.juliahub.com/blog/julia-juliahub-advancing-innovation-and-growth">Julia and JuliaHub: Advancing Innovation and Growth</a></li>
-    </ul>
-  </li>
-  <li><strong>Chrome 133 新特性</strong><br />
-介绍了 Chrome 133 版本中支持的 DOM 状态保持移动特性，这对于前端开发者来说是一个重要的更新。
-    <ul>
-      <li><a href="https://chromestatus.com/feature/5135990159835136">Chrome 133 Supports DOM State-Preserving Move with moveBefore()</a></li>
-    </ul>
-  </li>
-  <li><strong>NIH 和 NSF 动态</strong><br />
-讨论了美国国立卫生研究院（NIH）和国家科学基金会（NSF）内部正在发生的事情，这对于科研人员和政策制定者来说是一个重要的议题。
-    <ul>
-      <li><a href="https://www.science.org/content/blog-post/what-s-happening-inside-nih">What’s happening inside the NIH and NSF</a></li>
-    </ul>
-  </li>
-  <li><strong>Go 数据结构</strong><br />
-一个关于 Go 语言数据结构的深入研究，适合那些想要深入了解 Go 语言内部机制的开发者。
-    <ul>
-      <li><a href="https://research.swtch.com/godata">Go Data Structures</a></li>
-    </ul>
-  </li>
-</ol>
+<h1 id="apache-license-20">Apache License 2.0</h1>
+<p><strong>全称</strong>：Apache License 2.0 许可协议</p>
 
-<p>以上话题涵盖了软件开发、网络安全、编程语言、科研政策等多个领域，反映了技术社区当前的热点和关注点。</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-05 20:00:05]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/05/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-05T12:00:03+00:00</published><updated>2025-02-05T12:00:03+00:00</updated><id>/hacknews/2025/02/05/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/05/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-05 20:00:03</p>
+<h2 id="特点-1">特点</h2>
+<ul>
+  <li>允许免费使用、修改和分发(包括商业用途)</li>
+  <li>明确授权专利，保护用户免受专利纠纷</li>
+  <li>允许闭源分发，需要遵守相关条款</li>
+</ul>
 
-<ol>
-  <li><strong>Beej’s Guide to Git</strong><br />
-Beej’s Guide to Git 是一个广受欢迎的 Git 教程，它以简洁明了的方式介绍了 Git 的基本概念和操作，适合初学者快速上手。
-    <ul>
-      <li><a href="https://beej.us/guide/bggit/">Beej’s Guide to Git</a></li>
-    </ul>
-  </li>
-  <li><strong>WikiTok</strong><br />
-WikiTok 是一个基于维基百科的短视频平台，它通过短视频形式展示维基百科的内容，为用户提供了一种新的信息获取方式。
-    <ul>
-      <li><a href="https://wikitok.vercel.app/">WikiTok</a></li>
-    </ul>
-  </li>
-  <li><strong>Zig 编程语言体验分享</strong><br />
-作者分享了使用 Zig 编程语言数月后的体验和思考，探讨了 Zig 在现代编程语言中的地位和优势。
-    <ul>
-      <li><a href="https://strongly-typed-thoughts.net/blog/zig-2025">Zig; what I think after months of using it</a></li>
-    </ul>
-  </li>
-  <li><strong>Open Deep Research</strong><br />
-Hugging Face 的 smolagents 项目中的 Open Deep Research 示例，展示了如何使用深度学习技术进行研究和实验。
-    <ul>
-      <li><a href="https://github.com/huggingface/smolagents/tree/main/examples/open_deep_research">Open Deep Research</a></li>
-    </ul>
-  </li>
-  <li><strong>Apple Invites 应用发布</strong><br />
-Apple 推出了一个新的应用程序 Apple Invites，旨在帮助人们更好地组织和参与各种活动。
-    <ul>
-      <li><a href="https://www.apple.com/newsroom/2025/02/introducing-apple-invites-a-new-app-that-brings-people-together/">Apple Invites</a></li>
-    </ul>
-  </li>
-  <li><strong>Ambsheets：用于探索情景的电子表格</strong><br />
-Ambsheets 是一个创新的电子表格工具，它允许用户探索不同的情景和假设，对于决策分析非常有用。
-    <ul>
-      <li><a href="https://www.inkandswitch.com/ambsheets/">Ambsheets: Spreadsheets for Exploring Scenarios</a></li>
-    </ul>
-  </li>
-  <li><strong>Nine – 看似不可能的 C64 演示</strong><br />
-Linus Åkesson 发布了一个名为 Nine 的 C64 演示，展示了在 Commodore 64 上实现的惊人视觉效果，被认为是技术上的壮举。
-    <ul>
-      <li><a href="https://linusakesson.net/scene/nine/index.php">Nine – seemingly impossible C64 demo</a></li>
-    </ul>
-  </li>
-  <li><strong>Infosec 101 for Activists</strong><br />
-这是一个为活动家提供的网络安全基础教程，旨在帮助他们保护自己的数字安全。
-    <ul>
-      <li><a href="https://infosecforactivists.org">Infosec 101 for Activists</a></li>
-    </ul>
-  </li>
-  <li><strong>Oracle 与 JavaScript 商标争议</strong><br />
-Deon 博客讨论了 Oracle 对 Node.js 的 JavaScript 商标争议，以及 Oracle 如何试图忽略这一问题。
-    <ul>
-      <li><a href="https://deno.com/blog/deno-v-oracle2">Oracle justified its JavaScript trademark with Node.js–now it wants that ignored</a></li>
-    </ul>
-  </li>
-  <li><strong>五年开发 Web 应用收入一美元</strong><br />
-开发者分享了自己花费五年时间开发 Web 应用的经历，以及最终只获得一美元收入的反思。
-    <ul>
-      <li><a href="https://codingcafe.jp/posts/signal-5yrs">I spent five years building a webapp and got my first $1 (2022)</a></li>
-    </ul>
-  </li>
-</ol>
+<h2 id="限制-1">限制</h2>
+<ul>
+  <li>必须保留原始的版权声明和许可信息</li>
+  <li>修改后的代码需明确说明变更内容</li>
+</ul>
 
-<p>以上话题反映了 Hacker News 上的技术趋势和社区关注点，从编程语言的学习资源到网络安全的实践指南，再到技术产品的新发布，都是当前技术圈的热点话题。</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-05 20:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/05/08-03-18-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-05T08:03:18+00:00</published><updated>2025-02-05T08:03:18+00:00</updated><id>/hacknews/2025/02/05/08:03:18-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/05/08-03-18-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-05 16:03:18</p>
+<h2 id="适用场景-1">适用场景</h2>
+<ul>
+  <li>适合需要专利保护且希望明确授权条款的项目</li>
+</ul>
 
-<ol>
-  <li><strong>Oracle 对 Node.js 的 JavaScript 商标争议</strong><br />
-Oracle 曾以 Node.js 为由为其 JavaScript 商标辩护，现在却希望这一争议被忽略。这一事件引发了对商标法和开源项目命名权的讨论。
-    <ul>
-      <li><a href="https://deno.com/blog/deno-v-oracle2">Oracle justified its JavaScript trademark with Node.js–now it wants that ignored</a></li>
-    </ul>
-  </li>
-  <li><strong>WikiTok</strong><br />
-一个基于维基百科数据的 TikTok 风格视频平台，展示了如何将传统百科全书内容以现代社交媒体形式呈现。
-    <ul>
-      <li><a href="https://wikitok.vercel.app/">WikiTok</a></li>
-    </ul>
-  </li>
-  <li><strong>NIH 和 NSF 的内部动态</strong><br />
-文章探讨了美国国立卫生研究院（NIH）和国家科学基金会（NSF）的内部情况，对科研资助和研究方向的影响。
-    <ul>
-      <li><a href="https://www.science.org/content/blog-post/what-s-happening-inside-nih">What’s Happening Inside the NIH and NSF</a></li>
-    </ul>
-  </li>
-  <li><strong>Open Deep Research</strong><br />
-Hugging Face 的一个新项目，旨在通过开源代码和预训练模型推动深度学习研究的发展。
-    <ul>
-      <li><a href="https://github.com/huggingface/smolagents/tree/main/examples/open_deep_research">Open Deep Research</a></li>
-    </ul>
-  </li>
-  <li><strong>Google 移除不将 AI 用于武器的承诺</strong><br />
-Google 从其网站上移除了不将人工智能用于武器的承诺，这一变化引发了对科技公司道德责任的讨论。
-    <ul>
-      <li><a href="https://techcrunch.com/2025/02/04/google-removes-pledge-to-not-use-ai-for-weapons-from-website/">Google removes pledge to not use AI for weapons from website</a></li>
-    </ul>
-  </li>
-  <li><strong>Apple 推出 Apple Invites 应用</strong><br />
-Apple 发布了一个新的应用程序 Apple Invites，旨在通过数字邀请功能促进人们之间的联系。
-    <ul>
-      <li><a href="https://www.apple.com/newsroom/2025/02/introducing-apple-invites-a-new-app-that-brings-people-together/">Apple Invites</a></li>
-    </ul>
-  </li>
-  <li><strong>Roc 编译器用 Zig 语言重写</strong><br />
-Roc 编译器的开发者决定用 Zig 语言重写编译器，这一决策引发了对编程语言选择和编译器开发的讨论。
-    <ul>
-      <li><a href="https://gist.github.com/rtfeldman/77fb430ee57b42f5f2ca973a3992532f">Roc rewrites the compiler in Zig</a></li>
-    </ul>
-  </li>
-  <li><strong>APL 编程挑战</strong><br />
-Dyalog 举办的 APL 编程挑战，旨在测试和展示 APL 语言的编程能力和解决问题的效率。
-    <ul>
-      <li><a href="https://challenge.dyalog.com/">The APL Challenge</a></li>
-    </ul>
-  </li>
-  <li><strong>Ambsheets：用于探索情景的电子表格</strong><br />
-一款新型电子表格软件，专注于帮助用户探索不同的情景和假设，增强决策支持。
-    <ul>
-      <li><a href="https://www.inkandswitch.com/ambsheets/">Ambsheets: Spreadsheets for Exploring Scenarios</a></li>
-    </ul>
-  </li>
-  <li><strong>Alan Turing 的 “Delilah” 项目</strong><br />
-文章回顾了 Alan Turing 的 “Delilah” 项目，探讨了其在计算机科学和人工智能领域的先驱地位。
-    <ul>
-      <li><a href="https://spectrum.ieee.org/alan-turings-delilah">Alan Turing’s “Delilah” project</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-05 16:03:18]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/31/14-18-35-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-31T14:18:35+00:00</published><updated>2025-01-31T14:18:35+00:00</updated><id>/hacknews/2025/01/31/14:18:35-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/31/14-18-35-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-31 22:18:35</p>
+<h1 id="gpl-gnu-general-public-license">GPL (GNU General Public License)</h1>
+<p><strong>全称</strong>：通用公共许可协议</p>
 
-<ol>
-  <li><strong>sixos: 无 systemd 的 nix OS</strong><br />
-一个介绍 sixos 的视频，sixos 是一个没有使用 systemd 的 nix 操作系统，展示了其独特的系统管理和服务配置方式。
-    <ul>
-      <li><a href="https://media.ccc.de/v/38c3-sixos-a-nix-os-without-systemd">sixos: A nix OS without systemd</a></li>
-    </ul>
-  </li>
-  <li><strong>Mini-R1: 复现 DeepSeek R1 的“顿悟时刻”</strong><br />
-一个项目，旨在复现 DeepSeek R1 的“顿悟时刻”，即用户在使用产品时的惊喜体验，这对于理解用户体验至关重要。
-    <ul>
-      <li><a href="https://www.philschmid.de/mini-deepseek-r1">Mini-R1: Reproduce DeepSeek R1 “Aha Moment”</a></li>
-    </ul>
-  </li>
-  <li><strong>TopoNets: 类脑拓扑的视觉和语言模型</strong><br />
-一篇论文介绍了 TopoNets，这是一种新型的视觉和语言模型，模仿人脑的拓扑结构，以提高性能。
-    <ul>
-      <li><a href="https://arxiv.org/abs/2501.16396">TopoNets: High performing vision and language models with brain-like topography</a></li>
-    </ul>
-  </li>
-  <li><strong>JavaScript Temporal 即将到来</strong><br />
-MDN 上的一篇文章宣布了 JavaScript Temporal 的到来，这是一个新的日期和时间 API，旨在简化日期和时间的处理。
-    <ul>
-      <li><a href="https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming/">JavaScript Temporal is coming</a></li>
-    </ul>
-  </li>
-  <li><strong>Rubywm: 纯 Ruby 实现的 X11 窗口管理器</strong><br />
-一个用纯 Ruby 编写的 X11 窗口管理器，展示了 Ruby 语言在系统级编程中的潜力。
-    <ul>
-      <li><a href="https://github.com/vidarh/rubywm">Rubywm: An X11 window manager in pure Ruby</a></li>
-    </ul>
-  </li>
-  <li><strong>Jane Street 如何意外构建了更好的 OCaml 构建系统</strong><br />
-一篇文章讲述了 Jane Street 如何意外地为 OCaml 构建了一个更好的构建系统，这对于 OCaml 开发者来说是一个有趣的案例研究。
-    <ul>
-      <li><a href="https://blog.janestreet.com/how-we-accidentally-built-a-better-build-system-for-ocaml-index/">How Jane Street accidentally built a better build system for OCaml</a></li>
-    </ul>
-  </li>
-  <li><strong>Stats – macOS 系统监控工具</strong><br />
-一个开源项目，提供了一个 macOS 系统监控工具，可以直接在菜单栏中查看系统状态。
-    <ul>
-      <li><a href="https://github.com/exelban/stats">Stats – macOS system monitor in your menu bar</a></li>
-    </ul>
-  </li>
-  <li><strong>Google Pixel 4a 更新导致电池寿命减半</strong><br />
-一篇报道指出，Google Pixel 4a 的一个更新旨在提高电池稳定性，但实际上却导致电池寿命减半，引发了用户对更新的质疑。
-    <ul>
-      <li><a href="https://liliputing.com/google-pixel-4a-update-to-improve-stability-of-the-battery-cuts-battery-life-in-half-for-some-users/">Google Pixel 4a update to “improve stability” of the battery cuts life in half</a></li>
-    </ul>
-  </li>
-  <li><strong>Capablanca: 最小顶点覆盖求解器</strong><br />
-一个 Python 包 Capablanca，用于求解最小顶点覆盖问题，这对于图论和网络优化等领域非常有用。
-    <ul>
-      <li><a href="https://pypi.org/project/capablanca">Capablanca: Minimum Vertex Cover Solver</a></li>
-    </ul>
-  </li>
-  <li><strong>许多 Pokemon 测试卡可能在 2024 年印刷</strong><br />
-一篇文章讨论了 Pokemon 测试卡的印刷时间，对于收藏家和游戏玩家来说，这是一个有趣的话题。
-    <ul>
-      <li><a href="https://www.elitefourum.com/t/many-of-the-pokemon-playtest-cards-were-likely-printed-in-2024/52421">Many of the Pokemon playtest cards were likely printed in 2024</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-31 22:18:35]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/26/20-00-04-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-26T20:00:04+00:00</published><updated>2025-01-26T20:00:04+00:00</updated><id>/hacknews/2025/01/26/20:00:04-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/26/20-00-04-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-27 04:00:04</p>
+<h2 id="特点-2">特点</h2>
+<ul>
+  <li>强制开源，任何基于GPL代码的衍生项目必须公开开源</li>
+  <li>允许自由使用、修改和分发，但必须保持衍生品同样为GPL协议</li>
+</ul>
 
-<ol>
-  <li><strong>Steam Brick 设备介绍</strong><br />
-介绍了一款名为 Steam Brick 的设备，它没有屏幕和控制器，只有一个电源按钮和一个 USB 端口，这种极简设计引发了社区的广泛讨论。
-    <ul>
-      <li><a href="https://crastinator-pro.github.io/steam-brick/">Steam Brick: No screen, no controller, just a power button and a USB port</a></li>
-    </ul>
-  </li>
-  <li><strong>DeepSeek-R1 研究论文</strong><br />
-一篇关于通过强化学习激励大型语言模型（LLMs）推理能力的论文，展示了人工智能领域在推理和学习方面的最新进展。
-    <ul>
-      <li><a href="https://arxiv.org/abs/2501.12948">DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via RL</a></li>
-    </ul>
-  </li>
-  <li><strong>Y Combinator 失败项目列表</strong><br />
-一个列出了 821 个不再活跃的 Y Combinator 启动项目的“墓地”，引发了对创业失败和风险投资的讨论。
-    <ul>
-      <li><a href="https://ycgraveyard.iamwillwang.com/">YC Graveyard: 821 inactive Y Combinator startups</a></li>
-    </ul>
-  </li>
-  <li><strong>OpenRA 游戏平台</strong><br />
-一个重制经典策略游戏的平台，为现代玩家提供了重温经典的机会，同时也展示了开源项目在游戏领域的活跃度。
-    <ul>
-      <li><a href="https://www.openra.net/">OpenRA – Classic strategy games rebuilt for the modern era</a></li>
-    </ul>
-  </li>
-  <li><strong>越南飞行员的壮举</strong><br />
-讲述了一位南越飞行员为了救家人而驾驶塞斯纳飞机降落在航空母舰上的故事，展现了个人勇气和飞行技术。
-    <ul>
-      <li><a href="https://www.historynet.com/maj-buang-lys-daring-feat-to-save-his-family/">The South Vietnamese pilot who landed a Cessna on a carrier to save his family</a></li>
-    </ul>
-  </li>
-  <li><strong>强化学习在推理中的应用</strong><br />
-介绍了一个简单的强化学习框架，用于研究和开发推理能力，显示了人工智能在推理领域的应用潜力。
-    <ul>
-      <li><a href="https://hkust-nlp.notion.site/simplerl-reason">Emerging Reasoning with Reinforcement Learning</a></li>
-    </ul>
-  </li>
-  <li><strong>LLMs 的国际象棋谜题</strong><br />
-一个被用来测试每个新的大型语言模型（LLMs）的国际象棋谜题，引发了对 AI 解决复杂问题能力的讨论。
-    <ul>
-      <li><a href="https://gist.github.com/abhishek-anand/a65ff0e44d158ae306dcce9151b1331c">I ask this chess puzzle to every new LLM</a></li>
-    </ul>
-  </li>
-  <li><strong>Mac Classic II 启动问题</strong><br />
-探讨了一个无效的 68030 指令如何意外地允许 Mac Classic II 成功启动，揭示了早期计算机硬件的有趣历史。
-    <ul>
-      <li><a href="https://www.downtowndougbrown.com/2025/01/the-invalid-68030-instruction-that-accidentally-allowed-the-mac-classic-ii-to-successfully-boot-up/">An invalid 68030 instruction accidentally allowed the Mac Classic II to boot</a></li>
-    </ul>
-  </li>
-  <li><strong>HTML 元素大全</strong><br />
-提供了一个全面的 HTML 元素参考，对于前端开发者来说是一个宝贵的资源。
-    <ul>
-      <li><a href="https://iamwillwang.com/dollar/every-html-element/">Every HTML Element</a></li>
-    </ul>
-  </li>
-  <li><strong>Prolog 语言的简洁性</strong><br />
-讨论了 Prolog 语言的简洁性和逻辑编程的优势，对于了解这一领域的人来说是一个重要的参考。
-    <ul>
-      <li><a href="https://bitsandtheorems.com/the-simplicity-of-prolog/">The Simplicity of Prolog</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-27 04:00:04]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/26/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-26T12:00:03+00:00</published><updated>2025-01-26T12:00:03+00:00</updated><id>/hacknews/2025/01/26/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/26/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-26 20:00:03</p>
+<h2 id="限制-2">限制</h2>
+<ul>
+  <li>商业化受限，因为衍生品不能闭源</li>
+  <li>必须提供完整的源代码，包括修改部分</li>
+</ul>
 
-<ol>
-  <li><strong>Steam Brick 设备介绍</strong><br />
-Steam Brick 是一个没有屏幕和控制器的设备，仅有一个电源按钮和一个USB端口，引起了社区的广泛关注和讨论。
-    <ul>
-      <li><a href="https://crastinator-pro.github.io/steam-brick/">Steam Brick: No screen, no controller, just a power button and a USB port</a></li>
-    </ul>
-  </li>
-  <li><strong>DeepSeek-R1 研究论文</strong><br />
-一篇关于通过强化学习激励大型语言模型推理能力的论文，展示了人工智能领域中的最新研究进展。
-    <ul>
-      <li><a href="https://arxiv.org/abs/2501.12948">DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via RL</a></li>
-    </ul>
-  </li>
-  <li><strong>南越飞行员的英勇事迹</strong><br />
-一篇关于南越飞行员为了救家人而驾驶塞斯纳飞机降落在航空母舰上的故事，引起了人们对历史事件的兴趣。
-    <ul>
-      <li><a href="https://www.historynet.com/maj-buang-lys-daring-feat-to-save-his-family/">The South Vietnamese pilot who landed a Cessna on a carrier to save his family</a></li>
-    </ul>
-  </li>
-  <li><strong>7B Model 和 8K Examples 研究</strong><br />
-一篇关于通过强化学习实现高效和有效的新兴推理的研究，展示了人工智能领域的最新进展。
-    <ul>
-      <li><a href="https://hkust-nlp.notion.site/simplerl-reason">7B Model and 8K Examples: Efficient and Effective Emerging Reasoning with RL</a></li>
-    </ul>
-  </li>
-  <li><strong>OpenRA 游戏平台</strong><br />
-OpenRA 是一个重建经典策略游戏的平台，为现代玩家提供了新的游戏体验。
-    <ul>
-      <li><a href="https://www.openra.net/">OpenRA – Classic strategy games rebuilt for the modern era</a></li>
-    </ul>
-  </li>
-  <li><strong>SQLook 数据库管理工具</strong><br />
-SQLook 是一个免费的在线 SQLite 数据库管理工具，具有 Windows 2000 风格的界面，引起了开发者的兴趣。
-    <ul>
-      <li><a href="https://sqlook.com">SQLook – A free online SQLite database manager with a Windows 2000 interface</a></li>
-    </ul>
-  </li>
-  <li><strong>Mac Classic II 启动问题</strong><br />
-一篇文章讨论了 Mac Classic II 由于一个无效的 68030 指令而意外启动的问题，展示了计算机硬件和软件的复杂性。
-    <ul>
-      <li><a href="https://www.downtowndougbrown.com/2025/01/the-invalid-68030-instruction-that-accidentally-allowed-the-mac-classic-ii-to-successfully-boot-up/">An invalid 68030 instruction accidentally allowed the Mac Classic II to boot</a></li>
-    </ul>
-  </li>
-  <li><strong>Chimera Linux 桌面简化</strong><br />
-Chimera Linux 致力于简化桌面环境，为用户提供更简洁的用户体验。
-    <ul>
-      <li><a href="https://lwn.net/Articles/1004324/">Chimera Linux works toward a simplified desktop</a></li>
-    </ul>
-  </li>
-  <li><strong>HTML 元素全集</strong><br />
-一个展示所有 HTML 元素的网站，为前端开发者提供了宝贵的资源。
-    <ul>
-      <li><a href="https://iamwillwang.com/dollar/every-html-element/">Every HTML Element</a></li>
-    </ul>
-  </li>
-  <li><strong>DeepSeek 异常令牌搜索</strong><br />
-一篇文章探讨了在 DeepSeek 中寻找异常令牌的过程，涉及人工智能和自然语言处理的复杂性。
-    <ul>
-      <li><a href="https://outsidetext.substack.com/p/anomalous-tokens-in-deepseek-v3-and">Searching for DeepSeek’s glitch tokens</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-26 20:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/01/26/10-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-01-26T10:00:03+00:00</published><updated>2025-01-26T10:00:03+00:00</updated><id>/hacknews/2025/01/26/10:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/26/10-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-26 18:00:03</p>
+<h2 id="适用场景-2">适用场景</h2>
+<ul>
+  <li>适合重视软件自由、希望强制开源的项目</li>
+</ul>
 
-<ol>
-  <li><strong>Steam Brick 设备介绍</strong><br />
-Steam Brick 是一个没有屏幕和控制器的设备，仅有一个电源按钮和一个USB端口，这种极简设计引发了社区的广泛讨论。
-    <ul>
-      <li><a href="https://crastinator-pro.github.io/steam-brick/">Steam Brick: No screen, no controller, just a power button and a USB port</a></li>
-    </ul>
-  </li>
-  <li><strong>DeepSeek-R1 研究论文</strong><br />
-一篇关于通过强化学习激励大型语言模型推理能力的论文，展示了人工智能领域最新的研究方向。
-    <ul>
-      <li><a href="https://arxiv.org/abs/2501.12948">DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via RL</a></li>
-    </ul>
-  </li>
-  <li><strong>OpenRA 游戏平台</strong><br />
-OpenRA 是一个重构经典策略游戏的平台，支持现代操作系统，其开源性质和对经典游戏的复刻引起了广泛关注。
-    <ul>
-      <li><a href="https://www.openra.net/">OpenRA – Classic strategy games rebuilt for the modern era</a></li>
-    </ul>
-  </li>
-  <li><strong>越南飞行员的壮举</strong><br />
-一个关于南越飞行员为了救家人而将塞斯纳飞机降落在航空母舰上的故事，展现了飞行员的勇气和飞行技巧。
-    <ul>
-      <li><a href="https://www.historynet.com/maj-buang-lys-daring-feat-to-save-his-family/">The South Vietnamese pilot who landed a Cessna on a carrier to save his family</a></li>
-    </ul>
-  </li>
-  <li><strong>Mac Classic II 启动问题</strong><br />
-一篇文章揭示了 Mac Classic II 能够成功启动是因为一个意外的无效指令，这个发现对于计算机历史爱好者来说非常有趣。
-    <ul>
-      <li><a href="https://www.downtowndougbrown.com/2025/01/the-invalid-68030-instruction-that-accidentally-allowed-the-mac-classic-ii-to-successfully-boot-up/">An invalid 68030 instruction accidentally allowed the Mac Classic II to boot</a></li>
-    </ul>
-  </li>
-  <li><strong>SQLook 数据库管理工具</strong><br />
-SQLook 是一个免费的在线 SQLite 数据库管理工具，其 Windows 2000 风格的界面引起了怀旧和实用性的讨论。
-    <ul>
-      <li><a href="https://sqlook.com">SQLook – A free online SQLite database manager with a Windows 2000 interface</a></li>
-    </ul>
-  </li>
-  <li><strong>Chimera Linux 桌面简化</strong><br />
-Chimera Linux 致力于提供一个简化的桌面环境，其设计理念和用户体验受到了社区的关注。
-    <ul>
-      <li><a href="https://lwn.net/Articles/1004324/">Chimera Linux works toward a simplified desktop</a></li>
-    </ul>
-  </li>
-  <li><strong>DeepSeek 异常令牌搜索</strong><br />
-一篇关于在 DeepSeek 中寻找异常令牌的文章，探讨了人工智能模型中的异常检测问题。
-    <ul>
-      <li><a href="https://outsidetext.substack.com/p/anomalous-tokens-in-deepseek-v3-and">Searching for DeepSeek’s glitch tokens</a></li>
-    </ul>
-  </li>
-  <li><strong>HTML 元素大全</strong><br />
-一个包含所有 HTML 元素的参考页面，为前端开发者提供了一个快速查找资源。
-    <ul>
-      <li><a href="https://iamwillwang.com/dollar/every-html-element/">Every HTML Element</a></li>
-    </ul>
-  </li>
-  <li><strong>Wikenigma 百科全书</strong><br />
-Wikenigma 是一个关于未知事物的百科全书，其独特的内容和形式吸引了广泛的关注。
-    <ul>
-      <li><a href="https://wikenigma.org.uk/start">Wikenigma – an Encyclopedia of Unknowns</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-26 18:00:03]]></summary></entry></feed>
+<h1 id="lgpl-lesser-general-public-license">LGPL (Lesser General Public License)</h1>
+<p><strong>全称</strong>：宽松通用公共许可协议</p>
+
+<h2 id="特点-3">特点</h2>
+<ul>
+  <li>相对GPL更宽松，允许软件动态链接到非GPL的代码</li>
+  <li>用户可以闭源分发自己的软件，只要不修改LGPL的代码</li>
+</ul>
+
+<h2 id="限制-3">限制</h2>
+<ul>
+  <li>修改的LGPL的代码必须开源并使用相同的协议分发</li>
+</ul>
+
+<h2 id="适用场景-3">适用场景</h2>
+<ul>
+  <li>适合开发Library, 希望代码被广泛采用而不是强制整个项目开源</li>
+</ul>
+
+<h1 id="bsd-license">BSD License</h1>
+<p><strong>全称</strong>：Berkeley Software Distribution License</p>
+
+<h2 id="特点-4">特点</h2>
+<ul>
+  <li>类似MIT，非常宽松，允许任何用途，包括商业化</li>
+  <li>可闭源分发，无需公开修改后的代码</li>
+</ul>
+
+<h2 id="限制-4">限制</h2>
+<ul>
+  <li>必须保留版权声明</li>
+  <li>不允许使用原作者的名字进行推广</li>
+</ul>
+
+<h2 id="适用场景-4">适用场景</h2>
+<ul>
+  <li>适合希望代码被广泛使用且对使用方式限制较少的项目</li>
+</ul>
+
+<h1 id="mpl-mozilla-public-license">MPL (Mozilla Public License)</h1>
+<p><strong>全称</strong>：Mozilla 公共开源许可协议</p>
+
+<h2 id="特点-5">特点</h2>
+<ul>
+  <li>比较宽松，允许闭源和商业化使用，但对修改后的代码需要开源</li>
+  <li>仅要求修改开源的文件，而不是整个项目</li>
+</ul>
+
+<h2 id="限制-5">限制</h2>
+<ul>
+  <li>修改后的MPL文件必须开源并使用相同协议分发</li>
+</ul>
+
+<h2 id="适用场景-5">适用场景</h2>
+<ul>
+  <li>适合开发需要部分开源，又保留商业化可能的项目</li>
+</ul>
+
+<h1 id="cc-creative-commons-license">CC (Creative Commons License)</h1>
+<p><strong>全称</strong>：创作公共许可</p>
+
+<h2 id="特点-6">特点</h2>
+<ul>
+  <li>专注于创意作品，例如文字、音乐、图片，而非软件</li>
+  <li>有多种版本，如CC BY、CC BY-SA、 CC BY-NC 等，根据是否允许商业用途、是否要求署名等区分</li>
+</ul>
+
+<h2 id="限制-6">限制</h2>
+<ul>
+  <li>根据选择的版本不同，可能限制商用或者二次创作</li>
+</ul>
+
+<h2 id="适用场景-6">适用场景</h2>
+<ul>
+  <li>适合开源非软件类作品</li>
+</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="license" /><category term="tech" /><summary type="html"><![CDATA[常见的开源许可协议，可以理解为两条线]]></summary></entry></feed>
