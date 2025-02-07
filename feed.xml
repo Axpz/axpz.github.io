@@ -1,5 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-07T10:43:57+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/07/18-42-40-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-07T14:42:40+00:00</published><updated>2025-02-07T14:42:40+00:00</updated><id>/hacknews/2025/02/07/18:42:40-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/07/18-42-40-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-07 22:42:40</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-07T12:01:36+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/07/20-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-07T20:00:03+00:00</published><updated>2025-02-07T20:00:03+00:00</updated><id>/hacknews/2025/02/07/20:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/07/20-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-08 04:00:03</p>
+
+<ol>
+  <li><strong>BBC探访建立在诈骗之上的城市</strong><br />
+BBC报道了一个以诈骗为生的城市的内幕，涉及赌场、高楼大厦和欺诈行为，揭示了该城市背后的黑暗面。
+    <ul>
+      <li><a href="https://www.bbc.co.uk/news/articles/c04nx1vnw17o">Casinos, high-rises and fraud: The BBC visits a city built on scams</a></li>
+    </ul>
+  </li>
+  <li><strong>Donald Knuth的2024圣诞讲座</strong><br />
+Donald Knuth的2024年圣诞讲座视频，主题为强连通分量和弱连通分量，为计算机科学领域提供了宝贵的知识。
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=Hi8r_63LGyg">Donald Knuth’s 2024 Christmas Lecture: Strong and Weak Components</a></li>
+    </ul>
+  </li>
+  <li><strong>Meta通过Torrent传播81.7TB版权数据</strong><br />
+Meta被指控通过Torrent传播了81.7TB的版权数据，用于训练AI，引发了版权和数据使用的争议。
+    <ul>
+      <li><a href="https://arstechnica.com/tech-policy/2025/02/meta-torrented-over-81-7tb-of-pirated-books-to-train-ai-authors-say/">Meta torrented &amp; seeded 81.7 TB dataset containing copyrighted data</a></li>
+    </ul>
+  </li>
+  <li><strong>基于Transformer的电子表格</strong><br />
+一个基于Transformer模型的电子表格工具，展示了人工智能在数据处理和自动化方面的新应用。
+    <ul>
+      <li><a href="https://www.byhand.ai/p/transformer-spreadsheet">Transformer – Spreadsheet</a></li>
+    </ul>
+  </li>
+  <li><strong>Easy 6502</strong><br />
+一个在线学习6502汇编语言的平台，提供了一个互动式学习环境，帮助用户理解计算机硬件和低级编程。
+    <ul>
+      <li><a href="https://skilldrick.github.io/easy6502/">Easy 6502</a></li>
+    </ul>
+  </li>
+  <li><strong>理解推理型大型语言模型</strong><br />
+一篇文章深入探讨了推理型大型语言模型（LLMs）的工作原理和应用，为AI领域提供了新的视角。
+    <ul>
+      <li><a href="https://magazine.sebastianraschka.com/p/understanding-reasoning-llms">Understanding Reasoning LLMs</a></li>
+    </ul>
+  </li>
+  <li><strong>“杀死用户”：一位失望的技术专家的思考</strong><br />
+一位技术专家对现代技术发展和用户依赖性的批判性思考，提出了对技术进步的反思和未来展望。
+    <ul>
+      <li><a href="https://www.pastagang.cc/blog/kill-the-user/">Kill the “user”: Musings of a disillusioned technologist</a></li>
+    </ul>
+  </li>
+  <li><strong>Math.random()的双重性</strong><br />
+V8引擎团队讨论了JavaScript中Math.random()函数的实现细节和性能问题，对随机数生成器的深入分析。
+    <ul>
+      <li><a href="https://v8.dev/blog/math-random">There’s Math.random(), and then there’s Math.random()</a></li>
+    </ul>
+  </li>
+  <li><strong>Copilot停止在含有GitHub禁止词汇的代码上工作</strong><br />
+GitHub Copilot工具停止在包含特定禁止词汇的代码上工作，引发了关于代码审查和言论自由的讨论。
+    <ul>
+      <li><a href="https://github.com/orgs/community/discussions/72603">Copilot stops working on code that contains hardcoded banned words from GitHub</a></li>
+    </ul>
+  </li>
+  <li><strong>Emil作为自学AI研究员的故事</strong><br />
+Emil分享了他作为自学AI研究员的经历和挑战，为那些希望进入AI领域的人提供了灵感和指导。
+    <ul>
+      <li><a href="https://floydhub.ghost.io/emils-story-as-a-self-taught-ai-researcher/">Emil’s Story as a Self-Taught AI Researcher</a></li>
+    </ul>
+  </li>
+</ol>
+
+<p>以上是Hacker News上的热门话题，涵盖了从技术讨论到社会问题等多个领域，反映了技术社区的多元化和活跃度。</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-08 04:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/07/18-42-40-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-07T14:42:40+00:00</published><updated>2025-02-07T14:42:40+00:00</updated><id>/hacknews/2025/02/07/18:42:40-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/07/18-42-40-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-07 22:42:40</p>
 
 <ol>
   <li><strong>Donald Knuth的2024圣诞讲座</strong><br />
@@ -696,152 +761,4 @@ kube-system   traefik-b7b68d8cb-dkt4v                   1/1     Running     0   
       <span class="na">services</span><span class="pi">:</span>
         <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">github-service</span>  <span class="c1"># 使用一个服务名称，你可以创建一个名为 service 的服务，或者直接使用 IP 地址</span>
           <span class="na">port</span><span class="pi">:</span> <span class="m">80</span>
-</code></pre></div></div>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="k8s" /><category term="network" /><category term="ai" /><summary type="html"><![CDATA[Gateway DNAT网络不可用问题排查和解决方案]]></summary></entry><entry><title type="html">关于开源许可协议</title><link href="/k8s/2025/01/22/09-47-52-open-source-license.html" rel="alternate" type="text/html" title="关于开源许可协议" /><published>2025-01-22T01:47:52+00:00</published><updated>2025-01-22T01:47:52+00:00</updated><id>/k8s/2025/01/22/09:47:52-open-source-license</id><content type="html" xml:base="/k8s/2025/01/22/09-47-52-open-source-license.html"><![CDATA[<p>常见的开源许可协议，可以理解为两条线</p>
-
-<ol>
-  <li>软件类产品，从宽松到严格依次是
-    <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ------- 松 ----    --- 紧 -------  
- MIT License  
-       Apache License 2.0  
-           LGPL (Lesser General Public License)  
-                 GPL (GNU General Public License)  
-     BSD License  
-</code></pre></div>    </div>
-  </li>
-  <li>创作类非软件产品<br />
-CC (Creative Commons License)，适合开源非软件类作品，如文档、艺术作品、图像、音频等</li>
-</ol>
-
-<p>详细如下：</p>
-
-<h1 id="mit-licnese">MIT Licnese</h1>
-<p><strong>全称</strong>：麻省理工学院许可协议</p>
-<h2 id="特点">特点</h2>
-<ul>
-  <li>非常宽松，允许任何用途，包括商业用途</li>
-  <li>可以修改、分发代码，甚至闭源分发
-    <h2 id="限制">限制</h2>
-  </li>
-  <li>必须保留原始的版权声明和许可信息
-    <h2 id="适用场景">适用场景</h2>
-  </li>
-  <li>适合希望代码被广泛采用且不限制用途的项目</li>
-</ul>
-
-<h1 id="apache-license-20">Apache License 2.0</h1>
-<p><strong>全称</strong>：Apache License 2.0 许可协议</p>
-
-<h2 id="特点-1">特点</h2>
-<ul>
-  <li>允许免费使用、修改和分发(包括商业用途)</li>
-  <li>明确授权专利，保护用户免受专利纠纷</li>
-  <li>允许闭源分发，需要遵守相关条款</li>
-</ul>
-
-<h2 id="限制-1">限制</h2>
-<ul>
-  <li>必须保留原始的版权声明和许可信息</li>
-  <li>修改后的代码需明确说明变更内容</li>
-</ul>
-
-<h2 id="适用场景-1">适用场景</h2>
-<ul>
-  <li>适合需要专利保护且希望明确授权条款的项目</li>
-</ul>
-
-<h1 id="gpl-gnu-general-public-license">GPL (GNU General Public License)</h1>
-<p><strong>全称</strong>：通用公共许可协议</p>
-
-<h2 id="特点-2">特点</h2>
-<ul>
-  <li>强制开源，任何基于GPL代码的衍生项目必须公开开源</li>
-  <li>允许自由使用、修改和分发，但必须保持衍生品同样为GPL协议</li>
-</ul>
-
-<h2 id="限制-2">限制</h2>
-<ul>
-  <li>商业化受限，因为衍生品不能闭源</li>
-  <li>必须提供完整的源代码，包括修改部分</li>
-</ul>
-
-<h2 id="适用场景-2">适用场景</h2>
-<ul>
-  <li>适合重视软件自由、希望强制开源的项目</li>
-</ul>
-
-<h1 id="lgpl-lesser-general-public-license">LGPL (Lesser General Public License)</h1>
-<p><strong>全称</strong>：宽松通用公共许可协议</p>
-
-<h2 id="特点-3">特点</h2>
-<ul>
-  <li>相对GPL更宽松，允许软件动态链接到非GPL的代码</li>
-  <li>用户可以闭源分发自己的软件，只要不修改LGPL的代码</li>
-</ul>
-
-<h2 id="限制-3">限制</h2>
-<ul>
-  <li>修改的LGPL的代码必须开源并使用相同的协议分发</li>
-</ul>
-
-<h2 id="适用场景-3">适用场景</h2>
-<ul>
-  <li>适合开发Library, 希望代码被广泛采用而不是强制整个项目开源</li>
-</ul>
-
-<h1 id="bsd-license">BSD License</h1>
-<p><strong>全称</strong>：Berkeley Software Distribution License</p>
-
-<h2 id="特点-4">特点</h2>
-<ul>
-  <li>类似MIT，非常宽松，允许任何用途，包括商业化</li>
-  <li>可闭源分发，无需公开修改后的代码</li>
-</ul>
-
-<h2 id="限制-4">限制</h2>
-<ul>
-  <li>必须保留版权声明</li>
-  <li>不允许使用原作者的名字进行推广</li>
-</ul>
-
-<h2 id="适用场景-4">适用场景</h2>
-<ul>
-  <li>适合希望代码被广泛使用且对使用方式限制较少的项目</li>
-</ul>
-
-<h1 id="mpl-mozilla-public-license">MPL (Mozilla Public License)</h1>
-<p><strong>全称</strong>：Mozilla 公共开源许可协议</p>
-
-<h2 id="特点-5">特点</h2>
-<ul>
-  <li>比较宽松，允许闭源和商业化使用，但对修改后的代码需要开源</li>
-  <li>仅要求修改开源的文件，而不是整个项目</li>
-</ul>
-
-<h2 id="限制-5">限制</h2>
-<ul>
-  <li>修改后的MPL文件必须开源并使用相同协议分发</li>
-</ul>
-
-<h2 id="适用场景-5">适用场景</h2>
-<ul>
-  <li>适合开发需要部分开源，又保留商业化可能的项目</li>
-</ul>
-
-<h1 id="cc-creative-commons-license">CC (Creative Commons License)</h1>
-<p><strong>全称</strong>：创作公共许可</p>
-
-<h2 id="特点-6">特点</h2>
-<ul>
-  <li>专注于创意作品，例如文字、音乐、图片，而非软件</li>
-  <li>有多种版本，如CC BY、CC BY-SA、 CC BY-NC 等，根据是否允许商业用途、是否要求署名等区分</li>
-</ul>
-
-<h2 id="限制-6">限制</h2>
-<ul>
-  <li>根据选择的版本不同，可能限制商用或者二次创作</li>
-</ul>
-
-<h2 id="适用场景-6">适用场景</h2>
-<ul>
-  <li>适合开源非软件类作品</li>
-</ul>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="license" /><category term="tech" /><summary type="html"><![CDATA[常见的开源许可协议，可以理解为两条线]]></summary></entry></feed>
+</code></pre></div></div>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="k8s" /><category term="k8s" /><category term="network" /><category term="ai" /><summary type="html"><![CDATA[Gateway DNAT网络不可用问题排查和解决方案]]></summary></entry></feed>
