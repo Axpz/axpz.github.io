@@ -1,5 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-08T04:01:22+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/08/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-08T12:00:03+00:00</published><updated>2025-02-08T12:00:03+00:00</updated><id>/hacknews/2025/02/08/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/08/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-08 20:00:03</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-08T12:01:25+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/08/20-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-08T20:00:03+00:00</published><updated>2025-02-08T20:00:03+00:00</updated><id>/hacknews/2025/02/08/20:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/08/20-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-09 04:00:03</p>
+
+<ol>
+  <li><strong>使用 Odin 生成 Voronoi 图</strong><br />
+文章介绍了如何使用 Fortune 算法和 Odin 语言生成 Voronoi 图，展示了算法在图形处理中的应用。
+    <ul>
+      <li><a href="https://redpenguin101.github.io/html/posts/2025_01_21_voronoi.html">Generating Voronoi Diagrams Using Fortune’s Algorithm (With Odin)</a></li>
+    </ul>
+  </li>
+  <li><strong>现代苹果系统的热线服务</strong><br />
+开源项目 Hotline 为现代苹果系统提供了一个快速的网络调试工具，允许开发者通过 TCP 连接到系统。
+    <ul>
+      <li><a href="https://github.com/mierau/hotline">Hotline for modern Apple systems</a></li>
+    </ul>
+  </li>
+  <li><strong>PS2 向后兼容性的故事</strong><br />
+由工程师讲述的 PS2 向后兼容性的故事，揭示了游戏机设计中的技术挑战和创新。
+    <ul>
+      <li><a href="https://freelansations.medium.com/the-story-of-the-ps2s-backwards-compatibility-from-the-engineer-who-built-it-ec39cf5a0353">The PS2’s backwards compatibility from the engineer who built it</a></li>
+    </ul>
+  </li>
+  <li><strong>英国要求苹果开放用户加密账户</strong><br />
+英国政府要求苹果公司开放用户加密账户以进行间谍活动，引发了对隐私和安全问题的讨论。
+    <ul>
+      <li><a href="https://www.washingtonpost.com/technology/2025/02/07/apple-encryption-backdoor-uk/">U.K. orders Apple to let it spy on users’ encrypted accounts</a></li>
+    </ul>
+  </li>
+  <li><strong>Turner, Bird, Eratosthenes 论文</strong><br />
+一篇关于 Turner, Bird, Eratosthenes 的论文，探讨了函数式编程中的永恒燃烧线程问题。
+    <ul>
+      <li><a href="https://www.cambridge.org/core/journals/journal-of-functional-programming/article/turner-bird-eratosthenes-an-eternal-burning-thread/32E2EDF5D5EAEC95F13D313BC97B86F0">Turner, Bird, Eratosthenes: An eternal burning thread</a></li>
+    </ul>
+  </li>
+  <li><strong>Tapestry 应用</strong><br />
+Iconfactory 开发的 Tapestry 应用，提供了一个现代化的桌面环境，支持多种操作系统。
+    <ul>
+      <li><a href="https://usetapestry.com/">Tapestry by Iconfactory</a></li>
+    </ul>
+  </li>
+  <li><strong>Asahi Linux 主开发者辞职</strong><br />
+Asahi Linux 的主要开发者 Hector Martin 从 Linux 内核项目辞职，引起了社区的关注和讨论。
+    <ul>
+      <li><a href="https://lkml.org/lkml/2025/2/7/9">Asahi Linux lead developer Hector Martin resigns from Linux kernel</a></li>
+    </ul>
+  </li>
+  <li><strong>Mozilla 代码签名历史</strong><br />
+一篇文章简要回顾了 Mozilla 在代码签名方面的历史，展示了安全实践的演变。
+    <ul>
+      <li><a href="https://hearsum.ca/posts/history-of-code-signing-at-mozilla/">A brief history of code signing at Mozilla</a></li>
+    </ul>
+  </li>
+  <li><strong>基于价值的深度强化学习</strong><br />
+一篇研究论文探讨了如何使基于价值的深度强化学习可预测地扩展，对 AI 领域具有重要意义。
+    <ul>
+      <li><a href="https://arxiv.org/abs/2502.04327">Value-Based Deep RL Scales Predictably</a></li>
+    </ul>
+  </li>
+  <li><strong>VSCode 的 SSH 代理问题</strong><br />
+一篇文章讨论了 VSCode 的 SSH 代理实现中存在的问题，对开发者使用 SSH 进行了深入分析。
+    <ul>
+      <li><a href="https://fly.io/blog/vscode-ssh-wtf/">VSCode’s SSH agent is bananas</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-09 04:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/08/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-08T12:00:03+00:00</published><updated>2025-02-08T12:00:03+00:00</updated><id>/hacknews/2025/02/08/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/08/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-08 20:00:03</p>
 
 <ol>
   <li><strong>VSCode SSH Agent 功能讨论</strong><br />
@@ -590,57 +653,4 @@ YC W23 孵化的公司 Intrinsic 发布了招聘信息，寻找技术人才。
       </li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 17:18:32]]></summary></entry><entry><title type="html">Hacker News 热门话题 top 10 2025-01-23</title><link href="/hacknews/2025/01/23/16-57-19-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-23" /><published>2025-01-23T08:57:19+00:00</published><updated>2025-01-23T08:57:19+00:00</updated><id>/hacknews/2025/01/23/16:57:19-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/23/16-57-19-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-23 16:57:19</p>
-
-<ol>
-  <li><strong>Bunster：将 Bash 脚本编译成独立可执行文件的工具</strong>：一个 GitHub 项目，允许用户将 Bash 脚本编译成独立的可执行文件，提高脚本的便携性和执行效率。
-    <ul>
-      <li><a href="https://github.com/yassinebenaid/bunster">Bunster: Compile bash scripts to self contained executables</a></li>
-    </ul>
-  </li>
-  <li><strong>Psychedelic Graphics：介绍</strong>：一篇博客文章，介绍了迷幻图形的历史和技术，探讨了这种风格在现代设计中的应用。
-    <ul>
-      <li><a href="https://benpence.com/blog/post/psychedelic-graphics-0">Psychedelic Graphics: An Introduction</a></li>
-    </ul>
-  </li>
-  <li><strong>Show HN：从头开始制作的开源笔记本电脑</strong>：一个开发者展示了他如何从零开始制作一个开源笔记本电脑，包括硬件和软件的集成。
-    <ul>
-      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
-    </ul>
-  </li>
-  <li><strong>Show HN：libmodulor – 用于构建多平台应用的 TypeScript 库</strong>：一个 GitHub 项目，提供了一个有特定观点的 TypeScript 库，用于构建跨平台应用程序。
-    <ul>
-      <li><a href="https://github.com/c100k/libmodulor">Show HN: libmodulor – An opinionated TS library to build multi-platform apps</a></li>
-    </ul>
-  </li>
-  <li><strong>Orbit Spirograph：数学艺术</strong>：一个关于轨道绘图仪的数学艺术文章，探讨了这种绘图工具的数学原理和美学。
-    <ul>
-      <li><a href="https://www.redblobgames.com/x/1903-orbit-spirograph/">Orbit Spirograph (2019)</a></li>
-    </ul>
-  </li>
-  <li><strong>Third Base：棒球术语的科学解释</strong>：一篇科学美国人的文章，解释了棒球术语“第三垒”背后的科学原理。
-    <ul>
-      <li><a href="https://www.americanscientist.org/article/third-base">Third Base (2001)</a></li>
-    </ul>
-  </li>
-  <li><strong>TMSU：命令行工具，用于应用标签和查看虚拟标记文件系统</strong>：一个命令行工具，允许用户为文件和目录添加标签，并查看一个基于标签的虚拟文件系统。
-    <ul>
-      <li><a href="https://tmsu.org/">TMSU: Command-line tool for applying tags and viewing virtual tagged filesystem</a></li>
-    </ul>
-  </li>
-  <li><strong>伦敦最中心的羊在哪里？</strong>：一篇博客文章，探讨了伦敦最中心的羊的位置，以及这个概念背后的地理和文化意义。
-    <ul>
-      <li><a href="https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html">Where is London’s most central sheep?</a></li>
-    </ul>
-  </li>
-  <li><strong>英国微型巨头</strong>：一篇博客文章，讨论了英国微型计算机产业的历史和影响，以及它如何塑造了现代技术。
-    <ul>
-      <li><a href="https://www.abortretry.fail/p/the-british-micro-behemoth">The British Micro Behemoth</a></li>
-    </ul>
-  </li>
-  <li><strong>查看压缩算法</strong>：一篇博客文章，深入探讨了不同的压缩算法，包括它们的工作原理和应用场景。
-    <ul>
-      <li><a href="https://cefboud.github.io/posts/compression/">Taking a Look at Compression Algorithms</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 16:57:19]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 17:18:32]]></summary></entry></feed>
