@@ -1,5 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-08T12:01:25+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/08/20-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-08T20:00:03+00:00</published><updated>2025-02-08T20:00:03+00:00</updated><id>/hacknews/2025/02/08/20:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/08/20-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-09 04:00:03</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-09T14:38:05+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/10/22-36-54-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-10T00:36:54+00:00</published><updated>2025-02-10T00:36:54+00:00</updated><id>/hacknews/2025/02/10/22:36:54-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/10/22-36-54-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-10 08:36:54</p>
+
+<ol>
+  <li><strong>GPU 条件语句优化问题</strong><br />
+讨论了在着色器中使用 mix() 和 step() 函数进行条件移动优化的问题，指出了这种优化可能带来的问题和误解。
+    <ul>
+      <li><a href="https://iquilezles.org/articles/gpuconditionals/">Don’t “optimize” conditional moves in shaders with mix()+step()</a></li>
+    </ul>
+  </li>
+  <li><strong>LLMs 构建的经典数据科学管道</strong><br />
+展示了如何使用大型语言模型（LLMs）构建经典的数据科学管道，这表明了 AI 在数据处理领域的应用潜力。
+    <ul>
+      <li><a href="https://github.com/Pravko-Solutions/FlashLearn/tree/main/examples">Classic Data science pipelines built with LLMs</a></li>
+    </ul>
+  </li>
+  <li><strong>卢旺达科学家开发香蕉酒本地酵母</strong><br />
+报道了卢旺达科学家为香蕉酒制造商开发本地酵母的新闻，展示了生物科技在食品工业中的应用。
+    <ul>
+      <li><a href="https://phys.org/news/2025-01-rwandan-scientists-local-yeast-banana.html">Rwandan scientists develop local yeast for banana wine-makers</a></li>
+    </ul>
+  </li>
+  <li><strong>阿兹特克帝国首都的3D重建</strong><br />
+介绍了一个项目，该项目通过3D技术重建了阿兹特克帝国首都特诺奇蒂特兰，为历史研究提供了新的视角。
+    <ul>
+      <li><a href="https://tenochtitlan.thomaskole.nl/">3D reconstruction of the capital of the Aztec empire</a></li>
+    </ul>
+  </li>
+  <li><strong>Slack上的流线型读书俱乐部</strong><br />
+展示了一个新侧项目，该项目旨在通过 Slack 平台简化读书俱乐部的流程，提高交流效率。
+    <ul>
+      <li><a href="https://booktalk.club/">Show HN: My first side project, streamlined book clubs on Slack</a></li>
+    </ul>
+  </li>
+  <li><strong>人群中的集体振荡现象</strong><br />
+一项研究探讨了人群中集体振荡现象的出现，这对于理解人群动态和安全管理具有重要意义。
+    <ul>
+      <li><a href="https://www.nature.com/articles/s41586-024-08514-6">Emergence of collective oscillations in human crowds</a></li>
+    </ul>
+  </li>
+  <li><strong>Linux 作为合作的 Windows 进程</strong><br />
+介绍了一个项目，该项目允许 Linux 作为一个合作的 Windows 进程运行，显示了操作系统间的互操作性。
+    <ul>
+      <li><a href="http://www.colinux.org/">Linux as co-operative Windows process (2017)</a></li>
+    </ul>
+  </li>
+  <li><strong>RetroFab：复古电子游戏的3D模拟</strong><br />
+介绍了一个项目，该项目提供了复古电子游戏的3D模拟，为玩家提供了怀旧体验。
+    <ul>
+      <li><a href="https://itizso.itch.io/retrofab">RetroFab: Playable 3D simulations of vintage electronic games</a></li>
+    </ul>
+  </li>
+  <li><strong>Ocal – AI日历自动安排任务</strong><br />
+展示了一个 AI 日历项目，该日历可以自动为用户安排任务，提高了个人时间管理的效率。
+    <ul>
+      <li><a href="https://www.ocal.ai/">Show HN: Ocal – AI Calendar That Schedules Assignments for You</a></li>
+    </ul>
+  </li>
+  <li><strong>20世纪的数学</strong><br />
+分享了 Michael Atiyah 所著的关于20世纪数学发展的论文，为数学爱好者提供了宝贵的历史资料。
+    <ul>
+      <li><a href="https://marktomforde.com/academic/miscellaneous/images/atiyah20thcentury.pdf">Mathematics in the 20th century, by Michael Atiyah [pdf] (2002)</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-10 08:36:54]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/08/20-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-08T20:00:03+00:00</published><updated>2025-02-08T20:00:03+00:00</updated><id>/hacknews/2025/02/08/20:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/08/20-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-09 04:00:03</p>
 
 <ol>
   <li><strong>使用 Odin 生成 Voronoi 图</strong><br />
@@ -598,59 +661,4 @@ YC W23 孵化的公司 Intrinsic 发布了招聘信息，寻找技术人才。
       <li><a href="https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html">Where is London’s most central sheep?</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 17:29:36]]></summary></entry><entry><title type="html">Hacker News 热门话题 top 10 2025-01-23</title><link href="/hacknews/2025/01/23/17-18-32-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-23" /><published>2025-01-23T09:18:32+00:00</published><updated>2025-01-23T09:18:32+00:00</updated><id>/hacknews/2025/01/23/17:18:32-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/23/17-18-32-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-23 17:18:32</p>
-
-<ol>
-  <li><strong>Bunster 工具介绍</strong>：一个可以将 bash 脚本编译成独立可执行文件的工具，为脚本开发者提供了便利。
-    <ul>
-      <li>Bunster: Compile bash scripts to self contained executables: https://github.com/yassinebenaid/bunster</li>
-    </ul>
-  </li>
-  <li><strong>迷幻图形介绍</strong>：一篇关于迷幻图形的介绍文章，探讨了这种视觉艺术的风格和特点。
-    <ul>
-      <li>Psychedelic Graphics: An Introduction: https://benpence.com/blog/post/psychedelic-graphics-0</li>
-    </ul>
-  </li>
-  <li><strong>TMSU 命令行工具</strong>：一个用于应用标签和查看虚拟标记文件系统的命令行工具。
-    <ul>
-      <li>TMSU: Command-line tool for applying tags and viewing virtual tagged filesystem: https://tmsu.org/</li>
-    </ul>
-  </li>
-  <li><strong>开源笔记本电脑制作</strong>：一个开发者展示了他从头开始制作的开源笔记本电脑。
-    <ul>
-      <li>Show HN: I made an open-source laptop from scratch: https://www.byran.ee/posts/creation/</li>
-    </ul>
-  </li>
-  <li><strong>轨道绘图仪</strong>：一篇关于轨道绘图仪的介绍文章，探讨了这种数学绘图工具的工作原理。
-    <ul>
-      <li>Orbit Spirograph: https://www.redblobgames.com/x/1903-orbit-spirograph/</li>
-    </ul>
-  </li>
-  <li><strong>libmodulor TS库</strong>：一个用于构建多平台应用的意见性TypeScript库。
-    <ul>
-      <li>Show HN: libmodulor – An opinionated TS library to build multi-platform apps: https://github.com/c100k/libmodulor</li>
-    </ul>
-  </li>
-  <li><strong>Intrinsic 招聘信息</strong>：一家 YC W23 孵化的公司正在招聘。
-    <ul>
-      <li>Intrinsic (YC W23) Is Hiring: item?id=42805699</li>
-    </ul>
-  </li>
-  <li><strong>文件操作的难点</strong>：一篇讨论文件操作难点的文章，分析了文件系统和文件操作的复杂性。
-    <ul>
-      <li>Working with Files Is Hard: https://danluu.com/deconstruct-files/</li>
-    </ul>
-  </li>
-  <li><strong>第三垒</strong>：一篇关于棒球中第三垒位置的文章，探讨了这个位置的重要性和特点。
-    <ul>
-      <li>Third Base: https://www.americanscientist.org/article/third-base</li>
-    </ul>
-  </li>
-  <li><strong>伦敦最中心的羊</strong>：一篇探讨伦敦最中心位置的羊的文章，提供了有趣的地理和文化信息。
-    <ul>
-      <li>
-        <h2 id="where-is-londons-most-central-sheep-httpsdiamondgeezerblogspotcom202501londons-most-central-sheephtml">Where is London’s most central sheep?: https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html</h2>
-      </li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 17:18:32]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 17:29:36]]></summary></entry></feed>
