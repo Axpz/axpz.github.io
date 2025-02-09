@@ -1,5 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-09T14:38:05+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/10/22-36-54-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-10T00:36:54+00:00</published><updated>2025-02-10T00:36:54+00:00</updated><id>/hacknews/2025/02/10/22:36:54-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/10/22-36-54-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-10 08:36:54</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-09T22:01:20+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/10/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-10T06:00:03+00:00</published><updated>2025-02-10T06:00:03+00:00</updated><id>/hacknews/2025/02/10/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/10/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-10 14:00:03</p>
+
+<ol>
+  <li><strong>Ada 编程语言年度最佳 crate</strong><br />
+2024年Ada语言的最佳crate揭晓，展示了Ada语言在特定领域中的强大能力和社区的活跃度。
+    <ul>
+      <li><a href="https://blog.adacore.com/ada-spark-crate-of-the-year-2024-winners-announced">Ada crate of the year 2024 announced</a></li>
+    </ul>
+  </li>
+  <li><strong>LIMO 推理系统</strong><br />
+LIMO系统，即“Less Is More for Reasoning”，是一种新的推理系统，旨在简化逻辑推理过程，提高效率。
+    <ul>
+      <li><a href="https://arxiv.org/abs/2502.03387">LIMO: Less Is More for Reasoning</a></li>
+    </ul>
+  </li>
+  <li><strong>PostgreSQL 最佳实践</strong><br />
+文章讨论了PostgreSQL数据库的最佳实践，为数据库管理和优化提供了实用指南。
+    <ul>
+      <li><a href="https://speakdatascience.com/postgresql-best-practices/">PostgreSQL Best Practices</a></li>
+    </ul>
+  </li>
+  <li><strong>三个观察</strong><br />
+博客文章《三个观察》探讨了作者对当前技术和社会趋势的洞察，引发对未来发展路径的思考。
+    <ul>
+      <li><a href="https://blog.samaltman.com/three-observations">Three Observations</a></li>
+    </ul>
+  </li>
+  <li><strong>现代预言机还是废话机器？</strong><br />
+文章讨论了在ChatGPT等AI技术盛行的世界中，如何保持竞争力和辨别真伪。
+    <ul>
+      <li><a href="https://thebullshitmachines.com">Modern-Day Oracles or Bullshit Machines?</a></li>
+    </ul>
+  </li>
+  <li><strong>Steam Deck 上的持久化包管理</strong><br />
+介绍了如何在Steam Deck上使用Nix实现持久化包管理，为游戏玩家提供了新的解决方案。
+    <ul>
+      <li><a href="https://chrastecky.dev/gaming/persistent-packages-on-steam-deck-using-nix">Persistent packages on Steam Deck using Nix</a></li>
+    </ul>
+  </li>
+  <li><strong>不要在着色器中优化条件移动</strong><br />
+技术文章讨论了在着色器编程中，如何避免使用mix()和step()函数优化条件移动，以提高性能。
+    <ul>
+      <li><a href="https://iquilezles.org/articles/gpuconditionals/">Don’t “optimize” conditional moves in shaders</a></li>
+    </ul>
+  </li>
+  <li><strong>OpenStreetMap 日历</strong><br />
+OpenStreetMap社区推出的日历，展示了地图制作和地理信息的美学。
+    <ul>
+      <li><a href="https://osmcal.org/">OpenStreetMap Calendar</a></li>
+    </ul>
+  </li>
+  <li><strong>大型语言模型的推理挑战</strong><br />
+研究论文探讨了大型语言模型在没有博士学位知识的情况下如何进行推理，对AI领域的发展具有重要意义。
+    <ul>
+      <li><a href="https://arxiv.org/abs/2502.01584">PhD Knowledge Not Required</a></li>
+    </ul>
+  </li>
+  <li><strong>Meta 的 AI 演示</strong><br />
+Meta展示了一系列AI技术演示，展示了公司在人工智能领域的最新进展。
+    <ul>
+      <li><a href="https://aidemos.meta.com/">AI Demos by Meta</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-10 14:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/10/22-36-54-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-10T00:36:54+00:00</published><updated>2025-02-10T00:36:54+00:00</updated><id>/hacknews/2025/02/10/22:36:54-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/10/22-36-54-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-10 08:36:54</p>
 
 <ol>
   <li><strong>GPU 条件语句优化问题</strong><br />
@@ -598,67 +661,4 @@ libmodulor 是一个有特定观点的 TypeScript 库，旨在帮助开发者构
       <li><a href="https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html">Where is London’s most central sheep?</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 17:36:48]]></summary></entry><entry><title type="html">Hacker News 热门话题 top 10 2025-01-23</title><link href="/hacknews/2025/01/23/17-29-36-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-23" /><published>2025-01-23T09:29:36+00:00</published><updated>2025-01-23T09:29:36+00:00</updated><id>/hacknews/2025/01/23/17:29:36-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/23/17-29-36-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-23 17:29:36</p>
-
-<ol>
-  <li><strong>Bunster 工具介绍</strong><br />
-Bunster 是一个可以将 bash 脚本编译成独立可执行文件的工具，为脚本部署和分发提供了便利。
-    <ul>
-      <li><a href="https://github.com/yassinebenaid/bunster">Bunster: Compile bash scripts to self contained executables</a></li>
-    </ul>
-  </li>
-  <li><strong>迷幻图形介绍</strong><br />
-文章介绍了迷幻图形的历史和设计原理，为设计师和艺术家提供了灵感。
-    <ul>
-      <li><a href="https://benpence.com/blog/post/psychedelic-graphics-0">Psychedelic Graphics: An Introduction</a></li>
-    </ul>
-  </li>
-  <li><strong>TMSU 命令行工具</strong><br />
-TMSU 是一个命令行工具，用于给文件系统打标签和查看虚拟标签文件系统，增强了文件管理的灵活性。
-    <ul>
-      <li><a href="https://tmsu.org/">TMSU: Command-line tool for applying tags and viewing virtual tagged filesystem</a></li>
-    </ul>
-  </li>
-  <li><strong>自制开源笔记本电脑</strong><br />
-一个开发者展示了他从头开始制作开源笔记本电脑的过程，引起了社区的广泛关注。
-    <ul>
-      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
-    </ul>
-  </li>
-  <li><strong>处理文件的困难</strong><br />
-文章讨论了在现代编程中处理文件的复杂性，以及如何优化文件操作。
-    <ul>
-      <li><a href="https://danluu.com/deconstruct-files/">Working with Files Is Hard</a></li>
-    </ul>
-  </li>
-  <li><strong>轨道绘图仪</strong><br />
-介绍了一种名为轨道绘图仪的数学绘图工具，可以创建复杂的几何图形。
-    <ul>
-      <li><a href="https://www.redblobgames.com/x/1903-orbit-spirograph/">Orbit Spirograph</a></li>
-    </ul>
-  </li>
-  <li><strong>Intrinsic 招聘信息</strong><br />
-YC W23 孵化的公司 Intrinsic 发布了招聘信息，寻找技术人才。
-    <ul>
-      <li><a href="item?id=42805699">Intrinsic (YC W23) Is Hiring</a></li>
-    </ul>
-  </li>
-  <li><strong>libmodulor TS 库</strong><br />
-展示了一个用于构建多平台应用的 TypeScript 库 libmodulor，强调了其“有意见”的设计哲学。
-    <ul>
-      <li><a href="https://github.com/c100k/libmodulor">Show HN: libmodulor – An opinionated TS library to build multi-platform apps</a></li>
-    </ul>
-  </li>
-  <li><strong>第三垒（棒球术语）</strong><br />
-文章探讨了棒球中的“第三垒”概念，以及它在统计学和战术上的重要性。
-    <ul>
-      <li><a href="https://www.americanscientist.org/article/third-base">Third Base</a></li>
-    </ul>
-  </li>
-  <li><strong>伦敦最中心的羊</strong><br />
-一篇有趣的文章探讨了伦敦最中心的羊的位置，以及这个概念背后的城市地理学。
-    <ul>
-      <li><a href="https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html">Where is London’s most central sheep?</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 17:29:36]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 17:36:48]]></summary></entry></feed>
