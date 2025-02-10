@@ -1,5 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-10T04:01:17+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/10/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-10T12:00:03+00:00</published><updated>2025-02-10T12:00:03+00:00</updated><id>/hacknews/2025/02/10/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/10/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-10 20:00:03</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-10T12:01:34+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/10/20-00-04-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-10T12:00:04+00:00</published><updated>2025-02-10T12:00:04+00:00</updated><id>/hacknews/2025/02/10/20:00:04-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/10/20-00-04-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-10 20:00:04</p>
+
+<ol>
+  <li><strong>深度学习模型（LLMs）的概述</strong><br />
+Andrej Karpathy 对大型语言模型（如ChatGPT）的深入分析的摘要，提供了对当前人工智能领域最前沿技术的理解。
+    <ul>
+      <li><a href="https://anfalmushtaq.com/articles/deep-dive-into-llms-like-chatgpt-tldr">TL;DR of Deep Dive into LLMs Like ChatGPT by Andrej Karpathy</a></li>
+    </ul>
+  </li>
+  <li><strong>托马斯·阿奎那头骨揭示其外貌和死因</strong><br />
+通过对托马斯·阿奎那头骨的研究，揭示了这位哲学家的外貌和死因，展示了考古学和历史学的新发现。
+    <ul>
+      <li><a href="https://www.ncregister.com/blog/face-of-aquinas-revealed-after-750-years">Thomas Aquinas’ skull reveals appearance and cause of death</a></li>
+    </ul>
+  </li>
+  <li><strong>博客写作的意义</strong><br />
+讨论了即使没有人阅读，为什么人们仍然会写博客的问题，触及了内容创作者的内心世界和动机。
+    <ul>
+      <li><a href="https://andysblog.uk/why-blog-if-nobody-reads-it/">Why blog if nobody reads it?</a></li>
+    </ul>
+  </li>
+  <li><strong>人类起源研究百年纪念</strong><br />
+庆祝人类起源研究一百周年，回顾了这一领域的重要发现和进展。
+    <ul>
+      <li><a href="https://www.nature.com/articles/d41586-025-00282-1">Out of Africa: celebrating 100 years of human-origins research</a></li>
+    </ul>
+  </li>
+  <li><strong>Rust 与 Ada 的比较</strong><br />
+FOSDEM 2025 上关于 Rust 语言努力追赶 Ada 的讨论，探讨了编程语言的发展和特性。
+    <ul>
+      <li><a href="https://fosdem.org/2025/schedule/event/fosdem-2025-5356-the-state-of-rust-trying-to-catch-up-with-ada/">FOSDEM 2025: The state of Rust trying to catch up with Ada</a></li>
+    </ul>
+  </li>
+  <li><strong>LIMO：简化推理</strong><br />
+介绍了一种新的推理方法，强调“少即是多”的原则，旨在简化复杂问题的处理。
+    <ul>
+      <li><a href="https://arxiv.org/abs/2502.03387">LIMO: Less Is More for Reasoning</a></li>
+    </ul>
+  </li>
+  <li><strong>架构图常见错误</strong><br />
+总结了在架构图设计中常见的错误，为软件开发者提供了宝贵的参考。
+    <ul>
+      <li><a href="https://www.ilograph.com/blog/posts/diagram-mistakes/">Common mistakes in architecture diagrams</a></li>
+    </ul>
+  </li>
+  <li><strong>比特币失主探索购买整个垃圾填埋场</strong><br />
+报道了一位在垃圾填埋场丢失比特币财富的男子，探索购买整个垃圾填埋场的可能性。
+    <ul>
+      <li><a href="https://www.theguardian.com/technology/2025/feb/10/man-who-lost-bitcoin-fortune-in-welsh-tip-explores-purchase-of-entire-landfill">Man who lost Bitcoin fortune in Welsh tip explores purchase of entire landfill</a></li>
+    </ul>
+  </li>
+  <li><strong>不要在着色器中优化条件移动</strong><br />
+讨论了在着色器编程中使用 mix() 和 step() 函数优化条件移动的问题，提供了技术性的见解。
+    <ul>
+      <li><a href="https://iquilezles.org/articles/gpuconditionals/">Don’t “optimize” conditional moves in shaders with mix()+step()</a></li>
+    </ul>
+  </li>
+  <li><strong>南极洲无冰土地的保护蓝图</strong><br />
+介绍了南极洲无冰土地的测绘工作，为环境保护提供了重要的参考。
+    <ul>
+      <li><a href="https://www.unsw.edu.au/newsroom/news/2025/01/mapping-antarcticas-hidden-ice-free-lands-a-blueprint-for-conservation">Mapping Antarctica’s hidden ice-free lands: a blueprint for conservation</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-10 20:00:04]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/10/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-10T12:00:03+00:00</published><updated>2025-02-10T12:00:03+00:00</updated><id>/hacknews/2025/02/10/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/10/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-10 20:00:03</p>
 
 <ol>
   <li><strong>LIMO: Less Is More for Reasoning</strong><br />
@@ -598,67 +661,4 @@ Verse，一家参与Y Combinator W22的初创公司，正在招聘新员工。
       <li><a href="https://devblogs.microsoft.com/go/go-1-24-fips-update/">Go 1.24 FIPS changes</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-07 14:00:03]]></summary></entry><entry><title type="html">Hacker News 热门话题 top 10 2025-01-23</title><link href="/hacknews/2025/01/23/19-00-02-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-23" /><published>2025-01-23T11:00:02+00:00</published><updated>2025-01-23T11:00:02+00:00</updated><id>/hacknews/2025/01/23/19:00:02-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/23/19-00-02-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-23 19:00:02</p>
-
-<ol>
-  <li><strong>Llama.vim – 本地LLM辅助文本补全工具</strong><br />
-Llama.vim 是一个为 Vim 编辑器开发的本地LLM（Large Language Model）辅助文本补全工具，它允许用户在不依赖网络连接的情况下，利用本地模型进行文本补全，这对于需要离线工作的开发者来说是一个福音。
-    <ul>
-      <li><a href="https://github.com/ggml-org/llama.vim">Llama.vim – Local LLM-assisted text completion</a></li>
-    </ul>
-  </li>
-  <li><strong>感谢HN：我的自启动创业公司今天被收购了</strong><br />
-一位创业者在Hacker News上分享了他的自启动创业公司被收购的消息，这类故事通常能激励其他创业者，同时也提供了关于创业、产品开发和市场定位的讨论。
-    <ul>
-      <li><a href="https://news.ycombinator.com/item?id=42806247">Thank HN: My bootstrapped startup got acquired today</a></li>
-    </ul>
-  </li>
-  <li><strong>迷幻图形：介绍</strong><br />
-迷幻图形是一种视觉艺术形式，这篇文章提供了对这种艺术风格的介绍，探讨了其历史和技术实现，对于设计师和艺术家来说，这是一次视觉和创意的启发。
-    <ul>
-      <li><a href="https://benpence.com/blog/post/psychedelic-graphics-0">Psychedelic Graphics: An Introduction</a></li>
-    </ul>
-  </li>
-  <li><strong>Bunster：将bash脚本编译成独立可执行文件的工具</strong><br />
-Bunster 是一个开源工具，可以将bash脚本编译成独立的可执行文件，这对于需要将脚本部署到不同环境的开发者来说非常有用。
-    <ul>
-      <li><a href="https://github.com/yassinebenaid/bunster">Bunster: Compile bash scripts to self contained executables</a></li>
-    </ul>
-  </li>
-  <li><strong>从零开始建造中世纪城堡</strong><br />
-这是一个介绍如何从零开始建造中世纪城堡的项目，它不仅展示了建筑技术，还涉及到历史和文化，对于历史爱好者和建筑爱好者来说是一个有趣的话题。
-    <ul>
-      <li><a href="https://www.guedelon.fr/en/">Building a Medieval Castle from Scratch</a></li>
-    </ul>
-  </li>
-  <li><strong>处理文件真难（2019）</strong><br />
-这篇文章讨论了文件处理的复杂性，包括文件系统的局限性和现代编程中文件操作的挑战，对于开发者来说，这是一篇深入理解文件操作的文章。
-    <ul>
-      <li><a href="https://danluu.com/deconstruct-files/">Working with Files Is Hard (2019)</a></li>
-    </ul>
-  </li>
-  <li><strong>Show HN：我从头开始制作了一个开源笔记本电脑</strong><br />
-一位开发者展示了他如何从头开始制作了一个开源笔记本电脑，这个项目涉及到硬件设计、软件开发和社区协作，对于硬件爱好者和开源社区来说是一个激动人心的项目。
-    <ul>
-      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
-    </ul>
-  </li>
-  <li><strong>TMSU：命令行工具，用于应用标签和查看虚拟标记文件系统</strong><br />
-TMSU 是一个命令行工具，它允许用户为文件和目录添加标签，并查看一个虚拟的标记文件系统，这对于需要管理大量文件的用户来说是一个有用的工具。
-    <ul>
-      <li><a href="https://tmsu.org/">TMSU: Command-line tool for applying tags and viewing virtual tagged filesystem</a></li>
-    </ul>
-  </li>
-  <li><strong>轨道绘图仪（2019）</strong><br />
-这篇文章介绍了一种名为“轨道绘图仪”的数学绘图工具，它可以用来创建复杂的几何图形，对于数学和艺术爱好者来说，这是一次探索数学之美的机会。
-    <ul>
-      <li><a href="https://www.redblobgames.com/x/1903-orbit-spirograph/">Orbit Spirograph (2019)</a></li>
-    </ul>
-  </li>
-  <li><strong>Intrinsic (YC W23) 正在招聘</strong><br />
-Intrinsic 是一家由Y Combinator支持的初创公司，目前正在招聘新成员，这对于寻找工作机会的开发者和创业者来说是一个值得关注的消息。
-    <ul>
-      <li><a href="https://news.ycombinator.com/item?id=42805699">Intrinsic (YC W23) Is Hiring</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 19:00:02]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-07 14:00:03]]></summary></entry></feed>
