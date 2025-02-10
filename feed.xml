@@ -1,5 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-09T22:01:20+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/10/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-10T06:00:03+00:00</published><updated>2025-02-10T06:00:03+00:00</updated><id>/hacknews/2025/02/10/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/10/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-10 14:00:03</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-10T04:01:17+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/10/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-10T12:00:03+00:00</published><updated>2025-02-10T12:00:03+00:00</updated><id>/hacknews/2025/02/10/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/10/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-10 20:00:03</p>
+
+<ol>
+  <li><strong>LIMO: Less Is More for Reasoning</strong><br />
+LIMO 是一种新的推理方法，旨在通过简化问题来提高推理效率。这种方法强调在复杂问题中寻找更简洁的解决方案，以提高推理的准确性和效率。
+    <ul>
+      <li><a href="https://arxiv.org/abs/2502.03387">LIMO: Less Is More for Reasoning</a></li>
+    </ul>
+  </li>
+  <li><strong>Don’t “optimize” conditional moves in shaders with mix()+step()</strong><br />
+文章讨论了在着色器中使用 mix() 和 step() 函数进行条件移动优化的问题，指出这种优化可能会导致性能下降，提醒开发者注意。
+    <ul>
+      <li><a href="https://iquilezles.org/articles/gpuconditionals/">Don’t “optimize” conditional moves in shaders with mix()+step()</a></li>
+    </ul>
+  </li>
+  <li><strong>Why Blog If Nobody Reads It?</strong><br />
+探讨了即使博客无人阅读，为何人们仍然坚持写作的问题。文章认为，博客不仅是分享知识的方式，也是个人思考和自我表达的平台。
+    <ul>
+      <li><a href="https://andysblog.uk/why-blog-if-nobody-reads-it/">Why Blog If Nobody Reads It?</a></li>
+    </ul>
+  </li>
+  <li><strong>Teen on Musk’s DOGE team graduated from ‘The Com’</strong><br />
+报道了一名青少年从“喜剧中心”毕业，加入了马斯克的 DOGE 团队。这一事件引发了对青少年在科技领域角色和潜力的讨论。
+    <ul>
+      <li><a href="https://krebsonsecurity.com/2025/02/teen-on-musks-doge-team-graduated-from-the-com/">Teen on Musk’s DOGE team graduated from ‘The Com’</a></li>
+    </ul>
+  </li>
+  <li><strong>Show HN: Searchable Library of Free Audiobooks</strong><br />
+展示了一个免费的有声书搜索图书馆，为用户提供了一个便捷的资源，可以搜索和获取各种有声书。
+    <ul>
+      <li><a href="https://booksearch.party/">Show HN: Searchable Library of Free Audiobooks</a></li>
+    </ul>
+  </li>
+  <li><strong>Persistent packages on Steam Deck using Nix</strong><br />
+介绍了如何在 Steam Deck 上使用 Nix 来实现软件包的持久化，这对于希望在移动设备上保持开发环境一致性的用户来说非常有用。
+    <ul>
+      <li><a href="https://chrastecky.dev/gaming/persistent-packages-on-steam-deck-using-nix">Persistent packages on Steam Deck using Nix</a></li>
+    </ul>
+  </li>
+  <li><strong>PhD Knowledge Not Required: A Reasoning Challenge for Large Language Models</strong><br />
+提出了一个针对大型语言模型的推理挑战，探讨了是否需要博士学位知识来解决复杂问题，这对于人工智能领域的研究具有重要意义。
+    <ul>
+      <li><a href="https://arxiv.org/abs/2502.01584">PhD Knowledge Not Required: A Reasoning Challenge for Large Language Models</a></li>
+    </ul>
+  </li>
+  <li><strong>Revenge of the GPT Wrappers: Defensibility in a world of commoditized AI models</strong><br />
+讨论了在 AI 模型商品化的世界中，如何通过 GPT 包装器来提高模型的防御性，这对于保护 AI 系统的安全性和可靠性至关重要。
+    <ul>
+      <li><a href="https://andrewchen.substack.com/p/revenge-of-the-gpt-wrappers-defensibility">Revenge of the GPT Wrappers: Defensibility in a world of commoditized AI models</a></li>
+    </ul>
+  </li>
+  <li><strong>The Recombobulation Area (2023)</strong><br />
+介绍了“重组区域”的概念，这是一个用于帮助人们在混乱中找到秩序和清晰度的空间，对于提高工作效率和生活质量具有积极影响。
+    <ul>
+      <li><a href="https://onmilwaukee.com/articles/recombobulationsigns">The Recombobulation Area (2023)</a></li>
+    </ul>
+  </li>
+  <li><strong>Douglas McIlroy responds to Unix spell article with new implementation details</strong><br />
+道格拉斯·麦克罗伊对 Unix 拼写文章的回应，提供了新的实现细节，这对于理解 Unix 系统的发展历程和设计哲学具有重要价值。
+    <ul>
+      <li><a href="https://twitter.com/abhi9u/status/1887010136155414602">Douglas McIlroy responds to Unix spell article with new implementation details</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-10 20:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/10/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-10T06:00:03+00:00</published><updated>2025-02-10T06:00:03+00:00</updated><id>/hacknews/2025/02/10/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/10/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-10 14:00:03</p>
 
 <ol>
   <li><strong>Ada 编程语言年度最佳 crate</strong><br />
@@ -598,67 +661,4 @@ Intrinsic 是一家由Y Combinator支持的初创公司，目前正在招聘新�
       <li><a href="https://news.ycombinator.com/item?id=42805699">Intrinsic (YC W23) Is Hiring</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 19:00:02]]></summary></entry><entry><title type="html">Hacker News 热门话题 top 10 2025-01-23</title><link href="/hacknews/2025/01/23/17-36-48-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News 热门话题 top 10 2025-01-23" /><published>2025-01-23T09:36:48+00:00</published><updated>2025-01-23T09:36:48+00:00</updated><id>/hacknews/2025/01/23/17:36:48-hackernews_report</id><content type="html" xml:base="/hacknews/2025/01/23/17-36-48-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-01-23 17:36:48</p>
-
-<ol>
-  <li><strong>Bunster: 将 bash 脚本编译为独立可执行文件</strong><br />
-Bunster 是一个工具，可以将 bash 脚本编译成独立的可执行文件，这对于需要将脚本部署到不同环境的开发者来说是一个便利的功能。
-    <ul>
-      <li><a href="https://github.com/yassinebenaid/bunster">Bunster: Compile bash scripts to self contained executables</a></li>
-    </ul>
-  </li>
-  <li><strong>Psychedelic Graphics: An Introduction</strong><br />
-本篇文章介绍了迷幻图形的历史和设计原理，探讨了这种风格如何影响了现代视觉艺术和设计。
-    <ul>
-      <li><a href="https://benpence.com/blog/post/psychedelic-graphics-0">Psychedelic Graphics: An Introduction</a></li>
-    </ul>
-  </li>
-  <li><strong>Working with Files Is Hard (2019)</strong><br />
-这篇文章讨论了文件操作的复杂性，包括文件系统的局限性和现代编程中处理文件的挑战。
-    <ul>
-      <li><a href="https://danluu.com/deconstruct-files/">Working with Files Is Hard</a></li>
-    </ul>
-  </li>
-  <li><strong>TMSU: 命令行工具，用于应用标签和查看虚拟标记文件系统</strong><br />
-TMSU 是一个命令行工具，它允许用户给文件和目录打标签，并查看一个基于这些标签的虚拟文件系统。
-    <ul>
-      <li><a href="https://tmsu.org/">TMSU: Command-line tool for applying tags and viewing virtual tagged filesystem</a></li>
-    </ul>
-  </li>
-  <li><strong>Show HN: 从头开始制作的开源笔记本电脑</strong><br />
-一个开发者展示了他如何从头开始制作一个开源笔记本电脑的过程，包括硬件选择和软件配置。
-    <ul>
-      <li><a href="https://www.byran.ee/posts/creation/">Show HN: I made an open-source laptop from scratch</a></li>
-    </ul>
-  </li>
-  <li><strong>Orbit Spirograph (2019)</strong><br />
-这篇文章介绍了一种名为“轨道绘图仪”的数学绘图工具，它可以用来创建复杂的几何图案。
-    <ul>
-      <li><a href="https://www.redblobgames.com/x/1903-orbit-spirograph/">Orbit Spirograph</a></li>
-    </ul>
-  </li>
-  <li><strong>Intrinsic (YC W23) Is Hiring</strong><br />
-Intrinsic，一家 Y Combinator 支持的初创公司，正在招聘，这表明了初创公司在招聘技术人才方面的活跃性。
-    <ul>
-      <li><a href="https://news.ycombinator.com/item?id=42805699">Intrinsic (YC W23) Is Hiring</a></li>
-    </ul>
-  </li>
-  <li><strong>Show HN: libmodulor – 构建多平台应用的 TypeScript 库</strong><br />
-libmodulor 是一个有特定观点的 TypeScript 库，旨在帮助开发者构建跨平台的应用。
-    <ul>
-      <li><a href="https://github.com/c100k/libmodulor">Show HN: libmodulor – An opinionated TS library to build multi-platform apps</a></li>
-    </ul>
-  </li>
-  <li><strong>Third Base (2001)</strong><br />
-这篇文章探讨了棒球运动中的“三垒”位置，分析了其在战术和策略中的重要性。
-    <ul>
-      <li><a href="https://www.americanscientist.org/article/third-base">Third Base</a></li>
-    </ul>
-  </li>
-  <li><strong>Where is London’s most central sheep?</strong><br />
-这篇文章通过数据分析，找到了伦敦地理位置最中心的羊，这是一个有趣的地理和数据分析案例。
-    <ul>
-      <li><a href="https://diamondgeezer.blogspot.com/2025/01/londons-most-central-sheep.html">Where is London’s most central sheep?</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 17:36:48]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-01-23 19:00:02]]></summary></entry></feed>
