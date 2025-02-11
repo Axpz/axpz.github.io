@@ -1,5 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-10T12:01:34+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/10/20-00-04-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-10T12:00:04+00:00</published><updated>2025-02-10T12:00:04+00:00</updated><id>/hacknews/2025/02/10/20:00:04-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/10/20-00-04-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-10 20:00:04</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-11T13:19:57+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/11/21-18-30-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-11T13:18:30+00:00</published><updated>2025-02-11T13:18:30+00:00</updated><id>/hacknews/2025/02/11/21:18:30-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/11/21-18-30-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-11 21:18:30</p>
+
+<ol>
+  <li><strong>Meta的超大规模基础设施</strong><br />
+文章提供了对Meta超大规模基础设施的概述和洞见，展示了Meta在数据中心和网络技术方面的最新进展。
+    <ul>
+      <li><a href="https://cacm.acm.org/research/metas-hyperscale-infrastructure-overview-and-insights/">Meta’s Hyperscale Infrastructure: Overview and Insights</a></li>
+    </ul>
+  </li>
+  <li><strong>哈希表搜索速度的新发现</strong><br />
+一名本科生的研究颠覆了40年来的数据科学猜想，表明哈希表的搜索可以更快。
+    <ul>
+      <li><a href="https://www.quantamagazine.org/undergraduate-upends-a-40-year-old-data-science-conjecture-20250210/">Undergraduate shows that searches within hash tables can be much faster</a></li>
+    </ul>
+  </li>
+  <li><strong>姓氏的起源</strong><br />
+探讨了姓氏从昵称中演变而来的历史，这些昵称如今已无人使用。
+    <ul>
+      <li><a href="https://blog.plover.com/lang/etym/nickname-names.html">Surnames from nicknames nobody has any more</a></li>
+    </ul>
+  </li>
+  <li><strong>OpenDAW音乐创作平台</strong><br />
+介绍了一个新的音乐创作平台OpenDAW，它允许在浏览器内进行音乐创作。
+    <ul>
+      <li><a href="https://opendaw.studio/">OpenDAW – a new holistic exploration of music creation inside the browser</a></li>
+    </ul>
+  </li>
+  <li><strong>构建个人私有AI计算机</strong><br />
+分享了如何在预算内构建一个个人私有的AI计算机。
+    <ul>
+      <li><a href="https://ewintr.nl/posts/2025/building-a-personal-private-ai-computer-on-a-budget/">Building a personal, private AI computer on a budget</a></li>
+    </ul>
+  </li>
+  <li><strong>TSMC 2nm工艺披露</strong><br />
+分析了TSMC最新的2nm工艺技术，并探讨了其性能指标。
+    <ul>
+      <li><a href="https://semiwiki.com/semiconductor-services/techinsights/352972-iedm-2025-tsmc-2nm-process-disclosure-how-does-it-measure-up/">TSMC 2nm Process Disclosure – How Does It Measure Up?</a></li>
+    </ul>
+  </li>
+  <li><strong>Floppotron 3.0音乐项目</strong><br />
+介绍了Floppotron 3.0项目，这是一个使用老式软盘驱动器制作音乐的创意项目。
+    <ul>
+      <li><a href="https://silent.org.pl/home/2022/06/13/the-floppotron-3-0/">The Floppotron 3.0 (2022)</a></li>
+    </ul>
+  </li>
+  <li><strong>PDF文件内部结构的HTML可视化</strong><br />
+展示了一个项目，它将PDF文件的内部结构以HTML形式可视化。
+    <ul>
+      <li><a href="https://github.com/desgeeko/pdfsyntax/blob/main/docs/browse.md">Show HN: HTML visualization of a PDF file’s internal structure</a></li>
+    </ul>
+  </li>
+  <li><strong>生成SSA的方法目录</strong><br />
+提供了一个关于生成静态单赋值（SSA）形式的方法目录。
+    <ul>
+      <li><a href="https://bernsteinbear.com/blog/ssa/">A catalog of ways to generate SSA</a></li>
+    </ul>
+  </li>
+  <li><strong>键盘扩展层映射</strong><br />
+讨论了如何为键盘布局创建扩展层映射。
+    <ul>
+      <li><a href="https://dreymar.colemak.org/layers-extend.html">Extend Extra Extreme: keyboard extend layer mappings</a></li>
+    </ul>
+  </li>
+  <li><strong>利用AI保护土著文化</strong><br />
+报道了土著工程师如何使用AI技术来保护和传承他们的文化。
+    <ul>
+      <li><a href="https://www.nbcnews.com/tech/innovation/indigenous-engineers-are-using-ai-preserve-culture-rcna176012">Indigenous engineers are using AI to preserve their culture</a></li>
+    </ul>
+  </li>
+  <li><strong>测试时计算的扩展</strong><br />
+介绍了一种通过潜在推理扩展测试时计算的方法。
+    <ul>
+      <li><a href="https://arxiv.org/abs/2502.05171">Scaling up test-time compute with latent reasoning: A recurrent depth approach</a></li>
+    </ul>
+  </li>
+  <li><strong>数字设备公司的历史</strong><br />
+讲述了数字设备公司（Digital Equipment Corporation）的故事。
+    <ul>
+      <li><a href="https://www.abortretry.fail/p/work-at-the-mill">Work at the Mill: The story of Digital Equipment Corporation</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-11 21:18:30]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/10/20-00-04-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-10T12:00:04+00:00</published><updated>2025-02-10T12:00:04+00:00</updated><id>/hacknews/2025/02/10/20:00:04-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/10/20-00-04-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-10 20:00:04</p>
 
 <ol>
   <li><strong>深度学习模型（LLMs）的概述</strong><br />
@@ -568,97 +649,4 @@ FloydHub上的文章讲述了Emil自学成为AI研究员的故事，激励了许
       <li><a href="https://floydhub.ghost.io/emils-story-as-a-self-taught-ai-researcher/">Emil’s Story as a Self-Taught AI Researcher</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-07 22:42:40]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/07/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-07T06:00:03+00:00</published><updated>2025-02-07T06:00:03+00:00</updated><id>/hacknews/2025/02/07/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/07/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-07 14:00:03</p>
-
-<ol>
-  <li><strong>SQLite Disk Page Explorer</strong><br />
-一个用于探索 SQLite 数据库磁盘页面的工具，可以帮助开发者更好地理解和分析数据库结构。
-    <ul>
-      <li><a href="https://github.com/QuadrupleA/sqlite-page-explorer">SQLite Disk Page Explorer</a></li>
-    </ul>
-  </li>
-  <li><strong>R1 Computer Use</strong><br />
-R1 计算机的使用指南，R1 是一种基于RISC-V架构的开源计算机项目。
-    <ul>
-      <li><a href="https://github.com/agentsea/r1-computer-use">R1 Computer Use</a></li>
-    </ul>
-  </li>
-  <li><strong>OpenLDK: A Java JIT compiler and runtime in Common Lisp</strong><br />
-一个用Common Lisp实现的Java即时编译器和运行时环境，展示了跨语言编程的可能性。
-    <ul>
-      <li><a href="https://github.com/atgreen/openldk">OpenLDK</a></li>
-    </ul>
-  </li>
-  <li><strong>Scala 3 Migration: Report from the Field</strong><br />
-一篇关于Scala 3迁移的现场报告，讨论了Scala 3的新特性和迁移过程中的挑战。
-    <ul>
-      <li><a href="https://blog.pierre-ricadat.com/scala-3-migration-report-from-the-field">Scala 3 Migration</a></li>
-    </ul>
-  </li>
-  <li><strong>Simulating Water over Terrain</strong><br />
-一篇关于如何在地形上模拟水流效果的技术文章，涉及物理模拟和图形渲染技术。
-    <ul>
-      <li><a href="https://lisyarus.github.io/blog/posts/simulating-water-over-terrain.html">Simulating Water over Terrain</a></li>
-    </ul>
-  </li>
-  <li><strong>Self-hosted, simple web browser service – send URL, get screenshots</strong><br />
-一个自托管的简单网页浏览器服务，用户可以发送URL并获取网页截图。
-    <ul>
-      <li><a href="https://github.com/US-Artificial-Intelligence/scraper">Self-hosted Web Browser Service</a></li>
-    </ul>
-  </li>
-  <li><strong>Paper Apps</strong><br />
-一个提供纸质应用程序的集合，这些应用程序可以在没有电子设备的情况下使用。
-    <ul>
-      <li><a href="https://gladdendesign.com/collections/paper-apps">Paper Apps</a></li>
-    </ul>
-  </li>
-  <li><strong>Verse (YC W22) Is Hiring</strong><br />
-Verse，一家参与Y Combinator W22的初创公司，正在招聘新员工。
-    <ul>
-      <li><a href="item?id=42966455">Verse Is Hiring</a></li>
-    </ul>
-  </li>
-  <li><strong>Evaluating Code Embeddings</strong><br />
-一篇关于评估代码嵌入的文章，探讨了代码搜索和理解的技术进展。
-    <ul>
-      <li><a href="https://blog.voyageai.com/2024/12/04/code-retrieval-eval/">Evaluating Code Embeddings</a></li>
-    </ul>
-  </li>
-  <li><strong>Show HN: Heap Explorer</strong><br />
-一个展示堆内存结构和内容的工具，帮助开发者更好地理解和调试内存问题。
-    <ul>
-      <li><a href="https://github.com/heap-exploitation/heap-explorer">Heap Explorer</a></li>
-    </ul>
-  </li>
-  <li><strong>Aluminum Batteries Outlive Lithium-Ion with a Pinch of Salt</strong><br />
-一篇关于铝电池的研究文章，讨论了铝电池相较于锂电池的优势和潜在应用。
-    <ul>
-      <li><a href="https://spectrum.ieee.org/aluminum-battery">Aluminum Batteries</a></li>
-    </ul>
-  </li>
-  <li><strong>Transfinite NIM (the game, not the programming language)</strong><br />
-一篇关于无限NIM游戏的数学论文，探讨了NIM游戏在无限情况下的策略和结果。
-    <ul>
-      <li><a href="https://jdh.hamkins.org/transfinite-nim/">Transfinite NIM</a></li>
-    </ul>
-  </li>
-  <li><strong>T1: A RISC-V Vector processor implementation</strong><br />
-一个基于RISC-V架构的向量处理器实现，展示了开源硬件项目的最新进展。
-    <ul>
-      <li><a href="https://github.com/chipsalliance/t1">T1 RISC-V Vector Processor</a></li>
-    </ul>
-  </li>
-  <li><strong>Programming SDF Animations of Rick and Morty</strong><br />
-一篇关于如何使用符号距离场（SDF）技术制作Rick和Morty动画的文章。
-    <ul>
-      <li><a href="https://danielchasehooper.com/posts/code-animated-rick/">SDF Animations</a></li>
-    </ul>
-  </li>
-  <li><strong>Microsoft Go 1.24 FIPS changes</strong><br />
-微软宣布Go语言1.24版本的FIPS（联邦信息处理标准）更新，涉及安全性和合规性改进。
-    <ul>
-      <li><a href="https://devblogs.microsoft.com/go/go-1-24-fips-update/">Go 1.24 FIPS changes</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-07 14:00:03]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-07 22:42:40]]></summary></entry></feed>
