@@ -1,5 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-12T12:17:45+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/12/20-16-18-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-12T12:16:18+00:00</published><updated>2025-02-12T12:16:18+00:00</updated><id>/hacknews/2025/02/12/20:16:18-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/12/20-16-18-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-12 20:16:18</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-12T22:01:17+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/13/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-13T06:00:03+00:00</published><updated>2025-02-13T06:00:03+00:00</updated><id>/hacknews/2025/02/13/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/13/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-13 14:00:03</p>
+
+<ol>
+  <li><strong>YouTube 用户邮箱泄露事件</strong><br />
+文章讨论了如何通过支付10k美元来泄露任何YouTube用户的电子邮件地址，这引发了对平台安全和用户隐私保护的担忧。
+    <ul>
+      <li><a href="https://brutecat.com/articles/leaking-youtube-emails">Leaking the email of any YouTube user for $10k</a></li>
+    </ul>
+  </li>
+  <li><strong>中微子能量记录</strong><br />
+报道了一项科学发现，即检测到迄今为止能量最高的中微子，这一发现可能对粒子物理学和天体物理学产生重大影响。
+    <ul>
+      <li><a href="https://www.nature.com/articles/d41586-025-00444-1">Record-breaking neutrino is most energetic ever detected</a></li>
+    </ul>
+  </li>
+  <li><strong>唐纳德·舒普的悼词</strong><br />
+纪念唐纳德·舒普的文章，他被誉为停车领域的先知，对城市规划和停车政策有着深远的影响。
+    <ul>
+      <li><a href="https://www.worksinprogress.news/p/the-prophet-of-parking">The Prophet of Parking: A eulogy for the great Donald Shoup</a></li>
+    </ul>
+  </li>
+  <li><strong>5G网络与消费者需求</strong><br />
+分析了5G网络如何满足消费者需求，尤其是在移动数据增长放缓的背景下，5G技术的优势和挑战。
+    <ul>
+      <li><a href="https://spectrum.ieee.org/5g-bandwidth">5G networks meet consumer needs as mobile data growth slows</a></li>
+    </ul>
+  </li>
+  <li><strong>开源FPGA复古模拟器</strong><br />
+展示了一个开源的FPGA复古模拟器游戏机，这个项目展示了开源硬件和复古游戏文化的结合。
+    <ul>
+      <li><a href="https://eli.lipsitz.net/posts/introducing-gamebub/">Show HN: Game Bub – open-source FPGA retro emulation handheld</a></li>
+    </ul>
+  </li>
+  <li><strong>通过表情符号走私数据</strong><br />
+探讨了如何通过表情符号来隐藏和传输任意数据，这种技术可能对数据安全和隐私保护产生影响。
+    <ul>
+      <li><a href="https://paulbutler.org/2025/smuggling-arbitrary-data-through-an-emoji/">Smuggling arbitrary data through an emoji</a></li>
+    </ul>
+  </li>
+  <li><strong>无构建全栈SSR TypeScript框架</strong><br />
+介绍了一个不需要构建过程的全栈服务器端渲染（SSR）TypeScript框架，这种框架可能简化开发流程。
+    <ul>
+      <li><a href="https://jsr.io/@fullsoak/fullsoak">Show HN: A no-build fullstack SSR TypeScript web framework</a></li>
+    </ul>
+  </li>
+  <li><strong>NixOS的可复制性</strong><br />
+讨论了NixOS操作系统的可复制性问题，这是一个关于操作系统安全性和稳定性的重要话题。
+    <ul>
+      <li><a href="https://luj.fr/blog/is-nixos-truly-reproducible.html">Is NixOS truly reproducible?</a></li>
+    </ul>
+  </li>
+  <li><strong>PgAssistant：开源工具</strong><br />
+介绍了一个开源工具PgAssistant，旨在帮助开发者理解和优化PostgreSQL的性能。
+    <ul>
+      <li><a href="https://github.com/nexsol-technologies/pgassistant">PgAssistant: OSS tool to help devs understand and optimize PG performance</a></li>
+    </ul>
+  </li>
+  <li><strong>Imapsync工具</strong><br />
+Imapsync是一个用于同步IMAP邮件账户的工具，它在邮件迁移和备份中非常有用。
+    <ul>
+      <li><a href="https://imapsync.lamiral.info/">Imapsync</a></li>
+    </ul>
+  </li>
+  <li><strong>独立iOS应用开发现状</strong><br />
+文章讨论了独立iOS应用开发者的现状，包括市场趋势、挑战和机遇。
+    <ul>
+      <li><a href="https://safespace.is/blog/villain-era-part-1">iOS indie app development looks like</a></li>
+    </ul>
+  </li>
+  <li><strong>yknotify工具</strong><br />
+介绍了一个工具yknotify，它可以在YubiKey需要触摸时在macOS上发送通知，增强了双因素认证的用户体验。
+    <ul>
+      <li><a href="https://github.com/noperator/yknotify">Show HN: yknotify – Notify when YubiKey needs touch on macOS</a></li>
+    </ul>
+  </li>
+  <li><strong>AI安全声明</strong><br />
+报道了美国和英国拒绝签署AI安全声明的事件，这可能对全球AI政策和法规产生影响。
+    <ul>
+      <li><a href="https://arstechnica.com/ai/2025/02/us-and-uk-refuse-to-sign-ai-safety-declaration-at-summit/">US and UK refuse to sign AI safety declaration at summit</a></li>
+    </ul>
+  </li>
+  <li><strong>叙利亚首次国际技术会议</strong><br />
+报道了叙利亚50年来首次举办国际技术会议，这标志着该国技术领域的一个重要进展</li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-13 14:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/12/20-16-18-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-12T12:16:18+00:00</published><updated>2025-02-12T12:16:18+00:00</updated><id>/hacknews/2025/02/12/20:16:18-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/12/20-16-18-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-12 20:16:18</p>
 
 <ol>
   <li><strong>YouTube 用户邮箱泄露事件</strong><br />
@@ -584,69 +667,4 @@ Zep AI，一家Y Combinator支持的公司，正在招聘工程师来构建最�
       <li><a href="https://www.sciencealert.com/mysterious-radiation-belts-detected-around-earth-after-epic-solar-storm">Mysterious Radiation Belts Detected Around Earth After Epic Solar Storm</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-08 14:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/07/20-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-07T20:00:03+00:00</published><updated>2025-02-07T20:00:03+00:00</updated><id>/hacknews/2025/02/07/20:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/07/20-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-08 04:00:03</p>
-
-<ol>
-  <li><strong>BBC探访建立在诈骗之上的城市</strong><br />
-BBC报道了一个以诈骗为生的城市的内幕，涉及赌场、高楼大厦和欺诈行为，揭示了该城市背后的黑暗面。
-    <ul>
-      <li><a href="https://www.bbc.co.uk/news/articles/c04nx1vnw17o">Casinos, high-rises and fraud: The BBC visits a city built on scams</a></li>
-    </ul>
-  </li>
-  <li><strong>Donald Knuth的2024圣诞讲座</strong><br />
-Donald Knuth的2024年圣诞讲座视频，主题为强连通分量和弱连通分量，为计算机科学领域提供了宝贵的知识。
-    <ul>
-      <li><a href="https://www.youtube.com/watch?v=Hi8r_63LGyg">Donald Knuth’s 2024 Christmas Lecture: Strong and Weak Components</a></li>
-    </ul>
-  </li>
-  <li><strong>Meta通过Torrent传播81.7TB版权数据</strong><br />
-Meta被指控通过Torrent传播了81.7TB的版权数据，用于训练AI，引发了版权和数据使用的争议。
-    <ul>
-      <li><a href="https://arstechnica.com/tech-policy/2025/02/meta-torrented-over-81-7tb-of-pirated-books-to-train-ai-authors-say/">Meta torrented &amp; seeded 81.7 TB dataset containing copyrighted data</a></li>
-    </ul>
-  </li>
-  <li><strong>基于Transformer的电子表格</strong><br />
-一个基于Transformer模型的电子表格工具，展示了人工智能在数据处理和自动化方面的新应用。
-    <ul>
-      <li><a href="https://www.byhand.ai/p/transformer-spreadsheet">Transformer – Spreadsheet</a></li>
-    </ul>
-  </li>
-  <li><strong>Easy 6502</strong><br />
-一个在线学习6502汇编语言的平台，提供了一个互动式学习环境，帮助用户理解计算机硬件和低级编程。
-    <ul>
-      <li><a href="https://skilldrick.github.io/easy6502/">Easy 6502</a></li>
-    </ul>
-  </li>
-  <li><strong>理解推理型大型语言模型</strong><br />
-一篇文章深入探讨了推理型大型语言模型（LLMs）的工作原理和应用，为AI领域提供了新的视角。
-    <ul>
-      <li><a href="https://magazine.sebastianraschka.com/p/understanding-reasoning-llms">Understanding Reasoning LLMs</a></li>
-    </ul>
-  </li>
-  <li><strong>“杀死用户”：一位失望的技术专家的思考</strong><br />
-一位技术专家对现代技术发展和用户依赖性的批判性思考，提出了对技术进步的反思和未来展望。
-    <ul>
-      <li><a href="https://www.pastagang.cc/blog/kill-the-user/">Kill the “user”: Musings of a disillusioned technologist</a></li>
-    </ul>
-  </li>
-  <li><strong>Math.random()的双重性</strong><br />
-V8引擎团队讨论了JavaScript中Math.random()函数的实现细节和性能问题，对随机数生成器的深入分析。
-    <ul>
-      <li><a href="https://v8.dev/blog/math-random">There’s Math.random(), and then there’s Math.random()</a></li>
-    </ul>
-  </li>
-  <li><strong>Copilot停止在含有GitHub禁止词汇的代码上工作</strong><br />
-GitHub Copilot工具停止在包含特定禁止词汇的代码上工作，引发了关于代码审查和言论自由的讨论。
-    <ul>
-      <li><a href="https://github.com/orgs/community/discussions/72603">Copilot stops working on code that contains hardcoded banned words from GitHub</a></li>
-    </ul>
-  </li>
-  <li><strong>Emil作为自学AI研究员的故事</strong><br />
-Emil分享了他作为自学AI研究员的经历和挑战，为那些希望进入AI领域的人提供了灵感和指导。
-    <ul>
-      <li><a href="https://floydhub.ghost.io/emils-story-as-a-self-taught-ai-researcher/">Emil’s Story as a Self-Taught AI Researcher</a></li>
-    </ul>
-  </li>
-</ol>
-
-<p>以上是Hacker News上的热门话题，涵盖了从技术讨论到社会问题等多个领域，反映了技术社区的多元化和活跃度。</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-08 04:00:03]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-08 14:00:03]]></summary></entry></feed>
