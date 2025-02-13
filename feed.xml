@@ -1,5 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-12T22:01:17+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/13/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-13T06:00:03+00:00</published><updated>2025-02-13T06:00:03+00:00</updated><id>/hacknews/2025/02/13/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/13/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-13 14:00:03</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-13T04:01:54+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/13/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-13T12:00:03+00:00</published><updated>2025-02-13T12:00:03+00:00</updated><id>/hacknews/2025/02/13/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/13/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-13 20:00:03</p>
+
+<ol>
+  <li><strong>Tiny JITs for a Faster FFI</strong><br />
+Rails at Scale 发布的文章讨论了通过小型即时编译器（JIT）来提高外部函数接口（FFI）的速度，这对于提高应用程序性能具有重要意义。
+    <ul>
+      <li><a href="https://railsatscale.com/2025-02-12-tiny-jits-for-a-faster-ffi/">Tiny JITs for a Faster FFI</a></li>
+    </ul>
+  </li>
+  <li><strong>Leaking the email of any YouTube user for $10k</strong><br />
+BruteCat 发布的文章揭示了一种可以泄露任何YouTube用户电子邮件地址的方法，这引起了对平台安全性和用户隐私保护的关注。
+    <ul>
+      <li><a href="https://brutecat.com/articles/leaking-youtube-emails">Leaking the email of any YouTube user for $10k</a></li>
+    </ul>
+  </li>
+  <li><strong>The average CPU performance of PCs and notebooks fell for the first time</strong><br />
+CPUBenchmark.net 的数据显示，个人电脑和笔记本电脑的平均CPU性能首次下降，这可能反映了硬件发展的趋势和市场需求的变化。
+    <ul>
+      <li><a href="https://www.cpubenchmark.net/year-on-year.html">The average CPU performance of PCs and notebooks fell for the first time</a></li>
+    </ul>
+  </li>
+  <li><strong>How to professionally say (2022)</strong><br />
+Akash Rajpurohit 在 GitHub 上分享了一个项目，教授如何以专业的方式表达常见的工作场景，这对于职场沟通技巧的提升非常有帮助。
+    <ul>
+      <li><a href="https://github.com/AkashRajpurohit/howtoprofessionallysay">How to professionally say (2022)</a></li>
+    </ul>
+  </li>
+  <li><strong>Smuggling arbitrary data through an emoji</strong><br />
+Paul Butler 发表的文章展示了如何通过一个表情符号隐秘地传输任意数据，这种技术在信息安全领域具有潜在的应用价值。
+    <ul>
+      <li><a href="https://paulbutler.org/2025/smuggling-arbitrary-data-through-an-emoji/">Smuggling arbitrary data through an emoji</a></li>
+    </ul>
+  </li>
+  <li><strong>The Prophet of Parking: A eulogy for the great Donald Shoup</strong><br />
+Works in Progress 发表的文章是对停车领域的先驱 Donald Shoup 的悼念，他的理念对城市规划和交通管理产生了深远影响。
+    <ul>
+      <li><a href="https://www.worksinprogress.news/p/the-prophet-of-parking">The Prophet of Parking: A eulogy for the great Donald Shoup</a></li>
+    </ul>
+  </li>
+  <li><strong>5G networks meet consumer needs as mobile data growth slows</strong><br />
+IEEE Spectrum 的文章讨论了5G网络如何满足消费者需求，尤其是在移动数据增长放缓的背景下，这对于理解5G技术的市场适应性至关重要。
+    <ul>
+      <li><a href="https://spectrum.ieee.org/5g-bandwidth">5G networks meet consumer needs as mobile data growth slows</a></li>
+    </ul>
+  </li>
+  <li><strong>Record-breaking neutrino is most energetic ever detected</strong><br />
+Nature 发表的文章报道了迄今为止检测到的最具有能量的中微子，这一发现对于粒子物理学和宇宙学的研究具有重要意义。
+    <ul>
+      <li><a href="https://www.nature.com/articles/d41586-025-00444-1">Record-breaking neutrino is most energetic ever detected</a></li>
+    </ul>
+  </li>
+  <li><strong>Why cryptography is not based on NP-complete problems</strong><br />
+Blintzbase 发表的文章解释了为什么现代密码学不基于NP完全问题，这对于理解密码学的基础和安全性至关重要。
+    <ul>
+      <li><a href="https://blintzbase.com/posts/cryptography-is-not-based-on-np-hard-problems/">Why cryptography is not based on NP-complete problems</a></li>
+    </ul>
+  </li>
+  <li><strong>Is NixOS truly reproducible?</strong><br />
+Luj.fr 上的文章探讨了 NixOS 是否真正可复现，这对于理解操作系统的构建和部署过程具有重要意义。
+    <ul>
+      <li><a href="https://luj.fr/blog/is-nixos-truly-reproducible.html">Is NixOS truly reproducible?</a></li>
+    </ul>
+  </li>
+  <li><strong>Show HN: Game Bub – open-source FPGA retro emulation handheld</strong><br />
+Eli Lipsitz 在 Hacker News 上展示了他开发的开源 FPGA 复古模拟器掌机 Game Bub，这为复古游戏爱好者提供了新的选择。
+    <ul>
+      <li><a href="https://eli.lipsitz.net/posts/introducing-gamebub/">Show HN: Game Bub – open-source FPGA retro emulation handheld</a></li>
+    </ul>
+  </li>
+  <li><strong>US and UK refuse to sign AI safety declaration at summit</strong><br />
+Ars Technica 报道了美国和英国拒绝在峰会上签署人工智能安全声明的消息，这反映了两国在人工智能监管问题上的</li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-13 20:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/13/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-13T06:00:03+00:00</published><updated>2025-02-13T06:00:03+00:00</updated><id>/hacknews/2025/02/13/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/13/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-13 14:00:03</p>
 
 <ol>
   <li><strong>YouTube 用户邮箱泄露事件</strong><br />
@@ -604,67 +675,4 @@ Asahi Linux 的主要开发者 Hector Martin 宣布从 Linux 内核项目辞职�
       <li><a href="https://carto.com/blog/zip-codes-spatial-analysis">Stop using zip codes for geospatial analysis</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-08 20:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/08/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-08T06:00:03+00:00</published><updated>2025-02-08T06:00:03+00:00</updated><id>/hacknews/2025/02/08/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/08/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-08 14:00:03</p>
-
-<ol>
-  <li><strong>Mozilla代码签名简史</strong><br />
-文章回顾了Mozilla代码签名的历史，探讨了代码签名在软件安全中的重要性和演变。
-    <ul>
-      <li><a href="https://hearsum.ca/posts/history-of-code-signing-at-mozilla/">A Brief History of Code Signing at Mozilla</a></li>
-    </ul>
-  </li>
-  <li><strong>基于住房偏好的城市热图网站</strong><br />
-一个Show HN项目，该网站可以根据用户的住房偏好生成城市热图，为寻找住房提供可视化参考。
-    <ul>
-      <li><a href="https://theretowhere.com/">Show HN: A website that heatmaps your city based on your housing preferences</a></li>
-    </ul>
-  </li>
-  <li><strong>停止使用邮政编码进行地理空间分析</strong><br />
-文章讨论了邮政编码在地理空间分析中的局限性，并提出了替代方案。
-    <ul>
-      <li><a href="https://carto.com/blog/zip-codes-spatial-analysis">Stop Using Zip Codes for Geospatial Analysis</a></li>
-    </ul>
-  </li>
-  <li><strong>文本编辑的传导式正则表达式</strong><br />
-一个Show HN项目，介绍了一种新的文本编辑工具，使用传导式正则表达式提高编辑效率。
-    <ul>
-      <li><a href="https://github.com/c0stya/trre">Show HN: Transductive regular expressions for text editing</a></li>
-    </ul>
-  </li>
-  <li><strong>AI对技术面试过程的影响</strong><br />
-讨论了人工智能如何改变技术面试流程，以及这种变化对求职者和招聘者的意义。
-    <ul>
-      <li><a href="https://coderev.app/blog/the-impact-of-ai-on-the-technical-interview-process/">The Impact of AI on the Technical Interview Process</a></li>
-    </ul>
-  </li>
-  <li><strong>Three.js中的Unreal Nanite实现</strong><br />
-一个GitHub项目，将Unreal Engine的Nanite虚拟化几何技术引入到Three.js中，提升3D渲染性能。
-    <ul>
-      <li><a href="https://github.com/AIFanatic/three-nanite">Three-nanite: Unreal Nanite in Three.js</a></li>
-    </ul>
-  </li>
-  <li><strong>ExpenseOwl – 自托管费用追踪器</strong><br />
-一个Show HN项目，ExpenseOwl是一个简单美观的自托管费用追踪器，帮助用户管理个人财务。
-    <ul>
-      <li><a href="https://github.com/Tanq16/ExpenseOwl">Show HN: ExpenseOwl – simple and beautiful self-hosted expense tracker</a></li>
-    </ul>
-  </li>
-  <li><strong>Zep AI招聘工程师</strong><br />
-Zep AI，一家Y Combinator支持的公司，正在招聘工程师来构建最先进的代理记忆系统。
-    <ul>
-      <li><a href="https://www.ycombinator.com/companies/zep-ai/jobs/e2QxKYu-staff-engineer">Zep AI (YC W24) Is Hiring Engineers to Build SOTA Agent Memory</a></li>
-    </ul>
-  </li>
-  <li><strong>HN作为TikTok的展示</strong><br />
-一个Show HN项目，将Hacker News的内容以TikTok风格展示，创造了一种新的社交媒体体验。
-    <ul>
-      <li><a href="https://hnhell.com">Show HN: HN as TikTok, Welcome to HN Hell</a></li>
-    </ul>
-  </li>
-  <li><strong>地球周围神秘的辐射带</strong><br />
-报道了在一次大规模太阳风暴后，科学家们在地球周围检测到了神秘的辐射带。
-    <ul>
-      <li><a href="https://www.sciencealert.com/mysterious-radiation-belts-detected-around-earth-after-epic-solar-storm">Mysterious Radiation Belts Detected Around Earth After Epic Solar Storm</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-08 14:00:03]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-08 20:00:03]]></summary></entry></feed>
