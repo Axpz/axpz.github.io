@@ -1,5 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-13T04:01:54+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/13/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-13T12:00:03+00:00</published><updated>2025-02-13T12:00:03+00:00</updated><id>/hacknews/2025/02/13/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/13/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-13 20:00:03</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-13T13:07:25+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/13/21-05-58-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-13T22:05:58+00:00</published><updated>2025-02-13T22:05:58+00:00</updated><id>/hacknews/2025/02/13/21:05:58-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/13/21-05-58-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-14 06:05:58</p>
+
+<ol>
+  <li><strong>An Infinitely Large Napkin</strong><br />
+一篇关于数学和物理概念的论文，探讨了无限大的概念及其在数学和物理中的应用，引发了对基础科学理论的深入讨论。
+    <ul>
+      <li><a href="https://venhance.github.io/napkin/Napkin.pdf">An Infinitely Large Napkin</a></li>
+    </ul>
+  </li>
+  <li><strong>Self hosted FLOSS fitness/workout tracker</strong><br />
+一个开源的健身/锻炼跟踪器项目，提供了一个自托管的解决方案，让用户能够更好地控制自己的健康数据。
+    <ul>
+      <li><a href="https://github.com/wger-project/wger">Self hosted FLOSS fitness/workout tracker</a></li>
+    </ul>
+  </li>
+  <li><strong>Leaking the email of any YouTube user for $10k</strong><br />
+一篇文章揭露了YouTube用户邮箱泄露的问题，引发了对大型平台用户隐私保护的担忧。
+    <ul>
+      <li><a href="https://brutecat.com/articles/leaking-youtube-emails">Leaking the email of any YouTube user for $10k</a></li>
+    </ul>
+  </li>
+  <li><strong>Why Does Integer Addition Approximate float Multiplication?</strong><br />
+一篇技术文章探讨了整数加法与浮点乘法之间的关系，为理解计算机算术提供了新的视角。
+    <ul>
+      <li><a href="https://probablydance.com/2025/02/08/why-does-integer-addition-approximate-float-multiplication/">Why Does Integer Addition Approximate float Multiplication?</a></li>
+    </ul>
+  </li>
+  <li><strong>Thinkserver: My web-based coding environment</strong><br />
+一个基于Web的编程环境，允许用户在浏览器中编写和运行代码，提高了编程的便捷性。
+    <ul>
+      <li><a href="https://checkmyworking.com/posts/2025/02/thinkserver-my-web-based-coding-environment/">Thinkserver: My web-based coding environment</a></li>
+    </ul>
+  </li>
+  <li><strong>Residential Networking over Telephone</strong><br />
+一篇文章讨论了通过电话线实现家庭网络连接的可能性，展示了技术在不同领域的创新应用。
+    <ul>
+      <li><a href="https://computer.rip/2025-02-02-residential-networking-over-telephone.html">Residential Networking over Telephone</a></li>
+    </ul>
+  </li>
+  <li><strong>Tiny JITs for a Faster FFI</strong><br />
+一篇关于即时编译（JIT）技术的文章，探讨了如何通过Tiny JITs提高外部函数接口（FFI）的性能。
+    <ul>
+      <li><a href="https://railsatscale.com/2025-02-12-tiny-jits-for-a-faster-ffi/">Tiny JITs for a Faster FFI</a></li>
+    </ul>
+  </li>
+  <li><strong>Smuggling arbitrary data through an emoji</strong><br />
+一篇文章展示了如何通过emoji隐秘传输数据，引发了对数据安全和隐私的新讨论。
+    <ul>
+      <li><a href="https://paulbutler.org/2025/smuggling-arbitrary-data-through-an-emoji/">Smuggling arbitrary data through an emoji</a></li>
+    </ul>
+  </li>
+  <li><strong>US and UK refuse to sign AI safety declaration at summit</strong><br />
+美国和英国拒绝签署AI安全宣言，这一事件反映了不同国家在人工智能发展和监管上的分歧。
+    <ul>
+      <li><a href="https://arstechnica.com/ai/2025/02/us-and-uk-refuse-to-sign-ai-safety-declaration-at-summit/">US and UK refuse to sign AI safety declaration at summit</a></li>
+    </ul>
+  </li>
+  <li><strong>NESFab – A new programming language for creating NES games</strong><br />
+一个为NES游戏开发设计的新型编程语言，为复古游戏开发提供了新的工具。
+    <ul>
+      <li><a href="https://pubby.games/nesfab.html">NESFab – A new programming language for creating NES games</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-14 06:05:58]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/13/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-13T12:00:03+00:00</published><updated>2025-02-13T12:00:03+00:00</updated><id>/hacknews/2025/02/13/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/13/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-13 20:00:03</p>
 
 <ol>
   <li><strong>Tiny JITs for a Faster FFI</strong><br />
@@ -612,67 +675,4 @@ Asahi Linux 的主要开发者 Hector Martin 从 Linux 内核项目辞职，引�
       <li><a href="https://fly.io/blog/vscode-ssh-wtf/">VSCode’s SSH agent is bananas</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-09 04:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/08/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-08T12:00:03+00:00</published><updated>2025-02-08T12:00:03+00:00</updated><id>/hacknews/2025/02/08/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/08/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-08 20:00:03</p>
-
-<ol>
-  <li><strong>VSCode SSH Agent 功能讨论</strong><br />
-VSCode 的 SSH agent 功能被认为非常出色，这篇文章详细讨论了其实现和使用，展示了 VSCode 在远程开发中的便利性。
-    <ul>
-      <li><a href="https://fly.io/blog/vscode-ssh-wtf/">VSCode’s SSH agent is bananas</a></li>
-    </ul>
-  </li>
-  <li><strong>PS2 向后兼容性的工程师故事</strong><br />
-PS2 的向后兼容性功能由工程师亲述，这篇文章提供了对这一技术成就的深入了解，展示了游戏机设计的复杂性。
-    <ul>
-      <li><a href="https://freelansations.medium.com/the-story-of-the-ps2s-backwards-compatibility-from-the-engineer-who-built-it-ec39cf5a0353">The PS2’s backwards compatibility from the engineer who built it</a></li>
-    </ul>
-  </li>
-  <li><strong>东京中央快速线末端的困境</strong><br />
-这篇文章讨论了如果被困在东京中央快速线的末端该怎么办，提供了一些实用的建议和信息。
-    <ul>
-      <li><a href="https://soranews24.com/2024/12/21/station-of-despair-what-to-do-if-you-get-stuck-at-the-end-of-tokyos-chuo-rapid-line/">Station of despair: What to do if you get stuck at end of Tokyo Chuo Rapid Line</a></li>
-    </ul>
-  </li>
-  <li><strong>Mozilla 代码签名历史</strong><br />
-这篇文章简要回顾了 Mozilla 的代码签名历史，对于理解网络安全和信任机制具有重要意义。
-    <ul>
-      <li><a href="https://hearsum.ca/posts/history-of-code-signing-at-mozilla/">A brief history of code signing at Mozilla</a></li>
-    </ul>
-  </li>
-  <li><strong>ExpenseOwl 开源项目</strong><br />
-一个简单的自托管费用跟踪器 ExpenseOwl 在 Hacker News 上展示，这个项目因其实用性和开源特性受到关注。
-    <ul>
-      <li><a href="https://github.com/Tanq16/ExpenseOwl">Show HN: ExpenseOwl – Simple, self-hosted expense tracker</a></li>
-    </ul>
-  </li>
-  <li><strong>Asahi Linux 主开发人员离职</strong><br />
-Asahi Linux 的主要开发者 Hector Martin 宣布从 Linux 内核项目辞职，这一消息在开源社区引起了震动。
-    <ul>
-      <li><a href="https://lkml.org/lkml/2025/2/7/9">Asahi Linux lead developer Hector Martin resigns from Linux kernel</a></li>
-    </ul>
-  </li>
-  <li><strong>数学的视觉解释</strong><br />
-这篇文章提供了对数学概念的视觉解释，帮助读者更好地理解和掌握复杂的数学理论。
-    <ul>
-      <li><a href="https://agilescientific.com/blog/2020/2/25/visual-explanations-of-mathematics">Visual Explanations of Mathematics</a></li>
-    </ul>
-  </li>
-  <li><strong>基于住房偏好的城市热图网站</strong><br />
-一个根据用户住房偏好生成城市热图的网站在 Hacker News 上展示，这个项目因其创新性和实用性受到关注。
-    <ul>
-      <li><a href="https://theretowhere.com/">Show HN: A website that heatmaps your city based on your housing preferences</a></li>
-    </ul>
-  </li>
-  <li><strong>在 Ruby 中实现 Game Boy 模拟器</strong><br />
-这篇文章介绍了如何在 Ruby 语言中实现一个 Game Boy 模拟器，展示了编程语言的灵活性和游戏模拟器的开发过程。
-    <ul>
-      <li><a href="https://sacckey.dev/posts/implementing-a-game-boy-emulator-in-ruby/">Implementing a Game Boy Emulator in Ruby</a></li>
-    </ul>
-  </li>
-  <li><strong>停止使用邮政编码进行地理空间分析</strong><br />
-这篇文章讨论了为什么应该停止使用邮政编码进行地理空间分析，提出了更精确的数据分析方法。
-    <ul>
-      <li><a href="https://carto.com/blog/zip-codes-spatial-analysis">Stop using zip codes for geospatial analysis</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-08 20:00:03]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-09 04:00:03]]></summary></entry></feed>
