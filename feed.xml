@@ -1,5 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-13T13:07:25+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/13/21-05-58-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-13T22:05:58+00:00</published><updated>2025-02-13T22:05:58+00:00</updated><id>/hacknews/2025/02/13/21:05:58-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/13/21-05-58-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-14 06:05:58</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-13T22:01:13+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/14/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-14T06:00:03+00:00</published><updated>2025-02-14T06:00:03+00:00</updated><id>/hacknews/2025/02/14/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/14/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-14 14:00:03</p>
+
+<ol>
+  <li><strong>Privacy Pass 与 Kagi 搜索集成</strong><br />
+Kagi 搜索宣布支持 Privacy Pass，这是一种隐私保护技术，允许用户在不泄露个人信息的情况下进行搜索。
+    <ul>
+      <li><a href="https://blog.kagi.com/kagi-privacy-pass">Privacy Pass Authentication for Kagi Search</a></li>
+    </ul>
+  </li>
+  <li><strong>Phind 2: AI 搜索与视觉答案</strong><br />
+Phind 2 是一个 AI 搜索工具，它通过视觉答案和多步骤推理提供更直观的搜索结果。
+    <ul>
+      <li><a href="https://www.phind.com/blog/phind-2">Phind 2: AI search with visual answers and multi-step reasoning</a></li>
+    </ul>
+  </li>
+  <li><strong>MapTCHA：开源 CAPTCHA 改善 OpenStreetMap</strong><br />
+MapTCHA 是一个开源的 CAPTCHA 系统，它通过用户输入来改善 OpenStreetMap 的地图数据。
+    <ul>
+      <li><a href="https://fosdem.org/2025/schedule/event/fosdem-2025-5879-maptcha-the-open-source-captcha-that-improves-openstreetmap/">MapTCHA, the open-source CAPTCHA that improves OpenStreetMap</a></li>
+    </ul>
+  </li>
+  <li><strong>IRB 审批需求讨论</strong><br />
+文章讨论了哪些人需要从机构审查委员会（IRB）获得批准，这对于涉及人类研究的项目至关重要。
+    <ul>
+      <li><a href="https://dynomight.net/irb/">Who exactly needs to get approval from an institutional review board (IRB)?</a></li>
+    </ul>
+  </li>
+  <li><strong>Mill 使用 Scala 的原因</strong><br />
+Mill 构建工具解释了为什么选择 Scala 作为其主要编程语言，强调了 Scala 的优势和适用性。
+    <ul>
+      <li><a href="https://mill-build.org/mill/depth/why-scala.html">Why does Mill use Scala?</a></li>
+    </ul>
+  </li>
+  <li><strong>卡尔曼滤波器基础</strong><br />
+提供了卡尔曼滤波器基础的详细 PDF 文件，帮助理解这一在信号处理和控制系统中广泛使用的技术。
+    <ul>
+      <li><a href="https://github.com/tpn/pdfs/blob/master/Understanding%20the%20Basis%20of%20the%20Kalman%20Filter%20Via%20a%20Simple%20and%20Intuitive%20Derivation%20%282012%29.pdf">Basis of the Kalman Filter</a></li>
+    </ul>
+  </li>
+  <li><strong>Web 的死亡</strong><br />
+文章探讨了 Web 的当前状态和未来，提出了 Web 可能面临的挑战和潜在的消亡。
+    <ul>
+      <li><a href="https://garry.net/posts/the-death-of-the-web">The Death of the Web</a></li>
+    </ul>
+  </li>
+  <li><strong>LibreOffice 的新特性</strong><br />
+LibreOffice 宣布了新的功能，包括浏览器集成和实时协作，显示了其持续的创新和发展。
+    <ul>
+      <li><a href="https://www.theregister.com/2025/02/13/libreoffice_wasm_zetaoffice/">LibreOffice still kicking at 40, now with browser tricks and real-time collab</a></li>
+    </ul>
+  </li>
+  <li><strong>MESI 缓存一致性协议可视化</strong><br />
+提供了 MESI 缓存一致性协议的可视化工具，帮助理解这一在多处理器系统中保持数据一致性的关键技术。
+    <ul>
+      <li><a href="https://www.scss.tcd.ie/Jeremy.Jones/vivio/caches/MESI.htm">MESI Cache Coherency Protocol Visualization</a></li>
+    </ul>
+  </li>
+  <li><strong>博士生入学人数减少</strong><br />
+文章讨论了博士生入学人数减少的现象，分析了可能的原因和对学术界的影响。
+    <ul>
+      <li><a href="https://www.nature.com/articles/d41586-025-00425-4">Fewer students are enrolling in doctoral degrees</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-14 14:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/13/21-05-58-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-13T22:05:58+00:00</published><updated>2025-02-13T22:05:58+00:00</updated><id>/hacknews/2025/02/13/21:05:58-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/13/21-05-58-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-14 06:05:58</p>
 
 <ol>
   <li><strong>An Infinitely Large Napkin</strong><br />
@@ -612,67 +675,4 @@ Meta展示了一系列AI技术演示，展示了公司在人工智能领域的�
       <li><a href="https://marktomforde.com/academic/miscellaneous/images/atiyah20thcentury.pdf">Mathematics in the 20th century, by Michael Atiyah [pdf] (2002)</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-10 08:36:54]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/08/20-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-08T20:00:03+00:00</published><updated>2025-02-08T20:00:03+00:00</updated><id>/hacknews/2025/02/08/20:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/08/20-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-09 04:00:03</p>
-
-<ol>
-  <li><strong>使用 Odin 生成 Voronoi 图</strong><br />
-文章介绍了如何使用 Fortune 算法和 Odin 语言生成 Voronoi 图，展示了算法在图形处理中的应用。
-    <ul>
-      <li><a href="https://redpenguin101.github.io/html/posts/2025_01_21_voronoi.html">Generating Voronoi Diagrams Using Fortune’s Algorithm (With Odin)</a></li>
-    </ul>
-  </li>
-  <li><strong>现代苹果系统的热线服务</strong><br />
-开源项目 Hotline 为现代苹果系统提供了一个快速的网络调试工具，允许开发者通过 TCP 连接到系统。
-    <ul>
-      <li><a href="https://github.com/mierau/hotline">Hotline for modern Apple systems</a></li>
-    </ul>
-  </li>
-  <li><strong>PS2 向后兼容性的故事</strong><br />
-由工程师讲述的 PS2 向后兼容性的故事，揭示了游戏机设计中的技术挑战和创新。
-    <ul>
-      <li><a href="https://freelansations.medium.com/the-story-of-the-ps2s-backwards-compatibility-from-the-engineer-who-built-it-ec39cf5a0353">The PS2’s backwards compatibility from the engineer who built it</a></li>
-    </ul>
-  </li>
-  <li><strong>英国要求苹果开放用户加密账户</strong><br />
-英国政府要求苹果公司开放用户加密账户以进行间谍活动，引发了对隐私和安全问题的讨论。
-    <ul>
-      <li><a href="https://www.washingtonpost.com/technology/2025/02/07/apple-encryption-backdoor-uk/">U.K. orders Apple to let it spy on users’ encrypted accounts</a></li>
-    </ul>
-  </li>
-  <li><strong>Turner, Bird, Eratosthenes 论文</strong><br />
-一篇关于 Turner, Bird, Eratosthenes 的论文，探讨了函数式编程中的永恒燃烧线程问题。
-    <ul>
-      <li><a href="https://www.cambridge.org/core/journals/journal-of-functional-programming/article/turner-bird-eratosthenes-an-eternal-burning-thread/32E2EDF5D5EAEC95F13D313BC97B86F0">Turner, Bird, Eratosthenes: An eternal burning thread</a></li>
-    </ul>
-  </li>
-  <li><strong>Tapestry 应用</strong><br />
-Iconfactory 开发的 Tapestry 应用，提供了一个现代化的桌面环境，支持多种操作系统。
-    <ul>
-      <li><a href="https://usetapestry.com/">Tapestry by Iconfactory</a></li>
-    </ul>
-  </li>
-  <li><strong>Asahi Linux 主开发者辞职</strong><br />
-Asahi Linux 的主要开发者 Hector Martin 从 Linux 内核项目辞职，引起了社区的关注和讨论。
-    <ul>
-      <li><a href="https://lkml.org/lkml/2025/2/7/9">Asahi Linux lead developer Hector Martin resigns from Linux kernel</a></li>
-    </ul>
-  </li>
-  <li><strong>Mozilla 代码签名历史</strong><br />
-一篇文章简要回顾了 Mozilla 在代码签名方面的历史，展示了安全实践的演变。
-    <ul>
-      <li><a href="https://hearsum.ca/posts/history-of-code-signing-at-mozilla/">A brief history of code signing at Mozilla</a></li>
-    </ul>
-  </li>
-  <li><strong>基于价值的深度强化学习</strong><br />
-一篇研究论文探讨了如何使基于价值的深度强化学习可预测地扩展，对 AI 领域具有重要意义。
-    <ul>
-      <li><a href="https://arxiv.org/abs/2502.04327">Value-Based Deep RL Scales Predictably</a></li>
-    </ul>
-  </li>
-  <li><strong>VSCode 的 SSH 代理问题</strong><br />
-一篇文章讨论了 VSCode 的 SSH 代理实现中存在的问题，对开发者使用 SSH 进行了深入分析。
-    <ul>
-      <li><a href="https://fly.io/blog/vscode-ssh-wtf/">VSCode’s SSH agent is bananas</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-09 04:00:03]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-10 08:36:54]]></summary></entry></feed>
