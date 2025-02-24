@@ -1,5 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-13T22:01:13+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/14/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-14T06:00:03+00:00</published><updated>2025-02-14T06:00:03+00:00</updated><id>/hacknews/2025/02/14/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/14/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-14 14:00:03</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-24T04:02:22+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/24/12-00-05-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-24T12:00:05+00:00</published><updated>2025-02-24T12:00:05+00:00</updated><id>/hacknews/2025/02/24/12:00:05-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/24/12-00-05-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-24 20:00:05</p>
+
+<ol>
+  <li><strong>深度技术文章的撰写</strong><br />
+文章讨论了如何撰写深入的技术文章，强调了这类文章对于技术社区的重要性，以及如何通过分享知识来提升个人和社区的水平。
+    <ul>
+      <li><a href="https://www.gilesthomas.com/2025/02/20250223-til-deep-dive-posts">Write the post you wish you’d found</a></li>
+    </ul>
+  </li>
+  <li><strong>DeepSeek Open Source FlashMLA</strong><br />
+开源项目 FlashMLA 提供了针对 Hopper GPU 的 MLA 解码内核，展示了开源社区在硬件加速领域的创新。
+    <ul>
+      <li><a href="https://github.com/deepseek-ai/FlashMLA">DeepSeek Open Source FlashMLA – MLA Decoding Kernel for Hopper GPUs</a></li>
+    </ul>
+  </li>
+  <li><strong>UEFI NVRAM 的碎片整理</strong><br />
+文章分享了作者如何对其旧 Dell 电脑的 UEFI NVRAM 进行碎片整理，提供了硬件维护方面的实用信息。
+    <ul>
+      <li><a href="https://artemis.sh/2025/02/22/uefi-nvram-defrag.html">Defragging my old Dell’s UEFI NVRAM</a></li>
+    </ul>
+  </li>
+  <li><strong>用四个2制作任何整数</strong><br />
+数学爱好者的文章，探讨了如何仅使用四个2通过数学运算得到任何整数，展示了数学的趣味性和创造性。
+    <ul>
+      <li><a href="https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/">Making any integer with four 2s</a></li>
+    </ul>
+  </li>
+  <li><strong>Markdown 的 Jq-Like 工具</strong><br />
+开发者展示了一个类似 Jq 的工具，但针对 Markdown 格式，为文本处理提供了新的工具。
+    <ul>
+      <li><a href="https://github.com/yshavit/mdq">Show HN: Jq-Like Tool for Markdown</a></li>
+    </ul>
+  </li>
+  <li><strong>Tokio 和 Prctl 的 Bug</strong><br />
+文章讨论了 Tokio 和 Prctl 结合使用时出现的 Bug，为 Rust 生态系统的开发者提供了重要的错误排查信息。
+    <ul>
+      <li><a href="https://kobzol.github.io/rust/2025/02/23/tokio-plus-prctl-equals-nasty-bug.html">Tokio and Prctl = Nasty Bug</a></li>
+    </ul>
+  </li>
+  <li><strong>文明 VII 与 Shawnee Tribe 的合作</strong><br />
+游戏开发商宣布与 Shawnee Tribe 合作开发文明 VII，展示了游戏行业与原住民文化的合作趋势。
+    <ul>
+      <li><a href="https://civilization.2k.com/civ-vii/news/civilization-vii-shawnee-tribe-partnership/">Partnering with the Shawnee Tribe for Civilization VII</a></li>
+    </ul>
+  </li>
+  <li><strong>子线性时间算法</strong><br />
+来自 MIT 的研究者介绍了子线性时间算法的概念和应用，为算法设计提供了新的视角。
+    <ul>
+      <li><a href="https://people.csail.mit.edu/ronitt/sublinear.html">Sublinear Time Algorithms</a></li>
+    </ul>
+  </li>
+  <li><strong>欧洲单词翻译器</strong><br />
+一个互动地图展示了超过30种语言中的单词，为语言学习和文化交流提供了有趣的工具。
+    <ul>
+      <li><a href="https://ukdataexplorer.com/european-translator/">European word translator: an interactive map showing words in over 30 languages</a></li>
+    </ul>
+  </li>
+  <li><strong>编译器错误的看法</strong><br />
+文章讨论了编译器错误的本质，指出编译器错误并非总是编译器的问题，而是代码本身的问题。
+    <ul>
+      <li><a href="https://blog.plover.com/2017/11/12/">It is not a compiler error. It is never a compiler error (2017)</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-24 20:00:05]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/14/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-14T06:00:03+00:00</published><updated>2025-02-14T06:00:03+00:00</updated><id>/hacknews/2025/02/14/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/14/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-14 14:00:03</p>
 
 <ol>
   <li><strong>Privacy Pass 与 Kagi 搜索集成</strong><br />
@@ -612,67 +675,4 @@ Meta展示了一系列AI技术演示，展示了公司在人工智能领域的�
       <li><a href="https://aidemos.meta.com/">AI Demos by Meta</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-10 14:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/10/22-36-54-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-10T00:36:54+00:00</published><updated>2025-02-10T00:36:54+00:00</updated><id>/hacknews/2025/02/10/22:36:54-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/10/22-36-54-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-10 08:36:54</p>
-
-<ol>
-  <li><strong>GPU 条件语句优化问题</strong><br />
-讨论了在着色器中使用 mix() 和 step() 函数进行条件移动优化的问题，指出了这种优化可能带来的问题和误解。
-    <ul>
-      <li><a href="https://iquilezles.org/articles/gpuconditionals/">Don’t “optimize” conditional moves in shaders with mix()+step()</a></li>
-    </ul>
-  </li>
-  <li><strong>LLMs 构建的经典数据科学管道</strong><br />
-展示了如何使用大型语言模型（LLMs）构建经典的数据科学管道，这表明了 AI 在数据处理领域的应用潜力。
-    <ul>
-      <li><a href="https://github.com/Pravko-Solutions/FlashLearn/tree/main/examples">Classic Data science pipelines built with LLMs</a></li>
-    </ul>
-  </li>
-  <li><strong>卢旺达科学家开发香蕉酒本地酵母</strong><br />
-报道了卢旺达科学家为香蕉酒制造商开发本地酵母的新闻，展示了生物科技在食品工业中的应用。
-    <ul>
-      <li><a href="https://phys.org/news/2025-01-rwandan-scientists-local-yeast-banana.html">Rwandan scientists develop local yeast for banana wine-makers</a></li>
-    </ul>
-  </li>
-  <li><strong>阿兹特克帝国首都的3D重建</strong><br />
-介绍了一个项目，该项目通过3D技术重建了阿兹特克帝国首都特诺奇蒂特兰，为历史研究提供了新的视角。
-    <ul>
-      <li><a href="https://tenochtitlan.thomaskole.nl/">3D reconstruction of the capital of the Aztec empire</a></li>
-    </ul>
-  </li>
-  <li><strong>Slack上的流线型读书俱乐部</strong><br />
-展示了一个新侧项目，该项目旨在通过 Slack 平台简化读书俱乐部的流程，提高交流效率。
-    <ul>
-      <li><a href="https://booktalk.club/">Show HN: My first side project, streamlined book clubs on Slack</a></li>
-    </ul>
-  </li>
-  <li><strong>人群中的集体振荡现象</strong><br />
-一项研究探讨了人群中集体振荡现象的出现，这对于理解人群动态和安全管理具有重要意义。
-    <ul>
-      <li><a href="https://www.nature.com/articles/s41586-024-08514-6">Emergence of collective oscillations in human crowds</a></li>
-    </ul>
-  </li>
-  <li><strong>Linux 作为合作的 Windows 进程</strong><br />
-介绍了一个项目，该项目允许 Linux 作为一个合作的 Windows 进程运行，显示了操作系统间的互操作性。
-    <ul>
-      <li><a href="http://www.colinux.org/">Linux as co-operative Windows process (2017)</a></li>
-    </ul>
-  </li>
-  <li><strong>RetroFab：复古电子游戏的3D模拟</strong><br />
-介绍了一个项目，该项目提供了复古电子游戏的3D模拟，为玩家提供了怀旧体验。
-    <ul>
-      <li><a href="https://itizso.itch.io/retrofab">RetroFab: Playable 3D simulations of vintage electronic games</a></li>
-    </ul>
-  </li>
-  <li><strong>Ocal – AI日历自动安排任务</strong><br />
-展示了一个 AI 日历项目，该日历可以自动为用户安排任务，提高了个人时间管理的效率。
-    <ul>
-      <li><a href="https://www.ocal.ai/">Show HN: Ocal – AI Calendar That Schedules Assignments for You</a></li>
-    </ul>
-  </li>
-  <li><strong>20世纪的数学</strong><br />
-分享了 Michael Atiyah 所著的关于20世纪数学发展的论文，为数学爱好者提供了宝贵的历史资料。
-    <ul>
-      <li><a href="https://marktomforde.com/academic/miscellaneous/images/atiyah20thcentury.pdf">Mathematics in the 20th century, by Michael Atiyah [pdf] (2002)</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-10 08:36:54]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-10 14:00:03]]></summary></entry></feed>
