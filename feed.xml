@@ -1,5 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-24T12:01:21+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/24/20-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-24T20:00:03+00:00</published><updated>2025-02-24T20:00:03+00:00</updated><id>/hacknews/2025/02/24/20:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/24/20-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-25 04:00:03</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-24T22:01:16+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/25/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-25T06:00:03+00:00</published><updated>2025-02-25T06:00:03+00:00</updated><id>/hacknews/2025/02/25/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/25/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-25 14:00:03</p>
+
+<ol>
+  <li><strong>Anthropic 发布 Claude 3.7 Sonnet 和 Claude Code</strong><br />
+Anthropic 公司宣布了其 AI 模型 Claude 的新版本，包括 Sonnet 和 Claude Code，这可能预示着自然语言处理和代码生成领域的新进展。
+    <ul>
+      <li><a href="https://www.anthropic.com/news/claude-3-7-sonnet">Claude 3.7 Sonnet and Claude Code</a></li>
+    </ul>
+  </li>
+  <li><strong>防止“末日滚动”的应用程序</strong><br />
+一个名为“Touch Grass”的应用程序被创建出来，旨在通过触摸草地来阻止用户无休止地滚动社交媒体，这反映了人们对数字健康和减少屏幕时间的关注。
+    <ul>
+      <li><a href="https://touchgrass.now/">Show HN: I built an app to stop me doomscrolling by touching grass</a></li>
+    </ul>
+  </li>
+  <li><strong>随机微积分入门</strong><br />
+一篇关于随机微积分的入门文章，为那些对金融工程和概率论感兴趣的人提供了基础知识。
+    <ul>
+      <li><a href="https://jiha-kim.github.io/posts/introduction-to-stochastic-calculus/">Introduction to Stochastic Calculus</a></li>
+    </ul>
+  </li>
+  <li><strong>在 Lua 中编写 DSL</strong><br />
+一篇2015年的文章，介绍了如何在 Lua 语言中创建领域特定语言（DSL），这对于理解语言设计和编译原理非常有帮助。
+    <ul>
+      <li><a href="https://leafo.net/guides/dsl-in-lua.html">Writing a DSL in Lua</a></li>
+    </ul>
+  </li>
+  <li><strong>苹果公司在美国的投资和扩张计划</strong><br />
+苹果公司宣布将在美国增加2万个工作岗位，投资5000亿美元，并生产AI服务器，这显示了苹果对美国市场的重视和对AI技术的投入。
+    <ul>
+      <li><a href="https://www.bloomberg.com/news/articles/2025-02-24/apple-says-it-will-add-20-000-jobs-spend-500-billion-produce-ai-servers-in-us">Apple says it will add 20k jobs, spend $500B, produce AI servers in US</a></li>
+    </ul>
+  </li>
+  <li><strong>通过数学优化能源效率</strong><br />
+一篇文章讨论了如何通过数学方法优化能源效率，减少家庭电费，这对于能源管理和可持续发展具有重要意义。
+    <ul>
+      <li><a href="https://terrytao.wordpress.com/2025/02/23/closing-the-green-gap-from-the-mathematics-of-the-landscape-function-to-lower-electricity-costs-for-households/">Closing the “green gap”: energy savings from the math of the landscape function</a></li>
+    </ul>
+  </li>
+  <li><strong>使用 Parquet 和 Polars 进行文本嵌入</strong><br />
+一篇讨论如何使用 Parquet 和 Polars 进行文本嵌入的文章，这对于数据科学和机器学习领域的专业人士来说是一个重要的技术更新。
+    <ul>
+      <li><a href="https://minimaxir.com/2025/02/embeddings-parquet/">The best way to use text embeddings portably is with Parquet and Polars</a></li>
+    </ul>
+  </li>
+  <li><strong>SubImage – 从攻击者视角查看基础设施</strong><br />
+一个名为 SubImage 的新项目，它允许用户从攻击者的角度查看他们的基础设施，这对于网络安全和风险评估非常有价值。
+    <ul>
+      <li><a href="https://news.ycombinator.com/item?id=43161332">Launch HN: SubImage (YC W25) – See your infra from an attacker’s perspective</a></li>
+    </ul>
+  </li>
+  <li><strong>Neut 编程语言</strong><br />
+一个名为 Neut 的新编程语言的介绍，这可能预示着编程语言领域的新动向。
+    <ul>
+      <li><a href="https://vekatze.github.io/neut/overview.html">Neut Programming Language</a></li>
+    </ul>
+  </li>
+  <li><strong>模形式——数学的“第五基本运算”</strong><br />
+一篇关于模形式的文章，它被描述为数学的“第五基本运算”，这对于数学和理论计算机科学领域是一个重要的概念。
+    <ul>
+      <li><a href="https://www.quantamagazine.org/behold-modular-forms-the-fifth-fundamental-operation-of-math-20230921/">Behold Modular Forms, the ‘Fifth Fundamental Operation’ of Math</a></li>
+    </ul>
+  </li>
+</ol>
+
+<p>以上话题反映了当前技术圈对于人工智能、编程语言、网络安全、能源效率和数学理论的深入讨论和关注。</p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-25 14:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/24/20-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-24T20:00:03+00:00</published><updated>2025-02-24T20:00:03+00:00</updated><id>/hacknews/2025/02/24/20:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/24/20-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-25 04:00:03</p>
 
 <ol>
   <li><strong>Go语言构建BitTorrent客户端</strong><br />
@@ -625,67 +690,4 @@ FOSDEM 2025 上关于 Rust 语言努力追赶 Ada 的讨论，探讨了编程语
       <li><a href="https://www.unsw.edu.au/newsroom/news/2025/01/mapping-antarcticas-hidden-ice-free-lands-a-blueprint-for-conservation">Mapping Antarctica’s hidden ice-free lands: a blueprint for conservation</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-10 20:00:04]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/10/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-10T12:00:03+00:00</published><updated>2025-02-10T12:00:03+00:00</updated><id>/hacknews/2025/02/10/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/10/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-10 20:00:03</p>
-
-<ol>
-  <li><strong>LIMO: Less Is More for Reasoning</strong><br />
-LIMO 是一种新的推理方法，旨在通过简化问题来提高推理效率。这种方法强调在复杂问题中寻找更简洁的解决方案，以提高推理的准确性和效率。
-    <ul>
-      <li><a href="https://arxiv.org/abs/2502.03387">LIMO: Less Is More for Reasoning</a></li>
-    </ul>
-  </li>
-  <li><strong>Don’t “optimize” conditional moves in shaders with mix()+step()</strong><br />
-文章讨论了在着色器中使用 mix() 和 step() 函数进行条件移动优化的问题，指出这种优化可能会导致性能下降，提醒开发者注意。
-    <ul>
-      <li><a href="https://iquilezles.org/articles/gpuconditionals/">Don’t “optimize” conditional moves in shaders with mix()+step()</a></li>
-    </ul>
-  </li>
-  <li><strong>Why Blog If Nobody Reads It?</strong><br />
-探讨了即使博客无人阅读，为何人们仍然坚持写作的问题。文章认为，博客不仅是分享知识的方式，也是个人思考和自我表达的平台。
-    <ul>
-      <li><a href="https://andysblog.uk/why-blog-if-nobody-reads-it/">Why Blog If Nobody Reads It?</a></li>
-    </ul>
-  </li>
-  <li><strong>Teen on Musk’s DOGE team graduated from ‘The Com’</strong><br />
-报道了一名青少年从“喜剧中心”毕业，加入了马斯克的 DOGE 团队。这一事件引发了对青少年在科技领域角色和潜力的讨论。
-    <ul>
-      <li><a href="https://krebsonsecurity.com/2025/02/teen-on-musks-doge-team-graduated-from-the-com/">Teen on Musk’s DOGE team graduated from ‘The Com’</a></li>
-    </ul>
-  </li>
-  <li><strong>Show HN: Searchable Library of Free Audiobooks</strong><br />
-展示了一个免费的有声书搜索图书馆，为用户提供了一个便捷的资源，可以搜索和获取各种有声书。
-    <ul>
-      <li><a href="https://booksearch.party/">Show HN: Searchable Library of Free Audiobooks</a></li>
-    </ul>
-  </li>
-  <li><strong>Persistent packages on Steam Deck using Nix</strong><br />
-介绍了如何在 Steam Deck 上使用 Nix 来实现软件包的持久化，这对于希望在移动设备上保持开发环境一致性的用户来说非常有用。
-    <ul>
-      <li><a href="https://chrastecky.dev/gaming/persistent-packages-on-steam-deck-using-nix">Persistent packages on Steam Deck using Nix</a></li>
-    </ul>
-  </li>
-  <li><strong>PhD Knowledge Not Required: A Reasoning Challenge for Large Language Models</strong><br />
-提出了一个针对大型语言模型的推理挑战，探讨了是否需要博士学位知识来解决复杂问题，这对于人工智能领域的研究具有重要意义。
-    <ul>
-      <li><a href="https://arxiv.org/abs/2502.01584">PhD Knowledge Not Required: A Reasoning Challenge for Large Language Models</a></li>
-    </ul>
-  </li>
-  <li><strong>Revenge of the GPT Wrappers: Defensibility in a world of commoditized AI models</strong><br />
-讨论了在 AI 模型商品化的世界中，如何通过 GPT 包装器来提高模型的防御性，这对于保护 AI 系统的安全性和可靠性至关重要。
-    <ul>
-      <li><a href="https://andrewchen.substack.com/p/revenge-of-the-gpt-wrappers-defensibility">Revenge of the GPT Wrappers: Defensibility in a world of commoditized AI models</a></li>
-    </ul>
-  </li>
-  <li><strong>The Recombobulation Area (2023)</strong><br />
-介绍了“重组区域”的概念，这是一个用于帮助人们在混乱中找到秩序和清晰度的空间，对于提高工作效率和生活质量具有积极影响。
-    <ul>
-      <li><a href="https://onmilwaukee.com/articles/recombobulationsigns">The Recombobulation Area (2023)</a></li>
-    </ul>
-  </li>
-  <li><strong>Douglas McIlroy responds to Unix spell article with new implementation details</strong><br />
-道格拉斯·麦克罗伊对 Unix 拼写文章的回应，提供了新的实现细节，这对于理解 Unix 系统的发展历程和设计哲学具有重要价值。
-    <ul>
-      <li><a href="https://twitter.com/abhi9u/status/1887010136155414602">Douglas McIlroy responds to Unix spell article with new implementation details</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-10 20:00:03]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-10 20:00:04]]></summary></entry></feed>
