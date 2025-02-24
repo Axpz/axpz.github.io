@@ -1,5 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-24T04:02:22+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/24/12-00-05-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-24T12:00:05+00:00</published><updated>2025-02-24T12:00:05+00:00</updated><id>/hacknews/2025/02/24/12:00:05-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/24/12-00-05-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-24 20:00:05</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-24T12:01:21+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/24/20-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-24T20:00:03+00:00</published><updated>2025-02-24T20:00:03+00:00</updated><id>/hacknews/2025/02/24/20:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/24/20-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-25 04:00:03</p>
+
+<ol>
+  <li><strong>Go语言构建BitTorrent客户端</strong><br />
+文章介绍了如何从零开始使用Go语言构建一个BitTorrent客户端，展示了Go语言在网络编程中的应用能力。
+    <ul>
+      <li><a href="https://blog.jse.li/posts/torrent/">Building a BitTorrent client from the ground up in Go</a></li>
+    </ul>
+  </li>
+  <li><strong>DeepSeek开源FlashMLA项目</strong><br />
+开源项目FlashMLA提供了一个用于Hopper GPU的MLA解码内核，为图形处理领域带来新的开源工具。
+    <ul>
+      <li><a href="https://github.com/deepseek-ai/FlashMLA">DeepSeek Open Source FlashMLA – MLA Decoding Kernel for Hopper GPUs</a></li>
+    </ul>
+  </li>
+  <li><strong>微软取消AI数据中心租赁</strong><br />
+据分析师称，微软取消了AI数据中心的租赁，这一决策可能对云计算市场产生影响。
+    <ul>
+      <li><a href="https://www.bloomberg.com/news/articles/2025-02-24/microsoft-cancels-leases-for-ai-data-centers-analyst-says">Microsoft Cancels Leases for AI Data Centers, Analyst Says</a></li>
+    </ul>
+  </li>
+  <li><strong>RadiaCode辐射探测器Python库</strong><br />
+一个用于RadiaCode-10x辐射探测器的Python库，为科研和工业应用提供了新的工具。
+    <ul>
+      <li><a href="https://github.com/cdump/radiacode">Show HN: RadiaCode – Python Library for RadiaCode-10x Radiation Detectors</a></li>
+    </ul>
+  </li>
+  <li><strong>用四个2构造任何整数</strong><br />
+文章探讨了如何仅使用四个2来构造任何整数，展示了数学的巧妙和趣味性。
+    <ul>
+      <li><a href="https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/">Making any integer with four 2s</a></li>
+    </ul>
+  </li>
+  <li><strong>快速现金与慢股权的对比</strong><br />
+讨论了快速现金和慢股权两种不同的投资回报方式，对创业者和投资者的决策提供了洞见。
+    <ul>
+      <li><a href="https://blog.nateliason.com/p/fast-cash-slow-equity">Fast Cash vs. Slow Equity</a></li>
+    </ul>
+  </li>
+  <li><strong>Markdown的Jq类工具</strong><br />
+一个类似于Jq的Markdown处理工具，为Markdown文件的处理提供了新的选择。
+    <ul>
+      <li><a href="https://github.com/yshavit/mdq">Show HN: Jq-Like Tool for Markdown</a></li>
+    </ul>
+  </li>
+  <li><strong>Tokio和Prctl的Nasty Bug</strong><br />
+文章讨论了Tokio和Prctl结合使用时可能遇到的一个棘手的Bug，对Rust开发者具有参考价值。
+    <ul>
+      <li><a href="https://kobzol.github.io/rust/2025/02/23/tokio-plus-prctl-equals-nasty-bug.html">Tokio and Prctl = Nasty Bug</a></li>
+    </ul>
+  </li>
+  <li><strong>苹果公司在美国的投资计划</strong><br />
+苹果公司宣布将在美国增加2万个工作岗位，投资5000亿美元，并生产AI服务器，显示了其对美国市场的重视。
+    <ul>
+      <li><a href="https://www.bloomberg.com/news/articles/2025-02-24/apple-says-it-will-add-20-000-jobs-spend-500-billion-produce-ai-servers-in-us">Apple Says It Will Add 20k Jobs, Spend $500B, Produce AI Servers in US</a></li>
+    </ul>
+  </li>
+  <li><strong>与Shawnee部落合作开发文明VII</strong><br />
+2K Games宣布与Shawnee部落合作开发《文明VII》，这一合作可能为游戏带来新的文化元素。
+    <ul>
+      <li><a href="https://civilization.2k.com/civ-vii/news/civilization-vii-shawnee-tribe-partnership/">Partnering with the Shawnee Tribe for Civilization VII</a></li>
+    </ul>
+  </li>
+  <li><strong>欧洲单词翻译器：互动地图</strong><br />
+一个互动地图，允许用户探索和翻译欧洲不同语言的单词，为语言学习者提供了一个有趣的工具。
+    <ul>
+      <li><a href="https://ukdataexplorer.com/european-translator/">European word translator: an interactive map</a></li>
+    </ul>
+  </li>
+  <li><strong>旧Dell电脑UEFI NVRAM的整理</strong><br />
+文章分享了如何整理旧Dell电脑的UEFI NVRAM，对于电脑维护和优化提供了实用的指导。
+    <ul>
+      <li><a href="https://artemis.sh/2025/02/22/uefi-nvram-defrag.html">Defragging my old Dell’s UEFI NVRAM</a></li>
+    </ul>
+  </li>
+  <li>**WhiteSur：</li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-25 04:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/24/12-00-05-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-24T12:00:05+00:00</published><updated>2025-02-24T12:00:05+00:00</updated><id>/hacknews/2025/02/24/12:00:05-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/24/12-00-05-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-24 20:00:05</p>
 
 <ol>
   <li><strong>深度技术文章的撰写</strong><br />
@@ -612,67 +688,4 @@ LIMO 是一种新的推理方法，旨在通过简化问题来提高推理效率
       <li><a href="https://twitter.com/abhi9u/status/1887010136155414602">Douglas McIlroy responds to Unix spell article with new implementation details</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-10 20:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/10/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-10T06:00:03+00:00</published><updated>2025-02-10T06:00:03+00:00</updated><id>/hacknews/2025/02/10/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/10/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-10 14:00:03</p>
-
-<ol>
-  <li><strong>Ada 编程语言年度最佳 crate</strong><br />
-2024年Ada语言的最佳crate揭晓，展示了Ada语言在特定领域中的强大能力和社区的活跃度。
-    <ul>
-      <li><a href="https://blog.adacore.com/ada-spark-crate-of-the-year-2024-winners-announced">Ada crate of the year 2024 announced</a></li>
-    </ul>
-  </li>
-  <li><strong>LIMO 推理系统</strong><br />
-LIMO系统，即“Less Is More for Reasoning”，是一种新的推理系统，旨在简化逻辑推理过程，提高效率。
-    <ul>
-      <li><a href="https://arxiv.org/abs/2502.03387">LIMO: Less Is More for Reasoning</a></li>
-    </ul>
-  </li>
-  <li><strong>PostgreSQL 最佳实践</strong><br />
-文章讨论了PostgreSQL数据库的最佳实践，为数据库管理和优化提供了实用指南。
-    <ul>
-      <li><a href="https://speakdatascience.com/postgresql-best-practices/">PostgreSQL Best Practices</a></li>
-    </ul>
-  </li>
-  <li><strong>三个观察</strong><br />
-博客文章《三个观察》探讨了作者对当前技术和社会趋势的洞察，引发对未来发展路径的思考。
-    <ul>
-      <li><a href="https://blog.samaltman.com/three-observations">Three Observations</a></li>
-    </ul>
-  </li>
-  <li><strong>现代预言机还是废话机器？</strong><br />
-文章讨论了在ChatGPT等AI技术盛行的世界中，如何保持竞争力和辨别真伪。
-    <ul>
-      <li><a href="https://thebullshitmachines.com">Modern-Day Oracles or Bullshit Machines?</a></li>
-    </ul>
-  </li>
-  <li><strong>Steam Deck 上的持久化包管理</strong><br />
-介绍了如何在Steam Deck上使用Nix实现持久化包管理，为游戏玩家提供了新的解决方案。
-    <ul>
-      <li><a href="https://chrastecky.dev/gaming/persistent-packages-on-steam-deck-using-nix">Persistent packages on Steam Deck using Nix</a></li>
-    </ul>
-  </li>
-  <li><strong>不要在着色器中优化条件移动</strong><br />
-技术文章讨论了在着色器编程中，如何避免使用mix()和step()函数优化条件移动，以提高性能。
-    <ul>
-      <li><a href="https://iquilezles.org/articles/gpuconditionals/">Don’t “optimize” conditional moves in shaders</a></li>
-    </ul>
-  </li>
-  <li><strong>OpenStreetMap 日历</strong><br />
-OpenStreetMap社区推出的日历，展示了地图制作和地理信息的美学。
-    <ul>
-      <li><a href="https://osmcal.org/">OpenStreetMap Calendar</a></li>
-    </ul>
-  </li>
-  <li><strong>大型语言模型的推理挑战</strong><br />
-研究论文探讨了大型语言模型在没有博士学位知识的情况下如何进行推理，对AI领域的发展具有重要意义。
-    <ul>
-      <li><a href="https://arxiv.org/abs/2502.01584">PhD Knowledge Not Required</a></li>
-    </ul>
-  </li>
-  <li><strong>Meta 的 AI 演示</strong><br />
-Meta展示了一系列AI技术演示，展示了公司在人工智能领域的最新进展。
-    <ul>
-      <li><a href="https://aidemos.meta.com/">AI Demos by Meta</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-10 14:00:03]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-10 20:00:03]]></summary></entry></feed>
