@@ -1,5 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-25T12:01:21+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/25/20-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-25T20:00:03+00:00</published><updated>2025-02-25T20:00:03+00:00</updated><id>/hacknews/2025/02/25/20:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/25/20-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-26 04:00:03</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-25T22:01:16+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/26/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-26T06:00:03+00:00</published><updated>2025-02-26T06:00:03+00:00</updated><id>/hacknews/2025/02/26/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/26/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-26 14:00:03</p>
+
+<ol>
+  <li><strong>SQL 注入案例分析</strong><br />
+文章《I Went to SQL Injection Court》讨论了作者因 SQL 注入问题而上法庭的经历，提供了对 SQL 注入攻击及其法律后果的深刻见解。
+    <ul>
+      <li><a href="https://sockpuppet.org/blog/2025/02/09/fixing-illinois-foia/">I Went to SQL Injection Court</a></li>
+    </ul>
+  </li>
+  <li><strong>Hyperspace 技术介绍</strong><br />
+《Hyperspace》一文介绍了一种新的技术，旨在提高数据存储和检索的效率，引起了技术社区的广泛关注。
+    <ul>
+      <li><a href="https://hypercritical.co/2025/02/25/hyperspace">Hyperspace</a></li>
+    </ul>
+  </li>
+  <li><strong>Git 核心开发者的配置</strong><br />
+文章《How core Git developers configure Git》揭示了 Git 核心开发者如何配置他们的 Git 环境，为 Git 用户提供了宝贵的最佳实践。
+    <ul>
+      <li><a href="https://blog.gitbutler.com/how-git-core-devs-configure-git/">How core Git developers configure Git</a></li>
+    </ul>
+  </li>
+  <li><strong>Framework 迷你 ITX 游戏 PC</strong><br />
+Framework 推出的首款桌面电脑，以其独特的迷你 ITX 游戏 PC 设计和可升级性吸引了众多硬件爱好者的目光。
+    <ul>
+      <li><a href="https://arstechnica.com/gadgets/2025/02/framework-known-for-upgradable-laptops-intros-not-particularly-upgradable-desktop/">Framework’s first desktop</a></li>
+    </ul>
+  </li>
+  <li><strong>Ggwave 数据传输技术</strong><br />
+Ggwave 是一个轻量级的数据通过声音传输库，其开源项目在 GitHub 上引起了开发者的兴趣。
+    <ul>
+      <li><a href="https://github.com/ggerganov/ggwave">Ggwave: Tiny Data-over-Sound Library</a></li>
+    </ul>
+  </li>
+  <li><strong>XB-70 摄影作品</strong><br />
+《The XB-70》展示了一组关于 XB-70 飞机的摄影作品，这些作品因其独特的视角和历史价值而受到关注。
+    <ul>
+      <li><a href="http://codex99.com/photography/the-xb70.html">The XB-70</a></li>
+    </ul>
+  </li>
+  <li><strong>文档排名解决复杂问题</strong><br />
+文章《Hard problems that reduce to document ranking》探讨了如何通过文档排名技术解决一系列复杂问题。
+    <ul>
+      <li><a href="https://noperator.dev/posts/document-ranking-for-complex-problems/">Hard problems that reduce to document ranking</a></li>
+    </ul>
+  </li>
+  <li><strong>Grant Sanderson 与 Terry Tao 的视频</strong><br />
+数学家 Terry Tao 与视频创作者 Grant Sanderson 的第二部分视频，讨论了宇宙距离梯的问题，受到了数学爱好者的热烈讨论。
+    <ul>
+      <li><a href="https://mathstodon.xyz/@tao/114054291471216181">Part two of Grant Sanderson’s video with Terry Tao</a></li>
+    </ul>
+  </li>
+  <li><strong>秃头鹰的复兴</strong><br />
+《Bald eagles are thriving again after near extinction》报道了秃头鹰从濒临灭绝到再次繁荣的过程，展示了生态保护的成功案例。
+    <ul>
+      <li><a href="https://www.newsweek.com/bald-eagles-back-brink-extinction-2025097">Bald eagles are thriving again</a></li>
+    </ul>
+  </li>
+  <li><strong>Browser Use 开源项目</strong><br />
+《Launch HN: Browser Use》介绍了一个由 YC W25 支持的开源项目，旨在创建开放源代码的网络代理。
+    <ul>
+      <li><a href="https://github.com/browser-use/browser-use">Launch HN: Browser Use</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-26 14:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/25/20-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-25T20:00:03+00:00</published><updated>2025-02-25T20:00:03+00:00</updated><id>/hacknews/2025/02/25/20:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/25/20-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-26 04:00:03</p>
 
 <ol>
   <li><strong>Core Git Developers 的 Git 配置</strong><br />
@@ -621,67 +684,4 @@ Imapsync是一个用于同步IMAP邮件账户的工具，它在邮件迁移和�
   </li>
   <li><strong>叙利亚首次国际技术会议</strong><br />
 报道了叙利亚50年来首次举办国际技术会议，这标志着该国技术领域的一个重要进展</li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-13 14:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/12/20-16-18-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-12T12:16:18+00:00</published><updated>2025-02-12T12:16:18+00:00</updated><id>/hacknews/2025/02/12/20:16:18-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/12/20-16-18-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-12 20:16:18</p>
-
-<ol>
-  <li><strong>YouTube 用户邮箱泄露事件</strong><br />
-文章讨论了如何以 1 万美元的价格泄露任何 YouTube 用户的电子邮件地址，这一事件引发了对平台安全性和用户隐私保护的担忧。
-    <ul>
-      <li><a href="https://brutecat.com/articles/leaking-youtube-emails">Leaking the email of any YouTube user for $10,000</a></li>
-    </ul>
-  </li>
-  <li><strong>个人生存挑战的反思</strong><br />
-作者分享了自己一年中的生存挑战经历，这篇文章提供了对个人挑战和逆境的深刻反思。
-    <ul>
-      <li><a href="https://bessstillman.substack.com/p/the-year-i-didnt-survive">The year I didn’t survive</a></li>
-    </ul>
-  </li>
-  <li><strong>本田防鼠胶带的奇特体验</strong><br />
-一篇有趣的文章讲述了作者尝试本田公司生产的防鼠胶带的经历，这种胶带含有辣椒素，旨在驱赶啮齿类动物。
-    <ul>
-      <li><a href="https://haterade.substack.com/p/i-tasted-hondas-spicy-rodent-repelling">I tasted Honda’s spicy rodent-repelling tape and I will do it again (2021)</a></li>
-    </ul>
-  </li>
-  <li><strong>塑料的可持续性改造</strong><br />
-报道了一种新的聚合过程，使得耐用塑料变得更加环保，这一进展对于塑料产业的可持续发展具有重要意义。
-    <ul>
-      <li><a href="https://phys.org/news/2025-01-durable-plastic-sustainability-makeover-polymerization.html">Durable plastic gets a sustainability makeover in novel polymerization process</a></li>
-    </ul>
-  </li>
-  <li><strong>静态网页意外形成的社区</strong><br />
-作者讲述了自己如何通过编写一个静态网页意外地创建了一个社区，展示了技术如何促进社区的形成和交流。
-    <ul>
-      <li><a href="https://localfirstweb.dev/blog/2023-05-29-i-wrote-a-static-web-page">I wrote a static web page and accidentally started a community (2023)</a></li>
-    </ul>
-  </li>
-  <li><strong>LLM 文档处理工程师招聘</strong><br />
-一家名为 Extend 的公司正在招聘工程师，以构建基于大型语言模型（LLM）的文档处理系统，这显示了人工智能技术在文档处理领域的应用前景。
-    <ul>
-      <li><a href="https://jobs.ashbyhq.com/extend/9d4d8974-bd9b-432d-84ec-8268e5a8ed37">Extend (YC W23) is hiring engineers to build LLM document processing</a></li>
-    </ul>
-  </li>
-  <li><strong>Backblaze 2024年硬盘统计</strong><br />
-Backblaze 发布了其2024年硬盘统计数据，提供了硬盘故障率和性能的详细分析，对于存储解决方案的选择具有参考价值。
-    <ul>
-      <li><a href="https://www.backblaze.com/blog/backblaze-drive-stats-for-2024/">Backblaze Drive Stats for 2024</a></li>
-    </ul>
-  </li>
-  <li><strong>从史蒂夫·乔布斯那里学到的故事讲述技巧</strong><br />
-文章分享了作者从史蒂夫·乔布斯那里学到的故事讲述技巧，这些技巧对于任何希望提高沟通能力的人都具有启发性。
-    <ul>
-      <li><a href="https://www.fastcompany.com/90747313/steve-jobs-lessons-tony-fadell-build-book-excerpt">Storytelling lessons I learned from Steve Jobs (2022)</a></li>
-    </ul>
-  </li>
-  <li><strong>汽车物理控制设计的艺术</strong><br />
-探讨了设计汽车物理控制的微妙之处，包括用户体验和安全性的考量，对于汽车设计领域具有指导意义。
-    <ul>
-      <li><a href="https://www.theturnsignalblog.com/the-subtle-art-of-designing-physical-control-for-cars/">The subtle art of designing physical controls for cars</a></li>
-    </ul>
-  </li>
-  <li><strong>A0.dev (YC W25) – React Native App Generator</strong><br />
-一家名为 A0.dev 的初创公司推出了一个 React Native 应用生成器，旨在简化移动应用的开发过程。
-    <ul>
-      <li><a href="https://news.ycombinator.com/item?id=43015267">Launch HN: A0.dev (YC W25) – React Native App Generator</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-12 20:16:18]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-13 14:00:03]]></summary></entry></feed>
