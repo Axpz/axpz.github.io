@@ -1,5 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-25T04:01:16+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/25/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-25T12:00:03+00:00</published><updated>2025-02-25T12:00:03+00:00</updated><id>/hacknews/2025/02/25/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/25/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-25 20:00:03</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-25T12:01:21+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/25/20-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-25T20:00:03+00:00</published><updated>2025-02-25T20:00:03+00:00</updated><id>/hacknews/2025/02/25/20:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/25/20-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-26 04:00:03</p>
+
+<ol>
+  <li><strong>Core Git Developers 的 Git 配置</strong><br />
+文章介绍了 Core Git 开发者如何配置 Git，提供了一些高级 Git 使用技巧和最佳实践，对 Git 用户来说非常有参考价值。
+    <ul>
+      <li><a href="https://blog.gitbutler.com/how-git-core-devs-configure-git/">How Core Git Developers Configure Git</a></li>
+    </ul>
+  </li>
+  <li><strong>Anthropic 发布 Claude 3.7 Sonnet 和 Claude Code</strong><br />
+Anthropic 公司发布了 Claude 3.7 Sonnet 和 Claude Code，展示了其在自然语言处理和代码生成方面的进步。
+    <ul>
+      <li><a href="https://www.anthropic.com/news/claude-3-7-sonnet">Claude 3.7 Sonnet and Claude Code</a></li>
+    </ul>
+  </li>
+  <li><strong>DeepSeek 集成资源列表</strong><br />
+GitHub 上的 DeepSeek 集成资源列表，提供了多种 DeepSeek AI 工具和框架的集成方法，对开发者来说是一个宝贵的资源。
+    <ul>
+      <li><a href="https://github.com/deepseek-ai/awesome-deepseek-integration">Awesome DeepSeek Integrations</a></li>
+    </ul>
+  </li>
+  <li><strong>DeepSeek 开源 DeepEP 库</strong><br />
+DeepSeek 推出了开源的 DeepEP 库，用于 MoE（Mixture of Experts）模型的训练和推理，对机器学习领域是一个重要的贡献。
+    <ul>
+      <li><a href="https://github.com/deepseek-ai/DeepEP">DeepSeek open source DeepEP</a></li>
+    </ul>
+  </li>
+  <li><strong>DigiCert 威胁采取法律行动以压制 Bugzilla 讨论</strong><br />
+DigiCert 威胁要采取法律行动以压制 Bugzilla 上的讨论，引发了关于言论自由和法律威胁的争议。
+    <ul>
+      <li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1950144">DigiCert: Threat of legal action to stifle Bugzilla discourse</a></li>
+    </ul>
+  </li>
+  <li><strong>检测 Canvas 指纹识别中的噪声</strong><br />
+城堡博客的文章讨论了如何检测 Canvas 指纹识别中的噪声，对于提高网站安全性和隐私保护具有重要意义。
+    <ul>
+      <li><a href="https://blog.castle.io/detecting-noise-in-canvas-fingerprinting/">Detecting Noise in Canvas Fingerprinting</a></li>
+    </ul>
+  </li>
+  <li><strong>“离火车站越近，烤肉越差”——一项“研究”</strong><br />
+瑞典的一项“研究”探讨了火车站附近烤肉质量的问题，虽然看似幽默，但也反映了城市规划和商业布局的现实问题。
+    <ul>
+      <li><a href="https://www.jmspae.se/write-ups/kebabs-train-stations/">“The closer to the train station, the worse the kebab” – a “study”</a></li>
+    </ul>
+  </li>
+  <li><strong>自由职业者如何找到客户（第一部分）</strong><br />
+文章分享了作者作为自由职业者如何找到客户的经验，对于想要从事自由职业的人来说是一个很好的指南。
+    <ul>
+      <li><a href="https://crocspace.substack.com/p/freelancing-how-i-got-clients-part">Freelancing: How I found clients, part 1</a></li>
+    </ul>
+  </li>
+  <li><strong>特斯拉在欧洲的销量上个月几乎减半</strong><br />
+商业内幕报道了特斯拉在欧洲的销量大幅下降的情况，分析了可能的原因和对特斯拉的影响。
+    <ul>
+      <li><a href="https://www.businessinsider.com/tesla-sales-europe-tumbled-elon-musk-china-evs-2025-2">Tesla sales almost halved in Europe last month</a></li>
+    </ul>
+  </li>
+  <li><strong>一些编程语言的想法</strong><br />
+David Bos 的博客文章分享了一些关于编程语言设计的新颖想法，对于语言设计者和程序员来说提供了新的视角。
+    <ul>
+      <li><a href="https://davidbos.me/posts/some_programming_language_ideas/">Some Programming Language Ideas</a></li>
+    </ul>
+  </li>
+  <li><strong>Clean Code 与软件设计哲学</strong><br />
+John Ousterhout 的 GitHub 页面对比了 Clean Code 和 A Philosophy Of Software Design，讨论了软件设计的不同理念。
+    <ul>
+      <li><a href="https://github.com/johnousterhout/aposd-vs-clean-code/blob/main/README.md">Clean Code vs. A Philosophy Of Software Design</a></li>
+    </ul>
+  </li>
+  <li><strong>在 AI 时代，博客仍然值得写</strong><br />
+Giles Thomas 的文章讨论了在 AI 时代博客的价值，认为博客仍然是个人表达和知识分享的重要平台。
+    <ul>
+      <li><a href="https://www.gilesthomas.com/2025/02/blogging-in-the-age-of-ai">It’s still worth blogging in the age of AI</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-26 04:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/25/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-25T12:00:03+00:00</published><updated>2025-02-25T12:00:03+00:00</updated><id>/hacknews/2025/02/25/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/25/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-25 20:00:03</p>
 
 <ol>
   <li><strong>Anthropic 发布 Claude 3.7 Sonnet 和 Claude Code</strong><br />
@@ -609,85 +684,4 @@ Backblaze 发布了其2024年硬盘统计数据，提供了硬盘故障率和性
       <li><a href="https://news.ycombinator.com/item?id=43015267">Launch HN: A0.dev (YC W25) – React Native App Generator</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-12 20:16:18]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/11/21-18-30-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-11T13:18:30+00:00</published><updated>2025-02-11T13:18:30+00:00</updated><id>/hacknews/2025/02/11/21:18:30-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/11/21-18-30-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-11 21:18:30</p>
-
-<ol>
-  <li><strong>Meta的超大规模基础设施</strong><br />
-文章提供了对Meta超大规模基础设施的概述和洞见，展示了Meta在数据中心和网络技术方面的最新进展。
-    <ul>
-      <li><a href="https://cacm.acm.org/research/metas-hyperscale-infrastructure-overview-and-insights/">Meta’s Hyperscale Infrastructure: Overview and Insights</a></li>
-    </ul>
-  </li>
-  <li><strong>哈希表搜索速度的新发现</strong><br />
-一名本科生的研究颠覆了40年来的数据科学猜想，表明哈希表的搜索可以更快。
-    <ul>
-      <li><a href="https://www.quantamagazine.org/undergraduate-upends-a-40-year-old-data-science-conjecture-20250210/">Undergraduate shows that searches within hash tables can be much faster</a></li>
-    </ul>
-  </li>
-  <li><strong>姓氏的起源</strong><br />
-探讨了姓氏从昵称中演变而来的历史，这些昵称如今已无人使用。
-    <ul>
-      <li><a href="https://blog.plover.com/lang/etym/nickname-names.html">Surnames from nicknames nobody has any more</a></li>
-    </ul>
-  </li>
-  <li><strong>OpenDAW音乐创作平台</strong><br />
-介绍了一个新的音乐创作平台OpenDAW，它允许在浏览器内进行音乐创作。
-    <ul>
-      <li><a href="https://opendaw.studio/">OpenDAW – a new holistic exploration of music creation inside the browser</a></li>
-    </ul>
-  </li>
-  <li><strong>构建个人私有AI计算机</strong><br />
-分享了如何在预算内构建一个个人私有的AI计算机。
-    <ul>
-      <li><a href="https://ewintr.nl/posts/2025/building-a-personal-private-ai-computer-on-a-budget/">Building a personal, private AI computer on a budget</a></li>
-    </ul>
-  </li>
-  <li><strong>TSMC 2nm工艺披露</strong><br />
-分析了TSMC最新的2nm工艺技术，并探讨了其性能指标。
-    <ul>
-      <li><a href="https://semiwiki.com/semiconductor-services/techinsights/352972-iedm-2025-tsmc-2nm-process-disclosure-how-does-it-measure-up/">TSMC 2nm Process Disclosure – How Does It Measure Up?</a></li>
-    </ul>
-  </li>
-  <li><strong>Floppotron 3.0音乐项目</strong><br />
-介绍了Floppotron 3.0项目，这是一个使用老式软盘驱动器制作音乐的创意项目。
-    <ul>
-      <li><a href="https://silent.org.pl/home/2022/06/13/the-floppotron-3-0/">The Floppotron 3.0 (2022)</a></li>
-    </ul>
-  </li>
-  <li><strong>PDF文件内部结构的HTML可视化</strong><br />
-展示了一个项目，它将PDF文件的内部结构以HTML形式可视化。
-    <ul>
-      <li><a href="https://github.com/desgeeko/pdfsyntax/blob/main/docs/browse.md">Show HN: HTML visualization of a PDF file’s internal structure</a></li>
-    </ul>
-  </li>
-  <li><strong>生成SSA的方法目录</strong><br />
-提供了一个关于生成静态单赋值（SSA）形式的方法目录。
-    <ul>
-      <li><a href="https://bernsteinbear.com/blog/ssa/">A catalog of ways to generate SSA</a></li>
-    </ul>
-  </li>
-  <li><strong>键盘扩展层映射</strong><br />
-讨论了如何为键盘布局创建扩展层映射。
-    <ul>
-      <li><a href="https://dreymar.colemak.org/layers-extend.html">Extend Extra Extreme: keyboard extend layer mappings</a></li>
-    </ul>
-  </li>
-  <li><strong>利用AI保护土著文化</strong><br />
-报道了土著工程师如何使用AI技术来保护和传承他们的文化。
-    <ul>
-      <li><a href="https://www.nbcnews.com/tech/innovation/indigenous-engineers-are-using-ai-preserve-culture-rcna176012">Indigenous engineers are using AI to preserve their culture</a></li>
-    </ul>
-  </li>
-  <li><strong>测试时计算的扩展</strong><br />
-介绍了一种通过潜在推理扩展测试时计算的方法。
-    <ul>
-      <li><a href="https://arxiv.org/abs/2502.05171">Scaling up test-time compute with latent reasoning: A recurrent depth approach</a></li>
-    </ul>
-  </li>
-  <li><strong>数字设备公司的历史</strong><br />
-讲述了数字设备公司（Digital Equipment Corporation）的故事。
-    <ul>
-      <li><a href="https://www.abortretry.fail/p/work-at-the-mill">Work at the Mill: The story of Digital Equipment Corporation</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-11 21:18:30]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-12 20:16:18]]></summary></entry></feed>
