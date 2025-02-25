@@ -1,5 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-24T22:01:16+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/25/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-25T06:00:03+00:00</published><updated>2025-02-25T06:00:03+00:00</updated><id>/hacknews/2025/02/25/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/25/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-25 14:00:03</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-25T04:01:16+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/25/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-25T12:00:03+00:00</published><updated>2025-02-25T12:00:03+00:00</updated><id>/hacknews/2025/02/25/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/25/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-25 20:00:03</p>
+
+<ol>
+  <li><strong>Anthropic 发布 Claude 3.7 Sonnet 和 Claude Code</strong><br />
+Anthropic 公司发布了 Claude 3.7 Sonnet 和 Claude Code，进一步扩展了其人工智能产品线，显示出 AI 技术在自然语言处理和代码生成方面的进步。
+    <ul>
+      <li><a href="https://www.anthropic.com/news/claude-3-7-sonnet">Claude 3.7 Sonnet and Claude Code</a></li>
+    </ul>
+  </li>
+  <li><strong>AI 时代的博客写作价值</strong><br />
+文章讨论了即使在 AI 时代，博客写作依然具有价值，强调了个人表达和知识分享的重要性。
+    <ul>
+      <li><a href="https://www.gilesthomas.com/2025/02/blogging-in-the-age-of-ai">It’s still worth blogging in the age of AI</a></li>
+    </ul>
+  </li>
+  <li><strong>DeepSeek 开源 DeepEP 库</strong><br />
+DeepSeek 团队开源了 DeepEP 库，这是一个用于 MoE（Mixture of Experts）训练和推理的库，展示了开源社区在深度学习领域的活跃性。
+    <ul>
+      <li><a href="https://github.com/deepseek-ai/DeepEP">DeepSeek open source DeepEP</a></li>
+    </ul>
+  </li>
+  <li><strong>“离火车站越近，烤肉越差”——一项“研究”</strong><br />
+一项幽默的“研究”探讨了火车站附近烤肉质量的问题，引发了对城市生活和食品质量的讨论。
+    <ul>
+      <li><a href="https://www.jmspae.se/write-ups/kebabs-train-stations/">“The closer to the train station, the worse the kebab” – a “study”</a></li>
+    </ul>
+  </li>
+  <li><strong>防止“末日滚动”的应用程序</strong><br />
+一个 Show HN 项目，开发者创建了一个应用程序，通过触摸草地来阻止自己过度滚动社交媒体，关注心理健康和数字健康。
+    <ul>
+      <li><a href="https://touchgrass.now/">Show HN: I built an app to stop me doomscrolling by touching grass</a></li>
+    </ul>
+  </li>
+  <li><strong>NSF 无线实验平台的人事变动</strong><br />
+讨论了 NSF 无线实验平台的人事变动，反映了科研机构在管理和运营上可能面临的挑战。
+    <ul>
+      <li><a href="https://discuss.systems/@ricci/114059690609284323">Everyone at NSF overseeing the Platforms for Wireless Experimentation is gone</a></li>
+    </ul>
+  </li>
+  <li><strong>构建计算器的个人项目</strong><br />
+一个个人项目，作者专注于构建计算器，而不是跟随 AI 代理的潮流，展示了技术领域的多样性。
+    <ul>
+      <li><a href="https://www.calcverse.live">While the world builds AI Agents, I’m just building calculators</a></li>
+    </ul>
+  </li>
+  <li><strong>美国太空部队 X-37B 太空飞机首张照片</strong><br />
+美国太空部队发布了 X-37B 太空飞机在轨道上的首张照片，展示了军事太空技术的最新进展。
+    <ul>
+      <li><a href="https://www.space.com/space-force-x-37b-1st-photo-from-orbit-earth">US Space Force reveals first look at secretive X-37B space plane in orbit</a></li>
+    </ul>
+  </li>
+  <li><strong>随机微积分入门</strong><br />
+一篇介绍随机微积分的文章，为读者提供了这一数学领域基础知识的入门指南。
+    <ul>
+      <li><a href="https://jiha-kim.github.io/posts/introduction-to-stochastic-calculus/">Introduction to Stochastic Calculus</a></li>
+    </ul>
+  </li>
+  <li><strong>通过景观函数的数学降低能源成本</strong><br />
+文章讨论了如何通过数学方法降低能源成本，特别是在家庭用电方面，关注可持续发展和能源效率。
+    <ul>
+      <li><a href="https://terrytao.wordpress.com/2025/02/23/closing-the-green-gap-from-the-mathematics-of-the-landscape-function-to-lower-electricity-costs-for-households/">Closing the “green gap”: energy savings from the math of the landscape function</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-25 20:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/25/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-25T06:00:03+00:00</published><updated>2025-02-25T06:00:03+00:00</updated><id>/hacknews/2025/02/25/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/25/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-25 14:00:03</p>
 
 <ol>
   <li><strong>Anthropic 发布 Claude 3.7 Sonnet 和 Claude Code</strong><br />
@@ -627,67 +690,4 @@ Backblaze 发布了其2024年硬盘统计数据，提供了硬盘故障率和性
       <li><a href="https://www.abortretry.fail/p/work-at-the-mill">Work at the Mill: The story of Digital Equipment Corporation</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-11 21:18:30]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/10/20-00-04-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-10T12:00:04+00:00</published><updated>2025-02-10T12:00:04+00:00</updated><id>/hacknews/2025/02/10/20:00:04-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/10/20-00-04-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-10 20:00:04</p>
-
-<ol>
-  <li><strong>深度学习模型（LLMs）的概述</strong><br />
-Andrej Karpathy 对大型语言模型（如ChatGPT）的深入分析的摘要，提供了对当前人工智能领域最前沿技术的理解。
-    <ul>
-      <li><a href="https://anfalmushtaq.com/articles/deep-dive-into-llms-like-chatgpt-tldr">TL;DR of Deep Dive into LLMs Like ChatGPT by Andrej Karpathy</a></li>
-    </ul>
-  </li>
-  <li><strong>托马斯·阿奎那头骨揭示其外貌和死因</strong><br />
-通过对托马斯·阿奎那头骨的研究，揭示了这位哲学家的外貌和死因，展示了考古学和历史学的新发现。
-    <ul>
-      <li><a href="https://www.ncregister.com/blog/face-of-aquinas-revealed-after-750-years">Thomas Aquinas’ skull reveals appearance and cause of death</a></li>
-    </ul>
-  </li>
-  <li><strong>博客写作的意义</strong><br />
-讨论了即使没有人阅读，为什么人们仍然会写博客的问题，触及了内容创作者的内心世界和动机。
-    <ul>
-      <li><a href="https://andysblog.uk/why-blog-if-nobody-reads-it/">Why blog if nobody reads it?</a></li>
-    </ul>
-  </li>
-  <li><strong>人类起源研究百年纪念</strong><br />
-庆祝人类起源研究一百周年，回顾了这一领域的重要发现和进展。
-    <ul>
-      <li><a href="https://www.nature.com/articles/d41586-025-00282-1">Out of Africa: celebrating 100 years of human-origins research</a></li>
-    </ul>
-  </li>
-  <li><strong>Rust 与 Ada 的比较</strong><br />
-FOSDEM 2025 上关于 Rust 语言努力追赶 Ada 的讨论，探讨了编程语言的发展和特性。
-    <ul>
-      <li><a href="https://fosdem.org/2025/schedule/event/fosdem-2025-5356-the-state-of-rust-trying-to-catch-up-with-ada/">FOSDEM 2025: The state of Rust trying to catch up with Ada</a></li>
-    </ul>
-  </li>
-  <li><strong>LIMO：简化推理</strong><br />
-介绍了一种新的推理方法，强调“少即是多”的原则，旨在简化复杂问题的处理。
-    <ul>
-      <li><a href="https://arxiv.org/abs/2502.03387">LIMO: Less Is More for Reasoning</a></li>
-    </ul>
-  </li>
-  <li><strong>架构图常见错误</strong><br />
-总结了在架构图设计中常见的错误，为软件开发者提供了宝贵的参考。
-    <ul>
-      <li><a href="https://www.ilograph.com/blog/posts/diagram-mistakes/">Common mistakes in architecture diagrams</a></li>
-    </ul>
-  </li>
-  <li><strong>比特币失主探索购买整个垃圾填埋场</strong><br />
-报道了一位在垃圾填埋场丢失比特币财富的男子，探索购买整个垃圾填埋场的可能性。
-    <ul>
-      <li><a href="https://www.theguardian.com/technology/2025/feb/10/man-who-lost-bitcoin-fortune-in-welsh-tip-explores-purchase-of-entire-landfill">Man who lost Bitcoin fortune in Welsh tip explores purchase of entire landfill</a></li>
-    </ul>
-  </li>
-  <li><strong>不要在着色器中优化条件移动</strong><br />
-讨论了在着色器编程中使用 mix() 和 step() 函数优化条件移动的问题，提供了技术性的见解。
-    <ul>
-      <li><a href="https://iquilezles.org/articles/gpuconditionals/">Don’t “optimize” conditional moves in shaders with mix()+step()</a></li>
-    </ul>
-  </li>
-  <li><strong>南极洲无冰土地的保护蓝图</strong><br />
-介绍了南极洲无冰土地的测绘工作，为环境保护提供了重要的参考。
-    <ul>
-      <li><a href="https://www.unsw.edu.au/newsroom/news/2025/01/mapping-antarcticas-hidden-ice-free-lands-a-blueprint-for-conservation">Mapping Antarctica’s hidden ice-free lands: a blueprint for conservation</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-10 20:00:04]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-11 21:18:30]]></summary></entry></feed>
