@@ -1,5 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-25T22:01:16+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
-</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/26/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-26T06:00:03+00:00</published><updated>2025-02-26T06:00:03+00:00</updated><id>/hacknews/2025/02/26/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/26/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-26 14:00:03</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-26T04:01:24+00:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+</subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/26/12-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-26T12:00:03+00:00</published><updated>2025-02-26T12:00:03+00:00</updated><id>/hacknews/2025/02/26/12:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/26/12-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-26 20:00:03</p>
+
+<ol>
+  <li><strong>DeepSeek 开源 DeepGEMM</strong><br />
+DeepSeek 团队开源了 DeepGEMM，这是一个清洁且高效的 FP8 GEMM 内核库，旨在提升深度学习中的矩阵运算效率。
+    <ul>
+      <li><a href="https://github.com/deepseek-ai/DeepGEMM">DeepSeek Open Sources DeepGEMM</a></li>
+    </ul>
+  </li>
+  <li><strong>SQL 注入法庭案例</strong><br />
+一篇关于作者亲身经历 SQL 注入案件的文章，揭示了 SQL 注入攻击的严重性和法律后果。
+    <ul>
+      <li><a href="https://sockpuppet.org/blog/2025/02/09/fixing-illinois-foia/">I Went to SQL Injection Court</a></li>
+    </ul>
+  </li>
+  <li><strong>AI 历史视频引发争议</strong><br />
+历史学家对近期流行的 AI 制作的历史视频发表评论，批评其内容业余且危险，引发了对 AI 生成内容准确性的讨论。
+    <ul>
+      <li><a href="https://www.bbc.com/news/articles/cy87076pdw3o">‘Amateur and dangerous’ AI history videos</a></li>
+    </ul>
+  </li>
+  <li><strong>Hyperspace 软件介绍</strong><br />
+一篇介绍 Hyperspace 的文章，这是一个旨在提高用户隐私和安全的新型软件。
+    <ul>
+      <li><a href="https://hypercritical.co/2025/02/25/hyperspace">Hyperspace</a></li>
+    </ul>
+  </li>
+  <li><strong>Grant Sanderson 与 Terry Tao 的视频</strong><br />
+数学家 Terry Tao 与 Grant Sanderson 的第二部分视频，讨论了宇宙距离梯的概念。
+    <ul>
+      <li><a href="https://mathstodon.xyz/@tao/114054291471216181">Part two of Grant Sanderson’s video with Terry Tao</a></li>
+    </ul>
+  </li>
+  <li><strong>Ggwave 数据传输声音库</strong><br />
+Ggwave 是一个小巧的数据通过声音传输的库，为物联网设备提供了一种新的数据传输方式。
+    <ul>
+      <li><a href="https://github.com/ggerganov/ggwave">Ggwave: Tiny Data-over-Sound Library</a></li>
+    </ul>
+  </li>
+  <li><strong>Browser Use 开源项目</strong><br />
+一个名为 Browser Use 的新项目，旨在创建开源的网络代理，以增强网络的开放性和可访问性。
+    <ul>
+      <li><a href="https://github.com/browser-use/browser-use">Launch HN: Browser Use</a></li>
+    </ul>
+  </li>
+  <li><strong>文档排名解决复杂问题</strong><br />
+一篇文章探讨了将复杂问题简化为文档排名问题的方法，这对于搜索引擎优化和信息检索领域具有重要意义。
+    <ul>
+      <li><a href="https://noperator.dev/posts/document-ranking-for-complex-problems/">Hard problems that reduce to document ranking</a></li>
+    </ul>
+  </li>
+  <li><strong>Material Theme 从 VS Code 移除</strong><br />
+VS Code 市场中 Material Theme 被移除，引发了社区对开源项目可持续性和版权问题的讨论。
+    <ul>
+      <li><a href="https://github.com/material-theme/vsc-material-theme/discussions/1313">Material Theme pulled from VS Code</a></li>
+    </ul>
+  </li>
+  <li><strong>EdgeDB 转型为 Gel</strong><br />
+数据库管理系统 EdgeDB 转型为 Gel，并宣布 Postgres 为未来发展方向，这一转变对数据库技术的未来具有深远影响。
+    <ul>
+      <li><a href="https://www.geldata.com/blog/edgedb-is-now-gel-and-postgres-is-the-future">EdgeDB is now Gel</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-26 20:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/26/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-26T06:00:03+00:00</published><updated>2025-02-26T06:00:03+00:00</updated><id>/hacknews/2025/02/26/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/26/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-26 14:00:03</p>
 
 <ol>
   <li><strong>SQL 注入案例分析</strong><br />
@@ -601,87 +664,4 @@ Eli Lipsitz 在 Hacker News 上展示了他开发的开源 FPGA 复古模拟器�
   </li>
   <li><strong>US and UK refuse to sign AI safety declaration at summit</strong><br />
 Ars Technica 报道了美国和英国拒绝在峰会上签署人工智能安全声明的消息，这反映了两国在人工智能监管问题上的</li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-13 20:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/13/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-13T06:00:03+00:00</published><updated>2025-02-13T06:00:03+00:00</updated><id>/hacknews/2025/02/13/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/13/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-13 14:00:03</p>
-
-<ol>
-  <li><strong>YouTube 用户邮箱泄露事件</strong><br />
-文章讨论了如何通过支付10k美元来泄露任何YouTube用户的电子邮件地址，这引发了对平台安全和用户隐私保护的担忧。
-    <ul>
-      <li><a href="https://brutecat.com/articles/leaking-youtube-emails">Leaking the email of any YouTube user for $10k</a></li>
-    </ul>
-  </li>
-  <li><strong>中微子能量记录</strong><br />
-报道了一项科学发现，即检测到迄今为止能量最高的中微子，这一发现可能对粒子物理学和天体物理学产生重大影响。
-    <ul>
-      <li><a href="https://www.nature.com/articles/d41586-025-00444-1">Record-breaking neutrino is most energetic ever detected</a></li>
-    </ul>
-  </li>
-  <li><strong>唐纳德·舒普的悼词</strong><br />
-纪念唐纳德·舒普的文章，他被誉为停车领域的先知，对城市规划和停车政策有着深远的影响。
-    <ul>
-      <li><a href="https://www.worksinprogress.news/p/the-prophet-of-parking">The Prophet of Parking: A eulogy for the great Donald Shoup</a></li>
-    </ul>
-  </li>
-  <li><strong>5G网络与消费者需求</strong><br />
-分析了5G网络如何满足消费者需求，尤其是在移动数据增长放缓的背景下，5G技术的优势和挑战。
-    <ul>
-      <li><a href="https://spectrum.ieee.org/5g-bandwidth">5G networks meet consumer needs as mobile data growth slows</a></li>
-    </ul>
-  </li>
-  <li><strong>开源FPGA复古模拟器</strong><br />
-展示了一个开源的FPGA复古模拟器游戏机，这个项目展示了开源硬件和复古游戏文化的结合。
-    <ul>
-      <li><a href="https://eli.lipsitz.net/posts/introducing-gamebub/">Show HN: Game Bub – open-source FPGA retro emulation handheld</a></li>
-    </ul>
-  </li>
-  <li><strong>通过表情符号走私数据</strong><br />
-探讨了如何通过表情符号来隐藏和传输任意数据，这种技术可能对数据安全和隐私保护产生影响。
-    <ul>
-      <li><a href="https://paulbutler.org/2025/smuggling-arbitrary-data-through-an-emoji/">Smuggling arbitrary data through an emoji</a></li>
-    </ul>
-  </li>
-  <li><strong>无构建全栈SSR TypeScript框架</strong><br />
-介绍了一个不需要构建过程的全栈服务器端渲染（SSR）TypeScript框架，这种框架可能简化开发流程。
-    <ul>
-      <li><a href="https://jsr.io/@fullsoak/fullsoak">Show HN: A no-build fullstack SSR TypeScript web framework</a></li>
-    </ul>
-  </li>
-  <li><strong>NixOS的可复制性</strong><br />
-讨论了NixOS操作系统的可复制性问题，这是一个关于操作系统安全性和稳定性的重要话题。
-    <ul>
-      <li><a href="https://luj.fr/blog/is-nixos-truly-reproducible.html">Is NixOS truly reproducible?</a></li>
-    </ul>
-  </li>
-  <li><strong>PgAssistant：开源工具</strong><br />
-介绍了一个开源工具PgAssistant，旨在帮助开发者理解和优化PostgreSQL的性能。
-    <ul>
-      <li><a href="https://github.com/nexsol-technologies/pgassistant">PgAssistant: OSS tool to help devs understand and optimize PG performance</a></li>
-    </ul>
-  </li>
-  <li><strong>Imapsync工具</strong><br />
-Imapsync是一个用于同步IMAP邮件账户的工具，它在邮件迁移和备份中非常有用。
-    <ul>
-      <li><a href="https://imapsync.lamiral.info/">Imapsync</a></li>
-    </ul>
-  </li>
-  <li><strong>独立iOS应用开发现状</strong><br />
-文章讨论了独立iOS应用开发者的现状，包括市场趋势、挑战和机遇。
-    <ul>
-      <li><a href="https://safespace.is/blog/villain-era-part-1">iOS indie app development looks like</a></li>
-    </ul>
-  </li>
-  <li><strong>yknotify工具</strong><br />
-介绍了一个工具yknotify，它可以在YubiKey需要触摸时在macOS上发送通知，增强了双因素认证的用户体验。
-    <ul>
-      <li><a href="https://github.com/noperator/yknotify">Show HN: yknotify – Notify when YubiKey needs touch on macOS</a></li>
-    </ul>
-  </li>
-  <li><strong>AI安全声明</strong><br />
-报道了美国和英国拒绝签署AI安全声明的事件，这可能对全球AI政策和法规产生影响。
-    <ul>
-      <li><a href="https://arstechnica.com/ai/2025/02/us-and-uk-refuse-to-sign-ai-safety-declaration-at-summit/">US and UK refuse to sign AI safety declaration at summit</a></li>
-    </ul>
-  </li>
-  <li><strong>叙利亚首次国际技术会议</strong><br />
-报道了叙利亚50年来首次举办国际技术会议，这标志着该国技术领域的一个重要进展</li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-13 14:00:03]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-13 20:00:03]]></summary></entry></feed>
