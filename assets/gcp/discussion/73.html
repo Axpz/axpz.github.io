@@ -1,0 +1,264 @@
+<h3 id="heretolearnazure1年7个月前">heretolearnazure（1年7个月前）</h3>
+<blockquote>
+  <p>分片数据库将减少延迟<br />
+👍 已点赞 4 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="azuredp9002年零5个月前">AzureDP900（2年零5个月前）</h3>
+<blockquote>
+  <ol>
+    <li>为实例启用自动增加存储空间。</li>
+    <li>当 CPU 使用率超过 75% 时，创建 Stackdriver 警报，并更改实例类型以降低 CPU 使用率。</li>
+    <li>创建 Stackdriver 复制滞后警报，并对数据库进行分片以减少复制时间。<br />
+👍 已点赞 2 次</li>
+  </ol>
+</blockquote>
+
+<hr />
+
+<h3 id="9xnine2年10个月前">9xnine（2年10个月前）</h3>
+<blockquote>
+  <p>最近参加考试的人是否对 Stackdriver 命名法存有疑问，或者它是否都是云日志记录、云监控等？<br />
+👍 已点赞 16 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="纳雷什图玛5个月零2周前">纳雷什图玛（5个月零2周前）</h3>
+<blockquote>
+  <p>答案是：A<br />
+👍 已点赞 1 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="e5019c61年零3个月前">e5019c6（1年零3个月前）</h3>
+<blockquote>
+  <p>所选答案：B<br />
+虽然我理解一开始选择 32 核机器的疑虑，但答案 A 可能是错误的……<br />
+根据这篇文章：<br />
+https://cloud.google.com/sql/docs/mysql/instance-settings#impact<br />
+“对于 MySQL 实例，更改机器类型或实例的区域都会导致实例离线几分钟。”<br />
+我理解实例类型 == 机器类型。<br />
+如果我们切换到 PostgreSQL 或 SQL Server 实例，也会出现类似的警告：<br />
+PostgreSQL：“更改 CPU 数量或内存大小会导致实例离线不到 60 秒。更改生效的总时间可能需要几分钟。”<br />
+SQL Server：“更改 CPU 数量或内存大小会导致实例离线不到 60 秒。”<br />
+👍 已点赞 2 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="e5019c6补充">e5019c6（补充）</h3>
+<blockquote>
+  <p>但我也明白，问题中没有提到需要数据库始终在线，所以也许这些离线时间是可以接受的……<br />
+👍 已点赞 1 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="阿迪亚古普塔1年零6个月前">阿迪亚·古普塔（1年零6个月前）</h3>
+<blockquote>
+  <p>所选答案：A<br />
+您正在使用 Cloud SQL 作为大型 CRM 部署的数据库后端。<br />
+您希望随着使用量的增加而扩展，并确保不会耗尽存储空间，<br />
+维持 75% 的 CPU 使用率核心，并将复制延迟保持在 60 秒以下。<br />
+满足您的要求的正确步骤是什么？<br />
+C 和 D 是不可能的，因为它指的是 75% 的存储空间，而问题中说的是 75% 的 CPU 使用率。<br />
+选项 A 说在采取行动之前进行监控，并且分片也有助于减少延迟。<br />
+选项 B 指定了特定的机器类型，这是不正确的，并且还指定了用于减少往返获取数据的 memcache，这将有助于减少延迟。<br />
+我更倾向于选择选项 A，因为它是解决问题的正确顺序。<br />
+👍 已点赞 4 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="红熊猫1年10个月前">红熊猫（1年10个月前）</h3>
+<blockquote>
+  <p>所选答案：A<br />
+对我来说是 A。<br />
+👍 已点赞 1 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="杰弗里克2年1个月前">杰弗里克（2年1个月前）</h3>
+<blockquote>
+  <p>正确答案是 D。</p>
+  <ol>
+    <li>当存储空间超过 75% 时，创建 Stackdriver 警报，并增加实例上的可用存储空间以创建更多空间。</li>
+    <li>部署 memcached 以降低 CPU 负载。</li>
+    <li>创建复制滞后的 Stackdriver 警报，并将实例类型更改为 32 核机器类型以减少复制滞后。<br />
+此方法可确保您能够满足问题中指定的三个要求：
+      <ul>
+        <li>监控存储使用情况，并在超过 75% 时增加存储空间，以避免存储空间耗尽。</li>
+        <li>通过部署 memcached 来降低 CPU 负载，memcached 可用于缓存常用数据，从而减轻数据库的部分负载。</li>
+        <li>监控复制滞后并增加核心数量以减少滞后。<br />
+👍 已点赞 4 次</li>
+      </ul>
+    </li>
+  </ol>
+</blockquote>
+
+<hr />
+
+<h3 id="查尔软件2年零3个月前">查尔软件（2年零3个月前）</h3>
+<blockquote>
+  <p>答案可能是 A，因为其他所有答案都提到了 32 核的细节。<br />
+这看起来像是转移注意力的（不必要的细节，意在转移注意力），因此答案是 A。<br />
+👍 已点赞 5 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="惠惠2年零5个月前">惠惠（2年零5个月前）</h3>
+<blockquote>
+  <p>所选答案：A<br />
+A 没问题<br />
+👍 已点赞 1 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="azuredp900补充">AzureDP900（补充）</h3>
+<blockquote>
+  <p>A 是正确的<br />
+👍 已点赞 1 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="6721sora2年零7个月前">6721sora（2年零7个月前）</h3>
+<blockquote>
+  <p>A 不正确，因为“分片数据库”这个说法有问题。<br />
+如何在 Cloud SQL 中分片数据库而不造成重大中断？<br />
+分片并非 RDBMS 的核心功能。<br />
+B 应该正确，尽管提到了固定的 32 核<br />
+👍 已点赞 3 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="杰伊91142年零5个月前">杰伊9114（2年零5个月前）</h3>
+<blockquote>
+  <p>ii Kk Kk 你可以对 CloudSQL 进行分片。<br />
+请查看这篇文章：<br />
+https://cloud.google.com/community/tutorials/horizontally-scale-mysql-database-backend-with-google-cloud-sql-and-proxysql#:~:text=Common%20approaches%20for%20horizontally%20scaling,with%20Cloud%20SQL%20and%20ProxySQL。<br />
+👍 已点赞 4 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="凶猛的狗2年零4个月前">凶猛的狗（2年零4个月前）</h3>
+<blockquote>
+  <p>文章仅提到了分片这一概念，而不是针对 cloudsql 的解决方案。<br />
+👍 已点赞 1 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="deb22932年1个月前">Deb2293（2年1个月前）</h3>
+<blockquote>
+  <p>https://cloud.google.com/community/tutorials/horizontally-scale-mysql-database-backend-with-google-cloud-sql-and-proxysql#:~:text=SQL%20and%20ProxySQL.-,Sharding,logic%20or%20a%20query%20router。<br />
+您可以对 MySQL 进行分片。答案应该是 A。<br />
+👍 已点赞 4 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="mj202013年前">mj20201（3年前）</h3>
+<blockquote>
+  <p>所选答案：A<br />
+投票给 A<br />
+👍 已点赞 2 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="哈罗德贝尼特斯3年4个月前">哈罗德·贝尼特斯（3年4个月前）</h3>
+<blockquote>
+  <p>去 A<br />
+👍 已点赞 2 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="vincy22023年4个月前">vincy2202（3年4个月前）</h3>
+<blockquote>
+  <p>A 是正确答案<br />
+👍 已点赞 2 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="考试3年零7个月前">考试（3年零7个月前）</h3>
+<blockquote>
+  <p>我们可以直接排除 C 和 D，因为我们正在做一些已经自动化的工作。<br />
+不过，我还是说不出为什么 B 比 A 更好？<br />
+我相信添加 memcash 会进一步提升性能。<br />
+有人能帮我指出为什么 A 比 B 更好吗？<br />
+👍 已点赞 4 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="已移除3年零6个月前">[已移除]（3年零6个月前）</h3>
+<blockquote>
+  <p>为了支持 amxexam 所说的内容，这里是关于根据趋势分析自动增加存储的链接：<br />
+https://cloud.google.com/sql/docs/mysql/instance-settings#storage-capacity-2ndgen<br />
+👍 已点赞 3 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="亨克3年3个月前">亨克（3年3个月前）</h3>
+<blockquote>
+  <p>这是正确的 - 但文档仅提到了此特定产品（云 SQL）的自动存储增加。<br />
+👍 已点赞 1 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="亨克2年零5个月前">亨克（2年零5个月前）</h3>
+<blockquote>
+  <p>应该读 MySQL<br />
+👍 已点赞 2 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="科塔姆3年零5个月前">科塔姆（3年零5个月前）</h3>
+<blockquote>
+  <p>我认为 B 不是一个更好的选择，因为它指示“添加 32 核 CPU”，但没有当前使用情况的信息，这似乎有点过度。<br />
+👍 已点赞 5 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="伊舒阿斯盖伊2年零8个月前">伊舒·阿斯盖伊（2年零8个月前）</h3>
+<blockquote>
+  <p>我想说的只是因为下面这句话：<br />
+“你想随着使用量的增加而扩展”<br />
+第1行预先创建一个 32 核的机器，而我们不知道源机器的核心是什么，这不是理想的选择。<br />
+在这种情况下，我会选择 A<br />
+👍 已点赞 4 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="mamthasj3年零9个月前">MamthaSJ（3年零9个月前）</h3>
+<blockquote>
+  <p>答案是 A<br />
+👍 已点赞 4 次</p>
+</blockquote>
+
+<hr />
+
+<h3 id="阿雷萨3年10个月前">阿雷萨（3年10个月前）</h3>
+<blockquote>
+  <p>是的<br />
+👍 已点赞 1 次</p>
+</blockquote>
+
+<hr />

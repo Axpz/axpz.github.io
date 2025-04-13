@@ -1,0 +1,489 @@
+{
+  "name": "睡前故事",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [0, 0],
+      "id": "c7dd7c82-10a6-4d4a-a87f-4be344408193",
+      "name": "When clicking ‘Test workflow’"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "2415740c-c724-4621-b63f-57f28f90c630",
+              "name": "supabase_url",
+              "value": "https://bsxdosxitsmhdzzdzwer.supabase.co",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [220, 0],
+      "id": "17c2d531-052c-4bbe-bc3f-90057ac45e38",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "1XEQvORklZABS3lOwcY5bsRDHC_49mi9a4FP1v4tjdV4",
+          "mode": "list",
+          "cachedResultName": "睡前故事",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1XEQvORklZABS3lOwcY5bsRDHC_49mi9a4FP1v4tjdV4/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "工作表1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1XEQvORklZABS3lOwcY5bsRDHC_49mi9a4FP1v4tjdV4/edit#gid=0"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [440, 0],
+      "id": "f223a1f6-c15e-44e8-a984-79181042d504",
+      "name": "Google Sheets",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "qNwsnbX0y50QlfWW",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.limit",
+      "typeVersion": 1,
+      "position": [660, 0],
+      "id": "e570e468-69f4-49f7-93ed-9417105c69a2",
+      "name": "Limit"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "candidates[0].content.parts",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [1100, 0],
+      "id": "0adb5bc7-b070-44ec-80e4-a825d33cc580",
+      "name": "Split Out"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp-image-generation:generateContent",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"contents\": [\n    {\n      \"role\": \"user\",\n      \"parts\": [\n        {\n          \"text\": \"Generate a {{ $json.length * 4 }} high definition photos in 16:9 1080p size bedtime story in dreamy child style cartoon about a {{ $json.topic }} for {{ $json.audience }}, the peaceful dreams with character {{ $json.character }} in calm and safe sleep. For each scene, generate an image. For the text, skip all the keywords like 'Scene x', just return the story content\"\n        }\n      ]\n    }\n  ],\n  \"generationConfig\": {\n    \"responseModalities\": [\"Text\", \"Image\"]\n  }\n}\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [880, 0],
+      "id": "83c3eb1f-b77b-40a7-beba-b24598bbeacb",
+      "name": "Gemini 2.0 Image Gen",
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "1mLsLNmDKu1DCSbB",
+          "name": "Google AI Studio"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "d012f189-8431-4e02-a436-22dc151997d8",
+              "leftValue": "={{ $json.inlineData }}",
+              "rightValue": "",
+              "operator": {
+                "type": "object",
+                "operation": "exists",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2.2,
+      "position": [40, 320],
+      "id": "61128eeb-eda6-4e53-a887-df7faf80aab9",
+      "name": "Filter"
+    },
+    {
+      "parameters": {
+        "operation": "toBinary",
+        "sourceProperty": "inlineData.data",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [260, 320],
+      "id": "a869fa91-33b7-4ccf-a052-72fe90fa2fc4",
+      "name": "Convert to File"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $('Edit Fields').item.json.supabase_url }}/storage/v1/object/n8n/{{ $now.format('yyyy-MM-dd_hhmmss')}}_17_4_image_{{ $itemIndex }}.{{ $binary.data.fileExtension }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "supabaseApi",
+        "sendBody": true,
+        "contentType": "binaryData",
+        "inputDataFieldName": "data",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [480, 320],
+      "id": "8a56a4f8-fb68-428d-8784-b74fc92a7bda",
+      "name": "Upload Image",
+      "credentials": {
+        "supabaseApi": {
+          "id": "N5NzLqThKU0UFQ9z",
+          "name": "Supabase account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "f8cdd1d1-9e40-41e0-9f4a-d8e79b03c9f8",
+              "name": "url",
+              "value": "={{ $('Edit Fields').item.json.supabase_url }}/storage/v1/object/public/{{ $json.Key }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [700, 320],
+      "id": "50bf4a3d-7da5-40b6-a383-e88bf0e7f793",
+      "name": "Get Download Link"
+    },
+    {
+      "parameters": {
+        "fieldsToAggregate": {
+          "fieldToAggregate": [
+            {
+              "fieldToAggregate": "url"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [920, 320],
+      "id": "92426c61-ebf4-496c-a68b-040793e29149",
+      "name": "Aggregate"
+    }
+  ],
+  "pinData": {
+    "Gemini 2.0 Image Gen": [
+      {
+        "json": {
+          "candidates": [
+            {
+              "content": {
+                "parts": [
+                  {
+                    "inlineData": {
+                      "mimeType": "image/png",
+                      "data": ""
+                    }
+                  },
+                  {
+                    "text": "\n夜幕降临，小明躺在软软的床上，他的小房间里亮着一盏柔和的台灯，窗外是安静的星空。小明闭上眼睛，准备进入甜美的梦乡。"
+                  },
+                  {
+                    "inlineData": {
+                      "mimeType": "image/png",
+                      "data": ""
+                    }
+                  },
+                  {
+                    "text": "\n慢慢地，小明感觉自己飘了起来，像一片轻柔的羽毛，飞向了布满星星的夜空。"
+                  },
+                  {
+                    "inlineData": {
+                      "mimeType": "image/png",
+                      "data": ""
+                    }
+                  },
+                  {
+                    "text": "\n在云朵之间，小明看到了一片绿油油的草地，草地上开满了五颜六色的鲜花。"
+                  },
+                  {
+                    "inlineData": {
+                      "mimeType": "image/png",
+                      "data": ""
+                    }
+                  },
+                  {
+                    "text": "\n一群可爱的小绵羊正在草地上玩耍。它们有着雪白的绒毛，圆溜溜的眼睛，看起来非常温顺。"
+                  },
+                  {
+                    "inlineData": {
+                      "mimeType": "image/png",
+                      "data": ""
+                    }
+                  },
+                  {
+                    "text": "\n一只高大的绵羊妈妈带着几只小绵羊，它们依偎在一起，显得格外温馨。"
+                  },
+                  {
+                    "inlineData": {
+                      "mimeType": "image/png",
+                      "data": ""
+                    }
+                  },
+                  {
+                    "text": "\n小绵羊们慢慢地躺了下来，闭上眼睛，进入了甜美的梦乡。周围一片宁静，只有温柔的月光洒在它们身上。"
+                  },
+                  {
+                    "inlineData": {
+                      "mimeType": "image/png",
+                      "data": ""
+                    }
+                  }
+                ],
+                "role": "model"
+              },
+              "finishReason": "MAX_TOKENS",
+              "index": 0
+            }
+          ],
+          "usageMetadata": {
+            "promptTokenCount": 78,
+            "candidatesTokenCount": 201,
+            "totalTokenCount": 279,
+            "promptTokensDetails": [
+              {
+                "modality": "TEXT",
+                "tokenCount": 78
+              }
+            ]
+          },
+          "modelVersion": "gemini-2.0-flash-exp-image-generation"
+        }
+      }
+    ],
+    "Convert to File": [
+      {
+        "json": {}
+      },
+      {
+        "json": {}
+      },
+      {
+        "json": {}
+      },
+      {
+        "json": {}
+      },
+      {
+        "json": {}
+      },
+      {
+        "json": {}
+      },
+      {
+        "json": {}
+      }
+    ],
+    "Upload Image": [
+      {
+        "json": {
+          "Key": "n8n/2025-04-08_105003_17_4_image_0.png",
+          "Id": "3c92a574-c48b-4ac6-86ab-9aaad9c1d7b2"
+        }
+      },
+      {
+        "json": {
+          "Key": "n8n/2025-04-08_105003_17_4_image_1.png",
+          "Id": "7ff53d7a-88dd-43c8-806f-7dfc1e2636ea"
+        }
+      },
+      {
+        "json": {
+          "Key": "n8n/2025-04-08_105003_17_4_image_2.png",
+          "Id": "8e0253ce-c20b-40e0-ab57-28d99ba23ee4"
+        }
+      },
+      {
+        "json": {
+          "Key": "n8n/2025-04-08_105003_17_4_image_3.png",
+          "Id": "31d4e2d6-3c39-4a2f-a153-1d1660713207"
+        }
+      },
+      {
+        "json": {
+          "Key": "n8n/2025-04-08_105003_17_4_image_4.png",
+          "Id": "21bd51d0-ed1c-4689-a9f8-b5f9c06a6c6c"
+        }
+      },
+      {
+        "json": {
+          "Key": "n8n/2025-04-08_105003_17_4_image_5.png",
+          "Id": "15da76de-9f53-4d13-b25e-e7f18f62f002"
+        }
+      },
+      {
+        "json": {
+          "Key": "n8n/2025-04-08_105003_17_4_image_6.png",
+          "Id": "312bee22-0659-41ab-8c5d-948f44b95ba6"
+        }
+      }
+    ]
+  },
+  "connections": {
+    "When clicking ‘Test workflow’": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Google Sheets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Sheets": {
+      "main": [
+        [
+          {
+            "node": "Limit",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Limit": {
+      "main": [
+        [
+          {
+            "node": "Gemini 2.0 Image Gen",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gemini 2.0 Image Gen": {
+      "main": [
+        [
+          {
+            "node": "Split Out",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out": {
+      "main": [
+        [
+          {
+            "node": "Filter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter": {
+      "main": [
+        [
+          {
+            "node": "Convert to File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convert to File": {
+      "main": [
+        [
+          {
+            "node": "Upload Image",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Upload Image": {
+      "main": [
+        [
+          {
+            "node": "Get Download Link",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Download Link": {
+      "main": [
+        [
+          {
+            "node": "Aggregate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "5612a6d0-023c-419e-b52b-307843625f7f",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "b5c29f470a4af23907bc3bbf7c57637e15266deb230f642f7c71b53a95a02497"
+  },
+  "id": "0DTfP8UqbHaYfbpP",
+  "tags": []
+}
