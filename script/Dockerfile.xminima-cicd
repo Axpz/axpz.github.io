@@ -1,16 +1,14 @@
-FROM ruby:3.2-bullseye
+FROM ruby:3.2-alpine
 
 ENV BUNDLER_VERSION=2.4.13 \
     JEKYLL_VERSION=4.3.2 \
-    BUILD_DEPS="build-essential gcc libxml2-dev libxslt-dev libreadline-dev" \
-    RUNTIME_DEPS="tzdata bash git openssh"
+    BUILD_DEPS="build-base gcc libxml2-dev libxslt-dev readline-dev" \
+    RUNTIME_DEPS="tzdata bash"
 
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends $BUILD_DEPS $RUNTIME_DEPS && \
+RUN apk add --no-cache $BUILD_DEPS $RUNTIME_DEPS && \
     gem install jekyll:$JEKYLL_VERSION bundler:$BUNDLER_VERSION jekyll-seo-tag csv base64 && \
-    apt-get remove -y $BUILD_DEPS && \
-    apt-get autoremove -y && \
-    rm -rf /var/lib/apt/lists/* /usr/lib/ruby/gems/*/cache/*
+    apk del $BUILD_DEPS && \
+    rm -rf /var/cache/apk/* /usr/lib/lib/ruby/gems/*/cache/*
 
 WORKDIR /app
 
