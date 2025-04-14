@@ -142,10 +142,13 @@ D. Install gsutil on each server containing data. Use streaming transfers to upl
 
 <p>您在 Google Kubernetes Engine 上部署了一个应用程序，部署名为 echo-deployment。该部署通过名为 echo-service 的服务进行公开。您需要在最大程度地减少应用程序停机时间的情况下对该应用程序进行更新。您应该怎么做？</p>
 
-<p>A. Use kubectl set image deployment/echo-deployment <new-image>  
-B. Use the rolling update functionality of the Instance Group behind the Kubernetes cluster  
-C. Update the deployment yaml file with the new container image. Use kubectl delete deployment/echo-deployment and kubectl create ג€"f <yaml-file>  
-D. Update the service yaml file which the new container image. Use kubectl delete service/echo-service and kubectl create ג€"f <yaml-file></yaml-file></yaml-file></new-image></p>
+<p>A. Use kubectl set image deployment/echo-deployment <new-image></new-image></p>
+
+<p>B. Use the rolling update functionality of the Instance Group behind the Kubernetes cluster</p>
+
+<p>C. Update the deployment yaml file with the new container image. Use kubectl delete deployment/echo-deployment and kubectl create ג€”f <yaml-file></yaml-file></p>
+
+<p>D. Update the service yaml file which the new container image. Use kubectl delete service/echo-service and kubectl create ג€”f <yaml-file></yaml-file></p>
 
 <p><a href="/assets/gcp/discussion/56.md">Discussion</a></p>
 
