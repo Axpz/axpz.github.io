@@ -182,7 +182,7 @@ d of the content */
         overflow: visible !important;
     }
 
-    /* TODO - should this work?    */
+    /* TODO - should this work?       */
     #children-section,
     #comments-section .comment,
     #comments-section .comment .comment-body,
@@ -392,7 +392,7 @@ vel design</h2>
 <p><span class=3D"confluence-embedded-file-wrapper confluence-embedded-manu=  
 al-size"><img class=3D"confluence-embedded-image" draggable=3D"false" heigh=  
 t=3D"215" src=3D"461a3706256ff69de3654d04407f82f8" data-image-src=3D"/downl=  
-oad/attachments/1837798752/image-2023-11-9_14-40-47.png?   version=3D1&amp;mod=  
+oad/attachments/1837798752/image-2023-11-9_14-40-47.png?      version=3D1&amp;mod=  
 ificationDate=3D1699512048000&amp;api=3Dv2" data-unresolved-comment-count=
 =3D"0" data-linked-resource-id=3D"1837798793" data-linked-resource-version=
 =3D"1" data-linked-resource-type=3D"attachment" data-linked-resource-defaul=  
@@ -531,7 +531,7 @@ s is not supported by clusterclass on TKGm vsphere.</p></td>
 <p><strong><span class=3D"confluence-embedded-file-wrapper confluence-embed=  
 ded-manual-size"><img class=3D"confluence-embedded-image" draggable=3D"fals=  
 e" height=3D"127" src=3D"cbf6e2bab894116dd9eb19cf37cf35b1" data-image-src=
-=3D"/download/attachments/1837798752/image-2023-10-22_18-0-26.png?   version=
+=3D"/download/attachments/1837798752/image-2023-10-22_18-0-26.png?      version=
 =3D1&amp;modificationDate=3D1699511840000&amp;api=3Dv2" data-unresolved-com=  
 ment-count=3D"0" data-linked-resource-id=3D"1837798746" data-linked-resourc=  
 e-version=3D"1" data-linked-resource-type=3D"attachment" data-linked-resour=  
@@ -547,7 +547,7 @@ ault storage class: </strong>checked, by default.</span></p><p><span style=
 an class=3D"confluence-embedded-file-wrapper confluence-embedded-manual-siz=  
 e"><img class=3D"confluence-embedded-image" draggable=3D"false" height=3D"1=  
 05" src=3D"061b20ade9f3694ee3daee277259ba23" data-image-src=3D"/download/at=  
-tachments/1837798752/image-2023-10-20_19-55-43.png?   version=3D1&amp;modifica=  
+tachments/1837798752/image-2023-10-20_19-55-43.png?      version=3D1&amp;modifica=  
 tionDate=3D1699511840000&amp;api=3Dv2" data-unresolved-comment-count=3D"0" =  
 data-linked-resource-id=3D"1837798747" data-linked-resource-version=3D"1" d=  
 ata-linked-resource-type=3D"attachment" data-linked-resource-default-alias=
@@ -568,7 +568,7 @@ ist</span></p>
 -file-wrapper confluence-embedded-manual-size"><img class=3D"confluence-emb=  
 edded-image" draggable=3D"false" height=3D"274" src=3D"eade079d14311708e47d=  
 cef526fabf54" data-image-src=3D"/download/attachments/1837798752/image-2023=
--10-22_18-30-2.png?   version=3D1&amp;modificationDate=3D1699511840000&amp;api=
+-10-22_18-30-2.png?      version=3D1&amp;modificationDate=3D1699511840000&amp;api=
 =3Dv2" data-unresolved-comment-count=3D"0" data-linked-resource-id=3D"18377=  
 98748" data-linked-resource-version=3D"1" data-linked-resource-type=3D"atta=  
 chment" data-linked-resource-default-alias=3D"image-2023-10-22_18-30-2.png"=
@@ -585,7 +585,7 @@ data-linked-resource-container-version=3D"8" alt=3D"" width=3D"468"></span>=
 -file-wrapper confluence-embedded-manual-size"><img class=3D"confluence-emb=  
 edded-image" draggable=3D"false" height=3D"105" src=3D"061b20ade9f3694ee3da=  
 ee277259ba23" data-image-src=3D"/download/attachments/1837798752/image-2023=
--10-20_19-55-43.png?   version=3D1&amp;modificationDate=3D1699511840000&amp;ap=  
+-10-20_19-55-43.png?      version=3D1&amp;modificationDate=3D1699511840000&amp;ap=  
 i=3Dv2" data-unresolved-comment-count=3D"0" data-linked-resource-id=3D"1837=  
 798747" data-linked-resource-version=3D"1" data-linked-resource-type=3D"att=  
 achment" data-linked-resource-default-alias=3D"image-2023-10-20_19-55-43.pn=  
@@ -598,7 +598,7 @@ g>default storage class: enabled, by default.</span></p>
 <p><span class=3D"confluence-embedded-file-wrapper confluence-embedded-manu=  
 al-size"><img class=3D"confluence-embedded-image" draggable=3D"false" heigh=  
 t=3D"310" src=3D"2716a02d6c771e16782c49a349b10000" data-image-src=3D"/downl=  
-oad/attachments/1837798752/image-2023-11-2_13-58-33.png?   version=3D1&amp;mod=  
+oad/attachments/1837798752/image-2023-11-2_13-58-33.png?      version=3D1&amp;mod=  
 ificationDate=3D1699511840000&amp;api=3Dv2" data-unresolved-comment-count=
 =3D"0" data-linked-resource-id=3D"1837798749" data-linked-resource-version=
 =3D"1" data-linked-resource-type=3D"attachment" data-linked-resource-defaul=  
@@ -905,7 +905,7 @@ stions:</h1>
 exposed on TMC UI, is a name i.e <em><span style=3D"color: rgb(0,51,102);">=
 "Management Storage Policy - Regular".</span></em>
 <ul>
-<li><span style=3D"color: rgb(0,51,102);">Is this a spell-mistake or bug?   &n=  
+<li><span style=3D"color: rgb(0,51,102);">Is this a spell-mistake or bug?      &n=  
 bsp; &nbsp; </span></li>
 <li><span style=3D"color: rgb(0,51,102);"><span style=3D"color: rgb(0,0,255=
 );"><strong>Answers</strong>: <span style=3D"color: rgb(51,51,51);">this is=
@@ -2919,7 +2919,7 @@ letNodeIPConfigurationWithNodeIPAM"},{"definitions":[{"jsonPatches":[{"op":=
 "add","path":"/spec/template/spec/kubeadmConfigSpec/initConfiguration/nodeR=  
 egistration/kubeletExtraArgs/node-labels","valueFrom":{"template":"{{ $firs=  
 t :=3D true }}\n{{- range $key, $val :=3D (index .TKR_DATA .builtin.control=  
-Plane.version).labels }}\n{{- if regexMatch \"^(?   :[a-zA-z])(?   :[-\\\\w\\\\.]=
+Plane.version).labels }}\n{{- if regexMatch \"^(?      :[a-zA-z])(?      :[-\\\\w\\\\.]=
 *[a-zA-z])$\" $val }}\n{{- if $first }}\n  {{- $first =3D false }}\n{{- els=  
 e -}}\n  ,\n{{- end }}\n{{- $key -}} =3D {{- $val }}\n{{- end }}\n{{- end }=
 }\n{{- if .controlPlane.nodeLabels -}}\n  {{- if (index .TKR_DATA .builtin.=  
@@ -2930,7 +2930,7 @@ e }}\n  {{- range .controlPlane.nodeLabels }}\n    {{- if $first }}\n      =
 ":"/spec/template/spec/kubeadmConfigSpec/joinConfiguration/nodeRegistration=
 /kubeletExtraArgs/node-labels","valueFrom":{"template":"{{ $first :=3D true=
  }}\n{{- range $key, $val :=3D (index .TKR_DATA .builtin.controlPlane.versi=  
-on).labels }}\n{{- if regexMatch \"^(?   :[a-zA-z])(?   :[-\\\\w\\\\.]*[a-zA-z])$=
+on).labels }}\n{{- if regexMatch \"^(?      :[a-zA-z])(?      :[-\\\\w\\\\.]*[a-zA-z])$=
 \" $val }}\n{{- if $first }}\n  {{- $first =3D false }}\n{{- else -}}\n  ,\=  
 n{{- end }}\n{{- $key -}} =3D {{- $val }}\n{{- end }}\n{{- end }}\n{{- if .=  
 controlPlane.nodeLabels -}}\n  {{- if (index .TKR_DATA .builtin.controlPlan=  
@@ -2943,7 +2943,7 @@ controlplane.cluster.x-k8s.io/v1beta1","kind":"KubeadmControlPlaneTemplate"=
 ":"/spec/template/spec/joinConfiguration/nodeRegistration/kubeletExtraArgs/=  
 node-labels","valueFrom":{"template":"{{ $first :=3D true }}\n{{- range $ke=  
 y, $val :=3D (index .TKR_DATA .builtin.machineDeployment.version).labels }}=
-\n{{- if regexMatch \"^(?   :[a-zA-z])(?   :[-\\\\w\\\\.]*[a-zA-z])$\" $val }}\n{=
+\n{{- if regexMatch \"^(?      :[a-zA-z])(?      :[-\\\\w\\\\.]*[a-zA-z])$\" $val }}\n{=
 {- if $first }}\n  {{- $first =3D false }}\n{{- else -}}\n  ,\n{{- end }}\n=
 {{- $key -}} =3D {{- $val }}\n{{- end }}\n{{- end }}\n{{- if .nodePoolLabel=  
 s -}}\n  ,\n  {{- $first :=3D true }}\n  {{- range .nodePoolLabels }}\n    =
@@ -3272,7 +3272,7 @@ definitions":[{"jsonPatches":[{"op":"add","path":"/spec/template/spec/files=
 ame) {\n    $SaToken =3D $null\n    $LoopCount =3D 400\n    do {\n        $=  
 LoopCount =3D $LoopCount - 1\n        if ($LoopCount -eq 0) {\n            =  
 break\n        }\n        sleep 5\n        $SaToken=3D$(kubectl --kubeconfi=  
-g=3D$KubeCfgFile get secrets -n kube-system -o jsonpath=3D\"{.items[?   (@.met=  
+g=3D$KubeCfgFile get secrets -n kube-system -o jsonpath=3D\"{.items[?      (@.met=  
 adata.annotations['kubernetes\\.io/service-account\\.name']=3D=3D'$ServiceA=  
 cctName')].data.token}\")\n    } while ($SaToken -eq $null)\n    return $Sa=  
 Token\n}\n\n$TempFolder =3D 'C:\\programdata\\temp'\n$AntreaInTempFolder =
@@ -4723,7 +4723,7 @@ egistration/kubeletExtraArgs/node-labels
             {{ $first :=3D true }}
             {{- range $key, $val :=3D (index .TKR_DATA .builtin.controlPlan=  
 e.version).labels }}
-            {{- if regexMatch "^(?   :[a-zA-z])(?   :[-\\w\\.]*[a-zA-z])$" $val }=
+            {{- if regexMatch "^(?      :[a-zA-z])(?      :[-\\w\\.]*[a-zA-z])$" $val }=
 }
             {{- if $first }}
               {{- $first =3D false }}
@@ -4756,7 +4756,7 @@ egistration/kubeletExtraArgs/node-labels
             {{ $first :=3D true }}
             {{- range $key, $val :=3D (index .TKR_DATA .builtin.controlPlan=  
 e.version).labels }}
-            {{- if regexMatch "^(?   :[a-zA-z])(?   :[-\\w\\.]*[a-zA-z])$" $val }=
+            {{- if regexMatch "^(?      :[a-zA-z])(?      :[-\\w\\.]*[a-zA-z])$" $val }=
 }
             {{- if $first }}
               {{- $first =3D false }}
@@ -4795,7 +4795,7 @@ tExtraArgs/node-labels
             {{ $first :=3D true }}
             {{- range $key, $val :=3D (index .TKR_DATA .builtin.machineDepl=  
 oyment.version).labels }}
-            {{- if regexMatch "^(?   :[a-zA-z])(?   :[-\\w\\.]*[a-zA-z])$" $val }=
+            {{- if regexMatch "^(?      :[a-zA-z])(?      :[-\\w\\.]*[a-zA-z])$" $val }=
 }
             {{- if $first }}
               {{- $first =3D false }}
@@ -5557,7 +5557,7 @@ False
                     }
                     sleep 5
                     $SaToken=3D$(kubectl --kubeconfig=3D$KubeCfgFile get se=  
-crets -n kube-system -o jsonpath=3D"{.items[?   (@.metadata.annotations['kuber=  
+crets -n kube-system -o jsonpath=3D"{.items[?      (@.metadata.annotations['kuber=  
 netes\.io/service-account\.name']=3D=3D'$ServiceAcctName')].data.token}")
                 } while ($SaToken -eq $null)
                 return $SaToken

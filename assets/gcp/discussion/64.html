@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>Datastore 批量获取问题讨论</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; background-color: #f9f9f9; padding: 20px; }
+    .comment { background-color: #fff; border: 1px solid #ddd; padding: 10px 15px; margin-bottom: 15px; border-radius: 5px; }
+    .user { font-weight: bold; color: #2b6cb0; }
+    .vote { color: #718096; font-size: 0.9em; }
+    .highlight { background-color: #e6fffa; border-left: 4px solid #38b2ac; padding-left: 10px; }
+    .link { color: #3182ce; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <h1>Datastore 批量读取问题 - 答案与讨论</h1>
+
+  <div class="comment highlight">
+    <p><span class="user">shashu07</span> <span class="vote">（高票，4 年 3 月前）</span></p>
+    <p>✅ <strong>正确答案：A</strong><br>
+    为每个实体创建 Key 对象并运行批量获取操作。</p>
+    <p><a class="link" href="https://cloud.google.com/datastore/docs/best-practices" target="_blank">Datastore 最佳实践文档</a></p>
+    <p>使用批量操作代替单个操作更高效，因为多个操作的开销和单次操作相同。批量调用仅需一次服务调用的开销，并且多个实体组之间是并发执行的。</p>
+  </div>
+
+  <div class="comment">
+    <p><span class="user">AzureDP900</span> <span class="vote">（1 年 12 月前）</span></p>
+    <p>运行良好，A 是正确的。</p>
+  </div>
+
+  <div class="comment">
+    <p><span class="user">AWS56</span> <span class="vote">（高票，4 年 9 月前）</span></p>
+    <p>同意 A。</p>
+  </div>
+
+  <div class="comment">
+    <p><span class="user">halifax</span> <span class="vote">（最近，1 个月 2 周前）</span></p>
+    <p>选择答案：A。是个老问题，现在推荐使用 Firestore 的 Datastore 模式。</p>
+  </div>
+
+  <div class="comment">
+    <p><span class="user">de1001c</span> <span class="vote">（4 个月 2 周前）</span></p>
+    <p>请注意 Datastore 已被弃用，推荐使用 Firestore。</p>
+  </div>
+
+  <div class="comment">
+    <p><span class="user">don_v</span> <span class="vote">（9 个月前）</span></p>
+    <p>“为每个实体创建 Key 并运行 batch get”是错的，因为实体保存时已自动创建 Key。我认为正确答案是 C，用批量查询会更合理。</p>
+  </div>
+
+  <div class="comment">
+    <p><span class="user">vamgcp</span> <span class="vote">（1 年 8 月前）</span></p>
+    <p>使用 Cloud Datastore 的“lookup by key”API 可最小化开销：</p>
+    <pre><code>from google.cloud import datastore
+
+client = datastore.Client()
+keys = [client.key('EntityKind', id) for id in entity_ids]
+entities = client.get_multi(keys)
+</code></pre>
+  </div>
+
+  <div class="comment">
+    <p><span class="user">omermahgoub</span> <span class="vote">（1 年 9 月前）</span></p>
+    <p>选项 A 是推荐方式，可以减少 API 调用次数，提高效率。</p>
+    <p>选项 B 会导致多次 API 调用，效率低。</p>
+    <p>选项 C 虽然使用查询，但查询开销比 get 更大。</p>
+    <p>选项 D 也是低效的做法。</p>
+  </div>
+
+  <div class="comment">
+    <p><span class="user">MaxNRG</span> <span class="vote">（2 年 11 月前）</span></p>
+    <p>代码示例：</p>
+    <pre><code>var keys = new Key[] { _keyFactory.CreateKey(1), _keyFactory.CreateKey(2) };
+var tasks = _db.Lookup(keys[0], keys[1]);</code></pre>
+    <p>这样的批量调用减少了单独请求的开销。</p>
+  </div>
+
+</body>
+</html>

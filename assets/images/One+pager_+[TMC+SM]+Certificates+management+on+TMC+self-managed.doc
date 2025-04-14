@@ -183,7 +183,7 @@ d of the content */
         overflow: visible !important;
     }
 
-    /* TODO - should this work?    */
+    /* TODO - should this work?       */
     #children-section,
     #comments-section .comment,
     #comments-section .comment .comment-body,
@@ -459,7 +459,7 @@ CM including cluster create/manage as well as the package deploment.</span>=
 <p><span><span class=3D"confluence-embedded-file-wrapper confluence-embedde=  
 d-manual-size"><img class=3D"confluence-embedded-image" draggable=3D"false"=
  height=3D"120" src=3D"9cf8d93f808ba4fbfe6a721fc53ba004" data-image-src=3D"=
-/download/attachments/2014365733/image-2024-7-31_15-56-34.png?   version=3D1&a=  
+/download/attachments/2014365733/image-2024-7-31_15-56-34.png?      version=3D1&a=  
 mp;modificationDate=3D1722573956000&amp;api=3Dv2" data-unresolved-comment-c=  
 ount=3D"0" data-linked-resource-id=3D"2014365370" data-linked-resource-vers=  
 ion=3D"1" data-linked-resource-type=3D"attachment" data-linked-resource-def=  
@@ -520,7 +520,7 @@ Gs VC70 wokload clusters, need to double confirm with PDS component owners.=
 <p><span><span class=3D"confluence-embedded-file-wrapper"><img class=3D"con=  
 fluence-embedded-image" draggable=3D"false" src=3D"f689f10252cc040d3d2a83d9=  
 52870555" data-image-src=3D"/download/attachments/2014365733/image-2024-7-3=  
-0_15-26-15.png?   version=3D1&amp;modificationDate=3D1722573957000&amp;api=3Dv=  
+0_15-26-15.png?      version=3D1&amp;modificationDate=3D1722573957000&amp;api=3Dv=  
 2" data-unresolved-comment-count=3D"0" data-linked-resource-id=3D"201436537=  
 1" data-linked-resource-version=3D"1" data-linked-resource-type=3D"attachme=  
 nt" data-linked-resource-default-alias=3D"image-2024-7-30_15-26-15.png" dat=  
@@ -1206,7 +1206,7 @@ cates, used for internal component services traffic.</li>
 <li>Draft <a class=3D"external-link" href=3D"https://docs.google.com/presen=  
 tation/d/1Sc0acZCBnW-BPrEcVYAF_FRfUfXN7RjlbbcRAf8766I/edit#slide=3Did.p">pp=  
 t</a> and <a class=3D"external-link" href=3D"https://lucid.app/lucidspark/c=  
-b29dd33-d330-4f85-b869-8d730f720d2d/edit?   beaconFlowId=3D966A8DA82F921F20&am=  
+b29dd33-d330-4f85-b869-8d730f720d2d/edit?      beaconFlowId=3D966A8DA82F921F20&am=  
 p;invitationId=3Dinv_71333660-02e4-4952-ab84-2fca4104b3ad&amp;page=3D0_0">l=  
 ucid</a>.</li>
 </ol>
