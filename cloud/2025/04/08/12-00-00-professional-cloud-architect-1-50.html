@@ -352,7 +352,7 @@ What should you do?</p>
 您应该怎么做？</p>
 
 <p>A. Capture existing users input, and replay captured user load until autoscale is triggered on all layers. At the same time, terminate all resources in one of the zones<br />
-B. Create synthetic random user input, replay synthetic load until autoscale logic is triggered on at least one layer, and introduce ג€chaosג€ to the system by terminating random resources on both zones<br />
+B. Create synthetic random user input, replay synthetic load until autoscale logic is triggered on at least one layer, and introduce ג€chaosג€ to the system by terminating random resources on both zones <br />
 C. Expose the new system to a larger group of users, and increase group size each day until autoscale logic is triggered on all layers. At the same time, terminate random resources on both zones<br />
 D. Capture existing users input, and replay captured user load until resource utilization crosses 80%. Also, derive estimated number of users based on existing user’s usage of the app, and deploy enough resources to handle 200% of expected load</p>
 
@@ -360,19 +360,22 @@ D. Capture existing users input, and replay captured user load until resource ut
 
 <h1 id="22">22</h1>
 
-<p>One of the developers on your team deployed their application in Google Container Engine with the Dockerfile below. They report that their application deployments are taking too long.</p>
+<p>One of the developers on your team deployed their application in Google Container Engine with the Dockerfile below. They report that their application deployments are taking too long.<br />
+You want to optimize this Dockerfile for faster deployment times without adversely affecting the app’s functionality.</p>
 
-<p>You want to optimize this Dockerfile for faster deployment times without adversely affecting the app’s functionality.<br />
-Which two actions should you take?    (Choose two.)<br />
-您团队中的一位开发人员使用以下 Dockerfile 在 Google Container Engine 中部署了他们的应用程序。他们报告说他们的应用程序部署耗时太长。
-FROM ubuntu:16.04</p>
+<p>Which two actions should you take?    (Choose two.)</p>
+
+<p>您团队中的一位开发人员使用以下 Dockerfile 在 Google Container Engine 中部署了他们的应用程序。他们报告说他们的应用程序部署耗时太长。</p>
+
+<p>FROM ubuntu:16.04</p>
 
 <p>COPY . /src</p>
 
 <p>RUN apt-get update &amp;&amp; apt-get install -y python python-pip</p>
 
-<p>RUN pip install -r requirements.txt<br />
-您想优化此 Dockerfile 以缩短部署时间，而不会对应用程序的功能产生不利影响。<br />
+<p>RUN pip install -r requirements.txt</p>
+
+<p>您想优化此 Dockerfile 以缩短部署时间，而不会对应用程序的功能产生不利影响。<br />
 您应该采取哪两项措施？（选择两项。）</p>
 
 <p>A. Remove Python after running pip<br />
@@ -385,8 +388,9 @@ E. Copy the source after he package dependencies (Python and pip) are installed<
 
 <h1 id="23">23</h1>
 <p>Your solution is producing performance bugs in production that you did not see in staging and test environments. You want to adjust your test and deployment procedures to avoid this problem in the future.<br />
-What should you do?   <br />
-您的解决方案在生产中产生了性能错误，而您在暂存和测试环境中没有看到这些错误。您想调整测试和部署程序以避免将来出现此问题。<br />
+What should you do?</p>
+
+<p>您的解决方案在生产中产生了性能错误，而您在暂存和测试环境中没有看到这些错误。您想调整测试和部署程序以避免将来出现此问题。<br />
 您应该怎么做？</p>
 
 <p>A. Deploy fewer changes to production<br />
@@ -397,7 +401,7 @@ D. Deploy changes to a small subset of users before rolling out to production</p
 <p><a href="/assets/gcp/discussion/23.md">Discussion</a></p>
 
 <h1 id="24">24</h1>
-<p>A small number of API requests to your microservices-based application take a very long time. You know that each request to the API can traverse many services.
+<p>A small number of API requests to your microservices-based application take a very long time. You know that each request to the API can traverse many services.<br />
 You want to know which service takes the longest in those cases.<br />
 What should you do?   <br />
 您的基于微服务的应用程序的少量 API 请求需要很长时间。您知道对 API 的每个请求都可以遍历许多服务。<br />
@@ -451,7 +455,8 @@ B. Google Cloud VPN connected to the data center network<br />
 C. A NAT and TLS translation gateway installed on-premises<br />
 D. A Google Compute Engine instance with a VPN server installed connected to the data center network</p>
 
-<p><a href="/assets/gcp/discussion/27.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/27.md">Discussion</a> 
+<a href="/assets/gcp/discussion/27.html">A &amp; B html</a></p>
 
 <h1 id="28">28</h1>
 

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>Google Cloud Interconnect vs VPN 对比</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2em;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1em 0;
+      background-color: #fff;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 0.8em;
+      text-align: left;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+    tr:nth-child(even) {
+      background-color: #fefefe;
+    }
+    code {
+      background-color: #eee;
+      padding: 0.2em 0.4em;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🧪 Google Cloud 网络连接选项对比</h1>
+
+  <h2>选项介绍</h2>
+  <table>
+    <tr>
+      <th>选项</th>
+      <th>简述</th>
+    </tr>
+    <tr>
+      <td><strong>A. Google Cloud Dedicated Interconnect</strong></td>
+      <td>通过专线方式将本地数据中心与 Google Cloud 连接，支持高带宽、低延迟。</td>
+    </tr>
+    <tr>
+      <td><strong>B. Google Cloud VPN</strong></td>
+      <td>通过公网 IP 建立 IPSec 加密的 VPN 隧道连接本地数据中心与 GCP，部署简单，基于 Internet。</td>
+    </tr>
+  </table>
+
+  <h2>⚡️ 速度对比（带宽 + 延迟 + 稳定性）</h2>
+  <table>
+    <tr>
+      <th>维度</th>
+      <th>Dedicated Interconnect</th>
+      <th>VPN</th>
+    </tr>
+    <tr>
+      <td>带宽</td>
+      <td>高（10Gbps 或 100Gbps，支持 LAG 聚合到 200Gbps+）</td>
+      <td>一般为 1.5Gbps 左右（单个隧道）</td>
+    </tr>
+    <tr>
+      <td>延迟</td>
+      <td>低延迟、专线传输，稳定</td>
+      <td>较高延迟，取决于公网网络状况</td>
+    </tr>
+    <tr>
+      <td>抖动/丢包</td>
+      <td>非常低，企业级 SLA</td>
+      <td>易受 ISP、拥塞影响，不稳定</td>
+    </tr>
+    <tr>
+      <td>可靠性</td>
+      <td>高（99.99% SLA 可选）</td>
+      <td>相对较低，受公网干扰</td>
+    </tr>
+  </table>
+
+  <h2>🛠 使用场景</h2>
+  <table>
+    <tr>
+      <th>使用场景</th>
+      <th>推荐选项</th>
+    </tr>
+    <tr>
+      <td>数据迁移、跨地实时服务、视频流、数据库同步</td>
+      <td>Dedicated Interconnect</td>
+    </tr>
+    <tr>
+      <td>小规模安全访问、远程办公、管理连接</td>
+      <td>Cloud VPN</td>
+    </tr>
+  </table>
+
+  <h2>💰 成本对比</h2>
+  <table>
+    <tr>
+      <th>成本维度</th>
+      <th>Dedicated Interconnect</th>
+      <th>VPN</th>
+    </tr>
+    <tr>
+      <td>前期成本</td>
+      <td>高：需要申请端口、安装专线、接入 Google POP（可通过合作商）</td>
+      <td>极低：只需公网 IP 和配置隧道</td>
+    </tr>
+    <tr>
+      <td>月费</td>
+      <td>✔️ 端口费用（如 $1,700+/月 for 10G）<br>✔️ 数据传输费用（更便宜）</td>
+      <td>❌ 无端口费<br>✔️ 数据传输费（与 Internet 相比更贵）</td>
+    </tr>
+    <tr>
+      <td>运营成本</td>
+      <td>需要网络工程师支持 + 运维专线</td>
+      <td>配置简单，基本自动化</td>
+    </tr>
+    <tr>
+      <td>TCO 总体</td>
+      <td>高，但单位传输成本低，适合持续大流量</td>
+      <td>低，但带宽受限且单价高，适合轻量使用</td>
+    </tr>
+  </table>
+
+  <h2>✅ 总结对比建议</h2>
+  <table>
+    <tr>
+      <th>适用情况</th>
+      <th>推荐选项</th>
+      <th>原因</th>
+    </tr>
+    <tr>
+      <td>你有大流量、对延迟要求极高（如 DB 同步、实时视频、跨地大规模服务）</td>
+      <td>✅ Dedicated Interconnect</td>
+      <td>高速、稳定、长期更省钱</td>
+    </tr>
+    <tr>
+      <td>小团队、远程办公、偶尔访问云资源</td>
+      <td>✅ Cloud VPN</td>
+      <td>轻量、快速部署、无需高成本</td>
+    </tr>
+    <tr>
+      <td>迁移大批数据一次性（如 TB 级）</td>
+      <td>🔄 视情况，可能考虑 Cloud Storage Transfer Service 或 Interconnect</td>
+      <td>取决于预算与迁移紧急度</td>
+    </tr>
+  </table>
+
+</body>
+</html>
