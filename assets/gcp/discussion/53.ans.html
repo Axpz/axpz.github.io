@@ -1,0 +1,59 @@
+<table border="1">
+    <thead>
+      <tr>
+        <th>特性</th>
+        <th>Standard Environment（标准）</th>
+        <th>Flexible Environment（灵活）</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>启动速度</td>
+        <td>非常快，几秒级别</td>
+        <td>比较慢（几分钟），因为会拉取镜像</td>
+      </tr>
+      <tr>
+        <td>运行环境</td>
+        <td>沙箱（受限制），语言固定</td>
+        <td>完整 Linux VM，可自定义 Docker</td>
+      </tr>
+      <tr>
+        <td>支持语言</td>
+        <td>只支持特定版本：Python、Node.js、Go、Java 等</td>
+        <td>几乎支持所有语言，自带或自己建 Docker 镜像</td>
+      </tr>
+      <tr>
+        <td>扩缩容</td>
+        <td>自动扩缩容（按请求数）</td>
+        <td>自动或手动扩缩容（按 CPU、内存等）</td>
+      </tr>
+      <tr>
+        <td>是否支持 SSH 访问实例</td>
+        <td>❌ 不支持</td>
+        <td>✅ 支持（可调试）</td>
+      </tr>
+      <tr>
+        <td>是否支持自定义依赖 / 系统库</td>
+        <td>❌ 不支持</td>
+        <td>✅ 支持</td>
+      </tr>
+      <tr>
+        <td>是否支持连接 VPC、VPN 等网络功能</td>
+        <td>部分受限</td>
+        <td>✅ 完全支持</td>
+      </tr>
+    </tbody>
+  </table>
+
+  
+## 🔍 详细对比：App Engine Standard vs Flexible
+| 特性                     | Standard Environment（标准）       | Flexible Environment（灵活）        |
+|--------------------------|-------------------------------------|-------------------------------------|
+| **启动速度**             | 非常快，几秒级别                    | 比较慢（几分钟），因为会拉取镜像   |
+| **运行环境**             | 沙箱（受限制），语言固定            | 完整 Linux VM，可自定义 Docker    |
+| **支持语言**             | 只支持特定版本：Python、Node.js、Go、Java 等 | 几乎支持所有语言，自带或自己建 Docker 镜像 |
+| **扩缩容**               | 自动扩缩容（按请求数）              | 自动或手动扩缩容（按 CPU、内存等） |
+| **是否支持 SSH 访问实例** | ❌ 不支持                           | ✅ 支持（可调试）                   |
+| **是否支持自定义依赖 / 系统库** | ❌ 不支持                           | ✅ 支持                             |
+| **是否支持连接 VPC、VPN 等网络功能** | 部分受限                           | ✅ 完全支持                         |
+
