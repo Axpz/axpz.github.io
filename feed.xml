@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-14T17:27:28+08:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-14T19:17:53+08:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
 </subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">professional cloud architect 251-279</title><link href="/cloud/2025/04/11/12-00-00-professional-cloud-architect-251-279.html" rel="alternate" type="text/html" title="professional cloud architect 251-279" /><published>2025-04-11T12:00:00+08:00</published><updated>2025-04-11T12:00:00+08:00</updated><id>/cloud/2025/04/11/12:00:00-professional-cloud-architect%20251-279</id><content type="html" xml:base="/cloud/2025/04/11/12-00-00-professional-cloud-architect-251-279.html"><![CDATA[<p>professional cloud architect 2025-04-11 12:00:00</p>
 
 <h1 id="251">251</h1>
@@ -3468,10 +3468,13 @@ D. Create an instance template from the existing disk. Create a custom image fro
 <p>Your web application has several VM instances running within a VPC. You want to restrict communications between instances to only the paths and ports you authorize, but you don’t want to rely on static IP addresses or subnets because the app can autoscale. How should you restrict communications?      <br />
 您的 Web 应用程序在 VPC 中运行多个虚拟机实例。您希望将实例之间的通信限制在您授权的路径和端口上，但又不想依赖静态 IP 地址或子网，因为该应用程序可以自动扩展。您应该如何限制通信？</p>
 
-<p>A. Use separate VPCs to restrict traffic<br />
-B. Use firewall rules based on network tags attached to the compute instances<br />
-C. Use Cloud DNS and only allow connections from authorized hostnames<br />
-D. Use service accounts and configure the web application to authorize particular service accounts to have access</p>
+<p>A. Use separate VPCs to restrict traffic</p>
+
+<p>B. Use firewall rules based on network tags attached to the compute instances</p>
+
+<p>C. Use Cloud DNS and only allow connections from authorized hostnames</p>
+
+<p>D. Use service accounts and configure the web application to authorize particular service accounts to have access</p>
 
 <p><a href="/assets/gcp/discussion/72.md">Discussion</a></p>
 
@@ -3480,10 +3483,13 @@ D. Use service accounts and configure the web application to authorize particula
 <p>You are using Cloud SQL as the database backend for a large CRM deployment. You want to scale as usage increases and ensure that you don’t run out of storage, maintain 75% CPU usage cores, and keep replication lag below 60 seconds. What are the correct steps to meet your requirements?      <br />
 您正在使用 Cloud SQL 作为大型 CRM 部署的数据库后端。您希望随着使用量的增长进行扩展，并确保存储空间不会耗尽，保持 75% 的 CPU 使用率，并将复制延迟保持在 60 秒以下。为了满足您的要求，正确的步骤是什么？</p>
 
-<p>A. 1. Enable automatic storage increase for the instance. 2. Create a Stackdriver alert when CPU usage exceeds 75%, and change the instance type to reduce CPU usage. 3. Create a Stackdriver alert for replication lag, and shard the database to reduce replication time.<br />
-B. 1. Enable automatic storage increase for the instance. 2. Change the instance type to a 32-core machine type to keep CPU usage below 75%. 3. Create a Stackdriver alert for replication lag, and deploy memcache to reduce load on the master.<br />
-C. 1. Create a Stackdriver alert when storage exceeds 75%, and increase the available storage on the instance to create more space. 2. Deploy memcached to reduce CPU load. 3. Change the instance type to a 32-core machine type to reduce replication lag.<br />
-D. 1. Create a Stackdriver alert when storage exceeds 75%, and increase the available storage on the instance to create more space. 2. Deploy memcached to reduce CPU load. 3. Create a Stackdriver alert for replication lag, and change the instance type to a 32-core machine type to reduce replication lag.</p>
+<p>A. 1. Enable automatic storage increase for the instance. 2. Create a Stackdriver alert when CPU usage exceeds 75%, and change the instance type to reduce CPU usage. 3. Create a Stackdriver alert for replication lag, and shard the database to reduce replication time.</p>
+
+<p>B. 1. Enable automatic storage increase for the instance. 2. Change the instance type to a 32-core machine type to keep CPU usage below 75%. 3. Create a Stackdriver alert for replication lag, and deploy memcache to reduce load on the master.</p>
+
+<p>C. 1. Create a Stackdriver alert when storage exceeds 75%, and increase the available storage on the instance to create more space. 2. Deploy memcached to reduce CPU load. 3. Change the instance type to a 32-core machine type to reduce replication lag.</p>
+
+<p>D. 1. Create a Stackdriver alert when storage exceeds 75%, and increase the available storage on the instance to create more space. 2. Deploy memcached to reduce CPU load. 3. Create a Stackdriver alert for replication lag, and change the instance type to a 32-core machine type to reduce replication lag.</p>
 
 <p><a href="/assets/gcp/discussion/73.md">Discussion</a><br />
 <a href="/assets/gcp/discussion/73.ans.html">Answers and Votes</a></p>
@@ -3493,10 +3499,13 @@ D. 1. Create a Stackdriver alert when storage exceeds 75%, and increase the avai
 <p>You are tasked with building an online analytical processing (OLAP) marketing analytics and reporting tool. This requires a relational database that can operate on hundreds of terabytes of data. What is the Google-recommended tool for such applications?      <br />
 你的任务是构建一个在线分析处理 (OLAP) 营销分析和报告工具。这需要一个能够处理数百 TB 数据的关系数据库。Google 推荐的此类应用程序工具是什么？</p>
 
-<p>A. Cloud Spanner, because it is globally distributed<br />
-B. Cloud SQL, because it is a fully managed relational database<br />
-C. Cloud Firestore, because it offers real-time synchronization across devices<br />
-D. BigQuery, because it is designed for large-scale processing of tabular data</p>
+<p>A. Cloud Spanner, because it is globally distributed</p>
+
+<p>B. Cloud SQL, because it is a fully managed relational database</p>
+
+<p>C. Cloud Firestore, because it offers real-time synchronization across devices</p>
+
+<p>D. BigQuery, because it is designed for large-scale processing of tabular data</p>
 
 <p><a href="/assets/gcp/discussion/74.md">Discussion</a></p>
 
@@ -3504,10 +3513,13 @@ D. BigQuery, because it is designed for large-scale processing of tabular data</
 <p>You have deployed an application to Google Kubernetes Engine (GKE), and are using the Cloud SQL proxy container to make the Cloud SQL database available to the services running on Kubernetes. You are notified that the application is reporting database connection issues. Your company policies require a post- mortem. What should you do?      <br />
 您已将一个应用部署到 Google Kubernetes Engine (GKE)，并使用 Cloud SQL 代理容器将 Cloud SQL 数据库提供给 Kubernetes 上运行的服务。您收到通知，告知该应用报告了数据库连接问题。根据公司政策，需要进行事后分析。您应该怎么做？</p>
 
-<p>A. Use gcloud sql instances restart.<br />
-B. Validate that the Service Account used by the Cloud SQL proxy container still has the Cloud Build Editor role.<br />
-C. In the GCP Console, navigate to Stackdriver Logging. Consult logs for (GKE) and Cloud SQL.<br />
-D. In the GCP Console, navigate to Cloud SQL. Restore the latest backup. Use kubectl to restart all pods.</p>
+<p>A. Use gcloud sql instances restart.</p>
+
+<p>B. Validate that the Service Account used by the Cloud SQL proxy container still has the Cloud Build Editor role.</p>
+
+<p>C. In the GCP Console, navigate to Stackdriver Logging. Consult logs for (GKE) and Cloud SQL.</p>
+
+<p>D. In the GCP Console, navigate to Cloud SQL. Restore the latest backup. Use kubectl to restart all pods.</p>
 
 <p><a href="/assets/gcp/discussion/75.md">Discussion</a></p>
 
@@ -3515,10 +3527,13 @@ D. In the GCP Console, navigate to Cloud SQL. Restore the latest backup. Use kub
 <p>Your company pushes batches of sensitive transaction data from its application server VMs to Cloud Pub/Sub for processing and storage. What is the Google- recommended way for your application to authenticate to the required Google Cloud services?      <br />
 您的公司将批量敏感交易数据从其应用服务器虚拟机推送到 Cloud Pub/Sub 进行处理和存储。Google 推荐的应用程序向所需的 Google Cloud 服务进行身份验证的方式是什么？</p>
 
-<p>A. Ensure that VM service accounts are granted the appropriate Cloud Pub/Sub IAM roles.<br />
-B. Ensure that VM service accounts do not have access to Cloud Pub/Sub, and use VM access scopes to grant the appropriate Cloud Pub/Sub IAM roles.<br />
-C. Generate an OAuth2 access token for accessing Cloud Pub/Sub, encrypt it, and store it in Cloud Storage for access from each VM.<br />
-D. Create a gateway to Cloud Pub/Sub using a Cloud Function, and grant the Cloud Function service account the appropriate Cloud Pub/Sub IAM roles.</p>
+<p>A. Ensure that VM service accounts are granted the appropriate Cloud Pub/Sub IAM roles.</p>
+
+<p>B. Ensure that VM service accounts do not have access to Cloud Pub/Sub, and use VM access scopes to grant the appropriate Cloud Pub/Sub IAM roles.</p>
+
+<p>C. Generate an OAuth2 access token for accessing Cloud Pub/Sub, encrypt it, and store it in Cloud Storage for access from each VM.</p>
+
+<p>D. Create a gateway to Cloud Pub/Sub using a Cloud Function, and grant the Cloud Function service account the appropriate Cloud Pub/Sub IAM roles.</p>
 
 <p><a href="/assets/gcp/discussion/76.md">Discussion</a></p>
 
@@ -3529,12 +3544,16 @@ How should you deploy the VPN?      <br />
 您想在跨两个区域的单个 VPC 中部署一个 Compute Engine 应用。该应用必须通过 VPN 与本地网络通信。<br />
 您应该如何部署 VPN？</p>
 
-<p>A. Use VPC Network Peering between the VPC and the on-premises network.<br />
-B. Expose the VPC to the on-premises network using IAM and VPC Sharing.<br />
-C. Create a global Cloud VPN Gateway with VPN tunnels from each region to the on-premises peer gateway.<br />
-D. Deploy Cloud VPN Gateway in each region. Ensure that each region has at least one VPN tunnel to the on-premises peer gateway.</p>
+<p>A. Use VPC Network Peering between the VPC and the on-premises network.</p>
 
-<p><a href="/assets/gcp/discussion/77.md">Discussion</a></p>
+<p>B. Expose the VPC to the on-premises network using IAM and VPC Sharing.</p>
+
+<p>C. Create a global Cloud VPN Gateway with VPN tunnels from each region to the on-premises peer gateway.</p>
+
+<p>D. Deploy Cloud VPN Gateway in each region. Ensure that each region has at least one VPN tunnel to the on-premises peer gateway.</p>
+
+<p><a href="/assets/gcp/discussion/77.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/77.ans.html">Answers and Votes</a></p>
 
 <h1 id="78">78</h1>
 
@@ -3543,10 +3562,13 @@ You want to optimize storage and follow Google-recommended practices. What shoul
 您的应用程序会将其日志写入 BigQuery 进行分析。每个应用程序都应该有自己的表。任何超过 45 天的日志都应被移除。
 如果您想优化存储并遵循 Google 推荐的做法，您应该怎么做？</p>
 
-<p>A. Configure the expiration time for your tables at 45 days<br />
-B. Make the tables time-partitioned, and configure the partition expiration at 45 days<br />
-C. Rely on BigQuery’s default behavior to prune application logs older than 45 days<br />
-D. Create a script that uses the BigQuery command line tool (bq) to remove records older than 45 days</p>
+<p>A. Configure the expiration time for your tables at 45 days</p>
+
+<p>B. Make the tables time-partitioned, and configure the partition expiration at 45 days</p>
+
+<p>C. Rely on BigQuery’s default behavior to prune application logs older than 45 days</p>
+
+<p>D. Create a script that uses the BigQuery command line tool (bq) to remove records older than 45 days</p>
 
 <p><a href="/assets/gcp/discussion/78.md">Discussion</a></p>
 
@@ -3571,12 +3593,16 @@ What should you do?      <br />
 您需要制定规程来验证使用 GCP 进行远程灾难恢复的弹性。您的生产环境托管在本地。您需要在本地网络和 GCP 网络之间建立安全、冗余的连接。<br />
 您应该怎么做？</p>
 
-<p>A. Verify that Dedicated Interconnect can replicate files to GCP. Verify that direct peering can establish a secure connection between your networks if Dedicated Interconnect fails.<br />
-B. Verify that Dedicated Interconnect can replicate files to GCP. Verify that Cloud VPN can establish a secure connection between your networks if Dedicated Interconnect fails.<br />
-C. Verify that the Transfer Appliance can replicate files to GCP. Verify that direct peering can establish a secure connection between your networks if the Transfer Appliance fails.<br />
-D. Verify that the Transfer Appliance can replicate files to GCP. Verify that Cloud VPN can establish a secure connection between your networks if the Transfer Appliance fails.</p>
+<p>A. Verify that Dedicated Interconnect can replicate files to GCP. Verify that direct peering can establish a secure connection between your networks if Dedicated Interconnect fails.</p>
 
-<p><a href="/assets/gcp/discussion/80.md">Discussion</a></p>
+<p>B. Verify that Dedicated Interconnect can replicate files to GCP. Verify that Cloud VPN can establish a secure connection between your networks if Dedicated Interconnect fails.</p>
+
+<p>C. Verify that the Transfer Appliance can replicate files to GCP. Verify that direct peering can establish a secure connection between your networks if the Transfer Appliance fails.</p>
+
+<p>D. Verify that the Transfer Appliance can replicate files to GCP. Verify that Cloud VPN can establish a secure connection between your networks if the Transfer Appliance fails.</p>
+
+<p><a href="/assets/gcp/discussion/80.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/80.ans.html">Answers and Votes</a></p>
 
 <h1 id="81">81</h1>
 
@@ -3590,7 +3616,8 @@ B. Provision preemptible VMs to reduce cost. Disable and then discontinue use of
 C. Provision standard VMs in the same region to reduce cost. Discontinue use of all GCP services and APIs that are not HIPAA-compliant.<br />
 D. Provision standard VMs to the same region to reduce cost. Disable and then discontinue use of all GCP services and APIs that are not HIPAA-compliant.</p>
 
-<p><a href="/assets/gcp/discussion/81.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/81.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/81.ans.html">Answers and Votes</a></p>
 
 <h1 id="82">82</h1>
 
@@ -3604,7 +3631,8 @@ B. Deploy intrusion detection software to your virtual machines to detect and lo
 C. Schedule a disaster simulation exercise during which you can shut off all VMs in a zone to see how your application behaves.<br />
 D. Configure a read replica for your Cloud SQL instance in a different zone than the master, and then manually trigger a failover while monitoring KPIs for our REST API.</p>
 
-<p><a href="/assets/gcp/discussion/82.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/82.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/82.ans.html">Answers and Votes</a></p>
 
 <h1 id="83">83</h1>
 
@@ -3616,7 +3644,8 @@ B. In the BigQuery interface, execute a query on the JOBS table to get the requi
 C. Use ‘bq show’ to list all jobs. Per job, use ‘bq ls’ to list job information and get the required information.<br />
 D. Use Cloud Audit Logging to view Cloud Audit Logs, and create a filter on the query operation to get the required information.</p>
 
-<p><a href="/assets/gcp/discussion/83.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/83.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/83.ans.html">Answers and Votes</a></p>
 
 <h1 id="84">84</h1>
 
@@ -3632,7 +3661,8 @@ B. Create a custom VM image with all OS package dependencies. Use Deployment Man
 C. Use Puppet to create the managed instance group and install the OS package dependencies.<br />
 D. Use Deployment Manager to create the managed instance group and Ansible to install the OS package dependencies.</p>
 
-<p><a href="/assets/gcp/discussion/84.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/84.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/84.ans.html">Answers and Votes</a></p>
 
 <h1 id="85">85</h1>
 
@@ -3643,12 +3673,16 @@ How should you configure the access rights?      <br />
 您希望每个国家/地区的分析师只能查看和查询各自国家/地区的数据。<br />
 您应该如何配置访问权限？</p>
 
-<p>A. Create a group per country. Add analysts to their respective country-groups. Create a single group ‘all_analysts’, and add all country-groups as members. Grant the ‘all_analysts’ group the IAM role of BigQuery jobUser. Share the appropriate dataset with view access with each respective analyst country-group.<br />
-B. Create a group per country. Add analysts to their respective country-groups. Create a single group ‘all_analysts’, and add all country-groups as members. Grant the ‘all_analysts’ group the IAM role of BigQuery jobUser. Share the appropriate tables with view access with each respective analyst country-group.<br />
-C. Create a group per country. Add analysts to their respective country-groups. Create a single group ‘all_analysts’, and add all country-groups as members. Grant the ‘all_analysts’ group the IAM role of BigQuery dataViewer. Share the appropriate dataset with view access with each respective analyst country- group.<br />
-D. Create a group per country. Add analysts to their respective country-groups. Create a single group ‘all_analysts’, and add all country-groups as members. Grant the ‘all_analysts’ group the IAM role of BigQuery dataViewer. Share the appropriate table with view access with each respective analyst country-group.</p>
+<p>A. Create a group per country. Add analysts to their respective country-groups. Create a single group ‘all_analysts’, and add all country-groups as members. Grant the ‘all_analysts’ group the IAM role of BigQuery jobUser. Share the appropriate dataset with view access with each respective analyst country-group.</p>
 
-<p><a href="/assets/gcp/discussion/85.md">Discussion</a></p>
+<p>B. Create a group per country. Add analysts to their respective country-groups. Create a single group ‘all_analysts’, and add all country-groups as members. Grant the ‘all_analysts’ group the IAM role of BigQuery jobUser. Share the appropriate tables with view access with each respective analyst country-group.</p>
+
+<p>C. Create a group per country. Add analysts to their respective country-groups. Create a single group ‘all_analysts’, and add all country-groups as members. Grant the ‘all_analysts’ group the IAM role of BigQuery dataViewer. Share the appropriate dataset with view access with each respective analyst country- group.</p>
+
+<p>D. Create a group per country. Add analysts to their respective country-groups. Create a single group ‘all_analysts’, and add all country-groups as members. Grant the ‘all_analysts’ group the IAM role of BigQuery dataViewer. Share the appropriate table with view access with each respective analyst country-group.</p>
+
+<p><a href="/assets/gcp/discussion/85.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/85.ans.html">Answers and Votes</a></p>
 
 <h1 id="86">86</h1>
 
@@ -3663,7 +3697,8 @@ B. Memcache backed by Cloud Datastore for the customer session state data. Lifec
 C. Memcache backed by Cloud SQL for customer session state data. Assorted local SSD-backed instances for VM boot/data volumes. Cloud Storage for log archives and thumbnails.<br />
 D. Memcache backed by Persistent Disk SSD storage for customer session state data. Assorted local SSD-backed instances for VM boot/data volumes. Cloud Storage for log archives and thumbnails.</p>
 
-<p><a href="/assets/gcp/discussion/86.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/86.md">Discussion</a>  <br />
+<a href="/assets/gcp/discussion/86.ans.html">Answers and Votes</a></p>
 
 <h1 id="87">87</h1>
 
@@ -3690,7 +3725,8 @@ B. Shorten the expiration time of the cached objects.<br />
 C. Make sure the HTTP(S) header ג€Cache-Regionג€ points to the closest region of your users.<br />
 D. Replicate the static content in a Cloud Storage bucket. Point CloudCDN toward a load balancer on that bucket.</p>
 
-<p><a href="/assets/gcp/discussion/88.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/88.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/88.ans.html">Answers and Votes</a></p>
 
 <h1 id="89">89</h1>
 
@@ -3702,7 +3738,8 @@ B. Stackdriver automatically collects admin activity logs for most services. The
 C. Launch a custom syslogd compute instance and configure your GCP project and VMs to forward all logs to it.<br />
 D. Install the Stackdriver Logging agent on a single compute instance and let it collect all audit and access logs for your environment.</p>
 
-<p><a href="/assets/gcp/discussion/89.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/89.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/89.ans.html">Answers and Votes</a></p>
 
 <h1 id="90">90</h1>
 <p>You have an App Engine application that needs to be updated. You want to test the update with production traffic before replacing the current application version.
@@ -3742,7 +3779,8 @@ B. Build a roadmap to move the machine learning model training from Cloud GPUs t
 C. Monitor Compute Engine announcements for availability of newer CPU architectures, and deploy the model to them as soon as they are available for additional performance.
 D. Save a history of recommendations and results of the recommendations in BigQuery, to be used as training data.</p>
 
-<p><a href="/assets/gcp/discussion/92.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/92.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/92.ans.html">Answers and Votes</a></p>
 
 <h1 id="93">93</h1>
 
@@ -3756,7 +3794,8 @@ B. Use the Horizontal Pod Autoscaler and enable cluster autoscaling on the Kuber
 C. Enable autoscaling on the Compute Engine instance group. Use an Ingress resource to load-balance the HTTPS traffic.
 D. Enable autoscaling on the Compute Engine instance group. Use a Service resource of type LoadBalancer to load-balance the HTTPS traffic.</p>
 
-<p><a href="/assets/gcp/discussion/93.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/93.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/93.ans.html">Answers and Votes</a></p>
 
 <h1 id="94">94</h1>
 
@@ -3812,7 +3851,8 @@ B. Save the files in a Regional Cloud Storage bucket, one bucket per zone of the
 C. Save the files in multiple Regional Cloud Storage buckets, one bucket per zone per region.<br />
 D. Save the files in multiple Multi-Regional Cloud Storage buckets, one bucket per multi-region.</p>
 
-<p><a href="/assets/gcp/discussion/97.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/97.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/97.ans.html">Answers and Votes</a></p>
 
 <h1 id="98">98</h1>
 
