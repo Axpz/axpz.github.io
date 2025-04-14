@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-13T20:39:36+08:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-14T09:43:05+08:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
 </subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">professional cloud architect 251-279</title><link href="/cloud/2025/04/11/12-00-00-professional-cloud-architect-251-279.html" rel="alternate" type="text/html" title="professional cloud architect 251-279" /><published>2025-04-11T12:00:00+08:00</published><updated>2025-04-11T12:00:00+08:00</updated><id>/cloud/2025/04/11/12:00:00-professional-cloud-architect%20251-279</id><content type="html" xml:base="/cloud/2025/04/11/12-00-00-professional-cloud-architect-251-279.html"><![CDATA[<p>professional cloud architect 2025-04-11 12:00:00</p>
 
 <h1 id="251">251</h1>
@@ -3836,6 +3836,224 @@ C. Using the Cron service provided by Google Kubernetes Engine (GKE), publish me
 D. Using the Cron service provided by GKE, publish messages to a Cloud Pub/Sub topic. Subscribe to that topic using a message-processing utility service running on Compute Engine instances.</p>
 
 <p><a href="/assets/gcp/discussion/100.md">Discussion</a></p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="cloud" /><category term="ai" /><category term="k8s" /><category term="cloud" /><summary type="html"><![CDATA[professional cloud architect 2025-04-09 12:00:00]]></summary></entry><entry><title type="html">professional cloud architect 1-50</title><link href="/cloud/2025/04/08/12-00-00-professional-cloud-architect-1-50.html" rel="alternate" type="text/html" title="professional cloud architect 1-50" /><published>2025-04-08T12:00:00+08:00</published><updated>2025-04-08T12:00:00+08:00</updated><id>/cloud/2025/04/08/12:00:00-professional-cloud-architect%201-50</id><content type="html" xml:base="/cloud/2025/04/08/12-00-00-professional-cloud-architect-1-50.html"><![CDATA[<p>professional cloud architect 2025-04-08 12:00:00</p>
+
+<h1 id="1">1</h1>
+
+<p>Your company has decided to make a major revision of their API in order to create better experiences for their developers. They need to keep the old version of the API available and deployable, while allowing new customers and testers to try out the new API. They want to keep the same SSL and DNS records in place to serve both APIs.<br />
+What should they do?</p>
+
+<p>A. Configure a new load balancer for the new version of the API<br />
+B. Reconfigure old clients to use a new endpoint for the new API <br />
+C. Have the old API forward traffic to the new API based on the path<br />
+D. Use separate backend pools for each API path behind the load balancer</p>
+
+<p><a href="/assets/gcp/discussion/1.md">Discussion</a></p>
+
+<h1 id="2">2</h1>
+
+<p>Your company plans to migrate a multi-petabyte data set to the cloud. The data set must be available 24hrs a day. Your business analysts have experience only with using a SQL interface.
+How should you store the data to optimize it for ease of analysis?</p>
+
+<p>A. Load data into Google BigQuery<br />
+B. Insert data into Google Cloud SQL<br />
+C. Put flat files into Google Cloud Storage<br />
+D. Stream data into Google Cloud Datastore</p>
+
+<p><a href="/assets/gcp/discussion/2.md">Discussion</a></p>
+
+<h1 id="3">3</h1>
+
+<p>The operations manager asks you for a list of recommended practices that she should consider when migrating a J2EE application to the cloud.<br />
+Which three practices should you recommend? (Choose three.)</p>
+
+<p>A. Port the application code to run on Google App Engine<br />
+B. Integrate Cloud Dataflow into the application to capture real-time metrics<br />
+C. Instrument the application with a monitoring tool like Stackdriver Debugger<br />
+D. Select an automation framework to reliably provision the cloud infrastructure<br />
+E. Deploy a continuous integration tool with automated testing in a staging environment<br />
+F. Migrate from MySQL to a managed NoSQL database like Google Cloud Datastore or Bigtable</p>
+
+<p><a href="/assets/gcp/discussion/3.md">Discussion</a></p>
+
+<h1 id="4">4</h1>
+
+<p>A news feed web service has the following code running on Google App Engine. During peak load, users report that they can see news articles they already viewed.
+What is the most likely cause of this problem?</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">news</span>
+<span class="kn">from</span> <span class="n">flask</span> <span class="kn">import</span> <span class="n">Flask</span><span class="p">,</span> <span class="n">redirect</span><span class="p">,</span> <span class="n">request</span>
+<span class="kn">from</span> <span class="n">flask.ext.api</span> <span class="kn">import</span> <span class="n">status</span>
+<span class="kn">from</span> <span class="n">google.appengine.api</span> <span class="kn">import</span> <span class="n">users</span>
+
+<span class="n">app</span> <span class="o">=</span> <span class="nc">Flask</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
+<span class="n">sessions</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="nd">@app.route</span><span class="p">(</span><span class="sh">"</span><span class="s">/</span><span class="sh">"</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">homepage</span><span class="p">():</span>
+    <span class="n">user</span> <span class="o">=</span> <span class="n">users</span><span class="p">.</span><span class="nf">get_current_user</span><span class="p">()</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">user</span><span class="p">:</span>
+        <span class="k">return</span> <span class="sh">"</span><span class="s">Invalid login</span><span class="sh">"</span><span class="p">,</span>
+        <span class="n">status</span><span class="p">.</span><span class="n">HTTP_401_UNAUTHORIZED</span>
+
+    <span class="k">if</span> <span class="n">user</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">sessions</span><span class="p">:</span>
+        <span class="n">sessions</span><span class="p">[</span><span class="n">user</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="sh">"</span><span class="s">viewed</span><span class="sh">"</span><span class="p">:</span> <span class="p">[]}</span>
+
+    <span class="n">news_articles</span> <span class="o">=</span> <span class="n">news</span><span class="p">.</span><span class="nf">get_new_news</span><span class="p">(</span><span class="n">user</span><span class="p">,</span> <span class="n">sessions</span><span class="p">[</span><span class="n">user</span><span class="p">][</span><span class="sh">"</span><span class="s">viewed</span><span class="sh">"</span><span class="p">])</span>
+    <span class="n">sessions</span><span class="p">[</span><span class="n">user</span><span class="p">][</span><span class="sh">"</span><span class="s">viewed</span><span class="sh">"</span><span class="p">]</span> <span class="o">+=</span> <span class="p">[</span><span class="n">n</span><span class="p">[</span><span class="sh">"</span><span class="s">id</span><span class="sh">"</span><span class="p">]</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">news_articles</span><span class="p">]</span>
+
+    <span class="k">return</span> <span class="n">news</span><span class="p">.</span><span class="nf">render</span><span class="p">(</span><span class="n">news_articles</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="sh">"</span><span class="s">__main__</span><span class="sh">"</span><span class="p">:</span>
+    <span class="n">app</span><span class="p">.</span><span class="nf">run</span><span class="p">()</span>
+</code></pre></div></div>
+<p>A. The session variable is local to just a single instance
+B. The session variable is being overwritten in Cloud Datastore
+C. The URL of the API needs to be modified to prevent caching
+D. The HTTP Expires header needs to be set to -1 stop caching</p>
+
+<p><a href="/assets/gcp/discussion/4.md">Discussion</a></p>
+
+<h1 id="5">5</h1>
+
+<p>An application development team believes their current logging tool will not meet their needs for their new cloud-based product. They want a better tool to capture errors and help them analyze their historical log data. You want to help them find a solution that meets their needs.
+What should you do?</p>
+
+<p>A. Direct them to download and install the Google StackDriver logging agent
+B. Send them a list of online resources about logging best practices
+C. Help them define their requirements and assess viable logging tools
+D. Help them upgrade their current tool to take advantage of any new features</p>
+
+<p><a href="/assets/gcp/discussion/5.md">Discussion</a></p>
+
+<h1 id="6">6</h1>
+
+<p>You need to reduce the number of unplanned rollbacks of erroneous production deployments in your company’s web hosting platform. Improvement to the QA/
+Test processes accomplished an 80% reduction.<br />
+Which additional two approaches can you take to further reduce the rollbacks? (Choose two.)</p>
+
+<p>A. Introduce a green-blue deployment model
+B. Replace the QA environment with canary releases
+C. Fragment the monolithic platform into microservices
+D. Reduce the platform’s dependency on relational database systems
+E. Replace the platform’s relational database systems with a NoSQL database</p>
+
+<p><a href="/assets/gcp/discussion/6.md">Discussion</a></p>
+
+<h1 id="7">7</h1>
+
+<p>To reduce costs, the Director of Engineering has required all developers to move their development infrastructure resources from on-premises virtual machines<br />
+(VMs) to Google Cloud Platform. These resources go through multiple start/stop events during the day and require state to persist. You have been asked to design the process of running a development environment in Google Cloud while providing cost visibility to the finance department.
+Which two steps should you take? (Choose two.)</p>
+
+<p>A. Use the - -no-auto-delete flag on all persistent disks and stop the VM<br />
+B. Use the - -auto-delete flag on all persistent disks and terminate the VM<br />
+C. Apply VM CPU utilization label and include it in the BigQuery billing export<br />
+D. Use Google BigQuery billing export and labels to associate cost to groups<br />
+E. Store all state into local SSD, snapshot the persistent disks, and terminate the VM<br />
+F. Store all state in Google Cloud Storage, snapshot the persistent disks, and terminate the VM</p>
+
+<p><a href="/assets/gcp/discussion/7.md">Discussion</a></p>
+
+<h1 id="8">8</h1>
+
+<p>Your company wants to track whether someone is present in a meeting room reserved for a scheduled meeting. There are 1000 meeting rooms across 5 offices on 3 continents. Each room is equipped with a motion sensor that reports its status every second. The data from the motion detector includes only a sensor ID and several different discrete items of information. Analysts will use this data, together with information about account owners and office locations.<br />
+Which database type should you use?</p>
+
+<p>A. Flat file<br />
+B. NoSQL<br />
+C. Relational<br />
+D. Blobstore</p>
+
+<p><a href="/assets/gcp/discussion/8.md">Discussion</a></p>
+
+<h1 id="9">9</h1>
+
+<p>You set up an autoscaling instance group to serve web traffic for an upcoming launch. After configuring the instance group as a backend service to an HTTP(S) load balancer, you notice that virtual machine (VM) instances are being terminated and re-launched every minute. The instances do not have a public IP address.
+You have verified the appropriate web response is coming from each instance using the curl command. You want to ensure the backend is configured correctly.
+What should you do?</p>
+
+<p>A. Ensure that a firewall rules exists to allow source traffic on HTTP/HTTPS to reach the load balancer.<br />
+B. Assign a public IP to each instance and configure a firewall rule to allow the load balancer to reach the instance public IP.<br />
+C. Ensure that a firewall rule exists to allow load balancer health checks to reach the instances in the instance group.<br />
+D. Create a tag on each instance with the name of the load balancer. Configure a firewall rule with the name of the load balancer as the source and the instance tag as the destination.</p>
+
+<p><a href="/assets/gcp/discussion/9.md">Discussion</a></p>
+
+<h1 id="10">10</h1>
+
+<p>You write a Python script to connect to Google BigQuery from a Google Compute Engine virtual machine. The script is printing errors that it cannot connect to
+BigQuery.<br />
+What should you do to fix the script?</p>
+
+<p>A. Install the latest BigQuery API client library for Python<br />
+B. Run your script on a new virtual machine with the BigQuery access scope enabled<br />
+C. Create a new service account with BigQuery access and execute your script with that user<br />
+D. Install the bq component for gcloud with the command gcloud components install bq.</p>
+
+<p><a href="/assets/gcp/discussion/10.md">Discussion</a></p>
+
+<h1 id="11">11</h1>
+
+<p>Your customer is moving an existing corporate application to Google Cloud Platform from an on-premises data center. The business owners require minimal user disruption. There are strict security team requirements for storing passwords.<br />
+What authentication strategy should they use?</p>
+
+<p>A. Use G Suite Password Sync to replicate passwords into Google<br />
+B. Federate authentication via SAML 2.0 to the existing Identity Provider<br />
+C. Provision users in Google using the Google Cloud Directory Sync tool<br />
+D. Ask users to set their Google password to match their corporate password</p>
+
+<p><a href="/assets/gcp/discussion/11.md">Discussion</a></p>
+
+<h1 id="12">12</h1>
+
+<p>Your company has successfully migrated to the cloud and wants to analyze their data stream to optimize operations. They do not have any existing code for this analysis, so they are exploring all their options. These options include a mix of batch and stream processing, as they are running some hourly jobs and live- processing some data as it comes in.<br />
+Which technology should they use for this?</p>
+
+<p>A. Google Cloud Dataproc<br />
+B. Google Cloud Dataflow<br />
+C. Google Container Engine with Bigtable<br />
+D. Google Compute Engine with Google BigQuery</p>
+
+<p><a href="/assets/gcp/discussion/12.md">Discussion</a></p>
+
+<h1 id="13">13</h1>
+
+<p>Your customer is receiving reports that their recently updated Google App Engine application is taking approximately 30 seconds to load for some of their users.
+This behavior was not reported before the update.
+What strategy should you take?</p>
+
+<p>A. Work with your ISP to diagnose the problem
+B. Open a support ticket to ask for network capture and flow data to diagnose the problem, then roll back your application
+C. Roll back to an earlier known good release initially, then use Stackdriver Trace and Logging to diagnose the problem in a development/test/staging environment
+D. Roll back to an earlier known good release, then push the release again at a quieter period to investigate. Then use Stackdriver Trace and Logging to diagnose the problem</p>
+
+<p><a href="/assets/gcp/discussion/13.md">Discussion</a></p>
+
+<h1 id="14">14</h1>
+
+<p>A production database virtual machine on Google Compute Engine has an ext4-formatted persistent disk for data files. The database is about to run out of storage space.<br />
+How can you remediate the problem with the least amount of downtime?</p>
+
+<p>A. In the Cloud Platform Console, increase the size of the persistent disk and use the resize2fs command in Linux.<br />
+B. Shut down the virtual machine, use the Cloud Platform Console to increase the persistent disk size, then restart the virtual machine<br />
+C. In the Cloud Platform Console, increase the size of the persistent disk and verify the new space is ready to use with the fdisk command in Linux<br />
+D. In the Cloud Platform Console, create a new persistent disk attached to the virtual machine, format and mount it, and configure the database service to move the files to the new disk<br />
+E. In the Cloud Platform Console, create a snapshot of the persistent disk restore the snapshot to a new larger disk, unmount the old disk, mount the new disk and restart the database service</p>
+
+<p><a href="/assets/gcp/discussion/14.md">Discussion</a></p>
+
+<h1 id="15">15</h1>
+
+<p>Your application needs to process credit card transactions. You want the smallest scope of Payment Card Industry (PCI) compliance without compromising the ability to analyze transactional data and trends relating to which payment methods are used.
+How should you design your architecture?</p>
+
+<p>A. Create a tokenizer service and store only tokenized data<br />
+B. Create separate projects that only process credit card data<br />
+C. Create separate subnetworks and isolate the components that process credit card data<br />
+D. Streamline the audit discovery phase by labeling all of the virtual machines (VMs) that process PCI data<br />
+E. Enable Logging export to Google BigQuery and use ACLs and views to scope the data shared with the auditor</p>
+
+<p><a href="/assets/gcp/discussion/15.md">Discussion</a></p>
 
 <h1 id="16">16</h1>
 <p>You have been asked to select the storage system for the click-data of your company’s large portfolio of websites. This data is streamed in from a custom website analytics package at a typical rate of 6,000 clicks per minute. With bursts of up to 8,500 clicks per second. It must have been stored for future analysis by your data science and user experience teams.
