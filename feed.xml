@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-14T09:43:05+08:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-14T10:07:22+08:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
 </subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">professional cloud architect 251-279</title><link href="/cloud/2025/04/11/12-00-00-professional-cloud-architect-251-279.html" rel="alternate" type="text/html" title="professional cloud architect 251-279" /><published>2025-04-11T12:00:00+08:00</published><updated>2025-04-11T12:00:00+08:00</updated><id>/cloud/2025/04/11/12:00:00-professional-cloud-architect%20251-279</id><content type="html" xml:base="/cloud/2025/04/11/12-00-00-professional-cloud-architect-251-279.html"><![CDATA[<p>professional cloud architect 2025-04-11 12:00:00</p>
 
 <h1 id="251">251</h1>
@@ -163,7 +163,7 @@ D. Deploy Cloud Run services to multiple availability zones. Create a TCP/IP glo
 
 <p>Question<br />
 For this question, refer to the TerramEarth case study. You are migrating a Linux-based application from your private data center to Google Cloud. The
-TerramEarth security team sent you several recent Linux vulnerabilities published by Common Vulnerabilities and Exposures (CVE). You need assistance in understanding how these vulnerabilities could impact your migration. What should you do? (Choose two.)</p>
+TerramEarth security team sent you several recent Linux vulnerabilities published by Common Vulnerabilities and Exposures (CVE). You need assistance in understanding how these vulnerabilities could impact your migration. What should you do?    (Choose two.)</p>
 
 <p>A. Open a support case regarding the CVE and chat with the support engineer.<br />
 B. Read the CVEs from the Google Cloud Status Dashboard to understand the impact.<br />
@@ -499,12 +499,12 @@ B. Downgrade MySQL to v5.7, which is supported by Cloud SQL for MySQL.<br />
 C. Resize compute resources to match predefined Compute Engine machine types.<br />
 D. Containerize the micro-services and host them in Google Kubernetes Engine.</p>
 
-<p><a href="/assets/gcp/discussion/279.md">Discussion</a></p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="cloud" /><category term="ai" /><category term="k8s" /><category term="cloud" /><summary type="html"><![CDATA[professional cloud architect 2025-04-11 12:00:00]]></summary></entry><entry><title type="html">professional cloud architect 151-200</title><link href="/cloud/2025/04/11/12-00-00-professional-cloud-architect-151-200.html" rel="alternate" type="text/html" title="professional cloud architect 151-200" /><published>2025-04-11T12:00:00+08:00</published><updated>2025-04-11T12:00:00+08:00</updated><id>/cloud/2025/04/11/12:00:00-professional-cloud-architect%20151-200</id><content type="html" xml:base="/cloud/2025/04/11/12-00-00-professional-cloud-architect-151-200.html"><![CDATA[<p>professional cloud architect 2025-04-11 12:00:00</p>
+<p><a href="/assets/gcp/discussion/279.md">Discussion</a></p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="cloud" /><category term="ai" /><category term="k8s" /><category term="cloud" /><summary type="html"><![CDATA[professional cloud architect 2025-04-11 12:00:00 251]]></summary></entry><entry><title type="html">professional cloud architect 151-200</title><link href="/cloud/2025/04/11/12-00-00-professional-cloud-architect-151-200.html" rel="alternate" type="text/html" title="professional cloud architect 151-200" /><published>2025-04-11T12:00:00+08:00</published><updated>2025-04-11T12:00:00+08:00</updated><id>/cloud/2025/04/11/12:00:00-professional-cloud-architect%20151-200</id><content type="html" xml:base="/cloud/2025/04/11/12-00-00-professional-cloud-architect-151-200.html"><![CDATA[<p>professional cloud architect 2025-04-11 12:00:00</p>
 
 <h1 id="151">151</h1>
 
 <p>Your company has a support ticketing solution that uses App Engine Standard. The project that contains the App Engine application already has a Virtual Private
-Cloud (VPC) network fully connected to the company’s on-premises environment through a Cloud VPN tunnel. You want to enable the App Engine application to communicate with a database that is running in the company’s on-premises environment. What should you do?<br />
+Cloud (VPC) network fully connected to the company’s on-premises environment through a Cloud VPN tunnel. You want to enable the App Engine application to communicate with a database that is running in the company’s on-premises environment. What should you do?   <br />
 贵公司有一个使用 App Engine Standard 的支持工单解决方案。包含该 App Engine 应用的项目已拥有一个虚拟私有
 云 (VPC) 网络，该网络通过 Cloud VPN 隧道完全连接到公司的本地环境。您想让该 App Engine 应用能够与公司本地环境中运行的数据库进行通信。您应该怎么做？</p>
 
@@ -530,7 +530,7 @@ D. 1. Use gsutil -m to upload the files to Cloud Storage. 2. Use gsutil hash -c 
 
 <h1 id="153">153</h1>
 
-<p>You have deployed an application on Anthos clusters (formerly Anthos GKE). According to the SRE practices at your company, you need to be alerted if request latency is above a certain threshold for a specified amount of time. What should you do?<br />
+<p>You have deployed an application on Anthos clusters (formerly Anthos GKE). According to the SRE practices at your company, you need to be alerted if request latency is above a certain threshold for a specified amount of time. What should you do?   <br />
 您已在 Anthos 集群（以前称为 Anthos GKE）上部署了一个应用程序。根据您公司的 SRE 实践，当请求延迟在指定时间内超过特定阈值时，您需要收到警报。您应该怎么做？</p>
 
 <p>A. Install Anthos Service Mesh on your cluster. Use the Google Cloud Console to define a Service Level Objective (SLO), and create an alerting policy based on this SLO.<br />
@@ -543,7 +543,7 @@ D. Configure Anthos Config Management on your cluster, and create a yaml file th
 <h1 id="154">154</h1>
 
 <p>Your company has a stateless web API that performs scientific calculations. The web API runs on a single Google Kubernetes Engine (GKE) cluster. The cluster is currently deployed in us-central1. Your company has expanded to offer your API to customers in Asia. You want to reduce the latency for users in Asia.<br />
-What should you do? <br />
+What should you do?    <br />
 贵公司有一个执行科学计算的无状态 Web API。该 Web API 在单个 Google Kubernetes Engine (GKE) 集群上运行。该集群目前部署在 us-central1 区域。贵公司已扩展 API 服务，向亚洲客户提供服务。您希望降低亚洲用户的延迟。<br />
 您应该怎么做？</p>
 
@@ -556,7 +556,7 @@ D. Increase the memory and CPU allocated to the application in the cluster.</p>
 
 <h1 id="155">155</h1>
 
-<p>You are migrating third-party applications from optimized on-premises virtual machines to Google Cloud. You are unsure about the optimum CPU and memory options. The applications have a consistent usage pattern across multiple weeks. You want to optimize resource usage for the lowest cost. What should you do?<br />
+<p>You are migrating third-party applications from optimized on-premises virtual machines to Google Cloud. You are unsure about the optimum CPU and memory options. The applications have a consistent usage pattern across multiple weeks. You want to optimize resource usage for the lowest cost. What should you do?   <br />
 您正在将第三方应用从优化的本地虚拟机迁移到 Google Cloud。您不确定最佳的 CPU 和内存选项。这些应用在数周内具有一致的使用模式。您希望优化资源使用率以降低成本。您应该怎么做？</p>
 
 <p>A. Create an instance template with the smallest available machine type, and use an image of the third-party application taken from a current on-premises virtual machine. Create a managed instance group that uses average CPU utilization to autoscale the number of instances in the group. Modify the average CPU utilization threshold to optimize the number of instances running.<br />
@@ -585,7 +585,7 @@ D. Configure Private Google Access.</p>
 
 <h1 id="157">157</h1>
 
-<p>You are working at an institution that processes medical data. You are migrating several workloads onto Google Cloud. Company policies require all workloads to run on physically separated hardware, and workloads from different clients must also be separated. You created a sole-tenant node group and added a node for each client. You need to deploy the workloads on these dedicated hosts. What should you do?<br />
+<p>You are working at an institution that processes medical data. You are migrating several workloads onto Google Cloud. Company policies require all workloads to run on physically separated hardware, and workloads from different clients must also be separated. You created a sole-tenant node group and added a node for each client. You need to deploy the workloads on these dedicated hosts. What should you do?   <br />
 您在一家处理医疗数据的机构工作。您正在将多个工作负载迁移到 Google Cloud。公司政策要求所有工作负载必须在物理上独立的硬件上运行，并且来自不同客户端的工作负载也必须隔离。您创建了一个单租户节点组，并为每个客户端添加了一个节点。您需要在这些专用主机上部署工作负载。您应该怎么做？</p>
 
 <p>A. Add the node group name as a network tag when creating Compute Engine instances in order to host each workload on the correct node group.<br />
@@ -598,7 +598,7 @@ D. Use node affinity labels based on the node name when creating Compute Engine 
 <h1 id="158">158</h1>
 
 <p>Your company’s test suite is a custom C++ application that runs tests throughout each day on Linux virtual machines. The full test suite takes several hours to complete, running on a limited number of on-premises servers reserved for testing. Your company wants to move the testing infrastructure to the cloud, to reduce the amount of time it takes to fully test a change to the system, while changing the tests as little as possible.<br />
-Which cloud infrastructure should you recommend?<br />
+Which cloud infrastructure should you recommend?   <br />
 一位首席软件工程师告诉您，他的新应用程序设计使用了未分布在各个 Web 服务器上的 WebSocket 和 HTTP 会话。您想帮助他确保该应用程序能够在 Google Cloud Platform 上正常运行。
 您应该怎么做？</p>
 
@@ -624,7 +624,7 @@ D. Help the engineer redesign the application to use a distributed user session 
 <h1 id="160">160</h1>
 
 <p>The application reliability team at your company this added a debug feature to their backend service to send all server events to Google Cloud Storage for eventual analysis. The event records are at least 50 KB and at most 15 MB and are expected to peak at 3,000 events per second. You want to minimize data loss.<br />
-Which process should you implement?<br />
+Which process should you implement?   <br />
 贵公司的应用可靠性团队在其后端服务中添加了一项调试功能，用于将所有服务器事件发送到 Google Cloud Storage 进行最终分析。事件记录大小至少为 50 KB，最多为 15 MB，预计峰值为每秒 3,000 个事件。您希望最大限度地减少数据丢失。<br />
 您应该实施哪种流程？</p>
 
@@ -638,7 +638,7 @@ D. ג€¢ Append metadata to file body ג€¢ Compress individual files ג€�
 <h1 id="161">161</h1>
 
 <p>A recent audit revealed that a new network was created in your GCP project. In this network, a GCE instance has an SSH port open to the world. You want to discover this network’s origin.<br />
-What should you do?<br />
+What should you do?   <br />
 最近的审计显示，您的 GCP 项目中创建了一个新网络。在该网络中，一个 GCE 实例向外界开放了一个 SSH 端口。您想查明该网络的来源。<br />
 您应该怎么做？</p>
 
@@ -652,7 +652,7 @@ D. Connect to the GCE instance using project SSH keys. Identify previous logins 
 <h1 id="162">162</h1>
 
 <p>You want to make a copy of a production Linux virtual machine in the US-Central region. You want to manage and replace the copy easily if there are changes on the production virtual machine. You will deploy the copy as a new instance in a different project in the US-East region.<br />
-What steps must you take?<br />
+What steps must you take?   <br />
 您想要在美国中部地区复制一个生产 Linux 虚拟机。如果生产虚拟机发生更改，您希望能够轻松管理和替换该副本。您将在美国东部地区的另一个项目中将该副本部署为新实例。<br />
 您需要采取哪些步骤？</p>
 
@@ -666,7 +666,7 @@ D. Create a snapshot of the root disk, create an image file in Google Cloud Stor
 <h1 id="163">163</h1>
 
 <p>Your company runs several databases on a single MySQL instance. They need to take backups of a specific database at regular intervals. The backup activity needs to complete as quickly as possible and cannot be allowed to impact disk performance.<br />
-How should you configure the storage? <br />
+How should you configure the storage?    <br />
 您的公司在单个 MySQL 实例上运行多个数据库。他们需要定期备份特定数据库。备份活动需要尽快完成，并且不能影响磁盘性能。<br />
 您应该如何配置存储？</p>
 
@@ -680,7 +680,7 @@ D. Mount additional persistent disk volumes onto each virtual machine (VM) insta
 <h1 id="164">164</h1>
 
 <p>You are helping the QA team to roll out a new load-testing tool to test the scalability of your primary cloud services that run on Google Compute Engine with Cloud Bigtable.<br />
-Which three requirements should they include? (Choose three.)<br />
+Which three requirements should they include?    (Choose three.)<br />
 您正在帮助 QA 团队推出一款新的负载测试工具，用于测试在 Google Compute Engine 和 Cloud
 Bigtable 上运行的主要云服务的可扩展性。<br />
 该工具应包含哪三个要求？（选择三个。）</p>
@@ -709,7 +709,7 @@ D. Project owner, network admin</p>
 <h1 id="166">166</h1>
 
 <p>Your company places a high value on being responsive and meeting customer needs quickly. Their primary business objectives are release speed and agility. You want to reduce the chance of security errors being accidentally introduced.<br />
-Which two actions can you take? (Choose two.)<br />
+Which two actions can you take?    (Choose two.)<br />
 您的公司高度重视快速响应并满足客户需求。他们的主要业务目标是发布速度和敏捷性。您希望降低意外引入安全错误的可能性。<br />
 您可以采取哪两项措施？（选择两项。）</p>
 
@@ -724,7 +724,7 @@ E. Run a vulnerability security scanner as part of your continuous-integration /
 <h1 id="167">167</h1>
 
 <p>You want to enable your running Google Kubernetes Engine cluster to scale as demand for your application changes.
-What should you do?<br />
+What should you do?   <br />
 您希望使正在运行的 Google Kubernetes Engine 集群能够随着应用程序需求的变化而扩展。<br />
 您应该怎么做？</p>
 
@@ -738,7 +738,7 @@ D. Create a new Kubernetes Engine cluster with the following command: gcloud alp
 <h1 id="168">168</h1>
 
 <p>Your marketing department wants to send out a promotional email campaign. The development team wants to minimize direct operation management. They project a wide range of possible customer responses, from 100 to 500,000 click-through per day. The link leads to a simple website that explains the promotion and collects user information and preferences.<br />
-Which infrastructure should you recommend? (Choose two.)<br />
+Which infrastructure should you recommend?    (Choose two.)<br />
 您的市场部门想要发送促销邮件。开发团队希望尽量减少直接运营管理。他们预测了各种可能的客户响应，每天的点击量从100到50万次不等。邮件链接指向一个简单的网站，该网站会解释促销活动并收集用户信息和偏好。<br />
 您应该推荐哪种基础设施？（选择两项。）</p>
 
@@ -752,7 +752,7 @@ D. Use a single Compute Engine virtual machine (VM) to host a web server, backen
 <h1 id="169">169</h1>
 
 <p>Your company just finished a rapid lift and shift to Google Compute Engine for your compute needs. You have another 9 months to design and deploy a more cloud-native solution. Specifically, you want a system that is no-ops and auto-scaling.<br />
-Which two compute products should you choose? (Choose two.)<br />
+Which two compute products should you choose?    (Choose two.)<br />
 您的公司刚刚完成了快速迁移到 Google Compute Engine 以满足您的计算需求。您还有 9 个月的时间来设计和部署更符合云原生需求的解决方案。具体来说，您需要一个无需运维且可自动扩展的系统。<br />
 您应该选择哪两款计算产品？（选择两项。）</p>
 
@@ -780,7 +780,7 @@ D. Create a JSON dump of each log entry and store it in Google Cloud Storage</p>
 
 <p>Your company has a Google Workspace account and Google Cloud Organization. Some developers in the company have created Google Cloud projects outside of the Google Cloud Organization.<br />
 You want to create an Organization structure that allows developers to create projects, but prevents them from modifying production projects. You want to manage policies for all projects centrally and be able to set more restrictive policies for production projects.<br />
-You want to minimize disruption to users and developers when business needs change in the future. You want to follow Google-recommended practices. Now should you design the Organization structure?<br />
+You want to minimize disruption to users and developers when business needs change in the future. You want to follow Google-recommended practices. Now should you design the Organization structure?   <br />
 您的公司拥有一个 Google Workspace 帐号和一个 Google Cloud Organization。公司中的一些开发者在 Google Cloud Organization 之外创建了 Google Cloud 项目。<br />
 您希望创建一个组织结构，允许开发者创建项目，但禁止他们修改生产项目。您希望集中管理所有项目的政策，并能够为生产项目设置更严格的政策。<br />
 您希望在未来业务需求发生变化时，最大限度地减少对用户和开发者的干扰。您希望遵循 Google 推荐的做法。现在您应该设计组织结构了吗？</p>
@@ -856,7 +856,7 @@ D. 1. Create a daily cron job, running on all instances, that uploads logs into 
 
 <h1 id="177">177</h1>
 
-<p>Your company has just recently activated Cloud Identity to manage users. The Google Cloud Organization has been configured as well. The security team needs to secure projects that will be part of the Organization. They want to prohibit IAM users outside the domain from gaining permissions from now on. What should they do?<br />
+<p>Your company has just recently activated Cloud Identity to manage users. The Google Cloud Organization has been configured as well. The security team needs to secure projects that will be part of the Organization. They want to prohibit IAM users outside the domain from gaining permissions from now on. What should they do?   <br />
 贵公司最近刚刚启用 Cloud Identity 来管理用户。Google Cloud 组织也已配置完毕。安全团队需要保护即将加入该组织的项目。他们希望从现在起禁止域外的 IAM 用户获取权限。他们应该怎么做？</p>
 
 <p>A. Configure an organization policy to restrict identities by domain.<br />
@@ -869,7 +869,7 @@ D. Create a technical user (e.g., crawler@yourdomain.com), and give it the proje
 <h1 id="178">178</h1>
 
 <p>Your company has an application running on Google Cloud that is collecting data from thousands of physical devices that are globally distributed. Data is published to Pub/Sub and streamed in real time into an SSD Cloud Bigtable cluster via a Dataflow pipeline. The operations team informs you that your Cloud
-Bigtable cluster has a hotspot, and queries are taking longer than expected. You need to resolve the problem and prevent it from happening in the future. What should you do?<br />
+Bigtable cluster has a hotspot, and queries are taking longer than expected. You need to resolve the problem and prevent it from happening in the future. What should you do?   <br />
 贵公司在 Google Cloud 上运行着一个应用，该应用从分布在全球的数千台物理设备收集数据。数据发布到 Pub/Sub 平台，并通过 Dataflow 流水线实时传输到 SSD Cloud Bigtable 集群中。运营团队通知您，您的 Cloud Bigtable 集群存在热点，查询时间超出预期。您需要解决该问题并防止其再次发生。您应该怎么做？</p>
 
 <p>A. Advise your clients to use HBase APIs instead of NodeJS APIs.<br />
@@ -882,7 +882,7 @@ D. Double the number of nodes you currently have.</p>
 <h1 id="179">179</h1>
 
 <p>Your company has a Google Cloud project that uses BigQuery for data warehousing. There are some tables that contain personally identifiable information (PII).
-Only the compliance team may access the PII. The other information in the tables must be available to the data science team. You want to minimize cost and the time it takes to assign appropriate access to the tables. What should you do?<br />
+Only the compliance team may access the PII. The other information in the tables must be available to the data science team. You want to minimize cost and the time it takes to assign appropriate access to the tables. What should you do?   <br />
 贵公司有一个 Google Cloud 项目，使用 BigQuery 进行数据仓储。其中一些表包含个人身份信息 (PII)。<br />
 只有合规团队可以访问这些 PII。表中的其他信息必须向数据科学团队开放。您希望最大限度地降低分配适当表访问权限所需的成本和时间。您应该怎么做？</p>
 
@@ -895,7 +895,7 @@ D. 1. Create a dataset for the data science team. 2. Create materialized views o
 
 <h1 id="180">180</h1>
 
-<p>Your operations team currently stores 10 TB of data in an object storage service from a third-party provider. They want to move this data to a Cloud Storage bucket as quickly as possible, following Google-recommended practices. They want to minimize the cost of this data migration. Which approach should they use?<br />
+<p>Your operations team currently stores 10 TB of data in an object storage service from a third-party provider. They want to move this data to a Cloud Storage bucket as quickly as possible, following Google-recommended practices. They want to minimize the cost of this data migration. Which approach should they use?   <br />
 您的运营团队目前在第三方提供商的对象存储服务中存储了 10 TB 的数据。他们希望按照 Google 推荐的做法，尽快将这些数据迁移到 Cloud Storage 存储桶中。他们希望最大限度地降低数据迁移的成本。他们应该使用哪种方法？</p>
 
 <p>A. Use the gsutil mv command to move the data.<br />
@@ -907,7 +907,7 @@ D. Download the data to the on-premises data center, and upload it to the Cloud 
 
 <h1 id="181">181</h1>
 
-<p>You have a Compute Engine managed instance group that adds and removes Compute Engine instances from the group in response to the load on your application. The instances have a shutdown script that removes REDIS database entries associated with the instance. You see that many database entries have not been removed, and you suspect that the shutdown script is the problem. You need to ensure that the commands in the shutdown script are run reliably every time an instance is shut down. You create a Cloud Function to remove the database entries. What should you do next?<br />
+<p>You have a Compute Engine managed instance group that adds and removes Compute Engine instances from the group in response to the load on your application. The instances have a shutdown script that removes REDIS database entries associated with the instance. You see that many database entries have not been removed, and you suspect that the shutdown script is the problem. You need to ensure that the commands in the shutdown script are run reliably every time an instance is shut down. You create a Cloud Function to remove the database entries. What should you do next?   <br />
 您有一个 Compute Engine 托管实例组，该组会根据应用程序的负载情况，在组中添加和移除 Compute Engine 实例。这些实例有一个关闭脚本，用于删除与该实例关联的 REDIS 数据库条目。您发现许多数据库条目尚未删除，因此怀疑关闭脚本存在问题。您需要确保每次关闭实例时，关闭脚本中的命令都能可靠地运行。您创建了一个 Cloud Functions 函数来删除数据库条目。接下来应该做什么？</p>
 
 <p>A. Modify the shutdown script to wait for 30 seconds before triggering the Cloud Function.<br />
@@ -919,7 +919,7 @@ D. Modify the shutdown script to wait for 30 seconds and then publish a message 
 
 <h1 id="182">182</h1>
 
-<p>You are managing several projects on Google Cloud and need to interact on a daily basis with BigQuery, Bigtable, and Kubernetes Engine using the gcloud CL tool. You are travelling a lot and work on different workstations during the week. You want to avoid having to manage the gcloud CLI manually. What should you do?<br />
+<p>You are managing several projects on Google Cloud and need to interact on a daily basis with BigQuery, Bigtable, and Kubernetes Engine using the gcloud CL tool. You are travelling a lot and work on different workstations during the week. You want to avoid having to manage the gcloud CLI manually. What should you do?   <br />
 您正在 Google Cloud 上管理多个项目，并且需要使用 gcloud CL 工具每天与 BigQuery、Bigtable 和 Kubernetes Engine 进行交互。您经常出差，并且在工作日使用不同的工作站。您希望避免手动管理 gcloud CLI。您应该怎么做？</p>
 
 <p>A. Use Google Cloud Shell in the Google Cloud Console to interact with Google Cloud.<br />
@@ -931,7 +931,7 @@ D. Use a package manager to install gcloud on your workstations instead of insta
 
 <h1 id="183">183</h1>
 
-<p>Your company recently acquired a company that has infrastructure in Google Cloud. Each company has its own Google Cloud organization. Each company is using a Shared Virtual Private Cloud (VPC) to provide network connectivity for its applications. Some of the subnets used by both companies overlap. In order for both businesses to integrate, the applications need to have private network connectivity. These applications are not on overlapping subnets. You want to provide connectivity with minimal re-engineering. What should you do?<br />
+<p>Your company recently acquired a company that has infrastructure in Google Cloud. Each company has its own Google Cloud organization. Each company is using a Shared Virtual Private Cloud (VPC) to provide network connectivity for its applications. Some of the subnets used by both companies overlap. In order for both businesses to integrate, the applications need to have private network connectivity. These applications are not on overlapping subnets. You want to provide connectivity with minimal re-engineering. What should you do?   <br />
 贵公司最近收购了一家在 Google Cloud 上拥有基础架构的公司。两家公司都有各自的 Google Cloud 组织。每家公司都使用共享虚拟私有云 (VPC) 为其应用程序提供网络连接。两家公司使用的部分子网存在重叠。为了使两家公司能够集成，应用程序需要具有私有网络连接。这些应用程序不在重叠的子网上。您希望以最少的重新设计提供连接。您应该怎么做？</p>
 
 <p>A. Set up VPC peering and peer each Shared VPC together.<br />
@@ -943,7 +943,7 @@ D. Configure SSH port forwarding on each application to provide connectivity bet
 
 <h1 id="184">184</h1>
 
-<p>You are managing several internal applications that are deployed on Compute Engine. Business users inform you that an application has become very slow over the past few days. You want to find the underlying cause in order to solve the problem. What should you do first?<br />
+<p>You are managing several internal applications that are deployed on Compute Engine. Business users inform you that an application has become very slow over the past few days. You want to find the underlying cause in order to solve the problem. What should you do first?   <br />
 您正在管理部署在 Compute Engine 上的多个内部应用。业务用户通知您，某个应用在过去几天变得非常缓慢。您想找到根本原因以解决问题。您首先应该做什么？</p>
 
 <p>A. Inspect the logs and metrics from the instances in Cloud Logging and Cloud Monitoring.<br />
@@ -955,7 +955,7 @@ D. Deploy the applications on a managed instance group with autoscaling enabled.
 
 <h1 id="185">185</h1>
 
-<p>Your company has an application running as a Deployment in a Google Kubernetes Engine (GKE) cluster. When releasing new versions of the application via a rolling deployment, the team has been causing outages. The root cause of the outages is misconfigurations with parameters that are only used in production. You want to put preventive measures for this in the platform to prevent outages. What should you do? 
+<p>Your company has an application running as a Deployment in a Google Kubernetes Engine (GKE) cluster. When releasing new versions of the application via a rolling deployment, the team has been causing outages. The root cause of the outages is misconfigurations with parameters that are only used in production. You want to put preventive measures for this in the platform to prevent outages. What should you do?  <br />
 贵公司有一个应用程序以 Deployment 的形式在 Google Kubernetes Engine (GKE) 集群中运行。在通过滚动部署发布该应用程序的新版本时，团队经常会遇到服务中断的情况。服务中断的根本原因是一些仅在生产环境中使用的参数配置错误。您希望在平台中引入预防措施，以防止服务中断。您应该怎么做？</p>
 
 <p>A. Configure liveness and readiness probes in the Pod specification.<br />
@@ -967,7 +967,7 @@ D. Configure an uptime alert in Cloud Monitoring.</p>
 
 <h1 id="186">186</h1>
 
-<p>Your company uses Google Kubernetes Engine (GKE) as a platform for all workloads. Your company has a single large GKE cluster that contains batch, stateful, and stateless workloads. The GKE cluster is configured with a single node pool with 200 nodes. Your company needs to reduce the cost of this cluster but does not want to compromise availability. What should you do?<br />
+<p>Your company uses Google Kubernetes Engine (GKE) as a platform for all workloads. Your company has a single large GKE cluster that contains batch, stateful, and stateless workloads. The GKE cluster is configured with a single node pool with 200 nodes. Your company needs to reduce the cost of this cluster but does not want to compromise availability. What should you do?   <br />
 贵公司使用 Google Kubernetes Engine (GKE) 作为所有工作负载的平台。贵公司拥有一个大型 GKE 集群，其中包含批处理、有状态和无状态工作负载。该 GKE 集群配置了一个包含 200 个节点的单节点池。贵公司需要降低此集群的成本，但又不想牺牲可用性。您应该怎么做？</p>
 
 <p>A. Create a second GKE cluster for the batch workloads only. Allocate the 200 original nodes across both clusters.<br />
@@ -979,7 +979,7 @@ D. Change the node pool to use preemptible VMs.</p>
 
 <h1 id="187">187</h1>
 
-<p>Your company has a Google Cloud project that uses BigQuery for data warehousing on a pay-per-use basis. You want to monitor queries in real time to discover the most costly queries and which users spend the most. What should you do?<br />
+<p>Your company has a Google Cloud project that uses BigQuery for data warehousing on a pay-per-use basis. You want to monitor queries in real time to discover the most costly queries and which users spend the most. What should you do?   <br />
 贵公司有一个 Google Cloud 项目，该项目使用 BigQuery 进行数据仓库管理，并按使用量付费。您希望实时监控查询，以发现成本最高的查询以及哪些用户花费最多。您应该怎么做？</p>
 
 <p>A. 1. In the BigQuery dataset that contains all the tables to be queried, add a label for each user that can launch a query. 2. Open the Billing page of the project. 3. Select Reports. 4. Select BigQuery as the product and filter by the user you want to check.<br />
@@ -991,7 +991,7 @@ D. 1. Activate billing export into BigQuery. 2. Perform a BigQuery query on the 
 
 <h1 id="188">188</h1>
 
-<p>Your company and one of its partners each have a Google Cloud project in separate organizations. Your company’s project (prj-a) runs in Virtual Private Cloud(vpc-a). The partner’s project (prj-b) runs in vpc-b. There are two instances running on vpc-a and one instance running on vpc-b. Subnets defined in both VPCs are not overlapping. You need to ensure that all instances communicate with each other via internal IPs, minimizing latency and maximizing throughput. What should you do?<br />
+<p>Your company and one of its partners each have a Google Cloud project in separate organizations. Your company’s project (prj-a) runs in Virtual Private Cloud(vpc-a). The partner’s project (prj-b) runs in vpc-b. There are two instances running on vpc-a and one instance running on vpc-b. Subnets defined in both VPCs are not overlapping. You need to ensure that all instances communicate with each other via internal IPs, minimizing latency and maximizing throughput. What should you do?   <br />
 您的公司及其合作伙伴分别在不同的组织中拥有一个 Google Cloud 项目。贵公司的项目 (prj-a) 在 Virtual Private Cloud
 (vpc-a) 中运行。合作伙伴的项目 (prj-b) 在 vpc-b 中运行。vpc-a 上运行着两个实例，vpc-b 上运行着一个实例。两个 VPC 中定义的子网互不重叠。您需要确保所有实例都通过内部 IP 相互通信，从而最大限度地降低延迟并提高吞吐量。您应该怎么做？</p>
 
@@ -1059,7 +1059,7 @@ D. A single Cloud VPN gateway connected to an on-premises VPN gateway</p>
 
 <h1 id="192">192</h1>
 
-<p>Your company has an application running on App Engine that allows users to upload music files and share them with other people. You want to allow users to upload files directly into Cloud Storage from their browser session. The payload should not be passed through the backend. What should you do?<br />
+<p>Your company has an application running on App Engine that allows users to upload music files and share them with other people. You want to allow users to upload files directly into Cloud Storage from their browser session. The payload should not be passed through the backend. What should you do?   <br />
 贵公司有一个在 App Engine 上运行的应用，允许用户上传音乐文件并与他人共享。您希望允许用户在浏览器会话中直接将文件上传到 Cloud Storage。有效负载不应通过后端传递。您应该怎么做？</p>
 
 <p>A. 1. Set a CORS configuration in the target Cloud Storage bucket where the base URL of the App Engine application is an allowed origin.</p>
@@ -1096,7 +1096,7 @@ D. Enable Identity-Aware Proxy for TCP forwarding for instances in sub-b.</p>
 
 <h1 id="194">194</h1>
 
-<p>Your company is planning to migrate their Windows Server 2022 from their on-premises data center to Google Cloud. You need to bring the licenses that are currently in use in on-premises virtual machines into the target cloud environment. What should you do?<br />
+<p>Your company is planning to migrate their Windows Server 2022 from their on-premises data center to Google Cloud. You need to bring the licenses that are currently in use in on-premises virtual machines into the target cloud environment. What should you do?   <br />
 贵公司计划将 Windows Server 2022 从本地数据中心迁移到 Google Cloud。您需要将当前在本地虚拟机中使用的许可证迁移到目标云环境中。您应该怎么做？</p>
 
 <p>A. 1. Create an image of the on-premises virtual machines and upload into Cloud Storage.</p>
@@ -1204,7 +1204,7 @@ B. Configure VPC Service Controls and configure Private Google Access for on-pro
 C. Create a service account, grant the BigQuery JobUser role and Storage Object Viewer role to the service account, and remove all other Identity and Access Management (IAM) access from the project. <br />
 D. Configure Private Google Access.</p>
 
-<p><a href="/assets/gcp/discussion/200.md">Discussion</a></p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="cloud" /><category term="ai" /><category term="k8s" /><category term="cloud" /><summary type="html"><![CDATA[professional cloud architect 2025-04-11 12:00:00]]></summary></entry><entry><title type="html">professional cloud architect 201-250</title><link href="/cloud/2025/04/11/12-00-00-professional-cloud-architect-201-250.html" rel="alternate" type="text/html" title="professional cloud architect 201-250" /><published>2025-04-11T12:00:00+08:00</published><updated>2025-04-11T12:00:00+08:00</updated><id>/cloud/2025/04/11/12:00:00-professional-cloud-architect%20201-250</id><content type="html" xml:base="/cloud/2025/04/11/12-00-00-professional-cloud-architect-201-250.html"><![CDATA[<p>professional cloud architect 2025-04-11 12:00:00</p>
+<p><a href="/assets/gcp/discussion/200.md">Discussion</a></p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="cloud" /><category term="ai" /><category term="k8s" /><category term="cloud" /><summary type="html"><![CDATA[professional cloud architect 2025-04-11 12:00:00 151]]></summary></entry><entry><title type="html">professional cloud architect 201-250</title><link href="/cloud/2025/04/11/12-00-00-professional-cloud-architect-201-250.html" rel="alternate" type="text/html" title="professional cloud architect 201-250" /><published>2025-04-11T12:00:00+08:00</published><updated>2025-04-11T12:00:00+08:00</updated><id>/cloud/2025/04/11/12:00:00-professional-cloud-architect%20201-250</id><content type="html" xml:base="/cloud/2025/04/11/12-00-00-professional-cloud-architect-201-250.html"><![CDATA[<p>professional cloud architect 2025-04-11 12:00:00</p>
 
 <h1 id="201">201</h1>
 
@@ -1363,7 +1363,7 @@ The challenges of operating data centers prevent focus on key technologies criti
 Since its founding, JencoMart has invested heavily in our data services infrastructure. However, because of changing market trends, we need to outsource our infrastructure to ensure our long-term success. This model will allow us to respond to increasing customer demand during peak periods and reduce costs.<br />
 Question<br />
 A few days after JencoMart migrates the user credentials database to Google Cloud Platform and shuts down the old server, the new database server stops responding to SSH connections. It is still serving database requests to the application servers correctly.<br />
-What three steps should you take to diagnose the problem? (Choose three.)</p>
+What three steps should you take to diagnose the problem?    (Choose three.)</p>
 
 <p>A. Delete the virtual machine (VM) and disks and create a new one<br />
 B. Delete the instance, attach the disk to a new VM, and investigate<br />
@@ -1615,7 +1615,7 @@ The challenges of operating data centers prevent focus on key technologies criti
 Since its founding, JencoMart has invested heavily in our data services infrastructure. However, because of changing market trends, we need to outsource our infrastructure to ensure our long-term success. This model will allow us to respond to increasing customer demand during peak periods and reduce costs.</p>
 
 <p>The migration of JencoMart’s application to Google Cloud Platform (GCP) is progressing too slowly. The infrastructure is shown in the diagram. You want to maximize throughput.
-What are three potential bottlenecks? (Choose three.)</p>
+What are three potential bottlenecks?    (Choose three.)</p>
 
 <p><img src="/assets/images/n8n/205.png" alt="image" /></p>
 
@@ -1808,20 +1808,20 @@ Our CEO, S. Hawke, wants to bring high-adrenaline racing to fans all around the 
 Question
 For this question, refer to the Helicopter Racing League (HRL) case study. Recently HRL started a new regional racing league in Cape Town, South Africa. In an effort to give customers in Cape Town a better user experience, HRL has partnered with the Content Delivery Network provider, Fastly. HRL needs to allow traffic coming from all of the Fastly IP address ranges into their Virtual Private Cloud network (VPC network). You are a member of the HRL security team and you need to configure the update that will allow only the Fastly IP address ranges through the External HTTP(S) load balancer. Which command should you use?</p>
 
-<p>A. gcloud compute security-policies rules update 1000 <br />
-  –security-policy from-fastly <br />
-  –src-ip-ranges * <br />
+<p>A. gcloud compute security-policies rules update 1000 \<br />
+  –security-policy from-fastly \<br />
+  –src-ip-ranges * \<br />
   –action “allow”<br />
-B. gcloud compute firewall rules update sourceiplist-fastly <br />
-  –priority 1000 <br />
+B. gcloud compute firewall rules update sourceiplist-fastly \<br />
+  –priority 1000 \<br />
   –allow tcp:443<br />
-C. gcloud compute firewall rules update hlr-policy <br />
-  –priority 1000 <br />
-  –target-tags=sourceiplist-fastly <br />
+C. gcloud compute firewall rules update hlr-policy \<br />
+  –priority 1000 \<br />
+  –target-tags=sourceiplist-fastly \<br />
   –allow tcp:443<br />
-D. gcloud compute security-policies rules update 1000 <br />
-  –security-policy hlr-policy <br />
-  –expression “evaluatePreconfiguredExpr(‘sourceiplist-fastly’)” <br />
+D. gcloud compute security-policies rules update 1000 \<br />
+  –security-policy hlr-policy \<br />
+  –expression “evaluatePreconfiguredExpr(‘sourceiplist-fastly’)” \<br />
   –action “allow”</p>
 
 <p><a href="/assets/gcp/discussion/208.md">Discussion</a></p>
@@ -1989,14 +1989,14 @@ D. From the Google Console, identify which Compute Engine instances in the manag
 <h1 id="213">213</h1>
 
 <p>Question<br />
-For this question, refer to the EHR Healthcare case study. You are responsible for ensuring that EHR’s use of Google Cloud will pass an upcoming privacy compliance audit. What should you do? (Choose two.)</p>
+For this question, refer to the EHR Healthcare case study. You are responsible for ensuring that EHR’s use of Google Cloud will pass an upcoming privacy compliance audit. What should you do?    (Choose two.)</p>
 
 <p><a href="/assets/gcp/discussion/213.md">Discussion</a></p>
 
 <h1 id="214">214</h1>
 
 <p>Question
-For this question, refer to the EHR Healthcare case study. You need to define the technical architecture for securely deploying workloads to Google Cloud. You also need to ensure that only verified containers are deployed using Google Cloud services. What should you do? (Choose two.)</p>
+For this question, refer to the EHR Healthcare case study. You need to define the technical architecture for securely deploying workloads to Google Cloud. You also need to ensure that only verified containers are deployed using Google Cloud services. What should you do?    (Choose two.)</p>
 
 <p>A. Enable Binary Authorization on GKE, and sign containers as part of a CI/CD pipeline.<br />
 B. Configure Jenkins to utilize Kritis to cryptographically sign a container as part of a CI/CD pipeline.<br />
@@ -2189,7 +2189,7 @@ E. Cloud Pub/Sub, Compute Engine, Cloud Storage, and Cloud Dataproc</p>
 
 <p>Question
 For this question, refer to the Mountkirk Games case study. Mountkirk Games wants to migrate from their current analytics and statistics reporting model to one that meets their technical requirements on Google Cloud Platform.<br />
-Which two steps should be part of their migration plan? (Choose two.)</p>
+Which two steps should be part of their migration plan?    (Choose two.)</p>
 
 <p>A. Evaluate the impact of migrating their current batch ETL code to Cloud Dataflow.<br />
 B. Write a schema migration plan to denormalize data for better performance in BigQuery.<br />
@@ -2214,7 +2214,7 @@ D. Create a global load balancer with managed instance groups and autoscaling po
 <h1 id="228">228</h1>
 
 <p>Question
-For this question, refer to the Mountkirk Games case study. Mountkirk Games wants to design their solution for the future in order to take advantage of cloud and technology improvements as they become available. Which two steps should they take? (Choose two.)</p>
+For this question, refer to the Mountkirk Games case study. Mountkirk Games wants to design their solution for the future in order to take advantage of cloud and technology improvements as they become available. Which two steps should they take?    (Choose two.)</p>
 
 <p>A. Store as much analytics and game activity data as financially feasible today so it can be used to train machine learning models to predict user behavior in the future.<br />
 B. Begin packaging their game backend artifacts in container images and running them on Google Kubernetes Engine to improve the ability to scale up or down based on game activity.<br />
@@ -2403,7 +2403,7 @@ Which architecture should you recommend?</p>
 <p>Correct Answer: A<br />
 The push endpoint can be a load balancer.<br />
 A container cluster can be used.<br />
-Cloud Pub/Sub for Stream Analytics<br />
+Cloud Pub/Sub for Stream Analytics  <br />
 <img src="/assets/gcp/240.png" alt="gcp" /></p>
 
 <p><a href="/assets/gcp/discussion/240.md">Discussion</a></p>
@@ -2516,7 +2516,7 @@ D. Have the vehicle’s computer compress the data in hourly snapshots, and stor
 
 <p>Question
 Your agricultural division is experimenting with fully autonomous vehicles. You want your architecture to promote strong security during vehicle operation.<br />
-Which two architectures should you consider? (Choose two.)</p>
+Which two architectures should you consider?    (Choose two.)</p>
 
 <p>A. Treat every micro service call between modules on the vehicle as untrusted.<br />
 B. Require IPv6 for connectivity to ensure a secure address space.<br />
@@ -2538,12 +2538,12 @@ B. Capture all operating data, train machine learning models that identify ideal
 C. Implement a Google Cloud Dataflow streaming job with a sliding window, and use Google Cloud Messaging (GCM) to make operational adjustments automatically<br />
 D. Capture all operating data, train machine learning models that identify ideal operations, and host in Google Cloud Machine Learning (ML) Platform to make operational adjustments automatically</p>
 
-<p><a href="/assets/gcp/discussion/250.md">Discussion</a></p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="cloud" /><category term="ai" /><category term="k8s" /><category term="cloud" /><summary type="html"><![CDATA[professional cloud architect 2025-04-11 12:00:00]]></summary></entry><entry><title type="html">professional cloud architect 101-150</title><link href="/cloud/2025/04/10/12-00-00-professional-cloud-architect-101-150.html" rel="alternate" type="text/html" title="professional cloud architect 101-150" /><published>2025-04-10T12:00:00+08:00</published><updated>2025-04-10T12:00:00+08:00</updated><id>/cloud/2025/04/10/12:00:00-professional-cloud-architect%20101-150</id><content type="html" xml:base="/cloud/2025/04/10/12-00-00-professional-cloud-architect-101-150.html"><![CDATA[<p>professional cloud architect 2025-04-10 12:00:00</p>
+<p><a href="/assets/gcp/discussion/250.md">Discussion</a></p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="cloud" /><category term="ai" /><category term="k8s" /><category term="cloud" /><summary type="html"><![CDATA[professional cloud architect 2025-04-11 12:00:00 201]]></summary></entry><entry><title type="html">professional cloud architect 101-150</title><link href="/cloud/2025/04/10/12-00-00-professional-cloud-architect-101-150.html" rel="alternate" type="text/html" title="professional cloud architect 101-150" /><published>2025-04-10T12:00:00+08:00</published><updated>2025-04-10T12:00:00+08:00</updated><id>/cloud/2025/04/10/12:00:00-professional-cloud-architect%20101-150</id><content type="html" xml:base="/cloud/2025/04/10/12-00-00-professional-cloud-architect-101-150.html"><![CDATA[<p>professional cloud architect 2025-04-10 12:00:00</p>
 
 <h1 id="101">101</h1>
 
 <p>Your company is building a new architecture to support its data-centric business focus. You are responsible for setting up the network. Your company’s mobile and web-facing applications will be deployed on-premises, and all data analysis will be conducted in GCP. The plan is to process and load 7 years of archived .csv files totaling 900 TB of data and then continue loading 10 TB of data daily. You currently have an existing 100-MB internet connection.<br />
-What actions will meet your company’s needs?<br />
+What actions will meet your company’s needs?   <br />
 贵公司正在构建新的架构，以支持其以数据为中心的业务重点。您负责设置网络。贵公司的移动和面向 Web 的应用程序将部署在本地，所有数据分析都将在 GCP 中进行。计划处理和加载 7 年的归档 .csv 文件，总计 900 TB 数据，之后每天继续加载 10 TB 数据。您目前拥有 100 MB 的互联网连接。<br />
 哪些措施可以满足贵公司的需求？</p>
 
@@ -2557,7 +2557,7 @@ D. Lease a Transfer Appliance, upload archived files to it, and send it to Googl
 <h1 id="102">102</h1>
 
 <p>You are developing a globally scaled frontend for a legacy streaming backend data API. This API expects events in strict chronological order with no repeat data for proper processing.<br />
-Which products should you deploy to ensure guaranteed-once FIFO (first-in, first-out) delivery of data?<br />
+Which products should you deploy to ensure guaranteed-once FIFO (first-in, first-out) delivery of data?   <br />
 您正在为一个传统的流式后端数据 API 开发一个全球扩展的前端。该 API 要求事件严格按照时间顺序排列，且没有重复数据才能正确处理。<br />
 您应该部署哪些产品来确保数据按一次 FIFO（先进先出）传输？</p>
 
@@ -2571,7 +2571,7 @@ D. Cloud Pub/Sub to Cloud SQL</p>
 <h1 id="103">103</h1>
 
 <p>Your company is planning to perform a lift and shift migration of their Linux RHEL 6.5+ virtual machines. The virtual machines are running in an on-premises<br />
-VMware environment. You want to migrate them to Compute Engine following Google-recommended practices. What should you do?<br />
+VMware environment. You want to migrate them to Compute Engine following Google-recommended practices. What should you do?   <br />
 贵公司计划对其 Linux RHEL 6.5+ 虚拟机进行直接迁移。这些虚拟机目前在本地
 VMware 环境中运行。您希望按照 Google 推荐的做法将它们迁移到 Compute Engine。您应该怎么做？</p>
 
@@ -2584,7 +2584,7 @@ D. 1. Perform an assessment of virtual machines running in the current VMware en
 
 <h1 id="104">104</h1>
 
-<p>You need to deploy an application to Google Cloud. The application receives traffic via TCP and reads and writes data to the filesystem. The application does not support horizontal scaling. The application process requires full control over the data on the file system because concurrent access causes corruption. The business is willing to accept a downtime when an incident occurs, but the application must be available 24/7 to support their business operations. You need to design the architecture of this application on Google Cloud. What should you do?<br />
+<p>You need to deploy an application to Google Cloud. The application receives traffic via TCP and reads and writes data to the filesystem. The application does not support horizontal scaling. The application process requires full control over the data on the file system because concurrent access causes corruption. The business is willing to accept a downtime when an incident occurs, but the application must be available 24/7 to support their business operations. You need to design the architecture of this application on Google Cloud. What should you do?   <br />
 您需要将一个应用程序部署到 Google Cloud。该应用程序通过 TCP 接收流量，并读写文件系统中的数据。该应用程序不支持水平扩展。由于并发访问会导致数据损坏，应用程序进程需要完全控制文件系统上的数据。企业愿意接受事件发生时的停机时间，但该应用程序必须全天候可用才能支持其业务运营。您需要在 Google Cloud 上设计此应用程序的架构。您应该怎么做？</p>
 
 <p>A. Use a managed instance group with instances in multiple zones, use Cloud Filestore, and use an HTTP load balancer in front of the instances.<br />
@@ -2596,7 +2596,7 @@ D. Use an unmanaged instance group with an active and standby instance in differ
 
 <h1 id="105">105</h1>
 
-<p>Your company has an application running on multiple Compute Engine instances. You need to ensure that the application can communicate with an on-premises service that requires high throughput via internal IPs, while minimizing latency. What should you do?<br />
+<p>Your company has an application running on multiple Compute Engine instances. You need to ensure that the application can communicate with an on-premises service that requires high throughput via internal IPs, while minimizing latency. What should you do?   <br />
 您的公司有一个在多个 Compute Engine 实例上运行的应用。您需要确保该应用能够通过内部 IP 与需要高吞吐量的本地服务进行通信，同时最大限度地降低延迟。您应该怎么做？</p>
 
 <p>A. Use OpenVPN to configure a VPN tunnel between the on-premises environment and Google Cloud.<br />
@@ -2608,7 +2608,7 @@ D. Configure a Cloud Dedicated Interconnect connection between the on-premises e
 
 <h1 id="106">106</h1>
 
-<p>You are managing an application deployed on Cloud Run for Anthos, and you need to define a strategy for deploying new versions of the application. You want to evaluate the new code with a subset of production traffic to decide whether to proceed with the rollout. What should you do?<br />
+<p>You are managing an application deployed on Cloud Run for Anthos, and you need to define a strategy for deploying new versions of the application. You want to evaluate the new code with a subset of production traffic to decide whether to proceed with the rollout. What should you do?   <br />
 您正在管理部署在 Cloud Run for Anthos 上的一个应用，并且需要制定一个部署新版本应用的策略。您需要使用一部分生产流量来评估新代码，以决定是否继续部署。您应该怎么做？</p>
 
 <p>A. Deploy a new revision to Cloud Run with the new version. Configure traffic percentage between revisions.<br />
@@ -2620,7 +2620,7 @@ D. In the Google Cloud Console, configure Traffic Director with a new Service th
 
 <h1 id="107">107</h1>
 
-<p>You are monitoring Google Kubernetes Engine (GKE) clusters in a Cloud Monitoring workspace. As a Site Reliability Engineer (SRE), you need to triage incidents quickly. What should you do?<br />
+<p>You are monitoring Google Kubernetes Engine (GKE) clusters in a Cloud Monitoring workspace. As a Site Reliability Engineer (SRE), you need to triage incidents quickly. What should you do?   <br />
 您正在 Cloud Monitoring 工作区中监控 Google Kubernetes Engine (GKE) 集群。作为站点可靠性工程师 (SRE)，您需要快速分类事件。您应该怎么做？</p>
 
 <p>A. Navigate the predefined dashboards in the Cloud Monitoring workspace, and then add metrics and create alert policies.<br />
@@ -2632,7 +2632,7 @@ D. Create a custom dashboard in the Cloud Monitoring workspace for each incident
 
 <h1 id="108">108</h1>
 
-<p>You are implementing a single Cloud SQL MySQL second-generation database that contains business-critical transaction data. You want to ensure that the minimum amount of data is lost in case of catastrophic failure. Which two features should you implement? (Choose two.)<br />
+<p>You are implementing a single Cloud SQL MySQL second-generation database that contains business-critical transaction data. You want to ensure that the minimum amount of data is lost in case of catastrophic failure. Which two features should you implement?    (Choose two.)<br />
 您正在实现一个包含业务关键型事务数据的 Cloud SQL MySQL 第二代数据库。您希望确保在发生灾难性故障时数据丢失量最少。您应该实现哪两项功能？（选择两项。）</p>
 
 <p>A. Sharding<br />
@@ -2645,7 +2645,7 @@ E. Semisynchronous replication</p>
 
 <h1 id="109">109</h1>
 
-<p>You are working at a sports association whose members range in age from 8 to 30. The association collects a large amount of health data, such as sustained injuries. You are storing this data in BigQuery. Current legislation requires you to delete such information upon request of the subject. You want to design a solution that can accommodate such a request. What should you do?<br />
+<p>You are working at a sports association whose members range in age from 8 to 30. The association collects a large amount of health data, such as sustained injuries. You are storing this data in BigQuery. Current legislation requires you to delete such information upon request of the subject. You want to design a solution that can accommodate such a request. What should you do?   <br />
 您在一家体育协会工作，其会员年龄从 8 岁到 30 岁不等。该协会收集了大量健康数据，例如持续受伤情况。您将这些数据存储在 BigQuery 中。现行法律要求您在收到会员请求后删除此类信息。您需要设计一个能够满足此类请求的解决方案。您应该怎么做？</p>
 
 <p>A. Use a unique identifier for each individual. Upon a deletion request, delete all rows from BigQuery with this identifier.<br />
@@ -2657,7 +2657,7 @@ D. Use a unique identifier for each individual. Upon a deletion request, overwri
 
 <h1 id="110">110</h1>
 
-<p>Your company has announced that they will be outsourcing operations functions. You want to allow developers to easily stage new versions of a cloud-based application in the production environment and allow the outsourced operations team to autonomously promote staged versions to production. You want to minimize the operational overhead of the solution. Which Google Cloud product should you migrate to?<br />
+<p>Your company has announced that they will be outsourcing operations functions. You want to allow developers to easily stage new versions of a cloud-based application in the production environment and allow the outsourced operations team to autonomously promote staged versions to production. You want to minimize the operational overhead of the solution. Which Google Cloud product should you migrate to?   <br />
 贵公司宣布将外包运营功能。您希望允许开发人员在生产环境中轻松预发布云应用的新版本，并允许外包运营团队自主将预发布版本推广到生产环境。您希望最大限度地降低该解决方案的运营开销。您应该迁移到哪款 Google Cloud 产品？</p>
 
 <p>A. App Engine<br />
@@ -2669,7 +2669,7 @@ D. Google Kubernetes Engine</p>
 
 <h1 id="111">111</h1>
 
-<p>Your company is running its application workloads on Compute Engine. The applications have been deployed in production, acceptance, and development environments. The production environment is business-critical and is used 24/7, while the acceptance and development environments are only critical during office hours. Your CFO has asked you to optimize these environments to achieve cost savings during idle times. What should you do?<br />
+<p>Your company is running its application workloads on Compute Engine. The applications have been deployed in production, acceptance, and development environments. The production environment is business-critical and is used 24/7, while the acceptance and development environments are only critical during office hours. Your CFO has asked you to optimize these environments to achieve cost savings during idle times. What should you do?   <br />
 贵公司正在 Compute Engine 上运行其应用工作负载。这些应用已部署在生产、验收和开发环境中。生产环境是业务关键型环境，全天候运行；而验收和开发环境仅在办公时间内至关重要。您的首席财务官要求您优化这些环境，以便在空闲时间节省成本。您应该怎么做？</p>
 
 <p>A. Create a shell script that uses the gcloud command to change the machine type of the development and acceptance instances to a smaller machine type outside of office hours. Schedule the shell script on one of the production instances to automate the task.<br />
@@ -2681,7 +2681,7 @@ D. Use regular Compute Engine instances for the production environment, and use 
 
 <h1 id="112">112</h1>
 
-<p>You are moving an application that uses MySQL from on-premises to Google Cloud. The application will run on Compute Engine and will use Cloud SQL. You want to cut over to the Compute Engine deployment of the application with minimal downtime and no data loss to your customers. You want to migrate the application with minimal modification. You also need to determine the cutover strategy. What should you do?<br />
+<p>You are moving an application that uses MySQL from on-premises to Google Cloud. The application will run on Compute Engine and will use Cloud SQL. You want to cut over to the Compute Engine deployment of the application with minimal downtime and no data loss to your customers. You want to migrate the application with minimal modification. You also need to determine the cutover strategy. What should you do?   <br />
 您正在将一个使用 MySQL 的应用程序从本地迁移到 Google Cloud。该应用程序将在 Compute Engine 上运行并使用 Cloud SQL。您希望以最少的停机时间和不丢失客户数据的方式，将该应用程序迁移到 Compute Engine 部署。您希望以最少的修改完成应用程序的迁移。您还需要确定迁移策略。您应该怎么做？</p>
 
 <p>A. 1. Set up Cloud VPN to provide private network connectivity between the Compute Engine application and the on-premises MySQL server. 2. Stop the on-premises application. 3. Create a mysqldump of the on-premises MySQL server. 4. Upload the dump to a Cloud Storage bucket. 5. Import the dump into Cloud SQL. 6. Modify the source code of the application to write queries to both databases and read from its local database. 7. Start the Compute Engine application. 8. Stop the on-premises application.<br />
@@ -2693,7 +2693,7 @@ D. 1. Stop the on-premises application. 2. Create a mysqldump of the on-premises
 
 <h1 id="113">113</h1>
 
-<p>Your organization has decided to restrict the use of external IP addresses on instances to only approved instances. You want to enforce this requirement across all of your Virtual Private Clouds (VPCs). What should you do?<br />
+<p>Your organization has decided to restrict the use of external IP addresses on instances to only approved instances. You want to enforce this requirement across all of your Virtual Private Clouds (VPCs). What should you do?   <br />
 您的组织已决定将实例的外部 IP 地址使用限制为仅限已批准的实例。您希望在所有虚拟私有云 (VPC) 中强制执行此要求。您应该怎么做？</p>
 
 <p>A. Remove the default route on all VPCs. Move all approved instances into a new subnet that has a default route to an internet gateway.<br />
@@ -2706,7 +2706,7 @@ D. Set an Organization Policy with a constraint on constraints/compute.vmExterna
 <h1 id="114">114</h1>
 
 <p>Your company uses the Firewall Insights feature in the Google Network Intelligence Center. You have several firewall rules applied to Compute Engine instances.<br />
-You need to evaluate the efficiency of the applied firewall ruleset. When you bring up the Firewall Insights page in the Google Cloud Console, you notice that there are no log rows to display. What should you do to troubleshoot the issue? <br />
+You need to evaluate the efficiency of the applied firewall ruleset. When you bring up the Firewall Insights page in the Google Cloud Console, you notice that there are no log rows to display. What should you do to troubleshoot the issue?    <br />
 贵公司使用 Google 网络智能中心的“防火墙洞察”功能。您已将多条防火墙规则应用于 Compute Engine 实例。<br />
 您需要评估已应用防火墙规则集的效率。当您在 Google Cloud Console 中打开“防火墙洞察”页面时，发现没有可显示的日志行。您应该如何排查此问题？</p>
 
@@ -2732,7 +2732,7 @@ D. 1. Create a Cloud VPN to the office network. 2. Configure Private Google Acce
 
 <h1 id="116">116</h1>
 
-<p>You have developed a non-critical update to your application that is running in a managed instance group, and have created a new instance template with the update that you want to release. To prevent any possible impact to the application, you don’t want to update any running instances. You want any new instances that are created by the managed instance group to contain the new update. What should you do?<br />
+<p>You have developed a non-critical update to your application that is running in a managed instance group, and have created a new instance template with the update that you want to release. To prevent any possible impact to the application, you don’t want to update any running instances. You want any new instances that are created by the managed instance group to contain the new update. What should you do?   <br />
 您为正在托管实例组中运行的应用开发了一个非关键更新，并创建了一个包含要发布的更新的新实例模板。为了避免对应用造成任何可能的影响，您不想更新任何正在运行的实例。您希望托管实例组创建的所有新实例都包含此更新。您应该怎么做？</p>
 
 <p>A. Start a new rolling restart operation.<br />
@@ -2744,7 +2744,7 @@ D. Start a new rolling update. Select the Opportunistic update mode.</p>
 
 <h1 id="117">117</h1>
 
-<p>Your company is designing its application landscape on Compute Engine. Whenever a zonal outage occurs, the application should be restored in another zone as quickly as possible with the latest application data. You need to design the solution to meet this requirement. What should you do?<br />
+<p>Your company is designing its application landscape on Compute Engine. Whenever a zonal outage occurs, the application should be restored in another zone as quickly as possible with the latest application data. You need to design the solution to meet this requirement. What should you do?   <br />
 您的公司正在 Compute Engine 上设计其应用环境。每当发生区域性中断时，应用应该能够尽快在另一个区域恢复，并获取最新的应用数据。您需要设计解决方案来满足此需求。您应该怎么做？</p>
 
 <p>A. Create a snapshot schedule for the disk containing the application data. Whenever a zonal outage occurs, use the latest snapshot to restore the disk in the same zone.<br />
@@ -2755,7 +2755,7 @@ D. Configure the Compute Engine instances with an instance template for the appl
 <p><a href="/assets/gcp/discussion/117.md">Discussion</a></p>
 
 <h1 id="118">118</h1>
-<p>Your company has just acquired another company, and you have been asked to integrate their existing Google Cloud environment into your company’s data center. Upon investigation, you discover that some of the RFC 1918 IP ranges being used in the new company’s Virtual Private Cloud (VPC) overlap with your data center IP space. What should you do to enable connectivity and make sure that there are no routing conflicts when connectivity is established?<br />
+<p>Your company has just acquired another company, and you have been asked to integrate their existing Google Cloud environment into your company’s data center. Upon investigation, you discover that some of the RFC 1918 IP ranges being used in the new company’s Virtual Private Cloud (VPC) overlap with your data center IP space. What should you do to enable connectivity and make sure that there are no routing conflicts when connectivity is established?   <br />
 贵公司刚刚收购了另一家公司，并被要求将其现有的 Google Cloud 环境集成到贵公司的数据中心。经过调查，您发现新公司虚拟私有云 (VPC) 中使用的部分 RFC 1918 IP 范围与贵公司的数据中心 IP 空间重叠。您应该如何启用连接并确保建立连接时不会出现路由冲突？</p>
 
 <p>A. Create a Cloud VPN connection from the new VPC to the data center, create a Cloud Router, and apply new IP addresses so there is no overlapping IP space.<br />
@@ -2766,7 +2766,7 @@ D. Create a Cloud VPN connection from the new VPC to the data center, and apply 
 <p><a href="/assets/gcp/discussion/118.md">Discussion</a></p>
 
 <h1 id="119">119</h1>
-<p>You need to migrate Hadoop jobs for your company’s Data Science team without modifying the underlying infrastructure. You want to minimize costs and infrastructure management effort. What should you do?<br />
+<p>You need to migrate Hadoop jobs for your company’s Data Science team without modifying the underlying infrastructure. You want to minimize costs and infrastructure management effort. What should you do?   <br />
 您需要为公司的数据科学团队迁移 Hadoop 作业，且无需修改底层基础架构。您希望最大限度地降低成本和基础架构管理工作量。您应该怎么做？</p>
 
 <p>A. Create a Dataproc cluster using standard worker instances.<br />
@@ -2797,7 +2797,7 @@ D. Peer all three VPCs: ג€¢ Peer VPC #1 with VPC #2. ג€¢ Peer VPC #2 wit
 
 <h1 id="121">121</h1>
 
-<p>You need to deploy an application on Google Cloud that must run on a Debian Linux environment. The application requires extensive configuration in order to operate correctly. You want to ensure that you can install Debian distribution updates with minimal manual intervention whenever they become available. What should you do?<br />
+<p>You need to deploy an application on Google Cloud that must run on a Debian Linux environment. The application requires extensive configuration in order to operate correctly. You want to ensure that you can install Debian distribution updates with minimal manual intervention whenever they become available. What should you do?   <br />
 您需要在 Google Cloud 上部署一个必须在 Debian Linux 环境中运行的应用程序。该应用程序需要进行大量配置才能正常运行。您希望确保能够在 Debian 发行版更新可用时以最少的手动干预进行安装。您应该怎么做？</p>
 
 <p>A. Create a Compute Engine instance template using the most recent Debian image. Create an instance from this template, and install and configure the application as part of the startup script. Repeat this process whenever a new Google-managed Debian image becomes available.<br />
@@ -2809,7 +2809,7 @@ D. Create a Docker container with Debian as the base image. Install and configur
 
 <h1 id="122">122</h1>
 
-<p>You have an application that runs in Google Kubernetes Engine (GKE). Over the last 2 weeks, customers have reported that a specific part of the application returns errors very frequently. You currently have no logging or monitoring solution enabled on your GKE cluster. You want to diagnose the problem, but you have not been able to replicate the issue. You want to cause minimal disruption to the application. What should you do?<br />
+<p>You have an application that runs in Google Kubernetes Engine (GKE). Over the last 2 weeks, customers have reported that a specific part of the application returns errors very frequently. You currently have no logging or monitoring solution enabled on your GKE cluster. You want to diagnose the problem, but you have not been able to replicate the issue. You want to cause minimal disruption to the application. What should you do?   <br />
 您有一个在 Google Kubernetes Engine (GKE) 中运行的应用程序。在过去的两周里，客户报告应用程序的某个特定部分频繁返回错误。您目前尚未在 GKE 集群上启用日志记录或监控解决方案。您想诊断问题，但无法复现该问题。您希望尽量减少对应用程序的干扰。您应该怎么做？</p>
 
 <p>A. 1. Update your GKE cluster to use Cloud Operations for GKE. 2. Use the GKE Monitoring dashboard to investigate logs from affected Pods.<br />
@@ -2821,7 +2821,7 @@ D. 1. Create a new GKE cluster with Cloud Operations for GKE enabled, and deploy
 
 <h1 id="123">123</h1>
 
-<p>You need to deploy a stateful workload on Google Cloud. The workload can scale horizontally, but each instance needs to read and write to the same POSIX filesystem. At high load, the stateful workload needs to support up to 100 MB/s of writes. What should you do?<br />
+<p>You need to deploy a stateful workload on Google Cloud. The workload can scale horizontally, but each instance needs to read and write to the same POSIX filesystem. At high load, the stateful workload needs to support up to 100 MB/s of writes. What should you do?   <br />
 您需要在 Google Cloud 上部署一个有状态工作负载。该工作负载可以水平扩展，但每个实例都需要读写同一个 POSIX 文件系统。在高负载下，该有状态工作负载需要支持高达 100 MB/s 的写入速度。您应该怎么做？</p>
 
 <p>A. Use a persistent disk for each instance.<br />
@@ -2834,7 +2834,7 @@ D. Create a Cloud Storage bucket and mount it in each instance using gcsfuse.</p
 <h1 id="124">124</h1>
 
 <p>Your company has an application deployed on Anthos clusters (formerly Anthos GKE) that is running multiple microservices. The cluster has both Anthos Service 
-Mesh and Anthos Config Management configured. End users inform you that the application is responding very slowly. You want to identify the microservice that is causing the delay. What should you do?<br />
+Mesh and Anthos Config Management configured. End users inform you that the application is responding very slowly. You want to identify the microservice that is causing the delay. What should you do?   <br />
 贵公司在 Anthos 集群（以前称为 Anthos GKE）上部署了一个应用程序，该集群运行着多个微服务。该集群同时
 配置了 Anthos Service Mesh 和 Anthos Config Management。最终用户告知您该应用程序响应非常缓慢。您想确定导致延迟的微服务。您应该怎么做？</p>
 
@@ -2847,7 +2847,7 @@ D. Reinstall istio using the default istio profile in order to collect request l
 
 <h1 id="125">125</h1>
 
-<p>You are working at a financial institution that stores mortgage loan approval documents on Cloud Storage. Any change to these approval documents must be uploaded as a separate approval file, so you want to ensure that these documents cannot be deleted or overwritten for the next 5 years. What should you do?<br />
+<p>You are working at a financial institution that stores mortgage loan approval documents on Cloud Storage. Any change to these approval documents must be uploaded as a separate approval file, so you want to ensure that these documents cannot be deleted or overwritten for the next 5 years. What should you do?   <br />
 您在一家金融机构工作，该机构将抵押贷款审批文件存储在云存储中。这些审批文件的任何更改都必须作为单独的审批文件上传，因此您希望确保这些文件在未来 5 年内不会被删除或覆盖。您应该怎么做？</p>
 
 <p>A. Create a retention policy on the bucket for the duration of 5 years. Create a lock on the retention policy.<br />
@@ -2859,7 +2859,7 @@ D. Create the bucket with fine-grained access control, and grant a service accou
 
 <h1 id="126">126</h1>
 
-<p>Your team will start developing a new application using microservices architecture on Kubernetes Engine. As part of the development lifecycle, any code change that has been pushed to the remote develop branch on your GitHub repository should be built and tested automatically. When the build and test are successful, the relevant microservice will be deployed automatically in the development environment. You want to ensure that all code deployed in the development environment follows this process. What should you do?<br />
+<p>Your team will start developing a new application using microservices architecture on Kubernetes Engine. As part of the development lifecycle, any code change that has been pushed to the remote develop branch on your GitHub repository should be built and tested automatically. When the build and test are successful, the relevant microservice will be deployed automatically in the development environment. You want to ensure that all code deployed in the development environment follows this process. What should you do?   <br />
 您的团队将开始在 Kubernetes Engine 上使用微服务架构开发一个新应用程序。作为开发生命周期的一部分，任何已推送到 GitHub 代码库远程开发分支的代码更改都应自动构建和测试。构建和测试成功后，相关的微服务将自动部署到开发环境中。您希望确保部署到开发环境中的所有代码都遵循此流程。您应该怎么做？</p>
 
 <p>A. Have each developer install a pre-commit hook on their workstation that tests the code and builds the container when committing on the development branch. After a successful commit, have the developer deploy the newly built container image on the development cluster.<br />
@@ -2871,7 +2871,7 @@ D. Create a Cloud Build trigger based on the development branch to build a new c
 
 <h1 id="127">127</h1>
 
-<p>Your operations team has asked you to help diagnose a performance issue in a production application that runs on Compute Engine. The application is dropping requests that reach it when under heavy load. The process list for affected instances shows a single application process that is consuming all available CPU, and autoscaling has reached the upper limit of instances. There is no abnormal load on any other related systems, including the database. You want to allow production traffic to be served again as quickly as possible. Which action should you recommend?<br />
+<p>Your operations team has asked you to help diagnose a performance issue in a production application that runs on Compute Engine. The application is dropping requests that reach it when under heavy load. The process list for affected instances shows a single application process that is consuming all available CPU, and autoscaling has reached the upper limit of instances. There is no abnormal load on any other related systems, including the database. You want to allow production traffic to be served again as quickly as possible. Which action should you recommend?   <br />
 您的运营团队请您协助诊断 Compute Engine 上运行的生产应用中的性能问题。该应用在高负载下会丢弃到达它的请求。受影响实例的进程列表显示，单个应用进程正在消耗所有可用 CPU，并且自动扩缩已达到实例数量的上限。其他相关系统（包括数据库）均未出现异常负载。您希望尽快恢复生产流量的服务。您建议采取哪种措施？</p>
 
 <p>A. Change the autoscaling metric to agent.googleapis.com/memory/percent_used.  <br />
@@ -2883,7 +2883,7 @@ D. Increase the maximum number of instances in the autoscaling group.</p>
 
 <h1 id="128">128</h1>
 
-<p>You are implementing the infrastructure for a web service on Google Cloud. The web service needs to receive and store the data from 500,000 requests per second. The data will be queried later in real time, based on exact matches of a known set of attributes. There will be periods where the web service will not receive any requests. The business wants to keep costs low. Which web service platform and database should you use for the application?<br />
+<p>You are implementing the infrastructure for a web service on Google Cloud. The web service needs to receive and store the data from 500,000 requests per second. The data will be queried later in real time, based on exact matches of a known set of attributes. There will be periods where the web service will not receive any requests. The business wants to keep costs low. Which web service platform and database should you use for the application?   <br />
 您正在 Google Cloud 上为一项 Web 服务构建基础架构。该 Web 服务需要每秒接收并存储 50 万个请求的数据。之后，这些数据将基于一组已知属性的精确匹配进行实时查询。Web 服务有时会接收不到任何请求。企业希望降低成本。您应该为该应用程序选择哪个 Web 服务平台和数据库？</p>
 
 <p>A. Cloud Run and BigQuery<br />
@@ -2895,7 +2895,7 @@ D. A Compute Engine autoscaling managed instance group and Cloud Bigtable</p>
 
 <h1 id="129">129</h1>
 
-<p>You are developing an application using different microservices that should remain internal to the cluster. You want to be able to configure each microservice with a specific number of replicas. You also want to be able to address a specific microservice from any other microservice in a uniform way, regardless of the number of replicas the microservice scales to. You need to implement this solution on Google Kubernetes Engine. What should you do?<br />
+<p>You are developing an application using different microservices that should remain internal to the cluster. You want to be able to configure each microservice with a specific number of replicas. You also want to be able to address a specific microservice from any other microservice in a uniform way, regardless of the number of replicas the microservice scales to. You need to implement this solution on Google Kubernetes Engine. What should you do?   <br />
 您正在开发一个使用不同微服务的应用程序，这些微服务应该保留在集群内部。您希望能够为每个微服务配置特定数量的副本。您还希望能够以统一的方式从任何其他微服务访问特定微服务，而不管该微服务扩展到多少个副本。您需要在 Google Kubernetes Engine 上实现此解决方案。您应该怎么做？</p>
 
 <p>A. Deploy each microservice as a Deployment. Expose the Deployment in the cluster using a Service, and use the Service DNS name to address it from other microservices within the cluster.<br />
@@ -2907,7 +2907,7 @@ D. Deploy each microservice as a Pod. Expose the Pod in the cluster using an Ing
 
 <h1 id="130">130</h1>
 
-<p>Your company has a networking team and a development team. The development team runs applications on Compute Engine instances that contain sensitive data. The development team requires administrative permissions for Compute Engine. Your company requires all network resources to be managed by the networking team. The development team does not want the networking team to have access to the sensitive data on the instances. What should you do?<br />
+<p>Your company has a networking team and a development team. The development team runs applications on Compute Engine instances that contain sensitive data. The development team requires administrative permissions for Compute Engine. Your company requires all network resources to be managed by the networking team. The development team does not want the networking team to have access to the sensitive data on the instances. What should you do?   <br />
 贵公司有一个网络团队和一个开发团队。开发团队在包含敏感数据的 Compute Engine 实例上运行应用程序。开发团队需要 Compute Engine 的管理权限。贵公司要求所有网络资源均由网络团队管理。开发团队不希望网络团队访问实例上的敏感数据。您应该怎么做？</p>
 
 <p>A. 1. Create a project with a standalone VPC and assign the Network Admin role to the networking team. 2. Create a second project with a standalone VPC and assign the Compute Admin role to the development team. 3. Use Cloud VPN to join the two VPCs.<br />
@@ -2919,7 +2919,7 @@ D. 1. Create a project with a standalone VPC and assign the Network Admin role t
 
 <h1 id="131">131</h1>
 
-<p>Your company wants you to build a highly reliable web application with a few public APIs as the backend. You don’t expect a lot of user traffic, but traffic could spike occasionally. You want to leverage Cloud Load Balancing, and the solution must be cost-effective for users. What should you do?
+<p>Your company wants you to build a highly reliable web application with a few public APIs as the backend. You don’t expect a lot of user traffic, but traffic could spike occasionally. You want to leverage Cloud Load Balancing, and the solution must be cost-effective for users. What should you do? <br />
 贵公司希望您构建一个高度可靠的 Web 应用，并以少量公共 API 作为后端。您预计用户流量不会很大，但偶尔可能会出现峰值。您希望利用云负载均衡，并且该解决方案必须对用户经济高效。您应该怎么做？</p>
 
 <p>A. Store static content such as HTML and images in Cloud CDN. Host the APIs on App Engine and store the user data in Cloud SQL.<br />
@@ -2931,7 +2931,7 @@ D. Store static content such as HTML and images in a Cloud Storage bucket. Use C
 
 <h1 id="132">132</h1>
 
-<p>Your company sends all Google Cloud logs to Cloud Logging. Your security team wants to monitor the logs. You want to ensure that the security team can react quickly if an anomaly such as an unwanted firewall change or server breach is detected. You want to follow Google-recommended practices. What should you do?<br />
+<p>Your company sends all Google Cloud logs to Cloud Logging. Your security team wants to monitor the logs. You want to ensure that the security team can react quickly if an anomaly such as an unwanted firewall change or server breach is detected. You want to follow Google-recommended practices. What should you do?   <br />
 您的公司将所有 Google Cloud 日志发送到 Cloud Logging。您的安全团队希望监控这些日志。您希望确保安全团队能够在检测到异常情况（例如不必要的防火墙更改或服务器入侵）时快速做出反应。您希望遵循 Google 推荐的做法。您应该怎么做？</p>
 
 <p>A. Schedule a cron job with Cloud Scheduler. The scheduled job queries the logs every minute for the relevant events.<br />
@@ -2943,7 +2943,7 @@ D. Export logs to a Cloud Storage bucket, and trigger Cloud Run with the relevan
 
 <h1 id="133">133</h1>
 
-<p>You have deployed several instances on Compute Engine. As a security requirement, instances cannot have a public IP address. There is no VPN connection between Google Cloud and your office, and you need to connect via SSH into a specific machine without violating the security requirements. What should you do?<br />
+<p>You have deployed several instances on Compute Engine. As a security requirement, instances cannot have a public IP address. There is no VPN connection between Google Cloud and your office, and you need to connect via SSH into a specific machine without violating the security requirements. What should you do?   <br />
 您已在 Compute Engine 上部署了多个实例。出于安全考虑，这些实例不能拥有公共 IP 地址。Google Cloud 和您的办公室之间没有 VPN 连接，您需要通过 SSH 连接到特定机器，且不违反安全要求。您应该怎么做？</p>
 
 <p>A. Configure Cloud NAT on the subnet where the instance is hosted. Create an SSH connection to the Cloud NAT IP address to reach the instance.<br />
@@ -2956,7 +2956,7 @@ D. Create a bastion host in the network to SSH into the bastion host from your o
 <h1 id="134">134</h1>
 
 <p>Your company is using Google Cloud. You have two folders under the Organization: Finance and Shopping. The members of the development team are in a
-Google Group. The development team group has been assigned the Project Owner role on the Organization. You want to prevent the development team from creating resources in projects in the Finance folder. What should you do?<br />
+Google Group. The development team group has been assigned the Project Owner role on the Organization. You want to prevent the development team from creating resources in projects in the Finance folder. What should you do?   <br />
 您的公司正在使用 Google Cloud。您的组织下有两个文件夹：财务和购物。开发团队的成员位于一个
 Google 群组中。该开发团队群组已被分配了组织中的项目所有者角色。您想阻止开发团队在财务文件夹中的项目中创建资源。您应该怎么做？</p>
 
@@ -2969,7 +2969,7 @@ D. Assign the development team group only the Project Owner role on the Shopping
 
 <h1 id="135">135</h1>
 
-<p>You are developing your microservices application on Google Kubernetes Engine. During testing, you want to validate the behavior of your application in case a specific microservice should suddenly crash. What should you do?<br />
+<p>You are developing your microservices application on Google Kubernetes Engine. During testing, you want to validate the behavior of your application in case a specific microservice should suddenly crash. What should you do?   <br />
 您正在 Google Kubernetes Engine 上开发微服务应用。在测试期间，您想验证应用的行为，以防某个特定的微服务突然崩溃。您应该怎么做？</p>
 
 <p>A. Add a taint to one of the nodes of the Kubernetes cluster. For the specific microservice, configure a pod anti-affinity label that has the name of the tainted node as a value.<br />
@@ -2993,7 +2993,7 @@ D. Google Kubernetes Engine</p>
 <h1 id="137">137</h1>
 
 <p>Your company provides a recommendation engine for retail customers. You are providing retail customers with an API where they can submit a user ID and the
-API returns a list of recommendations for that user. You are responsible for the API lifecycle and want to ensure stability for your customers in case the API makes backward-incompatible changes. You want to follow Google-recommended practices. What should you do?<br />
+API returns a list of recommendations for that user. You are responsible for the API lifecycle and want to ensure stability for your customers in case the API makes backward-incompatible changes. You want to follow Google-recommended practices. What should you do?   <br />
 您的公司为零售客户提供推荐引擎。您为零售客户提供一个 API，客户可以通过该 API 提交用户 ID，然后该
 API 会返回该用户的推荐列表。您负责 API 的生命周期，并希望确保客户的稳定性，以防 API 发生向后不兼容的更改。您希望遵循 Google 推荐的做法。您应该怎么做？</p>
 
@@ -3006,7 +3006,7 @@ D. Use a versioning strategy for the APIs that adds the suffix ג€DEPRECATEDג
 
 <h1 id="138">138</h1>
 
-<p>Your company has developed a monolithic, 3-tier application to allow external users to upload and share files. The solution cannot be easily enhanced and lacks reliability. The development team would like to re-architect the application to adopt microservices and a fully managed service approach, but they need to convince their leadership that the effort is worthwhile. Which advantage(s) should they highlight to leadership?<br />
+<p>Your company has developed a monolithic, 3-tier application to allow external users to upload and share files. The solution cannot be easily enhanced and lacks reliability. The development team would like to re-architect the application to adopt microservices and a fully managed service approach, but they need to convince their leadership that the effort is worthwhile. Which advantage(s) should they highlight to leadership?   <br />
 贵公司开发了一个单体式三层应用程序，允许外部用户上传和共享文件。该解决方案难以增强，而且可靠性不足。开发团队希望重新架构该应用程序，采用微服务和完全托管的服务模式，但他们需要说服领导层，让他们相信这项努力是值得的。他们应该向领导层强调哪些（些）优势？</p>
 
 <p>A. The new approach will be significantly less costly, make it easier to manage the underlying infrastructure, and automatically manage the CI/CD pipelines.<br />
@@ -3018,7 +3018,7 @@ D. The process can be automated with Migrate for Compute Engine.</p>
 
 <h1 id="139">139</h1>
 
-<p>Your team is developing a web application that will be deployed on Google Kubernetes Engine (GKE). Your CTO expects a successful launch and you need to ensure your application can handle the expected load of tens of thousands of users. You want to test the current deployment to ensure the latency of your application stays below a certain threshold. What should you do?<br />
+<p>Your team is developing a web application that will be deployed on Google Kubernetes Engine (GKE). Your CTO expects a successful launch and you need to ensure your application can handle the expected load of tens of thousands of users. You want to test the current deployment to ensure the latency of your application stays below a certain threshold. What should you do?   <br />
 您的团队正在开发一个 Web 应用，该应用将部署在 Google Kubernetes Engine (GKE) 上。您的 CTO 期望该应用能够成功发布，而您需要确保该应用能够处理预期的数万用户负载。您需要测试当前的部署，以确保应用的延迟保持在特定阈值以下。您应该怎么做？</p>
 
 <p>A. Use a load testing tool to simulate the expected number of concurrent users and total requests to your application, and inspect the results.<br />
@@ -3054,7 +3054,7 @@ D. Make sure the developer is tagging the commits with latest.</p>
 
 <h1 id="142">142</h1>
 
-<p>An application development team has come to you for advice. They are planning to write and deploy an HTTP(S) API using Go 1.12. The API will have a very unpredictable workload and must remain reliable during peaks in traffic. They want to minimize operational overhead for this application. Which approach should you recommend?<br />
+<p>An application development team has come to you for advice. They are planning to write and deploy an HTTP(S) API using Go 1.12. The API will have a very unpredictable workload and must remain reliable during peaks in traffic. They want to minimize operational overhead for this application. Which approach should you recommend?   <br />
 一个应用程序开发团队向您寻求建议。他们计划使用 Go 1.12 编写和部署一个 HTTP(S) API。该 API 的工作负载非常难以预测，并且必须在流量高峰期保持可靠性。他们希望最大限度地降低该应用程序的运维开销。您推荐哪种方法？</p>
 
 <p>A. Develop the application with containers, and deploy to Google Kubernetes Engine.<br />
@@ -3067,7 +3067,7 @@ D. Develop the application for App Engine flexible environment, using a custom r
 <h1 id="143">143</h1>
 
 <p>Your company is designing its data lake on Google Cloud and wants to develop different ingestion pipelines to collect unstructured data from different sources.
-After the data is stored in Google Cloud, it will be processed in several data pipelines to build a recommendation engine for end users on the website. The structure of the data retrieved from the source systems can change at any time. The data must be stored exactly as it was retrieved for reprocessing purposes in case the data structure is incompatible with the current processing pipelines. You need to design an architecture to support the use case after you retrieve the data. What should you do?<br />
+After the data is stored in Google Cloud, it will be processed in several data pipelines to build a recommendation engine for end users on the website. The structure of the data retrieved from the source systems can change at any time. The data must be stored exactly as it was retrieved for reprocessing purposes in case the data structure is incompatible with the current processing pipelines. You need to design an architecture to support the use case after you retrieve the data. What should you do?   <br />
 您的公司正在 Google Cloud 上设计数据湖，并希望开发不同的提取管道，以从不同来源收集非结构化数据。
 数据存储到 Google Cloud 后，将在多个数据管道中进行处理，从而为网站上的最终用户构建推荐引擎。从源系统检索的数据结构可能随时发生变化。为了避免数据结构与当前处理管道不兼容，数据必须保持检索时的原样存储，以便进行重新处理。您需要设计一个架构来支持检索数据后的用例。您应该怎么做？</p>
 
@@ -3081,7 +3081,7 @@ D. Store the data in a Cloud Storage bucket. Design the processing pipelines to 
 <h1 id="144">144</h1>
 
 <p>You are responsible for the Google Cloud environment in your company. Multiple departments need access to their own projects, and the members within each department will have the same project responsibilities. You want to structure your Google Cloud environment for minimal maintenance and maximum overview of
-IAM permissions as each department’s projects start and end. You want to follow Google-recommended practices. What should you do?<br />
+IAM permissions as each department’s projects start and end. You want to follow Google-recommended practices. What should you do?   <br />
 您负责公司内的 Google Cloud 环境。多个部门需要访问各自的项目，并且每个部门的成员将承担相同的项目职责。您希望构建您的 Google Cloud 环境，以便
 在每个部门的项目开始和结束时最大限度地减少维护工作，并最大程度地概览 IAM 权限。您希望遵循 Google 推荐的做法。您应该怎么做？</p>
 
@@ -3094,7 +3094,7 @@ D. Create a Google Group per department and add all department members to their 
 
 <h1 id="145">145</h1>
 
-<p>Your company has an application running as a Deployment in a Google Kubernetes Engine (GKE) cluster. You have separate clusters for development, staging, and production. You have discovered that the team is able to deploy a Docker image to the production cluster without first testing the deployment in development and then staging. You want to allow the team to have autonomy but want to prevent this from happening. You want a Google Cloud solution that can be implemented quickly with minimal effort. What should you do?<br />
+<p>Your company has an application running as a Deployment in a Google Kubernetes Engine (GKE) cluster. You have separate clusters for development, staging, and production. You have discovered that the team is able to deploy a Docker image to the production cluster without first testing the deployment in development and then staging. You want to allow the team to have autonomy but want to prevent this from happening. You want a Google Cloud solution that can be implemented quickly with minimal effort. What should you do?   <br />
 贵公司有一个应用程序以 Deployment 的形式在 Google Kubernetes Engine (GKE) 集群中运行。您有分别用于开发、预发布和生产环境的集群。您发现团队能够将 Docker 镜像部署到生产集群，而无需先在开发环境中测试部署，然后再进行预发布。您希望赋予团队自主权，但又希望避免这种情况发生。您需要一个能够快速部署且投入最少的 Google Cloud 解决方案。您应该怎么做？</p>
 
 <p>A. Configure a Kubernetes lifecycle hook to prevent the container from starting if it is not approved for usage in the given environment.<br />
@@ -3106,7 +3106,7 @@ D. Create a Kubernetes admissions controller to prevent the container from start
 
 <h1 id="146">146</h1>
 
-<p>Your company wants to migrate their 10-TB on-premises database export into Cloud Storage. You want to minimize the time it takes to complete this activity, the overall cost, and database load. The bandwidth between the on-premises environment and Google Cloud is 1 Gbps. You want to follow Google-recommended practices. What should you do?<br />
+<p>Your company wants to migrate their 10-TB on-premises database export into Cloud Storage. You want to minimize the time it takes to complete this activity, the overall cost, and database load. The bandwidth between the on-premises environment and Google Cloud is 1 Gbps. You want to follow Google-recommended practices. What should you do?   <br />
 贵公司希望将其 10 TB 的本地数据库导出迁移到 Cloud Storage。您希望最大限度地缩短完成此操作所需的时间、降低总体成本并降低数据库负载。本地环境与 Google Cloud 之间的带宽为 1 Gbps。您希望遵循 Google 推荐的做法。您应该怎么做？</p>
 
 <p>A. Develop a Dataflow job to read data directly from the database and write it into Cloud Storage.<br />
@@ -3132,7 +3132,7 @@ D. 1. Attach a local SSD to the first instance disk. 2. Execute an rsync command
 
 <h1 id="148">148</h1>
 
-<p>You are designing a Data Warehouse on Google Cloud and want to store sensitive data in BigQuery. Your company requires you to generate the encryption keys outside of Google Cloud. You need to implement a solution. What should you do?<br />
+<p>You are designing a Data Warehouse on Google Cloud and want to store sensitive data in BigQuery. Your company requires you to generate the encryption keys outside of Google Cloud. You need to implement a solution. What should you do?   <br />
 您正在 Google Cloud 上设计一个数据仓库，并希望将敏感数据存储在 BigQuery 中。您的公司要求您在 Google Cloud 之外生成加密密钥。您需要实施一个解决方案。您应该怎么做？</p>
 
 <p>A. Generate a new key in Cloud Key Management Service (Cloud KMS). Store all data in Cloud Storage using the customer-managed key option and select the created key. Set up a Dataflow pipeline to decrypt the data and to store it in a new BigQuery dataset.<br />
@@ -3144,7 +3144,7 @@ D. Import a key in Cloud KMS. Create a dataset in BigQuery using the customer-su
 
 <h1 id="149">149</h1>
 
-<p>Your organization has stored sensitive data in a Cloud Storage bucket. For regulatory reasons, your company must be able to rotate the encryption key used to encrypt the data in the bucket. The data will be processed in Dataproc. You want to follow Google-recommended practices for security. What should you do?<br />
+<p>Your organization has stored sensitive data in a Cloud Storage bucket. For regulatory reasons, your company must be able to rotate the encryption key used to encrypt the data in the bucket. The data will be processed in Dataproc. You want to follow Google-recommended practices for security. What should you do?   <br />
 您的组织已将敏感数据存储在 Cloud Storage 存储桶中。出于监管原因，您的公司必须能够轮换用于加密存储桶中数据的加密密钥。这些数据将在 Dataproc 中处理。您希望遵循 Google 推荐的安全做法。您应该怎么做？</p>
 
 <p>A. Create a key with Cloud Key Management Service (KMS). Encrypt the data using the encrypt method of Cloud KMS.<br />
@@ -3167,7 +3167,7 @@ B. Configure the GKE cluster as a private cluster. Configure Private Google Acce
 C. Configure the GKE cluster as a route-based cluster. Configure Private Google Access on the Virtual Private Cloud (VPC).<br />
 D. Create a Compute Engine instance, and install a NAT Proxy on the instance. Configure all workloads on GKE to pass through this proxy to access third-party services on the Internet.</p>
 
-<p><a href="/assets/gcp/discussion/150.md">Discussion</a></p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="cloud" /><category term="ai" /><category term="k8s" /><category term="cloud" /><summary type="html"><![CDATA[professional cloud architect 2025-04-10 12:00:00]]></summary></entry><entry><title type="html">professional cloud architect 51-100</title><link href="/cloud/2025/04/09/12-00-00-professional-cloud-architect-51-100.html" rel="alternate" type="text/html" title="professional cloud architect 51-100" /><published>2025-04-09T12:00:00+08:00</published><updated>2025-04-09T12:00:00+08:00</updated><id>/cloud/2025/04/09/12:00:00-professional-cloud-architect%2051-100</id><content type="html" xml:base="/cloud/2025/04/09/12-00-00-professional-cloud-architect-51-100.html"><![CDATA[<p>professional cloud architect 2025-04-09 12:00:00</p>
+<p><a href="/assets/gcp/discussion/150.md">Discussion</a></p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="cloud" /><category term="ai" /><category term="k8s" /><category term="cloud" /><summary type="html"><![CDATA[professional cloud architect 2025-04-10 12:00:00 101]]></summary></entry><entry><title type="html">professional cloud architect 51-100</title><link href="/cloud/2025/04/09/12-00-00-professional-cloud-architect-51-100.html" rel="alternate" type="text/html" title="professional cloud architect 51-100" /><published>2025-04-09T12:00:00+08:00</published><updated>2025-04-09T12:00:00+08:00</updated><id>/cloud/2025/04/09/12:00:00-professional-cloud-architect%2051-100</id><content type="html" xml:base="/cloud/2025/04/09/12-00-00-professional-cloud-architect-51-100.html"><![CDATA[<p>professional cloud architect 2025-04-09 12:00:00</p>
 
 <h1 id="51">51</h1>
 
@@ -3236,7 +3236,7 @@ D. 将所需的安装文件上传到 Cloud Source Repositories，并使用防火
 
 <h1 id="55">55</h1>
 
-<p>Your company is moving 75 TB of data into Google Cloud. You want to use Cloud Storage and follow Google-recommended practices. What should you do?<br />
+<p>Your company is moving 75 TB of data into Google Cloud. You want to use Cloud Storage and follow Google-recommended practices. What should you do?   <br />
 贵公司正在将 75 TB 的数据迁移到 Google Cloud。您希望使用 Cloud Storage 并遵循 Google 推荐的做法。您应该怎么做？</p>
 
 <p>A. Move your data onto a Transfer Appliance. Use a Transfer Appliance Rehydrator to decrypt the data into Cloud Storage.<br />
@@ -3262,7 +3262,7 @@ D. Update the service yaml file which the new container image. Use kubectl delet
 <h1 id="57">57</h1>
 
 <p>Your company is using BigQuery as its enterprise data warehouse. Data is distributed over several Google Cloud projects. All queries on BigQuery need to be billed on a single project. You want to make sure that no query costs are incurred on the projects that contain the data. Users should be able to query the datasets, but not edit them.<br />
-How should you configure users’ access roles?<br />
+How should you configure users’ access roles?   <br />
 您的公司正在使用 BigQuery 作为其企业数据仓库。数据分布在多个 Google Cloud 项目中。BigQuery 上的所有查询都需要在单个项目上计费。您希望确保包含这些数据的项目不会产生任何查询费用。用户应该能够查询数据集，但不能编辑它们。<br />
 您应该如何配置用户的访问角色？</p>
 
@@ -3275,7 +3275,7 @@ D. Add all users to a group. Grant the group the roles of BigQuery dataViewer on
 
 <h1 id="58">58</h1>
 
-<p>You have developed an application using Cloud ML Engine that recognizes famous paintings from uploaded images. You want to test the application and allow specific people to upload images for the next 24 hours. Not all users have a Google Account. How should you have users upload images?<br />
+<p>You have developed an application using Cloud ML Engine that recognizes famous paintings from uploaded images. You want to test the application and allow specific people to upload images for the next 24 hours. Not all users have a Google Account. How should you have users upload images?   <br />
 您使用 Cloud ML Engine 开发了一款应用，可以从上传的图片中识别名画。您想测试该应用，并允许特定用户在接下来的 24 小时内上传图片。并非所有用户都拥有 Google 帐户。您应该如何让用户上传图片？</p>
 
 <p>A. Have users upload the images to Cloud Storage. Protect the bucket with a password that expires after 24 hours.<br />
@@ -3287,7 +3287,7 @@ D. Create an App Engine web application where users can upload images for the ne
 
 <h1 id="59">59</h1>
 
-<p>Your web application must comply with the requirements of the European Union’s General Data Protection Regulation (GDPR). You are responsible for the technical architecture of your web application. What should you do?<br />
+<p>Your web application must comply with the requirements of the European Union’s General Data Protection Regulation (GDPR). You are responsible for the technical architecture of your web application. What should you do?   <br />
 您的 Web 应用程序必须符合欧盟《通用数据保护条例》(GDPR) 的要求。您负责 Web 应用程序的技术架构。您应该怎么做？</p>
 
 <p>A. Ensure that your web application only uses native features and services of Google Cloud Platform, because Google already has various certifications and provides ג€pass-onג€ compliance when you use native features.<br />
@@ -3300,7 +3300,7 @@ D. Define a design for the security of data in your web application that meets G
 <h1 id="60">60</h1>
 
 <p>You need to set up Microsoft SQL Server on GCP. Management requires that there’s no downtime in case of a data center outage in any of the zones within a
-GCP region. What should you do?<br />
+GCP region. What should you do?   <br />
 您需要在 GCP 上设置 Microsoft SQL Server。管理层要求，即使
 GCP 区域内任何可用区的数据中心发生故障，也不会造成停机。您应该怎么做？</p>
 
@@ -3313,7 +3313,7 @@ D. Set up SQL Server Always On Availability Groups using Windows Failover Cluste
 
 <h1 id="61">61</h1>
 
-<p>The development team has provided you with a Kubernetes Deployment file. You have no infrastructure yet and need to deploy the application. What should you do?
+<p>The development team has provided you with a Kubernetes Deployment file. You have no infrastructure yet and need to deploy the application. What should you do? <br />
 开发团队已经为您提供了 Kubernetes 部署文件。您还没有基础设施，需要部署应用程序。您应该怎么做？</p>
 
 <p>A. Use gcloud to create a Kubernetes cluster. Use Deployment Manager to create the deployment. <br />
@@ -3325,7 +3325,7 @@ D. Use kubectl to create a Kubernetes cluster. Use kubectl to create the deploym
 
 <h1 id="62">62</h1>
 
-<p>You need to evaluate your team readiness for a new GCP project. You must perform the evaluation and create a skills gap plan which incorporates the business goal of cost optimization. Your team has deployed two GCP projects successfully to date. What should you do?<br />
+<p>You need to evaluate your team readiness for a new GCP project. You must perform the evaluation and create a skills gap plan which incorporates the business goal of cost optimization. Your team has deployed two GCP projects successfully to date. What should you do?   <br />
 您需要评估团队对新 GCP 项目的准备情况。您必须进行评估并制定技能差距计划，其中要包含成本优化这一业务目标。到目前为止，您的团队已经成功部署了两个 GCP 项目。您应该怎么做？</p>
 
 <p>A. Allocate budget for team training. Set a deadline for the new GCP project.<br />
@@ -3338,7 +3338,7 @@ D. Allocate budget to hire skilled external consultants. Create a roadmap for yo
 <h1 id="63">63</h1>
 
 <p>You are designing an application for use only during business hours. For the minimum viable product release, you’d like to use a managed product that automatically <code class="language-plaintext highlighter-rouge">scales to zero</code> so you don’t incur costs when there is no activity.<br />
-Which primary compute resource should you choose?<br />
+Which primary compute resource should you choose?   <br />
 您正在设计一款仅在工作时间使用的应用程序。对于最小可行产品版本，您希望使用一款能够自动“缩容至零”的托管产品，以便在没有活动时避免产生成本。<br />
 您应该选择哪种主要计算资源？</p>
 
@@ -3351,7 +3351,7 @@ D. AppEngine flexible environment</p>
 
 <h1 id="64">64</h1>
 
-<p>You are creating an App Engine application that uses Cloud Datastore as its persistence layer. You need to retrieve several root entities for which you have the identifiers. You want to minimize the overhead in operations performed by Cloud Datastore. What should you do?<br />
+<p>You are creating an App Engine application that uses Cloud Datastore as its persistence layer. You need to retrieve several root entities for which you have the identifiers. You want to minimize the overhead in operations performed by Cloud Datastore. What should you do?   <br />
 您正在创建一个使用 Cloud Datastore 作为持久层的 App Engine 应用。您需要检索多个拥有标识符的根实体。您希望最大限度地减少 Cloud Datastore 执行的操作开销。您应该怎么做？</p>
 
 <p>A. Create the Key object for each Entity and run a batch get operation<br />
@@ -3363,7 +3363,7 @@ D. Use the identifiers to create a query filter and run multiple query operation
 
 <h1 id="65">65</h1>
 
-<p>You need to upload files from your on-premises environment to Cloud Storage. You want the files to be encrypted on Cloud Storage using customer-supplied encryption keys. What should you do?<br />
+<p>You need to upload files from your on-premises environment to Cloud Storage. You want the files to be encrypted on Cloud Storage using customer-supplied encryption keys. What should you do?   <br />
 您需要将文件从本地环境上传到 Cloud Storage。您希望使用客户提供的加密密钥在 Cloud Storage 上对这些文件进行加密。您应该怎么做？</p>
 
 <p>A. Supply the encryption key in a .boto configuration file. Use gsutil to upload the files.<br />
@@ -3375,7 +3375,7 @@ D. Use gsutil to create a bucket, and use the flag –encryption-key to supply t
 
 <h1 id="66">66</h1>
 
-<p>Your customer wants to capture multiple GBs of aggregate real-time key performance indicators (KPIs) from their game servers running on Google Cloud Platform and monitor the KPIs with low latency. How should they capture the KPIs?<br />
+<p>Your customer wants to capture multiple GBs of aggregate real-time key performance indicators (KPIs) from their game servers running on Google Cloud Platform and monitor the KPIs with low latency. How should they capture the KPIs?   <br />
 您的客户希望从其在 Google Cloud Platform 上运行的游戏服务器捕获数 GB 的实时关键绩效指标 (KPI)，并以低延迟监控这些 KPI。他们应该如何捕获这些 KPI？</p>
 
 <p>A. Store time-series data from the game servers in Google Bigtable, and view it using Google Data Studio.<br />
@@ -3387,7 +3387,7 @@ D. Insert the KPIs into Cloud Datastore entities, and run ad hoc analysis and vi
 
 <h1 id="67">67</h1>
 
-<p>You have a Python web application with many dependencies that requires 0.1 CPU cores and 128 MB of memory to operate in production. You want to monitor and maximize machine utilization. You also want to reliably deploy new versions of the application. Which set of steps should you take?<br />
+<p>You have a Python web application with many dependencies that requires 0.1 CPU cores and 128 MB of memory to operate in production. You want to monitor and maximize machine utilization. You also want to reliably deploy new versions of the application. Which set of steps should you take?   <br />
 您有一个包含许多依赖项的 Python Web 应用程序，在生产环境中运行需要 0.1 个 CPU 核心和 128 MB 内存。您需要监控并最大化机器利用率。您还希望可靠地部署应用程序的新版本。您应该采取哪些步骤？</p>
 
 <p>A. Perform the following: 1. Create a managed instance group with f1-micro type machines. 2. Use a startup script to clone the repository, check out the production branch, install the dependencies, and start the Python app. 3. Restart the instances to automatically deploy new production releases.<br />
@@ -3400,7 +3400,7 @@ D. Perform the following: 1. Create a GKE cluster with n1-standard-4 type machin
 <h1 id="68">68</h1>
 
 <p>Your company wants to start using Google Cloud resources but wants to retain their on-premises Active Directory domain controller for identity management.
-What should you do?<br />
+What should you do?   <br />
 您的公司想要开始使用 Google Cloud 资源，但希望保留其本地 Active Directory 域控制器进行身份管理。<br />
 您应该怎么做？</p>
 
@@ -3413,7 +3413,7 @@ D. Use Compute Engine to create an Active Directory (AD) domain controller that 
 
 <h1 id="69">69</h1>
 
-<p>You are running a cluster on Kubernetes Engine (GKE) to serve a web application. Users are reporting that a specific part of the application is not responding anymore. You notice that all pods of your deployment keep restarting after 2 seconds. The application writes logs to standard output. You want to inspect the logs to find the cause of the issue. Which approach can you take?<br />
+<p>You are running a cluster on Kubernetes Engine (GKE) to serve a web application. Users are reporting that a specific part of the application is not responding anymore. You notice that all pods of your deployment keep restarting after 2 seconds. The application writes logs to standard output. You want to inspect the logs to find the cause of the issue. Which approach can you take?   <br />
 您正在 Kubernetes Engine (GKE) 上运行一个集群来服务一个 Web 应用程序。用户报告应用程序的某个特定部分不再响应。您注意到部署中的所有 Pod 都会在 2 秒后重新启动。该应用程序将日志写入标准输出。您想检查日志以找出问题的原因。您可以采取哪种方法？</p>
 
 <p>A. Review the Stackdriver logs for each Compute Engine instance that is serving as a node in the cluster.<br />
@@ -3425,7 +3425,7 @@ D. Review the Serial Port logs for each Compute Engine instance that is serving 
 
 <h1 id="70">70</h1>
 
-<p>You are using a single Cloud SQL instance to serve your application from a specific zone. You want to introduce high availability. What should you do?<br />
+<p>You are using a single Cloud SQL instance to serve your application from a specific zone. You want to introduce high availability. What should you do?   <br />
 您正在使用单个 Cloud SQL 实例从特定区域为您的应用提供服务。您想要实现高可用性。您应该怎么做？</p>
 
 <p>A. Create a read replica instance in a different region<br />
@@ -3437,7 +3437,7 @@ D. Create a failover replica instance in the same region, but in a different zon
 
 <h1 id="71">71</h1>
 
-<p>Your company is running a stateless application on a Compute Engine instance. The application is used heavily during regular business hours and lightly outside of business hours. Users are reporting that the application is slow during peak hours. You need to optimize the application’s performance. What should you do?<br />
+<p>Your company is running a stateless application on a Compute Engine instance. The application is used heavily during regular business hours and lightly outside of business hours. Users are reporting that the application is slow during peak hours. You need to optimize the application’s performance. What should you do?   <br />
 您的公司正在 Compute Engine 实例上运行一个无状态应用。该应用在正常工作时间使用率很高，在非工作时间使用率较低。用户反映该应用在高峰时段运行缓慢。您需要优化该应用的性能。您应该怎么做？</p>
 
 <p>A. Create a snapshot of the existing disk. Create an instance template from the snapshot. Create an autoscaled managed instance group from the instance template.<br />
@@ -3449,7 +3449,7 @@ D. Create an instance template from the existing disk. Create a custom image fro
 
 <h1 id="72">72</h1>
 
-<p>Your web application has several VM instances running within a VPC. You want to restrict communications between instances to only the paths and ports you authorize, but you don’t want to rely on static IP addresses or subnets because the app can autoscale. How should you restrict communications?<br />
+<p>Your web application has several VM instances running within a VPC. You want to restrict communications between instances to only the paths and ports you authorize, but you don’t want to rely on static IP addresses or subnets because the app can autoscale. How should you restrict communications?   <br />
 您的 Web 应用程序在 VPC 中运行多个虚拟机实例。您希望将实例之间的通信限制在您授权的路径和端口上，但又不想依赖静态 IP 地址或子网，因为该应用程序可以自动扩展。您应该如何限制通信？</p>
 
 <p>A. Use separate VPCs to restrict traffic<br />
@@ -3461,7 +3461,7 @@ D. Use service accounts and configure the web application to authorize particula
 
 <h1 id="73">73</h1>
 
-<p>You are using Cloud SQL as the database backend for a large CRM deployment. You want to scale as usage increases and ensure that you don’t run out of storage, maintain 75% CPU usage cores, and keep replication lag below 60 seconds. What are the correct steps to meet your requirements?<br />
+<p>You are using Cloud SQL as the database backend for a large CRM deployment. You want to scale as usage increases and ensure that you don’t run out of storage, maintain 75% CPU usage cores, and keep replication lag below 60 seconds. What are the correct steps to meet your requirements?   <br />
 您正在使用 Cloud SQL 作为大型 CRM 部署的数据库后端。您希望随着使用量的增长进行扩展，并确保存储空间不会耗尽，保持 75% 的 CPU 使用率，并将复制延迟保持在 60 秒以下。为了满足您的要求，正确的步骤是什么？</p>
 
 <p>A. 1. Enable automatic storage increase for the instance. 2. Create a Stackdriver alert when CPU usage exceeds 75%, and change the instance type to reduce CPU usage. 3. Create a Stackdriver alert for replication lag, and shard the database to reduce replication time.<br />
@@ -3473,7 +3473,7 @@ D. 1. Create a Stackdriver alert when storage exceeds 75%, and increase the avai
 
 <h1 id="74">74</h1>
 
-<p>You are tasked with building an online analytical processing (OLAP) marketing analytics and reporting tool. This requires a relational database that can operate on hundreds of terabytes of data. What is the Google-recommended tool for such applications?<br />
+<p>You are tasked with building an online analytical processing (OLAP) marketing analytics and reporting tool. This requires a relational database that can operate on hundreds of terabytes of data. What is the Google-recommended tool for such applications?   <br />
 你的任务是构建一个在线分析处理 (OLAP) 营销分析和报告工具。这需要一个能够处理数百 TB 数据的关系数据库。Google 推荐的此类应用程序工具是什么？</p>
 
 <p>A. Cloud Spanner, because it is globally distributed<br />
@@ -3484,7 +3484,7 @@ D. BigQuery, because it is designed for large-scale processing of tabular data</
 <p><a href="/assets/gcp/discussion/74.md">Discussion</a></p>
 
 <h1 id="75">75</h1>
-<p>You have deployed an application to Google Kubernetes Engine (GKE), and are using the Cloud SQL proxy container to make the Cloud SQL database available to the services running on Kubernetes. You are notified that the application is reporting database connection issues. Your company policies require a post- mortem. What should you do?<br />
+<p>You have deployed an application to Google Kubernetes Engine (GKE), and are using the Cloud SQL proxy container to make the Cloud SQL database available to the services running on Kubernetes. You are notified that the application is reporting database connection issues. Your company policies require a post- mortem. What should you do?   <br />
 您已将一个应用部署到 Google Kubernetes Engine (GKE)，并使用 Cloud SQL 代理容器将 Cloud SQL 数据库提供给 Kubernetes 上运行的服务。您收到通知，告知该应用报告了数据库连接问题。根据公司政策，需要进行事后分析。您应该怎么做？</p>
 
 <p>A. Use gcloud sql instances restart.<br />
@@ -3495,7 +3495,7 @@ D. In the GCP Console, navigate to Cloud SQL. Restore the latest backup. Use kub
 <p><a href="/assets/gcp/discussion/75.md">Discussion</a></p>
 
 <h1 id="76">76</h1>
-<p>Your company pushes batches of sensitive transaction data from its application server VMs to Cloud Pub/Sub for processing and storage. What is the Google- recommended way for your application to authenticate to the required Google Cloud services?<br />
+<p>Your company pushes batches of sensitive transaction data from its application server VMs to Cloud Pub/Sub for processing and storage. What is the Google- recommended way for your application to authenticate to the required Google Cloud services?   <br />
 您的公司将批量敏感交易数据从其应用服务器虚拟机推送到 Cloud Pub/Sub 进行处理和存储。Google 推荐的应用程序向所需的 Google Cloud 服务进行身份验证的方式是什么？</p>
 
 <p>A. Ensure that VM service accounts are granted the appropriate Cloud Pub/Sub IAM roles.<br />
@@ -3508,7 +3508,7 @@ D. Create a gateway to Cloud Pub/Sub using a Cloud Function, and grant the Cloud
 <h1 id="77">77</h1>
 
 <p>You want to establish a Compute Engine application in a single VPC across two regions. The application must communicate over VPN to an on-premises network.
-How should you deploy the VPN?<br />
+How should you deploy the VPN?   <br />
 您想在跨两个区域的单个 VPC 中部署一个 Compute Engine 应用。该应用必须通过 VPN 与本地网络通信。<br />
 您应该如何部署 VPN？</p>
 
@@ -3522,7 +3522,7 @@ D. Deploy Cloud VPN Gateway in each region. Ensure that each region has at least
 <h1 id="78">78</h1>
 
 <p>Your applications will be writing their logs to BigQuery for analysis. Each application should have its own table. Any logs older than 45 days should be removed.
-You want to optimize storage and follow Google-recommended practices. What should you do?<br />
+You want to optimize storage and follow Google-recommended practices. What should you do?   <br />
 您的应用程序会将其日志写入 BigQuery 进行分析。每个应用程序都应该有自己的表。任何超过 45 天的日志都应被移除。
 如果您想优化存储并遵循 Google 推荐的做法，您应该怎么做？</p>
 
@@ -3536,7 +3536,7 @@ D. Create a script that uses the BigQuery command line tool (bq) to remove recor
 <h1 id="79">79</h1>
 
 <p>You want your Google Kubernetes Engine cluster to automatically add or remove nodes based on CPU load.<br />
-What should you do?<br />
+What should you do?   <br />
 您希望 Google Kubernetes Engine 集群根据 CPU 负载自动添加或移除节点。
 您应该怎么做？</p>
 
@@ -3550,7 +3550,7 @@ D. Create a deployment and set the maxUnavailable and maxSurge properties. Enabl
 <h1 id="80">80</h1>
 
 <p>You need to develop procedures to verify resilience of disaster recovery for remote recovery using GCP. Your production environment is hosted on-premises. You need to establish a secure, redundant connection between your on-premises network and the GCP network.<br />
-What should you do?<br />
+What should you do?   <br />
 您需要制定规程来验证使用 GCP 进行远程灾难恢复的弹性。您的生产环境托管在本地。您需要在本地网络和 GCP 网络之间建立安全、冗余的连接。<br />
 您应该怎么做？</p>
 
@@ -3564,7 +3564,7 @@ D. Verify that the Transfer Appliance can replicate files to GCP. Verify that Cl
 <h1 id="81">81</h1>
 
 <p>Your company operates nationally and plans to use GCP for multiple batch workloads, including some that are not time-critical. You also need to use GCP services that are HIPAA-certified and manage service costs.<br />
-How should you design to meet Google best practices?<br />
+How should you design to meet Google best practices?   <br />
 您的公司在全国范围内运营，并计划使用 GCP 处理多个批量工作负载，包括一些对时间要求不严格的工作负载。您还需要使用符合 HIPAA 认证的 GCP 服务并管理服务成本。<br />
 您应该如何设计才能符合 Google 的最佳实践？</p>
 
@@ -3578,7 +3578,7 @@ D. Provision standard VMs to the same region to reduce cost. Disable and then di
 <h1 id="82">82</h1>
 
 <p>Your customer wants to do resilience testing of their authentication layer. This consists of a regional managed instance group serving a public REST API that reads from and writes to a Cloud SQL instance.<br />
-What should you do?<br />
+What should you do?   <br />
 您的客户想要对其身份验证层进行弹性测试。该层包含一个区域托管实例组，该实例组提供公共 REST API，用于读取和写入 Cloud SQL 实例。<br />
 您应该怎么做？</p>
 
@@ -3591,7 +3591,7 @@ D. Configure a read replica for your Cloud SQL instance in a different zone than
 
 <h1 id="83">83</h1>
 
-<p>Your BigQuery project has several users. For audit purposes, you need to see how many queries each user ran in the last month. What should you do?<br />
+<p>Your BigQuery project has several users. For audit purposes, you need to see how many queries each user ran in the last month. What should you do?   <br />
 您的 BigQuery 项目有多个用户。为了进行审核，您需要查看每个用户上个月运行了多少次查询。您应该怎么做？</p>
 
 <p>A. Connect Google Data Studio to BigQuery. Create a dimension for the users and a metric for the amount of queries per user.<br />
@@ -3605,7 +3605,7 @@ D. Use Cloud Audit Logging to view Cloud Audit Logs, and create a filter on the 
 
 <p>You want to automate the creation of a managed instance group. The VMs have many OS package dependencies. You want to minimize the startup time for new
 VMs in the instance group.<br />
-What should you do?<br />
+What should you do?   <br />
 您希望自动创建托管实例组。这些虚拟机具有许多操作系统软件包依赖项。您希望最大限度地缩短<br />
 实例组中新虚拟机的启动时间。<br />
 您应该怎么做？</p>
@@ -3621,7 +3621,7 @@ D. Use Deployment Manager to create the managed instance group and Ansible to in
 
 <p>Your company captures all web traffic data in Google Analytics 360 and stores it in BigQuery. Each country has its own dataset. Each dataset has multiple tables.
 You want analysts from each country to be able to see and query only the data for their respective countries.<br />
-How should you configure the access rights?<br />
+How should you configure the access rights?   <br />
 您的公司在 Google Analytics 360 中捕获所有网络流量数据，并将其存储在 BigQuery 中。每个国家/地区都有自己的数据集。每个数据集包含多个表。<br />
 您希望每个国家/地区的分析师只能查看和查询各自国家/地区的数据。<br />
 您应该如何配置访问权限？</p>
@@ -3689,7 +3689,7 @@ D. Install the Stackdriver Logging agent on a single compute instance and let it
 
 <h1 id="90">90</h1>
 <p>You have an App Engine application that needs to be updated. You want to test the update with production traffic before replacing the current application version.
-What should you do? 
+What should you do?  <br />
 您有一个 App Engine 应用需要更新。在替换当前应用版本之前，您想使用生产流量测试更新。<br />
 您应该怎么做？</p>
 
@@ -3702,7 +3702,7 @@ D. Deploy the update as a new App Engine application, and use Google’s global 
 
 <h1 id="91">91</h1>
 <p>All Compute Engine instances in your VPC should be able to connect to an Active Directory server on specific ports. Any other traffic emerging from your instances is not allowed. You want to enforce this using VPC firewall rules.
-How should you configure the firewall rules?
+How should you configure the firewall rules? <br />
 您的 VPC 中的所有 Compute Engine 实例都应该能够通过特定端口连接到 Active Directory 服务器。任何其他来自您实例的流量均不被允许。您想使用 VPC 防火墙规则来强制执行此操作。<br />
 您应该如何配置防火墙规则？</p>
 
@@ -3716,7 +3716,7 @@ D. Create an egress rule with priority 100 to allow the Active Directory traffic
 <h1 id="92">92</h1>
 
 <p>Your customer runs a web service used by e-commerce sites to offer product recommendations to users. The company has begun experimenting with a machine learning model on Google Cloud Platform to improve the quality of results.
-What should the customer do to improve their model’s results over time?
+What should the customer do to improve their model’s results over time? <br />
 您的客户运营着一个电商网站使用的 Web 服务，用于向用户提供产品推荐。该公司已开始在 Google Cloud Platform 上试验机器学习模型，以提高结果质量。<br />
 客户应该如何逐步改进其模型的结果？</p>
 
@@ -3730,7 +3730,7 @@ D. Save a history of recommendations and results of the recommendations in BigQu
 <h1 id="93">93</h1>
 
 <p>A development team at your company has created a dockerized HTTPS web application. You need to deploy the application on Google Kubernetes Engine (GKE) and make sure that the application scales automatically.
-How should you deploy to GKE?
+How should you deploy to GKE? <br />
 贵公司的开发团队创建了一个 Docker 化的 HTTPS Web 应用。您需要将该应用部署到 Google Kubernetes Engine (GKE) 上，并确保其能够自动扩展。
 您应该如何将其部署到 GKE？</p>
 
@@ -3744,7 +3744,7 @@ D. Enable autoscaling on the Compute Engine instance group. Use a Service resour
 <h1 id="94">94</h1>
 
 <p>You need to design a solution for global load balancing based on the URL path being requested. You need to ensure operations reliability and end-to-end in- transit encryption based on Google best practices.
-What should you do?
+What should you do? <br />
 您需要根据请求的 URL 路径设计一个全局负载均衡解决方案。您需要根据 Google 最佳实践确保操作可靠性和端到端传输加密。
 您应该怎么做？</p>
 
@@ -3758,7 +3758,7 @@ D. Create a global forwarding rule. Configure SSL proxy load balancing.</p>
 <h1 id="95">95</h1>
 
 <p>You have an application that makes HTTP requests to Cloud Storage. Occasionally the requests fail with HTTP status codes of 5xx and 429.<br />
-How should you handle these types of errors?<br />
+How should you handle these types of errors?   <br />
 您有一个应用向 Cloud Storage 发出 HTTP 请求。请求有时会失败，并返回 HTTP 状态代码 5xx 和 429。<br />
 您应该如何处理这些类型的错误？</p>
 
@@ -3772,7 +3772,7 @@ D. Monitor https://status.cloud.google.com/feed.atom and only make requests if C
 <h1 id="96">96</h1>
 
 <p>You need to develop procedures to test a disaster plan for a mission-critical application. You want to use Google-recommended practices and native capabilities within GCP.<br />
-What should you do?<br />
+What should you do?   <br />
 您需要制定流程来测试关键任务应用程序的灾难计划。您希望使用 Google 推荐的做法以及 GCP 中的原生功能。<br />
 您应该怎么做？</p>
 
@@ -3786,7 +3786,7 @@ D. Use gcloud scripts to automate service provisioning. Use Stackdriver to monit
 <h1 id="97">97</h1>
 
 <p>Your company creates rendering software which users can download from the company website. Your company has customers all over the world. You want to minimize latency for all your customers. You want to follow Google-recommended practices.<br />
-How should you store the files?<br />
+How should you store the files?   <br />
 您的公司开发了一款渲染软件，用户可以从公司网站下载。您的公司客户遍布全球。您希望最大限度地降低所有客户的延迟，并遵循 Google 推荐的做法。<br />
 您应该如何存储这些文件？</p>
 
@@ -3800,7 +3800,7 @@ D. Save the files in multiple Multi-Regional Cloud Storage buckets, one bucket p
 <h1 id="98">98</h1>
 
 <p>Your company acquired a healthcare startup and must retain its customers’ medical information for up to 4 more years, depending on when it was created. Your corporate policy is to securely retain this data, and then delete it as soon as regulations allow.<br />
-Which approach should you take?<br />
+Which approach should you take?   <br />
 您的公司收购了一家医疗保健初创公司，必须保留其客户的医疗信息最多 4 年，具体取决于信息的创建时间。您的公司政策是安全地保留这些数据，并在法规允许的情况下立即删除。
 您应该采取哪种方法？</p>
 
@@ -3814,7 +3814,7 @@ D. Store the data in Cloud Storage and run a nightly batch script that deletes a
 <h1 id="99">99</h1>
 
 <p>You are deploying a PHP App Engine Standard service with Cloud SQL as the backend. You want to minimize the number of queries to the database.
-What should you do?<br />
+What should you do?   <br />
 您正在部署一个 PHP App Engine 标准服务，并以 Cloud SQL 作为后端。您希望尽量减少对数据库的查询次数。<br />
 您应该怎么做？</p>
 
@@ -3827,7 +3827,7 @@ D. Set the memcache service level to shared. Create a key called ג€cached_que
 
 <h1 id="100">100</h1>
 
-<p>You need to ensure reliability for your application and operations by supporting reliable task scheduling for compute on GCP. Leveraging Google best practices, what should you do?<br />
+<p>You need to ensure reliability for your application and operations by supporting reliable task scheduling for compute on GCP. Leveraging Google best practices, what should you do?   <br />
 您需要通过支持 GCP 上可靠的计算任务调度来确保应用程序和操作的可靠性。利用 Google 的最佳实践，您应该怎么做？</p>
 
 <p>A. Using the Cron service provided by App Engine, publish messages directly to a message-processing utility service running on Compute Engine instances.<br />
@@ -3835,11 +3835,11 @@ B. Using the Cron service provided by App Engine, publish messages to a Cloud Pu
 C. Using the Cron service provided by Google Kubernetes Engine (GKE), publish messages directly to a message-processing utility service running on Compute Engine instances.<br />
 D. Using the Cron service provided by GKE, publish messages to a Cloud Pub/Sub topic. Subscribe to that topic using a message-processing utility service running on Compute Engine instances.</p>
 
-<p><a href="/assets/gcp/discussion/100.md">Discussion</a></p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="cloud" /><category term="ai" /><category term="k8s" /><category term="cloud" /><summary type="html"><![CDATA[professional cloud architect 2025-04-09 12:00:00]]></summary></entry><entry><title type="html">professional cloud architect 1-50</title><link href="/cloud/2025/04/08/12-00-00-professional-cloud-architect-1-50.html" rel="alternate" type="text/html" title="professional cloud architect 1-50" /><published>2025-04-08T12:00:00+08:00</published><updated>2025-04-08T12:00:00+08:00</updated><id>/cloud/2025/04/08/12:00:00-professional-cloud-architect%201-50</id><content type="html" xml:base="/cloud/2025/04/08/12-00-00-professional-cloud-architect-1-50.html"><![CDATA[<p>professional cloud architect 2025-04-08 12:00:00</p>
+<p><a href="/assets/gcp/discussion/100.md">Discussion</a></p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="cloud" /><category term="ai" /><category term="k8s" /><category term="cloud" /><summary type="html"><![CDATA[professional cloud architect 2025-04-09 12:00:00 51]]></summary></entry><entry><title type="html">professional cloud architect 1-50</title><link href="/cloud/2025/04/08/12-00-00-professional-cloud-architect-1-50.html" rel="alternate" type="text/html" title="professional cloud architect 1-50" /><published>2025-04-08T12:00:00+08:00</published><updated>2025-04-08T12:00:00+08:00</updated><id>/cloud/2025/04/08/12:00:00-professional-cloud-architect%201-50</id><content type="html" xml:base="/cloud/2025/04/08/12-00-00-professional-cloud-architect-1-50.html"><![CDATA[<p>professional cloud architect 2025-04-08 12:00:00</p>
 
 <h1 id="1">1</h1>
 
-<p>Your company has decided to make a major revision of their API in order to create better experiences for their developers. They need to keep the old version of the API available and deployable, while allowing new customers and testers to try out the new API. They want to keep the same SSL and DNS records in place to serve both APIs.<br />
+<p>Your company has decided to make a major revision of their API in order to create better experiences for their developers. They need to keep the old version of the API available and deployable, while allowing new customers and testers to try out the new API. They want to keep the same SSL and DNS records in place to serve both APIs. <br />
 What should they do?</p>
 
 <p>A. Configure a new load balancer for the new version of the API<br />
@@ -3864,7 +3864,7 @@ D. Stream data into Google Cloud Datastore</p>
 <h1 id="3">3</h1>
 
 <p>The operations manager asks you for a list of recommended practices that she should consider when migrating a J2EE application to the cloud.<br />
-Which three practices should you recommend? (Choose three.)</p>
+Which three practices should you recommend?    (Choose three.)</p>
 
 <p>A. Port the application code to run on Google App Engine<br />
 B. Integrate Cloud Dataflow into the application to capture real-time metrics<br />
@@ -3886,25 +3886,25 @@ What is the most likely cause of this problem?</p>
 <span class="kn">from</span> <span class="n">google.appengine.api</span> <span class="kn">import</span> <span class="n">users</span>
 
 <span class="n">app</span> <span class="o">=</span> <span class="nc">Flask</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
-<span class="n">sessions</span> <span class="o">=</span> <span class="p">{}</span>
-
+<span class="n">sessions</span> <span class="o">=</span> <span class="p">{}</span>  
+  
 <span class="nd">@app.route</span><span class="p">(</span><span class="sh">"</span><span class="s">/</span><span class="sh">"</span><span class="p">)</span>
-<span class="k">def</span> <span class="nf">homepage</span><span class="p">():</span>
-    <span class="n">user</span> <span class="o">=</span> <span class="n">users</span><span class="p">.</span><span class="nf">get_current_user</span><span class="p">()</span>
-    <span class="k">if</span> <span class="ow">not</span> <span class="n">user</span><span class="p">:</span>
-        <span class="k">return</span> <span class="sh">"</span><span class="s">Invalid login</span><span class="sh">"</span><span class="p">,</span>
+<span class="k">def</span> <span class="nf">homepage</span><span class="p">():</span>  
+    <span class="n">user</span> <span class="o">=</span> <span class="n">users</span><span class="p">.</span><span class="nf">get_current_user</span><span class="p">()</span>  
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">user</span><span class="p">:</span>  
+        <span class="k">return</span> <span class="sh">"</span><span class="s">Invalid login</span><span class="sh">"</span><span class="p">,</span>  
         <span class="n">status</span><span class="p">.</span><span class="n">HTTP_401_UNAUTHORIZED</span>
+  
+    <span class="k">if</span> <span class="n">user</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">sessions</span><span class="p">:</span>  
+        <span class="n">sessions</span><span class="p">[</span><span class="n">user</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="sh">"</span><span class="s">viewed</span><span class="sh">"</span><span class="p">:</span> <span class="p">[]}</span>  
+  
+    <span class="n">news_articles</span> <span class="o">=</span> <span class="n">news</span><span class="p">.</span><span class="nf">get_new_news</span><span class="p">(</span><span class="n">user</span><span class="p">,</span> <span class="n">sessions</span><span class="p">[</span><span class="n">user</span><span class="p">][</span><span class="sh">"</span><span class="s">viewed</span><span class="sh">"</span><span class="p">])</span>  
+    <span class="n">sessions</span><span class="p">[</span><span class="n">user</span><span class="p">][</span><span class="sh">"</span><span class="s">viewed</span><span class="sh">"</span><span class="p">]</span> <span class="o">+=</span> <span class="p">[</span><span class="n">n</span><span class="p">[</span><span class="sh">"</span><span class="s">id</span><span class="sh">"</span><span class="p">]</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">news_articles</span><span class="p">]</span>  
+  
+    <span class="k">return</span> <span class="n">news</span><span class="p">.</span><span class="nf">render</span><span class="p">(</span><span class="n">news_articles</span><span class="p">)</span>  
 
-    <span class="k">if</span> <span class="n">user</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">sessions</span><span class="p">:</span>
-        <span class="n">sessions</span><span class="p">[</span><span class="n">user</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="sh">"</span><span class="s">viewed</span><span class="sh">"</span><span class="p">:</span> <span class="p">[]}</span>
-
-    <span class="n">news_articles</span> <span class="o">=</span> <span class="n">news</span><span class="p">.</span><span class="nf">get_new_news</span><span class="p">(</span><span class="n">user</span><span class="p">,</span> <span class="n">sessions</span><span class="p">[</span><span class="n">user</span><span class="p">][</span><span class="sh">"</span><span class="s">viewed</span><span class="sh">"</span><span class="p">])</span>
-    <span class="n">sessions</span><span class="p">[</span><span class="n">user</span><span class="p">][</span><span class="sh">"</span><span class="s">viewed</span><span class="sh">"</span><span class="p">]</span> <span class="o">+=</span> <span class="p">[</span><span class="n">n</span><span class="p">[</span><span class="sh">"</span><span class="s">id</span><span class="sh">"</span><span class="p">]</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">news_articles</span><span class="p">]</span>
-
-    <span class="k">return</span> <span class="n">news</span><span class="p">.</span><span class="nf">render</span><span class="p">(</span><span class="n">news_articles</span><span class="p">)</span>
-
-<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="sh">"</span><span class="s">__main__</span><span class="sh">"</span><span class="p">:</span>
-    <span class="n">app</span><span class="p">.</span><span class="nf">run</span><span class="p">()</span>
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="sh">"</span><span class="s">__main__</span><span class="sh">"</span><span class="p">:</span>  
+    <span class="n">app</span><span class="p">.</span><span class="nf">run</span><span class="p">()</span>  
 </code></pre></div></div>
 <p>A. The session variable is local to just a single instance
 B. The session variable is being overwritten in Cloud Datastore
@@ -3929,7 +3929,7 @@ D. Help them upgrade their current tool to take advantage of any new features</p
 
 <p>You need to reduce the number of unplanned rollbacks of erroneous production deployments in your company’s web hosting platform. Improvement to the QA/
 Test processes accomplished an 80% reduction.<br />
-Which additional two approaches can you take to further reduce the rollbacks? (Choose two.)</p>
+Which additional two approaches can you take to further reduce the rollbacks?    (Choose two.)</p>
 
 <p>A. Introduce a green-blue deployment model
 B. Replace the QA environment with canary releases
@@ -3941,9 +3941,9 @@ E. Replace the platform’s relational database systems with a NoSQL database</p
 
 <h1 id="7">7</h1>
 
-<p>To reduce costs, the Director of Engineering has required all developers to move their development infrastructure resources from on-premises virtual machines<br />
+<p>To reduce costs, the Director of Engineering has required all developers to move their development infrastructure resources from on-premises virtual machines  <br />
 (VMs) to Google Cloud Platform. These resources go through multiple start/stop events during the day and require state to persist. You have been asked to design the process of running a development environment in Google Cloud while providing cost visibility to the finance department.
-Which two steps should you take? (Choose two.)</p>
+Which two steps should you take?    (Choose two.)</p>
 
 <p>A. Use the - -no-auto-delete flag on all persistent disks and stop the VM<br />
 B. Use the - -auto-delete flag on all persistent disks and terminate the VM<br />
@@ -4057,21 +4057,23 @@ E. Enable Logging export to Google BigQuery and use ACLs and views to scope the 
 
 <h1 id="16">16</h1>
 <p>You have been asked to select the storage system for the click-data of your company’s large portfolio of websites. This data is streamed in from a custom website analytics package at a typical rate of 6,000 clicks per minute. With bursts of up to 8,500 clicks per second. It must have been stored for future analysis by your data science and user experience teams.
-Which storage infrastructure should you choose?<br />
+Which storage infrastructure should you choose?   <br />
 您被要求选择用于存储贵公司大量网站点击数据的存储系统。这些数据以每分钟 6,000 次点击的典型速率从自定义网站分析包中流式传输。最高可达每秒 8,500 次点击。这些数据必须已存储以供您的数据科学和用户体验团队将来分析。
-您应该选择哪种存储基础架构？
-A. Google Cloud SQL<br />
+您应该选择哪种存储基础架构？</p>
+
+<p>A. Google Cloud SQL<br />
 B. Google Cloud Bigtable<br />
 C. Google Cloud Storage<br />
 D. Google Cloud Datastore</p>
 
-<p>Answer: B<br />
+<p>Answer: B  <br />
 <a href="/assets/gcp/discussion/16.md">Discussion</a></p>
 
 <h1 id="17">17</h1>
 <p>You are creating a solution to remove backup files older than 90 days from your backup Cloud Storage bucket. You want to optimize ongoing Cloud Storage spend.<br />
-What should you do?
-A. Write a lifecycle management rule in XML and push it to the bucket with gsutil<br />
+What should you do?</p>
+
+<p>A. Write a lifecycle management rule in XML and push it to the bucket with gsutil<br />
 B. Write a lifecycle management rule in JSON and push it to the bucket with gsutil<br />
 C. Schedule a cron script using gsutil ls ג€”lr gs://backups/** to find and remove items older than 90 days<br />
 D. Schedule a cron script using gsutil ls ג€”l gs://backups/** to find and remove items older than 90 days and schedule it with cron</p>
@@ -4080,7 +4082,7 @@ D. Schedule a cron script using gsutil ls ג€”l gs://backups/** to find and 
 
 <h1 id="18">18</h1>
 <p>Your company is forecasting a sharp increase in the number and size of Apache Spark and Hadoop jobs being run on your local datacenter. You want to utilize the cloud to help you scale this upcoming demand with the least amount of operations work and code change.<br />
-Which product should you use?<br />
+Which product should you use?   <br />
 您的公司预测，本地数据中心运行的 Apache Spark 和 Hadoop 作业的数量和规模将急剧增加。您希望利用云来帮助您以最少的操作工作和代码更改来扩展这一即将到来的需求。<br />
 您应该使用哪种产品？
 A. Google Cloud Dataflow<br />
@@ -4092,7 +4094,7 @@ D. Google Kubernetes Engine</p>
 
 <h1 id="19">19</h1>
 <p>The database administration team has asked you to help them improve the performance of their new database server running on Google Compute Engine. The database is for importing and normalizing their performance statistics and is built with MySQL running on Debian Linux. They have an n1-standard-8 virtual machine with 80 GB of SSD persistent disk.<br />
-What should they change to get better performance from this system?<br />
+What should they change to get better performance from this system?   <br />
 数据库管理团队请您帮助他们提高在 Google Compute Engine 上运行的新数据库服务器的性能。该数据库用于导入和规范其性能统计数据，并使用在 Debian Linux 上运行的 MySQL 构建。他们有一个 n1-standard-8 虚拟机，带有 80 GB 的 SSD 永久磁盘。<br />
 他们应该进行哪些更改才能从这个系统获得更好的性能？<br />
 A. Increase the virtual machine’s memory to 64 GB<br />
@@ -4105,7 +4107,7 @@ E. Modify all of their batch jobs to use bulk inserts into the database</p>
 
 <h1 id="20">20</h1>
 <p>You want to optimize the performance of an accurate, real-time, weather-charting application. The data comes from 50,000 sensors sending 10 readings a second, in the format of a timestamp and sensor reading.<br />
-Where should you store the data?<br />
+Where should you store the data?   <br />
 您想要优化一个精确、实时的天气图表应用程序的性能。数据来自 50,000 个传感器，它们每秒发送 10 个读数，格式为时间戳和传感器读数。<br />
 您应该将数据存储在哪里？<br />
 A. Google BigQuery<br />
@@ -4118,7 +4120,7 @@ D. Google Cloud Storage</p>
 <h1 id="21">21</h1>
 <p>Your company’s user-feedback portal comprises a standard LAMP stack replicated across two zones. It is deployed in the us-central1 region and uses autoscaled managed instance groups on all layers, except the database. Currently, only a small group of select customers have access to the portal. The portal meets a
 99,99% availability SLA under these conditions. However next quarter, your company will be making the portal available to all users, including unauthenticated users. You need to develop a resiliency testing strategy to ensure the system maintains the SLA once they introduce additional user load.<br />
-What should you do?<br />
+What should you do?   <br />
 贵公司的用户反馈门户包含一个跨两个区域复制的标准 LAMP 堆栈。它部署在 us-central1 区域，并在除数据库之外的所有层上使用自动扩展的托管实例组。目前，只有一小部分选定的客户可以访问该门户。<br />
 在这些条件下，门户满足 99.99% 的可用性 SLA。但是下个季度，贵公司将向所有用户（包括未经身份验证的用户）提供该门户。您需要制定弹性测试策略，以确保系统在引入额外用户负载后保持 SLA。<br />
 您应该怎么做？</p>
@@ -4135,7 +4137,7 @@ D. Capture existing users input, and replay captured user load until resource ut
 <p>One of the developers on your team deployed their application in Google Container Engine with the Dockerfile below. They report that their application deployments are taking too long.</p>
 
 <p>You want to optimize this Dockerfile for faster deployment times without adversely affecting the app’s functionality.<br />
-Which two actions should you take? (Choose two.)<br />
+Which two actions should you take?    (Choose two.)<br />
 您团队中的一位开发人员使用以下 Dockerfile 在 Google Container Engine 中部署了他们的应用程序。他们报告说他们的应用程序部署耗时太长。
 FROM ubuntu:16.04</p>
 
@@ -4157,7 +4159,7 @@ E. Copy the source after he package dependencies (Python and pip) are installed<
 
 <h1 id="23">23</h1>
 <p>Your solution is producing performance bugs in production that you did not see in staging and test environments. You want to adjust your test and deployment procedures to avoid this problem in the future.<br />
-What should you do?<br />
+What should you do?   <br />
 您的解决方案在生产中产生了性能错误，而您在暂存和测试环境中没有看到这些错误。您想调整测试和部署程序以避免将来出现此问题。<br />
 您应该怎么做？</p>
 
@@ -4171,7 +4173,7 @@ D. Deploy changes to a small subset of users before rolling out to production</p
 <h1 id="24">24</h1>
 <p>A small number of API requests to your microservices-based application take a very long time. You know that each request to the API can traverse many services.
 You want to know which service takes the longest in those cases.<br />
-What should you do?<br />
+What should you do?   <br />
 您的基于微服务的应用程序的少量 API 请求需要很长时间。您知道对 API 的每个请求都可以遍历许多服务。<br />
 您想知道在这些情况下哪个服务花费的时间最长。<br />
 您应该怎么做？</p>
@@ -4185,7 +4187,7 @@ D. Instrument your application with Stackdriver Trace in order to break down the
 
 <h1 id="25">25</h1>
 <p>During a high traffic portion of the day, one of your relational databases crashes, but the replica is never promoted to a master. You want to avoid this in the future.<br />
-What should you do?<br />
+What should you do?   <br />
 在一天中的高流量时段，您的一个关系数据库崩溃了，但副本数据库从未升级为主数据库。您希望将来避免这种情况。
 您应该怎么做？</p>
 
@@ -4198,7 +4200,7 @@ D. Implement routinely scheduled failovers of your databases</p>
 
 <h1 id="26">26</h1>
 <p>Your organization requires that metrics from all applications be retained for 5 years for future analysis in possible legal proceedings.
-Which approach should you use?<br />
+Which approach should you use?   <br />
 您的组织要求保留所有应用程序的指标 5 年，以便将来在可能的法律诉讼中进行分析。<br />
 您应该使用哪种方法？</p>
 
@@ -4213,7 +4215,7 @@ D. Configure Stackdriver Monitoring for all Projects, and export to Google Cloud
 
 <p>Your company has decided to build a backup replica of their on-premises user authentication PostgreSQL database on Google Cloud Platform. The database is 4
 TB, and large updates are frequent. Replication requires private address space communication.
-Which networking approach should you use?<br />
+Which networking approach should you use?   <br />
 您的公司已决定在 Google Cloud Platform 上构建其本地用户身份验证 PostgreSQL 数据库的备份副本。该数据库为 4
 TB，并且经常进行大量更新。复制需要私有地址空间通信。<br />
 您应该使用哪种网络方法？</p>
@@ -4228,7 +4230,7 @@ D. A Google Compute Engine instance with a VPN server installed connected to the
 <h1 id="28">28</h1>
 
 <p>Auditors visit your teams every 12 months and ask to review all the Google Cloud Identity and Access Management (Cloud IAM) policy changes in the previous 12 months. You want to streamline and expedite the analysis and audit process.<br />
-What should you do?<br />
+What should you do?   <br />
 审计人员每 12 个月访问一次您的团队，并要求审查过去 12 个月内的所有 Google Cloud Identity and Access Management (Cloud IAM) 政策变更。您想简化和加快分析和审计流程。
 您应该怎么做？</p>
 
@@ -4241,7 +4243,7 @@ D. Enable Google Cloud Storage (GCS) log export to audit logs into a GCS bucket 
 
 <h1 id="29">29</h1>
 <p>You are designing a large distributed application with 30 microservices. Each of your distributed microservices needs to connect to a database back-end. You want to store the credentials securely.<br />
-Where should you store the credentials?<br />
+Where should you store the credentials?   <br />
 您正在设计一个包含 30 个微服务的大型分布式应用程序。每个分布式微服务都需要连接到数据库后端。您希望安全地存储凭据。 <br />
 您应该将凭据存储在哪里？</p>
 
@@ -4256,7 +4258,7 @@ D. In a config file that has restricted access through ACLs</p>
 
 <p>A lead engineer wrote a custom tool that deploys virtual machines in the legacy data center. He wants to migrate the custom tool to the new cloud environment.
 You want to advocate for the adoption of Google Cloud Deployment Manager.<br />
-What are two business risks of migrating to Cloud Deployment Manager? (Choose two.)<br />
+What are two business risks of migrating to Cloud Deployment Manager?    (Choose two.)<br />
 一位首席工程师编写了一个自定义工具，用于在旧数据中心部署虚拟机。他希望将自定义工具迁移到新的云环境。<br />
 您想倡导采用 Google Cloud Deployment Manager。<br />
 迁移到 Cloud Deployment Manager 的两种业务风险是什么？（选择两个。）</p>
@@ -4304,7 +4306,7 @@ D. Google Kubernetes Engine, Jenkins, and Cloud Load Balancing</p>
 <h1 id="32">32</h1>
 
 <p>You have created several pre-emptible Linux virtual machine instances using Google Compute Engine. You want to properly shut down your application before the virtual machines are preempted.<br />
-What should you do?<br />
+What should you do?   <br />
 您已使用 Google Compute Engine 创建了多个可抢占的 Linux 虚拟机实例。您想在虚拟机被抢占之前正确关闭您的应用程序。<br />
 您应该怎么做？</p>
 
@@ -4318,7 +4320,7 @@ D. Create a shutdown script, registered as a xinetd service in Linux, and use th
 <h1 id="33">33</h1>
 
 <p>Your organization has a 3-tier web application deployed in the same network on Google Cloud Platform. Each tier (web, API, and database) scales independently of the others. Network traffic should flow through the web to the API tier and then on to the database tier. Traffic should not flow between the web and the database tier.<br />
-How should you configure the network?<br />
+How should you configure the network?   <br />
 您的组织在 Google Cloud Platform 上的同一网络中部署了一个三层 Web 应用。每个层（Web、API 和数据库）都独立于其他层进行扩展。网络流量应通过 Web 层流向 API 层，然后再流向数据库层。流量不应在 Web 层和数据库层之间流动。<br />
 您应该如何配置网络？</p>
 
@@ -4332,7 +4334,7 @@ D. Add tags to each tier and set up firewall rules to allow the desired traffic 
 <h1 id="34">34</h1>
 
 <p>Your development team has installed a new Linux kernel module on the batch servers in Google Compute Engine (GCE) virtual machines (VMs) to speed up the nightly batch process. Two days after the installation, 50% of the batch servers failed the nightly batch run. You want to collect details on the failure to pass back to the development team.<br />
-Which three actions should you take? (Choose three.)<br />
+Which three actions should you take?    (Choose three.)<br />
 您的开发团队在 Google Compute Engine (GCE) 虚拟机 (VM) 中的批处理服务器上安装了新的 Linux 内核模块，以加快夜间批处理过程。安装两天后，50% 的批处理服务器未能完成夜间批处理运行。您想要收集有关失败的详细信息，并将其传回开发团队。<br />
 您应该采取哪三项措施？（选择三项。）</p>
 
@@ -4347,7 +4349,7 @@ F. Export a debug VM into an image, and run the image on a local server where ke
 
 <h1 id="35">35</h1>
 <p>Your company wants to try out the cloud with low risk. They want to archive approximately 100 TB of their log data to the cloud and test the analytics features available to them there, while also retaining that data as a long-term disaster recovery backup.<br />
-Which two steps should you take? (Choose two.)<br />
+Which two steps should you take?    (Choose two.)<br />
 您的公司希望以低风险的方式试用云服务。他们希望将大约 100 TB 的日志数据归档到云端，并测试可用的分析功能，同时保留这些数据作为长期灾难恢复备份。<br />
 您应该采取哪两个步骤？（选择两个。）</p>
 
@@ -4639,7 +4641,7 @@ B. 在 Google Cloud 上使用与本地相同的 IP 范围作为主要 IP 范围�
 C. 在 Google Cloud 上使用与您在本地使用的范围不重叠的 IP 范围<br />
 D. 在 Google Cloud 上使用的 IP 范围与您在本地使用的主要 IP 范围不重叠，并使用与您在本地使用的 IP 范围相同的次要范围</p>
 
-<p><a href="/assets/gcp/discussion/50.md">Discussion</a></p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="cloud" /><category term="ai" /><category term="k8s" /><category term="cloud" /><summary type="html"><![CDATA[professional cloud architect 2025-04-08 12:00:00]]></summary></entry><entry><title type="html">儿童创作小故事</title><link href="/ai/2025/04/07/12-00-03-AI%E8%87%AA%E5%8A%A8%E7%94%BB-%E8%87%AA%E5%B7%B1%E5%81%9A%E5%B0%8F%E6%95%85%E4%BA%8B.html" rel="alternate" type="text/html" title="儿童创作小故事" /><published>2025-04-07T12:00:03+08:00</published><updated>2025-04-07T12:00:03+08:00</updated><id>/ai/2025/04/07/12:00:03-AI%E8%87%AA%E5%8A%A8%E7%94%BB-%E8%87%AA%E5%B7%B1%E5%81%9A%E5%B0%8F%E6%95%85%E4%BA%8B</id><content type="html" xml:base="/ai/2025/04/07/12-00-03-AI%E8%87%AA%E5%8A%A8%E7%94%BB-%E8%87%AA%E5%B7%B1%E5%81%9A%E5%B0%8F%E6%95%85%E4%BA%8B.html"><![CDATA[<p>儿童创作小故事 2025-04-07 12:00:03</p>
+<p><a href="/assets/gcp/discussion/50.md">Discussion</a></p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="cloud" /><category term="ai" /><category term="k8s" /><category term="cloud" /><summary type="html"><![CDATA[professional cloud architect 2025-04-08 12:00:00 1]]></summary></entry><entry><title type="html">儿童创作小故事</title><link href="/ai/2025/04/07/12-00-03-AI%E8%87%AA%E5%8A%A8%E7%94%BB-%E8%87%AA%E5%B7%B1%E5%81%9A%E5%B0%8F%E6%95%85%E4%BA%8B.html" rel="alternate" type="text/html" title="儿童创作小故事" /><published>2025-04-07T12:00:03+08:00</published><updated>2025-04-07T12:00:03+08:00</updated><id>/ai/2025/04/07/12:00:03-AI%E8%87%AA%E5%8A%A8%E7%94%BB-%E8%87%AA%E5%B7%B1%E5%81%9A%E5%B0%8F%E6%95%85%E4%BA%8B</id><content type="html" xml:base="/ai/2025/04/07/12-00-03-AI%E8%87%AA%E5%8A%A8%E7%94%BB-%E8%87%AA%E5%B7%B1%E5%81%9A%E5%B0%8F%E6%95%85%E4%BA%8B.html"><![CDATA[<p>儿童创作小故事 2025-04-07 12:00:03</p>
 
 <p>通过 n8n 串联 AI 模块，实现低门槛、可扩展的<strong>自动化儿童动画故事生成系统</strong>。内容创作使用“自动 + 个性化”，专注儿童创作。</p>
 
@@ -4752,7 +4754,7 @@ VS Code 市场中 Material Theme 被移除，引发了社区对开源项目可�
       <li><a href="https://www.geldata.com/blog/edgedb-is-now-gel-and-postgres-is-the-future">EdgeDB is now Gel</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-26 20:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/26/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-26T14:00:03+08:00</published><updated>2025-02-26T14:00:03+08:00</updated><id>/hacknews/2025/02/26/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/26/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-26 14:00:03</p>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-26 20:00:03 DeepSeek 开源 DeepGEMM DeepSeek 团队开源了 DeepGEMM，这是一个清洁且高效的 FP8 GEMM 内核库，旨在提升深度学习中的矩阵运算效率。 DeepSeek Open Sources DeepGEMM SQL 注入法庭案例 一篇关于作者亲身经历 SQL 注入案件的文章，揭示了 SQL 注入攻击的严重性和法律后果。 I Went to SQL Injection Court AI 历史视频引发争议 历史学家对近期流行的 AI 制作的历史视频发表评论，批评其内容业余且危险，引发了对 AI 生成内容准确性的讨论。 ‘Amateur and dangerous’ AI history videos Hyperspace 软件介绍 一篇介绍 Hyperspace 的文章，这是一个旨在提高用户隐私和安全的新型软件。 Hyperspace Grant Sanderson 与 Terry Tao 的视频 数学家 Terry Tao 与 Grant Sanderson 的第二部分视频，讨论了宇宙距离梯的概念。 Part two of Grant Sanderson’s video with Terry Tao Ggwave 数据传输声音库 Ggwave 是一个小巧的数据通过声音传输的库，为物联网设备提供了一种新的数据传输方式。 Ggwave: Tiny Data-over-Sound Library Browser Use 开源项目 一个名为 Browser Use 的新项目，旨在创建开源的网络代理，以增强网络的开放性和可访问性。 Launch HN: Browser Use 文档排名解决复杂问题 一篇文章探讨了将复杂问题简化为文档排名问题的方法，这对于搜索引擎优化和信息检索领域具有重要意义。 Hard problems that reduce to document ranking Material Theme 从 VS Code 移除 VS Code 市场中 Material Theme 被移除，引发了社区对开源项目可持续性和版权问题的讨论。 Material Theme pulled from VS Code EdgeDB 转型为 Gel 数据库管理系统 EdgeDB 转型为 Gel，并宣布 Postgres 为未来发展方向，这一转变对数据库技术的未来具有深远影响。 EdgeDB is now Gel]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/26/06-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-26T14:00:03+08:00</published><updated>2025-02-26T14:00:03+08:00</updated><id>/hacknews/2025/02/26/06:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/26/06-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-26 14:00:03</p>
 
 <ol>
   <li><strong>SQL 注入案例分析</strong><br />
@@ -4815,7 +4817,7 @@ Ggwave 是一个轻量级的数据通过声音传输库，其开源项目在 Git
       <li><a href="https://github.com/browser-use/browser-use">Launch HN: Browser Use</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-26 14:00:03]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/26/20-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-26T04:00:03+08:00</published><updated>2025-02-26T04:00:03+08:00</updated><id>/hacknews/2025/02/26/20:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/26/20-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-26 04:00:03</p>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-26 14:00:03 SQL 注入案例分析 文章《I Went to SQL Injection Court》讨论了作者因 SQL 注入问题而上法庭的经历，提供了对 SQL 注入攻击及其法律后果的深刻见解。 I Went to SQL Injection Court Hyperspace 技术介绍 《Hyperspace》一文介绍了一种新的技术，旨在提高数据存储和检索的效率，引起了技术社区的广泛关注。 Hyperspace Git 核心开发者的配置 文章《How core Git developers configure Git》揭示了 Git 核心开发者如何配置他们的 Git 环境，为 Git 用户提供了宝贵的最佳实践。 How core Git developers configure Git Framework 迷你 ITX 游戏 PC Framework 推出的首款桌面电脑，以其独特的迷你 ITX 游戏 PC 设计和可升级性吸引了众多硬件爱好者的目光。 Framework’s first desktop Ggwave 数据传输技术 Ggwave 是一个轻量级的数据通过声音传输库，其开源项目在 GitHub 上引起了开发者的兴趣。 Ggwave: Tiny Data-over-Sound Library XB-70 摄影作品 《The XB-70》展示了一组关于 XB-70 飞机的摄影作品，这些作品因其独特的视角和历史价值而受到关注。 The XB-70 文档排名解决复杂问题 文章《Hard problems that reduce to document ranking》探讨了如何通过文档排名技术解决一系列复杂问题。 Hard problems that reduce to document ranking Grant Sanderson 与 Terry Tao 的视频 数学家 Terry Tao 与视频创作者 Grant Sanderson 的第二部分视频，讨论了宇宙距离梯的问题，受到了数学爱好者的热烈讨论。 Part two of Grant Sanderson’s video with Terry Tao 秃头鹰的复兴 《Bald eagles are thriving again after near extinction》报道了秃头鹰从濒临灭绝到再次繁荣的过程，展示了生态保护的成功案例。 Bald eagles are thriving again Browser Use 开源项目 《Launch HN: Browser Use》介绍了一个由 YC W25 支持的开源项目，旨在创建开放源代码的网络代理。 Launch HN: Browser Use]]></summary></entry><entry><title type="html">Hacker News Trending Now</title><link href="/hacknews/2025/02/26/20-00-03-hackernews_report.html" rel="alternate" type="text/html" title="Hacker News Trending Now" /><published>2025-02-26T04:00:03+08:00</published><updated>2025-02-26T04:00:03+08:00</updated><id>/hacknews/2025/02/26/20:00:03-hackernews_report</id><content type="html" xml:base="/hacknews/2025/02/26/20-00-03-hackernews_report.html"><![CDATA[<p>Hacker News 热门话题 2025-02-26 04:00:03</p>
 
 <ol>
   <li><strong>Core Git Developers 的 Git 配置</strong><br />
@@ -4845,7 +4847,7 @@ DeepSeek 推出了开源的 DeepEP 库，用于 MoE（Mixture of Experts）模�
   <li><strong>DigiCert 威胁采取法律行动以压制 Bugzilla 讨论</strong><br />
 DigiCert 威胁要采取法律行动以压制 Bugzilla 上的讨论，引发了关于言论自由和法律威胁的争议。
     <ul>
-      <li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1950144">DigiCert: Threat of legal action to stifle Bugzilla discourse</a></li>
+      <li><a href="https://bugzilla.mozilla.org/show_bug.cgi?   id=1950144">DigiCert: Threat of legal action to stifle Bugzilla discourse</a></li>
     </ul>
   </li>
   <li><strong>检测 Canvas 指纹识别中的噪声</strong><br />
@@ -4890,4 +4892,4 @@ Giles Thomas 的文章讨论了在 AI 时代博客的价值，认为博客仍然
       <li><a href="https://www.gilesthomas.com/2025/02/blogging-in-the-age-of-ai">It’s still worth blogging in the age of AI</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-26 04:00:03]]></summary></entry></feed>
+</ol>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="hacknews" /><category term="news" /><category term="tech" /><summary type="html"><![CDATA[Hacker News 热门话题 2025-02-26 04:00:03 Core Git Developers 的 Git 配置 文章介绍了 Core Git 开发者如何配置 Git，提供了一些高级 Git 使用技巧和最佳实践，对 Git 用户来说非常有参考价值。 How Core Git Developers Configure Git Anthropic 发布 Claude 3.7 Sonnet 和 Claude Code Anthropic 公司发布了 Claude 3.7 Sonnet 和 Claude Code，展示了其在自然语言处理和代码生成方面的进步。 Claude 3.7 Sonnet and Claude Code DeepSeek 集成资源列表 GitHub 上的 DeepSeek 集成资源列表，提供了多种 DeepSeek AI 工具和框架的集成方法，对开发者来说是一个宝贵的资源。 Awesome DeepSeek Integrations DeepSeek 开源 DeepEP 库 DeepSeek 推出了开源的 DeepEP 库，用于 MoE（Mixture of Experts）模型的训练和推理，对机器学习领域是一个重要的贡献。 DeepSeek open source DeepEP DigiCert 威胁采取法律行动以压制 Bugzilla 讨论 DigiCert 威胁要采取法律行动以压制 Bugzilla 上的讨论，引发了关于言论自由和法律威胁的争议。 DigiCert: Threat of legal action to stifle Bugzilla discourse 检测 Canvas 指纹识别中的噪声 城堡博客的文章讨论了如何检测 Canvas 指纹识别中的噪声，对于提高网站安全性和隐私保护具有重要意义。 Detecting Noise in Canvas Fingerprinting “离火车站越近，烤肉越差”——一项“研究” 瑞典的一项“研究”探讨了火车站附近烤肉质量的问题，虽然看似幽默，但也反映了城市规划和商业布局的现实问题。 “The closer to the train station, the worse the kebab” – a “study” 自由职业者如何找到客户（第一部分） 文章分享了作者作为自由职业者如何找到客户的经验，对于想要从事自由职业的人来说是一个很好的指南。 Freelancing: How I found clients, part 1 特斯拉在欧洲的销量上个月几乎减半 商业内幕报道了特斯拉在欧洲的销量大幅下降的情况，分析了可能的原因和对特斯拉的影响。 Tesla sales almost halved in Europe last month 一些编程语言的想法 David Bos 的博客文章分享了一些关于编程语言设计的新颖想法，对于语言设计者和程序员来说提供了新的视角。 Some Programming Language Ideas Clean Code 与软件设计哲学 John Ousterhout 的 GitHub 页面对比了 Clean Code 和 A Philosophy Of Software Design，讨论了软件设计的不同理念。 Clean Code vs. A Philosophy Of Software Design 在 AI 时代，博客仍然值得写 Giles Thomas 的文章讨论了在 AI 时代博客的价值，认为博客仍然是个人表达和知识分享的重要平台。 It’s still worth blogging in the age of AI]]></summary></entry></feed>

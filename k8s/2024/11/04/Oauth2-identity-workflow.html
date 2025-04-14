@@ -7,7 +7,7 @@
   <!-- Google tag (gtag.js) -->
   <script
     async
-    src="https://www.googletagmanager.com/gtag/js?id=G-Y7KSK53R96"
+    src="https://www.googletagmanager.com/gtag/js?   id=G-Y7KSK53R96"
   ></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -96,9 +96,9 @@
   <li>客户端(第三方应用)通过 <strong>302 重定向</strong> 请求用户访问授权服务器（<code class="language-plaintext highlighter-rouge">auth server</code>），并在 URL 中携带以下重要参数：</li>
 </ul>
 
-<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">GET</span> <span class="nn">/authorize?response_type=code&amp;client_id=CLIENT_ID&amp;redirect_uri=https://your-app.com/callback&amp;scope=SCOPE&amp;state=RANDOM_STRING</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
-<span class="na">Host</span><span class="p">:</span> <span class="s">auth-server.com</span>
-</code></pre></div></div>
+<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">GET /authorize?   response_type=code&amp;client_id=CLIENT_ID&amp;redirect_uri=https://your-app.com/callback&amp;scope=SCOPE&amp;state=RANDOM_STRING HTTP/1.1  
+Host: auth-server.com
+</span></code></pre></div></div>
 <p>参数说明：</p>
 <ul>
   <li><strong>response_type=code</strong>：请求授权码。</li>
@@ -122,8 +122,8 @@
   <li>授权服务器通过 <strong>302 重定向</strong> 将用户带回客户端(第三方应用)的回调地址（<code class="language-plaintext highlighter-rouge">redirect_uri</code>），并在 URL 中附加授权码和原始的 <code class="language-plaintext highlighter-rouge">state</code>：</li>
 </ul>
 
-<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">302</span> <span class="ne">Found</span>
-<span class="na">Location</span><span class="p">:</span> <span class="s">https://your-app.com/callback?code=AUTH_CODE&amp;state=RANDOM_STRING</span>
+<div class="language-http highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">302</span> <span class="ne">Found  </span>
+<span class="na">Location</span><span class="p">:</span> <span class="s">https://your-app.com/callback?   code=AUTH_CODE&amp;state=RANDOM_STRING</span>
 </code></pre></div></div>
 <p>参数说明：</p>
 <ul>
@@ -144,9 +144,9 @@
   <li>如果 <code class="language-plaintext highlighter-rouge">state</code> 验证通过，客户端(第三方应用)使用授权码（<code class="language-plaintext highlighter-rouge">code</code>）向授权服务器发起 <strong>POST 请求</strong>，交换访问令牌（<code class="language-plaintext highlighter-rouge">access token</code>）：</li>
 </ul>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST /token HTTP/1.1
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST /token HTTP/1.1  
 Content-Type: application/x-www-form-urlencoded
-
+  
 <span class="nv">grant_type</span><span class="o">=</span>authorization_code&amp;code<span class="o">=</span>AUTH_CODE&amp;redirect_uri<span class="o">=</span>https://your-app.com/callback&amp;client_id<span class="o">=</span>CLIENT_ID&amp;client_secret<span class="o">=</span>CLIENT_SECRET
 </code></pre></div></div>
 

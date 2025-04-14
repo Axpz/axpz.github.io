@@ -7,7 +7,7 @@
   <!-- Google tag (gtag.js) -->
   <script
     async
-    src="https://www.googletagmanager.com/gtag/js?id=G-Y7KSK53R96"
+    src="https://www.googletagmanager.com/gtag/js?   id=G-Y7KSK53R96"
   ></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -160,7 +160,7 @@
  ```
 
  &lt;/details&gt;
-
+  
 </EOF></details>
   </li>
   <li>
@@ -200,7 +200,7 @@
  ```
 
  &lt;/details&gt;
-
+  
 </EOF></details>
   </li>
   <li>
@@ -218,13 +218,13 @@
 <p>登录到A节点，启动controlplane</p>
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-sfL</span> https://get.k3s.io | sh -
 </code></pre></div></div>
-<p>根据个人环境优化参数，如·网络丢包率为 12%，延时约 250ms·，建议优化启动参数.
+<p>根据个人环境优化参数，如·网络丢包率为 12%，延时约 250ms·，建议优化启动参数.<br />
 也可以使用默认参数，目前默认行为k3s</p>
 <ol>
   <li>启动sqlite存储</li>
   <li>Kubelet默认同步node节点数据频率为1分钟一次</li>
   <li>默认API Server 等待状态更新的最大容忍时间为5m
-```/etc/systemd/system/k3s.service
+```/etc/systemd/system/k3s.service<br />
 ExecStart=/usr/local/bin/k3s server –tls-san axpz.local</li>
 </ol>
 
@@ -233,7 +233,7 @@ ExecStart=/usr/local/bin/k3s server –tls-san axpz.local</li>
 <p>–kubelet-arg=–node-status-update-frequency=60s
 –kubelet-arg=–node-status-update-grace-period=5m</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code></code></pre></div></div>
-<p>sudo systemctl daemon-reload
+<p>sudo systemctl daemon-reload<br />
 sudo systemctl restart k3s</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>查看日志
     
@@ -242,11 +242,11 @@ sudo systemctl restart k3s</p>
 ```bash  
 # 使用以下命令来过滤 K3s 日志中的 Node Token 和 TLS-SAN 信息
 # journalctl -u k3s | grep 'node token\|tls-san'
-
-Jan 07 15:30:36 calm-baud-1.localdomain k3s[3094620]: time="2025-01-07T15:30:36Z" level=info msg="Server node token is available at /var/lib/rancher/k3s/server/token"
-Jan 07 15:30:36 calm-baud-1.localdomain k3s[3094620]: time="2025-01-07T15:30:36Z" level=info msg="Agent node token is available at /var/lib/rancher/k3s/server/agent-token"
-Jan 07 15:30:47 calm-baud-1.localdomain k3s[3094779]: time="2025-01-07T15:30:47Z" level=info msg="Server node token is available at /var/lib/rancher/k3s/server/token"
-Jan 07 15:30:47 calm-baud-1.localdomain k3s[3094779]: time="2025-01-07T15:30:47Z" level=info msg="Agent node token is available at /var/lib/rancher/k3s/server/agent-token"
+  
+Jan 07 15:30:36 calm-baud-1.localdomain k3s[3094620]: time="2025-01-07T15:30:36Z" level=info msg="Server node token is available at /var/lib/rancher/k3s/server/token"  
+Jan 07 15:30:36 calm-baud-1.localdomain k3s[3094620]: time="2025-01-07T15:30:36Z" level=info msg="Agent node token is available at /var/lib/rancher/k3s/server/agent-token"  
+Jan 07 15:30:47 calm-baud-1.localdomain k3s[3094779]: time="2025-01-07T15:30:47Z" level=info msg="Server node token is available at /var/lib/rancher/k3s/server/token"  
+Jan 07 15:30:47 calm-baud-1.localdomain k3s[3094779]: time="2025-01-07T15:30:47Z" level=info msg="Agent node token is available at /var/lib/rancher/k3s/server/agent-token"  
 Jan 07 15:30:54 calm-baud-1.localdomain k3s[3094779]: I0107 15:30:54.121292 3094779 kube.go:636] List of node(calm-baud-1.localdomain) annotations: map[string]string{"alpha.kubernetes.io/provided-node-ip":"74.121.149.207", "flannel.alpha.coreos.com/backend-data":"{\"VNI\":1,\"VtepMAC\":\"3e:a5:8d:f1:50:b4\"}", "flannel.alpha.coreos.com/backend-type":"vxlan", "flannel.alpha.coreos.com/kube-subnet-manager":"true", "flannel.alpha.coreos.com/public-ip":"74.121.149.207", "k3s.io/hostname":"calm-baud-1.localdomain", "k3s.io/internal-ip":"74.121.149.207", "k3s.io/node-args":"[\"server\",\"--tls-san\",\"axpz.local\"]", "k3s.io/node-config-hash":"EW5CHGDY6WQFH5IMOMMGEEEOFXADTGZZPMW5RZGHVQBJ3QHTZUHA====", "k3s.io/node-env":"{}", "node.alpha.kubernetes.io/ttl":"0", "volumes.kubernetes.io/controller-managed-attach-detach":"true"}
 </code></pre></div></div>
 
@@ -254,11 +254,11 @@ Jan 07 15:30:54 calm-baud-1.localdomain k3s[3094779]: I0107 15:30:54.121292 3094
 
 <h4 id="启动traefik-dashboard">启动traefik dashboard</h4>
 <p>edit /var/lib/rancher/k3s/server/manifests/traefik.yaml with</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apiVersion: helm.cattle.io/v1
-kind: HelmChart
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apiVersion: helm.cattle.io/v1  
+kind: HelmChart  
 metadata:
   name: traefik
-  namespace: kube-system
+  namespace: kube-system  
 spec:
   chart: https://%{KUBERNETES_API}%/static/charts/traefik-27.0.201+up27.0.2.tgz
   set:
@@ -270,8 +270,8 @@ spec:
 
 <h4 id="搭建k3s-worker-on-macos">搭建k3s worker on <code class="language-plaintext highlighter-rouge">macOS</code></h4>
 <p>首先启动一个轻量级虚拟机</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>multipass launch <span class="nt">--name</span> k3s-worker <span class="nt">--memory</span> 4G <span class="nt">--disk</span> 40G <span class="nt">--mount</span> ~/go/src/github.com:/mnt/github.com
-multipass shell k3s-worker
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>multipass launch <span class="nt">--name</span> k3s-worker <span class="nt">--memory</span> 4G <span class="nt">--disk</span> 40G <span class="nt">--mount</span> ~/go/src/github.com:/mnt/github.com  
+multipass shell k3s-worker  
 curl <span class="nt">-sfL</span> https://get.k3s.io | <span class="nv">K3S_URL</span><span class="o">=</span>https://axpz.local:6443 <span class="nv">K3S_TOKEN</span><span class="o">=</span>K10...d0eb56c9 sh -
 </code></pre></div></div>
 
@@ -297,19 +297,19 @@ curl <span class="nt">-sfL</span> https://get.k3s.io | <span class="nv">K3S_URL<
 <h4 id="打通网络搭建集群">打通网络、搭建集群</h4>
 
 <p>参考方案1的实现, 同时注意添加dnat</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> PREROUTING <span class="nt">-p</span> tcp <span class="nt">--dport</span> 80 <span class="nt">-d</span> 74.121.149.207 <span class="nt">-j</span> DNAT <span class="nt">--to-destination</span> 10.4.0.3:80
-<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> PREROUTING <span class="nt">-p</span> tcp <span class="nt">--dport</span> 443 <span class="nt">-d</span> 74.121.149.207 <span class="nt">-j</span> DNAT <span class="nt">--to-destination</span> 10.4.0.3:443
-<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> POSTROUTING <span class="nt">-o</span> eth0 <span class="nt">-j</span> MASQUERADE
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> PREROUTING <span class="nt">-p</span> tcp <span class="nt">--dport</span> 80 <span class="nt">-d</span> 74.121.149.207 <span class="nt">-j</span> DNAT <span class="nt">--to-destination</span> 10.4.0.3:80  
+<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> PREROUTING <span class="nt">-p</span> tcp <span class="nt">--dport</span> 443 <span class="nt">-d</span> 74.121.149.207 <span class="nt">-j</span> DNAT <span class="nt">--to-destination</span> 10.4.0.3:443  
+<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> POSTROUTING <span class="nt">-o</span> eth0 <span class="nt">-j</span> MASQUERADE  
 <span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> POSTROUTING <span class="nt">-o</span> wg0 <span class="nt">-j</span> MASQUERADE
 </code></pre></div></div>
 
 <h4 id="配置集群负载均衡为wg0">配置集群负载均衡为wg0</h4>
 
 <p>k3s 使用serviceLB来提供负载均衡服务，当有external-ip 时，serviceLB会自动使用其作为负载均衡，当没有的时候会自动使用internal ip作为负载均衡，由于我们配置了vpn连通外网，所以我们配置wg0作为外网ip，具体配置添加启动参数
-–node-external-ip 10.4.0.3
+–node-external-ip 10.4.0.3<br />
 所以启动service变为ExecStart=/usr/local/bin/k3s server –node-external-ip 10.4.0.3</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>systemctl daemon-reload
-systemctl stop k3s
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>systemctl daemon-reload  
+systemctl stop k3s  
 systemctl start k3s
 </code></pre></div></div>
 

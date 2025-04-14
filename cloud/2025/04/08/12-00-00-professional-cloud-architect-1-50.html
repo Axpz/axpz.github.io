@@ -7,7 +7,7 @@
   <!-- Google tag (gtag.js) -->
   <script
     async
-    src="https://www.googletagmanager.com/gtag/js?id=G-Y7KSK53R96"
+    src="https://www.googletagmanager.com/gtag/js?   id=G-Y7KSK53R96"
   ></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -23,15 +23,15 @@
 <meta property="og:title" content="professional cloud architect 1-50" />
 <meta name="author" content="Axpz" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="professional cloud architect 2025-04-08 12:00:00" />
-<meta property="og:description" content="professional cloud architect 2025-04-08 12:00:00" />
+<meta name="description" content="professional cloud architect 2025-04-08 12:00:00 1" />
+<meta property="og:description" content="professional cloud architect 2025-04-08 12:00:00 1" />
 <meta property="og:site_name" content="Xianping" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2025-04-08T12:00:00+08:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="professional cloud architect 1-50" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Axpz"},"dateModified":"2025-04-08T12:00:00+08:00","datePublished":"2025-04-08T12:00:00+08:00","description":"professional cloud architect 2025-04-08 12:00:00","headline":"professional cloud architect 1-50","mainEntityOfPage":{"@type":"WebPage","@id":"/cloud/2025/04/08/12-00-00-professional-cloud-architect-1-50.html"},"url":"/cloud/2025/04/08/12-00-00-professional-cloud-architect-1-50.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Axpz"},"dateModified":"2025-04-08T12:00:00+08:00","datePublished":"2025-04-08T12:00:00+08:00","description":"professional cloud architect 2025-04-08 12:00:00 1","headline":"professional cloud architect 1-50","mainEntityOfPage":{"@type":"WebPage","@id":"/cloud/2025/04/08/12-00-00-professional-cloud-architect-1-50.html"},"url":"/cloud/2025/04/08/12-00-00-professional-cloud-architect-1-50.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Xianping" />
 </head>
@@ -59,7 +59,7 @@
 
 <h1 id="1">1</h1>
 
-<p>Your company has decided to make a major revision of their API in order to create better experiences for their developers. They need to keep the old version of the API available and deployable, while allowing new customers and testers to try out the new API. They want to keep the same SSL and DNS records in place to serve both APIs.<br />
+<p>Your company has decided to make a major revision of their API in order to create better experiences for their developers. They need to keep the old version of the API available and deployable, while allowing new customers and testers to try out the new API. They want to keep the same SSL and DNS records in place to serve both APIs. <br />
 What should they do?</p>
 
 <p>A. Configure a new load balancer for the new version of the API<br />
@@ -84,7 +84,7 @@ D. Stream data into Google Cloud Datastore</p>
 <h1 id="3">3</h1>
 
 <p>The operations manager asks you for a list of recommended practices that she should consider when migrating a J2EE application to the cloud.<br />
-Which three practices should you recommend? (Choose three.)</p>
+Which three practices should you recommend?    (Choose three.)</p>
 
 <p>A. Port the application code to run on Google App Engine<br />
 B. Integrate Cloud Dataflow into the application to capture real-time metrics<br />
@@ -106,25 +106,25 @@ What is the most likely cause of this problem?</p>
 <span class="kn">from</span> <span class="n">google.appengine.api</span> <span class="kn">import</span> <span class="n">users</span>
 
 <span class="n">app</span> <span class="o">=</span> <span class="nc">Flask</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
-<span class="n">sessions</span> <span class="o">=</span> <span class="p">{}</span>
-
+<span class="n">sessions</span> <span class="o">=</span> <span class="p">{}</span>  
+  
 <span class="nd">@app.route</span><span class="p">(</span><span class="sh">"</span><span class="s">/</span><span class="sh">"</span><span class="p">)</span>
-<span class="k">def</span> <span class="nf">homepage</span><span class="p">():</span>
-    <span class="n">user</span> <span class="o">=</span> <span class="n">users</span><span class="p">.</span><span class="nf">get_current_user</span><span class="p">()</span>
-    <span class="k">if</span> <span class="ow">not</span> <span class="n">user</span><span class="p">:</span>
-        <span class="k">return</span> <span class="sh">"</span><span class="s">Invalid login</span><span class="sh">"</span><span class="p">,</span>
+<span class="k">def</span> <span class="nf">homepage</span><span class="p">():</span>  
+    <span class="n">user</span> <span class="o">=</span> <span class="n">users</span><span class="p">.</span><span class="nf">get_current_user</span><span class="p">()</span>  
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">user</span><span class="p">:</span>  
+        <span class="k">return</span> <span class="sh">"</span><span class="s">Invalid login</span><span class="sh">"</span><span class="p">,</span>  
         <span class="n">status</span><span class="p">.</span><span class="n">HTTP_401_UNAUTHORIZED</span>
+  
+    <span class="k">if</span> <span class="n">user</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">sessions</span><span class="p">:</span>  
+        <span class="n">sessions</span><span class="p">[</span><span class="n">user</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="sh">"</span><span class="s">viewed</span><span class="sh">"</span><span class="p">:</span> <span class="p">[]}</span>  
+  
+    <span class="n">news_articles</span> <span class="o">=</span> <span class="n">news</span><span class="p">.</span><span class="nf">get_new_news</span><span class="p">(</span><span class="n">user</span><span class="p">,</span> <span class="n">sessions</span><span class="p">[</span><span class="n">user</span><span class="p">][</span><span class="sh">"</span><span class="s">viewed</span><span class="sh">"</span><span class="p">])</span>  
+    <span class="n">sessions</span><span class="p">[</span><span class="n">user</span><span class="p">][</span><span class="sh">"</span><span class="s">viewed</span><span class="sh">"</span><span class="p">]</span> <span class="o">+=</span> <span class="p">[</span><span class="n">n</span><span class="p">[</span><span class="sh">"</span><span class="s">id</span><span class="sh">"</span><span class="p">]</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">news_articles</span><span class="p">]</span>  
+  
+    <span class="k">return</span> <span class="n">news</span><span class="p">.</span><span class="nf">render</span><span class="p">(</span><span class="n">news_articles</span><span class="p">)</span>  
 
-    <span class="k">if</span> <span class="n">user</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">sessions</span><span class="p">:</span>
-        <span class="n">sessions</span><span class="p">[</span><span class="n">user</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="sh">"</span><span class="s">viewed</span><span class="sh">"</span><span class="p">:</span> <span class="p">[]}</span>
-
-    <span class="n">news_articles</span> <span class="o">=</span> <span class="n">news</span><span class="p">.</span><span class="nf">get_new_news</span><span class="p">(</span><span class="n">user</span><span class="p">,</span> <span class="n">sessions</span><span class="p">[</span><span class="n">user</span><span class="p">][</span><span class="sh">"</span><span class="s">viewed</span><span class="sh">"</span><span class="p">])</span>
-    <span class="n">sessions</span><span class="p">[</span><span class="n">user</span><span class="p">][</span><span class="sh">"</span><span class="s">viewed</span><span class="sh">"</span><span class="p">]</span> <span class="o">+=</span> <span class="p">[</span><span class="n">n</span><span class="p">[</span><span class="sh">"</span><span class="s">id</span><span class="sh">"</span><span class="p">]</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">news_articles</span><span class="p">]</span>
-
-    <span class="k">return</span> <span class="n">news</span><span class="p">.</span><span class="nf">render</span><span class="p">(</span><span class="n">news_articles</span><span class="p">)</span>
-
-<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="sh">"</span><span class="s">__main__</span><span class="sh">"</span><span class="p">:</span>
-    <span class="n">app</span><span class="p">.</span><span class="nf">run</span><span class="p">()</span>
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="sh">"</span><span class="s">__main__</span><span class="sh">"</span><span class="p">:</span>  
+    <span class="n">app</span><span class="p">.</span><span class="nf">run</span><span class="p">()</span>  
 </code></pre></div></div>
 <p>A. The session variable is local to just a single instance
 B. The session variable is being overwritten in Cloud Datastore
@@ -149,7 +149,7 @@ D. Help them upgrade their current tool to take advantage of any new features</p
 
 <p>You need to reduce the number of unplanned rollbacks of erroneous production deployments in your company’s web hosting platform. Improvement to the QA/
 Test processes accomplished an 80% reduction.<br />
-Which additional two approaches can you take to further reduce the rollbacks? (Choose two.)</p>
+Which additional two approaches can you take to further reduce the rollbacks?    (Choose two.)</p>
 
 <p>A. Introduce a green-blue deployment model
 B. Replace the QA environment with canary releases
@@ -161,9 +161,9 @@ E. Replace the platform’s relational database systems with a NoSQL database</p
 
 <h1 id="7">7</h1>
 
-<p>To reduce costs, the Director of Engineering has required all developers to move their development infrastructure resources from on-premises virtual machines<br />
+<p>To reduce costs, the Director of Engineering has required all developers to move their development infrastructure resources from on-premises virtual machines  <br />
 (VMs) to Google Cloud Platform. These resources go through multiple start/stop events during the day and require state to persist. You have been asked to design the process of running a development environment in Google Cloud while providing cost visibility to the finance department.
-Which two steps should you take? (Choose two.)</p>
+Which two steps should you take?    (Choose two.)</p>
 
 <p>A. Use the - -no-auto-delete flag on all persistent disks and stop the VM<br />
 B. Use the - -auto-delete flag on all persistent disks and terminate the VM<br />
@@ -277,21 +277,23 @@ E. Enable Logging export to Google BigQuery and use ACLs and views to scope the 
 
 <h1 id="16">16</h1>
 <p>You have been asked to select the storage system for the click-data of your company’s large portfolio of websites. This data is streamed in from a custom website analytics package at a typical rate of 6,000 clicks per minute. With bursts of up to 8,500 clicks per second. It must have been stored for future analysis by your data science and user experience teams.
-Which storage infrastructure should you choose?<br />
+Which storage infrastructure should you choose?   <br />
 您被要求选择用于存储贵公司大量网站点击数据的存储系统。这些数据以每分钟 6,000 次点击的典型速率从自定义网站分析包中流式传输。最高可达每秒 8,500 次点击。这些数据必须已存储以供您的数据科学和用户体验团队将来分析。
-您应该选择哪种存储基础架构？
-A. Google Cloud SQL<br />
+您应该选择哪种存储基础架构？</p>
+
+<p>A. Google Cloud SQL<br />
 B. Google Cloud Bigtable<br />
 C. Google Cloud Storage<br />
 D. Google Cloud Datastore</p>
 
-<p>Answer: B<br />
+<p>Answer: B  <br />
 <a href="/assets/gcp/discussion/16.md">Discussion</a></p>
 
 <h1 id="17">17</h1>
 <p>You are creating a solution to remove backup files older than 90 days from your backup Cloud Storage bucket. You want to optimize ongoing Cloud Storage spend.<br />
-What should you do?
-A. Write a lifecycle management rule in XML and push it to the bucket with gsutil<br />
+What should you do?</p>
+
+<p>A. Write a lifecycle management rule in XML and push it to the bucket with gsutil<br />
 B. Write a lifecycle management rule in JSON and push it to the bucket with gsutil<br />
 C. Schedule a cron script using gsutil ls ג€”lr gs://backups/** to find and remove items older than 90 days<br />
 D. Schedule a cron script using gsutil ls ג€”l gs://backups/** to find and remove items older than 90 days and schedule it with cron</p>
@@ -300,7 +302,7 @@ D. Schedule a cron script using gsutil ls ג€”l gs://backups/** to find and 
 
 <h1 id="18">18</h1>
 <p>Your company is forecasting a sharp increase in the number and size of Apache Spark and Hadoop jobs being run on your local datacenter. You want to utilize the cloud to help you scale this upcoming demand with the least amount of operations work and code change.<br />
-Which product should you use?<br />
+Which product should you use?   <br />
 您的公司预测，本地数据中心运行的 Apache Spark 和 Hadoop 作业的数量和规模将急剧增加。您希望利用云来帮助您以最少的操作工作和代码更改来扩展这一即将到来的需求。<br />
 您应该使用哪种产品？
 A. Google Cloud Dataflow<br />
@@ -312,7 +314,7 @@ D. Google Kubernetes Engine</p>
 
 <h1 id="19">19</h1>
 <p>The database administration team has asked you to help them improve the performance of their new database server running on Google Compute Engine. The database is for importing and normalizing their performance statistics and is built with MySQL running on Debian Linux. They have an n1-standard-8 virtual machine with 80 GB of SSD persistent disk.<br />
-What should they change to get better performance from this system?<br />
+What should they change to get better performance from this system?   <br />
 数据库管理团队请您帮助他们提高在 Google Compute Engine 上运行的新数据库服务器的性能。该数据库用于导入和规范其性能统计数据，并使用在 Debian Linux 上运行的 MySQL 构建。他们有一个 n1-standard-8 虚拟机，带有 80 GB 的 SSD 永久磁盘。<br />
 他们应该进行哪些更改才能从这个系统获得更好的性能？<br />
 A. Increase the virtual machine’s memory to 64 GB<br />
@@ -325,7 +327,7 @@ E. Modify all of their batch jobs to use bulk inserts into the database</p>
 
 <h1 id="20">20</h1>
 <p>You want to optimize the performance of an accurate, real-time, weather-charting application. The data comes from 50,000 sensors sending 10 readings a second, in the format of a timestamp and sensor reading.<br />
-Where should you store the data?<br />
+Where should you store the data?   <br />
 您想要优化一个精确、实时的天气图表应用程序的性能。数据来自 50,000 个传感器，它们每秒发送 10 个读数，格式为时间戳和传感器读数。<br />
 您应该将数据存储在哪里？<br />
 A. Google BigQuery<br />
@@ -338,7 +340,7 @@ D. Google Cloud Storage</p>
 <h1 id="21">21</h1>
 <p>Your company’s user-feedback portal comprises a standard LAMP stack replicated across two zones. It is deployed in the us-central1 region and uses autoscaled managed instance groups on all layers, except the database. Currently, only a small group of select customers have access to the portal. The portal meets a
 99,99% availability SLA under these conditions. However next quarter, your company will be making the portal available to all users, including unauthenticated users. You need to develop a resiliency testing strategy to ensure the system maintains the SLA once they introduce additional user load.<br />
-What should you do?<br />
+What should you do?   <br />
 贵公司的用户反馈门户包含一个跨两个区域复制的标准 LAMP 堆栈。它部署在 us-central1 区域，并在除数据库之外的所有层上使用自动扩展的托管实例组。目前，只有一小部分选定的客户可以访问该门户。<br />
 在这些条件下，门户满足 99.99% 的可用性 SLA。但是下个季度，贵公司将向所有用户（包括未经身份验证的用户）提供该门户。您需要制定弹性测试策略，以确保系统在引入额外用户负载后保持 SLA。<br />
 您应该怎么做？</p>
@@ -355,7 +357,7 @@ D. Capture existing users input, and replay captured user load until resource ut
 <p>One of the developers on your team deployed their application in Google Container Engine with the Dockerfile below. They report that their application deployments are taking too long.</p>
 
 <p>You want to optimize this Dockerfile for faster deployment times without adversely affecting the app’s functionality.<br />
-Which two actions should you take? (Choose two.)<br />
+Which two actions should you take?    (Choose two.)<br />
 您团队中的一位开发人员使用以下 Dockerfile 在 Google Container Engine 中部署了他们的应用程序。他们报告说他们的应用程序部署耗时太长。
 FROM ubuntu:16.04</p>
 
@@ -377,7 +379,7 @@ E. Copy the source after he package dependencies (Python and pip) are installed<
 
 <h1 id="23">23</h1>
 <p>Your solution is producing performance bugs in production that you did not see in staging and test environments. You want to adjust your test and deployment procedures to avoid this problem in the future.<br />
-What should you do?<br />
+What should you do?   <br />
 您的解决方案在生产中产生了性能错误，而您在暂存和测试环境中没有看到这些错误。您想调整测试和部署程序以避免将来出现此问题。<br />
 您应该怎么做？</p>
 
@@ -391,7 +393,7 @@ D. Deploy changes to a small subset of users before rolling out to production</p
 <h1 id="24">24</h1>
 <p>A small number of API requests to your microservices-based application take a very long time. You know that each request to the API can traverse many services.
 You want to know which service takes the longest in those cases.<br />
-What should you do?<br />
+What should you do?   <br />
 您的基于微服务的应用程序的少量 API 请求需要很长时间。您知道对 API 的每个请求都可以遍历许多服务。<br />
 您想知道在这些情况下哪个服务花费的时间最长。<br />
 您应该怎么做？</p>
@@ -405,7 +407,7 @@ D. Instrument your application with Stackdriver Trace in order to break down the
 
 <h1 id="25">25</h1>
 <p>During a high traffic portion of the day, one of your relational databases crashes, but the replica is never promoted to a master. You want to avoid this in the future.<br />
-What should you do?<br />
+What should you do?   <br />
 在一天中的高流量时段，您的一个关系数据库崩溃了，但副本数据库从未升级为主数据库。您希望将来避免这种情况。
 您应该怎么做？</p>
 
@@ -418,7 +420,7 @@ D. Implement routinely scheduled failovers of your databases</p>
 
 <h1 id="26">26</h1>
 <p>Your organization requires that metrics from all applications be retained for 5 years for future analysis in possible legal proceedings.
-Which approach should you use?<br />
+Which approach should you use?   <br />
 您的组织要求保留所有应用程序的指标 5 年，以便将来在可能的法律诉讼中进行分析。<br />
 您应该使用哪种方法？</p>
 
@@ -433,7 +435,7 @@ D. Configure Stackdriver Monitoring for all Projects, and export to Google Cloud
 
 <p>Your company has decided to build a backup replica of their on-premises user authentication PostgreSQL database on Google Cloud Platform. The database is 4
 TB, and large updates are frequent. Replication requires private address space communication.
-Which networking approach should you use?<br />
+Which networking approach should you use?   <br />
 您的公司已决定在 Google Cloud Platform 上构建其本地用户身份验证 PostgreSQL 数据库的备份副本。该数据库为 4
 TB，并且经常进行大量更新。复制需要私有地址空间通信。<br />
 您应该使用哪种网络方法？</p>
@@ -448,7 +450,7 @@ D. A Google Compute Engine instance with a VPN server installed connected to the
 <h1 id="28">28</h1>
 
 <p>Auditors visit your teams every 12 months and ask to review all the Google Cloud Identity and Access Management (Cloud IAM) policy changes in the previous 12 months. You want to streamline and expedite the analysis and audit process.<br />
-What should you do?<br />
+What should you do?   <br />
 审计人员每 12 个月访问一次您的团队，并要求审查过去 12 个月内的所有 Google Cloud Identity and Access Management (Cloud IAM) 政策变更。您想简化和加快分析和审计流程。
 您应该怎么做？</p>
 
@@ -461,7 +463,7 @@ D. Enable Google Cloud Storage (GCS) log export to audit logs into a GCS bucket 
 
 <h1 id="29">29</h1>
 <p>You are designing a large distributed application with 30 microservices. Each of your distributed microservices needs to connect to a database back-end. You want to store the credentials securely.<br />
-Where should you store the credentials?<br />
+Where should you store the credentials?   <br />
 您正在设计一个包含 30 个微服务的大型分布式应用程序。每个分布式微服务都需要连接到数据库后端。您希望安全地存储凭据。 <br />
 您应该将凭据存储在哪里？</p>
 
@@ -476,7 +478,7 @@ D. In a config file that has restricted access through ACLs</p>
 
 <p>A lead engineer wrote a custom tool that deploys virtual machines in the legacy data center. He wants to migrate the custom tool to the new cloud environment.
 You want to advocate for the adoption of Google Cloud Deployment Manager.<br />
-What are two business risks of migrating to Cloud Deployment Manager? (Choose two.)<br />
+What are two business risks of migrating to Cloud Deployment Manager?    (Choose two.)<br />
 一位首席工程师编写了一个自定义工具，用于在旧数据中心部署虚拟机。他希望将自定义工具迁移到新的云环境。<br />
 您想倡导采用 Google Cloud Deployment Manager。<br />
 迁移到 Cloud Deployment Manager 的两种业务风险是什么？（选择两个。）</p>
@@ -524,7 +526,7 @@ D. Google Kubernetes Engine, Jenkins, and Cloud Load Balancing</p>
 <h1 id="32">32</h1>
 
 <p>You have created several pre-emptible Linux virtual machine instances using Google Compute Engine. You want to properly shut down your application before the virtual machines are preempted.<br />
-What should you do?<br />
+What should you do?   <br />
 您已使用 Google Compute Engine 创建了多个可抢占的 Linux 虚拟机实例。您想在虚拟机被抢占之前正确关闭您的应用程序。<br />
 您应该怎么做？</p>
 
@@ -538,7 +540,7 @@ D. Create a shutdown script, registered as a xinetd service in Linux, and use th
 <h1 id="33">33</h1>
 
 <p>Your organization has a 3-tier web application deployed in the same network on Google Cloud Platform. Each tier (web, API, and database) scales independently of the others. Network traffic should flow through the web to the API tier and then on to the database tier. Traffic should not flow between the web and the database tier.<br />
-How should you configure the network?<br />
+How should you configure the network?   <br />
 您的组织在 Google Cloud Platform 上的同一网络中部署了一个三层 Web 应用。每个层（Web、API 和数据库）都独立于其他层进行扩展。网络流量应通过 Web 层流向 API 层，然后再流向数据库层。流量不应在 Web 层和数据库层之间流动。<br />
 您应该如何配置网络？</p>
 
@@ -552,7 +554,7 @@ D. Add tags to each tier and set up firewall rules to allow the desired traffic 
 <h1 id="34">34</h1>
 
 <p>Your development team has installed a new Linux kernel module on the batch servers in Google Compute Engine (GCE) virtual machines (VMs) to speed up the nightly batch process. Two days after the installation, 50% of the batch servers failed the nightly batch run. You want to collect details on the failure to pass back to the development team.<br />
-Which three actions should you take? (Choose three.)<br />
+Which three actions should you take?    (Choose three.)<br />
 您的开发团队在 Google Compute Engine (GCE) 虚拟机 (VM) 中的批处理服务器上安装了新的 Linux 内核模块，以加快夜间批处理过程。安装两天后，50% 的批处理服务器未能完成夜间批处理运行。您想要收集有关失败的详细信息，并将其传回开发团队。<br />
 您应该采取哪三项措施？（选择三项。）</p>
 
@@ -567,7 +569,7 @@ F. Export a debug VM into an image, and run the image on a local server where ke
 
 <h1 id="35">35</h1>
 <p>Your company wants to try out the cloud with low risk. They want to archive approximately 100 TB of their log data to the cloud and test the analytics features available to them there, while also retaining that data as a long-term disaster recovery backup.<br />
-Which two steps should you take? (Choose two.)<br />
+Which two steps should you take?    (Choose two.)<br />
 您的公司希望以低风险的方式试用云服务。他们希望将大约 100 TB 的日志数据归档到云端，并测试可用的分析功能，同时保留这些数据作为长期灾难恢复备份。<br />
 您应该采取哪两个步骤？（选择两个。）</p>
 
