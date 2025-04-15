@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-14T19:17:53+08:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-15T13:14:03+08:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
 </subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">professional cloud architect 251-279</title><link href="/cloud/2025/04/11/12-00-00-professional-cloud-architect-251-279.html" rel="alternate" type="text/html" title="professional cloud architect 251-279" /><published>2025-04-11T12:00:00+08:00</published><updated>2025-04-11T12:00:00+08:00</updated><id>/cloud/2025/04/11/12:00:00-professional-cloud-architect%20251-279</id><content type="html" xml:base="/cloud/2025/04/11/12-00-00-professional-cloud-architect-251-279.html"><![CDATA[<p>professional cloud architect 2025-04-11 12:00:00</p>
 
 <h1 id="251">251</h1>
@@ -2552,7 +2552,8 @@ B. Lease a Transfer Appliance, upload archived files to it, and send it to Googl
 C. Lease a Transfer Appliance, upload archived files to it, and send it to Google to transfer archived data to Cloud Storage. Establish one Cloud VPN Tunnel to VPC networks over the public internet, and compress and upload files daily using the gsutil ג€”m option.<br />
 D. Lease a Transfer Appliance, upload archived files to it, and send it to Google to transfer archived data to Cloud Storage. Establish a Cloud VPN Tunnel to VPC networks over the public internet, and compress and upload files daily.</p>
 
-<p><a href="/assets/gcp/discussion/101.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/101.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/101.ans.html">Answers and Votes</a></p>
 
 <h1 id="102">102</h1>
 
@@ -2566,7 +2567,8 @@ B. Cloud Pub/Sub to Cloud Dataflow<br />
 C. Cloud Pub/Sub to Stackdriver<br />
 D. Cloud Pub/Sub to Cloud SQL</p>
 
-<p><a href="/assets/gcp/discussion/102.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/102.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/102.ans.html">Answers and Votes</a></p>
 
 <h1 id="103">103</h1>
 
@@ -2580,7 +2582,8 @@ B. 1. Perform an assessment of virtual machines running in the current VMware en
 C. 1. Perform an assessment of virtual machines running in the current VMware environment. 2. Define a migration plan, prepare a Migrate for Compute Engine migration RunBook, and execute the migration.<br />
 D. 1. Perform an assessment of virtual machines running in the current VMware environment. 2. Install a third-party agent on all selected virtual machines. 3. Migrate all virtual machines into Compute Engine.</p>
 
-<p><a href="/assets/gcp/discussion/103.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/103.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/103.ans.html">Answers and Votes</a></p>
 
 <h1 id="104">104</h1>
 
@@ -2592,7 +2595,8 @@ B. Use a managed instance group with instances in multiple zones, use Cloud File
 C. Use an unmanaged instance group with an active and standby instance in different zones, use a regional persistent disk, and use an HTTP load balancer in front of the instances.<br />
 D. Use an unmanaged instance group with an active and standby instance in different zones, use a regional persistent disk, and use a network load balancer in front of the instances.</p>
 
-<p><a href="/assets/gcp/discussion/104.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/104.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/104.ans.html">Answers and Votes</a></p>
 
 <h1 id="105">105</h1>
 
@@ -2604,7 +2608,8 @@ B. Configure a direct peering connection between the on-premises environment and
 C. Use Cloud VPN to configure a VPN tunnel between the on-premises environment and Google Cloud.<br />
 D. Configure a Cloud Dedicated Interconnect connection between the on-premises environment and Google Cloud.</p>
 
-<p><a href="/assets/gcp/discussion/105.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/105.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/105.ans.html">Answers and Votes</a></p>
 
 <h1 id="106">106</h1>
 
@@ -2616,7 +2621,8 @@ B. Deploy a new service to Cloud Run with the new version. Add a Cloud Load Bala
 C. In the Google Cloud Console page for Cloud Run, set up continuous deployment using Cloud Build for the development branch. As part of the Cloud Build trigger, configure the substitution variable TRAFFIC_PERCENTAGE with the percentage of traffic you want directed to a new version.<br />
 D. In the Google Cloud Console, configure Traffic Director with a new Service that points to the new version of the application on Cloud Run. Configure Traffic Director to send a small percentage of traffic to the new version of the application.</p>
 
-<p><a href="/assets/gcp/discussion/106.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/106.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/106.ans.html">Answers and Votes</a></p>
 
 <h1 id="107">107</h1>
 
@@ -2628,7 +2634,8 @@ B. Navigate the predefined dashboards in the Cloud Monitoring workspace, create 
 C. Write a shell script that gathers metrics from GKE nodes, publish these metrics to a Pub/Sub topic, export the data to BigQuery, and make a Data Studio dashboard.<br />
 D. Create a custom dashboard in the Cloud Monitoring workspace for each incident, and then add metrics and create alert policies.</p>
 
-<p><a href="/assets/gcp/discussion/107.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/107.md">Discussion</a> <br />
+<a href="/assets/gcp/discussion/107.ans.html">Answers and Votes</a></p>
 
 <h1 id="108">108</h1>
 
@@ -2641,7 +2648,8 @@ C. Binary logging<br />
 D. Automated backups<br />
 E. Semisynchronous replication</p>
 
-<p><a href="/assets/gcp/discussion/108.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/108.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/108.ans.html">Answers and Votes</a></p>
 
 <h1 id="109">109</h1>
 
@@ -2653,7 +2661,8 @@ B. When ingesting new data in BigQuery, run the data through the Data Loss Preve
 C. Create a BigQuery view over the table that contains all data. Upon a deletion request, exclude the rows that affect the subject’s data from this view. Use this view instead of the source table for all analysis tasks.<br />
 D. Use a unique identifier for each individual. Upon a deletion request, overwrite the column with the unique identifier with a salted SHA256 of its value.</p>
 
-<p><a href="/assets/gcp/discussion/109.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/109.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/109.ans.html">Answers and Votes</a></p>
 
 <h1 id="110">110</h1>
 
@@ -2677,7 +2686,8 @@ B. Use Cloud Scheduler to trigger a Cloud Function that will stop the developmen
 C. Deploy the development and acceptance applications on a managed instance group and enable autoscaling.<br />
 D. Use regular Compute Engine instances for the production environment, and use preemptible VMs for the acceptance and development environments.</p>
 
-<p><a href="/assets/gcp/discussion/111.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/111.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/111.ans.html">Answers and Votes</a></p>
 
 <h1 id="112">112</h1>
 
@@ -2793,7 +2803,8 @@ B. Add two additional NICs to Instance #1 with the following configuration: ג�
 C. Create two VPN tunnels via CloudVPN: ג€¢ 1 between VPC #1 and VPC #2. ג€¢ 1 between VPC #2 and VPC #3. Update firewall rules to enable traffic between the instances.<br />
 D. Peer all three VPCs: ג€¢ Peer VPC #1 with VPC #2. ג€¢ Peer VPC #2 with VPC #3. Update firewall rules to enable traffic between the instances.</p>
 
-<p><a href="/assets/gcp/discussion/120.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/120.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/120.ans.html">Answers and Votes</a></p>
 
 <h1 id="121">121</h1>
 
@@ -2805,7 +2816,8 @@ B. Create a Debian-based Compute Engine instance, install and configure the appl
 C. Create an instance with the latest available Debian image. Connect to the instance via SSH, and install and configure the application on the instance. Repeat this process whenever a new Google-managed Debian image becomes available.<br />
 D. Create a Docker container with Debian as the base image. Install and configure the application as part of the Docker image creation process. Host the container on Google Kubernetes Engine and restart the container whenever a new update is available.</p>
 
-<p><a href="/assets/gcp/discussion/121.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/121.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/121.ans.html">Answers and Votes</a></p>
 
 <h1 id="122">122</h1>
 
@@ -2817,7 +2829,8 @@ B. 1. Create a new GKE cluster with Cloud Operations for GKE enabled. 2. Migrate
 C. 1. Update your GKE cluster to use Cloud Operations for GKE, and deploy Prometheus. 2. Set an alert to trigger whenever the application returns an error.<br />
 D. 1. Create a new GKE cluster with Cloud Operations for GKE enabled, and deploy Prometheus. 2. Migrate the affected Pods to the new cluster, and redirect traffic for those Pods to the new cluster. 3. Set an alert to trigger whenever the application returns an error.</p>
 
-<p><a href="/assets/gcp/discussion/122.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/122.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/122.ans.html">Answers and Votes</a></p>
 
 <h1 id="123">123</h1>
 
@@ -2829,7 +2842,8 @@ B. Use a regional persistent disk for each instance.<br />
 C. Create a Cloud Filestore instance and mount it in each instance.<br />
 D. Create a Cloud Storage bucket and mount it in each instance using gcsfuse.</p>
 
-<p><a href="/assets/gcp/discussion/123.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/123.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/123.ans.html">Answers and Votes</a></p>
 
 <h1 id="124">124</h1>
 
@@ -2867,7 +2881,8 @@ B. Install a post-commit hook on the remote git repository that tests the code a
 C. Create a Cloud Build trigger based on the development branch that tests the code, builds the container, and stores it in Container Registry. Create a deployment pipeline that watches for new images and deploys the new image on the development cluster. Ensure only the deployment tool has access to deploy new versions.<br />
 D. Create a Cloud Build trigger based on the development branch to build a new container image and store it in Container Registry. Rely on Vulnerability Scanning to ensure the code tests succeed. As the final step of the Cloud Build process, deploy the new container image on the development cluster. Ensure only Cloud Build has access to deploy new versions.</p>
 
-<p><a href="/assets/gcp/discussion/126.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/126.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/126.ans.html">Answers and Votes</a></p>
 
 <h1 id="127">127</h1>
 
@@ -2879,7 +2894,8 @@ B. Restart the affected instances on a staggered schedule.<br />
 C. SSH to each instance and restart the application process.<br />
 D. Increase the maximum number of instances in the autoscaling group.</p>
 
-<p><a href="/assets/gcp/discussion/127.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/127.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/127.ans.html">Answers and Votes</a></p>
 
 <h1 id="128">128</h1>
 
@@ -2891,7 +2907,8 @@ B. Cloud Run and Cloud Bigtable<br />
 C. A Compute Engine autoscaling managed instance group and BigQuery<br />
 D. A Compute Engine autoscaling managed instance group and Cloud Bigtable</p>
 
-<p><a href="/assets/gcp/discussion/128.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/128.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/128.ans.html">Answers and Votes</a></p>
 
 <h1 id="129">129</h1>
 
@@ -2915,7 +2932,8 @@ B. 1. Create a project with a standalone Virtual Private Cloud (VPC), assign the
 C. 1. Create a project with a Shared VPC and assign the Network Admin role to the networking team. 2. Create a second project without a VPC, configure it as a Shared VPC service project, and assign the Compute Admin role to the development team.<br />
 D. 1. Create a project with a standalone VPC and assign the Network Admin role to the networking team. 2. Create a second project with a standalone VPC and assign the Compute Admin role to the development team. 3. Use VPC Peering to join the two VPCs.</p>
 
-<p><a href="/assets/gcp/discussion/130.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/130.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/130.ans.html">Answers and Votes</a></p>
 
 <h1 id="131">131</h1>
 
@@ -2927,7 +2945,8 @@ B. Store static content such as HTML and images in a Cloud Storage bucket. Host 
 C. Store static content such as HTML and images in Cloud CDN. Use Cloud Run to host the APIs and save the user data in Cloud SQL.<br />
 D. Store static content such as HTML and images in a Cloud Storage bucket. Use Cloud Functions to host the APIs and save the user data in Firestore.</p>
 
-<p><a href="/assets/gcp/discussion/131.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/131.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/131.ans.html">Answers and Votes</a></p>
 
 <h1 id="132">132</h1>
 
@@ -2951,7 +2970,8 @@ B. Add all instances to an unmanaged instance group. Configure TCP Proxy Load Ba
 C. Configure Identity-Aware Proxy (IAP) for the instance and ensure that you have the role of IAP-secured Tunnel User. Use the gcloud command line tool to ssh into the instance.<br />
 D. Create a bastion host in the network to SSH into the bastion host from your office location. From the bastion host, SSH into the desired instance.</p>
 
-<p><a href="/assets/gcp/discussion/133.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/133.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/133.ans.html">Answers and Votes</a></p>
 
 <h1 id="134">134</h1>
 
