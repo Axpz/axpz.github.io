@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-15T13:14:03+08:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-15T14:11:27+08:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
 </subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">professional cloud architect 251-279</title><link href="/cloud/2025/04/11/12-00-00-professional-cloud-architect-251-279.html" rel="alternate" type="text/html" title="professional cloud architect 251-279" /><published>2025-04-11T12:00:00+08:00</published><updated>2025-04-11T12:00:00+08:00</updated><id>/cloud/2025/04/11/12:00:00-professional-cloud-architect%20251-279</id><content type="html" xml:base="/cloud/2025/04/11/12-00-00-professional-cloud-architect-251-279.html"><![CDATA[<p>professional cloud architect 2025-04-11 12:00:00</p>
 
 <h1 id="251">251</h1>
@@ -2997,7 +2997,8 @@ B. Use Istio’s fault injection on the particular microservice whose faulty beh
 C. Destroy one of the nodes of the Kubernetes cluster to observe the behavior.<br />
 D. Configure Istio’s traffic management features to steer the traffic away from a crashing microservice.</p>
 
-<p><a href="/assets/gcp/discussion/135.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/135.md">Discussion</a>  <br />
+<a href="/assets/gcp/discussion/135.ans.html">Answers and Votes</a></p>
 
 <h1 id="136">136</h1>
 
@@ -3046,7 +3047,8 @@ B. Enable autoscaling on the GKE cluster and enable horizontal pod autoscaling o
 C. Replicate the application over multiple GKE clusters in every Google Cloud region. Configure a global HTTP(S) load balancer to expose the different clusters over a single global IP address.<br />
 D. Use Cloud Debugger in the development environment to understand the latency between the different microservices.</p>
 
-<p><a href="/assets/gcp/discussion/139.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/139.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/139.ans.html">Answers and Votes</a></p>
 
 <h1 id="140">140</h1>
 
@@ -3057,7 +3059,8 @@ B. Configure a Kubernetes autoscaling deployment based on the subscription/push_
 C. Use the –enable-autoscaling flag when you create the Kubernetes cluster.<br />
 D. Configure a Kubernetes autoscaling deployment based on the subscription/num_undelivered_messages metric.</p>
 
-<p><a href="/assets/gcp/discussion/140.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/140.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/140.ans.html">Answers and Votes</a></p>
 
 <h1 id="141">141</h1>
 
@@ -3082,7 +3085,8 @@ B. Develop the application for App Engine standard environment.<br />
 C. Use a Managed Instance Group when deploying to Compute Engine.<br />
 D. Develop the application for App Engine flexible environment, using a custom runtime.</p>
 
-<p><a href="/assets/gcp/discussion/142.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/142.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/142.ans.html">Answers and Votes</a></p>
 
 <h1 id="143">143</h1>
 
@@ -3134,7 +3138,8 @@ B. Use the Data Transfer appliance to perform an offline migration.<br />
 C. Use a commercial partner ETL solution to extract the data from the on-premises database and upload it into Cloud Storage.<br />
 D. Compress the data and upload it with gsutil -m to enable multi-threaded copy.</p>
 
-<p><a href="/assets/gcp/discussion/146.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/146.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/146.ans.html">Answers and Votes</a></p>
 
 <h1 id="147">147</h1>
 <p>Your company has an enterprise application running on Compute Engine that requires high availability and high performance. The application has been deployed on two instances in two zones in the same region in active-passive mode. The application writes data to a persistent disk. In the case of a single zone outage, that data should be immediately made available to the other instance in the other zone. You want to maximize performance while minimizing downtime and data loss.<br />
@@ -3148,7 +3153,8 @@ B. 1. Create a Cloud Storage bucket. 2. Mount the bucket into the first instance
 C. 1. Attach a regional SSD persistent disk to the first instance. 2. In case of a zone outage, force-attach the disk to the other instance.<br />
 D. 1. Attach a local SSD to the first instance disk. 2. Execute an rsync command every hour where the target is a persistent SSD disk attached to the second instance. 3. In case of a zone outage, use the second instance.</p>
 
-<p><a href="/assets/gcp/discussion/147.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/147.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/147.ans.html">Answers and Votes</a></p>
 
 <h1 id="148">148</h1>
 
@@ -3160,7 +3166,8 @@ B. Generate a new key in Cloud KMS. Create a dataset in BigQuery using the custo
 C. Import a key in Cloud KMS. Store all data in Cloud Storage using the customer-managed key option and select the created key. Set up a Dataflow pipeline to decrypt the data and to store it in a new BigQuery dataset.<br />
 D. Import a key in Cloud KMS. Create a dataset in BigQuery using the customer-supplied key option and select the created key.</p>
 
-<p><a href="/assets/gcp/discussion/148.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/148.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/148.ans.html">Answers and Votes</a></p>
 
 <h1 id="149">149</h1>
 
@@ -3172,7 +3179,8 @@ B. Create a key with Cloud Key Management Service (KMS). Set the encryption key 
 C. Generate a GPG key pair. Encrypt the data using the GPG key. Upload the encrypted data to the bucket.<br />
 D. Generate an AES-256 encryption key. Encrypt the data in the bucket using the customer-supplied encryption keys feature.</p>
 
-<p><a href="/assets/gcp/discussion/149.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/149.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/149.ans.html">Answers and Votes</a></p>
 
 <h1 id="150">150</h1>
 
@@ -3187,7 +3195,8 @@ B. Configure the GKE cluster as a private cluster. Configure Private Google Acce
 C. Configure the GKE cluster as a route-based cluster. Configure Private Google Access on the Virtual Private Cloud (VPC).<br />
 D. Create a Compute Engine instance, and install a NAT Proxy on the instance. Configure all workloads on GKE to pass through this proxy to access third-party services on the Internet.</p>
 
-<p><a href="/assets/gcp/discussion/150.md">Discussion</a></p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="cloud" /><category term="ai" /><category term="k8s" /><category term="cloud" /><summary type="html"><![CDATA[professional cloud architect 2025-04-10 12:00:00 101]]></summary></entry><entry><title type="html">professional cloud architect 51-100</title><link href="/cloud/2025/04/09/12-00-00-professional-cloud-architect-51-100.html" rel="alternate" type="text/html" title="professional cloud architect 51-100" /><published>2025-04-09T12:00:00+08:00</published><updated>2025-04-09T12:00:00+08:00</updated><id>/cloud/2025/04/09/12:00:00-professional-cloud-architect%2051-100</id><content type="html" xml:base="/cloud/2025/04/09/12-00-00-professional-cloud-architect-51-100.html"><![CDATA[<p>professional cloud architect 2025-04-09 12:00:00</p>
+<p><a href="/assets/gcp/discussion/150.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/150.ans.html">Answers and Votes</a></p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="cloud" /><category term="ai" /><category term="k8s" /><category term="cloud" /><summary type="html"><![CDATA[professional cloud architect 2025-04-10 12:00:00 101]]></summary></entry><entry><title type="html">professional cloud architect 51-100</title><link href="/cloud/2025/04/09/12-00-00-professional-cloud-architect-51-100.html" rel="alternate" type="text/html" title="professional cloud architect 51-100" /><published>2025-04-09T12:00:00+08:00</published><updated>2025-04-09T12:00:00+08:00</updated><id>/cloud/2025/04/09/12:00:00-professional-cloud-architect%2051-100</id><content type="html" xml:base="/cloud/2025/04/09/12-00-00-professional-cloud-architect-51-100.html"><![CDATA[<p>professional cloud architect 2025-04-09 12:00:00</p>
 
 <h1 id="51">51</h1>
 
