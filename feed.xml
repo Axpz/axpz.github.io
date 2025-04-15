@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-15T19:07:58+08:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-15T21:47:56+08:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
 </subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">professional cloud architect 251-279</title><link href="/cloud/2025/04/11/12-00-00-professional-cloud-architect-251-279.html" rel="alternate" type="text/html" title="professional cloud architect 251-279" /><published>2025-04-11T12:00:00+08:00</published><updated>2025-04-11T12:00:00+08:00</updated><id>/cloud/2025/04/11/12:00:00-professional-cloud-architect%20251-279</id><content type="html" xml:base="/cloud/2025/04/11/12-00-00-professional-cloud-architect-251-279.html"><![CDATA[<p>professional cloud architect 2025-04-11 12:00:00</p>
 
 <h1 id="251">251</h1>
@@ -539,7 +539,7 @@ C. Use Cloud Profiler to follow up the request latency. Create a custom metric i
 D. Configure Anthos Config Management on your cluster, and create a yaml file that defines the SLO and alerting policy you want to deploy in your cluster.</p>
 
 <p><a href="/assets/gcp/discussion/153.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/153.ans.html">Discussion</a></p>
+<a href="/assets/gcp/discussion/153.ans.html">Answers and Votes</a></p>
 
 <h1 id="154">154</h1>
 
@@ -554,7 +554,7 @@ C. Create a second GKE cluster in asia-southeast1, and use kubemci to create a g
 D. Increase the memory and CPU allocated to the application in the cluster.</p>
 
 <p><a href="/assets/gcp/discussion/154.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/154.ans.html">Discussion</a></p>
+<a href="/assets/gcp/discussion/154.ans.html">Answers and Votes</a></p>
 
 <h1 id="155">155</h1>
 
@@ -567,7 +567,7 @@ C. Create multiple Compute Engine instances with varying CPU and memory options.
 D. Create a Compute Engine instance with CPU and memory options similar to your application’s current on-premises virtual machine. Install the Cloud Monitoring agent, and deploy the third-party application. Run a load test with normal traffic levels on the application, and follow the Rightsizing Recommendations in the Cloud Console.</p>
 
 <p><a href="/assets/gcp/discussion/155.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/155.ans.html">Discussion</a></p>
+<a href="/assets/gcp/discussion/155.ans.html">Answers and Votes</a></p>
 
 <h1 id="156">156</h1>
 
@@ -584,7 +584,7 @@ C. Configure VPC Service Controls and configure Private Google Access.<br />
 D. Configure Private Google Access.</p>
 
 <p><a href="/assets/gcp/discussion/156.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/156.ans.html">Discussion</a></p>
+<a href="/assets/gcp/discussion/156.ans.html">Answers and Votes</a></p>
 
 <h1 id="157">157</h1>
 
@@ -597,7 +597,7 @@ C. Use node affinity labels based on the node group name when creating Compute E
 D. Use node affinity labels based on the node name when creating Compute Engine instances in order to host each workload on the correct node.</p>
 
 <p><a href="/assets/gcp/discussion/157.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/157.ans.html">Discussion</a></p>
+<a href="/assets/gcp/discussion/157.ans.html">Answers and Votes</a></p>
 
 <h1 id="158">158</h1>
 
@@ -612,7 +612,7 @@ C. Google Cloud Dataproc to run Apache Hadoop jobs to process each test<br />
 D. Google App Engine with Google StackDriver for logging</p>
 
 <p><a href="/assets/gcp/discussion/158.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/158.ans.html">Discussion</a></p>
+<a href="/assets/gcp/discussion/158.ans.html">Answers and Votes</a></p>
 
 <h1 id="159">159</h1>
 
@@ -625,7 +625,7 @@ C. Meet with the cloud operations team and the engineer to discuss load balancer
 D. Help the engineer redesign the application to use a distributed user session service that does not rely on websockets and HTTP sessions.</p>
 
 <p><a href="/assets/gcp/discussion/159.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/159.ans.html">Discussion</a></p>
+<a href="/assets/gcp/discussion/159.ans.html">Answers and Votes</a></p>
 
 <h1 id="160">160</h1>
 
@@ -640,7 +640,7 @@ C. ג€¢ Compress individual files ג€¢ Name files with serverName ג€”
 D. ג€¢ Append metadata to file body ג€¢ Compress individual files ג€¢ Name files with a random prefix pattern ג€¢ Save files to one bucket</p>
 
 <p><a href="/assets/gcp/discussion/160.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/160.ans.html">Discussion</a></p>
+<a href="/assets/gcp/discussion/160.ans.html">Answers and Votes</a></p>
 
 <h1 id="161">161</h1>
 
@@ -655,7 +655,7 @@ C. In the Logging section of the console, specify GCE Network as the logging sec
 D. Connect to the GCE instance using project SSH keys. Identify previous logins in system logs, and match these with the project owners list</p>
 
 <p><a href="/assets/gcp/discussion/161.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/161.ans.html">Discussion</a></p>
+<a href="/assets/gcp/discussion/161.ans.html">Answers and Votes</a></p>
 
 <h1 id="162">162</h1>
 
@@ -670,7 +670,7 @@ C. Create an image file from the root disk with Linux dd command, create a new v
 D. Create a snapshot of the root disk, create an image file in Google Cloud Storage from the snapshot, and create a new virtual machine instance in the US-East region using the image file the root disk.</p>
 
 <p><a href="/assets/gcp/discussion/162.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/162.ans.html">Discussion</a></p>
+<a href="/assets/gcp/discussion/162.ans.html">Answers and Votes</a></p>
 
 <h1 id="163">163</h1>
 
@@ -685,7 +685,7 @@ C. Use gcsfise to mount a Google Cloud Storage bucket as a volume directly on th
 D. Mount additional persistent disk volumes onto each virtual machine (VM) instance in a RAID10 array and use LVM to create snapshots to send to Cloud Storage</p>
 
 <p><a href="/assets/gcp/discussion/163.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/163.ans.html">Discussion</a></p>
+<a href="/assets/gcp/discussion/163.ans.html">Answers and Votes</a></p>
 
 <h1 id="164">164</h1>
 
@@ -703,7 +703,7 @@ E. Instrument the production services to record every transaction for replay by 
 F. Instrument the load-testing tool and the target services with detailed logging and metrics collection</p>
 
 <p><a href="/assets/gcp/discussion/164.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/164.ans.html">Discussion</a></p>
+<a href="/assets/gcp/discussion/164.ans.html">Answers and Votes</a></p>
 
 <h1 id="165">165</h1>
 
@@ -716,7 +716,7 @@ C. Org admin, project browser<br />
 D. Project owner, network admin</p>
 
 <p><a href="/assets/gcp/discussion/165.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/165.ans.html">Discussion</a></p>
+<a href="/assets/gcp/discussion/165.ans.html">Answers and Votes</a></p>
 
 <h1 id="166">166</h1>
 
@@ -732,7 +732,7 @@ D. Enable code signing and a trusted binary repository integrated with your CI/C
 E. Run a vulnerability security scanner as part of your continuous-integration /continuous-delivery (CI/CD) pipeline</p>
 
 <p><a href="/assets/gcp/discussion/166.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/166.ans.html">Discussion</a></p>
+<a href="/assets/gcp/discussion/166.ans.html">Answers and Votes</a></p>
 
 <h1 id="167">167</h1>
 
@@ -747,7 +747,7 @@ C. Update the existing Kubernetes Engine cluster with the following command: gcl
 D. Create a new Kubernetes Engine cluster with the following command: gcloud alpha container clusters create mycluster - -enable- autoscaling - -min-nodes=1 - -max-nodes=10 and redeploy your application</p>
 
 <p><a href="/assets/gcp/discussion/167.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/167.ans.html">Discussion</a></p>
+<a href="/assets/gcp/discussion/167.ans.html">Answers and Votes</a></p>
 
 <h1 id="168">168</h1>
 
@@ -762,7 +762,7 @@ C. Use a managed instance group to serve the website and Google Cloud Bigtable t
 D. Use a single Compute Engine virtual machine (VM) to host a web server, backend by Google Cloud SQL.</p>
 
 <p><a href="/assets/gcp/discussion/168.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/168.ans.html">Discussion</a></p>
+<a href="/assets/gcp/discussion/168.ans.html">Answers and Votes</a></p>
 
 <h1 id="169">169</h1>
 
@@ -778,7 +778,7 @@ D. Compute Engine with custom instance types<br />
 E. Compute Engine with managed instance groups</p>
 
 <p><a href="/assets/gcp/discussion/169.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/169.ans.html">Discussion</a></p>
+<a href="/assets/gcp/discussion/169.ans.html">Answers and Votes</a></p>
 
 <h1 id="170">170</h1>
 
@@ -791,7 +791,7 @@ C. Digitally sign each timestamp and log entry and store the signature<br />
 D. Create a JSON dump of each log entry and store it in Google Cloud Storage</p>
 
 <p><a href="/assets/gcp/discussion/170.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/170.ans.html">Discussion</a></p>
+<a href="/assets/gcp/discussion/170.ans.html">Answers and Votes</a></p>
 
 <h1 id="171">171</h1>
 
@@ -808,7 +808,7 @@ C. 1. Create folders under the Organization resource named ג€Developmentג€
 D. 1. Designate the Organization for production projects only. 2. Ensure that developers do not have the Project Creator IAM role on the Organization. 3. Create development projects outside of the Organization using the developer Google Workspace accounts. 4. Set the policies for all projects on the Organization. 5. Additionally, set the production policies on the individual production projects.</p>
 
 <p><a href="/assets/gcp/discussion/171.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/171.ans.html">Discussion</a></p>
+<a href="/assets/gcp/discussion/171.ans.html">Answers and Votes</a></p>
 
 <h1 id="172">172</h1>
 
@@ -822,7 +822,7 @@ C. 1. Copy popular songs into CloudSQL as a blob. 2. Update application code to 
 D. 1. Create a managed instance group with Compute Engine instances. 2. Create a global load balancer and configure it with two backends: ג—‹ Managed instance group ג—‹ Cloud Storage bucket 3. Enable Cloud CDN on the bucket backend.</p>
 
 <p><a href="/assets/gcp/discussion/172.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/172.ans.html">Discussion</a></p>
+<a href="/assets/gcp/discussion/172.ans.html">Answers and Votes</a></p>
 
 <h1 id="173">173</h1>
 <p>The operations team in your company wants to save Cloud VPN log events for one year. You need to configure the cloud infrastructure to save the logs. What should you do?</p>
@@ -835,7 +835,7 @@ C. Set up a Cloud Logging Dashboard titled Cloud VPN Logs, and then add a chart 
 D. Set up a filter in Cloud Logging and a topic in Pub/Sub to publish the logs.</p>
 
 <p><a href="/assets/gcp/discussion/173.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/173.ans.html">Discussion</a></p>
+<a href="/assets/gcp/discussion/173.ans.html">Answers and Votes</a></p>
 
 <h1 id="174">174</h1>
 
@@ -849,7 +849,7 @@ C. Ask the external partners to upload all data on Cloud Storage. Configure Buck
 D. Ask the external partners to import all data in your BigQuery dataset. Create a dataflow pipeline to copy the data into a new table. As part of the Dataflow bucket, skip all data in columns that have PII data</p>
 
 <p><a href="/assets/gcp/discussion/174.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/174.ans.html">Discussion</a></p>
+<a href="/assets/gcp/discussion/174.ans.html">Answers and Votes</a></p>
 
 <h1 id="175">175</h1>
 
@@ -861,7 +861,7 @@ C. Create log exports in the production projects. Set the log sinks to be a Clou
 D. Create log exports in the production projects. Set the log sinks to be BigQuery datasets in the production projects, and grant IAM access to the operations team to run queries on the datasets.</p>
 
 <p><a href="/assets/gcp/discussion/175.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/175.ans.html">Discussion</a></p>
+<a href="/assets/gcp/discussion/175.ans.html">Answers and Votes</a></p>
 
 <h1 id="176">176</h1>
 
@@ -874,7 +874,8 @@ B. 1. Write a daily cron job, running on all instances, that uploads logs into a
 C. 1. Install a Cloud Logging agent on all instances. 2. Create a sink to export logs into a partitioned BigQuery table. 3. Set a time_partitioning_expiration of 30 days.<br />
 D. 1. Create a daily cron job, running on all instances, that uploads logs into a partitioned BigQuery table. 2. Set a time_partitioning_expiration of 30 days.</p>
 
-<p><a href="/assets/gcp/discussion/176.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/176.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/176.ans.html">Answers and Votes</a></p>
 
 <h1 id="177">177</h1>
 
@@ -886,12 +887,12 @@ B. Configure an organization policy to block creation of service accounts.<br />
 C. Configure Cloud Scheduler to trigger a Cloud Function every hour that removes all users that don’t belong to the Cloud Identity domain from all projects.<br />
 D. Create a technical user (e.g., crawler@yourdomain.com), and give it the project owner role at root organization level. Write a bash script that: ג€¢ Lists all the IAM rules of all projects within the organization. ג€¢ Deletes all users that do not belong to the company domain. Create a Compute Engine instance in a project within the Organization and configure gcloud to be executed with technical user credentials. Configure a cron job that executes the bash script every hour.</p>
 
-<p><a href="/assets/gcp/discussion/177.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/177.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/177.ans.html">Answers and Votes</a></p>
 
 <h1 id="178">178</h1>
 
-<p>Your company has an application running on Google Cloud that is collecting data from thousands of physical devices that are globally distributed. Data is published to Pub/Sub and streamed in real time into an SSD Cloud Bigtable cluster via a Dataflow pipeline. The operations team informs you that your Cloud
-Bigtable cluster has a hotspot, and queries are taking longer than expected. You need to resolve the problem and prevent it from happening in the future. What should you do?      <br />
+<p>Your company has an application running on Google Cloud that is collecting data from thousands of physical devices that are globally distributed. Data is published to Pub/Sub and streamed in real time into an SSD Cloud Bigtable cluster via a Dataflow pipeline. The operations team informs you that your Cloud Bigtable cluster has a hotspot, and queries are taking longer than expected. You need to resolve the problem and prevent it from happening in the future. What should you do?      <br />
 贵公司在 Google Cloud 上运行着一个应用，该应用从分布在全球的数千台物理设备收集数据。数据发布到 Pub/Sub 平台，并通过 Dataflow 流水线实时传输到 SSD Cloud Bigtable 集群中。运营团队通知您，您的 Cloud Bigtable 集群存在热点，查询时间超出预期。您需要解决该问题并防止其再次发生。您应该怎么做？</p>
 
 <p>A. Advise your clients to use HBase APIs instead of NodeJS APIs.<br />
@@ -899,12 +900,12 @@ B. Delete records older than 30 days.<br />
 C. Review your RowKey strategy and ensure that keys are evenly spread across the alphabet.<br />
 D. Double the number of nodes you currently have.</p>
 
-<p><a href="/assets/gcp/discussion/178.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/178.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/178.ans.html">Answers and Votes</a></p>
 
 <h1 id="179">179</h1>
 
-<p>Your company has a Google Cloud project that uses BigQuery for data warehousing. There are some tables that contain personally identifiable information (PII).
-Only the compliance team may access the PII. The other information in the tables must be available to the data science team. You want to minimize cost and the time it takes to assign appropriate access to the tables. What should you do?      <br />
+<p>Your company has a Google Cloud project that uses BigQuery for data warehousing. There are some tables that contain personally identifiable information (PII). Only the compliance team may access the PII. The other information in the tables must be available to the data science team. You want to minimize cost and the time it takes to assign appropriate access to the tables. What should you do?      <br />
 贵公司有一个 Google Cloud 项目，使用 BigQuery 进行数据仓储。其中一些表包含个人身份信息 (PII)。<br />
 只有合规团队可以访问这些 PII。表中的其他信息必须向数据科学团队开放。您希望最大限度地降低分配适当表访问权限所需的成本和时间。您应该怎么做？</p>
 
@@ -913,7 +914,8 @@ B. 1. From the dataset where you have the source data, create materialized views
 C. 1. Create a dataset for the data science team. 2. Create views of tables that you want to share, excluding PII. 3. Assign an appropriate project-level IAM role to the members of the data science team. 4. Assign access controls to the dataset that contains the view. 5. Authorize the view to access the source dataset.<br />
 D. 1. Create a dataset for the data science team. 2. Create materialized views of tables that you want to share, excluding PII. 3. Assign an appropriate project-level IAM role to the members of the data science team. 4. Assign access controls to the dataset that contains the view. 5. Authorize the view to access the source dataset.</p>
 
-<p><a href="/assets/gcp/discussion/179.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/179.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/179.ans.html">Answers and Votes</a></p>
 
 <h1 id="180">180</h1>
 
@@ -925,7 +927,8 @@ B. Use the Storage Transfer Service to move the data.<br />
 C. Download the data to a Transfer Appliance, and ship it to Google.<br />
 D. Download the data to the on-premises data center, and upload it to the Cloud Storage bucket.</p>
 
-<p><a href="/assets/gcp/discussion/180.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/180.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/180.ans.html">Answers and Votes</a></p>
 
 <h1 id="181">181</h1>
 
@@ -937,7 +940,8 @@ B. Do not use the Cloud Function. Modify the shutdown script to restart if it ha
 C. Set up a Cloud Monitoring sink that triggers the Cloud Function after an instance removal log message arrives in Cloud Logging.<br />
 D. Modify the shutdown script to wait for 30 seconds and then publish a message to a Pub/Sub queue.</p>
 
-<p><a href="/assets/gcp/discussion/181.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/181.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/181.ans.html">Answers and Votes</a></p>
 
 <h1 id="182">182</h1>
 
@@ -949,7 +953,8 @@ B. Create a Compute Engine instance and install gcloud on the instance. Connect 
 C. Install gcloud on all of your workstations. Run the command gcloud components auto-update on each workstation<br />
 D. Use a package manager to install gcloud on your workstations instead of installing it manually.</p>
 
-<p><a href="/assets/gcp/discussion/182.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/182.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/182.ans.html">Answers and Votes</a></p>
 
 <h1 id="183">183</h1>
 
@@ -961,7 +966,8 @@ B. Migrate the projects from the acquired company into your company’s Google C
 C. Set up a Cloud VPN gateway in each Shared VPC and peer Cloud VPNs.<br />
 D. Configure SSH port forwarding on each application to provide connectivity between applications in the different Shared VPCs.</p>
 
-<p><a href="/assets/gcp/discussion/183.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/183.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/183.ans.html">Answers and Votes</a></p>
 
 <h1 id="184">184</h1>
 
@@ -973,7 +979,8 @@ B. Change the Compute Engine Instances behind the application to a machine type 
 C. Restore a backup of the application database from a time before the application became slow.<br />
 D. Deploy the applications on a managed instance group with autoscaling enabled. Add a load balancer in front of the managed instance group, and have the users connect to the IP of the load balancer.</p>
 
-<p><a href="/assets/gcp/discussion/184.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/184.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/184.ans.html">Answers and Votes</a></p>
 
 <h1 id="185">185</h1>
 
@@ -985,7 +992,8 @@ B. Configure health checks on the managed instance group.<br />
 C. Create a Scheduled Task to check whether the application is available.<br />
 D. Configure an uptime alert in Cloud Monitoring.</p>
 
-<p><a href="/assets/gcp/discussion/185.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/185.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/185.ans.html">Answers and Votes</a></p>
 
 <h1 id="186">186</h1>
 
@@ -997,7 +1005,8 @@ B. Configure CPU and memory limits on the namespaces in the cluster. Configure a
 C. Configure a HorizontalPodAutoscaler for all stateless workloads and for all compatible stateful workloads. Configure the cluster to use node auto scaling.<br />
 D. Change the node pool to use preemptible VMs.</p>
 
-<p><a href="/assets/gcp/discussion/186.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/186.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/186.ans.html">Answers and Votes</a></p>
 
 <h1 id="187">187</h1>
 
@@ -1009,7 +1018,8 @@ B. 1. Create a Cloud Logging sink to export BigQuery data access logs to BigQuer
 C. 1. Create a Cloud Logging sink to export BigQuery data access logs to Cloud Storage. 2. Develop a Dataflow pipeline to compute the cost of queries split by users.<br />
 D. 1. Activate billing export into BigQuery. 2. Perform a BigQuery query on the billing table to extract the information you need.</p>
 
-<p><a href="/assets/gcp/discussion/187.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/187.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/187.ans.html">Answers and Votes</a></p>
 
 <h1 id="188">188</h1>
 
@@ -1022,7 +1032,8 @@ B. Set up a VPN between vpc-a and vpc-b using Cloud VPN.<br />
 C. Configure IAP TCP forwarding on the instance in vpc-b, and then launch the following gcloud command from one of the instances in vpc-a gcloud: gcloud compute start-iap-tunnel INSTANCE_NAME_IN_VPC_8 22 \ –local-host-port=localhost:22<br />
 D. 1. Create an additional instance in vpc-a. 2. Create an additional instance in vpc-b. 3. Install OpenVPN in newly created instances. 4. Configure a VPN tunnel between vpc-a and vpc-b with the help of OpenVPN.</p>
 
-<p><a href="/assets/gcp/discussion/188.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/188.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/188.ans.html">Answers and Votes</a></p>
 
 <h1 id="189">189</h1>
 
@@ -1035,7 +1046,8 @@ B. Object Versioning<br />
 C. Object change notification<br />
 D. Object Lifecycle Management</p>
 
-<p><a href="/assets/gcp/discussion/189.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/189.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/189.ans.html">Answers and Votes</a></p>
 
 <h1 id="190">190</h1>
 
@@ -1058,7 +1070,8 @@ B. Change the Metric identifier to agent.googleapis.com/memory/bytes_used.<br />
 C. Change the filter to metric.label.state = ‘used’ AND metric.label.state = ‘buffered’ AND metric.label.state = ‘cached’ AND metric.label.state = ‘slab’.<br />
 D. Change the filter to metric.label.state = ‘free’ and the Target utilization to 20.</p>
 
-<p><a href="/assets/gcp/discussion/190.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/190.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/190.ans.html">Answers and Votes</a></p>
 
 <h1 id="191">191</h1>
 
@@ -1077,25 +1090,29 @@ B. Two Classic Cloud VPN gateways connected to two on-premises VPN gateways Conf
 C. Two HA Cloud VPN gateways connected to two on-premises VPN gateways Configure each HA Cloud VPN gateway to have two tunnels, each connected to different on-premises VPN gateways<br />
 D. A single Cloud VPN gateway connected to an on-premises VPN gateway</p>
 
-<p><a href="/assets/gcp/discussion/191.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/191.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/191.ans.html">Answers and Votes</a></p>
 
 <h1 id="192">192</h1>
 
 <p>Your company has an application running on App Engine that allows users to upload music files and share them with other people. You want to allow users to upload files directly into Cloud Storage from their browser session. The payload should not be passed through the backend. What should you do?      <br />
 贵公司有一个在 App Engine 上运行的应用，允许用户上传音乐文件并与他人共享。您希望允许用户在浏览器会话中直接将文件上传到 Cloud Storage。有效负载不应通过后端传递。您应该怎么做？</p>
 
-<p>A. 1. Set a CORS configuration in the target Cloud Storage bucket where the base URL of the App Engine application is an allowed origin.</p>
-<ol>
-  <li>Use the Cloud Storage Signed URL feature to generate a POST URL.<br />
-B. 1. Set a CORS configuration in the target Cloud Storage bucket where the base URL of the App Engine application is an allowed origin.</li>
-  <li>Assign the Cloud Storage WRITER role to users who upload files.<br />
-C. 1. Use the Cloud Storage Signed URL feature to generate a POST URL.</li>
-  <li>Use App Engine default credentials to sign requests against Cloud Storage.<br />
-D. 1. Assign the Cloud Storage WRITER role to users who upload files.</li>
-  <li>Use App Engine default credentials to sign requests against Cloud Storage.</li>
-</ol>
+<p>A. <br />
+    1. Set a CORS configuration in the target Cloud Storage bucket where the base URL of the App Engine application is an allowed origin.<br />
+    2. Use the Cloud Storage Signed URL feature to generate a POST URL.  <br />
+B. <br />
+    1. Set a CORS configuration in the target Cloud Storage bucket where the base URL of the App Engine application is an allowed origin.<br />
+    2. Assign the Cloud Storage WRITER role to users who upload files.  <br />
+C. <br />
+    1. Use the Cloud Storage Signed URL feature to generate a POST URL.  <br />
+    2. Use App Engine default credentials to sign requests against Cloud Storage.  <br />
+D. <br />
+    1. Assign the Cloud Storage WRITER role to users who upload files.  <br />
+    2. Use App Engine default credentials to sign requests against Cloud Storage.</p>
 
-<p><a href="/assets/gcp/discussion/192.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/192.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/192.ans.html">Answers and Votes</a></p>
 
 <h1 id="193">193</h1>
 
@@ -1114,28 +1131,32 @@ B. Configure Cloud NAT and select sub-b in the NAT mapping section.<br />
 C. Configure a bastion host instance in sub-a to connect to instances in sub-b.<br />
 D. Enable Identity-Aware Proxy for TCP forwarding for instances in sub-b.</p>
 
-<p><a href="/assets/gcp/discussion/193.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/193.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/193.ans.html">Answers and Votes</a></p>
 
 <h1 id="194">194</h1>
 
 <p>Your company is planning to migrate their Windows Server 2022 from their on-premises data center to Google Cloud. You need to bring the licenses that are currently in use in on-premises virtual machines into the target cloud environment. What should you do?      <br />
 贵公司计划将 Windows Server 2022 从本地数据中心迁移到 Google Cloud。您需要将当前在本地虚拟机中使用的许可证迁移到目标云环境中。您应该怎么做？</p>
 
-<p>A. 1. Create an image of the on-premises virtual machines and upload into Cloud Storage.</p>
-<ol>
-  <li>Import the image as a virtual disk on Compute Engine.<br />
-B. 1. Create standard instances on Compute Engine.</li>
-  <li>Select as the OS the same Microsoft Windows version that is currently in use in the on-premises environment.<br />
-C. 1. Create an image of the on-premises virtual machine.</li>
-  <li>Import the image as a virtual disk on Compute Engine.</li>
-  <li>Create a standard instance on Compute Engine, selecting as the OS the same Microsoft Windows version that is currently in use in the on-premises environment.</li>
-  <li>Attach a data disk that includes data that matches the created image.<br />
-D. 1. Create an image of the on-premises virtual machines.</li>
-  <li>Import the image as a virtual disk on Compute Engine using –os=windows-2022-dc-v.</li>
-  <li>Create a sole-tenancy instance on Compute Engine that uses the imported disk as a boot disk.</li>
-</ol>
+<p>A. <br />
+    1. Create an image of the on-premises virtual machines and upload into Cloud Storage.  <br />
+    2. Import the image as a virtual disk on Compute Engine.  <br />
+B. <br />
+    1. Create standard instances on Compute Engine.  <br />
+    2. Select as the OS the same Microsoft Windows version that is currently in use in the on-premises environment.  <br />
+C. <br />
+    1. Create an image of the on-premises virtual machine.<br />
+    2. Import the image as a virtual disk on Compute Engine.<br />
+    3. Create a standard instance on Compute Engine, selecting as the OS the same Microsoft Windows version that is currently in use in the on-premises environment.  <br />
+    4. Attach a data disk that includes data that matches the created image.  <br />
+D. 
+    1. Create an image of the on-premises virtual machines.  <br />
+    2. Import the image as a virtual disk on Compute Engine using –os=windows-2022-dc-v.  <br />
+    3. Create a sole-tenancy instance on Compute Engine that uses the imported disk as a boot disk.</p>
 
-<p><a href="/assets/gcp/discussion/194.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/194.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/194.ans.html">Answers and Votes</a></p>
 
 <h1 id="195">195</h1>
 
@@ -1151,7 +1172,8 @@ B. A Classic Cloud VPN gateway connected with two tunnels to an on-premises VPN 
 C. Two HA Cloud VPN gateways connected to two on-premises VPN gateways. Configure each HA Cloud VPN gateway to have two tunnels, each connected to different on-premises VPN gateways.<br />
 D. A Classic Cloud VPN gateway connected with one tunnel to an on-premises VPN gateway.</p>
 
-<p><a href="/assets/gcp/discussion/195.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/195.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/195.ans.html">Answers and Votes</a></p>
 
 <h1 id="196">196</h1>
 
@@ -1164,7 +1186,8 @@ B. Use the Data Transfer appliance to perform an offline migration.<br />
 C. Use a commercial partner ETL solution to extract the data from the on-premises database and upload it into Cloud Storage.<br />
 D. Upload the data with gcloud storage cp.</p>
 
-<p><a href="/assets/gcp/discussion/196.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/196.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/196.ans.html">Answers and Votes</a></p>
 
 <h1 id="197">197</h1>
 
@@ -1177,7 +1200,8 @@ B. Create a retention policy organizational constraint constraints/storage.reten
 C. Use a customer-managed key for the encryption of the bucket. Rotate the key after 5 years.<br />
 D. Create a retention policy organizational constraint constraints/storage.retentionPolicySeconds at the project level. Set the duration to 5 years.</p>
 
-<p><a href="/assets/gcp/discussion/197.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/197.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/197.ans.html">Answers and Votes</a></p>
 
 <h1 id="198">198</h1>
 
@@ -1192,7 +1216,8 @@ B. Reconfigure old clients to use a new endpoint for the new API<br />
 C. Have the old API forward traffic to the new API based on the path<br />
 D. Use separate backend pools for each API path behind the load balancer</p>
 
-<p><a href="/assets/gcp/discussion/198.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/198.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/198.ans.html">Answers and Votes</a></p>
 
 <h1 id="199">199</h1>
 
@@ -1215,7 +1240,8 @@ B. Change the Metric identifier to agent.googleapis.com/memory/bytes_used.<br />
 C. Change the filter to metric.label.state = ‘used’.<br />
 D. Change the filter to metric.label.state = ‘free’ and the Target utilization to 20.</p>
 
-<p><a href="/assets/gcp/discussion/199.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/199.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/199.ans.html">Answers and Votes</a></p>
 
 <h1 id="200">200</h1>
 
@@ -1226,7 +1252,8 @@ B. Configure VPC Service Controls and configure Private Google Access for on-pro
 C. Create a service account, grant the BigQuery JobUser role and Storage Object Viewer role to the service account, and remove all other Identity and Access Management (IAM) access from the project. <br />
 D. Configure Private Google Access.</p>
 
-<p><a href="/assets/gcp/discussion/200.md">Discussion</a></p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="cloud" /><category term="ai" /><category term="k8s" /><category term="cloud" /><summary type="html"><![CDATA[professional cloud architect 2025-04-11 12:00:00 151]]></summary></entry><entry><title type="html">professional cloud architect 201-250</title><link href="/cloud/2025/04/11/12-00-00-professional-cloud-architect-201-250.html" rel="alternate" type="text/html" title="professional cloud architect 201-250" /><published>2025-04-11T12:00:00+08:00</published><updated>2025-04-11T12:00:00+08:00</updated><id>/cloud/2025/04/11/12:00:00-professional-cloud-architect%20201-250</id><content type="html" xml:base="/cloud/2025/04/11/12-00-00-professional-cloud-architect-201-250.html"><![CDATA[<p>professional cloud architect 2025-04-11 12:00:00</p>
+<p><a href="/assets/gcp/discussion/200.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/200.ans.html">Answers and Votes</a></p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="cloud" /><category term="ai" /><category term="k8s" /><category term="cloud" /><summary type="html"><![CDATA[professional cloud architect 2025-04-11 12:00:00 151]]></summary></entry><entry><title type="html">professional cloud architect 201-250</title><link href="/cloud/2025/04/11/12-00-00-professional-cloud-architect-201-250.html" rel="alternate" type="text/html" title="professional cloud architect 201-250" /><published>2025-04-11T12:00:00+08:00</published><updated>2025-04-11T12:00:00+08:00</updated><id>/cloud/2025/04/11/12:00:00-professional-cloud-architect%20201-250</id><content type="html" xml:base="/cloud/2025/04/11/12-00-00-professional-cloud-architect-201-250.html"><![CDATA[<p>professional cloud architect 2025-04-11 12:00:00</p>
 
 <h1 id="201">201</h1>
 
