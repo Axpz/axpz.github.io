@@ -1,0 +1,29 @@
+<div style="border: 1px solid #ddd; border-radius: 6px; padding: 16px; background: #f9f9f9; font-family: sans-serif; width: fit-content;">
+    <p style="margin: 0; font-size: 16px; font-weight: bold;">
+      Correct Answer: <em>C</em> 🗳️
+    </p>
+    <p style="margin: 8px 0; font-style: italic;">Community vote distribution</p>
+    <div style="display: flex; gap: 4px; font-size: 14px; font-weight: bold;">
+      <div style="background: #4285f4; color: white; padding: 6px 12px; border-radius: 4px;">C (100%)</div>
+    </div>
+  </div>
+  
+
+
+“Private Google Access” 是 Google Cloud 中的一个网络功能，它允许 没有公网 IP 地址的 VM 实例访问 Google 的公共 API 和服务（比如 gcr.io、storage.googleapis.com、cloudkms.googleapis.com 等）。
+
+🌐 举个例子：
+你创建了一台 VM，它只有 内网 IP（没有外网 IP）。
+按理说，它没法访问 Google 的 API（因为出不去）。
+但你又希望它可以访问 Google Cloud 的服务（比如下载镜像、访问 Cloud Storage）。
+这时你就可以启用 Private Google Access。
+
+✅ 开启它的作用：
+启用后：
+
+VM 通过 私有 IP（通过默认路由和 Cloud NAT） 访问 Google 的 API。
+
+不再需要 VM 分配公网 IP。
+
+可以更安全地访问 Google 服务（不会经过公共网络）。
+
