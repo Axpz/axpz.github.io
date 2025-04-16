@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>云服务对比分析</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .container {
+      width: 80%;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 24px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+    table th {
+      background-color: #4285f4;
+      color: white;
+    }
+    .summary {
+      margin-top: 20px;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>云服务对比分析</h1>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>特性/服务</th>
+        <th>Cloud Firestore</th>
+        <th>Cloud SQL</th>
+        <th>Cloud Bigtable</th>
+        <th>BigQuery</th>
+        <th>Cloud Spanner</th>
+        <th>Cloud Filestore</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>类型</td>
+        <td>托管的 NoSQL 文档数据库</td>
+        <td>托管的关系型数据库</td>
+        <td>托管的 NoSQL 列族数据库</td>
+        <td>托管的大数据分析服务</td>
+        <td>托管的分布式关系型数据库</td>
+        <td>托管的 NFS 文件系统</td>
+      </tr>
+      <tr>
+        <td>支持的协议</td>
+        <td>无SQL查询</td>
+        <td>SQL</td>
+        <td>无SQL查询</td>
+        <td>SQL</td>
+        <td>SQL</td>
+        <td>NFS</td>
+      </tr>
+      <tr>
+        <td>扩展性</td>
+        <td>自动扩展，适合动态增长的应用</td>
+        <td>中等扩展性</td>
+        <td>高扩展性</td>
+        <td>高扩展性，支持 PB 级数据处理</td>
+        <td>高度可扩展</td>
+        <td>可扩展的文件存储</td>
+      </tr>
+      <tr>
+        <td>适用场景</td>
+        <td>实时应用、Web 应用、移动应用</td>
+        <td>传统 Web 应用、关系型数据存储</td>
+        <td>高吞吐量、大数据、时间序列数据</td>
+        <td>大规模数据分析、商业智能（BI）</td>
+        <td>高一致性、大规模分布式系统</td>
+        <td>文件存储、共享开发环境</td>
+      </tr>
+      <tr>
+        <td>ACID 事务支持</td>
+        <td>是</td>
+        <td>是</td>
+        <td>否</td>
+        <td>否</td>
+        <td>是</td>
+        <td>否</td>
+      </tr>
+      <tr>
+        <td>跨 region 支持</td>
+        <td>是</td>
+        <td>否</td>
+        <td>是</td>
+        <td>是</td>
+        <td>是</td>
+        <td>否</td>
+      </tr>
+      <tr>
+        <td>支持实时同步</td>
+        <td>是</td>
+        <td>否</td>
+        <td>否</td>
+        <td>否</td>
+        <td>否</td>
+        <td>否</td>
+      </tr>
+      <tr>
+        <td>自动扩展</td>
+        <td>是</td>
+        <td>否</td>
+        <td>是</td>
+        <td>是</td>
+        <td>是</td>
+        <td>是</td>
+      </tr>
+      <tr>
+        <td>优点</td>
+        <td>支持实时同步，适合快速开发应用</td>
+        <td>易用、自动管理、SQL 支持</td>
+        <td>高吞吐量、低延迟、大数据处理</td>
+        <td>强大的数据分析能力，SQL 支持</td>
+        <td>全球分布，强一致性、高扩展性</td>
+        <td>高性能文件存储、易集成</td>
+      </tr>
+      <tr>
+        <td>缺点</td>
+        <td>不适合复杂查询和大数据分析</td>
+        <td>扩展性有限，适合中小型应用</td>
+        <td>不支持复杂查询、关系型数据</td>
+        <td>不适合高频数据写入，主要用于批处理</td>
+        <td>成本较高，适合大型应用</td>
+        <td>只适用于文件存储</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="summary">
+    <h2>总结：</h2>
+    <p>Cloud Firestore 是适合实时数据同步和移动应用开发的 NoSQL 数据库，适合现代应用的开发。</p>
+    <p>Cloud SQL 提供传统的关系型数据库服务，适合需要 SQL 查询的 Web 应用。</p>
+    <p>Cloud Bigtable 适用于大规模数据存储，尤其是在高吞吐量、低延迟的应用场景下，如 IoT 数据存储。</p>
+    <p>BigQuery 是一个强大的大数据分析工具，适用于大规模数据处理和分析。</p>
+    <p>Cloud Spanner 适合需要全球分布、强一致性和高可扩展性的企业级应用。</p>
+    <p>Cloud Filestore 提供高性能文件存储，适用于需要文件系统的应用，如 Web 应用或数据库文件存储。</p>
+  </div>
+</div>
+
+</body>
+</html>

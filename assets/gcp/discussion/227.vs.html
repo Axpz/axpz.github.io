@@ -1,0 +1,93 @@
+<div style="font-family: sans-serif; font-size: 14px; overflow-x: auto;">
+    <table style="border-collapse: collapse; width: 100%; max-width: 1000px;">
+      <thead style="background-color: #f2f2f2;">
+        <tr>
+          <th style="border: 1px solid #ddd; padding: 8px;">特性</th>
+          <th style="border: 1px solid #ddd; padding: 8px;">Global HTTP(S) LB</th>
+          <th style="border: 1px solid #ddd; padding: 8px;">Global Load Balancer（总称）</th>
+          <th style="border: 1px solid #ddd; padding: 8px;">Network Load Balancer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 8px;">Global 吗</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">✅ 是</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">✅ 是</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">❌ 否（仅 Regional）</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 8px;">所在层</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">L7（应用层）</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">L7 / L4</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">L4（传输层）</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 8px;">典型协议</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">HTTP, HTTPS, gRPC</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">HTTP, HTTPS, SSL, TCP</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">TCP, UDP</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 8px;">调度粒度</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">URL 路由 / Host / Header</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">基于协议调度</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">IP:Port（透明转发）</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 8px;">适合场景</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">网站、API、Cloud Run、Web 前端</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">加密代理、全球 API</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">游戏、VPN、数据库</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 8px;">是否跨 region</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">✅ 自动跨 region</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">✅ 是</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">❌ 否</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 8px;">CDN 支持</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">✅（集成 Cloud CDN）</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">SSL Proxy 支持 CDN</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">❌ 不支持</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 8px;">自动故障转移（跨 region）</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">✅ 支持</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">✅ 支持</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">❌ 仅 zone 级别</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 8px;">支持服务后端类型</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">GCE, GKE, Cloud Run, App Engine</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">GCE, GKE</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">仅 GCE、GKE（VM）</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 8px;">是否支持公网 IP</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">✅ 是</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">✅ 是</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">✅ 是</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 8px;">是否支持私网 IP</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">❌ 否</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">❌ 否</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">✅ 是（Internal TCP/UDP LB）</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 8px;">负载均衡算法</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">复杂（含 latency-based）</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">轮询 / 最小连接等</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">轮询（简单）</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 8px;">Session Affinity（粘性会话）</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">✅ 支持 Cookie 粘性</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">✅ 有限支持</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">✅ 支持基于 IP</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-15T21:47:56+08:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-16T15:58:58+08:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
 </subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">professional cloud architect 251-279</title><link href="/cloud/2025/04/11/12-00-00-professional-cloud-architect-251-279.html" rel="alternate" type="text/html" title="professional cloud architect 251-279" /><published>2025-04-11T12:00:00+08:00</published><updated>2025-04-11T12:00:00+08:00</updated><id>/cloud/2025/04/11/12:00:00-professional-cloud-architect%20251-279</id><content type="html" xml:base="/cloud/2025/04/11/12-00-00-professional-cloud-architect-251-279.html"><![CDATA[<p>professional cloud architect 2025-04-11 12:00:00</p>
 
 <h1 id="251">251</h1>
@@ -1340,77 +1340,7 @@ D. Create a single G Suite account to manage users with one project for the deve
 
 <h1 id="202">202</h1>
 
-<p>Introductory Info<br />
-Company Overview -<br />
-JencoMart is a global retailer with over 10,000 stores in 16 countries. The stores carry a range of goods, such as groceries, tires, and jewelry. One of the company’s core values is excellent customer service. In addition, they recently introduced an environmental policy to reduce their carbon output by 50% over the next 5 years.</p>
-
-<p>Company Background -<br />
-JencoMart started as a general store in 1931, and has grown into one of the world’s leading brands, known for great value and customer service. Over time, the company transitioned from only physical stores to a stores and online hybrid model, with 25% of sales online. Currently, JencoMart has little presence in Asia, but considers that market key for future growth.</p>
-
-<p>Solution Concept -<br />
-JencoMart wants to migrate several critical applications to the cloud but has not completed a technical review to determine their suitability for the cloud and the engineering required for migration. They currently host all of these applications on infrastructure that is at its end of life and is no longer supported.</p>
-
-<p>Existing Technical Environment -<br />
-JencoMart hosts all of its applications in 4 data centers: 3 in North American and 1 in Europe; most applications are dual-homed.<br />
-JencoMart understands the dependencies and resource usage metrics of their on-premises architecture.<br />
-Application: Customer loyalty portal<br />
-LAMP (Linux, Apache, MySQL and PHP) application served from the two JencoMart-owned U.S. data centers.</p>
-
-<p>Database -<br />
-Oracle Database stores user profiles</p>
-<ul>
-  <li>20 TB</li>
-  <li>Complex table structure</li>
-  <li>Well maintained, clean data</li>
-  <li>Strong backup strategy<br />
-PostgreSQL database stores user credentials</li>
-  <li>Single-homed in US West</li>
-  <li>No redundancy</li>
-  <li>Backed up every 12 hours</li>
-  <li>100% uptime service level agreement (SLA)</li>
-  <li>Authenticates all users</li>
-</ul>
-
-<p>Compute -<br />
-30 machines in US West Coast, each machine has:</p>
-<ul>
-  <li>Twin, dual core CPUs</li>
-  <li>32 GB of RAM</li>
-  <li>Twin 250 GB HDD (RAID 1)<br />
-20 machines in US East Coast, each machine has:</li>
-  <li>Single, dual-core CPU</li>
-  <li>24 GB of RAM</li>
-  <li>Twin 250 GB HDD (RAID 1)</li>
-</ul>
-
-<p>Storage -<br />
-Access to shared 100 TB SAN in each location<br />
-Tape backup every week</p>
-
-<p>Business Requirements -<br />
-Optimize for capacity during peak periods and value during off-peak periods<br />
-Guarantee service availability and support<br />
-Reduce on-premises footprint and associated financial and environmental impact<br />
-Move to outsourcing model to avoid large upfront costs associated with infrastructure purchase<br />
-Expand services into Asia</p>
-
-<p>Technical Requirements -<br />
-Assess key application for cloud suitability<br />
-Modify applications for the cloud<br />
-Move applications to a new infrastructure<br />
-Leverage managed services wherever feasible<br />
-Sunset 20% of capacity in existing data centers<br />
-Decrease latency in Asia</p>
-
-<p>CEO Statement -<br />
-JencoMart will continue to develop personal relationships with our customers as more people access the web. The future of our retail business is in the global market and the connection between online and in-store experiences. As a large, global company, we also have a responsibility to the environment through <code class="language-plaintext highlighter-rouge">green</code> initiatives and policies.</p>
-
-<p>CTO Statement -<br />
-The challenges of operating data centers prevent focus on key technologies critical to our long-term success. Migrating our data services to a public cloud infrastructure will allow us to focus on big data and machine learning to improve our service to customers.</p>
-
-<p>CFO Statement -<br />
-Since its founding, JencoMart has invested heavily in our data services infrastructure. However, because of changing market trends, we need to outsource our infrastructure to ensure our long-term success. This model will allow us to respond to increasing customer demand during peak periods and reduce costs.<br />
-Question<br />
+<p>Question<br />
 A few days after JencoMart migrates the user credentials database to Google Cloud Platform and shuts down the old server, the new database server stops responding to SSH connections. It is still serving database requests to the application servers correctly.<br />
 What three steps should you take to diagnose the problem?       (Choose three.)</p>
 
@@ -1425,160 +1355,21 @@ F. Print the Serial Console output for the instance for troubleshooting, activat
 
 <h1 id="203">203</h1>
 
-<p>Introductory Info
-Company Overview -
-JencoMart is a global retailer with over 10,000 stores in 16 countries. The stores carry a range of goods, such as groceries, tires, and jewelry. One of the company’s core values is excellent customer service. In addition, they recently introduced an environmental policy to reduce their carbon output by 50% over the next 5 years.</p>
-
-<p>Company Background -
-JencoMart started as a general store in 1931, and has grown into one of the world’s leading brands, known for great value and customer service. Over time, the company transitioned from only physical stores to a stores and online hybrid model, with 25% of sales online. Currently, JencoMart has little presence in Asia, but considers that market key for future growth.</p>
-
-<p>Solution Concept -
-JencoMart wants to migrate several critical applications to the cloud but has not completed a technical review to determine their suitability for the cloud and the engineering required for migration. They currently host all of these applications on infrastructure that is at its end of life and is no longer supported.</p>
-
-<p>Existing Technical Environment -
-JencoMart hosts all of its applications in 4 data centers: 3 in North American and 1 in Europe; most applications are dual-homed.
-JencoMart understands the dependencies and resource usage metrics of their on-premises architecture.
-Application: Customer loyalty portal
-LAMP (Linux, Apache, MySQL and PHP) application served from the two JencoMart-owned U.S. data centers.</p>
-
-<p>Database -
-Oracle Database stores user profiles</p>
-<ul>
-  <li>20 TB</li>
-  <li>Complex table structure</li>
-  <li>Well maintained, clean data</li>
-  <li>Strong backup strategy
-PostgreSQL database stores user credentials</li>
-  <li>Single-homed in US West</li>
-  <li>No redundancy</li>
-  <li>Backed up every 12 hours</li>
-  <li>100% uptime service level agreement (SLA)</li>
-  <li>Authenticates all users</li>
-</ul>
-
-<p>Compute -
-30 machines in US West Coast, each machine has:</p>
-<ul>
-  <li>Twin, dual core CPUs</li>
-  <li>32 GB of RAM</li>
-  <li>Twin 250 GB HDD (RAID 1)
-20 machines in US East Coast, each machine has:</li>
-  <li>Single, dual-core CPU</li>
-  <li>24 GB of RAM</li>
-  <li>Twin 250 GB HDD (RAID 1)</li>
-</ul>
-
-<p>Storage -
-Access to shared 100 TB SAN in each location
-Tape backup every week</p>
-
-<p>Business Requirements -
-Optimize for capacity during peak periods and value during off-peak periods
-Guarantee service availability and support
-Reduce on-premises footprint and associated financial and environmental impact
-Move to outsourcing model to avoid large upfront costs associated with infrastructure purchase
-Expand services into Asia</p>
-
-<p>Technical Requirements -
-Assess key application for cloud suitability
-Modify applications for the cloud
-Move applications to a new infrastructure
-Leverage managed services wherever feasible
-Sunset 20% of capacity in existing data centers
-Decrease latency in Asia</p>
-
-<p>CEO Statement -
-JencoMart will continue to develop personal relationships with our customers as more people access the web. The future of our retail business is in the global market and the connection between online and in-store experiences. As a large, global company, we also have a responsibility to the environment through <code class="language-plaintext highlighter-rouge">green</code> initiatives and policies.</p>
-
-<p>CTO Statement -
-The challenges of operating data centers prevent focus on key technologies critical to our long-term success. Migrating our data services to a public cloud infrastructure will allow us to focus on big data and machine learning to improve our service to customers.</p>
-
-<p>CFO Statement -
-Since its founding, JencoMart has invested heavily in our data services infrastructure. However, because of changing market trends, we need to outsource our infrastructure to ensure our long-term success. This model will allow us to respond to increasing customer demand during peak periods and reduce costs.
-Question
+<p>Question
 JencoMart has decided to migrate user profile storage to Google Cloud Datastore and the application servers to Google Compute Engine (GCE). During the migration, the existing infrastructure will need access to Datastore to upload the data.
 What service account key-management strategy should you recommend?</p>
 
-<p>A. Provision service account keys for the on-premises infrastructure and for the GCE virtual machines (VMs)
-B. Authenticate the on-premises infrastructure with a user account and provision service account keys for the VMs
-C. Provision service account keys for the on-premises infrastructure and use Google Cloud Platform (GCP) managed keys for the VMs
+<p>A. Provision service account keys for the on-premises infrastructure and for the GCE virtual machines (VMs)<br />
+B. Authenticate the on-premises infrastructure with a user account and provision service account keys for the VMs<br />
+C. Provision service account keys for the on-premises infrastructure and use Google Cloud Platform (GCP) managed keys for the VMs<br />
 D. Deploy a custom authentication service on GCE/Google Kubernetes Engine (GKE) for the on-premises infrastructure and use GCP managed keys for the VMs</p>
 
-<p><a href="/assets/gcp/discussion/203.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/203.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/203.ans.html">Answers and Votes</a></p>
 
 <h1 id="204">204</h1>
 
-<p>Introductory Info<br />
-Company Overview -<br />
-JencoMart is a global retailer with over 10,000 stores in 16 countries. The stores carry a range of goods, such as groceries, tires, and jewelry. One of the company’s core values is excellent customer service. In addition, they recently introduced an environmental policy to reduce their carbon output by 50% over the next 5 years.</p>
-
-<p>Company Background -<br />
-JencoMart started as a general store in 1931, and has grown into one of the world’s leading brands, known for great value and customer service. Over time, the company transitioned from only physical stores to a stores and online hybrid model, with 25% of sales online. Currently, JencoMart has little presence in Asia, but considers that market key for future growth.</p>
-
-<p>Solution Concept -<br />
-JencoMart wants to migrate several critical applications to the cloud but has not completed a technical review to determine their suitability for the cloud and the engineering required for migration. They currently host all of these applications on infrastructure that is at its end of life and is no longer supported.</p>
-
-<p>Existing Technical Environment -<br />
-JencoMart hosts all of its applications in 4 data centers: 3 in North American and 1 in Europe; most applications are dual-homed.<br />
-JencoMart understands the dependencies and resource usage metrics of their on-premises architecture.<br />
-Application: Customer loyalty portal<br />
-LAMP (Linux, Apache, MySQL and PHP) application served from the two JencoMart-owned U.S. data centers.</p>
-
-<p>Database -<br />
-Oracle Database stores user profiles</p>
-<ul>
-  <li>20 TB</li>
-  <li>Complex table structure</li>
-  <li>Well maintained, clean data</li>
-  <li>Strong backup strategy<br />
-PostgreSQL database stores user credentials</li>
-  <li>Single-homed in US West</li>
-  <li>No redundancy</li>
-  <li>Backed up every 12 hours</li>
-  <li>100% uptime service level agreement (SLA)</li>
-  <li>Authenticates all users</li>
-</ul>
-
-<p>Compute -<br />
-30 machines in US West Coast, each machine has:</p>
-<ul>
-  <li>Twin, dual core CPUs</li>
-  <li>32 GB of RAM</li>
-  <li>Twin 250 GB HDD (RAID 1)<br />
-20 machines in US East Coast, each machine has:</li>
-  <li>Single, dual-core CPU</li>
-  <li>24 GB of RAM</li>
-  <li>Twin 250 GB HDD (RAID 1)</li>
-</ul>
-
-<p>Storage -<br />
-Access to shared 100 TB SAN in each location<br />
-Tape backup every week</p>
-
-<p>Business Requirements -<br />
-Optimize for capacity during peak periods and value during off-peak periods<br />
-Guarantee service availability and support<br />
-Reduce on-premises footprint and associated financial and environmental impact<br />
-Move to outsourcing model to avoid large upfront costs associated with infrastructure purchase<br />
-Expand services into Asia</p>
-
-<p>Technical Requirements -<br />
-Assess key application for cloud suitability<br />
-Modify applications for the cloud<br />
-Move applications to a new infrastructure<br />
-Leverage managed services wherever feasible<br />
-Sunset 20% of capacity in existing data centers<br />
-Decrease latency in Asia</p>
-
-<p>CEO Statement -<br />
-JencoMart will continue to develop personal relationships with our customers as more people access the web. The future of our retail business is in the global market and the connection between online and in-store experiences. As a large, global company, we also have a responsibility to the environment through <code class="language-plaintext highlighter-rouge">green</code> initiatives and policies.</p>
-
-<p>CTO Statement -<br />
-The challenges of operating data centers prevent focus on key technologies critical to our long-term success. Migrating our data services to a public cloud infrastructure will allow us to focus on big data and machine learning to improve our service to customers.</p>
-
-<p>CFO Statement -<br />
-Since its founding, JencoMart has invested heavily in our data services infrastructure. However, because of changing market trends, we need to outsource our infrastructure to ensure our long-term success. This model will allow us to respond to increasing customer demand during peak periods and reduce costs.<br />
-Question<br />
+<p>Question<br />
 JencoMart has built a version of their application on Google Cloud Platform that serves traffic to Asia. You want to measure success against their business and technical goals.<br />
 Which metrics should you track?</p>
 
@@ -1588,80 +1379,10 @@ C. Total visits, error rates, and latency from Asia<br />
 D. Total visits and average latency for users from Asia<br />
 E. The number of character sets present in the database</p>
 
-<p><a href="/assets/gcp/discussion/204.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/204.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/204.ans.html">Answers and Votes</a></p>
 
 <h1 id="205">205</h1>
-
-<p>Introductory Info<br />
-Company Overview -<br />
-JencoMart is a global retailer with over 10,000 stores in 16 countries. The stores carry a range of goods, such as groceries, tires, and jewelry. One of the company’s core values is excellent customer service. In addition, they recently introduced an environmental policy to reduce their carbon output by 50% over the next 5 years.</p>
-
-<p>Company Background -<br />
-JencoMart started as a general store in 1931, and has grown into one of the world’s leading brands, known for great value and customer service. Over time, the company transitioned from only physical stores to a stores and online hybrid model, with 25% of sales online. Currently, JencoMart has little presence in Asia, but considers that market key for future growth.</p>
-
-<p>Solution Concept -<br />
-JencoMart wants to migrate several critical applications to the cloud but has not completed a technical review to determine their suitability for the cloud and the engineering required for migration. They currently host all of these applications on infrastructure that is at its end of life and is no longer supported.</p>
-
-<p>Existing Technical Environment -<br />
-JencoMart hosts all of its applications in 4 data centers: 3 in North American and 1 in Europe; most applications are dual-homed.<br />
-JencoMart understands the dependencies and resource usage metrics of their on-premises architecture.<br />
-Application: Customer loyalty portal<br />
-LAMP (Linux, Apache, MySQL and PHP) application served from the two JencoMart-owned U.S. data centers.</p>
-
-<p>Database -<br />
-Oracle Database stores user profiles</p>
-<ul>
-  <li>20 TB</li>
-  <li>Complex table structure</li>
-  <li>Well maintained, clean data</li>
-  <li>Strong backup strategy<br />
-PostgreSQL database stores user credentials</li>
-  <li>Single-homed in US West</li>
-  <li>No redundancy</li>
-  <li>Backed up every 12 hours</li>
-  <li>100% uptime service level agreement (SLA)</li>
-  <li>Authenticates all users</li>
-</ul>
-
-<p>Compute -<br />
-30 machines in US West Coast, each machine has:</p>
-<ul>
-  <li>Twin, dual core CPUs</li>
-  <li>32 GB of RAM</li>
-  <li>Twin 250 GB HDD (RAID 1)<br />
-20 machines in US East Coast, each machine has:</li>
-  <li>Single, dual-core CPU</li>
-  <li>24 GB of RAM</li>
-  <li>Twin 250 GB HDD (RAID 1)</li>
-</ul>
-
-<p>Storage -<br />
-Access to shared 100 TB SAN in each location<br />
-Tape backup every week</p>
-
-<p>Business Requirements -<br />
-Optimize for capacity during peak periods and value during off-peak periods<br />
-Guarantee service availability and support<br />
-Reduce on-premises footprint and associated financial and environmental impact<br />
-Move to outsourcing model to avoid large upfront costs associated with infrastructure purchase<br />
-Expand services into Asia</p>
-
-<p>Technical Requirements -<br />
-Assess key application for cloud suitability<br />
-Modify applications for the cloud<br />
-Move applications to a new infrastructure<br />
-Leverage managed services wherever feasible<br />
-Sunset 20% of capacity in existing data centers<br />
-Decrease latency in Asia</p>
-
-<p>CEO Statement -<br />
-JencoMart will continue to develop personal relationships with our customers as more people access the web. The future of our retail business is in the global market and the connection between online and in-store experiences. As a large, global company, we also have a responsibility to the environment through <code class="language-plaintext highlighter-rouge">green</code> initiatives and policies.</p>
-
-<p>CTO Statement -<br />
-The challenges of operating data centers prevent focus on key technologies critical to our long-term success. Migrating our data services to a public cloud infrastructure will allow us to focus on big data and machine learning to improve our service to customers.</p>
-
-<p>CFO Statement -<br />
-Since its founding, JencoMart has invested heavily in our data services infrastructure. However, because of changing market trends, we need to outsource our infrastructure to ensure our long-term success. This model will allow us to respond to increasing customer demand during peak periods and reduce costs.</p>
 
 <p>The migration of JencoMart’s application to Google Cloud Platform (GCP) is progressing too slowly. The infrastructure is shown in the diagram. You want to maximize throughput.
 What are three potential bottlenecks?       (Choose three.)</p>
@@ -1675,81 +1396,12 @@ D. Fewer virtual machines (VMs) in GCP than on-premises machines<br />
 E. A separate storage layer outside the VMs, which is not suited for this task<br />
 F. Complicated internet connectivity between the on-premises infrastructure and GCP</p>
 
-<p><a href="/assets/gcp/discussion/205.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/205.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/205.ans.html">Answers and Votes</a></p>
 
 <h1 id="206">206</h1>
 
-<p>Introductory Info
-Company Overview -
-JencoMart is a global retailer with over 10,000 stores in 16 countries. The stores carry a range of goods, such as groceries, tires, and jewelry. One of the company’s core values is excellent customer service. In addition, they recently introduced an environmental policy to reduce their carbon output by 50% over the next 5 years.</p>
-
-<p>Company Background -
-JencoMart started as a general store in 1931, and has grown into one of the world’s leading brands, known for great value and customer service. Over time, the company transitioned from only physical stores to a stores and online hybrid model, with 25% of sales online. Currently, JencoMart has little presence in Asia, but considers that market key for future growth.</p>
-
-<p>Solution Concept -
-JencoMart wants to migrate several critical applications to the cloud but has not completed a technical review to determine their suitability for the cloud and the engineering required for migration. They currently host all of these applications on infrastructure that is at its end of life and is no longer supported.</p>
-
-<p>Existing Technical Environment -
-JencoMart hosts all of its applications in 4 data centers: 3 in North American and 1 in Europe; most applications are dual-homed.
-JencoMart understands the dependencies and resource usage metrics of their on-premises architecture.
-Application: Customer loyalty portal
-LAMP (Linux, Apache, MySQL and PHP) application served from the two JencoMart-owned U.S. data centers.</p>
-
-<p>Database -
-Oracle Database stores user profiles</p>
-<ul>
-  <li>20 TB</li>
-  <li>Complex table structure</li>
-  <li>Well maintained, clean data</li>
-  <li>Strong backup strategy
-PostgreSQL database stores user credentials</li>
-  <li>Single-homed in US West</li>
-  <li>No redundancy</li>
-  <li>Backed up every 12 hours</li>
-  <li>100% uptime service level agreement (SLA)</li>
-  <li>Authenticates all users</li>
-</ul>
-
-<p>Compute -
-30 machines in US West Coast, each machine has:</p>
-<ul>
-  <li>Twin, dual core CPUs</li>
-  <li>32 GB of RAM</li>
-  <li>Twin 250 GB HDD (RAID 1)
-20 machines in US East Coast, each machine has:</li>
-  <li>Single, dual-core CPU</li>
-  <li>24 GB of RAM</li>
-  <li>Twin 250 GB HDD (RAID 1)</li>
-</ul>
-
-<p>Storage -<br />
-Access to shared 100 TB SAN in each location<br />
-Tape backup every week</p>
-
-<p>Business Requirements -<br />
-Optimize for capacity during peak periods and value during off-peak periods<br />
-Guarantee service availability and support<br />
-Reduce on-premises footprint and associated financial and environmental impact<br />
-Move to outsourcing model to avoid large upfront costs associated with infrastructure purchase<br />
-Expand services into Asia</p>
-
-<p>Technical Requirements -<br />
-Assess key application for cloud suitability<br />
-Modify applications for the cloud<br />
-Move applications to a new infrastructure<br />
-Leverage managed services wherever feasible<br />
-Sunset 20% of capacity in existing data centers<br />
-Decrease latency in Asia</p>
-
-<p>CEO Statement -<br />
-JencoMart will continue to develop personal relationships with our customers as more people access the web. The future of our retail business is in the global market and the connection between online and in-store experiences. As a large, global company, we also have a responsibility to the environment through <code class="language-plaintext highlighter-rouge">green</code> initiatives and policies.</p>
-
-<p>CTO Statement -<br />
-The challenges of operating data centers prevent focus on key technologies critical to our long-term success. Migrating our data services to a public cloud infrastructure will allow us to focus on big data and machine learning to improve our service to customers.</p>
-
-<p>CFO Statement -<br />
-Since its founding, JencoMart has invested heavily in our data services infrastructure. However, because of changing market trends, we need to outsource our infrastructure to ensure our long-term success. This model will allow us to respond to increasing customer demand during peak periods and reduce costs.<br />
-Question<br />
+<p>Question<br />
 JencoMart wants to move their User Profiles database to Google Cloud Platform.<br />
 Which Google Database should they use?</p>
 
@@ -1758,7 +1410,8 @@ B. Google BigQuery<br />
 C. Google Cloud SQL<br />
 D. Google Cloud Datastore</p>
 
-<p><a href="/assets/gcp/discussion/206.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/206.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/206.ans.html">Discussion</a></p>
 
 <h1 id="207">207</h1>
 
@@ -1813,48 +1466,12 @@ B. Encrypt the card data with a deterministic algorithm stored in Firestore usin
 C. Encrypt the card data with a deterministic algorithm and shard it across multiple Memorystore instances.
 D. Use column-level encryption to store the data in Cloud SQL.</p>
 
-<p><a href="/assets/gcp/discussion/207.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/207.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/207.ans.html">Answers and Votes</a></p>
 
 <h1 id="208">208</h1>
 
-<p>Introductory Info
-Company overview -
-Helicopter Racing League (HRL) is a global sports league for competitive helicopter racing. Each year HRL holds the world championship and several regional league competitions where teams compete to earn a spot in the world championship. HRL offers a paid service to stream the races all over the world with live telemetry and predictions throughout each race.</p>
-
-<p>Solution concept -
-HRL wants to migrate their existing service to a new platform to expand their use of managed AI and ML services to facilitate race predictions. Additionally, as new fans engage with the sport, particularly in emerging regions, they want to move the serving of their content, both real-time and recorded, closer to their users.</p>
-
-<p>Existing technical environment -
-HRL is a public cloud-first company; the core of their mission-critical applications runs on their current public cloud provider. Video recording and editing is performed at the race tracks, and the content is encoded and transcoded, where needed, in the cloud. Enterprise-grade connectivity and local compute is provided by truck-mounted mobile data centers. Their race prediction services are hosted exclusively on their existing public cloud provider. Their existing technical environment is as follows:
-Existing content is stored in an object storage service on their existing public cloud provider.
-Video encoding and transcoding is performed on VMs created for each job.
-Race predictions are performed using TensorFlow running on VMs in the current public cloud provider.</p>
-
-<p>Business requirements -
-HRL’s owners want to expand their predictive capabilities and reduce latency for their viewers in emerging markets. Their requirements are:
-Support ability to expose the predictive models to partners.
-Increase predictive capabilities during and before races:
-ג—‹ Race results
-ג—‹ Mechanical failures
-ג—‹ Crowd sentiment
-Increase telemetry and create additional insights.
-Measure fan engagement with new predictions.
-Enhance global availability and quality of the broadcasts.
-Increase the number of concurrent viewers.
-Minimize operational complexity.
-Ensure compliance with regulations.
-Create a merchandising revenue stream.</p>
-
-<p>Technical requirements -
-Maintain or increase prediction throughput and accuracy.
-Reduce viewer latency.
-Increase transcoding performance.
-Create real-time analytics of viewer consumption patterns and engagement.
-Create a data mart to enable processing of large volumes of race data.</p>
-
-<p>Executive statement -
-Our CEO, S. Hawke, wants to bring high-adrenaline racing to fans all around the world. We listen to our fans, and they want enhanced video streams that include predictions of events within the race (e.g., overtaking). Our current platform allows us to predict race outcomes but lacks the facility to support real-time predictions during races and the capacity to process season-long results.
-Question
+<p>Question
 For this question, refer to the Helicopter Racing League (HRL) case study. Recently HRL started a new regional racing league in Cape Town, South Africa. In an effort to give customers in Cape Town a better user experience, HRL has partnered with the Content Delivery Network provider, Fastly. HRL needs to allow traffic coming from all of the Fastly IP address ranges into their Virtual Private Cloud network (VPC network). You are a member of the HRL security team and you need to configure the update that will allow only the Fastly IP address ranges through the External HTTP(S) load balancer. Which command should you use?</p>
 
 <p>A. gcloud compute security-policies rules update 1000 \<br />
@@ -1877,94 +1494,20 @@ D. gcloud compute security-policies rules update 1000 \<br />
 
 <h1 id="209">209</h1>
 
-<p>Introductory Info
-Company overview -
-Helicopter Racing League (HRL) is a global sports league for competitive helicopter racing. Each year HRL holds the world championship and several regional league competitions where teams compete to earn a spot in the world championship. HRL offers a paid service to stream the races all over the world with live telemetry and predictions throughout each race.</p>
-
-<p>Solution concept -
-HRL wants to migrate their existing service to a new platform to expand their use of managed AI and ML services to facilitate race predictions. Additionally, as new fans engage with the sport, particularly in emerging regions, they want to move the serving of their content, both real-time and recorded, closer to their users.</p>
-
-<p>Existing technical environment -
-HRL is a public cloud-first company; the core of their mission-critical applications runs on their current public cloud provider. Video recording and editing is performed at the race tracks, and the content is encoded and transcoded, where needed, in the cloud. Enterprise-grade connectivity and local compute is provided by truck-mounted mobile data centers. Their race prediction services are hosted exclusively on their existing public cloud provider. Their existing technical environment is as follows:
-Existing content is stored in an object storage service on their existing public cloud provider.
-Video encoding and transcoding is performed on VMs created for each job.
-Race predictions are performed using TensorFlow running on VMs in the current public cloud provider.</p>
-
-<p>Business requirements -
-HRL’s owners want to expand their predictive capabilities and reduce latency for their viewers in emerging markets. Their requirements are:
-Support ability to expose the predictive models to partners.
-Increase predictive capabilities during and before races:
-ג—‹ Race results
-ג—‹ Mechanical failures
-ג—‹ Crowd sentiment
-Increase telemetry and create additional insights.
-Measure fan engagement with new predictions.
-Enhance global availability and quality of the broadcasts.
-Increase the number of concurrent viewers.
-Minimize operational complexity.
-Ensure compliance with regulations.
-Create a merchandising revenue stream.</p>
-
-<p>Technical requirements -<br />
-Maintain or increase prediction throughput and accuracy.<br />
-Reduce viewer latency.<br />
-Increase transcoding performance.<br />
-Create real-time analytics of viewer consumption patterns and engagement.<br />
-Create a data mart to enable processing of large volumes of race data.</p>
-
-<p>Executive statement -<br />
-Our CEO, S. Hawke, wants to bring high-adrenaline racing to fans all around the world. We listen to our fans, and they want enhanced video streams that include predictions of events within the race (e.g., overtaking). Our current platform allows us to predict race outcomes but lacks the facility to support real-time predictions during races and the capacity to process season-long results.<br />
-Question
-For this question, refer to the Helicopter Racing League (HRL) case study. The HRL development team releases a new version of their predictive capability application every Tuesday evening at 3 a.m. UTC to a repository. The security team at HRL has developed an in-house penetration test Cloud Function called
-Airwolf. The security team wants to run Airwolf against the predictive capability application as soon as it is released every Tuesday. You need to set up Airwolf to run at the recurring weekly cadence. What should you do?</p>
+<p>Question
+For this question, refer to the Helicopter Racing League (HRL) case study. The HRL development team releases a new version of their predictive capability application every Tuesday evening at 3 a.m. UTC to a repository. The security team at HRL has developed an in-house penetration test Cloud Function called Airwolf. The security team wants to run Airwolf against the predictive capability application as soon as it is released every Tuesday. You need to set up Airwolf to run at the recurring weekly cadence. What should you do?</p>
 
 <p>A. Set up Cloud Tasks and a Cloud Storage bucket that triggers a Cloud Function.<br />
 B. Set up a Cloud Logging sink and a Cloud Storage bucket that triggers a Cloud Function.<br />
 C. Configure the deployment job to notify a Pub/Sub queue that triggers a Cloud Function.<br />
 D. Set up Identity and Access Management (IAM) and Confidential Computing to trigger a Cloud Function.</p>
 
-<p><a href="/assets/gcp/discussion/209.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/209.md">Discussion</a>  <br />
+<a href="/assets/gcp/discussion/209.ans.html">Answers and Votes</a></p>
 
 <h1 id="210">210</h1>
 
-<p>Introductory Info<br />
-Company overview -<br />
-Helicopter Racing League (HRL) is a global sports league for competitive helicopter racing. Each year HRL holds the world championship and several regional league competitions where teams compete to earn a spot in the world championship. HRL offers a paid service to stream the races all over the world with live telemetry and predictions throughout each race.</p>
-
-<p>Solution concept -<br />
-HRL wants to migrate their existing service to a new platform to expand their use of managed AI and ML services to facilitate race predictions. Additionally, as new fans engage with the sport, particularly in emerging regions, they want to move the serving of their content, both real-time and recorded, closer to their users.</p>
-
-<p>Existing technical environment -<br />
-HRL is a public cloud-first company; the core of their mission-critical applications runs on their current public cloud provider. Video recording and editing is performed at the race tracks, and the content is encoded and transcoded, where needed, in the cloud. Enterprise-grade connectivity and local compute is provided by truck-mounted mobile data centers. Their race prediction services are hosted exclusively on their existing public cloud provider. Their existing technical environment is as follows:<br />
-Existing content is stored in an object storage service on their existing public cloud provider.<br />
-Video encoding and transcoding is performed on VMs created for each job.<br />
-Race predictions are performed using TensorFlow running on VMs in the current public cloud provider.</p>
-
-<p>Business requirements -
-HRL’s owners want to expand their predictive capabilities and reduce latency for their viewers in emerging markets. Their requirements are:<br />
-Support ability to expose the predictive models to partners.<br />
-Increase predictive capabilities during and before races:<br />
-ג—‹ Race results<br />
-ג—‹ Mechanical failures<br />
-ג—‹ Crowd sentiment<br />
-Increase telemetry and create additional insights.<br />
-Measure fan engagement with new predictions.<br />
-Enhance global availability and quality of the broadcasts.<br />
-Increase the number of concurrent viewers.<br />
-Minimize operational complexity.<br />
-Ensure compliance with regulations.<br />
-Create a merchandising revenue stream.</p>
-
-<p>Technical requirements -<br />
-Maintain or increase prediction throughput and accuracy.<br />
-Reduce viewer latency.<br />
-Increase transcoding performance.<br />
-Create real-time analytics of viewer consumption patterns and engagement.<br />
-Create a data mart to enable processing of large volumes of race data.</p>
-
-<p>Executive statement -
-Our CEO, S. Hawke, wants to bring high-adrenaline racing to fans all around the world. We listen to our fans, and they want enhanced video streams that include predictions of events within the race (e.g., overtaking). Our current platform allows us to predict race outcomes but lacks the facility to support real-time predictions during races and the capacity to process season-long results.
-Question<br />
+<p>Question<br />
 For this question, refer to the Helicopter Racing League (HRL) case study. HRL wants better prediction accuracy from their ML prediction models. They want you to use Google’s AI Platform so HRL can understand and interpret the predictions. What should you do?</p>
 
 <p>A. Use Explainable AI.<br />
@@ -1972,48 +1515,12 @@ B. Use Vision AI.<br />
 C. Use Google Cloud’s operations suite.<br />
 D. Use Jupyter Notebooks.</p>
 
-<p><a href="/assets/gcp/discussion/210.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/210.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/210.ans.html">Answers and Votes</a></p>
 
 <h1 id="211">211</h1>
 
-<p>Introductory Info
-Company overview -
-Helicopter Racing League (HRL) is a global sports league for competitive helicopter racing. Each year HRL holds the world championship and several regional league competitions where teams compete to earn a spot in the world championship. HRL offers a paid service to stream the races all over the world with live telemetry and predictions throughout each race.</p>
-
-<p>Solution concept -
-HRL wants to migrate their existing service to a new platform to expand their use of managed AI and ML services to facilitate race predictions. Additionally, as new fans engage with the sport, particularly in emerging regions, they want to move the serving of their content, both real-time and recorded, closer to their users.</p>
-
-<p>Existing technical environment -
-HRL is a public cloud-first company; the core of their mission-critical applications runs on their current public cloud provider. Video recording and editing is performed at the race tracks, and the content is encoded and transcoded, where needed, in the cloud. Enterprise-grade connectivity and local compute is provided by truck-mounted mobile data centers. Their race prediction services are hosted exclusively on their existing public cloud provider. Their existing technical environment is as follows:
-Existing content is stored in an object storage service on their existing public cloud provider.
-Video encoding and transcoding is performed on VMs created for each job.
-Race predictions are performed using TensorFlow running on VMs in the current public cloud provider.</p>
-
-<p>Business requirements -
-HRL’s owners want to expand their predictive capabilities and reduce latency for their viewers in emerging markets. Their requirements are:
-Support ability to expose the predictive models to partners.
-Increase predictive capabilities during and before races:<br />
-ג—‹ Race results<br />
-ג—‹ Mechanical failures<br />
-ג—‹ Crowd sentiment<br />
-Increase telemetry and create additional insights.<br />
-Measure fan engagement with new predictions.<br />
-Enhance global availability and quality of the broadcasts.<br />
-Increase the number of concurrent viewers.<br />
-Minimize operational complexity.<br />
-Ensure compliance with regulations.<br />
-Create a merchandising revenue stream.</p>
-
-<p>Technical requirements -<br />
-Maintain or increase prediction throughput and accuracy.<br />
-Reduce viewer latency.<br />
-Increase transcoding performance.<br />
-Create real-time analytics of viewer consumption patterns and engagement.<br />
-Create a data mart to enable processing of large volumes of race data.</p>
-
-<p>Executive statement -<br />
-Our CEO, S. Hawke, wants to bring high-adrenaline racing to fans all around the world. We listen to our fans, and they want enhanced video streams that include predictions of events within the race (e.g., overtaking). Our current platform allows us to predict race outcomes but lacks the facility to support real-time predictions during races and the capacity to process season-long results.<br />
-Question<br />
+<p>Question<br />
 For this question, refer to the Helicopter Racing League (HRL) case study. HRL is looking for a cost-effective approach for storing their race data such as telemetry. They want to keep all historical records, train models using only the previous season’s data, and plan for data growth in terms of volume and information collected. You need to propose a data solution. Considering HRL business requirements and the goals expressed by CEO S. Hawke, what should you do?</p>
 
 <p>A. Use Firestore for its scalable and flexible document-based database. Use collections to aggregate race data by season and event.<br />
@@ -2021,7 +1528,8 @@ B. Use Cloud Spanner for its scalability and ability to version schemas with zer
 C. Use BigQuery for its scalability and ability to add columns to a schema. Partition race data based on season.<br />
 D. Use Cloud SQL for its ability to automatically manage storage increases and compatibility with MySQL. Use separate database instances for each season.</p>
 
-<p><a href="/assets/gcp/discussion/211.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/211.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/211.ans.html">Answers and Votes</a></p>
 
 <h1 id="212">212</h1>
 
@@ -2040,7 +1548,14 @@ D. From the Google Console, identify which Compute Engine instances in the manag
 <p>Question<br />
 For this question, refer to the EHR Healthcare case study. You are responsible for ensuring that EHR’s use of Google Cloud will pass an upcoming privacy compliance audit. What should you do?       (Choose two.)</p>
 
-<p><a href="/assets/gcp/discussion/213.md">Discussion</a></p>
+<p>A. Verify EHR’s product usage against the list of compliant products on the Google Cloud compliance page.<br />
+B. Advise EHR to execute a Business Associate Agreement (BAA) with Google Cloud.<br />
+C. Use Firebase Authentication for EHR’s user facing applications.<br />
+D. Implement Prometheus to detect and prevent security breaches on EHR’s web-based applications.<br />
+E. Use GKE private clusters for all Kubernetes workloads.</p>
+
+<p><a href="/assets/gcp/discussion/213.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/213.ans.html">Answers and Votes</a></p>
 
 <h1 id="214">214</h1>
 
@@ -2052,7 +1567,8 @@ B. Configure Jenkins to utilize Kritis to cryptographically sign a container as 
 C. Configure Container Registry to only allow trusted service accounts to create and deploy containers from the registry.<br />
 D. Configure Container Registry to use vulnerability scanning to confirm that there are no vulnerabilities before deploying the workload.</p>
 
-<p><a href="/assets/gcp/discussion/214.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/214.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/214.ans.html">Answers and Votes</a></p>
 
 <h1 id="215">215</h1>
 
@@ -2064,7 +1580,8 @@ B. Upgrade the bandwidth on the Dedicated Interconnect connection to 100 G.<br /
 C. Add three new Cloud VPN connections.<br />
 D. Add a new Carrier Peering connection.</p>
 
-<p><a href="/assets/gcp/discussion/215.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/215.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/215.ans.html">Answers and Votes</a></p>
 
 <h1 id="216">216</h1>
 
@@ -2076,7 +1593,8 @@ B. Configure two VPN connections from on-premises to Google Cloud, and make sure
 C. Configure Direct Peering between EHR Healthcare and Google Cloud, and make sure you are peering at least two Google locations.<br />
 D. Configure two Dedicated Interconnect connections in one metro (City) and two connections in another metro, and make sure the Interconnect connections are placed in different metro zones.</p>
 
-<p><a href="/assets/gcp/discussion/216.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/216.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/216.ans.html">Answers and Votes</a></p>
 
 <h1 id="217">217</h1>
 
@@ -2089,7 +1607,8 @@ B. Move from a Pub/Sub subscriber pull model to a push model.  <br />
 C. Turn off Pub/Sub message batching.<br />
 D. Create a backup Pub/Sub message queue.</p>
 
-<p><a href="/assets/gcp/discussion/217.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/217.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/217.ans.html">Answers and Votes</a></p>
 
 <h1 id="218">218</h1>
 
@@ -2101,7 +1620,8 @@ B. Revoke the compute.networkAdmin role from all users in the project with front
 C. Create an Identity and Access Management (IAM) policy that maps the IT staff to the compute.networkAdmin role for the organization.<br />
 D. Create a custom Identity and Access Management (IAM) role named GCE_FRONTEND with the compute.addresses.create permission.</p>
 
-<p><a href="/assets/gcp/discussion/218.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/218.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/218.ans.html">Answers and Votes</a></p>
 
 <h1 id="219">219</h1>
 
@@ -2138,8 +1658,11 @@ Requirements for Game Backend Platform</p>
 <ol>
   <li>Dynamically scale up or down based on game activity</li>
   <li>Connect to a managed NoSQL database service</li>
-  <li>Run customize Linux distro<br />
-Requirements for Game Analytics Platform</li>
+  <li>Run customize Linux distro</li>
+</ol>
+
+<p>Requirements for Game Analytics Platform</p>
+<ol>
   <li>Dynamically scale up or down based on game activity</li>
   <li>Process incoming data on the fly directly from the game servers</li>
   <li>Process data that arrives late because of slow mobile networks</li>
@@ -2164,7 +1687,8 @@ B. Unit tests are no longer required, only end-to-end tests<br />
 C. Tests should be applied after the release is in the production environment<br />
 D. Tests should include directly testing the Google Cloud Platform (GCP) infrastructure</p>
 
-<p><a href="/assets/gcp/discussion/220.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/220.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/220.ans.html">Answers and Votes</a></p>
 
 <h1 id="221">221</h1>
 
@@ -2176,7 +1700,8 @@ B. Use the existing infrastructure to test the GCP-based backend at scale<br />
 C. Build stress tests into each component of your application using resources internal to GCP to simulate load<br />
 D. Create a set of static environments in GCP to test different levels of load ג€” for example, high, medium, and low</p>
 
-<p><a href="/assets/gcp/discussion/221.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/221.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/221.ans.html">Answers and Votes</a></p>
 
 <h1 id="222">222</h1>
 
@@ -2193,7 +1718,8 @@ B. Google Cloud Storage, Google App Engine, Google Network Load Balancer
 C. Google Kubernetes Registry, Google Container Engine, Google HTTP(S) Load Balancer
 D. Google Cloud Functions, Google Cloud Pub/Sub, Google Cloud Deployment Manager</p>
 
-<p><a href="/assets/gcp/discussion/222.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/222.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/222.ans.html">Answers and Votes</a></p>
 
 <h1 id="223">223</h1>
 
@@ -2205,7 +1731,8 @@ B. Verify that the project quota hasn’t been exceeded<br />
 C. Verify that the new feature code did not introduce any performance bugs<br />
 D. Verify that the load-testing team is not running their tool against production</p>
 
-<p><a href="/assets/gcp/discussion/223.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/223.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/223.ans.html">Answers and Votes</a></p>
 
 <h1 id="224">224</h1>
 
@@ -2218,7 +1745,8 @@ B. Create a network for development and test and another for staging and product
 C. Create one subnetwork for development and another for staging and production<br />
 D. Create one project for development, a second for staging and a third for production</p>
 
-<p><a href="/assets/gcp/discussion/224.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/224.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/224.ans.html">Answers and Votes</a></p>
 
 <h1 id="225">225</h1>
 
@@ -2232,7 +1760,8 @@ C. Cloud SQL, Cloud Storage, Cloud Pub/Sub, and Cloud Dataflow<br />
 D. Cloud Dataproc, Cloud Pub/Sub, Cloud SQL, and Cloud Dataflow<br />
 E. Cloud Pub/Sub, Compute Engine, Cloud Storage, and Cloud Dataproc</p>
 
-<p><a href="/assets/gcp/discussion/225.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/225.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/225.ans.html">Answers and Votes</a></p>
 
 <h1 id="226">226</h1>
 
@@ -2246,7 +1775,8 @@ C. Draw an architecture diagram that shows how to move from a single MySQL datab
 D. Load 10 TB of analytics data from a previous game into a Cloud SQL instance, and run test queries against the full dataset to confirm that they complete successfully.<br />
 E. Integrate Cloud Armor to defend against possible SQL injection attacks in analytics files uploaded to Cloud Storage.</p>
 
-<p><a href="/assets/gcp/discussion/226.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/226.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/226.ans.html">Answers and Votes</a></p>
 
 <h1 id="227">227</h1>
 
@@ -2258,7 +1788,9 @@ B. Create network load balancers. Use non-preemptible Compute Engine instances.<
 C. Create a global load balancer with managed instance groups and autoscaling policies. Use preemptible Compute Engine instances.<br />
 D. Create a global load balancer with managed instance groups and autoscaling policies. Use non-preemptible Compute Engine instances.</p>
 
-<p><a href="/assets/gcp/discussion/227.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/227.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/227.ans.html">Answers and Votes</a><br />
+<a href="/assets/gcp/discussion/227.vs.html">Global HTTP(S) LB vs Global Load Balancer（总称）vs Network Load Balancer</a></p>
 
 <h1 id="228">228</h1>
 
@@ -2271,19 +1803,21 @@ C. Set up a CI/CD pipeline using Jenkins and Spinnaker to automate canary deploy
 D. Adopt a schema versioning tool to reduce downtime when adding new game features that require storing additional player data in the database.
 E. Implement a weekly rolling maintenance process for the Linux virtual machines so they can apply critical kernel patches and package updates and reduce the risk of 0-day vulnerabilities.</p>
 
-<p><a href="/assets/gcp/discussion/228.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/228.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/228.ans.html">Answers and Votes</a></p>
 
 <h1 id="229">229</h1>
 
 <p>Question
 For this question, refer to the Mountkirk Games case study. Mountkirk Games wants you to design a way to test the analytics platform’s resilience to changes in mobile network latency. What should you do?</p>
 
-<p>A. Deploy failure injection software to the game analytics platform that can inject additional latency to mobile client analytics traffic. Most Voted<br />
+<p>A. Deploy failure injection software to the game analytics platform that can inject additional latency to mobile client analytics traffic.<br />
 B. Build a test client that can be run from a mobile phone emulator on a Compute Engine virtual machine, and run multiple copies in Google Cloud Platform regions all over the world to generate realistic traffic.<br />
 C. Add the ability to introduce a random amount of delay before beginning to process analytics files uploaded from mobile devices.<br />
 D. Create an opt-in beta of the game that runs on players’ mobile devices and collects response times from analytics endpoints running in Google Cloud Platform regions all over the world.</p>
 
-<p><a href="/assets/gcp/discussion/229.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/229.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/229.ans.html">Answers and Votes</a></p>
 
 <h1 id="230">230</h1>
 
@@ -2295,7 +1829,9 @@ B. Use Cloud SQL to replace MySQL, and use Cloud Spanner for historical data que
 C. Use Cloud Bigtable to replace MySQL, and use BigQuery for historical data queries.<br />
 D. Use Cloud Bigtable for time series data, use Cloud Spanner for transactional data, and use BigQuery for historical data queries.</p>
 
-<p><a href="/assets/gcp/discussion/230.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/230.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/230.ans.html">Answers and Votes</a><br />
+<a href="/assets/gcp/discussion/230.vs.html">对比分析</a></p>
 
 <h1 id="231">231</h1>
 
@@ -2332,7 +1868,8 @@ B. Use gsutil to batch copy the files in parallel.<br />
 C. Use gsutil to extract the files as the first part of ETL.<br />
 D. Use gsutil to load the files as the last part of ETL.</p>
 
-<p><a href="/assets/gcp/discussion/233.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/233.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/233.ans.html">Answers and Votes</a></p>
 
 <h1 id="234">234</h1>
 
@@ -2345,7 +1882,8 @@ B. Create a service account (SA) in the legacy game’s Google Cloud project, gi
 C. Create a service account (SA) in the legacy game’s Google Cloud project, add this SA in the new game’s IAM page, and then give it the Firebase Admin role in both projects.<br />
 D. Create a service account (SA) in the legacy game’s Google Cloud project, give it the Firebase Admin role, and then migrate the new game to the legacy game’s project.</p>
 
-<p><a href="/assets/gcp/discussion/234.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/234.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/234.ans.html">Answers and Votes</a></p>
 
 <h1 id="235">235</h1>
 
@@ -2357,7 +1895,8 @@ B. Configure IAM conditions to limit what resources can be configured.<br />
 C. Configure the quotas for resources in the regions not being used to 0.<br />
 D. Configure a custom alert in Cloud Monitoring so you can disable resources as they are created in other regions.</p>
 
-<p><a href="/assets/gcp/discussion/235.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/235.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/235.ans.html">Answers and Votes</a></p>
 
 <h1 id="236">236</h1>
 
@@ -2369,7 +1908,9 @@ B. Configure kubemci with a global load balancer and Google Kubernetes Engine.<b
 C. Configure a global load balancer with Google Kubernetes Engine.<br />
 D. Configure Ingress for Anthos with a global load balancer and Google Kubernetes Engine.</p>
 
-<p><a href="/assets/gcp/discussion/236.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/236.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/236.ans.html">Answers and Votes</a><br />
+<a href="/assets/gcp/discussion/236.vs.html"> 对比分析 </a></p>
 
 <h1 id="237">237</h1>
 
@@ -2381,7 +1922,8 @@ B. Create GKE CPU Utilization and Memory Utilization as service level indicators
 C. Create Request Latency and Error Rate as service level indicators.<br />
 D. Create Server Uptime and Error Rate as service level indicators.</p>
 
-<p><a href="/assets/gcp/discussion/237.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/237.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/237.vs.html"> 对比分析 </a></p>
 
 <h1 id="238">238</h1>
 
@@ -2394,7 +1936,8 @@ B. Use Kubernetes Secrets, which are obfuscated by default. Configure these Secr
 C. Configure Kubernetes Secrets to store the secret, enable Application-Layer Secrets Encryption, and use Cloud Key Management Service (Cloud KMS) to manage the encryption keys. Configure these Secrets to be used by the application platform.<br />
 D. Configure HashiCorp Vault on Compute Engine, and use customer managed encryption keys and Cloud Key Management Service (Cloud KMS) to manage the encryption keys. Configure these Secrets to be used by the application platform.</p>
 
-<p><a href="/assets/gcp/discussion/238.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/238.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/238.ans.html">Answers and Votes</a></p>
 
 <h1 id="239">239</h1>
 

@@ -1,0 +1,172 @@
+<h2>📦 Ingress for Anthos vs Istio Gateway 对比</h2>
+
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; font-family: sans-serif; font-size: 14px;">
+  <thead style="background-color: #f0f0f0;">
+    <tr>
+      <th>对比项</th>
+      <th>Ingress for Anthos</th>
+      <th>Istio Gateway</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>定位</strong></td>
+      <td>多集群 GKE 全球 Ingress 管理</td>
+      <td>服务网格流量入口</td>
+    </tr>
+    <tr>
+      <td><strong>控制平面</strong></td>
+      <td>Google 托管（Cloud Load Balancer 控制）</td>
+      <td>自托管 Istiod 控制平面</td>
+    </tr>
+    <tr>
+      <td><strong>底层组件</strong></td>
+      <td>GKE Ingress + Google Cloud HTTP(S) Load Balancer</td>
+      <td>Envoy Proxy</td>
+    </tr>
+    <tr>
+      <td><strong>多集群支持</strong></td>
+      <td>✅ 原生支持（多 GKE region）</td>
+      <td>需手动配置多网格或 east-west 网关</td>
+    </tr>
+    <tr>
+      <td><strong>与 Google Cloud 集成</strong></td>
+      <td>✅ 极佳（Cloud Armor、Identity-Aware Proxy）</td>
+      <td>⚠️ 需要额外配置</td>
+    </tr>
+    <tr>
+      <td><strong>L7 流量控制能力</strong></td>
+      <td>中等（Path、Header 路由，流量分配）</td>
+      <td>✅ 高度灵活（权重、故障注入、超时等）</td>
+    </tr>
+    <tr>
+      <td><strong>mTLS / 安全通信</strong></td>
+      <td>❌ 不内置</td>
+      <td>✅ 默认支持</td>
+    </tr>
+    <tr>
+      <td><strong>灰度发布 / Canary</strong></td>
+      <td>⚠️ 支持简单流量分配</td>
+      <td>✅ 具备强大支持</td>
+    </tr>
+    <tr>
+      <td><strong>监控 / 可观测性</strong></td>
+      <td>与 Cloud Logging、Monitoring 集成</td>
+      <td>Prometheus + Grafana 或 GCP 结合</td>
+    </tr>
+    <tr>
+      <td><strong>复杂度</strong></td>
+      <td>✅ 简单，运维负担低</td>
+      <td>❌ 复杂度高，需要服务网格经验</td>
+    </tr>
+    <tr>
+      <td><strong>成本</strong></td>
+      <td>🚫 需要 Anthos 授权</td>
+      <td>✅ Open Source，免费（但需自管）</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>🔍 使用场景对比推荐：</h2>
+
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; font-family: sans-serif; font-size: 14px;">
+  <thead style="background-color: #f0f0f0;">
+    <tr>
+      <th>场景</th>
+      <th>推荐方案</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>需要全球负载均衡，多区域集群，GCP 原生集成</td>
+      <td>✅ <strong>Ingress for Anthos</strong></td>
+    </tr>
+    <tr>
+      <td>需要细粒度流量控制（如 A/B test, 灰度发布），服务间 mTLS 安全</td>
+      <td>✅ <strong>Istio Gateway</strong></td>
+    </tr>
+    <tr>
+      <td>不熟悉 Envoy，想快速配置生产级入口</td>
+      <td>✅ <strong>Ingress for Anthos</strong></td>
+    </tr>
+    <tr>
+      <td>已使用 Istio 作为 Service Mesh，想统一管理南北向流量</td>
+      <td>✅ <strong>Istio Gateway</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<pre style="font-family: monospace; background: #f9f9f9; padding: 16px; border-radius: 8px; border: 1px solid #ddd; font-size: 14px;">
+                            ┌──────────────────────────┐
+                            │     需要 GCP 全球负载均衡？     │
+                            └────────────┬─────────────┘
+                                         │
+                                       是│
+                                         ▼
+              ┌────────────────────────────────────────┐
+              │    是否想使用 Google 托管服务、减少复杂度？    │
+              └────────────┬─────────────────────────┘
+                           │
+                         是│
+                           ▼
+                 ✅ 选择：Ingress for Anthos
+
+                         否│
+                           ▼
+         ✅ 选择：Istio Gateway + 自定义负载均衡策略
+</pre>
+
+
+
+
+
+
+## 📦 Ingress for Anthos vs Istio Gateway 对比
+
+| 对比项 | Ingress for Anthos | Istio Gateway |
+|--------|---------------------|----------------|
+| **定位** | 多集群 GKE 全球 Ingress 管理 | 服务网格流量入口 |
+| **控制平面** | Google 托管（Cloud Load Balancer 控制） | 自托管 Istiod 控制平面 |
+| **底层组件** | GKE Ingress + Google Cloud HTTP(S) Load Balancer | Envoy Proxy |
+| **多集群支持** | ✅ 原生支持（多 GKE region） | 需手动配置多网格或 east-west 网关 |
+| **与 Google Cloud 集成** | ✅ 极佳（Cloud Armor、Identity-Aware Proxy） | ⚠️ 需要额外配置 |
+| **L7 流量控制能力** | 中等（Path、Header 路由，流量分配） | ✅ 高度灵活（权重、故障注入、超时等） |
+| **mTLS / 安全通信** | ❌ 不内置 | ✅ 默认支持 |
+| **灰度发布 / Canary** | ⚠️ 支持简单流量分配 | ✅ 具备强大支持 |
+| **监控 / 可观测性** | 与 Cloud Logging、Monitoring 集成 | Prometheus + Grafana 或 GCP 结合 |
+| **复杂度** | ✅ 简单，运维负担低 | ❌ 复杂度高，需要服务网格经验 |
+| **成本** | 🚫 需要 Anthos 授权 | ✅ Open Source，免费（但需自管） |
+
+---
+
+## 🔍 使用场景对比推荐：
+
+| 场景 | 推荐方案 |
+|------|-----------|
+| 需要全球负载均衡，多区域集群，GCP 原生集成 | ✅ **Ingress for Anthos** |
+| 需要细粒度流量控制（如 A/B test, 灰度发布），服务间 mTLS 安全 | ✅ **Istio Gateway** |
+| 不熟悉 Envoy，想快速配置生产级入口 | ✅ **Ingress for Anthos** |
+| 已使用 Istio 作为 Service Mesh，想统一管理南北向流量 | ✅ **Istio Gateway** |
+
+
+# 请使用如下模版，帮我整理一个思维导图，以markdown格式输出，我需要直接copy
+
+                            ┌──────────────────────────┐
+                            │     需要 GCP 全球负载均衡？     │
+                            └────────────┬─────────────┘
+                                         │
+                                       是│
+                                         ▼
+              ┌────────────────────────────────────────┐
+              │    是否想使用 Google 托管服务、减少复杂度？    │
+              └────────────┬─────────────────────────┘
+                           │
+                         是│
+                           ▼
+                 ✅ 选择：Ingress for Anthos
+
+                         否│
+                           ▼
+         ✅ 选择：Istio Gateway + 自定义负载均衡策略
