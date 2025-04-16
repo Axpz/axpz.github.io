@@ -1,0 +1,89 @@
+<h1>🌐 Google Cloud Endpoints 简介</h1>
+
+<p><strong>Google Cloud Endpoints</strong> 是 Google 提供的一个 API 管理平台，帮助你在 GCP 上 <strong>发布、保护、监控和分析 API</strong>。适用于 App Engine、Cloud Run、Cloud Functions、GKE、Compute Engine 等多种后端部署方式。</p>
+
+<hr />
+
+<h2>✅ 主要功能</h2>
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse;">
+  <tr>
+    <th>功能</th>
+    <th>描述</th>
+  </tr>
+  <tr>
+    <td>🔐 安全性</td>
+    <td>支持身份验证（API key、JWT、OAuth），可与 Firebase Auth、Google Identity 结合</td>
+  </tr>
+  <tr>
+    <td>📊 监控</td>
+    <td>与 Cloud Monitoring、Cloud Logging、Cloud Trace 集成，追踪 API 调用的性能和日志</td>
+  </tr>
+  <tr>
+    <td>🔍 流量管理</td>
+    <td>可以限制调用频率（Quota），做基础的 API 流控</td>
+  </tr>
+  <tr>
+    <td>📘 API 文档</td>
+    <td>支持使用 OpenAPI 或 gRPC 定义接口，自动生成 API Explorer</td>
+  </tr>
+  <tr>
+    <td>🛡️ 网关代理</td>
+    <td>使用 Envoy 或 Extensible Service Proxy (ESPv2) 作为网关来接入外部流量</td>
+  </tr>
+</table>
+
+<hr />
+
+<h2>📦 架构组成</h2>
+<ul>
+  <li><strong>服务配置</strong>：使用 OpenAPI 或 protobuf 描述 API，上传到 Google Service Management。</li>
+  <li><strong>ESPv2 / Envoy</strong>：部署在你的后端服务旁，作为入口网关验证请求并转发。</li>
+  <li><strong>Service Control</strong>：Google 后端服务，负责配额控制、日志记录、监控等。</li>
+</ul>
+
+<hr />
+
+<h2>🚀 使用场景</h2>
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse;">
+  <tr>
+    <th>场景</th>
+    <th>是否适用</th>
+  </tr>
+  <tr>
+    <td>后端服务需要安全暴露 API 给前端或第三方</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>希望统一管理多个服务的 API</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>需要轻量级 API 网关，不用搭建 Kong、Apigee 等重型平台</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>希望使用 Google Cloud 原生监控和日志能力</td>
+    <td>✅</td>
+  </tr>
+</table>
+
+<hr />
+
+<h2>🚫 不适用的情况</h2>
+<ul>
+  <li>需要复杂的 API 网关能力（如高级变换、插件生态、服务编排）→ 建议使用 <strong>Apigee</strong></li>
+  <li>想要部署在非 Google Cloud 环境（虽然 ESP 支持自部署，但不是主要场景）</li>
+</ul>
+
+<hr />
+
+<h2>🛠️ 示例架构图（简略）</h2>
+<pre style="background: #f4f4f4; padding: 10px; border-radius: 6px;">
+Client
+  ↓
+ESPv2 / Envoy (接收请求 + 鉴权 + 日志)
+  ↓
+你的后端服务（Cloud Run / GKE / GCE）
+</pre>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-16T15:58:58+08:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-16T17:42:56+08:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
 </subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">professional cloud architect 251-279</title><link href="/cloud/2025/04/11/12-00-00-professional-cloud-architect-251-279.html" rel="alternate" type="text/html" title="professional cloud architect 251-279" /><published>2025-04-11T12:00:00+08:00</published><updated>2025-04-11T12:00:00+08:00</updated><id>/cloud/2025/04/11/12:00:00-professional-cloud-architect%20251-279</id><content type="html" xml:base="/cloud/2025/04/11/12-00-00-professional-cloud-architect-251-279.html"><![CDATA[<p>professional cloud architect 2025-04-11 12:00:00</p>
 
 <h1 id="251">251</h1>
@@ -1705,20 +1705,20 @@ D. Create a set of static environments in GCP to test different levels of load �
 
 <h1 id="222">222</h1>
 
-<p>Question
-Mountkirk Games wants to set up a continuous delivery pipeline. Their architecture includes many small services that they want to be able to update and roll back quickly. Mountkirk Games has the following requirements:
-✑ Services are deployed redundantly across multiple regions in the US and Europe
-✑ Only frontend services are exposed on the public internet
-✑ They can provide a single frontend IP for their fleet of services
-✑ Deployment artifacts are immutable
+<p>Question<br />
+Mountkirk Games wants to set up a continuous delivery pipeline. Their architecture includes many small services that they want to be able to update and roll back quickly. Mountkirk Games has the following requirements:<br />
+✑ Services are deployed redundantly across multiple regions in the US and Europe<br />
+✑ Only frontend services are exposed on the public internet<br />
+✑ They can provide a single frontend IP for their fleet of services<br />
+✑ Deployment artifacts are immutable<br />
 Which set of products should they use?</p>
 
-<p>A. Google Cloud Storage, Google Cloud Dataflow, Google Compute Engine
-B. Google Cloud Storage, Google App Engine, Google Network Load Balancer
-C. Google Kubernetes Registry, Google Container Engine, Google HTTP(S) Load Balancer
+<p>A. Google Cloud Storage, Google Cloud Dataflow, Google Compute Engine<br />
+B. Google Cloud Storage, Google App Engine, Google Network Load Balancer<br />
+C. Google Kubernetes Registry, Google Container Engine, Google HTTP(S) Load Balancer<br />
 D. Google Cloud Functions, Google Cloud Pub/Sub, Google Cloud Deployment Manager</p>
 
-<p><a href="/assets/gcp/discussion/222.md">Discussion</a><br />
+<p><a href="/assets/gcp/discussion/222.md">Discussion</a> <br />
 <a href="/assets/gcp/discussion/222.ans.html">Answers and Votes</a></p>
 
 <h1 id="223">223</h1>
@@ -1847,11 +1847,11 @@ D. Cloud Datastore</p>
 
 <h1 id="232">232</h1>
 
-<p>Question<br />
-For this question, refer to the Mountkirk Games case study. You are in charge of the new Game Backend Platform architecture. The game communicates with the backend over a REST API.<br />
+<p>Question  <br />
+For this question, refer to the Mountkirk Games case study. You are in charge of the new Game Backend Platform architecture. The game communicates with the backend over a REST API.  <br />
 You want to follow Google-recommended practices. How should you design the backend?</p>
 
-<p>A. Create an instance template for the backend. For every region, deploy it on a multi-zone managed instance group. Use an L4 load balancer.<br />
+<p>A. Create an instance template for the backend. For every region, deploy it on a multi-zone managed instance group. Use an L4 load balancer.  <br />
 B. Create an instance template for the backend. For every region, deploy it on a single-zone managed instance group. Use an L4 load balancer.<br />
 C. Create an instance template for the backend. For every region, deploy it on a multi-zone managed instance group. Use an L7 load balancer.<br />
 D. Create an instance template for the backend. For every region, deploy it on a single-zone managed instance group. Use an L7 load balancer.</p>
@@ -2012,7 +2012,9 @@ C. Use Google App Engine with the Swagger (Open API Specification) framework. Fo
 D. Use Google Container Engine with a Django Python container. Focus on an API for the public
 E. Use Google Container Engine with a Tomcat container with the Swagger (Open API Specification) framework. Focus on an API for dealers and partners</p>
 
-<p><a href="/assets/gcp/discussion/241.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/241.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/241.ans.html">Answers and Votes</a><br />
+<a href="/assets/gcp/discussion/241.vs.html">Google Cloud Endpoints</a></p>
 
 <h1 id="242">242</h1>
 
@@ -2025,7 +2027,9 @@ B. Build SAML 2.0 SSO compatibility into your authentication system<br />
 C. Restrict data access based on the source IP address of the partner systems<br />
 D. Create secondary credentials for each dealer that can be given to the trusted third party</p>
 
-<p><a href="/assets/gcp/discussion/242.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/242.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/242.ans.html">Answers and Votes</a><br />
+<a href="/assets/gcp/discussion/242.vs.html">OAuth 2.0 vs SAML 2.0 SSO</a></p>
 
 <h1 id="243">243</h1>
 
@@ -2038,7 +2042,8 @@ B. Vehicles write data directly to Google Cloud Pub/Sub<br />
 C. Vehicles stream data directly to Google BigQuery<br />
 D. Vehicles continue to write data using the existing system (FTP)</p>
 
-<p><a href="/assets/gcp/discussion/243.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/243.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/243.ans.html">Answers and Votes</a></p>
 
 <h1 id="244">244</h1>
 
@@ -2051,7 +2056,8 @@ B. Migrate from FTP to streaming transport, migrate from CSV to binary format, a
 C. Increase fleet cellular connectivity to 80%, migrate from FTP to streaming transport, and develop machine learning analysis of metrics<br />
 D. Migrate from FTP to SFTP transport, develop machine learning analysis of metrics, and increase dealer local inventory by a fixed factor</p>
 
-<p><a href="/assets/gcp/discussion/244.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/244.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/244.ans.html">Answers and Votes</a></p>
 
 <h1 id="245">245</h1>
 
@@ -2063,7 +2069,8 @@ B. Capacity planning, TCO calculations, opex/capex allocation<br />
 C. Capacity planning, utilization measurement, data center expansion<br />
 D. Data Center expansion, TCO calculations, utilization measurement</p>
 
-<p><a href="/assets/gcp/discussion/245.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/245.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/245.ans.html">Answers and Votes</a></p>
 
 <h1 id="246">246</h1>
 
@@ -2076,7 +2083,8 @@ B. Use multiple Google Container Engine clusters running FTP servers located in 
 C. Directly transfer the files to different Google Cloud Multi-Regional Storage bucket locations in US, EU, and Asia using Google APIs over HTTP(S). Run the ETL process using the data in the bucket<br />
 D. Directly transfer the files to a different Google Cloud Regional Storage bucket location in US, EU, and Asia using Google APIs over HTTP(S). Run the ETL process to retrieve the data from each Regional bucket</p>
 
-<p><a href="/assets/gcp/discussion/246.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/246.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/246.ans.html">Answers and Votes</a></p>
 
 <h1 id="247">247</h1>
 
@@ -2089,7 +2097,8 @@ B. Move all the data into 1 region, then launch a Google Cloud Dataproc cluster 
 C. Launch a cluster in each region to preprocess and compress the raw data, then move the data into a multi-region bucket and use a Dataproc cluster to finish the job<br />
 D. Launch a cluster in each region to preprocess and compress the raw data, then move the data into a region bucket and use a Cloud Dataproc cluster to finish the job</p>
 
-<p><a href="/assets/gcp/discussion/247.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/247.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/247.ans.html">Answers and Votes</a></p>
 
 <h1 id="248">248</h1>
 
@@ -2102,7 +2111,8 @@ B. Push the telemetry data in real-time to a streaming dataflow job that compres
 C. Push the telemetry data in real-time to a streaming dataflow job that compresses the data, and store it in Cloud Bigtable<br />
 D. Have the vehicle’s computer compress the data in hourly snapshots, and store it in a GCS Coldline bucket</p>
 
-<p><a href="/assets/gcp/discussion/248.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/248.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/248.ans.html">Answers and Votes</a></p>
 
 <h1 id="249">249</h1>
 
@@ -2117,7 +2127,8 @@ D. Use a functional programming language to isolate code execution cycles.<br />
 E. Use multiple connectivity subsystems for redundancy.<br />
 F. Enclose the vehicle’s drive electronics in a Faraday cage to isolate chips.</p>
 
-<p><a href="/assets/gcp/discussion/249.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/249.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/249.ans.html">Answers and Votes</a></p>
 
 <h1 id="250">250</h1>
 
@@ -2130,7 +2141,8 @@ B. Capture all operating data, train machine learning models that identify ideal
 C. Implement a Google Cloud Dataflow streaming job with a sliding window, and use Google Cloud Messaging (GCM) to make operational adjustments automatically<br />
 D. Capture all operating data, train machine learning models that identify ideal operations, and host in Google Cloud Machine Learning (ML) Platform to make operational adjustments automatically</p>
 
-<p><a href="/assets/gcp/discussion/250.md">Discussion</a></p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="cloud" /><category term="ai" /><category term="k8s" /><category term="cloud" /><summary type="html"><![CDATA[professional cloud architect 2025-04-11 12:00:00 201]]></summary></entry><entry><title type="html">professional cloud architect 101-150</title><link href="/cloud/2025/04/10/12-00-00-professional-cloud-architect-101-150.html" rel="alternate" type="text/html" title="professional cloud architect 101-150" /><published>2025-04-10T12:00:00+08:00</published><updated>2025-04-10T12:00:00+08:00</updated><id>/cloud/2025/04/10/12:00:00-professional-cloud-architect%20101-150</id><content type="html" xml:base="/cloud/2025/04/10/12-00-00-professional-cloud-architect-101-150.html"><![CDATA[<p>professional cloud architect 2025-04-10 12:00:00</p>
+<p><a href="/assets/gcp/discussion/250.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/250.ans.html">Answers and Votes</a></p>]]></content><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><category term="cloud" /><category term="ai" /><category term="k8s" /><category term="cloud" /><summary type="html"><![CDATA[professional cloud architect 2025-04-11 12:00:00 201]]></summary></entry><entry><title type="html">professional cloud architect 101-150</title><link href="/cloud/2025/04/10/12-00-00-professional-cloud-architect-101-150.html" rel="alternate" type="text/html" title="professional cloud architect 101-150" /><published>2025-04-10T12:00:00+08:00</published><updated>2025-04-10T12:00:00+08:00</updated><id>/cloud/2025/04/10/12:00:00-professional-cloud-architect%20101-150</id><content type="html" xml:base="/cloud/2025/04/10/12-00-00-professional-cloud-architect-101-150.html"><![CDATA[<p>professional cloud architect 2025-04-10 12:00:00</p>
 
 <h1 id="101">101</h1>
 

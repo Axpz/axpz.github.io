@@ -1,0 +1,51 @@
+<h2>总结</h2>
+<table border="1" cellpadding="10">
+  <thead>
+    <tr>
+      <th>场景</th>
+      <th>适合使用 OAuth</th>
+      <th>适合使用 SAML 2.0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>第三方授权和集成</td>
+      <td>✅</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>跨系统单点登录</td>
+      <td>❌</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>移动应用认证</td>
+      <td>✅</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>企业级应用认证</td>
+      <td>❌</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>易于实施和集成</td>
+      <td>✅</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>合规要求（如 HIPAA、SOX）</td>
+      <td>❌</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>用户数较少的系统</td>
+      <td>✅</td>
+      <td>❌</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>选择建议：</h3>
+<p>如果你的应用需要与第三方服务（如 Google、Facebook）集成，或者你的系统分布广泛，需要处理无状态认证，选择 OAuth 是更合适的。</p>
+<p>如果你在大型企业环境中管理多个应用，并需要统一认证和授权，且对安全性和合规性有较高要求，选择 SAML 2.0 是更理想的选择。</p>
