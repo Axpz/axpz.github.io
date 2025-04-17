@@ -1,0 +1,21 @@
+<div style="border: 1px solid #ddd; border-radius: 6px; padding: 16px; background: #f9f9f9; font-family: sans-serif; width: fit-content;">
+    <p style="margin: 0; font-size: 16px; font-weight: bold;">
+      Correct Answer: <em>A</em> 🗳️
+    </p>
+    <p style="margin: 8px 0; font-style: italic;">Community vote distribution</p>
+    <div style="display: flex; gap: 4px; font-size: 14px; font-weight: bold;">
+      <div style="background: #4285f4; color: white; padding: 6px 12px; border-radius: 4px;">A (100%)</div>
+    </div>
+  </div>
+
+  <div style="font-family: sans-serif; background: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; max-width: 600px;">
+    <h3 style="margin-top: 0;">🔐 交易数据流（最小 PCI 范围）</h3>
+    <ol style="line-height: 1.8; padding-left: 20px;">
+      <li><strong>卡号</strong> → <em>Stripe Elements</em>（前端 SDK 嵌入）</li>
+      <li><strong>Stripe</strong>（负责 PCI 合规） → 返回 <code>token</code></li>
+      <li><code>token + payment_type: "visa"</code> → 发送到你的后端（如 <em>Cloud Run</em>）</li>
+      <li>后端记录 <code>token</code>、<code>支付方式</code>、<code>金额</code> 到 <em>BigQuery</em></li>
+    </ol>
+    <p style="color: #666; font-size: 14px; margin-top: 16px;">✅ 你从未接触卡号数据，PCI 范围最小化，同时仍可分析支付方式趋势。</p>
+  </div>
+  
