@@ -292,37 +292,37 @@ D. Start a new rolling update. Select the Opportunistic update mode.</p>
 
 <h1 id="117">117</h1>
 
-<p>Your company is designing its application landscape on Compute Engine. Whenever a zonal outage occurs, the application should be restored in another zone as quickly as possible with the latest application data. You need to design the solution to meet this requirement. What should you do?      <br />
-您的公司正在 Compute Engine 上设计其应用环境。每当发生区域性中断时，应用应该能够尽快在另一个区域恢复，并获取最新的应用数据。您需要设计解决方案来满足此需求。您应该怎么做？</p>
+<p>Your company is designing its application landscape on Compute Engine. Whenever a zonal outage occurs, the application should be restored in another zone as quickly as possible with the latest application data. You need to design the solution to meet this requirement. What should you do?</p>
 
 <p>A. Create a snapshot schedule for the disk containing the application data. Whenever a zonal outage occurs, use the latest snapshot to restore the disk in the same zone.<br />
 B. Configure the Compute Engine instances with an instance template for the application, and use a regional persistent disk for the application data. Whenever a zonal outage occurs, use the instance template to spin up the application in another zone in the same region. Use the regional persistent disk for the application data.<br />
 C. Create a snapshot schedule for the disk containing the application data. Whenever a zonal outage occurs, use the latest snapshot to restore the disk in another zone within the same region.<br />
 D. Configure the Compute Engine instances with an instance template for the application, and use a regional persistent disk for the application data. Whenever a zonal outage occurs, use the instance template to spin up the application in another region. Use the regional persistent disk for the application data.</p>
 
-<p><a href="/assets/gcp/discussion/117.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/117.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/117.ans.html">Answers and Votes</a></p>
 
 <h1 id="118">118</h1>
-<p>Your company has just acquired another company, and you have been asked to integrate their existing Google Cloud environment into your company’s data center. Upon investigation, you discover that some of the RFC 1918 IP ranges being used in the new company’s Virtual Private Cloud (VPC) overlap with your data center IP space. What should you do to enable connectivity and make sure that there are no routing conflicts when connectivity is established?      <br />
-贵公司刚刚收购了另一家公司，并被要求将其现有的 Google Cloud 环境集成到贵公司的数据中心。经过调查，您发现新公司虚拟私有云 (VPC) 中使用的部分 RFC 1918 IP 范围与贵公司的数据中心 IP 空间重叠。您应该如何启用连接并确保建立连接时不会出现路由冲突？</p>
+<p>Your company has just acquired another company, and you have been asked to integrate their existing Google Cloud environment into your company’s data center. Upon investigation, you discover that some of the RFC 1918 IP ranges being used in the new company’s Virtual Private Cloud (VPC) overlap with your data center IP space. What should you do to enable connectivity and make sure that there are no routing conflicts when connectivity is established?</p>
 
 <p>A. Create a Cloud VPN connection from the new VPC to the data center, create a Cloud Router, and apply new IP addresses so there is no overlapping IP space.<br />
 B. Create a Cloud VPN connection from the new VPC to the data center, and create a Cloud NAT instance to perform NAT on the overlapping IP space.<br />
 C. Create a Cloud VPN connection from the new VPC to the data center, create a Cloud Router, and apply a custom route advertisement to block the overlapping IP space.<br />
 D. Create a Cloud VPN connection from the new VPC to the data center, and apply a firewall rule that blocks the overlapping IP space.</p>
 
-<p><a href="/assets/gcp/discussion/118.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/118.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/118.ans.html">Answers and Votes</a></p>
 
 <h1 id="119">119</h1>
-<p>You need to migrate Hadoop jobs for your company’s Data Science team without modifying the underlying infrastructure. You want to minimize costs and infrastructure management effort. What should you do?      <br />
-您需要为公司的数据科学团队迁移 Hadoop 作业，且无需修改底层基础架构。您希望最大限度地降低成本和基础架构管理工作量。您应该怎么做？</p>
+<p>You need to migrate Hadoop jobs for your company’s Data Science team without modifying the underlying infrastructure. You want to minimize costs and infrastructure management effort. What should you do?</p>
 
 <p>A. Create a Dataproc cluster using standard worker instances.<br />
 B. Create a Dataproc cluster using preemptible worker instances.<br />
 C. Manually deploy a Hadoop cluster on Compute Engine using standard instances.<br />
 D. Manually deploy a Hadoop cluster on Compute Engine using preemptible instances.</p>
 
-<p><a href="/assets/gcp/discussion/119.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/119.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/119.ans.html">Answers and Votes</a></p>
 
 <h1 id="120">120</h1>
 
@@ -346,8 +346,7 @@ D. Peer all three VPCs: ג€¢ Peer VPC #1 with VPC #2. ג€¢ Peer VPC #2 wit
 
 <h1 id="121">121</h1>
 
-<p>You need to deploy an application on Google Cloud that must run on a Debian Linux environment. The application requires extensive configuration in order to operate correctly. You want to ensure that you can install Debian distribution updates with minimal manual intervention whenever they become available. What should you do?      <br />
-您需要在 Google Cloud 上部署一个必须在 Debian Linux 环境中运行的应用程序。该应用程序需要进行大量配置才能正常运行。您希望确保能够在 Debian 发行版更新可用时以最少的手动干预进行安装。您应该怎么做？</p>
+<p>You need to deploy an application on Google Cloud that must run on a Debian Linux environment. The application requires extensive configuration in order to operate correctly. You want to ensure that you can install Debian distribution updates with minimal manual intervention whenever they become available. What should you do?</p>
 
 <p>A. Create a Compute Engine instance template using the most recent Debian image. Create an instance from this template, and install and configure the application as part of the startup script. Repeat this process whenever a new Google-managed Debian image becomes available.<br />
 B. Create a Debian-based Compute Engine instance, install and configure the application, and use OS patch management to install available updates.<br />
@@ -359,8 +358,7 @@ D. Create a Docker container with Debian as the base image. Install and configur
 
 <h1 id="122">122</h1>
 
-<p>You have an application that runs in Google Kubernetes Engine (GKE). Over the last 2 weeks, customers have reported that a specific part of the application returns errors very frequently. You currently have no logging or monitoring solution enabled on your GKE cluster. You want to diagnose the problem, but you have not been able to replicate the issue. You want to cause minimal disruption to the application. What should you do?      <br />
-您有一个在 Google Kubernetes Engine (GKE) 中运行的应用程序。在过去的两周里，客户报告应用程序的某个特定部分频繁返回错误。您目前尚未在 GKE 集群上启用日志记录或监控解决方案。您想诊断问题，但无法复现该问题。您希望尽量减少对应用程序的干扰。您应该怎么做？</p>
+<p>You have an application that runs in Google Kubernetes Engine (GKE). Over the last 2 weeks, customers have reported that a specific part of the application returns errors very frequently. You currently have no logging or monitoring solution enabled on your GKE cluster. You want to diagnose the problem, but you have not been able to replicate the issue. You want to cause minimal disruption to the application. What should you do?</p>
 
 <p>A. 1. Update your GKE cluster to use Cloud Operations for GKE. 2. Use the GKE Monitoring dashboard to investigate logs from affected Pods.<br />
 B. 1. Create a new GKE cluster with Cloud Operations for GKE enabled. 2. Migrate the affected Pods to the new cluster, and redirect traffic for those Pods to the new cluster. 3. Use the GKE Monitoring dashboard to investigate logs from affected Pods.<br />
@@ -372,8 +370,7 @@ D. 1. Create a new GKE cluster with Cloud Operations for GKE enabled, and deploy
 
 <h1 id="123">123</h1>
 
-<p>You need to deploy a stateful workload on Google Cloud. The workload can scale horizontally, but each instance needs to read and write to the same POSIX filesystem. At high load, the stateful workload needs to support up to 100 MB/s of writes. What should you do?      <br />
-您需要在 Google Cloud 上部署一个有状态工作负载。该工作负载可以水平扩展，但每个实例都需要读写同一个 POSIX 文件系统。在高负载下，该有状态工作负载需要支持高达 100 MB/s 的写入速度。您应该怎么做？</p>
+<p>You need to deploy a stateful workload on Google Cloud. The workload can scale horizontally, but each instance needs to read and write to the same POSIX filesystem. At high load, the stateful workload needs to support up to 100 MB/s of writes. What should you do?</p>
 
 <p>A. Use a persistent disk for each instance.<br />
 B. Use a regional persistent disk for each instance.<br />
@@ -386,33 +383,31 @@ D. Create a Cloud Storage bucket and mount it in each instance using gcsfuse.</p
 <h1 id="124">124</h1>
 
 <p>Your company has an application deployed on Anthos clusters (formerly Anthos GKE) that is running multiple microservices. The cluster has both Anthos Service 
-Mesh and Anthos Config Management configured. End users inform you that the application is responding very slowly. You want to identify the microservice that is causing the delay. What should you do?      <br />
-贵公司在 Anthos 集群（以前称为 Anthos GKE）上部署了一个应用程序，该集群运行着多个微服务。该集群同时
-配置了 Anthos Service Mesh 和 Anthos Config Management。最终用户告知您该应用程序响应非常缓慢。您想确定导致延迟的微服务。您应该怎么做？</p>
+Mesh and Anthos Config Management configured. End users inform you that the application is responding very slowly. You want to identify the microservice that is causing the delay. What should you do?</p>
 
 <p>A. Use the Service Mesh visualization in the Cloud Console to inspect the telemetry between the microservices.<br />
 B. Use Anthos Config Management to create a ClusterSelector selecting the relevant cluster. On the Google Cloud Console page for Google Kubernetes Engine, view the Workloads and filter on the cluster. Inspect the configurations of the filtered workloads.<br />
 C. Use Anthos Config Management to create a namespaceSelector selecting the relevant cluster namespace. On the Google Cloud Console page for Google Kubernetes Engine, visit the workloads and filter on the namespace. Inspect the configurations of the filtered workloads.<br />
 D. Reinstall istio using the default istio profile in order to collect request latency. Evaluate the telemetry between the microservices in the Cloud Console.</p>
 
-<p><a href="/assets/gcp/discussion/124.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/124.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/124.ans.html">Answers and Votes</a></p>
 
 <h1 id="125">125</h1>
 
-<p>You are working at a financial institution that stores mortgage loan approval documents on Cloud Storage. Any change to these approval documents must be uploaded as a separate approval file, so you want to ensure that these documents cannot be deleted or overwritten for the next 5 years. What should you do?      <br />
-您在一家金融机构工作，该机构将抵押贷款审批文件存储在云存储中。这些审批文件的任何更改都必须作为单独的审批文件上传，因此您希望确保这些文件在未来 5 年内不会被删除或覆盖。您应该怎么做？</p>
+<p>You are working at a financial institution that stores mortgage loan approval documents on Cloud Storage. Any change to these approval documents must be uploaded as a separate approval file, so you want to ensure that these documents cannot be deleted or overwritten for the next 5 years. What should you do?</p>
 
 <p>A. Create a retention policy on the bucket for the duration of 5 years. Create a lock on the retention policy.<br />
 B. Create the bucket with uniform bucket-level access, and grant a service account the role of Object Writer. Use the service account to upload new files.<br />
 C. Use a customer-managed key for the encryption of the bucket. Rotate the key after 5 years.<br />
 D. Create the bucket with fine-grained access control, and grant a service account the role of Object Writer. Use the service account to upload new files.</p>
 
-<p><a href="/assets/gcp/discussion/125.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/125.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/125.ans.html">Answers and Votes</a></p>
 
 <h1 id="126">126</h1>
 
-<p>Your team will start developing a new application using microservices architecture on Kubernetes Engine. As part of the development lifecycle, any code change that has been pushed to the remote develop branch on your GitHub repository should be built and tested automatically. When the build and test are successful, the relevant microservice will be deployed automatically in the development environment. You want to ensure that all code deployed in the development environment follows this process. What should you do?      <br />
-您的团队将开始在 Kubernetes Engine 上使用微服务架构开发一个新应用程序。作为开发生命周期的一部分，任何已推送到 GitHub 代码库远程开发分支的代码更改都应自动构建和测试。构建和测试成功后，相关的微服务将自动部署到开发环境中。您希望确保部署到开发环境中的所有代码都遵循此流程。您应该怎么做？</p>
+<p>Your team will start developing a new application using microservices architecture on Kubernetes Engine. As part of the development lifecycle, any code change that has been pushed to the remote develop branch on your GitHub repository should be built and tested automatically. When the build and test are successful, the relevant microservice will be deployed automatically in the development environment. You want to ensure that all code deployed in the development environment follows this process. What should you do?</p>
 
 <p>A. Have each developer install a pre-commit hook on their workstation that tests the code and builds the container when committing on the development branch. After a successful commit, have the developer deploy the newly built container image on the development cluster.<br />
 B. Install a post-commit hook on the remote git repository that tests the code and builds the container when code is pushed to the development branch. After a successful commit, have the developer deploy the newly built container image on the development cluster.<br />
@@ -424,8 +419,7 @@ D. Create a Cloud Build trigger based on the development branch to build a new c
 
 <h1 id="127">127</h1>
 
-<p>Your operations team has asked you to help diagnose a performance issue in a production application that runs on Compute Engine. The application is dropping requests that reach it when under heavy load. The process list for affected instances shows a single application process that is consuming all available CPU, and autoscaling has reached the upper limit of instances. There is no abnormal load on any other related systems, including the database. You want to allow production traffic to be served again as quickly as possible. Which action should you recommend?      <br />
-您的运营团队请您协助诊断 Compute Engine 上运行的生产应用中的性能问题。该应用在高负载下会丢弃到达它的请求。受影响实例的进程列表显示，单个应用进程正在消耗所有可用 CPU，并且自动扩缩已达到实例数量的上限。其他相关系统（包括数据库）均未出现异常负载。您希望尽快恢复生产流量的服务。您建议采取哪种措施？</p>
+<p>Your operations team has asked you to help diagnose a performance issue in a production application that runs on Compute Engine. The application is dropping requests that reach it when under heavy load. The process list for affected instances shows a single application process that is consuming all available CPU, and autoscaling has reached the upper limit of instances. There is no abnormal load on any other related systems, including the database. You want to allow production traffic to be served again as quickly as possible. Which action should you recommend?</p>
 
 <p>A. Change the autoscaling metric to agent.googleapis.com/memory/percent_used.  <br />
 B. Restart the affected instances on a staggered schedule.<br />
@@ -437,8 +431,7 @@ D. Increase the maximum number of instances in the autoscaling group.</p>
 
 <h1 id="128">128</h1>
 
-<p>You are implementing the infrastructure for a web service on Google Cloud. The web service needs to receive and store the data from 500,000 requests per second. The data will be queried later in real time, based on exact matches of a known set of attributes. There will be periods where the web service will not receive any requests. The business wants to keep costs low. Which web service platform and database should you use for the application?      <br />
-您正在 Google Cloud 上为一项 Web 服务构建基础架构。该 Web 服务需要每秒接收并存储 50 万个请求的数据。之后，这些数据将基于一组已知属性的精确匹配进行实时查询。Web 服务有时会接收不到任何请求。企业希望降低成本。您应该为该应用程序选择哪个 Web 服务平台和数据库？</p>
+<p>You are implementing the infrastructure for a web service on Google Cloud. The web service needs to receive and store the data from 500,000 requests per second. The data will be queried later in real time, based on exact matches of a known set of attributes. There will be periods where the web service will not receive any requests. The business wants to keep costs low. Which web service platform and database should you use for the application?</p>
 
 <p>A. Cloud Run and BigQuery<br />
 B. Cloud Run and Cloud Bigtable<br />
@@ -450,20 +443,19 @@ D. A Compute Engine autoscaling managed instance group and Cloud Bigtable</p>
 
 <h1 id="129">129</h1>
 
-<p>You are developing an application using different microservices that should remain internal to the cluster. You want to be able to configure each microservice with a specific number of replicas. You also want to be able to address a specific microservice from any other microservice in a uniform way, regardless of the number of replicas the microservice scales to. You need to implement this solution on Google Kubernetes Engine. What should you do?      <br />
-您正在开发一个使用不同微服务的应用程序，这些微服务应该保留在集群内部。您希望能够为每个微服务配置特定数量的副本。您还希望能够以统一的方式从任何其他微服务访问特定微服务，而不管该微服务扩展到多少个副本。您需要在 Google Kubernetes Engine 上实现此解决方案。您应该怎么做？</p>
+<p>You are developing an application using different microservices that should remain internal to the cluster. You want to be able to configure each microservice with a specific number of replicas. You also want to be able to address a specific microservice from any other microservice in a uniform way, regardless of the number of replicas the microservice scales to. You need to implement this solution on Google Kubernetes Engine. What should you do?</p>
 
 <p>A. Deploy each microservice as a Deployment. Expose the Deployment in the cluster using a Service, and use the Service DNS name to address it from other microservices within the cluster.<br />
 B. Deploy each microservice as a Deployment. Expose the Deployment in the cluster using an Ingress, and use the Ingress IP address to address the Deployment from other microservices within the cluster.<br />
 C. Deploy each microservice as a Pod. Expose the Pod in the cluster using a Service, and use the Service DNS name to address the microservice from other microservices within the cluster.<br />
 D. Deploy each microservice as a Pod. Expose the Pod in the cluster using an Ingress, and use the Ingress IP address name to address the Pod from other microservices within the cluster.</p>
 
-<p><a href="/assets/gcp/discussion/129.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/129.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/129.ans.html">Answers and Votes</a></p>
 
 <h1 id="130">130</h1>
 
-<p>Your company has a networking team and a development team. The development team runs applications on Compute Engine instances that contain sensitive data. The development team requires administrative permissions for Compute Engine. Your company requires all network resources to be managed by the networking team. The development team does not want the networking team to have access to the sensitive data on the instances. What should you do?      <br />
-贵公司有一个网络团队和一个开发团队。开发团队在包含敏感数据的 Compute Engine 实例上运行应用程序。开发团队需要 Compute Engine 的管理权限。贵公司要求所有网络资源均由网络团队管理。开发团队不希望网络团队访问实例上的敏感数据。您应该怎么做？</p>
+<p>Your company has a networking team and a development team. The development team runs applications on Compute Engine instances that contain sensitive data. The development team requires administrative permissions for Compute Engine. Your company requires all network resources to be managed by the networking team. The development team does not want the networking team to have access to the sensitive data on the instances. What should you do?</p>
 
 <p>A. 1. Create a project with a standalone VPC and assign the Network Admin role to the networking team. 2. Create a second project with a standalone VPC and assign the Compute Admin role to the development team. 3. Use Cloud VPN to join the two VPCs.<br />
 B. 1. Create a project with a standalone Virtual Private Cloud (VPC), assign the Network Admin role to the networking team, and assign the Compute Admin role to the development team.<br />
@@ -475,8 +467,7 @@ D. 1. Create a project with a standalone VPC and assign the Network Admin role t
 
 <h1 id="131">131</h1>
 
-<p>Your company wants you to build a highly reliable web application with a few public APIs as the backend. You don’t expect a lot of user traffic, but traffic could spike occasionally. You want to leverage Cloud Load Balancing, and the solution must be cost-effective for users. What should you do?    <br />
-贵公司希望您构建一个高度可靠的 Web 应用，并以少量公共 API 作为后端。您预计用户流量不会很大，但偶尔可能会出现峰值。您希望利用云负载均衡，并且该解决方案必须对用户经济高效。您应该怎么做？</p>
+<p>Your company wants you to build a highly reliable web application with a few public APIs as the backend. You don’t expect a lot of user traffic, but traffic could spike occasionally. You want to leverage Cloud Load Balancing, and the solution must be cost-effective for users. What should you do?</p>
 
 <p>A. Store static content such as HTML and images in Cloud CDN. Host the APIs on App Engine and store the user data in Cloud SQL.<br />
 B. Store static content such as HTML and images in a Cloud Storage bucket. Host the APIs on a zonal Google Kubernetes Engine cluster with worker nodes in multiple zones, and save the user data in Cloud Spanner.<br />
@@ -488,20 +479,19 @@ D. Store static content such as HTML and images in a Cloud Storage bucket. Use C
 
 <h1 id="132">132</h1>
 
-<p>Your company sends all Google Cloud logs to Cloud Logging. Your security team wants to monitor the logs. You want to ensure that the security team can react quickly if an anomaly such as an unwanted firewall change or server breach is detected. You want to follow Google-recommended practices. What should you do?      <br />
-您的公司将所有 Google Cloud 日志发送到 Cloud Logging。您的安全团队希望监控这些日志。您希望确保安全团队能够在检测到异常情况（例如不必要的防火墙更改或服务器入侵）时快速做出反应。您希望遵循 Google 推荐的做法。您应该怎么做？</p>
+<p>Your company sends all Google Cloud logs to Cloud Logging. Your security team wants to monitor the logs. You want to ensure that the security team can react quickly if an anomaly such as an unwanted firewall change or server breach is detected. You want to follow Google-recommended practices. What should you do?</p>
 
 <p>A. Schedule a cron job with Cloud Scheduler. The scheduled job queries the logs every minute for the relevant events.<br />
 B. Export logs to BigQuery, and trigger a query in BigQuery to process the log data for the relevant events.<br />
 C. Export logs to a Pub/Sub topic, and trigger Cloud Function with the relevant log events.<br />
 D. Export logs to a Cloud Storage bucket, and trigger Cloud Run with the relevant log events.</p>
 
-<p><a href="/assets/gcp/discussion/132.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/132.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/132.ans.html">Answers and Votes</a></p>
 
 <h1 id="133">133</h1>
 
-<p>You have deployed several instances on Compute Engine. As a security requirement, instances cannot have a public IP address. There is no VPN connection between Google Cloud and your office, and you need to connect via SSH into a specific machine without violating the security requirements. What should you do?      <br />
-您已在 Compute Engine 上部署了多个实例。出于安全考虑，这些实例不能拥有公共 IP 地址。Google Cloud 和您的办公室之间没有 VPN 连接，您需要通过 SSH 连接到特定机器，且不违反安全要求。您应该怎么做？</p>
+<p>You have deployed several instances on Compute Engine. As a security requirement, instances cannot have a public IP address. There is no VPN connection between Google Cloud and your office, and you need to connect via SSH into a specific machine without violating the security requirements. What should you do?</p>
 
 <p>A. Configure Cloud NAT on the subnet where the instance is hosted. Create an SSH connection to the Cloud NAT IP address to reach the instance.<br />
 B. Add all instances to an unmanaged instance group. Configure TCP Proxy Load Balancing with the instance group as a backend. Connect to the instance using the TCP Proxy IP.<br />
@@ -514,21 +504,19 @@ D. Create a bastion host in the network to SSH into the bastion host from your o
 <h1 id="134">134</h1>
 
 <p>Your company is using Google Cloud. You have two folders under the Organization: Finance and Shopping. The members of the development team are in a
-Google Group. The development team group has been assigned the Project Owner role on the Organization. You want to prevent the development team from creating resources in projects in the Finance folder. What should you do?      <br />
-您的公司正在使用 Google Cloud。您的组织下有两个文件夹：财务和购物。开发团队的成员位于一个
-Google 群组中。该开发团队群组已被分配了组织中的项目所有者角色。您想阻止开发团队在财务文件夹中的项目中创建资源。您应该怎么做？</p>
+Google Group. The development team group has been assigned the Project Owner role on the Organization. You want to prevent the development team from creating resources in projects in the Finance folder. What should you do?</p>
 
 <p>A. Assign the development team group the Project Viewer role on the Finance folder, and assign the development team group the Project Owner role on the Shopping folder.<br />
 B. Assign the development team group only the Project Viewer role on the Finance folder.<br />
 C. Assign the development team group the Project Owner role on the Shopping folder, and remove the development team group Project Owner role from the Organization.<br />
 D. Assign the development team group only the Project Owner role on the Shopping folder.</p>
 
-<p><a href="/assets/gcp/discussion/134.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/134.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/134.ans.html">Answers and Votes</a></p>
 
 <h1 id="135">135</h1>
 
-<p>You are developing your microservices application on Google Kubernetes Engine. During testing, you want to validate the behavior of your application in case a specific microservice should suddenly crash. What should you do?      <br />
-您正在 Google Kubernetes Engine 上开发微服务应用。在测试期间，您想验证应用的行为，以防某个特定的微服务突然崩溃。您应该怎么做？</p>
+<p>You are developing your microservices application on Google Kubernetes Engine. During testing, you want to validate the behavior of your application in case a specific microservice should suddenly crash. What should you do?</p>
 
 <p>A. Add a taint to one of the nodes of the Kubernetes cluster. For the specific microservice, configure a pod anti-affinity label that has the name of the tainted node as a value.<br />
 B. Use Istio’s fault injection on the particular microservice whose faulty behavior you want to simulate.<br />
@@ -547,38 +535,37 @@ B. Cloud Endpoints<br />
 C. Compute Engine<br />
 D. Google Kubernetes Engine</p>
 
-<p><a href="/assets/gcp/discussion/136.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/136.md">Discussion</a>  <br />
+<a href="/assets/gcp/discussion/136.ans.html">Answers and Votes</a></p>
 
 <h1 id="137">137</h1>
 
 <p>Your company provides a recommendation engine for retail customers. You are providing retail customers with an API where they can submit a user ID and the
-API returns a list of recommendations for that user. You are responsible for the API lifecycle and want to ensure stability for your customers in case the API makes backward-incompatible changes. You want to follow Google-recommended practices. What should you do?      <br />
-您的公司为零售客户提供推荐引擎。您为零售客户提供一个 API，客户可以通过该 API 提交用户 ID，然后该
-API 会返回该用户的推荐列表。您负责 API 的生命周期，并希望确保客户的稳定性，以防 API 发生向后不兼容的更改。您希望遵循 Google 推荐的做法。您应该怎么做？</p>
+API returns a list of recommendations for that user. You are responsible for the API lifecycle and want to ensure stability for your customers in case the API makes backward-incompatible changes. You want to follow Google-recommended practices. What should you do?</p>
 
 <p>A. Create a distribution list of all customers to inform them of an upcoming backward-incompatible change at least one month before replacing the old API with the new API.<br />
 B. Create an automated process to generate API documentation, and update the public API documentation as part of the CI/CD process when deploying an update to the API.<br />
 C. Use a versioning strategy for the APIs that increases the version number on every backward-incompatible change.<br />
 D. Use a versioning strategy for the APIs that adds the suffix ג€DEPRECATEDג€ to the current API version number on every backward-incompatible change. Use the current version number for the new API.</p>
 
-<p><a href="/assets/gcp/discussion/137.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/137.md">Discussion</a>  <br />
+<a href="/assets/gcp/discussion/137.ans.html">Answers and Votes</a></p>
 
 <h1 id="138">138</h1>
 
-<p>Your company has developed a monolithic, 3-tier application to allow external users to upload and share files. The solution cannot be easily enhanced and lacks reliability. The development team would like to re-architect the application to adopt microservices and a fully managed service approach, but they need to convince their leadership that the effort is worthwhile. Which advantage(s) should they highlight to leadership?      <br />
-贵公司开发了一个单体式三层应用程序，允许外部用户上传和共享文件。该解决方案难以增强，而且可靠性不足。开发团队希望重新架构该应用程序，采用微服务和完全托管的服务模式，但他们需要说服领导层，让他们相信这项努力是值得的。他们应该向领导层强调哪些（些）优势？</p>
+<p>Your company has developed a monolithic, 3-tier application to allow external users to upload and share files. The solution cannot be easily enhanced and lacks reliability. The development team would like to re-architect the application to adopt microservices and a fully managed service approach, but they need to convince their leadership that the effort is worthwhile. Which advantage(s) should they highlight to leadership?</p>
 
 <p>A. The new approach will be significantly less costly, make it easier to manage the underlying infrastructure, and automatically manage the CI/CD pipelines.<br />
 B. The monolithic solution can be converted to a container with Docker. The generated container can then be deployed into a Kubernetes cluster.<br />
 C. The new approach will make it easier to decouple infrastructure from application, develop and release new features, manage the underlying infrastructure, manage CI/CD pipelines and perform A/B testing, and scale the solution if necessary.<br />
 D. The process can be automated with Migrate for Compute Engine.</p>
 
-<p><a href="/assets/gcp/discussion/138.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/138.md">Discussion</a>  <br />
+<a href="/assets/gcp/discussion/138.ans.html">Answers and Votes</a></p>
 
 <h1 id="139">139</h1>
 
-<p>Your team is developing a web application that will be deployed on Google Kubernetes Engine (GKE). Your CTO expects a successful launch and you need to ensure your application can handle the expected load of tens of thousands of users. You want to test the current deployment to ensure the latency of your application stays below a certain threshold. What should you do?      <br />
-您的团队正在开发一个 Web 应用，该应用将部署在 Google Kubernetes Engine (GKE) 上。您的 CTO 期望该应用能够成功发布，而您需要确保该应用能够处理预期的数万用户负载。您需要测试当前的部署，以确保应用的延迟保持在特定阈值以下。您应该怎么做？</p>
+<p>Your team is developing a web application that will be deployed on Google Kubernetes Engine (GKE). Your CTO expects a successful launch and you need to ensure your application can handle the expected load of tens of thousands of users. You want to test the current deployment to ensure the latency of your application stays below a certain threshold. What should you do?</p>
 
 <p>A. Use a load testing tool to simulate the expected number of concurrent users and total requests to your application, and inspect the results.<br />
 B. Enable autoscaling on the GKE cluster and enable horizontal pod autoscaling on your application deployments. Send curl requests to your application, and validate if the auto scaling works.<br />
@@ -604,19 +591,17 @@ D. Configure a Kubernetes autoscaling deployment based on the subscription/num_u
 
 <p>Your company is developing a web-based application. You need to make sure that production deployments are linked to source code commits and are fully auditable. What should you do?</p>
 
-<p>您的公司正在开发一款基于 Web 的应用程序。您需要确保生产部署与源代码提交关联，并且完全可审计。您应该怎么做？</p>
-
 <p>A. Make sure a developer is tagging the code commit with the date and time of commit.<br />
 B. Make sure a developer is adding a comment to the commit that links to the deployment.<br />
 C. Make the container tag match the source code commit hash.<br />
 D. Make sure the developer is tagging the commits with latest.</p>
 
-<p><a href="/assets/gcp/discussion/141.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/141.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/141.ans.html">Answers and Votes</a></p>
 
 <h1 id="142">142</h1>
 
-<p>An application development team has come to you for advice. They are planning to write and deploy an HTTP(S) API using Go 1.12. The API will have a very unpredictable workload and must remain reliable during peaks in traffic. They want to minimize operational overhead for this application. Which approach should you recommend?      <br />
-一个应用程序开发团队向您寻求建议。他们计划使用 Go 1.12 编写和部署一个 HTTP(S) API。该 API 的工作负载非常难以预测，并且必须在流量高峰期保持可靠性。他们希望最大限度地降低该应用程序的运维开销。您推荐哪种方法？</p>
+<p>An application development team has come to you for advice. They are planning to write and deploy an HTTP(S) API using Go 1.12. The API will have a very unpredictable workload and must remain reliable during peaks in traffic. They want to minimize operational overhead for this application. Which approach should you recommend?</p>
 
 <p>A. Develop the application with containers, and deploy to Google Kubernetes Engine.<br />
 B. Develop the application for App Engine standard environment.<br />
@@ -629,42 +614,39 @@ D. Develop the application for App Engine flexible environment, using a custom r
 <h1 id="143">143</h1>
 
 <p>Your company is designing its data lake on Google Cloud and wants to develop different ingestion pipelines to collect unstructured data from different sources.
-After the data is stored in Google Cloud, it will be processed in several data pipelines to build a recommendation engine for end users on the website. The structure of the data retrieved from the source systems can change at any time. The data must be stored exactly as it was retrieved for reprocessing purposes in case the data structure is incompatible with the current processing pipelines. You need to design an architecture to support the use case after you retrieve the data. What should you do?      <br />
-您的公司正在 Google Cloud 上设计数据湖，并希望开发不同的提取管道，以从不同来源收集非结构化数据。
-数据存储到 Google Cloud 后，将在多个数据管道中进行处理，从而为网站上的最终用户构建推荐引擎。从源系统检索的数据结构可能随时发生变化。为了避免数据结构与当前处理管道不兼容，数据必须保持检索时的原样存储，以便进行重新处理。您需要设计一个架构来支持检索数据后的用例。您应该怎么做？</p>
+After the data is stored in Google Cloud, it will be processed in several data pipelines to build a recommendation engine for end users on the website. The structure of the data retrieved from the source systems can change at any time. The data must be stored exactly as it was retrieved for reprocessing purposes in case the data structure is incompatible with the current processing pipelines. You need to design an architecture to support the use case after you retrieve the data. What should you do?</p>
 
 <p>A. Send the data through the processing pipeline, and then store the processed data in a BigQuery table for reprocessing.<br />
 B. Store the data in a BigQuery table. Design the processing pipelines to retrieve the data from the table.<br />
 C. Send the data through the processing pipeline, and then store the processed data in a Cloud Storage bucket for reprocessing.<br />
 D. Store the data in a Cloud Storage bucket. Design the processing pipelines to retrieve the data from the bucket.</p>
 
-<p><a href="/assets/gcp/discussion/143.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/143.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/143.ans.html">Answers and Votes</a></p>
 
 <h1 id="144">144</h1>
 
-<p>You are responsible for the Google Cloud environment in your company. Multiple departments need access to their own projects, and the members within each department will have the same project responsibilities. You want to structure your Google Cloud environment for minimal maintenance and maximum overview of
-IAM permissions as each department’s projects start and end. You want to follow Google-recommended practices. What should you do?      <br />
-您负责公司内的 Google Cloud 环境。多个部门需要访问各自的项目，并且每个部门的成员将承担相同的项目职责。您希望构建您的 Google Cloud 环境，以便
-在每个部门的项目开始和结束时最大限度地减少维护工作，并最大程度地概览 IAM 权限。您希望遵循 Google 推荐的做法。您应该怎么做？</p>
+<p>You are responsible for the Google Cloud environment in your company. Multiple departments need access to their own projects, and the members within each department will have the same project responsibilities. You want to structure your Google Cloud environment for minimal maintenance and maximum overview of IAM permissions as each department’s projects start and end. You want to follow Google-recommended practices. What should you do?</p>
 
 <p>A. Grant all department members the required IAM permissions for their respective projects.<br />
 B. Create a Google Group per department and add all department members to their respective groups. Create a folder per department and grant the respective group the required IAM permissions at the folder level. Add the projects under the respective folders.<br />
 C. Create a folder per department and grant the respective members of the department the required IAM permissions at the folder level. Structure all projects for each department under the respective folders.<br />
 D. Create a Google Group per department and add all department members to their respective groups. Grant each group the required IAM permissions for their respective projects.</p>
 
-<p><a href="/assets/gcp/discussion/144.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/144.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/144.ans.html">Answers and Votes</a></p>
 
 <h1 id="145">145</h1>
 
-<p>Your company has an application running as a Deployment in a Google Kubernetes Engine (GKE) cluster. You have separate clusters for development, staging, and production. You have discovered that the team is able to deploy a Docker image to the production cluster without first testing the deployment in development and then staging. You want to allow the team to have autonomy but want to prevent this from happening. You want a Google Cloud solution that can be implemented quickly with minimal effort. What should you do?      <br />
-贵公司有一个应用程序以 Deployment 的形式在 Google Kubernetes Engine (GKE) 集群中运行。您有分别用于开发、预发布和生产环境的集群。您发现团队能够将 Docker 镜像部署到生产集群，而无需先在开发环境中测试部署，然后再进行预发布。您希望赋予团队自主权，但又希望避免这种情况发生。您需要一个能够快速部署且投入最少的 Google Cloud 解决方案。您应该怎么做？</p>
+<p>Your company has an application running as a Deployment in a Google Kubernetes Engine (GKE) cluster. You have separate clusters for development, staging, and production. You have discovered that the team is able to deploy a Docker image to the production cluster without first testing the deployment in development and then staging. You want to allow the team to have autonomy but want to prevent this from happening. You want a Google Cloud solution that can be implemented quickly with minimal effort. What should you do?</p>
 
 <p>A. Configure a Kubernetes lifecycle hook to prevent the container from starting if it is not approved for usage in the given environment.<br />
 B. Implement a corporate policy to prevent teams from deploying Docker images to an environment unless the Docker image was tested in an earlier environment.<br />
 C. Configure binary authorization policies for the development, staging, and production clusters. Create attestations as part of the continuous integration pipeline.<br />
 D. Create a Kubernetes admissions controller to prevent the container from starting if it is not approved for usage in the given environment.</p>
 
-<p><a href="/assets/gcp/discussion/145.md">Discussion</a></p>
+<p><a href="/assets/gcp/discussion/145.md">Discussion</a><br />
+<a href="/assets/gcp/discussion/145.ans.html">Answers and Votes</a></p>
 
 <h1 id="146">146</h1>
 
@@ -683,9 +665,6 @@ D. Compress the data and upload it with gsutil -m to enable multi-threaded copy.
 <p>Your company has an enterprise application running on Compute Engine that requires high availability and high performance. The application has been deployed on two instances in two zones in the same region in active-passive mode. The application writes data to a persistent disk. In the case of a single zone outage, that data should be immediately made available to the other instance in the other zone. You want to maximize performance while minimizing downtime and data loss.<br />
 What should you do?</p>
 
-<p>贵公司在 Compute Engine 上运行一个企业应用，该应用需要高可用性和高性能。该应用已部署在同一区域内两个可用区的两个实例上，采用主动-被动模式。该应用将数据写入永久性磁盘。如果一个可用区发生故障，该数据应立即提供给另一个可用区中的另一个实例使用。您希望最大限度地提高性能，同时最大限度地减少停机时间和数据丢失。
-您应该怎么做？</p>
-
 <p>A. 1. Attach a persistent SSD disk to the first instance. 2. Create a snapshot every hour. 3. In case of a zone outage, recreate a persistent SSD disk in the second instance where data is coming from the created snapshot.<br />
 B. 1. Create a Cloud Storage bucket. 2. Mount the bucket into the first instance with gcs-fuse. 3. In case of a zone outage, mount the Cloud Storage bucket to the second instance with gcs-fuse.<br />
 C. 1. Attach a regional SSD persistent disk to the first instance. 2. In case of a zone outage, force-attach the disk to the other instance.<br />
@@ -696,8 +675,7 @@ D. 1. Attach a local SSD to the first instance disk. 2. Execute an rsync command
 
 <h1 id="148">148</h1>
 
-<p>You are designing a Data Warehouse on Google Cloud and want to store sensitive data in BigQuery. Your company requires you to generate the encryption keys outside of Google Cloud. You need to implement a solution. What should you do?      <br />
-您正在 Google Cloud 上设计一个数据仓库，并希望将敏感数据存储在 BigQuery 中。您的公司要求您在 Google Cloud 之外生成加密密钥。您需要实施一个解决方案。您应该怎么做？</p>
+<p>You are designing a Data Warehouse on Google Cloud and want to store sensitive data in BigQuery. Your company requires you to generate the encryption keys outside of Google Cloud. You need to implement a solution. What should you do?</p>
 
 <p>A. Generate a new key in Cloud Key Management Service (Cloud KMS). Store all data in Cloud Storage using the customer-managed key option and select the created key. Set up a Dataflow pipeline to decrypt the data and to store it in a new BigQuery dataset.<br />
 B. Generate a new key in Cloud KMS. Create a dataset in BigQuery using the customer-managed key option and select the created key.<br />
@@ -709,8 +687,7 @@ D. Import a key in Cloud KMS. Create a dataset in BigQuery using the customer-su
 
 <h1 id="149">149</h1>
 
-<p>Your organization has stored sensitive data in a Cloud Storage bucket. For regulatory reasons, your company must be able to rotate the encryption key used to encrypt the data in the bucket. The data will be processed in Dataproc. You want to follow Google-recommended practices for security. What should you do?      <br />
-您的组织已将敏感数据存储在 Cloud Storage 存储桶中。出于监管原因，您的公司必须能够轮换用于加密存储桶中数据的加密密钥。这些数据将在 Dataproc 中处理。您希望遵循 Google 推荐的安全做法。您应该怎么做？</p>
+<p>Your organization has stored sensitive data in a Cloud Storage bucket. For regulatory reasons, your company must be able to rotate the encryption key used to encrypt the data in the bucket. The data will be processed in Dataproc. You want to follow Google-recommended practices for security. What should you do?</p>
 
 <p>A. Create a key with Cloud Key Management Service (KMS). Encrypt the data using the encrypt method of Cloud KMS.<br />
 B. Create a key with Cloud Key Management Service (KMS). Set the encryption key on the bucket to the Cloud KMS key.<br />
@@ -724,9 +701,6 @@ D. Generate an AES-256 encryption key. Encrypt the data in the bucket using the 
 
 <p>Your team needs to create a Google Kubernetes Engine (GKE) cluster to host a newly built application that requires access to third-party services on the internet.<br />
 Your company does not allow any Compute Engine instance to have a public IP address on Google Cloud. You need to create a deployment strategy that adheres to these guidelines. What should you do?</p>
-
-<p>您的团队需要创建一个 Google Kubernetes Engine (GKE) 集群来托管一个需要访问互联网上第三方服务的新建应用。<br />
-您的公司不允许任何 Compute Engine 实例在 Google Cloud 上拥有公共 IP 地址。您需要创建一个遵循这些准则的部署策略。您应该怎么做？</p>
 
 <p>A. Configure the GKE cluster as a private cluster, and configure Cloud NAT Gateway for the cluster subnet.<br />
 B. Configure the GKE cluster as a private cluster. Configure Private Google Access on the Virtual Private Cloud (VPC). <br />
