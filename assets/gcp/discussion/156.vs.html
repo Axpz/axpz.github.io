@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VPC Service Controls and Google Cloud Services</title>
+</head>
+<body>
+    <h1>VPC Service Controls 和其他 Google Cloud 服务的关系</h1>
+    <p>VPC Service Controls 主要用于加强 Google Cloud 服务之间的访问边界控制，它允许用户设置服务边界并限制访问，从而提升数据的安全性。</p>
+    <p>它与以下服务配合使用，以确保云环境的访问控制和数据保护：</p>
+    <ul>
+        <li><strong>IAM（身份和访问管理）</strong>：用于控制谁可以访问 Google Cloud 资源。</li>
+        <li><strong>VPC（虚拟私有云）</strong>：为 Google Cloud 提供网络基础设施管理。</li>
+        <li><strong>网络防火墙</strong>：对进出 VPC 的流量进行细粒度控制。</li>
+        <li><strong>Cloud Logging</strong>：记录和存储操作日志，以便跟踪活动。</li>
+        <li><strong>Cloud Monitoring</strong>：提供监控和警报功能，帮助发现异常行为或安全问题。</li>
+    </ul>
+
+    <h2>同一层级的相关服务</h2>
+    <p>以下是与 VPC Service Controls 位于同一层级的相关服务：</p>
+    <ul>
+        <li><strong>VPC</strong>：提供虚拟网络基础设施的管理，用于构建和管理云端的虚拟网络。</li>
+        <li><strong>VPC Service Controls</strong>：作为一种高级的访问控制工具，保护特定服务和资源的安全，确保数据不会泄露或受到未经授权的访问。</li>
+        <li><strong>Cloud Identity 和 IAM</strong>：提供身份管理和访问控制的能力，确保只有授权的用户和服务能够访问特定资源。</li>
+        <li><strong>Cloud Logging 和 Cloud Monitoring</strong>：帮助监控和记录活动，确保能够及时发现和响应潜在的安全威胁或不正常的行为。</li>
+    </ul>
+
+    <h2>Workload Identity 的关联</h2>
+    <p>Workload Identity 是一种用于 Kubernetes 工作负载的身份验证方法，它允许 Kubernetes 中的 Pod 代表 Google Cloud 服务账户访问 Google Cloud 资源。通过与 VPC Service Controls 和 IAM 的结合，Workload Identity 可以帮助增强云环境中的身份验证和访问控制。</p>
+    <ul>
+        <li><strong>Workload Identity</strong> 允许 Kubernetes 中的应用程序使用 Google Cloud 服务账户来访问 Google Cloud 资源。</li>
+        <li>它通过与 VPC Service Controls 配合，确保访问资源时遵守严格的边界控制和安全策略。</li>
+        <li>在配合 IAM 使用时，Workload Identity 提供了基于角色的访问控制，使得只有拥有适当权限的工作负载可以访问特定服务和数据。</li>
+    </ul>
+
+    <h3>总结</h3>
+    <p>VPC Service Controls 与 VPC、IAM、Cloud Identity、Cloud Logging、Cloud Monitoring 及 Workload Identity 等服务共同协作，帮助提升 Google Cloud 环境中的安全性和合规性。通过结合使用这些服务，用户可以更好地控制数据流动、身份验证、访问控制以及安全监控。</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCP 访问控制体系（Auth 全景）</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background-color: #fff;
+            border: 2px solid #ccc;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .box {
+            margin-bottom: 20px;
+        }
+        .box-header {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2d2d2d;
+            margin-bottom: 10px;
+        }
+        .box-content {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="box-header">用户 & 服务身份认证</div>
+            <div class="box-content">
+                <ul>
+                    <li>Cloud Identity / Google Workspace</li>
+                    <li>Service Account / Workload Identity</li>
+                </ul>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-header">访问控制核心机制</div>
+            <div class="box-content">
+                <ul>
+                    <li>IAM（谁能做什么）</li>
+                    <li>IAM Conditions（基于条件）</li>
+                    <li>VPC Service Controls（访问边界）</li>
+                    <li>Access Context Manager（上下文感知访问控制）</li>
+                </ul>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-header">辅助策略 / 风险缓解</div>
+            <div class="box-content">
+                <ul>
+                    <li>Organization Policy（限制资源行为）</li>
+                    <li>BeyondCorp Enterprise（零信任架构）</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

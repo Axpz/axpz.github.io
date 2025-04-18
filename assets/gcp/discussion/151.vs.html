@@ -1,0 +1,82 @@
+<div style="font-family: sans-serif; padding: 20px; background-color: #f9f9f9;">
+    <h2>App Engine Standard vs Flexible 对比</h2>
+  
+    <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; background-color: #fff;">
+      <thead style="background-color: #eee;">
+        <tr>
+          <th>特性</th>
+          <th>App Engine Standard</th>
+          <th>App Engine Flexible</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>运行环境</td>
+          <td>沙盒环境（受限）</td>
+          <td>基于 VM，自定义容器</td>
+        </tr>
+        <tr>
+          <td>语言支持</td>
+          <td>支持特定语言（如 Python、Node.js）</td>
+          <td>几乎所有语言，自定义容器</td>
+        </tr>
+        <tr>
+          <td>启动速度</td>
+          <td>快速启动</td>
+          <td>启动较慢</td>
+        </tr>
+        <tr>
+          <td>扩缩容速度</td>
+          <td>快速自动</td>
+          <td>稍慢但更灵活</td>
+        </tr>
+        <tr>
+          <td>是否可访问 VPC</td>
+          <td>❌ 需配置 Serverless VPC Access</td>
+          <td>✅ 默认可访问</td>
+        </tr>
+        <tr>
+          <td>是否支持 SSH</td>
+          <td>❌ 不支持</td>
+          <td>✅ 支持</td>
+        </tr>
+        <tr>
+          <td>是否支持访问本地数据库</td>
+          <td>需要 VPC Connector + VPN</td>
+          <td>原生支持 VPN，直接访问</td>
+        </tr>
+        <tr>
+          <td>适合场景</td>
+          <td>轻量 Web 应用，高自动化</td>
+          <td>复杂业务，自定义需求</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <h3 style="margin-top: 40px;">📡 架构路径对比</h3>
+  
+    <h4 style="color: #4285f4;">🟦 App Engine Standard → 本地数据库</h4>
+    <pre style="background: #eee; padding: 10px; border-radius: 4px;">
+  App Engine Standard（受限环境）
+           │
+    Serverless VPC Access Connector
+           │
+        VPC 网络（Private Subnet）
+           │
+      Cloud VPN / Cloud Interconnect
+           │
+         本地数据库（On-Prem）
+    </pre>
+  
+    <h4 style="color: #0f9d58;">🟩 App Engine Flexible → 本地数据库</h4>
+    <pre style="background: #eee; padding: 10px; border-radius: 4px;">
+  App Engine Flexible 实例（直接在 VPC 中）
+           │
+        VPC 网络（Private Subnet）
+           │
+      Cloud VPN / Cloud Interconnect
+           │
+         本地数据库（On-Prem）
+    </pre>
+  </div>
+  
