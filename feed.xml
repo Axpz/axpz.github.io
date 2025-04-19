@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-19T00:43:34+08:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-19T21:17:16+08:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
 </subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">professional cloud architect 251-279</title><link href="/cloud/2025/04/11/12-00-00-professional-cloud-architect-251-279.html" rel="alternate" type="text/html" title="professional cloud architect 251-279" /><published>2025-04-11T12:00:00+08:00</published><updated>2025-04-11T12:00:00+08:00</updated><id>/cloud/2025/04/11/12:00:00-professional-cloud-architect%20251-279</id><content type="html" xml:base="/cloud/2025/04/11/12-00-00-professional-cloud-architect-251-279.html"><![CDATA[<p>professional cloud architect 2025-04-11 12:00:00</p>
 
 <h1 id="251">251</h1>
@@ -3486,11 +3486,12 @@ What is the most likely cause of this problem?</p>
     <span class="k">return</span> <span class="n">news</span><span class="p">.</span><span class="nf">render</span><span class="p">(</span><span class="n">news_articles</span><span class="p">)</span>  
 
 <span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="sh">"</span><span class="s">__main__</span><span class="sh">"</span><span class="p">:</span>  
-    <span class="n">app</span><span class="p">.</span><span class="nf">run</span><span class="p">()</span>  
+    <span class="n">app</span><span class="p">.</span><span class="nf">run</span><span class="p">()</span>   
 </code></pre></div></div>
-<p>A. The session variable is local to just a single instance
-B. The session variable is being overwritten in Cloud Datastore
-C. The URL of the API needs to be modified to prevent caching
+
+<p>A. The session variable is local to just a single instance<br />
+B. The session variable is being overwritten in Cloud Datastore<br />
+C. The URL of the API needs to be modified to prevent caching<br />
 D. The HTTP Expires header needs to be set to -1 stop caching</p>
 
 <p><a href="/assets/gcp/discussion/4.md">Discussion</a> <br />
@@ -3525,8 +3526,7 @@ E. Replace the platform’s relational database systems with a NoSQL database</p
 
 <h1 id="7">7</h1>
 
-<p>To reduce costs, the Director of Engineering has required all developers to move their development infrastructure resources from on-premises virtual machines  <br />
-(VMs) to Google Cloud Platform. These resources go through multiple start/stop events during the day and require state to persist. You have been asked to design the process of running a development environment in Google Cloud while providing cost visibility to the finance department.
+<p>To reduce costs, the Director of Engineering has required all developers to move their development infrastructure resources from on-premises virtual machines (VMs) to Google Cloud Platform. These resources go through multiple start/stop events during the day and require state to persist. You have been asked to design the process of running a development environment in Google Cloud while providing cost visibility to the finance department.
 Which two steps should you take?       (Choose two.)</p>
 
 <p>A. Use the - -no-auto-delete flag on all persistent disks and stop the VM<br />
@@ -3568,8 +3568,7 @@ D. Create a tag on each instance with the name of the load balancer. Configure a
 
 <h1 id="10">10</h1>
 
-<p>You write a Python script to connect to Google BigQuery from a Google Compute Engine virtual machine. The script is printing errors that it cannot connect to
-BigQuery.<br />
+<p>You write a Python script to connect to Google BigQuery from a Google Compute Engine virtual machine. The script is printing errors that it cannot connect to BigQuery.<br />
 What should you do to fix the script?</p>
 
 <p>A. Install the latest BigQuery API client library for Python<br />
@@ -3695,9 +3694,6 @@ D. Google Kubernetes Engine</p>
 <p>The database administration team has asked you to help them improve the performance of their new database server running on Google Compute Engine. The database is for importing and normalizing their performance statistics and is built with MySQL running on Debian Linux. They have an n1-standard-8 virtual machine with 80 GB of SSD persistent disk.<br />
 What should they change to get better performance from this system?</p>
 
-<p>数据库管理团队请您帮助他们提高在 Google Compute Engine 上运行的新数据库服务器的性能。该数据库用于导入和规范其性能统计数据，并使用在 Debian Linux 上运行的 MySQL 构建。他们有一个 n1-standard-8 虚拟机，带有 80 GB 的 SSD 永久磁盘。<br />
-他们应该进行哪些更改才能从这个系统获得更好的性能？</p>
-
 <p>A. Increase the virtual machine’s memory to 64 GB<br />
 B. Create a new virtual machine running PostgreSQL<br />
 C. Dynamically resize the SSD persistent disk to 500 GB<br />
@@ -3711,9 +3707,6 @@ E. Modify all of their batch jobs to use bulk inserts into the database</p>
 <p>You want to optimize the performance of an accurate, real-time, weather-charting application. The data comes from 50,000 sensors sending 10 readings a second, in the format of a timestamp and sensor reading.<br />
 Where should you store the data?</p>
 
-<p>您想要优化一个精确、实时的天气图表应用程序的性能。数据来自 50,000 个传感器，它们每秒发送 10 个读数，格式为时间戳和传感器读数。<br />
-您应该将数据存储在哪里？</p>
-
 <p>A. Google BigQuery<br />
 B. Google Cloud SQL<br />
 C. Google Cloud Bigtable<br />
@@ -3726,10 +3719,6 @@ D. Google Cloud Storage</p>
 <p>Your company’s user-feedback portal comprises a standard LAMP stack replicated across two zones. It is deployed in the us-central1 region and uses autoscaled managed instance groups on all layers, except the database. Currently, only a small group of select customers have access to the portal. The portal meets a
 99,99% availability SLA under these conditions. However next quarter, your company will be making the portal available to all users, including unauthenticated users. You need to develop a resiliency testing strategy to ensure the system maintains the SLA once they introduce additional user load.<br />
 What should you do?</p>
-
-<p>贵公司的用户反馈门户包含一个跨两个区域复制的标准 LAMP 堆栈。它部署在 us-central1 区域，并在除数据库之外的所有层上使用自动扩展的托管实例组。目前，只有一小部分选定的客户可以访问该门户。<br />
-在这些条件下，门户满足 99.99% 的可用性 SLA。但是下个季度，贵公司将向所有用户（包括未经身份验证的用户）提供该门户。您需要制定弹性测试策略，以确保系统在引入额外用户负载后保持 SLA。<br />
-您应该怎么做？</p>
 
 <p>A. Capture existing users input, and replay captured user load until autoscale is triggered on all layers. At the same time, terminate all resources in one of the zones<br />
 B. Create synthetic random user input, replay synthetic load until autoscale logic is triggered on at least one layer, and introduce ג€chaosג€ to the system by terminating random resources on both zones <br />
@@ -3746,18 +3735,11 @@ You want to optimize this Dockerfile for faster deployment times without adverse
 
 <p>Which two actions should you take?       (Choose two.)</p>
 
-<p>您团队中的一位开发人员使用以下 Dockerfile 在 Google Container Engine 中部署了他们的应用程序。他们报告说他们的应用程序部署耗时太长。</p>
-
-<p>FROM ubuntu:16.04</p>
-
-<p>COPY . /src</p>
-
-<p>RUN apt-get update &amp;&amp; apt-get install -y python python-pip</p>
-
-<p>RUN pip install -r requirements.txt</p>
-
-<p>您想优化此 Dockerfile 以缩短部署时间，而不会对应用程序的功能产生不利影响。<br />
-您应该采取哪两项措施？（选择两项。）</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>FROM ubuntu:16.04    
+COPY <span class="nb">.</span> /src    
+RUN apt-get update <span class="o">&amp;&amp;</span> apt-get <span class="nb">install</span> <span class="nt">-y</span> python python-pip    
+RUN pip <span class="nb">install</span> <span class="nt">-r</span> requirements.txt  
+</code></pre></div></div>
 
 <p>A. Remove Python after running pip<br />
 B. Remove dependencies from requirements.txt<br />
@@ -3772,9 +3754,6 @@ E. Copy the source after he package dependencies (Python and pip) are installed<
 <p>Your solution is producing performance bugs in production that you did not see in staging and test environments. You want to adjust your test and deployment procedures to avoid this problem in the future.<br />
 What should you do?</p>
 
-<p>您的解决方案在生产中产生了性能错误，而您在暂存和测试环境中没有看到这些错误。您想调整测试和部署程序以避免将来出现此问题。<br />
-您应该怎么做？</p>
-
 <p>A. Deploy fewer changes to production<br />
 B. Deploy smaller changes to production<br />
 C. Increase the load on your test and staging environments <br />
@@ -3786,10 +3765,7 @@ D. Deploy changes to a small subset of users before rolling out to production</p
 <h1 id="24">24</h1>
 <p>A small number of API requests to your microservices-based application take a very long time. You know that each request to the API can traverse many services.<br />
 You want to know which service takes the longest in those cases.<br />
-What should you do?      <br />
-您的基于微服务的应用程序的少量 API 请求需要很长时间。您知道对 API 的每个请求都可以遍历许多服务。<br />
-您想知道在这些情况下哪个服务花费的时间最长。<br />
-您应该怎么做？</p>
+What should you do?</p>
 
 <p>A. Set timeouts on your application so that you can fail requests faster<br />
 B. Send custom metrics for each of your requests to Stackdriver Monitoring<br />
@@ -3801,9 +3777,7 @@ D. Instrument your application with Stackdriver Trace in order to break down the
 
 <h1 id="25">25</h1>
 <p>During a high traffic portion of the day, one of your relational databases crashes, but the replica is never promoted to a master. You want to avoid this in the future.<br />
-What should you do?      <br />
-在一天中的高流量时段，您的一个关系数据库崩溃了，但副本数据库从未升级为主数据库。您希望将来避免这种情况。
-您应该怎么做？</p>
+What should you do?</p>
 
 <p>A. Use a different database<br />
 B. Choose larger instances for your database<br />
@@ -3815,9 +3789,7 @@ D. Implement routinely scheduled failovers of your databases</p>
 
 <h1 id="26">26</h1>
 <p>Your organization requires that metrics from all applications be retained for 5 years for future analysis in possible legal proceedings.
-Which approach should you use?      <br />
-您的组织要求保留所有应用程序的指标 5 年，以便将来在可能的法律诉讼中进行分析。<br />
-您应该使用哪种方法？</p>
+Which approach should you use?</p>
 
 <p>A. Grant the security team access to the logs in each Project<br />
 B. Configure Stackdriver Monitoring for all Projects, and export to BigQuery<br />
@@ -3844,9 +3816,7 @@ D. A Google Compute Engine instance with a VPN server installed connected to the
 <h1 id="28">28</h1>
 
 <p>Auditors visit your teams every 12 months and ask to review all the Google Cloud Identity and Access Management (Cloud IAM) policy changes in the previous 12 months. You want to streamline and expedite the analysis and audit process.<br />
-What should you do?      <br />
-审计人员每 12 个月访问一次您的团队，并要求审查过去 12 个月内的所有 Google Cloud Identity and Access Management (Cloud IAM) 政策变更。您想简化和加快分析和审计流程。
-您应该怎么做？</p>
+What should you do?</p>
 
 <p>A. Create custom Google Stackdriver alerts and send them to the auditor<br />
 B. Enable Logging export to Google BigQuery and use ACLs and views to scope the data shared with the auditor<br />
@@ -3858,9 +3828,7 @@ D. Enable Google Cloud Storage (GCS) log export to audit logs into a GCS bucket 
 
 <h1 id="29">29</h1>
 <p>You are designing a large distributed application with 30 microservices. Each of your distributed microservices needs to connect to a database back-end. You want to store the credentials securely.<br />
-Where should you store the credentials?      <br />
-您正在设计一个包含 30 个微服务的大型分布式应用程序。每个分布式微服务都需要连接到数据库后端。您希望安全地存储凭据。 <br />
-您应该将凭据存储在哪里？</p>
+Where should you store the credentials?</p>
 
 <p>A. In the source code<br />
 B. In an environment variable<br />
@@ -4024,13 +3992,13 @@ D. Use a trusted certificate authority to enable SSL connectivity between the cl
 <a href="/assets/gcp/discussion/39.ans.html">Answer</a></p>
 
 <h1 id="40">40</h1>
-<p>As part of implementing their disaster recovery plan, your company is trying to replicate their production MySQL database from their private data center to their GCP project using a Google Cloud VPN connection. They are experiencing latency issues and a small amount of packet loss that is disrupting the replication.
+<p>As part of implementing their disaster recovery plan, your company is trying to replicate their production MySQL database from their private data center to their GCP project using a Google Cloud VPN connection. They are experiencing latency issues and a small amount of packet loss that is disrupting the replication.<br />
 What should they do?</p>
 
-<p>A. Configure their replication to use UDP.
-B. Configure a Google Cloud Dedicated Interconnect.
-C. Restore their database daily using Google Cloud SQL.
-D. Add additional VPN connections and load balance them.
+<p>A. Configure their replication to use UDP.<br />
+B. Configure a Google Cloud Dedicated Interconnect.<br />
+C. Restore their database daily using Google Cloud SQL.<br />
+D. Add additional VPN connections and load balance them.<br />
 E. Send the replicated transaction to Google Cloud Pub/Sub.</p>
 
 <p><a href="/assets/gcp/discussion/40.md">Discussion</a><br />
