@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>BigQuery 中的受控数据共享操作指南</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background: #f9f9f9;
+      padding: 2rem;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1 {
+      color: #0059c1;
+    }
+    h2 {
+      margin-top: 2rem;
+    }
+    pre {
+      background: #f1f1f1;
+      padding: 1rem;
+      border-left: 4px solid #0059c1;
+      overflow-x: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 0.8rem;
+      text-align: left;
+    }
+    th {
+      background-color: #e3f2fd;
+    }
+    td {
+      background-color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <h1>BigQuery 中的受控数据共享操作指南</h1>
+
+  <h2>🧩 背景场景</h2>
+  <p>你希望数据科学团队可以访问部分业务数据，但不能访问包含 PII 的原始数据。解决方案是：</p>
+  <ul>
+    <li>使用视图（View）隔离数据</li>
+    <li>使用 IAM 控制访问权限</li>
+    <li>避免直接暴露原始表</li>
+  </ul>
+
+  <h2>✅ 第一步：创建一个数据集</h2>
+  <p>用于数据科学团队的数据访问控制。</p>
+  <pre><code>bq mk --dataset my_project:ds_team_dataset</code></pre>
+
+  <h2>✅ 第二步：创建视图（排除 PII 字段）</h2>
+  <p>通过视图选择性地暴露数据，排除敏感字段。</p>
+  <pre><code>CREATE VIEW ds_team_dataset.cleaned_orders AS
+SELECT order_id, order_date, product_id, revenue
+FROM raw_dataset.orders;</code></pre>
+
+  <h2>✅ 第三步：为团队成员分配项目级 IAM 角色</h2>
+  <p>仅授予他们查询视图的权限，而非原始数据集的权限。</p>
+  <pre><code>gcloud projects add-iam-policy-binding my_project \
+  --member="user:alice@company.com" \
+  --role="roles/bigquery.jobUser"</code></pre>
+
+  <h2>✅ 第四步：设置视图所在数据集的访问权限</h2>
+  <p>授予用户对包含视图的数据集的访问权。</p>
+  <p>在 BigQuery 控制台 → 找到 ds_team_dataset → 权限 → 添加用户 → 赋予 Viewer 权限。</p>
+
+  <h2>✅ 第五步：授权视图访问源数据集</h2>
+  <p>让视图能够访问 raw_dataset 中的数据。</p>
+  <pre><code>GRANT SELECT ON DATASET raw_dataset TO "project-number@cloudservices.gserviceaccount.com";</code></pre>
+  <p>或者：</p>
+  <pre><code>bq update --view_authorized_dataset raw_dataset ds_team_dataset.cleaned_orders</code></pre>
+
+  <h2>🧠 总结</h2>
+  <table>
+    <tr>
+      <th>步骤</th>
+      <th>目的</th>
+    </tr>
+    <tr>
+      <td>1. 创建专用 dataset</td>
+      <td>集中共享数据、控制访问边界</td>
+    </tr>
+    <tr>
+      <td>2. 创建视图</td>
+      <td>隐藏 PII，控制字段访问</td>
+    </tr>
+    <tr>
+      <td>3. 分配 IAM 权限</td>
+      <td>授权团队使用 BigQuery 查询功能</td>
+    </tr>
+    <tr>
+      <td>4. 控制视图数据集访问</td>
+      <td>允许用户访问包含视图的数据集</td>
+    </tr>
+    <tr>
+      <td>5. 授权视图访问源数据</td>
+      <td>让视图在运行时能读取所需数据</td>
+    </tr>
+  </table>
+
+  <p><strong>这就是“通过授权视图进行受控数据共享”（Controlled Data Sharing via Authorized Views）的一整套流程。</strong></p>
+</body>
+</html>

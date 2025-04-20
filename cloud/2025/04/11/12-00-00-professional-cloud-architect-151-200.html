@@ -93,7 +93,8 @@ C. Use Cloud Profiler to follow up the request latency. Create a custom metric i
 D. Configure Anthos Config Management on your cluster, and create a yaml file that defines the SLO and alerting policy you want to deploy in your cluster.</p>
 
 <p><a href="/assets/gcp/discussion/153.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/153.ans.html">Answers and Votes</a></p>
+<a href="/assets/gcp/discussion/153.ans.html">Answers and Votes</a><br />
+<a href="/assets/gcp/discussion/153.vs.html">Anthos vs GKE</a></p>
 
 <h1 id="154">154</h1>
 
@@ -432,7 +433,8 @@ C. 1. Create a dataset for the data science team. 2. Create views of tables that
 D. 1. Create a dataset for the data science team. 2. Create materialized views of tables that you want to share, excluding PII. 3. Assign an appropriate project-level IAM role to the members of the data science team. 4. Assign access controls to the dataset that contains the view. 5. Authorize the view to access the source dataset.</p>
 
 <p><a href="/assets/gcp/discussion/179.md">Discussion</a><br />
-<a href="/assets/gcp/discussion/179.ans.html">Answers and Votes</a></p>
+<a href="/assets/gcp/discussion/179.ans.html">Answers and Votes</a><br />
+<a href="/assets/gcp/discussion/179.vs.html">Grant view access</a></p>
 
 <h1 id="180">180</h1>
 
@@ -448,8 +450,7 @@ D. Download the data to the on-premises data center, and upload it to the Cloud 
 
 <h1 id="181">181</h1>
 
-<p>You have a Compute Engine managed instance group that adds and removes Compute Engine instances from the group in response to the load on your application. The instances have a shutdown script that removes REDIS database entries associated with the instance. You see that many database entries have not been removed, and you suspect that the shutdown script is the problem. You need to ensure that the commands in the shutdown script are run reliably every time an instance is shut down. You create a Cloud Function to remove the database entries. What should you do next?      <br />
-您有一个 Compute Engine 托管实例组，该组会根据应用程序的负载情况，在组中添加和移除 Compute Engine 实例。这些实例有一个关闭脚本，用于删除与该实例关联的 REDIS 数据库条目。您发现许多数据库条目尚未删除，因此怀疑关闭脚本存在问题。您需要确保每次关闭实例时，关闭脚本中的命令都能可靠地运行。您创建了一个 Cloud Functions 函数来删除数据库条目。接下来应该做什么？</p>
+<p>You have a Compute Engine managed instance group that adds and removes Compute Engine instances from the group in response to the load on your application. The instances have a shutdown script that removes REDIS database entries associated with the instance. You see that many database entries have not been removed, and you suspect that the shutdown script is the problem. You need to ensure that the commands in the shutdown script are run reliably every time an instance is shut down. You create a Cloud Function to remove the database entries. What should you do next?</p>
 
 <p>A. Modify the shutdown script to wait for 30 seconds before triggering the Cloud Function.<br />
 B. Do not use the Cloud Function. Modify the shutdown script to restart if it has not completed in 30 seconds.<br />
