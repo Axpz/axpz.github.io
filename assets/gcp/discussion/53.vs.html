@@ -45,7 +45,102 @@
     </tbody>
   </table>
 
-  
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Engine Standard/Flexible 和 Cloud Run 网络特性对比</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; margin: 20px; }
+        h1, h2 { color: #333; }
+        h2 { margin-top: 2em; }
+        table { width: 100%; border-collapse: collapse; margin-top: 1em; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background-color: #f0f0f0; }
+        .highlight { font-weight: bold; }
+        .note { color: #777; font-size: 0.9em; margin-top: 0.5em; }
+    </style>
+</head>
+<body>
+
+    <h1>App Engine Standard/Flexible 和 Cloud Run 网络特性对比</h1>
+
+    <p>以下表格更详细地对比了 App Engine Standard、App Engine Flexible 和 Cloud Run 在网络方面的特性，希望能帮助您更好地理解它们之间的区别与联系。</p>
+
+    <h2>核心概念</h2>
+    <ul>
+        <li><span class="highlight">VPC (Virtual Private Cloud):</span> Google Cloud 中隔离的虚拟网络，为您的资源提供网络连接。</li>
+        <li><span class="highlight">子网 (Subnet):</span> VPC 网络中的 IP 地址范围。</li>
+        <li><span class="highlight">防火墙规则 (Firewall Rules):</span> 控制进出 VPC 网络中实例的网络流量。</li>
+        <li><span class="highlight">Serverless VPC Access:</span> 允许无服务器环境（App Engine Standard/Flexible、Cloud Functions）连接到您的 VPC 网络中的内部资源。</li>
+        <li><span class="highlight">负载均衡器 (Load Balancer):</span> 将入站流量分发到多个实例，提高可用性和可伸缩性。</li>
+        <li><span class="highlight">入站流量 (Ingress):</span> 进入应用程序的网络流量。</li>
+        <li><span class="highlight">出站流量 (Egress):</span> 从应用程序发出的网络流量。</li>
+    </ul>
+
+    <h2>网络特性详细对比</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>特性</th>
+                <th>App Engine Standard</th>
+                <th>App Engine Flexible</th>
+                <th>Cloud Run</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>VPC 网络集成</th>
+                <td><span class="highlight">间接</span>，通过 Serverless VPC Access 连接器连接到 VPC 中的内部资源。App Engine Standard 实例本身不直接位于您的 VPC 中。</td>
+                <td><span class="highlight">可选</span>，可以选择将 Flexible 环境部署到特定的 VPC 网络和子网中。需要配置 <code>network</code> 部分在 <code>app.yaml</code> 中。</td>
+                <td><span class="highlight">可选且推荐</span>，可以将 Cloud Run 服务部署到特定的 VPC 网络中，实现与 VPC 内部资源的直接私有通信。</td>
+            </tr>
+            <tr>
+                <th>实例 IP 地址</th>
+                <td>由 Google 完全管理，通常为公共 IP 地址。无法直接控制实例的内部 IP。</td>
+                <td>可以选择配置实例是否拥有公共 IP 地址。在 VPC 网络中运行时，实例会拥有 VPC 内的私有 IP 地址。</td>
+                <td>由 Google 完全管理。容器实例在 Google 管理的网络中运行，但可以配置与 VPC 的集成。</td>
+            </tr>
+            <tr>
+                <th>防火墙规则</th>
+                <td>由 Google 管理。您无法直接配置实例级别的防火墙规则。只能通过 App Engine 的配置来限制入站流量（例如，通过 <code>network</code> -> <code>ingress</code>）。</td>
+                <td>可以使用 VPC 防火墙规则来控制进出 Flexible 环境中实例的网络流量。这些规则基于您选择的 VPC 网络进行配置。</td>
+                <td>可以使用 VPC 防火墙规则来控制进出 Cloud Run 容器的网络流量。这些规则基于您选择的 VPC 网络进行配置。</td>
+            </tr>
+            <tr>
+                <th>内部资源访问 (VPC 内)</th>
+                <td>主要通过 <span class="highlight">Serverless VPC Access 连接器</span> 实现，允许 Standard 环境中的应用程序访问 VPC 网络中的内部 IP 地址和资源（例如 Cloud SQL 私有 IP）。</td>
+                <td>主要通过 <span class="highlight">Serverless VPC Access 连接器</span> 实现，允许 Flexible 环境中的应用程序访问 VPC 网络中的内部 IP 地址和资源。</td>
+                <td><span class="highlight">直接</span>连接到部署到的 VPC 网络，可以直接使用 VPC 内部的 IP 地址访问资源，无需额外的连接器（虽然 Serverless VPC Access 仍然可以用于某些场景）。</td>
+            </tr>
+            <tr>
+                <th>外部互联网访问 (Egress)</th>
+                <td>默认情况下，Standard 环境中的应用程序可以访问公共互联网上的服务。</td>
+                <td>默认情况下，Flexible 环境中的应用程序可以访问公共互联网上的服务。</td>
+                <td>默认情况下，Cloud Run 服务可以访问公共互联网上的服务。</td>
+            </tr>
+            <tr>
+                <th>入站流量 (Ingress)</th>
+                <td>通过 Google 管理的负载均衡器接收所有外部 HTTP(S) 请求。您可以通过 App Engine 的配置（例如 <code>network</code> -> <code>ingress</code>）来控制哪些流量可以到达您的应用程序。</td>
+                <td>通过 Google 管理的负载均衡器接收所有外部 HTTP(S) 请求。您可以对负载均衡器的某些方面进行配置。</td>
+                <td>通过 Google 管理的负载均衡器接收所有外部 HTTP(S) 请求。您可以配置入站流量的可见性（公共或仅限内部）。</td>
+            </tr>
+            <tr>
+                <th>网络配置灵活性</th>
+                <td><span class="highlight">最低</span>。几乎完全由 Google 管理。</td>
+                <td><span class="highlight">中等</span>。可以选择 VPC 网络、配置实例 IP、使用 VPC 防火墙。</td>
+                <td><span class="highlight">较高</span>。可以直接集成到 VPC，控制入站/出站，私有网络访问。</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p class="note">请注意，Google Cloud 的服务和功能在不断发展，建议查阅最新的官方文档以获取最准确和详细的信息。</p>
+
+</body>
+</html>
+
 ## 🔍 详细对比：App Engine Standard vs Flexible
 | 特性                     | Standard Environment（标准）       | Flexible Environment（灵活）        |
 |--------------------------|-------------------------------------|-------------------------------------|
