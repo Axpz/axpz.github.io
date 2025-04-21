@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-21T16:13:46+08:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-04-21T17:42:35+08:00</updated><id>/feed.xml</id><title type="html">Xianping</title><subtitle>Cost-effective hybrid cloud computing and resource scheduling on Kubernetes.
 </subtitle><author><name>Axpz</name><email>axpzhang@gmail.com</email></author><entry><title type="html">professional cloud architect 251-279</title><link href="/cloud/2025/04/11/12-00-00-professional-cloud-architect-251-279.html" rel="alternate" type="text/html" title="professional cloud architect 251-279" /><published>2025-04-11T12:00:00+08:00</published><updated>2025-04-11T12:00:00+08:00</updated><id>/cloud/2025/04/11/12:00:00-professional-cloud-architect%20251-279</id><content type="html" xml:base="/cloud/2025/04/11/12-00-00-professional-cloud-architect-251-279.html"><![CDATA[<p>professional cloud architect 2025-04-11 12:00:00</p>
 
 <h1 id="251">251</h1>
@@ -2979,9 +2979,7 @@ D. Perform the following: 1. Create a GKE cluster with n1-standard-4 type machin
 <h1 id="68">68</h1>
 
 <p>Your company wants to start using Google Cloud resources but wants to retain their on-premises Active Directory domain controller for identity management.
-What should you do?      <br />
-您的公司想要开始使用 Google Cloud 资源，但希望保留其本地 Active Directory 域控制器进行身份管理。<br />
-您应该怎么做？</p>
+What should you do?</p>
 
 <p>A. Use the Admin Directory API to authenticate against the Active Directory domain controller.<br />
 B. Use Google Cloud Directory Sync to synchronize Active Directory usernames with cloud identities and configure SAML SSO.<br />
@@ -3177,9 +3175,7 @@ D. Provision standard VMs to the same region to reduce cost. Disable and then di
 <h1 id="82">82</h1>
 
 <p>Your customer wants to do resilience testing of their authentication layer. This consists of a regional managed instance group serving a public REST API that reads from and writes to a Cloud SQL instance.<br />
-What should you do?      <br />
-您的客户想要对其身份验证层进行弹性测试。该层包含一个区域托管实例组，该实例组提供公共 REST API，用于读取和写入 Cloud SQL 实例。<br />
-您应该怎么做？</p>
+What should you do?</p>
 
 <p>A. Engage with a security company to run web scrapers that look your for users’ authentication data om malicious websites and notify you if any is found.<br />
 B. Deploy intrusion detection software to your virtual machines to detect and log unauthorized access.<br />
@@ -3191,8 +3187,7 @@ D. Configure a read replica for your Cloud SQL instance in a different zone than
 
 <h1 id="83">83</h1>
 
-<p>Your BigQuery project has several users. For audit purposes, you need to see how many queries each user ran in the last month. What should you do?      <br />
-您的 BigQuery 项目有多个用户。为了进行审核，您需要查看每个用户上个月运行了多少次查询。您应该怎么做？</p>
+<p>Your BigQuery project has several users. For audit purposes, you need to see how many queries each user ran in the last month. What should you do?</p>
 
 <p>A. Connect Google Data Studio to BigQuery. Create a dimension for the users and a metric for the amount of queries per user.<br />
 B. In the BigQuery interface, execute a query on the JOBS table to get the required information.<br />
@@ -3300,9 +3295,9 @@ D. Deploy the update as a new App Engine application, and use Google’s global 
 <p>All Compute Engine instances in your VPC should be able to connect to an Active Directory server on specific ports. Any other traffic emerging from your instances is not allowed. You want to enforce this using VPC firewall rules.
 How should you configure the firewall rules?</p>
 
-<p>A. Create an egress rule with priority 1000 to deny all traffic for all instances. Create another egress rule with priority 100 to allow the Active Directory traffic for all instances.
-B. Create an egress rule with priority 100 to deny all traffic for all instances. Create another egress rule with priority 1000 to allow the Active Directory traffic for all instances.
-C. Create an egress rule with priority 1000 to allow the Active Directory traffic. Rely on the implied deny egress rule with priority 100 to block all traffic for all instances.
+<p>A. Create an egress rule with priority 1000 to deny all traffic for all instances. Create another egress rule with priority 100 to allow the Active Directory traffic for all instances.<br />
+B. Create an egress rule with priority 100 to deny all traffic for all instances. Create another egress rule with priority 1000 to allow the Active Directory traffic for all instances.<br />
+C. Create an egress rule with priority 1000 to allow the Active Directory traffic. Rely on the implied deny egress rule with priority 100 to block all traffic for all instances.<br />
 D. Create an egress rule with priority 100 to allow the Active Directory traffic. Rely on the implied deny egress rule with priority 1000 to block all traffic for all instances.</p>
 
 <p><a href="/assets/gcp/discussion/91.md">Discussion</a><br />
@@ -3313,9 +3308,9 @@ D. Create an egress rule with priority 100 to allow the Active Directory traffic
 <p>Your customer runs a web service used by e-commerce sites to offer product recommendations to users. The company has begun experimenting with a machine learning model on Google Cloud Platform to improve the quality of results.
 What should the customer do to improve their model’s results over time?</p>
 
-<p>A. Export Cloud Machine Learning Engine performance metrics from Stackdriver to BigQuery, to be used to analyze the efficiency of the model.
-B. Build a roadmap to move the machine learning model training from Cloud GPUs to Cloud TPUs, which offer better results.
-C. Monitor Compute Engine announcements for availability of newer CPU architectures, and deploy the model to them as soon as they are available for additional performance.
+<p>A. Export Cloud Machine Learning Engine performance metrics from Stackdriver to BigQuery, to be used to analyze the efficiency of the model.<br />
+B. Build a roadmap to move the machine learning model training from Cloud GPUs to Cloud TPUs, which offer better results.<br />
+C. Monitor Compute Engine announcements for availability of newer CPU architectures, and deploy the model to them as soon as they are available for additional performance.<br />
 D. Save a history of recommendations and results of the recommendations in BigQuery, to be used as training data.</p>
 
 <p><a href="/assets/gcp/discussion/92.md">Discussion</a><br />
